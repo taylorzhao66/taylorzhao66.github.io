@@ -70,32 +70,6 @@
       </tags>
   </entry>
   <entry>
-    <title>nagios从零开始</title>
-    <url>/2021/06/01/nagios%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
-    <content><![CDATA[<h2 id="Nagios新增host"><a href="#Nagios新增host" class="headerlink" title="Nagios新增host"></a>Nagios新增host</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/usr/local/nagios/etc/objects/host.cfg</span><br><span class="line">/usr/local/nagios/etc/objects/service.cfg</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="Nagios配置检查"><a href="#Nagios配置检查" class="headerlink" title="Nagios配置检查"></a>Nagios配置检查</h2><p><code>/usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg</code></p>
-<h2 id="查看nagios账号信息"><a href="#查看nagios账号信息" class="headerlink" title="查看nagios账号信息"></a>查看nagios账号信息</h2><p><code>grep &#39;authorized&#39; /usr/local/nagios/etc/cgi.cfg</code></p>
-<h2 id="nagios-check-ping"><a href="#nagios-check-ping" class="headerlink" title="nagios check_ping"></a>nagios check_ping</h2><p><code>check_ping!100.0,20%!500.0,60%</code></p>
-<p>check_ping命令在commands.cfg中定义，后跟两个参数，命令与参数间用 ! 分割。</p>
-<p>在一次check_ping检测中，<br>如果延迟&gt;=500ms，或丢包率超过60%，则触发critical警告。<br>否则，如果延迟&gt;=100ms，或丢包率超过20%，则触发warning警告。<br>否则就不触发警告。</p>
-<p>host_notification_options：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">d = notify on DOWN host states,</span><br><span class="line">u = notify on UNREACHABLE host states</span><br><span class="line">r = notify on host recoveries (UP states)</span><br><span class="line">f = notify when the host starts and stops flapping</span><br><span class="line">s = send notifications when host or service scheduled downtime starts and ends</span><br><span class="line">n (none) the contact will not receive any type of host notifications.</span><br></pre></td></tr></table></figure>
-
-<p>service_notification_options:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">w = notify on WARNING service states</span><br><span class="line">u = notify on UNKNOWN service states</span><br><span class="line">c = notify on CRITICAL service states</span><br><span class="line">r = notify on service recoveries (OK states)</span><br><span class="line">f = notify when the service starts and stops flapping</span><br><span class="line">n (none) the contact will not receive any type of service notifications.</span><br></pre></td></tr></table></figure>
-
-<p>example:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">host_notification_options d,u,r</span><br><span class="line">service_notification_options w,u,c,r</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Nagios</category>
-      </categories>
-      <tags>
-        <tag>Nagios</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo从零开始</title>
     <url>/2021/05/26/hexo%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
     <content><![CDATA[<h2 id="如何安装hexo"><a href="#如何安装hexo" class="headerlink" title="如何安装hexo"></a>如何安装hexo</h2><p>Hexo官方网址<br><a href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a></p>
@@ -160,6 +134,32 @@
       </tags>
   </entry>
   <entry>
+    <title>nagios从零开始</title>
+    <url>/2021/06/01/nagios%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
+    <content><![CDATA[<h2 id="Nagios新增host"><a href="#Nagios新增host" class="headerlink" title="Nagios新增host"></a>Nagios新增host</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/usr/local/nagios/etc/objects/host.cfg</span><br><span class="line">/usr/local/nagios/etc/objects/service.cfg</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="Nagios配置检查"><a href="#Nagios配置检查" class="headerlink" title="Nagios配置检查"></a>Nagios配置检查</h2><p><code>/usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg</code></p>
+<h2 id="查看nagios账号信息"><a href="#查看nagios账号信息" class="headerlink" title="查看nagios账号信息"></a>查看nagios账号信息</h2><p><code>grep &#39;authorized&#39; /usr/local/nagios/etc/cgi.cfg</code></p>
+<h2 id="nagios-check-ping"><a href="#nagios-check-ping" class="headerlink" title="nagios check_ping"></a>nagios check_ping</h2><p><code>check_ping!100.0,20%!500.0,60%</code></p>
+<p>check_ping命令在commands.cfg中定义，后跟两个参数，命令与参数间用 ! 分割。</p>
+<p>在一次check_ping检测中，<br>如果延迟&gt;=500ms，或丢包率超过60%，则触发critical警告。<br>否则，如果延迟&gt;=100ms，或丢包率超过20%，则触发warning警告。<br>否则就不触发警告。</p>
+<p>host_notification_options：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">d = notify on DOWN host states,</span><br><span class="line">u = notify on UNREACHABLE host states</span><br><span class="line">r = notify on host recoveries (UP states)</span><br><span class="line">f = notify when the host starts and stops flapping</span><br><span class="line">s = send notifications when host or service scheduled downtime starts and ends</span><br><span class="line">n (none) the contact will not receive any type of host notifications.</span><br></pre></td></tr></table></figure>
+
+<p>service_notification_options:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">w = notify on WARNING service states</span><br><span class="line">u = notify on UNKNOWN service states</span><br><span class="line">c = notify on CRITICAL service states</span><br><span class="line">r = notify on service recoveries (OK states)</span><br><span class="line">f = notify when the service starts and stops flapping</span><br><span class="line">n (none) the contact will not receive any type of service notifications.</span><br></pre></td></tr></table></figure>
+
+<p>example:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">host_notification_options d,u,r</span><br><span class="line">service_notification_options w,u,c,r</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Nagios</category>
+      </categories>
+      <tags>
+        <tag>Nagios</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>npm从零开始</title>
     <url>/2021/05/26/npm%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
     <content><![CDATA[<p>接触到的第一个npm命令</p>
@@ -187,28 +187,6 @@
       <tags>
         <tag>node.js</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>思科HSRP的选举机制</title>
-    <url>/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/</url>
-    <content><![CDATA[<h2 id="HSRP状态"><a href="#HSRP状态" class="headerlink" title="HSRP状态"></a>HSRP状态</h2><p><img src="/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/hsrp.jpg" alt="hsrp状态转换"></p>
-<h2 id="HSRP选举的机制"><a href="#HSRP选举的机制" class="headerlink" title="HSRP选举的机制"></a>HSRP选举的机制</h2><ul>
-<li>2台路由器，前后开机 如何选举？</li>
-<li>1台路由器开机，后面有1台路由器启动加入,如何选举？</li>
-</ul>
-<h2 id="HSRP的切换时间"><a href="#HSRP的切换时间" class="headerlink" title="HSRP的切换时间"></a>HSRP的切换时间</h2><h3 id="主路由器down掉，多久可以切换到备份路由器？"><a href="#主路由器down掉，多久可以切换到备份路由器？" class="headerlink" title="主路由器down掉，多久可以切换到备份路由器？"></a>主路由器down掉，多久可以切换到备份路由器？</h3><p><code>10s</code></p>
-<h3 id="主路由器Up后，多久可以再次切换成active"><a href="#主路由器Up后，多久可以再次切换成active" class="headerlink" title="主路由器Up后，多久可以再次切换成active?"></a>主路由器Up后，多久可以再次切换成active?</h3><p><code>取决于preempt时间</code></p>
-<h2 id="HSRP抢占延迟"><a href="#HSRP抢占延迟" class="headerlink" title="HSRP抢占延迟"></a>HSRP抢占延迟</h2><p>当新Active的路由器需要一点时间来启动慢速 WAN 接口并生成路由表时，这有时会很有帮助。<br>但是，默认情况下，HSRP 抢占将使路由器在启动 LAN 接口的几秒钟内成为 LAN 的Active默认网关。</p>
-<h3 id="配置命令"><a href="#配置命令" class="headerlink" title="配置命令"></a>配置命令</h3><p><code>standby 20 preempt delay minimum 30 reload 90</code></p>
-<h3 id="查看命令"><a href="#查看命令" class="headerlink" title="查看命令"></a>查看命令</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C4431-01#sh standby delay </span><br><span class="line">Interface          Minimum Reload </span><br><span class="line">Gi0/0/0            1       5      </span><br><span class="line">Gi0/0/1            1       5      </span><br><span class="line">Gi0/0/2            1       5     </span><br></pre></td></tr></table></figure>
-
-
-<h2 id="HSRP计时器"><a href="#HSRP计时器" class="headerlink" title="HSRP计时器"></a>HSRP计时器</h2><p>Active Router用Hello计时器 3s<br>Standby Router用 Standby timer计时器  10s</p>
-]]></content>
-      <categories>
-        <category>Network</category>
-        <category>Switch</category>
-      </categories>
   </entry>
   <entry>
     <title>思科DHCP的Snooping</title>
@@ -242,20 +220,26 @@
       </tags>
   </entry>
   <entry>
-    <title>思科交换机stack和VSS</title>
-    <url>/2021/06/01/%E6%80%9D%E7%A7%91%E4%BA%A4%E6%8D%A2%E6%9C%BAstack%E5%92%8CVSS/</url>
-    <content><![CDATA[<h2 id="配置domain"><a href="#配置domain" class="headerlink" title="配置domain:"></a>配置domain:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#conf t</span><br><span class="line">9500-A(config)#stackwise-virtual</span><br><span class="line">9500-A(config-stackwise-virtual)#domain 1 </span><br><span class="line">9500-A(config-stackwise-virtual)#exit</span><br></pre></td></tr></table></figure>
-<h2 id="配置virtual-link"><a href="#配置virtual-link" class="headerlink" title="配置virtual-link:"></a>配置virtual-link:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#inter ran ten 1/0/1, ten 1/0/2</span><br><span class="line">9500-A(config-if-range)#stackwise-virtual link 1 </span><br></pre></td></tr></table></figure>
-<h2 id="配置-dual-detection-link"><a href="#配置-dual-detection-link" class="headerlink" title="配置 dual-detection link"></a>配置 dual-detection link</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#int te1/0/3</span><br><span class="line">9500-A(config-if)#stackwise-virtual dual-active-detection</span><br></pre></td></tr></table></figure>
+    <title>思科HSRP的选举机制</title>
+    <url>/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/</url>
+    <content><![CDATA[<h2 id="HSRP状态"><a href="#HSRP状态" class="headerlink" title="HSRP状态"></a>HSRP状态</h2><p><img src="/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/hsrp.jpg" alt="hsrp状态转换"></p>
+<h2 id="HSRP选举的机制"><a href="#HSRP选举的机制" class="headerlink" title="HSRP选举的机制"></a>HSRP选举的机制</h2><ul>
+<li>2台路由器，前后开机 如何选举？</li>
+<li>1台路由器开机，后面有1台路由器启动加入,如何选举？</li>
+</ul>
+<h2 id="HSRP的切换时间"><a href="#HSRP的切换时间" class="headerlink" title="HSRP的切换时间"></a>HSRP的切换时间</h2><h3 id="主路由器down掉，多久可以切换到备份路由器？"><a href="#主路由器down掉，多久可以切换到备份路由器？" class="headerlink" title="主路由器down掉，多久可以切换到备份路由器？"></a>主路由器down掉，多久可以切换到备份路由器？</h3><p><code>10s</code></p>
+<h3 id="主路由器Up后，多久可以再次切换成active"><a href="#主路由器Up后，多久可以再次切换成active" class="headerlink" title="主路由器Up后，多久可以再次切换成active?"></a>主路由器Up后，多久可以再次切换成active?</h3><p><code>取决于preempt时间</code></p>
+<h2 id="HSRP抢占延迟"><a href="#HSRP抢占延迟" class="headerlink" title="HSRP抢占延迟"></a>HSRP抢占延迟</h2><p>当新Active的路由器需要一点时间来启动慢速 WAN 接口并生成路由表时，这有时会很有帮助。<br>但是，默认情况下，HSRP 抢占将使路由器在启动 LAN 接口的几秒钟内成为 LAN 的Active默认网关。</p>
+<h3 id="配置命令"><a href="#配置命令" class="headerlink" title="配置命令"></a>配置命令</h3><p><code>standby 20 preempt delay minimum 30 reload 90</code></p>
+<h3 id="查看命令"><a href="#查看命令" class="headerlink" title="查看命令"></a>查看命令</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C4431-01#sh standby delay </span><br><span class="line">Interface          Minimum Reload </span><br><span class="line">Gi0/0/0            1       5      </span><br><span class="line">Gi0/0/1            1       5      </span><br><span class="line">Gi0/0/2            1       5     </span><br></pre></td></tr></table></figure>
 
-<h2 id="配置优先级"><a href="#配置优先级" class="headerlink" title="配置优先级"></a>配置优先级</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#switch 1 priority 15</span><br></pre></td></tr></table></figure>]]></content>
+
+<h2 id="HSRP计时器"><a href="#HSRP计时器" class="headerlink" title="HSRP计时器"></a>HSRP计时器</h2><p>Active Router用Hello计时器 3s<br>Standby Router用 Standby timer计时器  10s</p>
+]]></content>
       <categories>
         <category>Network</category>
         <category>Switch</category>
       </categories>
-      <tags>
-        <tag>Switch</tag>
-      </tags>
   </entry>
   <entry>
     <title>思科WLC命令</title>
@@ -280,6 +264,22 @@
       </categories>
       <tags>
         <tag>Wireless</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>思科交换机stack和VSS</title>
+    <url>/2021/06/01/%E6%80%9D%E7%A7%91%E4%BA%A4%E6%8D%A2%E6%9C%BAstack%E5%92%8CVSS/</url>
+    <content><![CDATA[<h2 id="配置domain"><a href="#配置domain" class="headerlink" title="配置domain:"></a>配置domain:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#conf t</span><br><span class="line">9500-A(config)#stackwise-virtual</span><br><span class="line">9500-A(config-stackwise-virtual)#domain 1 </span><br><span class="line">9500-A(config-stackwise-virtual)#exit</span><br></pre></td></tr></table></figure>
+<h2 id="配置virtual-link"><a href="#配置virtual-link" class="headerlink" title="配置virtual-link:"></a>配置virtual-link:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#inter ran ten 1/0/1, ten 1/0/2</span><br><span class="line">9500-A(config-if-range)#stackwise-virtual link 1 </span><br></pre></td></tr></table></figure>
+<h2 id="配置-dual-detection-link"><a href="#配置-dual-detection-link" class="headerlink" title="配置 dual-detection link"></a>配置 dual-detection link</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#int te1/0/3</span><br><span class="line">9500-A(config-if)#stackwise-virtual dual-active-detection</span><br></pre></td></tr></table></figure>
+
+<h2 id="配置优先级"><a href="#配置优先级" class="headerlink" title="配置优先级"></a>配置优先级</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#switch 1 priority 15</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Network</category>
+        <category>Switch</category>
+      </categories>
+      <tags>
+        <tag>Switch</tag>
       </tags>
   </entry>
 </search>
