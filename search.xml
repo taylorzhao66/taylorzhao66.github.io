@@ -1,54 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Git从零开始</title>
-    <url>/2021/05/26/Git%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
-    <content><![CDATA[<h1 id="git基本命令"><a href="#git基本命令" class="headerlink" title="git基本命令"></a>git基本命令</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;这里面填你的名字如 zhang san&quot;     </span><br><span class="line">git config --global user.email &quot;注册git的邮箱如 1234567@qq.com&quot;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-
-<h2 id="生成密钥"><a href="#生成密钥" class="headerlink" title="生成密钥"></a>生成密钥</h2><p><code>ssh-keygen -t rsa -C &quot;你的注册邮箱&quot;</code></p>
-<h2 id="验证SSH登录"><a href="#验证SSH登录" class="headerlink" title="验证SSH登录"></a>验证SSH登录</h2><p><code>ssh -T git@github.com</code></p>
-<p><a href="https://docs.github.com/cn/github/authenticating-to-github/troubleshooting-ssh/error-permission-denied-publickey">SSH故障排除</a></p>
-<h2 id="查看git配置："><a href="#查看git配置：" class="headerlink" title="查看git配置："></a>查看git配置：</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config -l</span><br></pre></td></tr></table></figure>
-
-<p><a href="https://www.bilibili.com/video/BV1si4y1472o">Markdown+VSCODE实现最完美流畅写作体验</a></p>
-<p><img src="/"></p>
-<p><img src="https://avatars2.githubusercontent.com/u/3265208?v=3&s=100" alt="GitHub" title="GitHub,Social Coding"></p>
-]]></content>
-      <categories>
-        <category>Git</category>
-      </categories>
-      <tags>
-        <tag>Git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux下FTP的配置</title>
-    <url>/2021/06/01/Linux%E4%B8%8BFTP%E7%9A%84%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<h2 id="linux-ftp服务器"><a href="#linux-ftp服务器" class="headerlink" title="linux ftp服务器"></a>linux ftp服务器</h2><h3 id="1、有问题时完全卸载vsftpd"><a href="#1、有问题时完全卸载vsftpd" class="headerlink" title="1、有问题时完全卸载vsftpd"></a>1、有问题时完全卸载vsftpd</h3><p><code>sudo apt-get purge vsftpd</code></p>
-<h3 id="2、安装vsftpd"><a href="#2、安装vsftpd" class="headerlink" title="2、安装vsftpd"></a>2、安装vsftpd</h3><p><code>sudo apt-get install vsftpd</code></p>
-<h3 id="3、创建ftp用户"><a href="#3、创建ftp用户" class="headerlink" title="3、创建ftp用户"></a>3、创建ftp用户</h3><p>方法一：直接在系统设置添加用户</p>
-<p>方法二：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">创建用户目录 sudo mkdir /home/uftp</span><br><span class="line">创建用户 sudo useradd -d /home/uftp -s /bin/bash uftp</span><br><span class="line">修改密码 sudo passwd uftp</span><br></pre></td></tr></table></figure>
-
-<h3 id="4、配置vsftpd-conf"><a href="#4、配置vsftpd-conf" class="headerlink" title="4、配置vsftpd.conf"></a>4、配置vsftpd.conf</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo vi /etc/vsftpd.conf</span><br><span class="line"></span><br><span class="line">编辑vsftpd.conf文件</span><br><span class="line"></span><br><span class="line">开启 本地用户 才能访问</span><br><span class="line">local_enable=YES</span><br><span class="line"></span><br><span class="line">#设置文件上传</span><br><span class="line">write_enable=YES</span><br><span class="line"></span><br><span class="line">#使用utf8</span><br><span class="line">utf8_filesystem=YES</span><br><span class="line"></span><br><span class="line">#限制所有的本地用户在自家目录</span><br><span class="line">chroot_local_user=YES  </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#开启 用户列表进行访问控制</span><br><span class="line">userlist_enable=YES</span><br><span class="line">userlist_deny=NO</span><br><span class="line"></span><br><span class="line">#允许登录的用户</span><br><span class="line">userlist_file=/etc/allowed_users</span><br><span class="line">seccomp_sandbox=NO</span><br><span class="line"></span><br><span class="line">#默认ftp下载目录</span><br><span class="line">local_root=/home/uftp/</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">添加允许登录的用户</span><br><span class="line"></span><br><span class="line">sudo vi /etc/allowed_users</span><br></pre></td></tr></table></figure>
-
-
-<h3 id="5、启动停止重启服务"><a href="#5、启动停止重启服务" class="headerlink" title="5、启动停止重启服务"></a>5、启动停止重启服务</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo /etc/init.d/vsftpd start</span><br><span class="line">sudo /etc/init.d/vsftpd stop</span><br><span class="line">sudo /etc/init.d/vsftpd restart</span><br><span class="line"></span><br><span class="line">systemctl status vsftpd.service</span><br><span class="line">systemctl restart vsftpd.service</span><br></pre></td></tr></table></figure>
-
-<h3 id="其他注意事项"><a href="#其他注意事项" class="headerlink" title="其他注意事项"></a>其他注意事项</h3><p>Linux 用户名和密码都正确却 无法登录 报错信息和解决办法<br>vsftpd: refusing to run with writable root inside chroot() 错误的解决办法<br>一下是解决办法：</p>
-<p>为了避免一个安全漏洞，从 vsftpd 2.3.5 开始，chroot 目录必须不可写。使用命令：</p>
-<h1 id="chmod-a-w-home-user"><a href="#chmod-a-w-home-user" class="headerlink" title="chmod a-w /home/user"></a>chmod a-w /home/user</h1><p>user 为FTP所连接的目录</p>
-<p>十分好用的查看开启的feature的命令<br>cat /etc/vsftpd.conf | grep -v “#” | more</p>
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo从零开始</title>
     <url>/2021/05/26/hexo%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
     <content><![CDATA[<h2 id="如何安装hexo"><a href="#如何安装hexo" class="headerlink" title="如何安装hexo"></a>如何安装hexo</h2><p>Hexo官方网址<br><a href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a></p>
@@ -111,6 +63,80 @@
       </tags>
   </entry>
   <entry>
+    <title>Linux下FTP的配置</title>
+    <url>/2021/06/01/Linux%E4%B8%8BFTP%E7%9A%84%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<h2 id="linux-ftp服务器"><a href="#linux-ftp服务器" class="headerlink" title="linux ftp服务器"></a>linux ftp服务器</h2><h3 id="1、有问题时完全卸载vsftpd"><a href="#1、有问题时完全卸载vsftpd" class="headerlink" title="1、有问题时完全卸载vsftpd"></a>1、有问题时完全卸载vsftpd</h3><p><code>sudo apt-get purge vsftpd</code></p>
+<h3 id="2、安装vsftpd"><a href="#2、安装vsftpd" class="headerlink" title="2、安装vsftpd"></a>2、安装vsftpd</h3><p><code>sudo apt-get install vsftpd</code></p>
+<h3 id="3、创建ftp用户"><a href="#3、创建ftp用户" class="headerlink" title="3、创建ftp用户"></a>3、创建ftp用户</h3><p>方法一：直接在系统设置添加用户</p>
+<p>方法二：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">创建用户目录 sudo mkdir /home/uftp</span><br><span class="line">创建用户 sudo useradd -d /home/uftp -s /bin/bash uftp</span><br><span class="line">修改密码 sudo passwd uftp</span><br></pre></td></tr></table></figure>
+
+<h3 id="4、配置vsftpd-conf"><a href="#4、配置vsftpd-conf" class="headerlink" title="4、配置vsftpd.conf"></a>4、配置vsftpd.conf</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo vi /etc/vsftpd.conf</span><br><span class="line"></span><br><span class="line">编辑vsftpd.conf文件</span><br><span class="line"></span><br><span class="line">开启 本地用户 才能访问</span><br><span class="line">local_enable=YES</span><br><span class="line"></span><br><span class="line">#设置文件上传</span><br><span class="line">write_enable=YES</span><br><span class="line"></span><br><span class="line">#使用utf8</span><br><span class="line">utf8_filesystem=YES</span><br><span class="line"></span><br><span class="line">#限制所有的本地用户在自家目录</span><br><span class="line">chroot_local_user=YES  </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#开启 用户列表进行访问控制</span><br><span class="line">userlist_enable=YES</span><br><span class="line">userlist_deny=NO</span><br><span class="line"></span><br><span class="line">#允许登录的用户</span><br><span class="line">userlist_file=/etc/allowed_users</span><br><span class="line">seccomp_sandbox=NO</span><br><span class="line"></span><br><span class="line">#默认ftp下载目录</span><br><span class="line">local_root=/home/uftp/</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">添加允许登录的用户</span><br><span class="line"></span><br><span class="line">sudo vi /etc/allowed_users</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="5、启动停止重启服务"><a href="#5、启动停止重启服务" class="headerlink" title="5、启动停止重启服务"></a>5、启动停止重启服务</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo /etc/init.d/vsftpd start</span><br><span class="line">sudo /etc/init.d/vsftpd stop</span><br><span class="line">sudo /etc/init.d/vsftpd restart</span><br><span class="line"></span><br><span class="line">systemctl status vsftpd.service</span><br><span class="line">systemctl restart vsftpd.service</span><br></pre></td></tr></table></figure>
+
+<h3 id="其他注意事项"><a href="#其他注意事项" class="headerlink" title="其他注意事项"></a>其他注意事项</h3><p>Linux 用户名和密码都正确却 无法登录 报错信息和解决办法<br>vsftpd: refusing to run with writable root inside chroot() 错误的解决办法<br>一下是解决办法：</p>
+<p>为了避免一个安全漏洞，从 vsftpd 2.3.5 开始，chroot 目录必须不可写。使用命令：</p>
+<h1 id="chmod-a-w-home-user"><a href="#chmod-a-w-home-user" class="headerlink" title="chmod a-w /home/user"></a>chmod a-w /home/user</h1><p>user 为FTP所连接的目录</p>
+<p>十分好用的查看开启的feature的命令<br>cat /etc/vsftpd.conf | grep -v “#” | more</p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>nagios从零开始</title>
+    <url>/2021/06/01/nagios%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
+    <content><![CDATA[<h2 id="Nagios新增host"><a href="#Nagios新增host" class="headerlink" title="Nagios新增host"></a>Nagios新增host</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/usr/local/nagios/etc/objects/host.cfg</span><br><span class="line">/usr/local/nagios/etc/objects/service.cfg</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="Nagios配置检查"><a href="#Nagios配置检查" class="headerlink" title="Nagios配置检查"></a>Nagios配置检查</h2><p><code>/usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg</code></p>
+<h2 id="查看nagios账号信息"><a href="#查看nagios账号信息" class="headerlink" title="查看nagios账号信息"></a>查看nagios账号信息</h2><p><code>grep &#39;authorized&#39; /usr/local/nagios/etc/cgi.cfg</code></p>
+<h2 id="nagios-check-ping"><a href="#nagios-check-ping" class="headerlink" title="nagios check_ping"></a>nagios check_ping</h2><p><code>check_ping!100.0,20%!500.0,60%</code></p>
+<p>check_ping命令在commands.cfg中定义，后跟两个参数，命令与参数间用 ! 分割。</p>
+<p>在一次check_ping检测中，<br>如果延迟&gt;=500ms，或丢包率超过60%，则触发critical警告。<br>否则，如果延迟&gt;=100ms，或丢包率超过20%，则触发warning警告。<br>否则就不触发警告。</p>
+<p>host_notification_options：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">d = notify on DOWN host states,</span><br><span class="line">u = notify on UNREACHABLE host states</span><br><span class="line">r = notify on host recoveries (UP states)</span><br><span class="line">f = notify when the host starts and stops flapping</span><br><span class="line">s = send notifications when host or service scheduled downtime starts and ends</span><br><span class="line">n (none) the contact will not receive any type of host notifications.</span><br></pre></td></tr></table></figure>
+
+<p>service_notification_options:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">w = notify on WARNING service states</span><br><span class="line">u = notify on UNKNOWN service states</span><br><span class="line">c = notify on CRITICAL service states</span><br><span class="line">r = notify on service recoveries (OK states)</span><br><span class="line">f = notify when the service starts and stops flapping</span><br><span class="line">n (none) the contact will not receive any type of service notifications.</span><br></pre></td></tr></table></figure>
+
+<p>example:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">host_notification_options d,u,r</span><br><span class="line">service_notification_options w,u,c,r</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Nagios</category>
+      </categories>
+      <tags>
+        <tag>Nagios</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git从零开始</title>
+    <url>/2021/05/26/Git%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
+    <content><![CDATA[<h1 id="git基本命令"><a href="#git基本命令" class="headerlink" title="git基本命令"></a>git基本命令</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;这里面填你的名字如 zhang san&quot;     </span><br><span class="line">git config --global user.email &quot;注册git的邮箱如 1234567@qq.com&quot;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+<h2 id="生成密钥"><a href="#生成密钥" class="headerlink" title="生成密钥"></a>生成密钥</h2><p><code>ssh-keygen -t rsa -C &quot;你的注册邮箱&quot;</code></p>
+<h2 id="验证SSH登录"><a href="#验证SSH登录" class="headerlink" title="验证SSH登录"></a>验证SSH登录</h2><p><code>ssh -T git@github.com</code></p>
+<p><a href="https://docs.github.com/cn/github/authenticating-to-github/troubleshooting-ssh/error-permission-denied-publickey">SSH故障排除</a></p>
+<h2 id="查看git配置："><a href="#查看git配置：" class="headerlink" title="查看git配置："></a>查看git配置：</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config -l</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://www.bilibili.com/video/BV1si4y1472o">Markdown+VSCODE实现最完美流畅写作体验</a></p>
+<p><img src="/"></p>
+<p><img src="https://avatars2.githubusercontent.com/u/3265208?v=3&s=100" alt="GitHub" title="GitHub,Social Coding"></p>
+]]></content>
+      <categories>
+        <category>Git</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>linux网络命令</title>
     <url>/2021/06/01/linux%E7%BD%91%E7%BB%9C%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<h3 id="linux修改接口IP和DNS"><a href="#linux修改接口IP和DNS" class="headerlink" title="linux修改接口IP和DNS"></a>linux修改接口IP和DNS</h3><p>1.ifconfig 查看接口的名字</p>
@@ -142,32 +168,6 @@
       </categories>
       <tags>
         <tag>js</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>nagios从零开始</title>
-    <url>/2021/06/01/nagios%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
-    <content><![CDATA[<h2 id="Nagios新增host"><a href="#Nagios新增host" class="headerlink" title="Nagios新增host"></a>Nagios新增host</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/usr/local/nagios/etc/objects/host.cfg</span><br><span class="line">/usr/local/nagios/etc/objects/service.cfg</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="Nagios配置检查"><a href="#Nagios配置检查" class="headerlink" title="Nagios配置检查"></a>Nagios配置检查</h2><p><code>/usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg</code></p>
-<h2 id="查看nagios账号信息"><a href="#查看nagios账号信息" class="headerlink" title="查看nagios账号信息"></a>查看nagios账号信息</h2><p><code>grep &#39;authorized&#39; /usr/local/nagios/etc/cgi.cfg</code></p>
-<h2 id="nagios-check-ping"><a href="#nagios-check-ping" class="headerlink" title="nagios check_ping"></a>nagios check_ping</h2><p><code>check_ping!100.0,20%!500.0,60%</code></p>
-<p>check_ping命令在commands.cfg中定义，后跟两个参数，命令与参数间用 ! 分割。</p>
-<p>在一次check_ping检测中，<br>如果延迟&gt;=500ms，或丢包率超过60%，则触发critical警告。<br>否则，如果延迟&gt;=100ms，或丢包率超过20%，则触发warning警告。<br>否则就不触发警告。</p>
-<p>host_notification_options：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">d = notify on DOWN host states,</span><br><span class="line">u = notify on UNREACHABLE host states</span><br><span class="line">r = notify on host recoveries (UP states)</span><br><span class="line">f = notify when the host starts and stops flapping</span><br><span class="line">s = send notifications when host or service scheduled downtime starts and ends</span><br><span class="line">n (none) the contact will not receive any type of host notifications.</span><br></pre></td></tr></table></figure>
-
-<p>service_notification_options:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">w = notify on WARNING service states</span><br><span class="line">u = notify on UNKNOWN service states</span><br><span class="line">c = notify on CRITICAL service states</span><br><span class="line">r = notify on service recoveries (OK states)</span><br><span class="line">f = notify when the service starts and stops flapping</span><br><span class="line">n (none) the contact will not receive any type of service notifications.</span><br></pre></td></tr></table></figure>
-
-<p>example:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">host_notification_options d,u,r</span><br><span class="line">service_notification_options w,u,c,r</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Nagios</category>
-      </categories>
-      <tags>
-        <tag>Nagios</tag>
       </tags>
   </entry>
   <entry>
