@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Git从零开始</title>
-    <url>/2021/05/26/Git%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
-    <content><![CDATA[<h1 id="git基本命令"><a href="#git基本命令" class="headerlink" title="git基本命令"></a>git基本命令</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;这里面填你的名字如 zhang san&quot;     </span><br><span class="line">git config --global user.email &quot;注册git的邮箱如 1234567@qq.com&quot;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-
-<h2 id="生成密钥"><a href="#生成密钥" class="headerlink" title="生成密钥"></a>生成密钥</h2><p><code>ssh-keygen -t rsa -C &quot;你的注册邮箱&quot;</code></p>
-<h2 id="验证SSH登录"><a href="#验证SSH登录" class="headerlink" title="验证SSH登录"></a>验证SSH登录</h2><p><code>ssh -T git@github.com</code></p>
-<p><a href="https://docs.github.com/cn/github/authenticating-to-github/troubleshooting-ssh/error-permission-denied-publickey">SSH故障排除</a></p>
-<h2 id="查看git配置："><a href="#查看git配置：" class="headerlink" title="查看git配置："></a>查看git配置：</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config -l</span><br></pre></td></tr></table></figure>
-
-<p><a href="https://www.bilibili.com/video/BV1si4y1472o">Markdown+VSCODE实现最完美流畅写作体验</a></p>
-<p><img src="/"></p>
-<p><img src="https://avatars2.githubusercontent.com/u/3265208?v=3&s=100" alt="GitHub" title="GitHub,Social Coding"></p>
+    <title>linux网络命令</title>
+    <url>/2021/06/01/linux%E7%BD%91%E7%BB%9C%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h3 id="linux修改接口IP和DNS"><a href="#linux修改接口IP和DNS" class="headerlink" title="linux修改接口IP和DNS"></a>linux修改接口IP和DNS</h3><p>1.ifconfig 查看接口的名字</p>
+<p>2.找到路径<br><code>/etc/sysconfig/network-scripts/</code></p>
+<p>3.编辑接口名字<br><code>vi eth0</code></p>
+<p>4.修改DNS<br><code>/etc/resolv.conf</code></p>
+<h3 id="查看接口状态"><a href="#查看接口状态" class="headerlink" title="查看接口状态"></a>查看接口状态</h3><p><code>ip link show</code></p>
+<h3 id="查看IP地址配置："><a href="#查看IP地址配置：" class="headerlink" title="查看IP地址配置："></a>查看IP地址配置：</h3><p><code>ip address</code></p>
+<h3 id="查看路由和默认路由"><a href="#查看路由和默认路由" class="headerlink" title="查看路由和默认路由"></a>查看路由和默认路由</h3><p><code>ip route</code></p>
+<h3 id="其他查看路由命令"><a href="#其他查看路由命令" class="headerlink" title="其他查看路由命令"></a>其他查看路由命令</h3><p><code>route -n</code><br><code>netstat -rn</code> </p>
+<h2 id="nmcli命令"><a href="#nmcli命令" class="headerlink" title="nmcli命令"></a>nmcli命令</h2><p><code>nmcli device status</code><br><code>nmcli connection show</code></p>
+<h2 id="nmtui命令"><a href="#nmtui命令" class="headerlink" title="nmtui命令"></a>nmtui命令</h2><p><code>nmtui</code></p>
 ]]></content>
       <categories>
-        <category>Git</category>
+        <category>Linux</category>
       </categories>
       <tags>
-        <tag>Git</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -46,6 +45,28 @@
       </categories>
       <tags>
         <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git从零开始</title>
+    <url>/2021/05/26/Git%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
+    <content><![CDATA[<h1 id="git基本命令"><a href="#git基本命令" class="headerlink" title="git基本命令"></a>git基本命令</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;这里面填你的名字如 zhang san&quot;     </span><br><span class="line">git config --global user.email &quot;注册git的邮箱如 1234567@qq.com&quot;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+<h2 id="生成密钥"><a href="#生成密钥" class="headerlink" title="生成密钥"></a>生成密钥</h2><p><code>ssh-keygen -t rsa -C &quot;你的注册邮箱&quot;</code></p>
+<h2 id="验证SSH登录"><a href="#验证SSH登录" class="headerlink" title="验证SSH登录"></a>验证SSH登录</h2><p><code>ssh -T git@github.com</code></p>
+<p><a href="https://docs.github.com/cn/github/authenticating-to-github/troubleshooting-ssh/error-permission-denied-publickey">SSH故障排除</a></p>
+<h2 id="查看git配置："><a href="#查看git配置：" class="headerlink" title="查看git配置："></a>查看git配置：</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config -l</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://www.bilibili.com/video/BV1si4y1472o">Markdown+VSCODE实现最完美流畅写作体验</a></p>
+<p><img src="/"></p>
+<p><img src="https://avatars2.githubusercontent.com/u/3265208?v=3&s=100" alt="GitHub" title="GitHub,Social Coding"></p>
+]]></content>
+      <categories>
+        <category>Git</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
       </tags>
   </entry>
   <entry>
@@ -111,27 +132,6 @@
       </tags>
   </entry>
   <entry>
-    <title>linux网络命令</title>
-    <url>/2021/06/01/linux%E7%BD%91%E7%BB%9C%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h3 id="linux修改接口IP和DNS"><a href="#linux修改接口IP和DNS" class="headerlink" title="linux修改接口IP和DNS"></a>linux修改接口IP和DNS</h3><p>1.ifconfig 查看接口的名字</p>
-<p>2.找到路径<br><code>/etc/sysconfig/network-scripts/</code></p>
-<p>3.编辑接口名字<br><code>vi eth0</code></p>
-<p>4.修改DNS<br><code>/etc/resolv.conf</code></p>
-<h3 id="查看接口状态"><a href="#查看接口状态" class="headerlink" title="查看接口状态"></a>查看接口状态</h3><p><code>ip link show</code></p>
-<h3 id="查看IP地址配置："><a href="#查看IP地址配置：" class="headerlink" title="查看IP地址配置："></a>查看IP地址配置：</h3><p><code>ip address</code></p>
-<h3 id="查看路由和默认路由"><a href="#查看路由和默认路由" class="headerlink" title="查看路由和默认路由"></a>查看路由和默认路由</h3><p><code>ip route</code></p>
-<h3 id="其他查看路由命令"><a href="#其他查看路由命令" class="headerlink" title="其他查看路由命令"></a>其他查看路由命令</h3><p><code>route -n</code><br><code>netstat -rn</code> </p>
-<h2 id="nmcli命令"><a href="#nmcli命令" class="headerlink" title="nmcli命令"></a>nmcli命令</h2><p><code>nmcli device status</code><br><code>nmcli connection show</code></p>
-<h2 id="nmtui命令"><a href="#nmtui命令" class="headerlink" title="nmtui命令"></a>nmtui命令</h2><p><code>nmtui</code></p>
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>nagios从零开始</title>
     <url>/2021/06/01/nagios%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
     <content><![CDATA[<h2 id="Nagios新增host"><a href="#Nagios新增host" class="headerlink" title="Nagios新增host"></a>Nagios新增host</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/usr/local/nagios/etc/objects/host.cfg</span><br><span class="line">/usr/local/nagios/etc/objects/service.cfg</span><br></pre></td></tr></table></figure>
@@ -171,33 +171,26 @@
       </tags>
   </entry>
   <entry>
-    <title>npm从零开始</title>
-    <url>/2021/05/26/npm%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
-    <content><![CDATA[<p>接触到的第一个npm命令</p>
-<p><code>npm install hexo-cli -g</code></p>
-<h2 id="查看node版本"><a href="#查看node版本" class="headerlink" title="查看node版本"></a>查看node版本</h2><p>node -v </p>
-<h2 id="查看npm版本"><a href="#查看npm版本" class="headerlink" title="查看npm版本"></a>查看npm版本</h2><p>npm -v  </p>
-<h2 id="什么是npm-为什么要使用npm"><a href="#什么是npm-为什么要使用npm" class="headerlink" title="什么是npm? 为什么要使用npm?"></a>什么是npm? 为什么要使用npm?</h2><p>NPM是随同NodeJS的包管理工具</p>
-<h2 id="什么是CNPM？"><a href="#什么是CNPM？" class="headerlink" title="什么是CNPM？"></a>什么是CNPM？</h2><p>CNPM全称为”China Node Package Manager”，即中国的包管理镜器。其原理是用一个完整npmjs.org镜像，同步频率目前为10分钟一次以保证尽量与官方服务同步。</p>
-<p>国内的NPM软件源有很多，其中阿里云的软件源就是一个不错的选择，本片笔记就是使用阿里的软件源。</p>
-<p>npm 的包安装分为本地安装（local）、全局安装（global）两种</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli      # 本地安装</span><br><span class="line">npm install hexo-cli -g   # 全局安装</span><br></pre></td></tr></table></figure>
+    <title>思科HSRP的选举机制</title>
+    <url>/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/</url>
+    <content><![CDATA[<h2 id="HSRP状态"><a href="#HSRP状态" class="headerlink" title="HSRP状态"></a>HSRP状态</h2><p><img src="/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/hsrp.jpg" alt="hsrp状态转换"></p>
+<h2 id="HSRP选举的机制"><a href="#HSRP选举的机制" class="headerlink" title="HSRP选举的机制"></a>HSRP选举的机制</h2><ul>
+<li>2台路由器，前后开机 如何选举？</li>
+<li>1台路由器开机，后面有1台路由器启动加入,如何选举？</li>
+</ul>
+<h2 id="HSRP的切换时间"><a href="#HSRP的切换时间" class="headerlink" title="HSRP的切换时间"></a>HSRP的切换时间</h2><h3 id="主路由器down掉，多久可以切换到备份路由器？"><a href="#主路由器down掉，多久可以切换到备份路由器？" class="headerlink" title="主路由器down掉，多久可以切换到备份路由器？"></a>主路由器down掉，多久可以切换到备份路由器？</h3><p><code>10s</code></p>
+<h3 id="主路由器Up后，多久可以再次切换成active"><a href="#主路由器Up后，多久可以再次切换成active" class="headerlink" title="主路由器Up后，多久可以再次切换成active?"></a>主路由器Up后，多久可以再次切换成active?</h3><p><code>取决于preempt时间</code></p>
+<h2 id="HSRP抢占延迟"><a href="#HSRP抢占延迟" class="headerlink" title="HSRP抢占延迟"></a>HSRP抢占延迟</h2><p>当新Active的路由器需要一点时间来启动慢速 WAN 接口并生成路由表时，这有时会很有帮助。<br>但是，默认情况下，HSRP 抢占将使路由器在启动 LAN 接口的几秒钟内成为 LAN 的Active默认网关。</p>
+<h3 id="配置命令"><a href="#配置命令" class="headerlink" title="配置命令"></a>配置命令</h3><p><code>standby 20 preempt delay minimum 30 reload 90</code></p>
+<h3 id="查看命令"><a href="#查看命令" class="headerlink" title="查看命令"></a>查看命令</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C4431-01#sh standby delay </span><br><span class="line">Interface          Minimum Reload </span><br><span class="line">Gi0/0/0            1       5      </span><br><span class="line">Gi0/0/1            1       5      </span><br><span class="line">Gi0/0/2            1       5     </span><br></pre></td></tr></table></figure>
 
 
-<h2 id="npm-install说明-常用简写"><a href="#npm-install说明-常用简写" class="headerlink" title="npm install说明 常用简写"></a>npm install说明 常用简写</h2><p>npm install=npm i。在git clone项目的时候，项目文件中并没有 node_modules文件夹，项目的依赖文件可能很大。直接执行，npm会根据package.json配置文件中的依赖配置下载安装。</p>
-<p>-global=-g，全局安装，安装后的包位于系统预设目录下<br>–save=-S，安装的包将写入package.json里面的dependencies，dependencies：生产环境需要依赖的库<br>–save-dev=-D，安装的包将写入packege.json里面的devDependencies，devdependencies：只有开发环境下需要依赖的库</p>
-<h2 id="查看安装信息"><a href="#查看安装信息" class="headerlink" title="查看安装信息"></a>查看安装信息</h2><p>使用以下命令来查看所有全局安装的模块：<br>$ npm list -g</p>
-<h2 id="卸载模块"><a href="#卸载模块" class="headerlink" title="卸载模块"></a>卸载模块</h2><p>可以使用以下命令来卸载 Node.js 模块。<br>$ npm uninstall hexo-cli</p>
-<h2 id="更新模块"><a href="#更新模块" class="headerlink" title="更新模块"></a>更新模块</h2><p>可以使用以下命令更新模块：<br>$ npm update hexo-cli</p>
-<h2 id="搜索模块"><a href="#搜索模块" class="headerlink" title="搜索模块"></a>搜索模块</h2><p>使用以下来搜索模块：<br>$ npm search hexo-cli</p>
-<h2 id="使用-package-json"><a href="#使用-package-json" class="headerlink" title="使用 package.json"></a>使用 package.json</h2><p>package.json 位于模块的目录下，用于定义包的属性。</p>
+<h2 id="HSRP计时器"><a href="#HSRP计时器" class="headerlink" title="HSRP计时器"></a>HSRP计时器</h2><p>Active Router用Hello计时器 3s<br>Standby Router用 Standby timer计时器  10s</p>
 ]]></content>
       <categories>
-        <category>node.js</category>
+        <category>Network</category>
+        <category>Switch</category>
       </categories>
-      <tags>
-        <tag>node.js</tag>
-      </tags>
   </entry>
   <entry>
     <title>思科DHCP的Snooping</title>
@@ -231,28 +224,6 @@
       </tags>
   </entry>
   <entry>
-    <title>思科HSRP的选举机制</title>
-    <url>/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/</url>
-    <content><![CDATA[<h2 id="HSRP状态"><a href="#HSRP状态" class="headerlink" title="HSRP状态"></a>HSRP状态</h2><p><img src="/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/hsrp.jpg" alt="hsrp状态转换"></p>
-<h2 id="HSRP选举的机制"><a href="#HSRP选举的机制" class="headerlink" title="HSRP选举的机制"></a>HSRP选举的机制</h2><ul>
-<li>2台路由器，前后开机 如何选举？</li>
-<li>1台路由器开机，后面有1台路由器启动加入,如何选举？</li>
-</ul>
-<h2 id="HSRP的切换时间"><a href="#HSRP的切换时间" class="headerlink" title="HSRP的切换时间"></a>HSRP的切换时间</h2><h3 id="主路由器down掉，多久可以切换到备份路由器？"><a href="#主路由器down掉，多久可以切换到备份路由器？" class="headerlink" title="主路由器down掉，多久可以切换到备份路由器？"></a>主路由器down掉，多久可以切换到备份路由器？</h3><p><code>10s</code></p>
-<h3 id="主路由器Up后，多久可以再次切换成active"><a href="#主路由器Up后，多久可以再次切换成active" class="headerlink" title="主路由器Up后，多久可以再次切换成active?"></a>主路由器Up后，多久可以再次切换成active?</h3><p><code>取决于preempt时间</code></p>
-<h2 id="HSRP抢占延迟"><a href="#HSRP抢占延迟" class="headerlink" title="HSRP抢占延迟"></a>HSRP抢占延迟</h2><p>当新Active的路由器需要一点时间来启动慢速 WAN 接口并生成路由表时，这有时会很有帮助。<br>但是，默认情况下，HSRP 抢占将使路由器在启动 LAN 接口的几秒钟内成为 LAN 的Active默认网关。</p>
-<h3 id="配置命令"><a href="#配置命令" class="headerlink" title="配置命令"></a>配置命令</h3><p><code>standby 20 preempt delay minimum 30 reload 90</code></p>
-<h3 id="查看命令"><a href="#查看命令" class="headerlink" title="查看命令"></a>查看命令</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C4431-01#sh standby delay </span><br><span class="line">Interface          Minimum Reload </span><br><span class="line">Gi0/0/0            1       5      </span><br><span class="line">Gi0/0/1            1       5      </span><br><span class="line">Gi0/0/2            1       5     </span><br></pre></td></tr></table></figure>
-
-
-<h2 id="HSRP计时器"><a href="#HSRP计时器" class="headerlink" title="HSRP计时器"></a>HSRP计时器</h2><p>Active Router用Hello计时器 3s<br>Standby Router用 Standby timer计时器  10s</p>
-]]></content>
-      <categories>
-        <category>Network</category>
-        <category>Switch</category>
-      </categories>
-  </entry>
-  <entry>
     <title>思科WLC命令</title>
     <url>/2021/06/01/%E6%80%9D%E7%A7%91WLC%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<h2 id="AP的基本配置命令"><a href="#AP的基本配置命令" class="headerlink" title="AP的基本配置命令"></a>AP的基本配置命令</h2><h3 id="配置AP的IP地址及网关："><a href="#配置AP的IP地址及网关：" class="headerlink" title="配置AP的IP地址及网关："></a>配置AP的IP地址及网关：</h3><p>AP#capwap ap ip add  [IP address]  [netmask]<br>AP#capwap ap ip default-gateway [Gateway Address]       </p>
@@ -275,6 +246,35 @@
       </categories>
       <tags>
         <tag>Wireless</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>npm从零开始</title>
+    <url>/2021/05/26/npm%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
+    <content><![CDATA[<p>接触到的第一个npm命令</p>
+<p><code>npm install hexo-cli -g</code></p>
+<h2 id="查看node版本"><a href="#查看node版本" class="headerlink" title="查看node版本"></a>查看node版本</h2><p>node -v </p>
+<h2 id="查看npm版本"><a href="#查看npm版本" class="headerlink" title="查看npm版本"></a>查看npm版本</h2><p>npm -v  </p>
+<h2 id="什么是npm-为什么要使用npm"><a href="#什么是npm-为什么要使用npm" class="headerlink" title="什么是npm? 为什么要使用npm?"></a>什么是npm? 为什么要使用npm?</h2><p>NPM是随同NodeJS的包管理工具</p>
+<h2 id="什么是CNPM？"><a href="#什么是CNPM？" class="headerlink" title="什么是CNPM？"></a>什么是CNPM？</h2><p>CNPM全称为”China Node Package Manager”，即中国的包管理镜器。其原理是用一个完整npmjs.org镜像，同步频率目前为10分钟一次以保证尽量与官方服务同步。</p>
+<p>国内的NPM软件源有很多，其中阿里云的软件源就是一个不错的选择，本片笔记就是使用阿里的软件源。</p>
+<p>npm 的包安装分为本地安装（local）、全局安装（global）两种</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli      # 本地安装</span><br><span class="line">npm install hexo-cli -g   # 全局安装</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="npm-install说明-常用简写"><a href="#npm-install说明-常用简写" class="headerlink" title="npm install说明 常用简写"></a>npm install说明 常用简写</h2><p>npm install=npm i。在git clone项目的时候，项目文件中并没有 node_modules文件夹，项目的依赖文件可能很大。直接执行，npm会根据package.json配置文件中的依赖配置下载安装。</p>
+<p>-global=-g，全局安装，安装后的包位于系统预设目录下<br>–save=-S，安装的包将写入package.json里面的dependencies，dependencies：生产环境需要依赖的库<br>–save-dev=-D，安装的包将写入packege.json里面的devDependencies，devdependencies：只有开发环境下需要依赖的库</p>
+<h2 id="查看安装信息"><a href="#查看安装信息" class="headerlink" title="查看安装信息"></a>查看安装信息</h2><p>使用以下命令来查看所有全局安装的模块：<br>$ npm list -g</p>
+<h2 id="卸载模块"><a href="#卸载模块" class="headerlink" title="卸载模块"></a>卸载模块</h2><p>可以使用以下命令来卸载 Node.js 模块。<br>$ npm uninstall hexo-cli</p>
+<h2 id="更新模块"><a href="#更新模块" class="headerlink" title="更新模块"></a>更新模块</h2><p>可以使用以下命令更新模块：<br>$ npm update hexo-cli</p>
+<h2 id="搜索模块"><a href="#搜索模块" class="headerlink" title="搜索模块"></a>搜索模块</h2><p>使用以下来搜索模块：<br>$ npm search hexo-cli</p>
+<h2 id="使用-package-json"><a href="#使用-package-json" class="headerlink" title="使用 package.json"></a>使用 package.json</h2><p>package.json 位于模块的目录下，用于定义包的属性。</p>
+]]></content>
+      <categories>
+        <category>node.js</category>
+      </categories>
+      <tags>
+        <tag>node.js</tag>
       </tags>
   </entry>
   <entry>
