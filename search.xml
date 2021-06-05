@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Git从零开始</title>
+    <url>/2021/05/26/Git%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
+    <content><![CDATA[<h1 id="git基本命令"><a href="#git基本命令" class="headerlink" title="git基本命令"></a>git基本命令</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;这里面填你的名字如 zhang san&quot;     </span><br><span class="line">git config --global user.email &quot;注册git的邮箱如 1234567@qq.com&quot;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+<h2 id="生成密钥"><a href="#生成密钥" class="headerlink" title="生成密钥"></a>生成密钥</h2><p><code>ssh-keygen -t rsa -C &quot;你的注册邮箱&quot;</code></p>
+<h2 id="验证SSH登录"><a href="#验证SSH登录" class="headerlink" title="验证SSH登录"></a>验证SSH登录</h2><p><code>ssh -T git@github.com</code></p>
+<p><a href="https://docs.github.com/cn/github/authenticating-to-github/troubleshooting-ssh/error-permission-denied-publickey">SSH故障排除</a></p>
+<h2 id="查看git配置："><a href="#查看git配置：" class="headerlink" title="查看git配置："></a>查看git配置：</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config -l</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://www.bilibili.com/video/BV1si4y1472o">Markdown+VSCODE实现最完美流畅写作体验</a></p>
+<p><img src="/"></p>
+<p><img src="https://avatars2.githubusercontent.com/u/3265208?v=3&s=100" alt="GitHub" title="GitHub,Social Coding"></p>
+]]></content>
+      <categories>
+        <category>Git</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Linux下FTP的配置</title>
     <url>/2021/06/01/Linux%E4%B8%8BFTP%E7%9A%84%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<h2 id="linux-ftp服务器"><a href="#linux-ftp服务器" class="headerlink" title="linux ftp服务器"></a>linux ftp服务器</h2><h3 id="1、有问题时完全卸载vsftpd"><a href="#1、有问题时完全卸载vsftpd" class="headerlink" title="1、有问题时完全卸载vsftpd"></a>1、有问题时完全卸载vsftpd</h3><p><code>sudo apt-get purge vsftpd</code></p>
@@ -24,28 +46,6 @@
       </categories>
       <tags>
         <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Git从零开始</title>
-    <url>/2021/05/26/Git%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
-    <content><![CDATA[<h1 id="git基本命令"><a href="#git基本命令" class="headerlink" title="git基本命令"></a>git基本命令</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;这里面填你的名字如 zhang san&quot;     </span><br><span class="line">git config --global user.email &quot;注册git的邮箱如 1234567@qq.com&quot;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-
-<h2 id="生成密钥"><a href="#生成密钥" class="headerlink" title="生成密钥"></a>生成密钥</h2><p><code>ssh-keygen -t rsa -C &quot;你的注册邮箱&quot;</code></p>
-<h2 id="验证SSH登录"><a href="#验证SSH登录" class="headerlink" title="验证SSH登录"></a>验证SSH登录</h2><p><code>ssh -T git@github.com</code></p>
-<p><a href="https://docs.github.com/cn/github/authenticating-to-github/troubleshooting-ssh/error-permission-denied-publickey">SSH故障排除</a></p>
-<h2 id="查看git配置："><a href="#查看git配置：" class="headerlink" title="查看git配置："></a>查看git配置：</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config -l</span><br></pre></td></tr></table></figure>
-
-<p><a href="https://www.bilibili.com/video/BV1si4y1472o">Markdown+VSCODE实现最完美流畅写作体验</a></p>
-<p><img src="/"></p>
-<p><img src="https://avatars2.githubusercontent.com/u/3265208?v=3&s=100" alt="GitHub" title="GitHub,Social Coding"></p>
-]]></content>
-      <categories>
-        <category>Git</category>
-      </categories>
-      <tags>
-        <tag>Git</tag>
       </tags>
   </entry>
   <entry>
@@ -158,37 +158,6 @@
       </tags>
   </entry>
   <entry>
-    <title>思科DHCP的Snooping</title>
-    <url>/2021/06/04/%E6%80%9D%E7%A7%91DHCP%E7%9A%84Snooping/</url>
-    <content><![CDATA[<h2 id="启用DHCP-Snooping的作用"><a href="#启用DHCP-Snooping的作用" class="headerlink" title="启用DHCP Snooping的作用"></a>启用DHCP Snooping的作用</h2><p>一句话：防止非法的DHCP服务器</p>
-<h3 id="哲学思想"><a href="#哲学思想" class="headerlink" title="哲学思想"></a>哲学思想</h3><ul>
-<li>防止非法DHCP服务器snooping</li>
-<li>防止非法DHCP客户端snooping limit</li>
-</ul>
-<h3 id="信任和非信任端口的Action"><a href="#信任和非信任端口的Action" class="headerlink" title="信任和非信任端口的Action"></a>信任和非信任端口的Action</h3><ul>
-<li>信任接口：接收DHCP服务器响应的DHCP ACK和DHCP Offer报文。设备只会将DHCP客户端的DHCP请求报文通过信任接口发送给合法的DHCP服务器。</li>
-<li>非信任接口：接收到DHCP服务器响应的DHCP ACK和DHCP Offer报文后，直接干掉。</li>
-</ul>
-<h2 id="DHCP-Snooping要应用在哪里"><a href="#DHCP-Snooping要应用在哪里" class="headerlink" title="DHCP Snooping要应用在哪里"></a>DHCP Snooping要应用在哪里</h2><p><img src="/2021/06/04/%E6%80%9D%E7%A7%91DHCP%E7%9A%84Snooping/dhcp-snooping.jpg" alt="DHCP Snooping"></p>
-<h2 id="DHCP-Snooping的配置命令"><a href="#DHCP-Snooping的配置命令" class="headerlink" title="DHCP Snooping的配置命令"></a>DHCP Snooping的配置命令</h2><p>全局启动<br><code>Switch(config)# ip dhcp snooping</code><br>Enables DHCP snooping globally.</p>
-<p>基于VLAN启用<br><code>Switch(config)# ip dhcp snooping vlan vlan-range</code></p>
-<p>接口下启用<br><code>Switch(config-if)# ip dhcp snooping trust</code></p>
-<p>启用 插入DHCP option-82 信息，DHCP option82会插入在DHCP Request信息里面<br><code>Switch(config)# ip dhcp snooping information option</code></p>
-<p>启用 接口收到DHCP包率的限制pps<br><code>Switch(config-if)# ip dhcp snooping limit rate 80</code></p>
-<p>查看接口DHCP包率限制<br><code>show ip dhcp snooping | begin pps</code></p>
-<h2 id="DHCP-OPTION-82"><a href="#DHCP-OPTION-82" class="headerlink" title="DHCP OPTION 82"></a>DHCP OPTION 82</h2><p>在传统的DHCP动态分配IP地址过程中，DHCP Server不能够根据DHCP请求报文关联到终端的具体物理位置，同一VLAN的用户得到的IP地址所拥有的权限是完全相同的。OPTION 82；包含两个常用子选项Circuit ID和Remote ID。其中Circuit ID子选项主要用来标识客户端所在的VLAN、接口等信息，Remote ID子选项主要用来标识客户端接入的设备，一般为设备的MAC地址。</p>
-<p>记录了DHCP Client的位置信息。开启DHCP Snooping的设备通过在DHCP请求报文中添加82选项，将DHCP Client的精确物理位置信息传递给DHCP Server，从而使得DHCP Server能够为主机分配合适的IP地址和其他配置信息，联动安全策略管理器实现对客户端的安全控制。</p>
-<p>参考网址：<br><a href="https://kknews.cc/digital/2yrq8g9.html">https://kknews.cc/digital/2yrq8g9.html</a><br><a href="https://www.networkstraining.com/cisco-dhcp-snooping-configuration/">https://www.networkstraining.com/cisco-dhcp-snooping-configuration/</a><br><a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4500/12-2/53SG/configuration/config/dhcp.html">https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4500/12-2/53SG/configuration/config/dhcp.html</a></p>
-]]></content>
-      <categories>
-        <category>Network</category>
-        <category>Switch</category>
-      </categories>
-      <tags>
-        <tag>Switch</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>node.js汇总</title>
     <url>/2021/05/26/node.js%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
     <content><![CDATA[<h1 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h1><p>Node.js 就是运行在服务端的 JavaScript。<br>Node.js 是一个基于Chrome JavaScript 运行时建立的一个平台。<br>Node.js是一个事件驱动I/O服务端JavaScript环境，基于Google的V8引擎，V8引擎执行Javascript的速度非常快，性能非常好</p>
@@ -199,44 +168,6 @@
       </categories>
       <tags>
         <tag>js</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>思科HSRP的选举机制</title>
-    <url>/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/</url>
-    <content><![CDATA[<h2 id="HSRP状态"><a href="#HSRP状态" class="headerlink" title="HSRP状态"></a>HSRP状态</h2><p><img src="/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/hsrp.jpg" alt="hsrp状态转换"></p>
-<h2 id="HSRP选举的机制"><a href="#HSRP选举的机制" class="headerlink" title="HSRP选举的机制"></a>HSRP选举的机制</h2><ul>
-<li>2台路由器，前后开机 如何选举？</li>
-<li>1台路由器开机，后面有1台路由器启动加入,如何选举？</li>
-</ul>
-<h2 id="HSRP的切换时间"><a href="#HSRP的切换时间" class="headerlink" title="HSRP的切换时间"></a>HSRP的切换时间</h2><h3 id="主路由器down掉，多久可以切换到备份路由器？"><a href="#主路由器down掉，多久可以切换到备份路由器？" class="headerlink" title="主路由器down掉，多久可以切换到备份路由器？"></a>主路由器down掉，多久可以切换到备份路由器？</h3><p><code>10s</code></p>
-<h3 id="主路由器Up后，多久可以再次切换成active"><a href="#主路由器Up后，多久可以再次切换成active" class="headerlink" title="主路由器Up后，多久可以再次切换成active?"></a>主路由器Up后，多久可以再次切换成active?</h3><p><code>取决于preempt时间</code></p>
-<h2 id="HSRP抢占延迟"><a href="#HSRP抢占延迟" class="headerlink" title="HSRP抢占延迟"></a>HSRP抢占延迟</h2><p>当新Active的路由器需要一点时间来启动慢速 WAN 接口并生成路由表时，这有时会很有帮助。<br>但是，默认情况下，HSRP 抢占将使路由器在启动 LAN 接口的几秒钟内成为 LAN 的Active默认网关。</p>
-<h3 id="配置命令"><a href="#配置命令" class="headerlink" title="配置命令"></a>配置命令</h3><p><code>standby 20 preempt delay minimum 30 reload 90</code></p>
-<h3 id="查看命令"><a href="#查看命令" class="headerlink" title="查看命令"></a>查看命令</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C4431-01#sh standby delay </span><br><span class="line">Interface          Minimum Reload </span><br><span class="line">Gi0/0/0            1       5      </span><br><span class="line">Gi0/0/1            1       5      </span><br><span class="line">Gi0/0/2            1       5     </span><br></pre></td></tr></table></figure>
-
-
-<h2 id="HSRP计时器"><a href="#HSRP计时器" class="headerlink" title="HSRP计时器"></a>HSRP计时器</h2><p>Active Router用Hello计时器 3s<br>Standby Router用 Standby timer计时器  10s</p>
-]]></content>
-      <categories>
-        <category>Network</category>
-        <category>Switch</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>思科交换机stack和VSS</title>
-    <url>/2021/06/01/%E6%80%9D%E7%A7%91%E4%BA%A4%E6%8D%A2%E6%9C%BAstack%E5%92%8CVSS/</url>
-    <content><![CDATA[<h2 id="配置domain"><a href="#配置domain" class="headerlink" title="配置domain:"></a>配置domain:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#conf t</span><br><span class="line">9500-A(config)#stackwise-virtual</span><br><span class="line">9500-A(config-stackwise-virtual)#domain 1 </span><br><span class="line">9500-A(config-stackwise-virtual)#exit</span><br></pre></td></tr></table></figure>
-<h2 id="配置virtual-link"><a href="#配置virtual-link" class="headerlink" title="配置virtual-link:"></a>配置virtual-link:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#inter ran ten 1/0/1, ten 1/0/2</span><br><span class="line">9500-A(config-if-range)#stackwise-virtual link 1 </span><br></pre></td></tr></table></figure>
-<h2 id="配置-dual-detection-link"><a href="#配置-dual-detection-link" class="headerlink" title="配置 dual-detection link"></a>配置 dual-detection link</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#int te1/0/3</span><br><span class="line">9500-A(config-if)#stackwise-virtual dual-active-detection</span><br></pre></td></tr></table></figure>
-
-<h2 id="配置优先级"><a href="#配置优先级" class="headerlink" title="配置优先级"></a>配置优先级</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#switch 1 priority 15</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Network</category>
-        <category>Switch</category>
-      </categories>
-      <tags>
-        <tag>Switch</tag>
       </tags>
   </entry>
   <entry>
@@ -269,6 +200,59 @@
       </tags>
   </entry>
   <entry>
+    <title>思科DHCP的Snooping</title>
+    <url>/2021/06/04/%E6%80%9D%E7%A7%91DHCP%E7%9A%84Snooping/</url>
+    <content><![CDATA[<h2 id="启用DHCP-Snooping的作用"><a href="#启用DHCP-Snooping的作用" class="headerlink" title="启用DHCP Snooping的作用"></a>启用DHCP Snooping的作用</h2><p>一句话：防止非法的DHCP服务器</p>
+<h3 id="哲学思想"><a href="#哲学思想" class="headerlink" title="哲学思想"></a>哲学思想</h3><ul>
+<li>防止非法DHCP服务器snooping</li>
+<li>防止非法DHCP客户端snooping limit</li>
+</ul>
+<h3 id="信任和非信任端口的Action"><a href="#信任和非信任端口的Action" class="headerlink" title="信任和非信任端口的Action"></a>信任和非信任端口的Action</h3><ul>
+<li>信任接口：接收DHCP服务器响应的DHCP ACK和DHCP Offer报文。设备只会将DHCP客户端的DHCP请求报文通过信任接口发送给合法的DHCP服务器。</li>
+<li>非信任接口：接收到DHCP服务器响应的DHCP ACK和DHCP Offer报文后，直接干掉。</li>
+</ul>
+<h2 id="DHCP-Snooping要应用在哪里"><a href="#DHCP-Snooping要应用在哪里" class="headerlink" title="DHCP Snooping要应用在哪里"></a>DHCP Snooping要应用在哪里</h2><p><img src="/2021/06/04/%E6%80%9D%E7%A7%91DHCP%E7%9A%84Snooping/dhcp-snooping.jpg" alt="DHCP Snooping"></p>
+<h2 id="DHCP-Snooping的配置命令"><a href="#DHCP-Snooping的配置命令" class="headerlink" title="DHCP Snooping的配置命令"></a>DHCP Snooping的配置命令</h2><p>全局启动<br><code>Switch(config)# ip dhcp snooping</code><br>Enables DHCP snooping globally.</p>
+<p>基于VLAN启用<br><code>Switch(config)# ip dhcp snooping vlan vlan-range</code></p>
+<p>接口下启用<br><code>Switch(config-if)# ip dhcp snooping trust</code></p>
+<p>启用 插入DHCP option-82 信息，DHCP option82会插入在DHCP Request信息里面<br><code>Switch(config)# ip dhcp snooping information option</code></p>
+<p>启用 接口收到DHCP包率的限制pps<br><code>Switch(config-if)# ip dhcp snooping limit rate 80</code></p>
+<p>查看接口DHCP包率限制<br><code>show ip dhcp snooping | begin pps</code></p>
+<h2 id="DHCP-OPTION-82"><a href="#DHCP-OPTION-82" class="headerlink" title="DHCP OPTION 82"></a>DHCP OPTION 82</h2><p>在传统的DHCP动态分配IP地址过程中，DHCP Server不能够根据DHCP请求报文关联到终端的具体物理位置，同一VLAN的用户得到的IP地址所拥有的权限是完全相同的。OPTION 82；包含两个常用子选项Circuit ID和Remote ID。其中Circuit ID子选项主要用来标识客户端所在的VLAN、接口等信息，Remote ID子选项主要用来标识客户端接入的设备，一般为设备的MAC地址。</p>
+<p>记录了DHCP Client的位置信息。开启DHCP Snooping的设备通过在DHCP请求报文中添加82选项，将DHCP Client的精确物理位置信息传递给DHCP Server，从而使得DHCP Server能够为主机分配合适的IP地址和其他配置信息，联动安全策略管理器实现对客户端的安全控制。</p>
+<p>参考网址：<br><a href="https://kknews.cc/digital/2yrq8g9.html">https://kknews.cc/digital/2yrq8g9.html</a><br><a href="https://www.networkstraining.com/cisco-dhcp-snooping-configuration/">https://www.networkstraining.com/cisco-dhcp-snooping-configuration/</a><br><a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4500/12-2/53SG/configuration/config/dhcp.html">https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4500/12-2/53SG/configuration/config/dhcp.html</a></p>
+]]></content>
+      <categories>
+        <category>Network</category>
+        <category>Switch</category>
+      </categories>
+      <tags>
+        <tag>Switch</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>思科HSRP的选举机制</title>
+    <url>/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/</url>
+    <content><![CDATA[<h2 id="HSRP状态"><a href="#HSRP状态" class="headerlink" title="HSRP状态"></a>HSRP状态</h2><p><img src="/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/hsrp.jpg" alt="hsrp状态转换"></p>
+<h2 id="HSRP选举的机制"><a href="#HSRP选举的机制" class="headerlink" title="HSRP选举的机制"></a>HSRP选举的机制</h2><ul>
+<li>2台路由器，前后开机 如何选举？</li>
+<li>1台路由器开机，后面有1台路由器启动加入,如何选举？</li>
+</ul>
+<h2 id="HSRP的切换时间"><a href="#HSRP的切换时间" class="headerlink" title="HSRP的切换时间"></a>HSRP的切换时间</h2><h3 id="主路由器down掉，多久可以切换到备份路由器？"><a href="#主路由器down掉，多久可以切换到备份路由器？" class="headerlink" title="主路由器down掉，多久可以切换到备份路由器？"></a>主路由器down掉，多久可以切换到备份路由器？</h3><p><code>10s</code></p>
+<h3 id="主路由器Up后，多久可以再次切换成active"><a href="#主路由器Up后，多久可以再次切换成active" class="headerlink" title="主路由器Up后，多久可以再次切换成active?"></a>主路由器Up后，多久可以再次切换成active?</h3><p><code>取决于preempt时间</code></p>
+<h2 id="HSRP抢占延迟"><a href="#HSRP抢占延迟" class="headerlink" title="HSRP抢占延迟"></a>HSRP抢占延迟</h2><p>当新Active的路由器需要一点时间来启动慢速 WAN 接口并生成路由表时，这有时会很有帮助。<br>但是，默认情况下，HSRP 抢占将使路由器在启动 LAN 接口的几秒钟内成为 LAN 的Active默认网关。</p>
+<h3 id="配置命令"><a href="#配置命令" class="headerlink" title="配置命令"></a>配置命令</h3><p><code>standby 20 preempt delay minimum 30 reload 90</code></p>
+<h3 id="查看命令"><a href="#查看命令" class="headerlink" title="查看命令"></a>查看命令</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C4431-01#sh standby delay </span><br><span class="line">Interface          Minimum Reload </span><br><span class="line">Gi0/0/0            1       5      </span><br><span class="line">Gi0/0/1            1       5      </span><br><span class="line">Gi0/0/2            1       5     </span><br></pre></td></tr></table></figure>
+
+
+<h2 id="HSRP计时器"><a href="#HSRP计时器" class="headerlink" title="HSRP计时器"></a>HSRP计时器</h2><p>Active Router用Hello计时器 3s<br>Standby Router用 Standby timer计时器  10s</p>
+]]></content>
+      <categories>
+        <category>Network</category>
+        <category>Switch</category>
+      </categories>
+  </entry>
+  <entry>
     <title>思科WLC命令</title>
     <url>/2021/06/01/%E6%80%9D%E7%A7%91WLC%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<h2 id="AP的基本配置命令"><a href="#AP的基本配置命令" class="headerlink" title="AP的基本配置命令"></a>AP的基本配置命令</h2><h3 id="配置AP的IP地址及网关："><a href="#配置AP的IP地址及网关：" class="headerlink" title="配置AP的IP地址及网关："></a>配置AP的IP地址及网关：</h3><p>AP#capwap ap ip add  [IP address]  [netmask]<br>AP#capwap ap ip default-gateway [Gateway Address]       </p>
@@ -291,6 +275,22 @@
       </categories>
       <tags>
         <tag>Wireless</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>思科交换机stack和VSS</title>
+    <url>/2021/06/01/%E6%80%9D%E7%A7%91%E4%BA%A4%E6%8D%A2%E6%9C%BAstack%E5%92%8CVSS/</url>
+    <content><![CDATA[<h2 id="配置domain"><a href="#配置domain" class="headerlink" title="配置domain:"></a>配置domain:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#conf t</span><br><span class="line">9500-A(config)#stackwise-virtual</span><br><span class="line">9500-A(config-stackwise-virtual)#domain 1 </span><br><span class="line">9500-A(config-stackwise-virtual)#exit</span><br></pre></td></tr></table></figure>
+<h2 id="配置virtual-link"><a href="#配置virtual-link" class="headerlink" title="配置virtual-link:"></a>配置virtual-link:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#inter ran ten 1/0/1, ten 1/0/2</span><br><span class="line">9500-A(config-if-range)#stackwise-virtual link 1 </span><br></pre></td></tr></table></figure>
+<h2 id="配置-dual-detection-link"><a href="#配置-dual-detection-link" class="headerlink" title="配置 dual-detection link"></a>配置 dual-detection link</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#int te1/0/3</span><br><span class="line">9500-A(config-if)#stackwise-virtual dual-active-detection</span><br></pre></td></tr></table></figure>
+
+<h2 id="配置优先级"><a href="#配置优先级" class="headerlink" title="配置优先级"></a>配置优先级</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#switch 1 priority 15</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Network</category>
+        <category>Switch</category>
+      </categories>
+      <tags>
+        <tag>Switch</tag>
       </tags>
   </entry>
 </search>
