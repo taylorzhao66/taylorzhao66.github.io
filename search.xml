@@ -79,6 +79,34 @@
       </tags>
   </entry>
   <entry>
+    <title>nagios从零开始</title>
+    <url>/2021/06/01/nagios%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
+    <content><![CDATA[<p>nagios从零开始</p>
+<span id="more"></span>
+<h2 id="Nagios新增host"><a href="#Nagios新增host" class="headerlink" title="Nagios新增host"></a>Nagios新增host</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/usr/local/nagios/etc/objects/host.cfg</span><br><span class="line">/usr/local/nagios/etc/objects/service.cfg</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="Nagios配置检查"><a href="#Nagios配置检查" class="headerlink" title="Nagios配置检查"></a>Nagios配置检查</h2><p><code>/usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg</code></p>
+<h2 id="查看nagios账号信息"><a href="#查看nagios账号信息" class="headerlink" title="查看nagios账号信息"></a>查看nagios账号信息</h2><p><code>grep &#39;authorized&#39; /usr/local/nagios/etc/cgi.cfg</code></p>
+<h2 id="nagios-check-ping"><a href="#nagios-check-ping" class="headerlink" title="nagios check_ping"></a>nagios check_ping</h2><p><code>check_ping!100.0,20%!500.0,60%</code></p>
+<p>check_ping命令在commands.cfg中定义，后跟两个参数，命令与参数间用 ! 分割。</p>
+<p>在一次check_ping检测中，<br>如果延迟&gt;=500ms，或丢包率超过60%，则触发critical警告。<br>否则，如果延迟&gt;=100ms，或丢包率超过20%，则触发warning警告。<br>否则就不触发警告。</p>
+<p>host_notification_options：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">d = notify on DOWN host states,</span><br><span class="line">u = notify on UNREACHABLE host states</span><br><span class="line">r = notify on host recoveries (UP states)</span><br><span class="line">f = notify when the host starts and stops flapping</span><br><span class="line">s = send notifications when host or service scheduled downtime starts and ends</span><br><span class="line">n (none) the contact will not receive any type of host notifications.</span><br></pre></td></tr></table></figure>
+
+<p>service_notification_options:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">w = notify on WARNING service states</span><br><span class="line">u = notify on UNKNOWN service states</span><br><span class="line">c = notify on CRITICAL service states</span><br><span class="line">r = notify on service recoveries (OK states)</span><br><span class="line">f = notify when the service starts and stops flapping</span><br><span class="line">n (none) the contact will not receive any type of service notifications.</span><br></pre></td></tr></table></figure>
+
+<p>example:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">host_notification_options d,u,r</span><br><span class="line">service_notification_options w,u,c,r</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Nagios</category>
+      </categories>
+      <tags>
+        <tag>Nagios</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo从零开始</title>
     <url>/2021/05/26/hexo%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
     <content><![CDATA[<p>Hexo目前最完美的blog</p>
@@ -143,34 +171,6 @@
       </categories>
       <tags>
         <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>nagios从零开始</title>
-    <url>/2021/06/01/nagios%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
-    <content><![CDATA[<p>nagios从零开始</p>
-<span id="more"></span>
-<h2 id="Nagios新增host"><a href="#Nagios新增host" class="headerlink" title="Nagios新增host"></a>Nagios新增host</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/usr/local/nagios/etc/objects/host.cfg</span><br><span class="line">/usr/local/nagios/etc/objects/service.cfg</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="Nagios配置检查"><a href="#Nagios配置检查" class="headerlink" title="Nagios配置检查"></a>Nagios配置检查</h2><p><code>/usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg</code></p>
-<h2 id="查看nagios账号信息"><a href="#查看nagios账号信息" class="headerlink" title="查看nagios账号信息"></a>查看nagios账号信息</h2><p><code>grep &#39;authorized&#39; /usr/local/nagios/etc/cgi.cfg</code></p>
-<h2 id="nagios-check-ping"><a href="#nagios-check-ping" class="headerlink" title="nagios check_ping"></a>nagios check_ping</h2><p><code>check_ping!100.0,20%!500.0,60%</code></p>
-<p>check_ping命令在commands.cfg中定义，后跟两个参数，命令与参数间用 ! 分割。</p>
-<p>在一次check_ping检测中，<br>如果延迟&gt;=500ms，或丢包率超过60%，则触发critical警告。<br>否则，如果延迟&gt;=100ms，或丢包率超过20%，则触发warning警告。<br>否则就不触发警告。</p>
-<p>host_notification_options：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">d = notify on DOWN host states,</span><br><span class="line">u = notify on UNREACHABLE host states</span><br><span class="line">r = notify on host recoveries (UP states)</span><br><span class="line">f = notify when the host starts and stops flapping</span><br><span class="line">s = send notifications when host or service scheduled downtime starts and ends</span><br><span class="line">n (none) the contact will not receive any type of host notifications.</span><br></pre></td></tr></table></figure>
-
-<p>service_notification_options:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">w = notify on WARNING service states</span><br><span class="line">u = notify on UNKNOWN service states</span><br><span class="line">c = notify on CRITICAL service states</span><br><span class="line">r = notify on service recoveries (OK states)</span><br><span class="line">f = notify when the service starts and stops flapping</span><br><span class="line">n (none) the contact will not receive any type of service notifications.</span><br></pre></td></tr></table></figure>
-
-<p>example:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">host_notification_options d,u,r</span><br><span class="line">service_notification_options w,u,c,r</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Nagios</category>
-      </categories>
-      <tags>
-        <tag>Nagios</tag>
       </tags>
   </entry>
   <entry>
@@ -239,11 +239,11 @@
 </ol>
 <h4 id="命令："><a href="#命令：" class="headerlink" title="命令："></a>命令：</h4><p>Local 为ssh客户端一方<br>remote为ssh服务端一方</p>
 <p><code>ssh -L local_port:remote_address:remote_port username@server.com</code></p>
-<p>ssh -L 8888:localhost:1234 <a href="mailto:&#98;&#x6f;&#x62;&#x40;&#x73;&#115;&#x68;&#x2e;&#121;&#x6f;&#x75;&#x72;&#x6f;&#x66;&#x66;&#105;&#x63;&#x65;&#46;&#x63;&#111;&#109;">&#98;&#x6f;&#x62;&#x40;&#x73;&#115;&#x68;&#x2e;&#121;&#x6f;&#x75;&#x72;&#x6f;&#x66;&#x66;&#105;&#x63;&#x65;&#46;&#x63;&#111;&#109;</a><br>ssh -L 8888:192.168.1.111:1234 <a href="mailto:&#x62;&#x6f;&#x62;&#64;&#115;&#115;&#104;&#x2e;&#x79;&#x6f;&#x75;&#114;&#x6f;&#x66;&#102;&#105;&#x63;&#x65;&#x2e;&#99;&#111;&#x6d;">&#x62;&#x6f;&#x62;&#64;&#115;&#115;&#104;&#x2e;&#x79;&#x6f;&#x75;&#114;&#x6f;&#x66;&#102;&#105;&#x63;&#x65;&#x2e;&#99;&#111;&#x6d;</a></p>
+<p>ssh -L 8888:localhost:1234 <a href="mailto:&#98;&#x6f;&#x62;&#x40;&#x73;&#115;&#104;&#x2e;&#x79;&#x6f;&#117;&#x72;&#111;&#102;&#102;&#x69;&#x63;&#x65;&#x2e;&#x63;&#x6f;&#109;">&#98;&#x6f;&#x62;&#x40;&#x73;&#115;&#104;&#x2e;&#x79;&#x6f;&#117;&#x72;&#111;&#102;&#102;&#x69;&#x63;&#x65;&#x2e;&#x63;&#x6f;&#109;</a><br>ssh -L 8888:192.168.1.111:1234 <a href="mailto:&#98;&#111;&#98;&#64;&#x73;&#115;&#x68;&#x2e;&#121;&#111;&#x75;&#x72;&#x6f;&#102;&#x66;&#x69;&#x63;&#x65;&#46;&#x63;&#x6f;&#x6d;">&#98;&#111;&#98;&#64;&#x73;&#115;&#x68;&#x2e;&#121;&#111;&#x75;&#x72;&#x6f;&#102;&#x66;&#x69;&#x63;&#x65;&#46;&#x63;&#x6f;&#x6d;</a></p>
 <h3 id="远程转发"><a href="#远程转发" class="headerlink" title="远程转发"></a>远程转发</h3><h4 id="应用场景：-1"><a href="#应用场景：-1" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-1"><a href="#命令：-1" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -R remote_port:local_address:local_port username@server.com</code></p>
-<p>ssh -R 8888:localhost:1234 <a href="mailto:&#98;&#111;&#x62;&#64;&#115;&#115;&#x68;&#46;&#121;&#111;&#117;&#x72;&#111;&#102;&#102;&#x69;&#x63;&#101;&#46;&#x63;&#111;&#109;">&#98;&#111;&#x62;&#64;&#115;&#115;&#x68;&#46;&#121;&#111;&#117;&#x72;&#111;&#102;&#102;&#x69;&#x63;&#101;&#46;&#x63;&#111;&#109;</a></p>
+<p>ssh -R 8888:localhost:1234 <a href="mailto:&#98;&#111;&#98;&#x40;&#115;&#115;&#x68;&#46;&#121;&#x6f;&#x75;&#114;&#x6f;&#102;&#102;&#x69;&#x63;&#101;&#46;&#x63;&#x6f;&#x6d;">&#98;&#111;&#98;&#x40;&#115;&#115;&#x68;&#46;&#121;&#x6f;&#x75;&#114;&#x6f;&#102;&#102;&#x69;&#x63;&#101;&#46;&#x63;&#x6f;&#x6d;</a></p>
 <h3 id="动态转发"><a href="#动态转发" class="headerlink" title="动态转发"></a>动态转发</h3><h4 id="应用场景：-2"><a href="#应用场景：-2" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-2"><a href="#命令：-2" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -D local_port username@server.com</code></p>
-<p>ssh -D 8888 <a href="mailto:&#x62;&#111;&#98;&#64;&#115;&#x73;&#104;&#x2e;&#121;&#x6f;&#x75;&#x72;&#x68;&#111;&#109;&#101;&#x2e;&#x63;&#x6f;&#109;">&#x62;&#111;&#98;&#64;&#115;&#x73;&#104;&#x2e;&#121;&#x6f;&#x75;&#x72;&#x68;&#111;&#109;&#101;&#x2e;&#x63;&#x6f;&#109;</a></p>
+<p>ssh -D 8888 <a href="mailto:&#98;&#x6f;&#x62;&#64;&#115;&#x73;&#104;&#46;&#121;&#x6f;&#x75;&#x72;&#104;&#111;&#109;&#x65;&#46;&#x63;&#x6f;&#x6d;">&#98;&#x6f;&#x62;&#64;&#115;&#x73;&#104;&#46;&#121;&#x6f;&#x75;&#x72;&#104;&#111;&#109;&#x65;&#46;&#x63;&#x6f;&#x6d;</a></p>
 <h3 id="参数介绍"><a href="#参数介绍" class="headerlink" title="参数介绍"></a>参数介绍</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">-N 告诉 SSH 客户端，这个连接不需要执行任何命令，也就是说不需要打开远程 shell，仅仅做端口转发；</span><br><span class="line">-f 告诉SSH客户端在后台运行，要关闭这个后台连接，就只有用 kill 命令去杀掉进程；</span><br><span class="line">-L 做本地映射端口</span><br><span class="line">-R 做远程映射端口</span><br><span class="line">-D 做动态端口映射</span><br><span class="line">-C 压缩数据传输</span><br></pre></td></tr></table></figure>
 
 <h2 id="如何关闭这个SSH隧道"><a href="#如何关闭这个SSH隧道" class="headerlink" title="如何关闭这个SSH隧道"></a>如何关闭这个SSH隧道</h2><p>方法1：<br>ps aux | grep 3306   找到pid<br>kill <pid>   kill pid</p>
