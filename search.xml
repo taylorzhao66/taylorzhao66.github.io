@@ -216,9 +216,10 @@
   <entry>
     <title>思科DHCP的Snooping</title>
     <url>/2021/06/04/%E6%80%9D%E7%A7%91DHCP%E7%9A%84Snooping/</url>
-    <content><![CDATA[<h2 id="启用DHCP-Snooping的作用"><a href="#启用DHCP-Snooping的作用" class="headerlink" title="启用DHCP Snooping的作用"></a>启用DHCP Snooping的作用</h2><span id="more"></span>
+    <content><![CDATA[<h2 id="启用DHCP-Snooping的作用"><a href="#启用DHCP-Snooping的作用" class="headerlink" title="启用DHCP Snooping的作用"></a>启用DHCP Snooping的作用</h2><p>一句话：防止非法的DHCP服务器</p>
+<span id="more"></span>
 
-<p>一句话：防止非法的DHCP服务器</p>
+
 <h3 id="哲学思想"><a href="#哲学思想" class="headerlink" title="哲学思想"></a>哲学思想</h3><ul>
 <li>防止非法DHCP服务器snooping</li>
 <li>防止非法DHCP客户端snooping limit</li>
@@ -249,7 +250,7 @@
   <entry>
     <title>思科HSRP的选举机制</title>
     <url>/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/</url>
-    <content><![CDATA[<p>思科HSRP的选举机制</p>
+    <content><![CDATA[<p>思科HSRP的选举机制<br>听其言 (listening) 观其行 (是否是有hello包) 没有就开始自己来 (speaking)</p>
 <span id="more"></span>
 
 <h2 id="HSRP状态"><a href="#HSRP状态" class="headerlink" title="HSRP状态"></a>HSRP状态</h2><p><img src="/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/hsrp.jpg" alt="hsrp状态转换"></p>
