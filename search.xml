@@ -23,6 +23,27 @@
       </tags>
   </entry>
   <entry>
+    <title>linux网络命令</title>
+    <url>/2021/06/01/linux%E7%BD%91%E7%BB%9C%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h3 id="linux修改接口IP和DNS"><a href="#linux修改接口IP和DNS" class="headerlink" title="linux修改接口IP和DNS"></a>linux修改接口IP和DNS</h3><p>1.ifconfig 查看接口的名字</p>
+<p>2.找到路径<br><code>/etc/sysconfig/network-scripts/</code></p>
+<p>3.编辑接口名字<br><code>vi eth0</code></p>
+<p>4.修改DNS<br><code>/etc/resolv.conf</code></p>
+<h3 id="查看接口状态"><a href="#查看接口状态" class="headerlink" title="查看接口状态"></a>查看接口状态</h3><p><code>ip link show</code></p>
+<h3 id="查看IP地址配置："><a href="#查看IP地址配置：" class="headerlink" title="查看IP地址配置："></a>查看IP地址配置：</h3><p><code>ip address</code></p>
+<h3 id="查看路由和默认路由"><a href="#查看路由和默认路由" class="headerlink" title="查看路由和默认路由"></a>查看路由和默认路由</h3><p><code>ip route</code></p>
+<h3 id="其他查看路由命令"><a href="#其他查看路由命令" class="headerlink" title="其他查看路由命令"></a>其他查看路由命令</h3><p><code>route -n</code><br><code>netstat -rn</code> </p>
+<h2 id="nmcli命令"><a href="#nmcli命令" class="headerlink" title="nmcli命令"></a>nmcli命令</h2><p><code>nmcli device status</code><br><code>nmcli connection show</code></p>
+<h2 id="nmtui命令"><a href="#nmtui命令" class="headerlink" title="nmtui命令"></a>nmtui命令</h2><p><code>nmtui</code></p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Linux下FTP的配置</title>
     <url>/2021/06/01/Linux%E4%B8%8BFTP%E7%9A%84%E9%85%8D%E7%BD%AE/</url>
     <content><![CDATA[<h2 id="linux-ftp服务器"><a href="#linux-ftp服务器" class="headerlink" title="linux ftp服务器"></a>linux ftp服务器</h2><h3 id="1、有问题时完全卸载vsftpd"><a href="#1、有问题时完全卸载vsftpd" class="headerlink" title="1、有问题时完全卸载vsftpd"></a>1、有问题时完全卸载vsftpd</h3><p><code>sudo apt-get purge vsftpd</code></p>
@@ -46,6 +67,32 @@
       </categories>
       <tags>
         <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>nagios从零开始</title>
+    <url>/2021/06/01/nagios%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
+    <content><![CDATA[<h2 id="Nagios新增host"><a href="#Nagios新增host" class="headerlink" title="Nagios新增host"></a>Nagios新增host</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/usr/local/nagios/etc/objects/host.cfg</span><br><span class="line">/usr/local/nagios/etc/objects/service.cfg</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="Nagios配置检查"><a href="#Nagios配置检查" class="headerlink" title="Nagios配置检查"></a>Nagios配置检查</h2><p><code>/usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg</code></p>
+<h2 id="查看nagios账号信息"><a href="#查看nagios账号信息" class="headerlink" title="查看nagios账号信息"></a>查看nagios账号信息</h2><p><code>grep &#39;authorized&#39; /usr/local/nagios/etc/cgi.cfg</code></p>
+<h2 id="nagios-check-ping"><a href="#nagios-check-ping" class="headerlink" title="nagios check_ping"></a>nagios check_ping</h2><p><code>check_ping!100.0,20%!500.0,60%</code></p>
+<p>check_ping命令在commands.cfg中定义，后跟两个参数，命令与参数间用 ! 分割。</p>
+<p>在一次check_ping检测中，<br>如果延迟&gt;=500ms，或丢包率超过60%，则触发critical警告。<br>否则，如果延迟&gt;=100ms，或丢包率超过20%，则触发warning警告。<br>否则就不触发警告。</p>
+<p>host_notification_options：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">d = notify on DOWN host states,</span><br><span class="line">u = notify on UNREACHABLE host states</span><br><span class="line">r = notify on host recoveries (UP states)</span><br><span class="line">f = notify when the host starts and stops flapping</span><br><span class="line">s = send notifications when host or service scheduled downtime starts and ends</span><br><span class="line">n (none) the contact will not receive any type of host notifications.</span><br></pre></td></tr></table></figure>
+
+<p>service_notification_options:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">w = notify on WARNING service states</span><br><span class="line">u = notify on UNKNOWN service states</span><br><span class="line">c = notify on CRITICAL service states</span><br><span class="line">r = notify on service recoveries (OK states)</span><br><span class="line">f = notify when the service starts and stops flapping</span><br><span class="line">n (none) the contact will not receive any type of service notifications.</span><br></pre></td></tr></table></figure>
+
+<p>example:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">host_notification_options d,u,r</span><br><span class="line">service_notification_options w,u,c,r</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Nagios</category>
+      </categories>
+      <tags>
+        <tag>Nagios</tag>
       </tags>
   </entry>
   <entry>
@@ -111,24 +158,55 @@
       </tags>
   </entry>
   <entry>
-    <title>linux网络命令</title>
-    <url>/2021/06/01/linux%E7%BD%91%E7%BB%9C%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h3 id="linux修改接口IP和DNS"><a href="#linux修改接口IP和DNS" class="headerlink" title="linux修改接口IP和DNS"></a>linux修改接口IP和DNS</h3><p>1.ifconfig 查看接口的名字</p>
-<p>2.找到路径<br><code>/etc/sysconfig/network-scripts/</code></p>
-<p>3.编辑接口名字<br><code>vi eth0</code></p>
-<p>4.修改DNS<br><code>/etc/resolv.conf</code></p>
-<h3 id="查看接口状态"><a href="#查看接口状态" class="headerlink" title="查看接口状态"></a>查看接口状态</h3><p><code>ip link show</code></p>
-<h3 id="查看IP地址配置："><a href="#查看IP地址配置：" class="headerlink" title="查看IP地址配置："></a>查看IP地址配置：</h3><p><code>ip address</code></p>
-<h3 id="查看路由和默认路由"><a href="#查看路由和默认路由" class="headerlink" title="查看路由和默认路由"></a>查看路由和默认路由</h3><p><code>ip route</code></p>
-<h3 id="其他查看路由命令"><a href="#其他查看路由命令" class="headerlink" title="其他查看路由命令"></a>其他查看路由命令</h3><p><code>route -n</code><br><code>netstat -rn</code> </p>
-<h2 id="nmcli命令"><a href="#nmcli命令" class="headerlink" title="nmcli命令"></a>nmcli命令</h2><p><code>nmcli device status</code><br><code>nmcli connection show</code></p>
-<h2 id="nmtui命令"><a href="#nmtui命令" class="headerlink" title="nmtui命令"></a>nmtui命令</h2><p><code>nmtui</code></p>
+    <title>ssh隧道</title>
+    <url>/2021/06/06/ssh%E9%9A%A7%E9%81%93/</url>
+    <content><![CDATA[<p>通过 ssh 的端口转发或者隧道 (tunneling) 功能，可以实现:<br>A) 加密 SSH Client 端至 SSH Server 端之间的通讯数据；<br>B) 突破防火墙的限制完成一些之前无法建立的 TCP 连接。</p>
+<h2 id="SSH隧道tunnel的种类"><a href="#SSH隧道tunnel的种类" class="headerlink" title="SSH隧道tunnel的种类"></a>SSH隧道tunnel的种类</h2><ol>
+<li>本地转发</li>
+<li>远程转发</li>
+<li>动态转发</li>
+</ol>
+<h3 id="本地转发"><a href="#本地转发" class="headerlink" title="本地转发"></a>本地转发</h3><h4 id="应用场景："><a href="#应用场景：" class="headerlink" title="应用场景："></a>应用场景：</h4><p>为了防止被攻击，通常在进行防火墙配置时，会尽可能减小打开的端口，例如只开启 80/443 服务端口，因此如果需要访问 mysql(3306) 服务只能从本地访问，此时可以使用该功能。</p>
+<p>另外一种场景如下，A 尝试访问 C 提供的 FTP 服务，但是由于防火墙导致不能直接访问，也就是说 ABC 链路不通。但是 ABD 链路是通的，而且 D 上运行着 ssh-server，此时就可以利用隧道技术建立 ABDC 链路。</p>
+<h4 id="命令："><a href="#命令：" class="headerlink" title="命令："></a>命令：</h4><p><code>$ ssh -N -f -L [local port]:[local host]:[remote port] [user@remote host]</code></p>
+<h3 id="远程转发"><a href="#远程转发" class="headerlink" title="远程转发"></a>远程转发</h3><h4 id="应用场景：-1"><a href="#应用场景：-1" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-1"><a href="#命令：-1" class="headerlink" title="命令："></a>命令：</h4><p><code>$ ssh -R [local port]:[remote host]:[remote port] [SSH hostname]</code></p>
+<h3 id="动态转发"><a href="#动态转发" class="headerlink" title="动态转发"></a>动态转发</h3><h4 id="应用场景：-2"><a href="#应用场景：-2" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-2"><a href="#命令：-2" class="headerlink" title="命令："></a>命令：</h4><p><code>$ ssh -D [local port] [SSH Server]</code></p>
+<h3 id="参数介绍"><a href="#参数介绍" class="headerlink" title="参数介绍"></a>参数介绍</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">-N 告诉 SSH 客户端，这个连接不需要执行任何命令，也就是说不需要打开远程 shell，仅仅做端口转发；</span><br><span class="line">-f 告诉SSH客户端在后台运行，要关闭这个后台连接，就只有用 kill 命令去杀掉进程；</span><br><span class="line">-L 做本地映射端口</span><br><span class="line">-R 做远程映射端口</span><br><span class="line">-D 做动态端口映射</span><br><span class="line">-C 压缩数据传输</span><br></pre></td></tr></table></figure>
+
+<h2 id="如何关闭这个SSH隧道"><a href="#如何关闭这个SSH隧道" class="headerlink" title="如何关闭这个SSH隧道"></a>如何关闭这个SSH隧道</h2><p>方法1：<br>ps aux | grep 3306   找到pid<br>kill <pid>   kill pid</p>
+<p>方法2：<br>终止你从终端打开的所有ssh会话。<br>sudo killall ssh</p>
+<p>参考资料：<br><a href="https://gohalo.me/post/ssh-proxy.html">https://gohalo.me/post/ssh-proxy.html</a><br><a href="https://johnliu55.tw/ssh-tunnel.html">https://johnliu55.tw/ssh-tunnel.html</a><br><a href="https://www.howtogeek.com/168145/how-to-use-ssh-tunneling/">https://www.howtogeek.com/168145/how-to-use-ssh-tunneling/</a></p>
 ]]></content>
       <categories>
-        <category>Linux</category>
+        <category>linux</category>
       </categories>
       <tags>
-        <tag>Linux</tag>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>思科WLC命令</title>
+    <url>/2021/06/01/%E6%80%9D%E7%A7%91WLC%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h2 id="AP的基本配置命令"><a href="#AP的基本配置命令" class="headerlink" title="AP的基本配置命令"></a>AP的基本配置命令</h2><h3 id="配置AP的IP地址及网关："><a href="#配置AP的IP地址及网关：" class="headerlink" title="配置AP的IP地址及网关："></a>配置AP的IP地址及网关：</h3><p>AP#capwap ap ip add  [IP address]  [netmask]<br>AP#capwap ap ip default-gateway [Gateway Address]       </p>
+<h3 id="清除AP的IP地址及网关："><a href="#清除AP的IP地址及网关：" class="headerlink" title="清除AP的IP地址及网关："></a>清除AP的IP地址及网关：</h3><p>clear capwap ap ip address<br>clear capwap ap ip default-gateway </p>
+<p>AP#capwap ap erase all</p>
+<h3 id="配置AP的WLC控制器地址"><a href="#配置AP的WLC控制器地址" class="headerlink" title="配置AP的WLC控制器地址"></a>配置AP的WLC控制器地址</h3><p>AP#capwap ap primary-base [Controller name] [Controller address]</p>
+<p>查看WLC的黑名单<br>(Cisco Controller) &gt;show exclusionlist</p>
+<p>添加一个用户MAC到黑名单<br>(Cisco Controller) &gt;config exclusionlist add 00:11:22:33:44:55</p>
+<p>从黑名单删除一个用户MAC<br>(Cisco Controller) &gt;config exclusionlist delete 00:11:22:33:44:55</p>
+<p>打掉用户无线连接<br>(Cisco Controller) &gt;config client deauthenticate  &lt;MAC addr | IPv4/6 addr | user name&gt;</p>
+<h2 id="无线的信号"><a href="#无线的信号" class="headerlink" title="无线的信号"></a>无线的信号</h2><p><a href="https://www.cisco.com/c/en/us/td/docs/wireless/technology/apdeploy/8-0/Cisco_Aironet_3700AP.html">https://www.cisco.com/c/en/us/td/docs/wireless/technology/apdeploy/8-0/Cisco_Aironet_3700AP.html</a></p>
+<p>Called-Station-ID: Normally Contains the MAC address of the Access Point and the SSID on which the wireless device is connecting. These 2 fields are separated by a colon. Example: “AA-BB-CC-DD-EE-FF:SSID_NAME”.</p>
+<p>Calling-Station-ID: Contains the MAC address of the wireless device. Example: “AA-BB-CC-DD-EE-FF”.</p>
+<h2 id="无线证书验证文档"><a href="#无线证书验证文档" class="headerlink" title="无线证书验证文档"></a>无线证书验证文档</h2><p><a href="https://www.cisco.com/c/en/us/support/docs/wireless-mobility/wireless-lan-wlan/213543-configure-eap-tls-flow-with-ise.html">https://www.cisco.com/c/en/us/support/docs/wireless-mobility/wireless-lan-wlan/213543-configure-eap-tls-flow-with-ise.html</a><br><a href="https://www.cisco.com/c/en/us/support/docs/security/identity-services-engine/214975-configure-eap-tls-authentication-with-is.html">https://www.cisco.com/c/en/us/support/docs/security/identity-services-engine/214975-configure-eap-tls-authentication-with-is.html</a>
+ </p>
+]]></content>
+      <categories>
+        <category>Network</category>
+        <category>Wireless</category>
+      </categories>
+      <tags>
+        <tag>Wireless</tag>
       </tags>
   </entry>
   <entry>
@@ -174,29 +252,19 @@
       </tags>
   </entry>
   <entry>
-    <title>nagios从零开始</title>
-    <url>/2021/06/01/nagios%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
-    <content><![CDATA[<h2 id="Nagios新增host"><a href="#Nagios新增host" class="headerlink" title="Nagios新增host"></a>Nagios新增host</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/usr/local/nagios/etc/objects/host.cfg</span><br><span class="line">/usr/local/nagios/etc/objects/service.cfg</span><br></pre></td></tr></table></figure>
+    <title>思科交换机stack和VSS</title>
+    <url>/2021/06/01/%E6%80%9D%E7%A7%91%E4%BA%A4%E6%8D%A2%E6%9C%BAstack%E5%92%8CVSS/</url>
+    <content><![CDATA[<h2 id="配置domain"><a href="#配置domain" class="headerlink" title="配置domain:"></a>配置domain:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#conf t</span><br><span class="line">9500-A(config)#stackwise-virtual</span><br><span class="line">9500-A(config-stackwise-virtual)#domain 1 </span><br><span class="line">9500-A(config-stackwise-virtual)#exit</span><br></pre></td></tr></table></figure>
+<h2 id="配置virtual-link"><a href="#配置virtual-link" class="headerlink" title="配置virtual-link:"></a>配置virtual-link:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#inter ran ten 1/0/1, ten 1/0/2</span><br><span class="line">9500-A(config-if-range)#stackwise-virtual link 1 </span><br></pre></td></tr></table></figure>
+<h2 id="配置-dual-detection-link"><a href="#配置-dual-detection-link" class="headerlink" title="配置 dual-detection link"></a>配置 dual-detection link</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#int te1/0/3</span><br><span class="line">9500-A(config-if)#stackwise-virtual dual-active-detection</span><br></pre></td></tr></table></figure>
 
-
-<h2 id="Nagios配置检查"><a href="#Nagios配置检查" class="headerlink" title="Nagios配置检查"></a>Nagios配置检查</h2><p><code>/usr/local/nagios/bin/nagios -v /usr/local/nagios/etc/nagios.cfg</code></p>
-<h2 id="查看nagios账号信息"><a href="#查看nagios账号信息" class="headerlink" title="查看nagios账号信息"></a>查看nagios账号信息</h2><p><code>grep &#39;authorized&#39; /usr/local/nagios/etc/cgi.cfg</code></p>
-<h2 id="nagios-check-ping"><a href="#nagios-check-ping" class="headerlink" title="nagios check_ping"></a>nagios check_ping</h2><p><code>check_ping!100.0,20%!500.0,60%</code></p>
-<p>check_ping命令在commands.cfg中定义，后跟两个参数，命令与参数间用 ! 分割。</p>
-<p>在一次check_ping检测中，<br>如果延迟&gt;=500ms，或丢包率超过60%，则触发critical警告。<br>否则，如果延迟&gt;=100ms，或丢包率超过20%，则触发warning警告。<br>否则就不触发警告。</p>
-<p>host_notification_options：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">d = notify on DOWN host states,</span><br><span class="line">u = notify on UNREACHABLE host states</span><br><span class="line">r = notify on host recoveries (UP states)</span><br><span class="line">f = notify when the host starts and stops flapping</span><br><span class="line">s = send notifications when host or service scheduled downtime starts and ends</span><br><span class="line">n (none) the contact will not receive any type of host notifications.</span><br></pre></td></tr></table></figure>
-
-<p>service_notification_options:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">w = notify on WARNING service states</span><br><span class="line">u = notify on UNKNOWN service states</span><br><span class="line">c = notify on CRITICAL service states</span><br><span class="line">r = notify on service recoveries (OK states)</span><br><span class="line">f = notify when the service starts and stops flapping</span><br><span class="line">n (none) the contact will not receive any type of service notifications.</span><br></pre></td></tr></table></figure>
-
-<p>example:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">host_notification_options d,u,r</span><br><span class="line">service_notification_options w,u,c,r</span><br></pre></td></tr></table></figure>]]></content>
+<h2 id="配置优先级"><a href="#配置优先级" class="headerlink" title="配置优先级"></a>配置优先级</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#switch 1 priority 15</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>Nagios</category>
+        <category>Network</category>
+        <category>Switch</category>
       </categories>
       <tags>
-        <tag>Nagios</tag>
+        <tag>Switch</tag>
       </tags>
   </entry>
   <entry>
@@ -251,46 +319,5 @@
         <category>Network</category>
         <category>Switch</category>
       </categories>
-  </entry>
-  <entry>
-    <title>思科交换机stack和VSS</title>
-    <url>/2021/06/01/%E6%80%9D%E7%A7%91%E4%BA%A4%E6%8D%A2%E6%9C%BAstack%E5%92%8CVSS/</url>
-    <content><![CDATA[<h2 id="配置domain"><a href="#配置domain" class="headerlink" title="配置domain:"></a>配置domain:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#conf t</span><br><span class="line">9500-A(config)#stackwise-virtual</span><br><span class="line">9500-A(config-stackwise-virtual)#domain 1 </span><br><span class="line">9500-A(config-stackwise-virtual)#exit</span><br></pre></td></tr></table></figure>
-<h2 id="配置virtual-link"><a href="#配置virtual-link" class="headerlink" title="配置virtual-link:"></a>配置virtual-link:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#inter ran ten 1/0/1, ten 1/0/2</span><br><span class="line">9500-A(config-if-range)#stackwise-virtual link 1 </span><br></pre></td></tr></table></figure>
-<h2 id="配置-dual-detection-link"><a href="#配置-dual-detection-link" class="headerlink" title="配置 dual-detection link"></a>配置 dual-detection link</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#int te1/0/3</span><br><span class="line">9500-A(config-if)#stackwise-virtual dual-active-detection</span><br></pre></td></tr></table></figure>
-
-<h2 id="配置优先级"><a href="#配置优先级" class="headerlink" title="配置优先级"></a>配置优先级</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#switch 1 priority 15</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Network</category>
-        <category>Switch</category>
-      </categories>
-      <tags>
-        <tag>Switch</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>思科WLC命令</title>
-    <url>/2021/06/01/%E6%80%9D%E7%A7%91WLC%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h2 id="AP的基本配置命令"><a href="#AP的基本配置命令" class="headerlink" title="AP的基本配置命令"></a>AP的基本配置命令</h2><h3 id="配置AP的IP地址及网关："><a href="#配置AP的IP地址及网关：" class="headerlink" title="配置AP的IP地址及网关："></a>配置AP的IP地址及网关：</h3><p>AP#capwap ap ip add  [IP address]  [netmask]<br>AP#capwap ap ip default-gateway [Gateway Address]       </p>
-<h3 id="清除AP的IP地址及网关："><a href="#清除AP的IP地址及网关：" class="headerlink" title="清除AP的IP地址及网关："></a>清除AP的IP地址及网关：</h3><p>clear capwap ap ip address<br>clear capwap ap ip default-gateway </p>
-<p>AP#capwap ap erase all</p>
-<h3 id="配置AP的WLC控制器地址"><a href="#配置AP的WLC控制器地址" class="headerlink" title="配置AP的WLC控制器地址"></a>配置AP的WLC控制器地址</h3><p>AP#capwap ap primary-base [Controller name] [Controller address]</p>
-<p>查看WLC的黑名单<br>(Cisco Controller) &gt;show exclusionlist</p>
-<p>添加一个用户MAC到黑名单<br>(Cisco Controller) &gt;config exclusionlist add 00:11:22:33:44:55</p>
-<p>从黑名单删除一个用户MAC<br>(Cisco Controller) &gt;config exclusionlist delete 00:11:22:33:44:55</p>
-<p>打掉用户无线连接<br>(Cisco Controller) &gt;config client deauthenticate  &lt;MAC addr | IPv4/6 addr | user name&gt;</p>
-<h2 id="无线的信号"><a href="#无线的信号" class="headerlink" title="无线的信号"></a>无线的信号</h2><p><a href="https://www.cisco.com/c/en/us/td/docs/wireless/technology/apdeploy/8-0/Cisco_Aironet_3700AP.html">https://www.cisco.com/c/en/us/td/docs/wireless/technology/apdeploy/8-0/Cisco_Aironet_3700AP.html</a></p>
-<p>Called-Station-ID: Normally Contains the MAC address of the Access Point and the SSID on which the wireless device is connecting. These 2 fields are separated by a colon. Example: “AA-BB-CC-DD-EE-FF:SSID_NAME”.</p>
-<p>Calling-Station-ID: Contains the MAC address of the wireless device. Example: “AA-BB-CC-DD-EE-FF”.</p>
-<h2 id="无线证书验证文档"><a href="#无线证书验证文档" class="headerlink" title="无线证书验证文档"></a>无线证书验证文档</h2><p><a href="https://www.cisco.com/c/en/us/support/docs/wireless-mobility/wireless-lan-wlan/213543-configure-eap-tls-flow-with-ise.html">https://www.cisco.com/c/en/us/support/docs/wireless-mobility/wireless-lan-wlan/213543-configure-eap-tls-flow-with-ise.html</a><br><a href="https://www.cisco.com/c/en/us/support/docs/security/identity-services-engine/214975-configure-eap-tls-authentication-with-is.html">https://www.cisco.com/c/en/us/support/docs/security/identity-services-engine/214975-configure-eap-tls-authentication-with-is.html</a>
- </p>
-]]></content>
-      <categories>
-        <category>Network</category>
-        <category>Wireless</category>
-      </categories>
-      <tags>
-        <tag>Wireless</tag>
-      </tags>
   </entry>
 </search>
