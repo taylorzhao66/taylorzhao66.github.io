@@ -20,15 +20,15 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="AP的基本配置命令配置AP的IP地址及网关：AP#capwap ap ip add  [IP address]  [netmask]AP#capwap ap ip default-gateway [Gateway Address]        清除AP的IP地址及网关：clear capwap ap ip addressclear capwap ap ip default-gateway  AP">
+  <meta name="description" content="思科WLC命令">
 <meta property="og:type" content="article">
 <meta property="og:title" content="思科WLC命令">
 <meta property="og:url" content="http://example.com/2021/06/01/%E6%80%9D%E7%A7%91WLC%E5%91%BD%E4%BB%A4/index.html">
 <meta property="og:site_name" content="太乐BLOG">
-<meta property="og:description" content="AP的基本配置命令配置AP的IP地址及网关：AP#capwap ap ip add  [IP address]  [netmask]AP#capwap ap ip default-gateway [Gateway Address]        清除AP的IP地址及网关：clear capwap ap ip addressclear capwap ap ip default-gateway  AP">
+<meta property="og:description" content="思科WLC命令">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-06-01T14:25:26.000Z">
-<meta property="article:modified_time" content="2021-06-01T14:32:21.269Z">
+<meta property="article:modified_time" content="2021-06-06T13:25:10.373Z">
 <meta property="article:author" content="Taylor Zhao">
 <meta property="article:tag" content="Wireless">
 <meta name="twitter:card" content="summary">
@@ -217,10 +217,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2021-06-01 22:25:26 / 修改时间：22:32:21" itemprop="dateCreated datePublished" datetime="2021-06-01T22:25:26+08:00">2021-06-01</time>
+              <time title="创建时间：2021-06-01 22:25:26" itemprop="dateCreated datePublished" datetime="2021-06-01T22:25:26+08:00">2021-06-01</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-06-06 21:25:10" itemprop="dateModified" datetime="2021-06-06T21:25:10+08:00">2021-06-06</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -253,7 +259,9 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h2 id="AP的基本配置命令"><a href="#AP的基本配置命令" class="headerlink" title="AP的基本配置命令"></a>AP的基本配置命令</h2><h3 id="配置AP的IP地址及网关："><a href="#配置AP的IP地址及网关：" class="headerlink" title="配置AP的IP地址及网关："></a>配置AP的IP地址及网关：</h3><p>AP#capwap ap ip add  [IP address]  [netmask]<br>AP#capwap ap ip default-gateway [Gateway Address]       </p>
+        <p>思科WLC命令</p>
+<span id="more"></span>
+<h2 id="AP的基本配置命令"><a href="#AP的基本配置命令" class="headerlink" title="AP的基本配置命令"></a>AP的基本配置命令</h2><h3 id="配置AP的IP地址及网关："><a href="#配置AP的IP地址及网关：" class="headerlink" title="配置AP的IP地址及网关："></a>配置AP的IP地址及网关：</h3><p>AP#capwap ap ip add  [IP address]  [netmask]<br>AP#capwap ap ip default-gateway [Gateway Address]       </p>
 <h3 id="清除AP的IP地址及网关："><a href="#清除AP的IP地址及网关：" class="headerlink" title="清除AP的IP地址及网关："></a>清除AP的IP地址及网关：</h3><p>clear capwap ap ip address<br>clear capwap ap ip default-gateway </p>
 <p>AP#capwap ap erase all</p>
 <h3 id="配置AP的WLC控制器地址"><a href="#配置AP的WLC控制器地址" class="headerlink" title="配置AP的WLC控制器地址"></a>配置AP的WLC控制器地址</h3><p>AP#capwap ap primary-base [Controller name] [Controller address]</p>
