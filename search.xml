@@ -23,6 +23,53 @@
       </tags>
   </entry>
   <entry>
+    <title>Linux下FTP的配置</title>
+    <url>/2021/06/01/Linux%E4%B8%8BFTP%E7%9A%84%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<h2 id="linux-ftp服务器"><a href="#linux-ftp服务器" class="headerlink" title="linux ftp服务器"></a>linux ftp服务器</h2><h3 id="1、有问题时完全卸载vsftpd"><a href="#1、有问题时完全卸载vsftpd" class="headerlink" title="1、有问题时完全卸载vsftpd"></a>1、有问题时完全卸载vsftpd</h3><p><code>sudo apt-get purge vsftpd</code></p>
+<h3 id="2、安装vsftpd"><a href="#2、安装vsftpd" class="headerlink" title="2、安装vsftpd"></a>2、安装vsftpd</h3><p><code>sudo apt-get install vsftpd</code></p>
+<h3 id="3、创建ftp用户"><a href="#3、创建ftp用户" class="headerlink" title="3、创建ftp用户"></a>3、创建ftp用户</h3><p>方法一：直接在系统设置添加用户</p>
+<p>方法二：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">创建用户目录 sudo mkdir /home/uftp</span><br><span class="line">创建用户 sudo useradd -d /home/uftp -s /bin/bash uftp</span><br><span class="line">修改密码 sudo passwd uftp</span><br></pre></td></tr></table></figure>
+
+<h3 id="4、配置vsftpd-conf"><a href="#4、配置vsftpd-conf" class="headerlink" title="4、配置vsftpd.conf"></a>4、配置vsftpd.conf</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo vi /etc/vsftpd.conf</span><br><span class="line"></span><br><span class="line">编辑vsftpd.conf文件</span><br><span class="line"></span><br><span class="line">开启 本地用户 才能访问</span><br><span class="line">local_enable=YES</span><br><span class="line"></span><br><span class="line">#设置文件上传</span><br><span class="line">write_enable=YES</span><br><span class="line"></span><br><span class="line">#使用utf8</span><br><span class="line">utf8_filesystem=YES</span><br><span class="line"></span><br><span class="line">#限制所有的本地用户在自家目录</span><br><span class="line">chroot_local_user=YES  </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#开启 用户列表进行访问控制</span><br><span class="line">userlist_enable=YES</span><br><span class="line">userlist_deny=NO</span><br><span class="line"></span><br><span class="line">#允许登录的用户</span><br><span class="line">userlist_file=/etc/allowed_users</span><br><span class="line">seccomp_sandbox=NO</span><br><span class="line"></span><br><span class="line">#默认ftp下载目录</span><br><span class="line">local_root=/home/uftp/</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">添加允许登录的用户</span><br><span class="line"></span><br><span class="line">sudo vi /etc/allowed_users</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="5、启动停止重启服务"><a href="#5、启动停止重启服务" class="headerlink" title="5、启动停止重启服务"></a>5、启动停止重启服务</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo /etc/init.d/vsftpd start</span><br><span class="line">sudo /etc/init.d/vsftpd stop</span><br><span class="line">sudo /etc/init.d/vsftpd restart</span><br><span class="line"></span><br><span class="line">systemctl status vsftpd.service</span><br><span class="line">systemctl restart vsftpd.service</span><br></pre></td></tr></table></figure>
+
+<h3 id="其他注意事项"><a href="#其他注意事项" class="headerlink" title="其他注意事项"></a>其他注意事项</h3><p>Linux 用户名和密码都正确却 无法登录 报错信息和解决办法<br>vsftpd: refusing to run with writable root inside chroot() 错误的解决办法<br>一下是解决办法：</p>
+<p>为了避免一个安全漏洞，从 vsftpd 2.3.5 开始，chroot 目录必须不可写。使用命令：</p>
+<h1 id="chmod-a-w-home-user"><a href="#chmod-a-w-home-user" class="headerlink" title="chmod a-w /home/user"></a>chmod a-w /home/user</h1><p>user 为FTP所连接的目录</p>
+<p>十分好用的查看开启的feature的命令<br>cat /etc/vsftpd.conf | grep -v “#” | more</p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>linux网络命令</title>
+    <url>/2021/06/01/linux%E7%BD%91%E7%BB%9C%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h3 id="linux修改接口IP和DNS"><a href="#linux修改接口IP和DNS" class="headerlink" title="linux修改接口IP和DNS"></a>linux修改接口IP和DNS</h3><p>1.ifconfig 查看接口的名字</p>
+<p>2.找到路径<br><code>/etc/sysconfig/network-scripts/</code></p>
+<p>3.编辑接口名字<br><code>vi eth0</code></p>
+<p>4.修改DNS<br><code>/etc/resolv.conf</code></p>
+<h3 id="查看接口状态"><a href="#查看接口状态" class="headerlink" title="查看接口状态"></a>查看接口状态</h3><p><code>ip link show</code></p>
+<h3 id="查看IP地址配置："><a href="#查看IP地址配置：" class="headerlink" title="查看IP地址配置："></a>查看IP地址配置：</h3><p><code>ip address</code></p>
+<h3 id="查看路由和默认路由"><a href="#查看路由和默认路由" class="headerlink" title="查看路由和默认路由"></a>查看路由和默认路由</h3><p><code>ip route</code></p>
+<h3 id="其他查看路由命令"><a href="#其他查看路由命令" class="headerlink" title="其他查看路由命令"></a>其他查看路由命令</h3><p><code>route -n</code><br><code>netstat -rn</code> </p>
+<h2 id="nmcli命令"><a href="#nmcli命令" class="headerlink" title="nmcli命令"></a>nmcli命令</h2><p><code>nmcli device status</code><br><code>nmcli connection show</code></p>
+<h2 id="nmtui命令"><a href="#nmtui命令" class="headerlink" title="nmtui命令"></a>nmtui命令</h2><p><code>nmtui</code></p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo从零开始</title>
     <url>/2021/05/26/hexo%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
     <content><![CDATA[<h2 id="如何安装hexo"><a href="#如何安装hexo" class="headerlink" title="如何安装hexo"></a>如何安装hexo</h2><p>Hexo官方网址<br><a href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a></p>
@@ -85,66 +132,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Linux下FTP的配置</title>
-    <url>/2021/06/01/Linux%E4%B8%8BFTP%E7%9A%84%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<h2 id="linux-ftp服务器"><a href="#linux-ftp服务器" class="headerlink" title="linux ftp服务器"></a>linux ftp服务器</h2><h3 id="1、有问题时完全卸载vsftpd"><a href="#1、有问题时完全卸载vsftpd" class="headerlink" title="1、有问题时完全卸载vsftpd"></a>1、有问题时完全卸载vsftpd</h3><p><code>sudo apt-get purge vsftpd</code></p>
-<h3 id="2、安装vsftpd"><a href="#2、安装vsftpd" class="headerlink" title="2、安装vsftpd"></a>2、安装vsftpd</h3><p><code>sudo apt-get install vsftpd</code></p>
-<h3 id="3、创建ftp用户"><a href="#3、创建ftp用户" class="headerlink" title="3、创建ftp用户"></a>3、创建ftp用户</h3><p>方法一：直接在系统设置添加用户</p>
-<p>方法二：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">创建用户目录 sudo mkdir /home/uftp</span><br><span class="line">创建用户 sudo useradd -d /home/uftp -s /bin/bash uftp</span><br><span class="line">修改密码 sudo passwd uftp</span><br></pre></td></tr></table></figure>
-
-<h3 id="4、配置vsftpd-conf"><a href="#4、配置vsftpd-conf" class="headerlink" title="4、配置vsftpd.conf"></a>4、配置vsftpd.conf</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo vi /etc/vsftpd.conf</span><br><span class="line"></span><br><span class="line">编辑vsftpd.conf文件</span><br><span class="line"></span><br><span class="line">开启 本地用户 才能访问</span><br><span class="line">local_enable=YES</span><br><span class="line"></span><br><span class="line">#设置文件上传</span><br><span class="line">write_enable=YES</span><br><span class="line"></span><br><span class="line">#使用utf8</span><br><span class="line">utf8_filesystem=YES</span><br><span class="line"></span><br><span class="line">#限制所有的本地用户在自家目录</span><br><span class="line">chroot_local_user=YES  </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#开启 用户列表进行访问控制</span><br><span class="line">userlist_enable=YES</span><br><span class="line">userlist_deny=NO</span><br><span class="line"></span><br><span class="line">#允许登录的用户</span><br><span class="line">userlist_file=/etc/allowed_users</span><br><span class="line">seccomp_sandbox=NO</span><br><span class="line"></span><br><span class="line">#默认ftp下载目录</span><br><span class="line">local_root=/home/uftp/</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">添加允许登录的用户</span><br><span class="line"></span><br><span class="line">sudo vi /etc/allowed_users</span><br></pre></td></tr></table></figure>
-
-
-<h3 id="5、启动停止重启服务"><a href="#5、启动停止重启服务" class="headerlink" title="5、启动停止重启服务"></a>5、启动停止重启服务</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo /etc/init.d/vsftpd start</span><br><span class="line">sudo /etc/init.d/vsftpd stop</span><br><span class="line">sudo /etc/init.d/vsftpd restart</span><br><span class="line"></span><br><span class="line">systemctl status vsftpd.service</span><br><span class="line">systemctl restart vsftpd.service</span><br></pre></td></tr></table></figure>
-
-<h3 id="其他注意事项"><a href="#其他注意事项" class="headerlink" title="其他注意事项"></a>其他注意事项</h3><p>Linux 用户名和密码都正确却 无法登录 报错信息和解决办法<br>vsftpd: refusing to run with writable root inside chroot() 错误的解决办法<br>一下是解决办法：</p>
-<p>为了避免一个安全漏洞，从 vsftpd 2.3.5 开始，chroot 目录必须不可写。使用命令：</p>
-<h1 id="chmod-a-w-home-user"><a href="#chmod-a-w-home-user" class="headerlink" title="chmod a-w /home/user"></a>chmod a-w /home/user</h1><p>user 为FTP所连接的目录</p>
-<p>十分好用的查看开启的feature的命令<br>cat /etc/vsftpd.conf | grep -v “#” | more</p>
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>linux网络命令</title>
-    <url>/2021/06/01/linux%E7%BD%91%E7%BB%9C%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h3 id="linux修改接口IP和DNS"><a href="#linux修改接口IP和DNS" class="headerlink" title="linux修改接口IP和DNS"></a>linux修改接口IP和DNS</h3><p>1.ifconfig 查看接口的名字</p>
-<p>2.找到路径<br><code>/etc/sysconfig/network-scripts/</code></p>
-<p>3.编辑接口名字<br><code>vi eth0</code></p>
-<p>4.修改DNS<br><code>/etc/resolv.conf</code></p>
-<h3 id="查看接口状态"><a href="#查看接口状态" class="headerlink" title="查看接口状态"></a>查看接口状态</h3><p><code>ip link show</code></p>
-<h3 id="查看IP地址配置："><a href="#查看IP地址配置：" class="headerlink" title="查看IP地址配置："></a>查看IP地址配置：</h3><p><code>ip address</code></p>
-<h3 id="查看路由和默认路由"><a href="#查看路由和默认路由" class="headerlink" title="查看路由和默认路由"></a>查看路由和默认路由</h3><p><code>ip route</code></p>
-<h3 id="其他查看路由命令"><a href="#其他查看路由命令" class="headerlink" title="其他查看路由命令"></a>其他查看路由命令</h3><p><code>route -n</code><br><code>netstat -rn</code> </p>
-<h2 id="nmcli命令"><a href="#nmcli命令" class="headerlink" title="nmcli命令"></a>nmcli命令</h2><p><code>nmcli device status</code><br><code>nmcli connection show</code></p>
-<h2 id="nmtui命令"><a href="#nmtui命令" class="headerlink" title="nmtui命令"></a>nmtui命令</h2><p><code>nmtui</code></p>
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>node.js汇总</title>
-    <url>/2021/05/26/node.js%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
-    <content><![CDATA[<h1 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h1><p>Node.js 就是运行在服务端的 JavaScript。<br>Node.js 是一个基于Chrome JavaScript 运行时建立的一个平台。<br>Node.js是一个事件驱动I/O服务端JavaScript环境，基于Google的V8引擎，V8引擎执行Javascript的速度非常快，性能非常好</p>
-<p>查看node版本</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ node -v</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>node.js</category>
-      </categories>
-      <tags>
-        <tag>js</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>nagios从零开始</title>
     <url>/2021/06/01/nagios%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
     <content><![CDATA[<h2 id="Nagios新增host"><a href="#Nagios新增host" class="headerlink" title="Nagios新增host"></a>Nagios新增host</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/usr/local/nagios/etc/objects/host.cfg</span><br><span class="line">/usr/local/nagios/etc/objects/service.cfg</span><br></pre></td></tr></table></figure>
@@ -168,44 +155,6 @@
       </categories>
       <tags>
         <tag>Nagios</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ssh隧道</title>
-    <url>/2021/06/06/ssh%E9%9A%A7%E9%81%93/</url>
-    <content><![CDATA[<p>通过 ssh 的端口转发或者隧道 (tunneling) 功能，可以实现:<br>A) 加密 SSH Client 端至 SSH Server 端之间的通讯数据；<br>B) 突破防火墙的限制完成一些之前无法建立的 TCP 连接。</p>
-<h2 id="SSH隧道tunnel的3个种类"><a href="#SSH隧道tunnel的3个种类" class="headerlink" title="SSH隧道tunnel的3个种类"></a>SSH隧道tunnel的3个种类</h2><ol>
-<li>本地转发</li>
-<li>远程转发</li>
-<li>动态转发</li>
-</ol>
-<h1 id="SSH隧道的三种角色"><a href="#SSH隧道的三种角色" class="headerlink" title="SSH隧道的三种角色"></a>SSH隧道的三种角色</h1><ol>
-<li>SSH客户端</li>
-<li>SSH服务端</li>
-<li>应用</li>
-</ol>
-<h3 id="本地转发"><a href="#本地转发" class="headerlink" title="本地转发"></a>本地转发</h3><h4 id="应用场景："><a href="#应用场景：" class="headerlink" title="应用场景："></a>应用场景：</h4><ol>
-<li>自己电脑 内网直接访问数据库服务器3306,安全原因，被防火墙阻挡，</li>
-<li>自己电脑 访问外网某FTP服务器，但是21被防火墙阻挡, 但是可以SSH公网的自己的服务器</li>
-</ol>
-<h4 id="命令："><a href="#命令：" class="headerlink" title="命令："></a>命令：</h4><p>Local 为ssh客户端一方<br>remote为ssh服务端一方</p>
-<p><code>ssh -L local_port:remote_address:remote_port username@server.com</code></p>
-<p>ssh -L 8888:localhost:1234 <a href="mailto:&#x62;&#x6f;&#98;&#64;&#115;&#115;&#x68;&#x2e;&#121;&#111;&#x75;&#x72;&#x6f;&#102;&#102;&#105;&#x63;&#x65;&#46;&#x63;&#x6f;&#109;">&#x62;&#x6f;&#98;&#64;&#115;&#115;&#x68;&#x2e;&#121;&#111;&#x75;&#x72;&#x6f;&#102;&#102;&#105;&#x63;&#x65;&#46;&#x63;&#x6f;&#109;</a><br>ssh -L 8888:192.168.1.111:1234 <a href="mailto:&#98;&#x6f;&#98;&#64;&#115;&#115;&#104;&#x2e;&#x79;&#x6f;&#117;&#114;&#x6f;&#x66;&#x66;&#x69;&#x63;&#101;&#x2e;&#99;&#111;&#x6d;">&#98;&#x6f;&#98;&#64;&#115;&#115;&#104;&#x2e;&#x79;&#x6f;&#117;&#114;&#x6f;&#x66;&#x66;&#x69;&#x63;&#101;&#x2e;&#99;&#111;&#x6d;</a></p>
-<h3 id="远程转发"><a href="#远程转发" class="headerlink" title="远程转发"></a>远程转发</h3><h4 id="应用场景：-1"><a href="#应用场景：-1" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-1"><a href="#命令：-1" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -R remote_port:local_address:local_port username@server.com</code></p>
-<p>ssh -R 8888:localhost:1234 <a href="mailto:&#x62;&#111;&#98;&#x40;&#115;&#x73;&#104;&#46;&#121;&#x6f;&#117;&#x72;&#x6f;&#x66;&#102;&#x69;&#99;&#x65;&#46;&#x63;&#x6f;&#x6d;">&#x62;&#111;&#98;&#x40;&#115;&#x73;&#104;&#46;&#121;&#x6f;&#117;&#x72;&#x6f;&#x66;&#102;&#x69;&#99;&#x65;&#46;&#x63;&#x6f;&#x6d;</a></p>
-<h3 id="动态转发"><a href="#动态转发" class="headerlink" title="动态转发"></a>动态转发</h3><h4 id="应用场景：-2"><a href="#应用场景：-2" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-2"><a href="#命令：-2" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -D local_port username@server.com</code></p>
-<p>ssh -D 8888 <a href="mailto:&#x62;&#111;&#x62;&#x40;&#x73;&#x73;&#x68;&#x2e;&#121;&#111;&#117;&#114;&#x68;&#111;&#x6d;&#x65;&#x2e;&#99;&#x6f;&#x6d;">&#x62;&#111;&#x62;&#x40;&#x73;&#x73;&#x68;&#x2e;&#121;&#111;&#117;&#114;&#x68;&#111;&#x6d;&#x65;&#x2e;&#99;&#x6f;&#x6d;</a></p>
-<h3 id="参数介绍"><a href="#参数介绍" class="headerlink" title="参数介绍"></a>参数介绍</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">-N 告诉 SSH 客户端，这个连接不需要执行任何命令，也就是说不需要打开远程 shell，仅仅做端口转发；</span><br><span class="line">-f 告诉SSH客户端在后台运行，要关闭这个后台连接，就只有用 kill 命令去杀掉进程；</span><br><span class="line">-L 做本地映射端口</span><br><span class="line">-R 做远程映射端口</span><br><span class="line">-D 做动态端口映射</span><br><span class="line">-C 压缩数据传输</span><br></pre></td></tr></table></figure>
-
-<h2 id="如何关闭这个SSH隧道"><a href="#如何关闭这个SSH隧道" class="headerlink" title="如何关闭这个SSH隧道"></a>如何关闭这个SSH隧道</h2><p>方法1：<br>ps aux | grep 3306   找到pid<br>kill <pid>   kill pid</p>
-<p>方法2：<br>终止你从终端打开的所有ssh会话。<br>sudo killall ssh</p>
-<p>参考资料：<br><a href="https://gohalo.me/post/ssh-proxy.html">https://gohalo.me/post/ssh-proxy.html</a><br><a href="https://johnliu55.tw/ssh-tunnel.html">https://johnliu55.tw/ssh-tunnel.html</a><br><a href="https://www.howtogeek.com/168145/how-to-use-ssh-tunneling/">https://www.howtogeek.com/168145/how-to-use-ssh-tunneling/</a></p>
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -238,6 +187,79 @@
       </tags>
   </entry>
   <entry>
+    <title>node.js汇总</title>
+    <url>/2021/05/26/node.js%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
+    <content><![CDATA[<h1 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h1><p>Node.js 就是运行在服务端的 JavaScript。<br>Node.js 是一个基于Chrome JavaScript 运行时建立的一个平台。<br>Node.js是一个事件驱动I/O服务端JavaScript环境，基于Google的V8引擎，V8引擎执行Javascript的速度非常快，性能非常好</p>
+<p>查看node版本</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ node -v</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>node.js</category>
+      </categories>
+      <tags>
+        <tag>js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ssh隧道</title>
+    <url>/2021/06/06/ssh%E9%9A%A7%E9%81%93/</url>
+    <content><![CDATA[<p>通过 ssh 的端口转发或者隧道 (tunneling) 功能，可以实现:<br>A) 加密 SSH Client 端至 SSH Server 端之间的通讯数据；<br>B) 突破防火墙的限制完成一些之前无法建立的 TCP 连接。</p>
+<h2 id="SSH隧道tunnel的3个种类"><a href="#SSH隧道tunnel的3个种类" class="headerlink" title="SSH隧道tunnel的3个种类"></a>SSH隧道tunnel的3个种类</h2><ol>
+<li>本地转发</li>
+<li>远程转发</li>
+<li>动态转发</li>
+</ol>
+<h1 id="SSH隧道的三种角色"><a href="#SSH隧道的三种角色" class="headerlink" title="SSH隧道的三种角色"></a>SSH隧道的三种角色</h1><ol>
+<li>SSH客户端</li>
+<li>SSH服务端</li>
+<li>应用</li>
+</ol>
+<h3 id="本地转发"><a href="#本地转发" class="headerlink" title="本地转发"></a>本地转发</h3><h4 id="应用场景："><a href="#应用场景：" class="headerlink" title="应用场景："></a>应用场景：</h4><ol>
+<li>自己电脑 内网直接访问数据库服务器3306,安全原因，被防火墙阻挡，</li>
+<li>自己电脑 访问外网某FTP服务器，但是21被防火墙阻挡, 但是可以SSH公网的自己的服务器</li>
+</ol>
+<h4 id="命令："><a href="#命令：" class="headerlink" title="命令："></a>命令：</h4><p>Local 为ssh客户端一方<br>remote为ssh服务端一方</p>
+<p><code>ssh -L local_port:remote_address:remote_port username@server.com</code></p>
+<p>ssh -L 8888:localhost:1234 <a href="mailto:&#x62;&#x6f;&#98;&#x40;&#115;&#115;&#x68;&#x2e;&#121;&#x6f;&#117;&#x72;&#x6f;&#102;&#x66;&#x69;&#x63;&#101;&#x2e;&#x63;&#111;&#109;">&#x62;&#x6f;&#98;&#x40;&#115;&#115;&#x68;&#x2e;&#121;&#x6f;&#117;&#x72;&#x6f;&#102;&#x66;&#x69;&#x63;&#101;&#x2e;&#x63;&#111;&#109;</a><br>ssh -L 8888:192.168.1.111:1234 <a href="mailto:&#x62;&#111;&#x62;&#64;&#115;&#x73;&#x68;&#x2e;&#x79;&#x6f;&#x75;&#114;&#x6f;&#102;&#x66;&#105;&#99;&#x65;&#46;&#x63;&#x6f;&#x6d;">&#x62;&#111;&#x62;&#64;&#115;&#x73;&#x68;&#x2e;&#x79;&#x6f;&#x75;&#114;&#x6f;&#102;&#x66;&#105;&#99;&#x65;&#46;&#x63;&#x6f;&#x6d;</a></p>
+<h3 id="远程转发"><a href="#远程转发" class="headerlink" title="远程转发"></a>远程转发</h3><h4 id="应用场景：-1"><a href="#应用场景：-1" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-1"><a href="#命令：-1" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -R remote_port:local_address:local_port username@server.com</code></p>
+<p>ssh -R 8888:localhost:1234 <a href="mailto:&#98;&#111;&#x62;&#64;&#115;&#x73;&#104;&#x2e;&#x79;&#x6f;&#117;&#114;&#x6f;&#102;&#102;&#105;&#x63;&#x65;&#x2e;&#99;&#111;&#x6d;">&#98;&#111;&#x62;&#64;&#115;&#x73;&#104;&#x2e;&#x79;&#x6f;&#117;&#114;&#x6f;&#102;&#102;&#105;&#x63;&#x65;&#x2e;&#99;&#111;&#x6d;</a></p>
+<h3 id="动态转发"><a href="#动态转发" class="headerlink" title="动态转发"></a>动态转发</h3><h4 id="应用场景：-2"><a href="#应用场景：-2" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-2"><a href="#命令：-2" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -D local_port username@server.com</code></p>
+<p>ssh -D 8888 <a href="mailto:&#x62;&#111;&#98;&#64;&#x73;&#x73;&#104;&#46;&#x79;&#111;&#x75;&#114;&#104;&#111;&#109;&#101;&#x2e;&#x63;&#x6f;&#x6d;">&#x62;&#111;&#98;&#64;&#x73;&#x73;&#104;&#46;&#x79;&#111;&#x75;&#114;&#104;&#111;&#109;&#101;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
+<h3 id="参数介绍"><a href="#参数介绍" class="headerlink" title="参数介绍"></a>参数介绍</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">-N 告诉 SSH 客户端，这个连接不需要执行任何命令，也就是说不需要打开远程 shell，仅仅做端口转发；</span><br><span class="line">-f 告诉SSH客户端在后台运行，要关闭这个后台连接，就只有用 kill 命令去杀掉进程；</span><br><span class="line">-L 做本地映射端口</span><br><span class="line">-R 做远程映射端口</span><br><span class="line">-D 做动态端口映射</span><br><span class="line">-C 压缩数据传输</span><br></pre></td></tr></table></figure>
+
+<h2 id="如何关闭这个SSH隧道"><a href="#如何关闭这个SSH隧道" class="headerlink" title="如何关闭这个SSH隧道"></a>如何关闭这个SSH隧道</h2><p>方法1：<br>ps aux | grep 3306   找到pid<br>kill <pid>   kill pid</p>
+<p>方法2：<br>终止你从终端打开的所有ssh会话。<br>sudo killall ssh</p>
+<p>参考资料：<br><a href="https://gohalo.me/post/ssh-proxy.html">https://gohalo.me/post/ssh-proxy.html</a><br><a href="https://johnliu55.tw/ssh-tunnel.html">https://johnliu55.tw/ssh-tunnel.html</a><br><a href="https://www.howtogeek.com/168145/how-to-use-ssh-tunneling/">https://www.howtogeek.com/168145/how-to-use-ssh-tunneling/</a></p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>思科HSRP的选举机制</title>
+    <url>/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/</url>
+    <content><![CDATA[<h2 id="HSRP状态"><a href="#HSRP状态" class="headerlink" title="HSRP状态"></a>HSRP状态</h2><p><img src="/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/hsrp.jpg" alt="hsrp状态转换"></p>
+<h2 id="HSRP选举的机制"><a href="#HSRP选举的机制" class="headerlink" title="HSRP选举的机制"></a>HSRP选举的机制</h2><ul>
+<li>2台路由器，前后开机 如何选举？</li>
+<li>1台路由器开机，后面有1台路由器启动加入,如何选举？</li>
+</ul>
+<h2 id="HSRP的切换时间"><a href="#HSRP的切换时间" class="headerlink" title="HSRP的切换时间"></a>HSRP的切换时间</h2><h3 id="主路由器down掉，多久可以切换到备份路由器？"><a href="#主路由器down掉，多久可以切换到备份路由器？" class="headerlink" title="主路由器down掉，多久可以切换到备份路由器？"></a>主路由器down掉，多久可以切换到备份路由器？</h3><p><code>10s</code></p>
+<h3 id="主路由器Up后，多久可以再次切换成active"><a href="#主路由器Up后，多久可以再次切换成active" class="headerlink" title="主路由器Up后，多久可以再次切换成active?"></a>主路由器Up后，多久可以再次切换成active?</h3><p><code>取决于preempt时间</code></p>
+<h2 id="HSRP抢占延迟"><a href="#HSRP抢占延迟" class="headerlink" title="HSRP抢占延迟"></a>HSRP抢占延迟</h2><p>当新Active的路由器需要一点时间来启动慢速 WAN 接口并生成路由表时，这有时会很有帮助。<br>但是，默认情况下，HSRP 抢占将使路由器在启动 LAN 接口的几秒钟内成为 LAN 的Active默认网关。</p>
+<h3 id="配置命令"><a href="#配置命令" class="headerlink" title="配置命令"></a>配置命令</h3><p><code>standby 20 preempt delay minimum 30 reload 90</code></p>
+<h3 id="查看命令"><a href="#查看命令" class="headerlink" title="查看命令"></a>查看命令</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C4431-01#sh standby delay </span><br><span class="line">Interface          Minimum Reload </span><br><span class="line">Gi0/0/0            1       5      </span><br><span class="line">Gi0/0/1            1       5      </span><br><span class="line">Gi0/0/2            1       5     </span><br></pre></td></tr></table></figure>
+
+
+<h2 id="HSRP计时器"><a href="#HSRP计时器" class="headerlink" title="HSRP计时器"></a>HSRP计时器</h2><p>Active Router用Hello计时器 3s<br>Standby Router用 Standby timer计时器  10s</p>
+]]></content>
+      <categories>
+        <category>Network</category>
+        <category>Switch</category>
+      </categories>
+  </entry>
+  <entry>
     <title>思科DHCP的Snooping</title>
     <url>/2021/06/04/%E6%80%9D%E7%A7%91DHCP%E7%9A%84Snooping/</url>
     <content><![CDATA[<h2 id="启用DHCP-Snooping的作用"><a href="#启用DHCP-Snooping的作用" class="headerlink" title="启用DHCP Snooping的作用"></a>启用DHCP Snooping的作用</h2><p>一句话：防止非法的DHCP服务器</p>
@@ -267,28 +289,6 @@
       <tags>
         <tag>Switch</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>思科HSRP的选举机制</title>
-    <url>/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/</url>
-    <content><![CDATA[<h2 id="HSRP状态"><a href="#HSRP状态" class="headerlink" title="HSRP状态"></a>HSRP状态</h2><p><img src="/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/hsrp.jpg" alt="hsrp状态转换"></p>
-<h2 id="HSRP选举的机制"><a href="#HSRP选举的机制" class="headerlink" title="HSRP选举的机制"></a>HSRP选举的机制</h2><ul>
-<li>2台路由器，前后开机 如何选举？</li>
-<li>1台路由器开机，后面有1台路由器启动加入,如何选举？</li>
-</ul>
-<h2 id="HSRP的切换时间"><a href="#HSRP的切换时间" class="headerlink" title="HSRP的切换时间"></a>HSRP的切换时间</h2><h3 id="主路由器down掉，多久可以切换到备份路由器？"><a href="#主路由器down掉，多久可以切换到备份路由器？" class="headerlink" title="主路由器down掉，多久可以切换到备份路由器？"></a>主路由器down掉，多久可以切换到备份路由器？</h3><p><code>10s</code></p>
-<h3 id="主路由器Up后，多久可以再次切换成active"><a href="#主路由器Up后，多久可以再次切换成active" class="headerlink" title="主路由器Up后，多久可以再次切换成active?"></a>主路由器Up后，多久可以再次切换成active?</h3><p><code>取决于preempt时间</code></p>
-<h2 id="HSRP抢占延迟"><a href="#HSRP抢占延迟" class="headerlink" title="HSRP抢占延迟"></a>HSRP抢占延迟</h2><p>当新Active的路由器需要一点时间来启动慢速 WAN 接口并生成路由表时，这有时会很有帮助。<br>但是，默认情况下，HSRP 抢占将使路由器在启动 LAN 接口的几秒钟内成为 LAN 的Active默认网关。</p>
-<h3 id="配置命令"><a href="#配置命令" class="headerlink" title="配置命令"></a>配置命令</h3><p><code>standby 20 preempt delay minimum 30 reload 90</code></p>
-<h3 id="查看命令"><a href="#查看命令" class="headerlink" title="查看命令"></a>查看命令</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C4431-01#sh standby delay </span><br><span class="line">Interface          Minimum Reload </span><br><span class="line">Gi0/0/0            1       5      </span><br><span class="line">Gi0/0/1            1       5      </span><br><span class="line">Gi0/0/2            1       5     </span><br></pre></td></tr></table></figure>
-
-
-<h2 id="HSRP计时器"><a href="#HSRP计时器" class="headerlink" title="HSRP计时器"></a>HSRP计时器</h2><p>Active Router用Hello计时器 3s<br>Standby Router用 Standby timer计时器  10s</p>
-]]></content>
-      <categories>
-        <category>Network</category>
-        <category>Switch</category>
-      </categories>
   </entry>
   <entry>
     <title>思科WLC命令</title>
