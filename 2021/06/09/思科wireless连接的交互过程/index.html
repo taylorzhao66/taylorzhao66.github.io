@@ -27,13 +27,15 @@
 <meta property="og:site_name" content="太乐BLOG">
 <meta property="og:description" content="思科wireless连接的交互过程">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/2021/06/09/%E6%80%9D%E7%A7%91wireless%E8%BF%9E%E6%8E%A5%E7%9A%84%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/wifi-whole-process.png">
 <meta property="og:image" content="http://example.com/2021/06/09/%E6%80%9D%E7%A7%91wireless%E8%BF%9E%E6%8E%A5%E7%9A%84%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/4-WAY-handshake.png">
+<meta property="og:image" content="http://example.com/2021/06/09/%E6%80%9D%E7%A7%91wireless%E8%BF%9E%E6%8E%A5%E7%9A%84%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/key-generate-process.png">
 <meta property="article:published_time" content="2021-06-09T02:19:59.000Z">
-<meta property="article:modified_time" content="2021-06-09T02:44:19.274Z">
+<meta property="article:modified_time" content="2021-06-09T03:34:09.308Z">
 <meta property="article:author" content="Taylor Zhao">
 <meta property="article:tag" content="Wireless">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/2021/06/09/%E6%80%9D%E7%A7%91wireless%E8%BF%9E%E6%8E%A5%E7%9A%84%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/4-WAY-handshake.png">
+<meta name="twitter:image" content="http://example.com/2021/06/09/%E6%80%9D%E7%A7%91wireless%E8%BF%9E%E6%8E%A5%E7%9A%84%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/wifi-whole-process.png">
 
 <link rel="canonical" href="http://example.com/2021/06/09/%E6%80%9D%E7%A7%91wireless%E8%BF%9E%E6%8E%A5%E7%9A%84%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/">
 
@@ -221,7 +223,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2021-06-09 10:19:59 / 修改时间：10:44:19" itemprop="dateCreated datePublished" datetime="2021-06-09T10:19:59+08:00">2021-06-09</time>
+              <time title="创建时间：2021-06-09 10:19:59 / 修改时间：11:34:09" itemprop="dateCreated datePublished" datetime="2021-06-09T10:19:59+08:00">2021-06-09</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -258,6 +260,11 @@
         <p>思科wireless连接的交互过程</p>
 <span id="more"></span>
 
+
+<h2 id="802-11常见的几种认证方式：‍‍"><a href="#802-11常见的几种认证方式：‍‍" class="headerlink" title="802.11常见的几种认证方式：‍‍"></a>802.11常见的几种认证方式：‍‍</h2><p>‍‍1、不启用安全‍‍<br>‍‍2、WEP‍‍<br>‍‍3、WPA/WPA2-PSK（预共享密钥）‍‍<br>‍‍4、WPA/WPA2 802.1X （radius认证）</p>
+<p><img src="/2021/06/09/%E6%80%9D%E7%A7%91wireless%E8%BF%9E%E6%8E%A5%E7%9A%84%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/wifi-whole-process.png" alt="wifi-whole-proces"></p>
+<p>‍</p>
+<h2 id="WPA-WPA2-PSK的认证过程"><a href="#WPA-WPA2-PSK的认证过程" class="headerlink" title="WPA/WPA2-PSK的认证过程"></a>WPA/WPA2-PSK的认证过程</h2><p>1、无线AP定期发送beacon数据包，使无线终端更新自己的无线网络列表。<br>‍‍2、无线终端在每个信道（1-13）广播ProbeRequest（非隐藏类型的WiFi含ESSID，隐藏类型的WiFi不含ESSID）。‍‍  ‍‍3、每个信道的AP回应，ProbeResponse，包含ESSID，及RSN信息。‍‍<br>‍‍4、无线终端给目标AP发送AUTH包。AUTH认证类型有两种，0为开放式、1为共享式（WPA/WPA2必须是开放式）。‍‍<br>‍‍5、AP回应网卡AUTH包。‍‍<br>‍‍6、无线终端给AP发送关联请求包associationrequest数据包。‍‍<br>‍‍7、AP给无线终端发送关联响应包associationresponse数据包。‍‍<br>‍‍8、EAPOL四次握手进行认证（握手包是破解的关键）。‍‍<br>‍‍9、完成认证可以上网。</p>
 <h2 id="四次握手相关的术语"><a href="#四次握手相关的术语" class="headerlink" title="四次握手相关的术语"></a>四次握手相关的术语</h2><h3 id="PMK-Pairwise-Master-Key"><a href="#PMK-Pairwise-Master-Key" class="headerlink" title="PMK (Pairwise Master Key)"></a>PMK (Pairwise Master Key)</h3><p>PMK 是由 MSK 生成，WPA2/PSK 的情况下，当 supplicant 和 authenticator 身份验证后，PSK 变成 PMK。PMK 会驻留在 AP 和所有 Station，不需要进行 key 交换，用它来生成用于加密单播数据的PTK。</p>
 <h3 id="GMK-Group-Master-Key"><a href="#GMK-Group-Master-Key" class="headerlink" title="GMK (Group Master Key)"></a>GMK (Group Master Key)</h3><p>GMK 用在四次握手来生成 GTK,通常是认证者生成的一组随机数。</p>
 <h3 id="PTK-Pairwise-Transit-Key"><a href="#PTK-Pairwise-Transit-Key" class="headerlink" title="PTK (Pairwise Transit Key)"></a>PTK (Pairwise Transit Key)</h3><p>PTK 用来加密 AP 和 Station 通讯的单播数据包，AP 与每个 Station 通讯用的 PTK 都是唯一的。<br>生成 PTK 需要的信息：<br><code>PTK = PRF(PMK + ANonce + SNonce + Mac(AA) + Mac(SA))</code></p>
@@ -267,7 +274,9 @@
 <h3 id="4-Way-Handshake-Message-2"><a href="#4-Way-Handshake-Message-2" class="headerlink" title="4-Way Handshake Message 2"></a>4-Way Handshake Message 2</h3><p>一旦 Station 创建了自己的 PTK，它会立即响应一条 EAPOL 消息给 AP，包含了 SNonce 和 MIC。AP 用 SNonce 生成自己的 PTK，MIC 是用来校验 Station 发来的消息的完整性，除了 1/4， 从 2/4 报文开始，后面的每个报文都会有 MIC。 AP 收到 SNonce 之后，生成的 PTK 就可以用来加密后面两次握手的 key 了。</p>
 <h3 id="4-Way-Handshake-Message-3"><a href="#4-Way-Handshake-Message-3" class="headerlink" title="4-Way Handshake Message 3"></a>4-Way Handshake Message 3</h3><p>这次握手主要是把 GTK 发送给 Station，并且告知 Station 安装 PTK 和 GTK。由于第二次握手生成了 PTK，可以用来加密数据了，所以这里对 GTK 进行了加密。</p>
 <h3 id="4-Way-Handshake-Message-4"><a href="#4-Way-Handshake-Message-4" class="headerlink" title="4-Way Handshake Message 4"></a>4-Way Handshake Message 4</h3><p>第四次是最后一条 EAPOL 消息，相当于一个确认包，告诉 AP PTK 已经安装好，AP 收到该消息后，也安装 PTK。安装的意思是指使用 PTK 和 GTK 来对数据进行加密。</p>
-<p>思科官方提供的查看debug交互过程的在线分析工具<br><a target="_blank" rel="noopener" href="https://cway.cisco.com/tools/WirelessDebugAnalyzer/">https://cway.cisco.com/tools/WirelessDebugAnalyzer/</a></p>
+<h3 id="Key生成过程"><a href="#Key生成过程" class="headerlink" title="Key生成过程"></a>Key生成过程</h3><p><img src="/2021/06/09/%E6%80%9D%E7%A7%91wireless%E8%BF%9E%E6%8E%A5%E7%9A%84%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/key-generate-process.png" alt="key-generate-process"></p>
+<h3 id="思科官方提供的查看debug交互过程的在线分析工具"><a href="#思科官方提供的查看debug交互过程的在线分析工具" class="headerlink" title="思科官方提供的查看debug交互过程的在线分析工具"></a>思科官方提供的查看debug交互过程的在线分析工具</h3><p><a target="_blank" rel="noopener" href="https://cway.cisco.com/tools/WirelessDebugAnalyzer/">https://cway.cisco.com/tools/WirelessDebugAnalyzer/</a></p>
+<h3 id="思科官方提供的syslog在线分析工具"><a href="#思科官方提供的syslog在线分析工具" class="headerlink" title="思科官方提供的syslog在线分析工具"></a>思科官方提供的syslog在线分析工具</h3><p><a target="_blank" rel="noopener" href="https://cway.cisco.com/wireless-config-analyzer">https://cway.cisco.com/wireless-config-analyzer</a></p>
 
     </div>
 
@@ -348,7 +357,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E6%AC%A1%E6%8F%A1%E6%89%8B%E7%9B%B8%E5%85%B3%E7%9A%84%E6%9C%AF%E8%AF%AD"><span class="nav-number">1.</span> <span class="nav-text">四次握手相关的术语</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#PMK-Pairwise-Master-Key"><span class="nav-number">1.1.</span> <span class="nav-text">PMK (Pairwise Master Key)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#GMK-Group-Master-Key"><span class="nav-number">1.2.</span> <span class="nav-text">GMK (Group Master Key)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#PTK-Pairwise-Transit-Key"><span class="nav-number">1.3.</span> <span class="nav-text">PTK (Pairwise Transit Key)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#GTK-Group-Temporal-Key"><span class="nav-number">1.4.</span> <span class="nav-text">GTK (Group Temporal Key)</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E6%AC%A1%E6%8F%A1%E6%89%8B%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B"><span class="nav-number">2.</span> <span class="nav-text">四次握手交互过程</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#4-Way-Handshake-Message-1"><span class="nav-number">2.1.</span> <span class="nav-text">4-Way Handshake Message 1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-Way-Handshake-Message-2"><span class="nav-number">2.2.</span> <span class="nav-text">4-Way Handshake Message 2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-Way-Handshake-Message-3"><span class="nav-number">2.3.</span> <span class="nav-text">4-Way Handshake Message 3</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-Way-Handshake-Message-4"><span class="nav-number">2.4.</span> <span class="nav-text">4-Way Handshake Message 4</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#802-11%E5%B8%B8%E8%A7%81%E7%9A%84%E5%87%A0%E7%A7%8D%E8%AE%A4%E8%AF%81%E6%96%B9%E5%BC%8F%EF%BC%9A%E2%80%8D%E2%80%8D"><span class="nav-number">1.</span> <span class="nav-text">802.11常见的几种认证方式：‍‍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#WPA-WPA2-PSK%E7%9A%84%E8%AE%A4%E8%AF%81%E8%BF%87%E7%A8%8B"><span class="nav-number">2.</span> <span class="nav-text">WPA&#x2F;WPA2-PSK的认证过程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E6%AC%A1%E6%8F%A1%E6%89%8B%E7%9B%B8%E5%85%B3%E7%9A%84%E6%9C%AF%E8%AF%AD"><span class="nav-number">3.</span> <span class="nav-text">四次握手相关的术语</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#PMK-Pairwise-Master-Key"><span class="nav-number">3.1.</span> <span class="nav-text">PMK (Pairwise Master Key)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#GMK-Group-Master-Key"><span class="nav-number">3.2.</span> <span class="nav-text">GMK (Group Master Key)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#PTK-Pairwise-Transit-Key"><span class="nav-number">3.3.</span> <span class="nav-text">PTK (Pairwise Transit Key)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#GTK-Group-Temporal-Key"><span class="nav-number">3.4.</span> <span class="nav-text">GTK (Group Temporal Key)</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E6%AC%A1%E6%8F%A1%E6%89%8B%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B"><span class="nav-number">4.</span> <span class="nav-text">四次握手交互过程</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#4-Way-Handshake-Message-1"><span class="nav-number">4.1.</span> <span class="nav-text">4-Way Handshake Message 1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-Way-Handshake-Message-2"><span class="nav-number">4.2.</span> <span class="nav-text">4-Way Handshake Message 2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-Way-Handshake-Message-3"><span class="nav-number">4.3.</span> <span class="nav-text">4-Way Handshake Message 3</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-Way-Handshake-Message-4"><span class="nav-number">4.4.</span> <span class="nav-text">4-Way Handshake Message 4</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Key%E7%94%9F%E6%88%90%E8%BF%87%E7%A8%8B"><span class="nav-number">4.5.</span> <span class="nav-text">Key生成过程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%80%9D%E7%A7%91%E5%AE%98%E6%96%B9%E6%8F%90%E4%BE%9B%E7%9A%84%E6%9F%A5%E7%9C%8Bdebug%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B%E7%9A%84%E5%9C%A8%E7%BA%BF%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7"><span class="nav-number">4.6.</span> <span class="nav-text">思科官方提供的查看debug交互过程的在线分析工具</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%80%9D%E7%A7%91%E5%AE%98%E6%96%B9%E6%8F%90%E4%BE%9B%E7%9A%84syslog%E5%9C%A8%E7%BA%BF%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7"><span class="nav-number">4.7.</span> <span class="nav-text">思科官方提供的syslog在线分析工具</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
