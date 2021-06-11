@@ -20,22 +20,20 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="启用DHCP Snooping的作用一句话：防止非法的DHCP服务器">
+  <meta name="description" content="subprocess最早在2.4版本引入,用来生成子进程，并可以通过管道连接他们的输入&#x2F;输出&#x2F;错误，以及获得他们的返回值。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="思科DHCP的Snooping">
-<meta property="og:url" content="http://example.com/2021/06/04/%E6%80%9D%E7%A7%91DHCP%E7%9A%84Snooping/index.html">
+<meta property="og:title" content="python的subprocess">
+<meta property="og:url" content="http://example.com/2021/06/11/python%E7%9A%84subprocess/index.html">
 <meta property="og:site_name" content="太乐BLOG">
-<meta property="og:description" content="启用DHCP Snooping的作用一句话：防止非法的DHCP服务器">
+<meta property="og:description" content="subprocess最早在2.4版本引入,用来生成子进程，并可以通过管道连接他们的输入&#x2F;输出&#x2F;错误，以及获得他们的返回值。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/2021/06/04/%E6%80%9D%E7%A7%91DHCP%E7%9A%84Snooping/dhcp-snooping.jpg">
-<meta property="article:published_time" content="2021-06-04T05:21:13.000Z">
-<meta property="article:modified_time" content="2021-06-06T13:40:51.665Z">
+<meta property="article:published_time" content="2021-06-11T06:54:53.000Z">
+<meta property="article:modified_time" content="2021-06-11T06:59:05.373Z">
 <meta property="article:author" content="Taylor Zhao">
-<meta property="article:tag" content="Switch">
+<meta property="article:tag" content="Python">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/2021/06/04/%E6%80%9D%E7%A7%91DHCP%E7%9A%84Snooping/dhcp-snooping.jpg">
 
-<link rel="canonical" href="http://example.com/2021/06/04/%E6%80%9D%E7%A7%91DHCP%E7%9A%84Snooping/">
+<link rel="canonical" href="http://example.com/2021/06/11/python%E7%9A%84subprocess/">
 
 
 <script id="page-configurations">
@@ -48,7 +46,7 @@
   };
 </script>
 
-  <title>思科DHCP的Snooping | 太乐BLOG</title>
+  <title>python的subprocess | 太乐BLOG</title>
   
 
 
@@ -197,7 +195,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/06/04/%E6%80%9D%E7%A7%91DHCP%E7%9A%84Snooping/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/06/11/python%E7%9A%84subprocess/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -210,7 +208,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          思科DHCP的Snooping
+          python的subprocess
         </h1>
 
         <div class="post-meta">
@@ -219,27 +217,21 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2021-06-04 13:21:13" itemprop="dateCreated datePublished" datetime="2021-06-04T13:21:13+08:00">2021-06-04</time>
+              <time title="创建时间：2021-06-11 14:54:53 / 修改时间：14:59:05" itemprop="dateCreated datePublished" datetime="2021-06-11T14:54:53+08:00">2021-06-11</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-06-06 21:40:51" itemprop="dateModified" datetime="2021-06-06T21:40:51+08:00">2021-06-06</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Network/" itemprop="url" rel="index"><span itemprop="name">Network</span></a>
+                  <a href="/categories/Python/" itemprop="url" rel="index"><span itemprop="name">Python</span></a>
                 </span>
                   ，
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Network/Switch/" itemprop="url" rel="index"><span itemprop="name">Switch</span></a>
+                  <a href="/categories/Python/NetOps/" itemprop="url" rel="index"><span itemprop="name">NetOps</span></a>
                 </span>
             </span>
 
@@ -261,28 +253,22 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>启用DHCP Snooping的作用<br>一句话：防止非法的DHCP服务器</p>
+        <p>subprocess最早在2.4版本引入,用来生成子进程，并可以通过管道连接他们的输入/输出/错误，以及获得他们的返回值。</p>
 <span id="more"></span>
 
-
-<h3 id="哲学思想"><a href="#哲学思想" class="headerlink" title="哲学思想"></a>哲学思想</h3><ul>
-<li>防止非法DHCP服务器snooping</li>
-<li>防止非法DHCP客户端snooping limit</li>
-</ul>
-<h3 id="信任和非信任端口的Action"><a href="#信任和非信任端口的Action" class="headerlink" title="信任和非信任端口的Action"></a>信任和非信任端口的Action</h3><ul>
-<li>信任接口：接收DHCP服务器响应的DHCP ACK和DHCP Offer报文。设备只会将DHCP客户端的DHCP请求报文通过信任接口发送给合法的DHCP服务器。</li>
-<li>非信任接口：接收到DHCP服务器响应的DHCP ACK和DHCP Offer报文后，直接干掉。</li>
-</ul>
-<h2 id="DHCP-Snooping要应用在哪里"><a href="#DHCP-Snooping要应用在哪里" class="headerlink" title="DHCP Snooping要应用在哪里"></a>DHCP Snooping要应用在哪里</h2><p><img src="/2021/06/04/%E6%80%9D%E7%A7%91DHCP%E7%9A%84Snooping/dhcp-snooping.jpg" alt="DHCP Snooping"></p>
-<h2 id="DHCP-Snooping的配置命令"><a href="#DHCP-Snooping的配置命令" class="headerlink" title="DHCP Snooping的配置命令"></a>DHCP Snooping的配置命令</h2><p>全局启动<br><code>Switch(config)# ip dhcp snooping</code><br>Enables DHCP snooping globally.</p>
-<p>基于VLAN启用<br><code>Switch(config)# ip dhcp snooping vlan vlan-range</code></p>
-<p>接口下启用<br><code>Switch(config-if)# ip dhcp snooping trust</code></p>
-<p>启用 插入DHCP option-82 信息，DHCP option82会插入在DHCP Request信息里面<br><code>Switch(config)# ip dhcp snooping information option</code></p>
-<p>启用 接口收到DHCP包率的限制pps<br><code>Switch(config-if)# ip dhcp snooping limit rate 80</code></p>
-<p>查看接口DHCP包率限制<br><code>show ip dhcp snooping | begin pps</code></p>
-<h2 id="DHCP-OPTION-82"><a href="#DHCP-OPTION-82" class="headerlink" title="DHCP OPTION 82"></a>DHCP OPTION 82</h2><p>在传统的DHCP动态分配IP地址过程中，DHCP Server不能够根据DHCP请求报文关联到终端的具体物理位置，同一VLAN的用户得到的IP地址所拥有的权限是完全相同的。OPTION 82；包含两个常用子选项Circuit ID和Remote ID。其中Circuit ID子选项主要用来标识客户端所在的VLAN、接口等信息，Remote ID子选项主要用来标识客户端接入的设备，一般为设备的MAC地址。</p>
-<p>记录了DHCP Client的位置信息。开启DHCP Snooping的设备通过在DHCP请求报文中添加82选项，将DHCP Client的精确物理位置信息传递给DHCP Server，从而使得DHCP Server能够为主机分配合适的IP地址和其他配置信息，联动安全策略管理器实现对客户端的安全控制。</p>
-<p>参考网址：<br><a target="_blank" rel="noopener" href="https://kknews.cc/digital/2yrq8g9.html">https://kknews.cc/digital/2yrq8g9.html</a><br><a target="_blank" rel="noopener" href="https://www.networkstraining.com/cisco-dhcp-snooping-configuration/">https://www.networkstraining.com/cisco-dhcp-snooping-configuration/</a><br><a target="_blank" rel="noopener" href="https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4500/12-2/53SG/configuration/config/dhcp.html">https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4500/12-2/53SG/configuration/config/dhcp.html</a></p>
+<p>旧模块：<br>os.system() 执行操作系统的命令，将结果输出到屏幕，只返回命令执行状态(0：成功，非 0 ： 失败)<br>os.popen()执行操作系统的命令，会将结果保存在内存当中，可以用read()方法读取出来</p>
+<p><strong>subprocess.Popen</strong><br>所有subprocess类型都是对subprocess.Popen的封装,因此subprocess.Popen是根。<br>返回值: 需要借助于wait或者communicate 来实现返回值和状态码</p>
+<p><strong>subprocess.call</strong></p>
+<ol>
+<li>subprocess.call=Popen() + wait()</li>
+<li>返回值:返回命令的输出结果  和执行状态，0或者非0**</li>
+</ol>
+<p><strong>subprocess.run</strong></p>
+<ol>
+<li>subprocess.run= Popen() + communicate()</li>
+<li>返回值:返回命令的输出结果  和执行状态，0或者非0**</li>
+</ol>
+<p><a target="_blank" rel="noopener" href="https://cloud.tencent.com/developer/article/1445388">https://cloud.tencent.com/developer/article/1445388</a></p>
 
     </div>
 
@@ -292,7 +278,7 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/Switch/" rel="tag"># Switch</a>
+              <a href="/tags/Python/" rel="tag"># Python</a>
           </div>
 
         
@@ -301,13 +287,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/" rel="prev" title="思科HSRP的选举机制">
-      <i class="fa fa-chevron-left"></i> 思科HSRP的选举机制
+    <a href="/2021/06/10/python%E7%BD%91%E7%BB%9Cping/" rel="prev" title="python网络ping">
+      <i class="fa fa-chevron-left"></i> python网络ping
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2021/06/06/Linux%E7%9A%84SSH%E9%9A%A7%E9%81%93/" rel="next" title="Linux的SSH隧道">
-      Linux的SSH隧道 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -366,7 +349,6 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%93%B2%E5%AD%A6%E6%80%9D%E6%83%B3"><span class="nav-number">1.</span> <span class="nav-text">哲学思想</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BF%A1%E4%BB%BB%E5%92%8C%E9%9D%9E%E4%BF%A1%E4%BB%BB%E7%AB%AF%E5%8F%A3%E7%9A%84Action"><span class="nav-number">2.</span> <span class="nav-text">信任和非信任端口的Action</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#DHCP-Snooping%E8%A6%81%E5%BA%94%E7%94%A8%E5%9C%A8%E5%93%AA%E9%87%8C"><span class="nav-number"></span> <span class="nav-text">DHCP Snooping要应用在哪里</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#DHCP-Snooping%E7%9A%84%E9%85%8D%E7%BD%AE%E5%91%BD%E4%BB%A4"><span class="nav-number"></span> <span class="nav-text">DHCP Snooping的配置命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#DHCP-OPTION-82"><span class="nav-number"></span> <span class="nav-text">DHCP OPTION 82</span></a></div>
       </div>
       <!--/noindex-->
 
