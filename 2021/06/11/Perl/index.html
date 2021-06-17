@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="Perl的发展史 珍珠的诞生1987年 34岁">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Perl的发展史 珍珠的诞生1987年 34岁">
+<meta property="og:url" content="http://example.com/2021/06/11/Perl/index.html">
+<meta property="og:site_name" content="太乐BLOG">
+<meta property="og:description" content="Perl的发展史 珍珠的诞生1987年 34岁">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-06-11T06:54:53.000Z">
+<meta property="article:modified_time" content="2021-06-17T06:47:19.931Z">
+<meta property="article:author" content="Taylor Zhao">
+<meta property="article:tag" content="history">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://example.com/2021/06/11/Perl/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>Perl的发展史 珍珠的诞生1987年 34岁 | 太乐BLOG</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">太乐BLOG</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">技术 生活 感悟</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/06/11/Perl/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Taylor Zhao">
+      <meta itemprop="description" content="大道至简，衍化至繁">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="太乐BLOG">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Perl的发展史 珍珠的诞生1987年 34岁
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-06-11 14:54:53" itemprop="dateCreated datePublished" datetime="2021-06-11T14:54:53+08:00">2021-06-11</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-06-17 14:47:19" itemprop="dateModified" datetime="2021-06-17T14:47:19+08:00">2021-06-17</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Java/" itemprop="url" rel="index"><span itemprop="name">Java</span></a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Java/history/" itemprop="url" rel="index"><span itemprop="name">history</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>Perl的发展史 珍珠的诞生1987年 34岁</p>
+<span id="more"></span>
+
+<h2 id="生平："><a href="#生平：" class="headerlink" title="生平："></a>生平：</h2><p>拉里·沃尔 Larry  Wall (1954 年 9 月 27 日出生）是美国 计算机程序员和作家。他创建了Perl 编程语言。</p>
+<p>沃尔在洛杉矶和华盛顿的布雷默顿长大</p>
+<p>1976 年在西雅图太平洋大学开始接受高等教育，主修化学和音乐，后来攻读医学预科，在大学的计算中心工作了几年，然后获得了自然和人工语言学学士学位。</p>
+<p>在加州大学伯克利分校读研究生期间 ，沃尔和他的妻子正在学习语言学，目的是寻找一种不成文的语言，也许是在非洲，并为它创建一个书写系统。然后他们将使用这种新的书写系统将各种文本翻译成语言，其中包括圣经。由于健康原因，这些计划被取消，他们留在美国，沃尔在研究生毕业后加入了美国宇航局 喷气推进实验室。</p>
+<p>沃尔是基督教新生活拿撒勒教会的活跃成员</p>
+<h2 id="成就："><a href="#成就：" class="headerlink" title="成就："></a>成就：</h2><p>Wall 是Usenet 客户端和广泛使用的程序的作者。他曾两次赢得国际混淆 C 代码竞赛，并于 1998 年获得首届自由软件基金会自由软件进步奖。</p>
+<p><strong>1987年12月18日，Larry Wall发布了Perl 1.0</strong></p>
+<p>Wall 在为System Development Corporation（后来成为Unisys 的一部分）工作期间开发了 Perl 解释器和语言。他是Programming Perl（通常称为Camel Book，由O’Reilly 出版）的合著者，该书是Perl 程序员的权威资源；并编辑了Perl Cookbook。然后，他成为O’Reilly Media 的全职员工，以进一步开发 Perl 并撰写有关该主题的书籍。</p>
+<p>沃尔作为语言学家的训练在他的书、采访和讲座中显而易见。他经常将 Perl 比作自然语言，并用语言学原理解释他在 Perl 设计中的决定。他还经常使用语言学术语来表示 Perl 语言结构，因此他有时会说“名词”、“动词”和“主题化器” ，而不是“变量”、“函数”和“访问器”等传统术语。</p>
+<p>沃尔的基督教信仰影响了 Perl 的一些术语，例如名称本身，这是圣经中对“无价珍珠”的引用（马太福音13:46）。类似的参考是函数名称bless和Raku（以前称为 Perl 6）设计文档的组织，具有诸如apocalypse和exegesis 之类的类别。Wall 在会议上发言时也提到了他的信仰，包括 1999 年 8 月 23 日在加利福尼亚州蒙特雷举行的 Perl Conference 3.0。</p>
+<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>主条目：Perl 语言结构<br>根据 Wall 的说法，Perl 有两个口号。第一个是“有不止一种方法可以做到“。第二个口号是“容易的事情应该容易，困难的事情应该成为可能”。</p>
+<h2 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h2><p>Perl 的整体结构广泛地源自C。Perl本质上是过程性的，具有变量、表达式、赋值语句、花括号分隔的块、控制结构和子例程。[需要引用]</p>
+<p>Perl 还采用了 shell 编程的特性。所有变量都标有领先的印记，这让变量被插入直接进入字符串。然而，与 shell 不同的是，Perl 在对变量的所有访问中都使用了 sigil，并且与大多数使用 sigil 的其他编程语言不同，sigil 不表示变量的类型，而是表示表达式的类型。因此，例如，虽然数组由符号“@”（例如@arrayname）表示，但数组的单个成员由标量符号“$”（例如$arrayname[3]）表示。Perl 还有很多内置函数，提供了 shell 编程中经常使用的工具（虽然这些工具很多是由 shell 外部的程序实现的），比如排序，并调用操作系统设施。</p>
+<p>Perl从Lisp获取列表，从AWK获取散列（“关联数组”），从sed 获取正则表达式。这些简化并促进了许多解析、文本处理和数据管理任务。同样与 Lisp 共享的是块中最后一个值的隐式返回，以及所有语句都有一个值的事实，因此也是表达式并且可以在更大的表达式本身中使用。</p>
+<p>Perl 5 添加了支持复杂数据结构、一流函数（即闭包作为值）和面向对象的编程模型的特性。这些包括引用、包、基于类的方法调度和词法范围的变量，以及编译器指令（例如，strict 编译指令）。Perl 5 引入的一个主要附加功能是能够将代码打包为可重用模块。沃尔后来表示“Perl 5 模块系统的整个意图是鼓励 Perl 文化而不是 Perl 核心的发展。” </p>
+<p>所有版本的 Perl 都做自动数据输入和自动内存管理。解释器知道程序中每个数据对象的类型和存储要求；它根据需要使用引用计数为它们分配和释放存储空间（因此它无法在没有手动干预的情况下释放循环数据结构）。合法的类型转换——例如，从数字到字符串的转换——在运行时自动完成；非法类型转换是致命错误。</p>
+<h2 id="设计"><a href="#设计" class="headerlink" title="设计"></a>设计</h2><p>Perl 的设计可以理解为对计算机行业三大趋势的回应：硬件成本下降、劳动力成本上升以及编译器技术的改进。许多早期的计算机语言，例如Fortran和 C，旨在有效利用昂贵的计算机硬件。相比之下，Perl 的设计目的是让计算机程序员可以更快速、更轻松地编写程序。</p>
+<p>Perl 有许多特性，它们以更高的CPU和内存要求为代价来减轻程序员的任务。这些包括自动内存管理；动态打字；字符串、列表和散列；常用表达; 内省；和一个eval()函数。Perl 遵循“没有内置限制”的理论，一个类似于零一无穷大规则的想法。</p>
+<p>Wall 接受过语言学家的培训，Perl 的设计在很大程度上遵循了语言学原理。示例包括霍夫曼编码（常见结构应该很短）、良好的末端加权（重要信息应该放在首位）以及大量语言原语。Perl 偏爱简洁自然的语言结构，即使在它们使 Perl 解释器复杂化的情况下也是如此。</p>
+<p>Perl 的语法反映了“不同的东西应该看起来不同”的想法。例如，标量、数组和散列具有不同的前导符号。数组索引和散列键使用不同种类的花括号。字符串和正则表达式具有不同的标准分隔符。这种方法可以与Lisp 之类的语言形成对比，在Lisp中，由简单和通用的符号表达式组成的相同基本语法可用于所有目的。</p>
+<p>Perl 不强制执行任何特定的编程范式（过程式、面向对象式、函数式或其他），甚至不要求程序员在其中进行选择。</p>
+<p>Perl 语言及其周围的社区和文化都有广泛的实践倾向。《Perl编程》的序言开头：“Perl 是一种用于完成工作的语言。” 这样做的一个后果是 Perl 不是一种整洁的语言。它包括许多功能，容忍其规则的例外，并采用启发式方法来解决句法歧义。由于编译器的宽容性，有时很难发现错误。Perl 的函数文档对列表和标量上下文中内置函数的变体行为进行了评论，说：“通常，除非您想要一致性，否则它们会做您想做的事。” </p>
+<p>Perl 5 之前的 Perl 版本没有Perl 语言的书面规范或标准，也没有计划为当前版本的 Perl 创建一个。解释器只有一种实现，语言也随之发展。该解释器及其功能测试构成了该语言的事实上的规范。然而，Perl 6 从一个规范开始，和几个项目旨在实现部分或全部规范。[需要引用]</p>
+<p>资料翻译来自：</p>
+<p><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Larry_Wall">https://en.wikipedia.org/wiki/Larry_Wall</a></p>
+<p><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Perl">https://en.wikipedia.org/wiki/Perl</a></p>
+<p><a target="_blank" rel="noopener" href="http://www.wall.org/~larry/">http://www.wall.org/~larry/</a></p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/history/" rel="tag"># history</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/06/11/Python/" rel="prev" title="Python发展史 1991年 荷兰无聊青年">
+      <i class="fa fa-chevron-left"></i> Python发展史 1991年 荷兰无聊青年
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2021/06/11/Pivotal/" rel="next" title="Pivotal牛逼低调的公司">
+      Pivotal牛逼低调的公司 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%94%9F%E5%B9%B3%EF%BC%9A"><span class="nav-number">1.</span> <span class="nav-text">生平：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%88%90%E5%B0%B1%EF%BC%9A"><span class="nav-number">2.</span> <span class="nav-text">成就：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A6%82%E8%BF%B0"><span class="nav-number">3.</span> <span class="nav-text">概述</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%89%B9%E7%82%B9"><span class="nav-number">4.</span> <span class="nav-text">特点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%BE%E8%AE%A1"><span class="nav-number">5.</span> <span class="nav-text">设计</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Taylor Zhao"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">Taylor Zhao</p>
+  <div class="site-description" itemprop="description">大道至简，衍化至繁</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">29</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">18</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">17</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/taylorzhao66" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;taylorzhao66" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:tzhao005@gmail.com" title="E-Mail → mailto:tzhao005@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+  <div class="links-of-blogroll motion-element">
+    <div class="links-of-blogroll-title"><i class="fa fa-link fa-fw"></i>
+      Links
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://www.zhihu.com/people/netarch" title="https:&#x2F;&#x2F;www.zhihu.com&#x2F;people&#x2F;netarch" rel="noopener" target="_blank">知乎</a>
+        </li>
+    </ul>
+  </div>
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Taylor Zhao</span>
+</div>
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>

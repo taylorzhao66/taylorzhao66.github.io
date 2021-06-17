@@ -1,6 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>C++历史 1985年 丹麦</title>
+    <url>/2021/06/11/C++/</url>
+    <content><![CDATA[<h2 id="C-历史-1985年-丹麦"><a href="#C-历史-1985年-丹麦" class="headerlink" title="C++历史 1985年 丹麦"></a>C++历史 1985年 丹麦</h2><span id="more"></span>
+
+
+<p><strong>Bjarne Stroustrup</strong> 出生于丹麦的奥胡斯。他家是工人阶级，他上当地学校。</p>
+<p>他出席了奥胡斯大学1969-1975，并用有刻度的硕士学位在数学和计算机科学。他的兴趣集中在微程序设计和机器架构上。他从其发明者克里斯汀·尼加德( Kristen Nygaard)那里学习了面向对象编程的基础，后者经常访问奥尔胡斯。</p>
+<p>1979 年，他在剑桥大学获得计算机科学博士学位，在那里他受到David Wheeler 的指导。他的论文涉及分布式计算机系统中的通信。</p>
+<p>职业生涯</p>
+<p>1979 年，Stroustrup 在美国新泽西州默里希尔的贝尔实验室计算机科学研究中心担任技术人员，开始了他的职业生涯。在那里，他开始了 C++ 和编程技术方面的工作。从创建到 2002 年底，Stroustrup 一直是AT&amp;T 贝尔实验室大规模编程研究部门的负责人。1993 年，他成为贝尔实验室研究员，1996 年成为 AT&amp;T 研究员。</p>
+<p>从 2002 年到 2014 年，Stroustrup 是德克萨斯 A&amp;M 大学工程学院计算机科学教授。 2011年被评为大学特聘教授。</p>
+<p>截至 2014 年 1 月，Stroustrup 是纽约市摩根士丹利技术部门的技术研究员和董事总经理，也是哥伦比亚大学计算机科学的客座教授</p>
+<p>1979 年，丹麦计算机科学家Bjarne Stroustrup开始研究“C with Classes》，C++ 的前身。 创建一门新语言的动机源于 Stroustrup 为他的博士论文编程的经验。Stroustrup 发现Simula具有对大型软件开发非常有帮助的特性，但该语言是实际使用太慢，而BCPL速度快但太低级，不适合大型软件开发。当 Stroustrup 开始在AT&amp;T 贝尔实验室工作时，他在分析UNIX 内核的分布式计算方面遇到了问题。记得他的博士学位经验，Stroustrup 着手增强C语言类似模拟器的功能。选择 C 是因为它具有通用性、快速、便携和广泛使用的特点。除了 C 和 Simula 的影响，其他语言也影响了这种新语言，包括ALGOL 68、Ada、CLU和ML。</p>
+<p>最初，Stroustrup 的“C with Classes”为 C 编译器 Cpre 添加了特性，包括类、派生类、强类型、内联和默认参数。</p>
+<p>1982 年，Stroustrup 开始开发带有类的 C 的继承者，在经历了其他几个名称之后，他将其命名为“C++”（++即C 中的增量运算符）。添加了新功能，包括虚函数、函数名称和运算符重载、引用、常量、类型安全的自由存储内存分配（新建/删除）、改进的类型检查和带有两个正斜杠 ( //) 的BCPL 样式的单行注释. 此外，Stroustrup 为 C++ 开发了一个新的独立编译器Cfront。</p>
+<p>1984 年，Stroustrup 实现了第一个流输入/输出库。Doug McIlroy [1]（他之前建议使用Unix 管道）提出了提供输出操作符而不是命名输出函数的想法。</p>
+<p><strong>1985 年，第一版The C++ Programming Language发布，成为该语言的权威参考，因为当时还没有正式的标准。 C++的第一个商业实现于同年10月发布。</strong></p>
+<p>1989 年，C++ 2.0 发布，随后在 1991 年更新了The C++ Programming Language 的第二版。2.0 中的新特性包括多重继承、抽象类、静态成员函数、const 成员函数和受保护成员。1990 年，The Annotated C++ Reference Manual出版。这项工作成为未来标准的基础。后来添加的功能包括模板、异常、名称空间、新的强制转换和布尔类型。</p>
+<p>2015 年在巴黎举行的关于 C++11 特性的测验<br>1998 年，C++98 发布，标准化了语言，2003 年发布了一个小更新（C++03）。</p>
+<p>在 C++98 之后，C++ 发展相对缓慢，直到 2011 年，C++11标准发布，增加了许多新特性，进一步扩大了标准库，并为 C++ 程序员提供了更多便利。在2014 年 12 月发布C++14 小更新之后，C++17中引入了各种新增功能。在 2020 年 2 月定稿后，[22] C++20 标准草案于 2020 年 9 月 4 日获得批准，并于 2020 年 12 月 15 日正式发布。</p>
+<p>2018 年 1 月 3 日，Stroustrup 被宣布为 2018 年查尔斯·斯塔克·德雷珀工程奖的获得者，“以概念化和开发 C++ 编程语言”。</p>
+<p>C 是面向过程的一门编程语言，C++ 可以很好地进行面向对象的程序设计。C++ 虽然主要是以 C 的基础发展起来的一门新语言，但它不是 C 的替代品，它们是兄弟关系。面向对象和面向过程不是矛盾的，而是各有用途、互为补充的。</p>
+<p>C++ 对 C 的增强，表现在六个方面：</p>
+<p>增强了类型检查机制<br>增加了面向对象的机制<br>增加了泛型编程的机制（template）<br>增加了异常处理<br>增加了重载的机制<br>增加了标准模板库（STL）</p>
+<p>链接：<a href="https://www.jianshu.com/p/2522b07219ae">https://www.jianshu.com/p/2522b07219ae</a></p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>history</category>
+      </categories>
+      <tags>
+        <tag>history</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C语言发展史 1972年</title>
+    <url>/2021/06/11/C/</url>
+    <content><![CDATA[<h2 id="C语言发展史-1972年"><a href="#C语言发展史-1972年" class="headerlink" title="C语言发展史 1972年"></a>C语言发展史 1972年</h2><span id="more"></span>
+
+<p>ALGOL，名称源自算法语言（英语：ALGOrithmic Language）的缩写，是一族指令式编程语言，发展于1950年代中期，对许多其它编程语言产生了重大影响。计算机协会在教科书及学术文章采用此语言做为描述算法的标准语法超过三十年。</p>
+<p>由大多数近代编程语言皆使用类似ALGOL的语法来看，<strong>ALGOL可与差不多同时期的FORTRAN、LISP及COBOL并列为四大最有影响力的高阶语言。</strong>ALGOL被设计用来避免FORTRAN中一些已知的问题，最终引领了许多其它编程语言的兴起，包括PL/I、Simula、BCPL、B、Pascal及C。</p>
+<p>ALGOL引入了代码块，并用begin⋯end来分隔。它是第一个利用词法作用域实作巢状函式的语言，也是第一个注重形式语言定义的语言，并在ALGOL 60报告中引入了巴科斯范式来作为设计语言形式文法的原则。</p>
+<p>ALGOL主要有三种规格，以初次发表的年份命名：</p>
+<p>ALGOL 58 – 原提议命名为IAL，代表International Algebraic Language。<br>ALGOL 60 – 在1960年代中期首先实作成X1 ALGOL 60，1963年修订。[5][6]<br>ALGOL 68 – 引入许多新元素，像是可变阵列、切片、平行化及算子识别。1973年修订。[7]<br>尼克劳斯·维尔特在发展Pascal之前，在ALGOL 60的基础下建立了ALGOL W。ALGOL W本是下一代ALGOL的提议，但ALGOL委员会决定采用更先进复杂的设计，而不是一个简洁化ALGOL 60。</p>
+<p>ALGOL 60（源自ALGOrithmic Language 1960的缩写），一种编程语言，是ALGOL语言家族中的成员之一。根据ALGOL 58的基础，它在1960年被创造，并影响到其后的CPL、BCPL、B语言、Pascal、Simula、C语言，在编程语言中有着很大的影响力。它的后继者是ALGOL 68与ALGOL W。</p>
+<p>CPL（英语：Combined Programming Language，原名Cambridge Programming Language），一种计算机编程语言。源自于ALGOL 60，在1963年，由英国的剑桥大学和伦敦大学首先开发出来。CPL语言在ALGOL 60的基础上更接近硬件一些，但规模比较大，难以实现。BCPL是它的后继语言。</p>
+<p>BCPL（英语：Basic Combined Programming Language），是一种计算机程序设计语言，源自更早的CPL语言，1967年由剑桥大学的马丁·理察德所发展出来的 。</p>
+<p>B语言是一种通用的程序设计语言。自从被C语言取代之后，它几乎已遭弃置。</p>
+<p>B语言大约是于1969年时由美国贝尔实验室的计算机科学家──肯·汤普森在丹尼斯·利奇的支持下设计出来的。肯·汤普森最初想在UNIX上开发一个Fortran编译器，但后来引进了BCPL的风格，形成一个新的语言。</p>
+<p>后来，丹尼斯·利奇以B语言为基础开发出C语言，至此C语言渐渐发展成为目前世界上最常用的编程语言之一。</p>
+<h2 id="C语言早期发展"><a href="#C语言早期发展" class="headerlink" title="C语言早期发展"></a>C语言早期发展</h2><p>1969-1973年在美国电话电报公司（AT&amp;T）贝尔实验室开始了C语言的最初研发。根据C语言的发明者丹尼斯·里奇 (Dennis Ritchie) 说，<strong>C 语言最重要的研发时期是在1972年。</strong></p>
+<p>说明：丹尼斯·里奇(Dennis Ritchie)，C语言之父，UNIX之父。1978年与布莱恩·科尔尼干(Brian Kernighan)一起出版了名著《C程序设计语言(The C Programming Language)》，现在此书已翻译成多种语言，成为C语言方面最权威的教材之一。2011年10月12日（北京时间为10月13日），丹尼斯·里奇去世，享年70岁。</p>
+<p>C语言之所以命名为C，是因为C语言源自Ken Thompson发明的 B语言，而B语言则源自BCPL语言。</p>
+<p>C语言的诞生是和UNIX操作系统的开发密不可分的，原先的UNIX操作系统都是用汇编语言写的，1973年UNIX操作系统的核心用C语言改写，从此以后，C语言成为编写操作系统的主要语言。</p>
+<h2 id="K-amp-R-C"><a href="#K-amp-R-C" class="headerlink" title="K&amp;R C"></a>K&amp;R C</h2><p>1978年，丹尼斯·里奇(Dennis Ritchie)和布莱恩·科尔尼干(Brian Kernighan)出版了一本书，名叫《The C Programming Language》（中文译名为《C程序设计语言》）。这本书被C语言开发者们称为“K&amp;R”，很多年来被当作C语言的非正式的标准说明。人们称这个版本的C语言为“K&amp;R C”。</p>
+<p>1988年丹尼斯·里奇(Dennis Ritchie)和布莱恩·科尔尼干(Brian Kernighan)修改此书，出版了《The C Programming Language》第二版，第二版涵盖了ANSI C语言标准。第二版从此成为大学计算机教育有关C语言的经典教材，多年后也没再出现过更好的版本。</p>
+<h2 id="ANSI-C-和-ISO-C"><a href="#ANSI-C-和-ISO-C" class="headerlink" title="ANSI C 和 ISO C"></a>ANSI C 和 ISO C</h2><p>1970到80年代，C语言被广泛应用，从大型主机到小型微机，也衍生了C语言的很多不同版本。</p>
+<p>为统一C语言版本，1983年美国国家标准局（American National Standards Institute，简称ANSI）成立了一个委员会，来制定C语言标准。1989年C语言标准被批准，被称为ANSI X3.159-1989 “Programming Language C”。这个版本的C语言标准通常被称为ANSI C。又由于这个版本是 89 年完成制定的，因此也被称为 C89。</p>
+<p>后来 ANSI 把这个标准提交到 ISO（国际化标准组织），1990年被 ISO 采纳为国际标准，称为 ISO C。又因为这个版本是1990年发布的，因此也被称为C90。</p>
+<p>ANSI C(C89) 与 ISO C(C90)内容基本相同，主要是格式组织不一样。</p>
+<p>因为 ANSI 与 ISO 的C标准内容基本相同，所以对于C标准，可以称为ANSI C，也可以说是ISO C，或者 ANSI / ISO C。</p>
+<p>注意：以后大家看到 ANSI C、ISO C、C89、C90，要知道这些标准的内容都是一样的。</p>
+<p>目前，几乎所有的开发工具都支持 ANSI / ISO C 标准。是C语言用得最广泛的一个标准版本。</p>
+<h2 id="C99"><a href="#C99" class="headerlink" title="C99"></a>C99</h2><p>在ANSI C标准确立之后，C语言的规范在很长一段时间内都没有大的变动。1995年C程序设计语言工作组对 C语言进行了一些修改，成为后来的1999年发布的 ISO/IEC 9899:1999标准，通常被成为C99。</p>
+<p>但是各个公司对C99的支持所表现出来的兴趣不同。当GCC和其它一些商业编译器支持C99的大部分特性的時候，微软和Borland却似乎对此不感兴趣。</p>
+<p>说明：GCC（GNU Compiler Collection，GNU编译器集合）是一套由GNU工程开发的支持多种编程语言的编译器。</p>
+<h2 id="C语言对其它语言的影响"><a href="#C语言对其它语言的影响" class="headerlink" title="C语言对其它语言的影响"></a>C语言对其它语言的影响</h2><p>很多编程语言都深受C语言的影响，比如C++（原先是C语言的一个扩展）、C#、Java、PHP、Javascript、Perl、LPC和UNIX的C Shell等。</p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>history</category>
+      </categories>
+      <tags>
+        <tag>history</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Git从零开始</title>
     <url>/2021/05/26/Git%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
     <content><![CDATA[<p>程序员从git开始，菜鸟和高手的分水岭</p>
@@ -23,6 +100,49 @@
       </categories>
       <tags>
         <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Java发展史 1995年</title>
+    <url>/2021/06/11/Java/</url>
+    <content><![CDATA[<h1 id="Java发展史-1995年"><a href="#Java发展史-1995年" class="headerlink" title="Java发展史 1995年"></a>Java发展史 1995年</h1><span id="more"></span>
+
+<p>Java自1995诞生，至今已经20多年的历史。</p>
+<p>Java的名字的来源：Java是印度尼西亚爪哇岛的英文名称，因盛产咖啡而闻名。Java语言中的许多库类名称，多与咖啡有关，如</p>
+<p>JavaBeans(咖啡豆)、NetBeans(网络豆)以及ObjectBeans (对象豆)等等。SUN和JAVA的标识也正是一杯正冒着热气的咖啡。<br>据James Gosling回忆，最初这个为TV机顶盒所设计的语言在Sun内部一直称为Green项目。我们的新语言需要一个名字。Gosling注意到自己办公室外一棵茂密的橡树Oak，这是一种在硅谷很常见的树。所以他将这个新语言命名为Oak。但Oak是另外一个注册公司的名字。这个名字不可能再用了。</p>
+<p>在命名征集会上，大家提出了很多名字。最后按大家的评选次序，将十几个名字排列成表，上报给商标律师。排在第一位的是Silk。尽管大家都喜欢这个名字，但遭到James Gosling的坚决反对。排在第二和第三的都没有通过律师这一关。只有排在第四位的名字、得到了所有人的认可和律师的通过，这个名字就是Java。</p>
+<p>20多年来，Java就像爪哇咖啡一样誉满全球，成为实至名归的企业级应用平台的霸主。而Java语言也如同咖啡一般醇香动人。</p>
+<p>Java是一种广泛使用的计算机编程语言，拥有跨平台、面向对象、泛型编程的特性，广泛应用于企业级Web应用开发和移动应用开发。</p>
+<p>任职于Sun微系统的詹姆斯·高斯林等人于1990年代初开发Java语言的雏形，最初被命名为Oak，目标设置在家用电器等小型系统的编程语言，应用在电视机、电话、闹钟、烤面包机等家用电器的控制和通信。由于这些智能化家电的市场需求没有预期的高，太阳计算机系统（Sun公司）放弃了该项计划。随着1990年代互联网的发展，Sun公司看见Oak在互联网上应用的前景，于是改造了Oak，于1995年5月以Java的名称正式发布。Java伴随着互联网的迅猛发展而发展，逐渐成为重要的网络编程语言。</p>
+<p>Java编程语言的风格十分接近C++语言。继承了C++语言面向对象技术的核心，舍弃了容易引起错误的指针，以引用取代；移除了C++中的运算符重载和多重继承特性，用接口取代；增加垃圾回收器功能。在Java SE 1.5版本中引入了泛型编程、类型安全的枚举、不定长参数和自动装/拆箱特性。Sun微系统对Java语言的解释是：“Java编程语言是个简单、面向对象、分布式、解释性、健壮、安全、与系统无关、可移植、高性能、多线程和动态的语言”。</p>
+<p>Java不同于一般的编译语言或解释型语言。它首先将源代码编译成字节码，再依赖各种不同平台上的虚拟机来解释执行字节码，从而具有“一次编写，到处运行”的跨平台特性。在早期JVM中，这在一定程度上降低了Java程序的运行效率。但在J2SE1.4.2发布后，Java的运行速度有了大幅提升。</p>
+<p>与传统类型不同，Sun公司在推出Java时就将其作为开放的技术。全球的Java开发公司被要求所设计的Java软件必须相互兼容。“Java语言靠群体的力量而非公司的力量”是Sun公司的口号之一，并获得了广大软件开发商的认同。这与微软公司所倡导的注重精英和封闭式的模式完全不同，此外，微软公司后来推出了与之竞争的.NET平台以及模仿Java的C#语言。后来Sun公司被甲骨文公司并购，Java也随之成为甲骨文公司的产品。</p>
+<p>现时，移动操作系统Android大部分的代码采用Java编程语言编程。</p>
+<p><a href="https://zh.wikipedia.org/wiki/Java">https://zh.wikipedia.org/wiki/Java</a></p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>history</category>
+      </categories>
+      <tags>
+        <tag>history</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Javascript</title>
+    <url>/2021/06/11/Javascript/</url>
+    <content><![CDATA[<p>Java 之于 Javascript，就像 Car 之于 Carpet。</p>
+<span id="more"></span>
+
+<h2 id="Javascript"><a href="#Javascript" class="headerlink" title="Javascript"></a>Javascript</h2><p>JavaScript，最初命名为 Mocha，后来更名为 LiveScript，然后更名为 JavaScript。</p>
+<p>该语言的名称是 Netscape 和 Sun 之间联合营销协议的结果，以换取 Netscape 将 Sun 的 Java 运行时与其当时占主导地位的浏览器捆绑在一起。</p>
+<p>官方标准只是称为<em>ECMAScript</em>。</p>
+]]></content>
+      <categories>
+        <category>Javascript</category>
+      </categories>
+      <tags>
+        <tag>Javascript</tag>
       </tags>
   </entry>
   <entry>
@@ -56,6 +176,31 @@
       </tags>
   </entry>
   <entry>
+    <title>思科Nexus</title>
+    <url>/2021/06/04/Nexus/</url>
+    <content><![CDATA[<p>Nexus vPC</p>
+<span id="more"></span>
+
+<h2 id="Nexus"><a href="#Nexus" class="headerlink" title="Nexus"></a>Nexus</h2><ul>
+<li><p>vPC（virtual port channel）</p>
+</li>
+<li><p>VDC</p>
+</li>
+<li><p>ACI   Cisco Application Centric Infrastructure </p>
+</li>
+</ul>
+<p>思科的ACI就是数据中心的SDN </p>
+<h2 id="vPC"><a href="#vPC" class="headerlink" title="vPC"></a>vPC</h2><p>允许一个设备使用有两个上游设备的port  channel，消除STP阻止端口，使用所有可用的上联带宽,提供一个无环的拓扑，在链路或者设备出现故障时，提供最快的收敛，提供链路级的冗余，确保高可用性，第三方设备可以是一个服务器，一个交换机或者任何网络设备，只要这些设备支持channel Group技术</p>
+]]></content>
+      <categories>
+        <category>Network</category>
+        <category>Switch</category>
+      </categories>
+      <tags>
+        <tag>Nexus</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Linux的SSH隧道</title>
     <url>/2021/06/06/Linux%E7%9A%84SSH%E9%9A%A7%E9%81%93/</url>
     <content><![CDATA[<p>通过 ssh 的端口转发或者隧道 (tunneling) 功能，可以实现: 加密 SSH Client 端至 SSH Server 端之间的通讯数据.突破防火墙的限制完成一些之前无法建立的 TCP 连接。</p>
@@ -77,11 +222,11 @@
 </ol>
 <h4 id="命令："><a href="#命令：" class="headerlink" title="命令："></a>命令：</h4><p>Local 为ssh客户端一方<br>remote为ssh服务端一方</p>
 <p><code>ssh -L local_port:remote_address:remote_port username@server.com</code></p>
-<p>ssh -L 8888:localhost:1234 <a href="mailto:&#98;&#x6f;&#x62;&#x40;&#115;&#x73;&#104;&#x2e;&#x79;&#x6f;&#x75;&#x72;&#111;&#102;&#102;&#105;&#99;&#101;&#x2e;&#99;&#111;&#109;">&#98;&#x6f;&#x62;&#x40;&#115;&#x73;&#104;&#x2e;&#x79;&#x6f;&#x75;&#x72;&#111;&#102;&#102;&#105;&#99;&#101;&#x2e;&#99;&#111;&#109;</a><br>ssh -L 8888:192.168.1.111:1234 <a href="mailto:&#x62;&#x6f;&#98;&#64;&#x73;&#115;&#x68;&#46;&#x79;&#x6f;&#117;&#114;&#x6f;&#x66;&#102;&#105;&#x63;&#101;&#46;&#x63;&#111;&#x6d;">&#x62;&#x6f;&#98;&#64;&#x73;&#115;&#x68;&#46;&#x79;&#x6f;&#117;&#114;&#x6f;&#x66;&#102;&#105;&#x63;&#101;&#46;&#x63;&#111;&#x6d;</a></p>
+<p>ssh -L 8888:localhost:1234 <a href="mailto:&#98;&#x6f;&#98;&#x40;&#x73;&#x73;&#x68;&#x2e;&#x79;&#111;&#x75;&#x72;&#x6f;&#102;&#102;&#105;&#x63;&#x65;&#46;&#x63;&#111;&#109;">&#98;&#x6f;&#98;&#x40;&#x73;&#x73;&#x68;&#x2e;&#x79;&#111;&#x75;&#x72;&#x6f;&#102;&#102;&#105;&#x63;&#x65;&#46;&#x63;&#111;&#109;</a><br>ssh -L 8888:192.168.1.111:1234 <a href="mailto:&#x62;&#111;&#x62;&#64;&#115;&#115;&#104;&#46;&#x79;&#111;&#x75;&#x72;&#x6f;&#x66;&#102;&#x69;&#99;&#x65;&#x2e;&#99;&#x6f;&#109;">&#x62;&#111;&#x62;&#64;&#115;&#115;&#104;&#46;&#x79;&#111;&#x75;&#x72;&#x6f;&#x66;&#102;&#x69;&#99;&#x65;&#x2e;&#99;&#x6f;&#109;</a></p>
 <h3 id="远程转发"><a href="#远程转发" class="headerlink" title="远程转发"></a>远程转发</h3><h4 id="应用场景：-1"><a href="#应用场景：-1" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-1"><a href="#命令：-1" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -R remote_port:local_address:local_port username@server.com</code></p>
-<p>ssh -R 8888:localhost:1234 <a href="mailto:&#98;&#x6f;&#x62;&#64;&#115;&#x73;&#104;&#46;&#121;&#x6f;&#117;&#114;&#x6f;&#x66;&#102;&#x69;&#99;&#x65;&#x2e;&#x63;&#x6f;&#109;">&#98;&#x6f;&#x62;&#64;&#115;&#x73;&#104;&#46;&#121;&#x6f;&#117;&#114;&#x6f;&#x66;&#102;&#x69;&#99;&#x65;&#x2e;&#x63;&#x6f;&#109;</a></p>
+<p>ssh -R 8888:localhost:1234 <a href="mailto:&#x62;&#x6f;&#98;&#64;&#x73;&#115;&#x68;&#x2e;&#121;&#x6f;&#117;&#x72;&#x6f;&#102;&#x66;&#x69;&#99;&#x65;&#46;&#x63;&#x6f;&#109;">&#x62;&#x6f;&#98;&#64;&#x73;&#115;&#x68;&#x2e;&#121;&#x6f;&#117;&#x72;&#x6f;&#102;&#x66;&#x69;&#99;&#x65;&#46;&#x63;&#x6f;&#109;</a></p>
 <h3 id="动态转发"><a href="#动态转发" class="headerlink" title="动态转发"></a>动态转发</h3><h4 id="应用场景：-2"><a href="#应用场景：-2" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-2"><a href="#命令：-2" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -D local_port username@server.com</code></p>
-<p>ssh -D 8888 <a href="mailto:&#x62;&#x6f;&#x62;&#64;&#x73;&#115;&#104;&#x2e;&#x79;&#111;&#117;&#x72;&#x68;&#x6f;&#109;&#x65;&#x2e;&#x63;&#x6f;&#109;">&#x62;&#x6f;&#x62;&#64;&#x73;&#115;&#104;&#x2e;&#x79;&#111;&#117;&#x72;&#x68;&#x6f;&#109;&#x65;&#x2e;&#x63;&#x6f;&#109;</a></p>
+<p>ssh -D 8888 <a href="mailto:&#98;&#x6f;&#98;&#x40;&#115;&#x73;&#104;&#x2e;&#121;&#x6f;&#117;&#114;&#104;&#111;&#x6d;&#101;&#46;&#x63;&#111;&#109;">&#98;&#x6f;&#98;&#x40;&#115;&#x73;&#104;&#x2e;&#121;&#x6f;&#117;&#114;&#104;&#111;&#x6d;&#101;&#46;&#x63;&#111;&#109;</a></p>
 <h3 id="参数介绍"><a href="#参数介绍" class="headerlink" title="参数介绍"></a>参数介绍</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">-N 告诉 SSH 客户端，这个连接不需要执行任何命令，也就是说不需要打开远程 shell，仅仅做端口转发；</span><br><span class="line">-f 告诉SSH客户端在后台运行，要关闭这个后台连接，就只有用 kill 命令去杀掉进程；</span><br><span class="line">-L 做本地映射端口</span><br><span class="line">-R 做远程映射端口</span><br><span class="line">-D 做动态端口映射</span><br><span class="line">-C 压缩数据传输</span><br></pre></td></tr></table></figure>
 
 <h2 id="如何关闭这个SSH隧道"><a href="#如何关闭这个SSH隧道" class="headerlink" title="如何关闭这个SSH隧道"></a>如何关闭这个SSH隧道</h2><p>方法1：<br>ps aux | grep 3306   找到pid<br>kill <pid>   kill pid</p>
@@ -93,6 +238,267 @@
       </categories>
       <tags>
         <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PHP 发展史 丹麦爱玩个人主页的青年 1995 27岁</title>
+    <url>/2021/06/11/PHP/</url>
+    <content><![CDATA[<p>PHP 发展史 丹麦爱玩个人主页的青年 1995 27岁</p>
+<span id="more"></span>
+
+<h2 id="PHP-发展史-丹麦爱玩个人主页的青年-1995-27岁"><a href="#PHP-发展史-丹麦爱玩个人主页的青年-1995-27岁" class="headerlink" title="PHP 发展史 丹麦爱玩个人主页的青年 1995 27岁"></a>PHP 发展史 丹麦爱玩个人主页的青年 1995 27岁</h2><p>Rasmus Lerdorf（1968 年 11 月 22 日出生）是一名丹麦裔加拿大人程序员。他共同创作并启发了PHP脚本语言，创作了该语言的前两个版本，并参与了由 Jim Winstead（后来创建blo.gs）、Stig Bakken、Shane Caraveo等开发人员领导的后续版本的开发、安迪 Gutmans和Zeev Suraski。他继续为该项目做出贡献。</p>
+<h2 id="早年生活和教育"><a href="#早年生活和教育" class="headerlink" title="早年生活和教育"></a>早年生活和教育</h2><p>勒多夫出生于格陵兰岛的迪斯科岛，早年移居丹麦。</p>
+<p>1980年全家从丹麦移居加拿大，</p>
+<p>1983年移居安大略省金城。</p>
+<p>1988年毕业于金城中学，</p>
+<p>1993年毕业于滑铁卢大学，获学士学位应用科学的系统设计工程。</p>
+<p>他为Apache HTTP Server做出了贡献，并将 LIMIT 子句添加到mSQL DBMS。这个 LIMIT 子句的一个变体在大型机关系数据库管理系统中已经存在了十年（比如Oracle Rdb在VAX/VMS上运行，以前来自Digital Equipment Corporation），但显然它尚未被新兴的基于 PC 的数据库所采用。后来它被其他几个与 SQL 兼容的 DBMS 改编。</p>
+<p>1995 年发布了 PHP 的第一个版本。</p>
+<h2 id="职业生涯"><a href="#职业生涯" class="headerlink" title="职业生涯"></a>职业生涯</h2><p>从 2002 年 9 月到 2009 年 11 月，Lerdorf 受雇于Yahoo! Inc.作为基础架构架构工程师。2010 年，他加入WePay以开发他们的应用程序编程接口。整个 2011 年，他都是初创公司的巡回顾问。2012 年 2 月 22 日，他在 Twitter 上宣布他已加入Etsy。2013 年 7 月，Rasmus 加入Jelastic，担任高级顾问，帮助他们开发新技术。</p>
+<p>Lerdorf 经常在世界各地的开源会议上发表演讲。在 OSCMS 2007 的主题演讲中，他介绍了当年参加会议的每个项目中的一个安全漏洞。</p>
+<p>Lerdorf 还出现在 WeAreDevelopers Conferences 2017 和 2019 上，就 PHP 的历史、2017 年新的 PHP 7 版本以及 PHP 的 25 年发表了演讲。</p>
+<h2 id="PHP-开发为了挂自己的个人主页"><a href="#PHP-开发为了挂自己的个人主页" class="headerlink" title="PHP 开发为了挂自己的个人主页"></a>PHP 开发为了挂自己的个人主页</h2><p>PHP是一种通用 脚本语言，特别适用于Web 开发。它最初由丹麦-加拿大程序员 Rasmus Lerdorf于 1994 年创建。 PHP参考实现现在由 PHP Group 制作。PHP 最初代表Personal Home Page，但现在代表递归初始化 PHP: Hypertext Preprocessor。</p>
+<p>PHP 代码通常由作为模块、守护程序或通用网关接口(CGI) 可执行文件实现的 PHP解释器在Web 服务器上处理。在 Web 服务器上，解释和执行的 PHP 代码的结果（可能是任何类型的数据，例如生成的HTML或二进制图像数据）将构成HTTP响应的全部或一部分。各种网页模板系统、网页内容管理系统和网页框架存在可用于协调或促进该响应的生成。此外，PHP 可用于 Web 上下文之外的许多编程任务，例如独立的图形应用程序和机器人 无人机控制。 PHP 代码也可以直接从命令行执行。</p>
+<p>由Zend 引擎提供支持的标准 PHP 解释器是在PHP 许可下发布的免费软件。PHP已经被广泛移植，可以在几乎每一个部署在大多数Web服务器的操作系统和平台，免费的。</p>
+<p>PHP 语言在 2014 年之前没有书面正式规范或标准的情况下发展，原始实现作为事实上的标准，其他实现旨在遵循。自 2014 年以来，创建正式 PHP 规范的工作一直在进行。</p>
+<p>W3Techs 报告称，截至 2021 年 4 月，“在我们知道服务器端编程语言的所有网站中，有 79.2% 使用 PHP。”</p>
+<p>早期历史</p>
+<p>Rasmus Lerdorf编写了最初的通用网关接口(CGI) 组件，与Andi Gutmans和Zeev Suraski一起编写了构成 PHP 3的解析器。</p>
+<p><strong>PHP 的开发始于 1994 年，当时Rasmus Lerdorf用 C编写了几个通用网关接口(CGI) 程序，他用来维护他的个人主页。他将它们扩展为使用Web 表单并与数据库通信，并将此实现称为“个人主页/表单解释器”或 PHP/FI。</strong></p>
+<p>PHP/FI 可用于构建简单、动态的 Web 应用程序。为了加速错误报告和改进代码，Lerdorf 最初于1995 年 6 月 8 日在Usenet讨论组comp.infosystems.<a href="http://www.authoring.cgi上宣布将/">www.authoring.cgi上宣布将</a> PHP/FI 发布为“个人主页工具（PHP 工具）1.0 版” . 这个版本已经具备了 PHP 今天的基本功能。这包括类似 Perl 的变量、表单处理和嵌入 HTML 的能力。该语法类似于说的Perl的，但更简单，更有限，不太一致.</p>
+<h2 id="Zend引擎-2个学生的名字组合"><a href="#Zend引擎-2个学生的名字组合" class="headerlink" title="Zend引擎  2个学生的名字组合"></a>Zend引擎  2个学生的名字组合</h2><p>在Zend引擎是开源的 脚本引擎是解释的PHP编程语言。它最初是由Andi Gutmans和Zeev Suraski开发的，当时他们还是Technion – Israel Institute of Technology 的学生。他们后来创立了一家名为Zend技术在拉马特甘，以色列。Zend 这个名字是他们的名字 Zeev 和 Andi 的组合。</p>
+<p>Zend 引擎的第一个版本出现在 1999 年的 PHP 4 版中。它是用C 语言编写的，作为高度优化的模块化后端，首次可以用于 PHP 之外的应用程序。Zend 引擎为 PHP 语言提供内存和资源管理以及其他标准服务。它的性能、可靠性和可扩展性在 PHP 日益流行的过程中发挥了重要作用。</p>
+<p>紧随其后的是作为 PHP 5 核心的Zend Engine 2。</p>
+<p>最新版本是Zend Engine 3，最初代号为phpng，它是为 PHP 7 开发的，显着提高了性能。</p>
+<p>自 2001 年以来，Zend 引擎的源代码在Zend 引擎许可下免费提供（尽管某些部分在PHP 许可下），[需要引用]作为 php.net 官方发布的一部分，以及官方git存储库或GitHub镜像。各种志愿者为 PHP/Zend 引擎代码库做出贡献。</p>
+<p>Zend Engine 在 PHP 内部用作编译器和运行时引擎。PHP 脚本被加载到内存中并编译成 Zend操作码。执行这些操作码并将生成的 HTML 发送到客户端。</p>
+<p>要实现 Web 脚本解释器，您需要三个部分：</p>
+<p>解释器部分分析输入代码，翻译它并执行它。<br>功能部分实现了语言的功能（它的功能等）。<br>接口部分与 Web 服务器等对话。<br>Zend 完成了第 1 部分和第 2 部分的一些内容；PHP 需要第 2 和第 3 部分。</p>
+<p>Zend 本身实际上仅形成了语言核心，通过一些预定义函数在其非常基础的基础上实现 PHP。</p>
+<p>资料翻译来自：</p>
+<p><a href="https://en.wikipedia.org/wiki/PHP">https://en.wikipedia.org/wiki/PHP</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Rasmus_Lerdorf">https://en.wikipedia.org/wiki/Rasmus_Lerdorf</a></p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>history</category>
+      </categories>
+      <tags>
+        <tag>history</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Pivotal牛逼低调的公司</title>
+    <url>/2021/06/11/Pivotal/</url>
+    <content><![CDATA[<p>Pivotal的确掌握着很多开源软件的核心技术。比如，开源PaaS平台Cloud  Foundry和Java开发的Spring框架、数据仓库Greenplum等，Pivotal都是主要的技术贡献者</p>
+<span id="more"></span>
+
+<h2 id="Pivotal"><a href="#Pivotal" class="headerlink" title="Pivotal"></a>Pivotal</h2><p>但如果你是一个开发者，在 Java后台开发使用最多的一个框架：Spring以及衍生框架、做缓存Redis、消息队列框架RabbitMQ、还有更牛的Greenplum，这些都是Pivotal公司的。</p>
+<p>还有Tomcat、Groovy里的一些顶级开发者，DevOps理论的提出者都在这个公司，2016年风靡全球的云原生理念亦是Pivotal公司提出，最近，美国硅谷著名的精益化创业书籍的作者Eric Ries也加入了Pivotal公司。</p>
+<p>Pivotal与VMware两家本就有非同一般的关系。2013年成立于美国的硅谷的Pivotal公司，由原VMWare首席执行官Paul Matritz出任Pivotal首席执行官。这家公司可以说是含着金钥匙出身的，成立之初就有Dell  EMC、VMWare和GE共同出资10亿美元，后来微软和福特加入其中，成为公司股东之一。公司于去年4月份在美国纽约证券交易所上市。</p>
+<p>Pivotal主要提供PaaS云原生应用开发平台及服务，帮助企业客户采用敏捷软件开发方法论，从而提高软件开发人员工作效率、减少运维成本，实现数字化转型、IT创新，并最终实现业务创新。“我们Pivotal是一家低调的技术公司，我们有很多真正硬核的技术，但业界知道的人并不多。”Pivotal公司副总裁兼大中华区总裁于志伟在接受记者采访时表示。</p>
+<p>Pivotal的确掌握着很多开源软件的核心技术。比如，开源PaaS平台Cloud  Foundry和Java开发的Spring框架、数据仓库Greenplum等，Pivotal都是主要的技术贡献者，尤其是前两个开源项目最早就起源于VMware。 </p>
+<p>Pivotal的PaaS平台就是这样的一个平台。众所周知，当今软件开发领域一个热门话题就是云原生应用的崛起。根据Gartner的预测，到2022年有75%的企业会使用基于云原生容器技术来构建它们的应用，而Pivotal正是这一潮流的先行者和探索者。此番VMware想要收购Pivotal也是看上后者的这一能力。</p>
+<p>于志伟介绍说，Pivotal是最早提出云原生概念的公司，Cloud Foundry也是最早的云原生PaaS平台之一。2014年Pivotal基于业界流行多年的开源Cloud  Foundry技术体系推出第一个商业版实现时，Docker才面世不久，K8s则还没有发布。当时，Cloud  Foundry是最受市场认可的PaaS平台之一，当年IBM的BlueMix和惠普的Helion云都选用Cloud  Foundry作为PaaS的核心平台。</p>
+<p>同时，Cloud Foundry一直在与时俱进，紧跟技术的潮流和最新变化。“从2014年年初发布第一版的Cloud Foundry商业版开始，到现在基本上3个月为一个版本周期发布新版本，不断创新。”</p>
+<p>实际上，Pivotal对容器技术一直非常关注。在Docker出来之前，Pivotal就有自己的容器技术实现，叫做Warden，之后不断升级直到现在的Diego。后来，随着K8s（Kubernetes）的流行，Pivotal于2017年年初联合谷歌推出了一个开源版的容器平台KUBO。在2018年年初的时候，Pivotal又联合Google、VMware共同发布了基于Kubernetes的容器平台PKS(Pivotal Container Services)。不久前，Pivotal还公布将推出一个名为PAS on  Kubernetes的新产品，将Kubernetes和Diego的容器环境融为一体，向企业的应用开发人员有多种选择，既可以通过无应用代码改造地方式借助Kubernetes来实现容器化，也可以使用Diego的方式来通过云原生的方式来实现应用现代化。</p>
+<p><a href="https://baijiahao.baidu.com/s?id=1642528154354438867&amp;wfr=spider&amp;for=pc">https://baijiahao.baidu.com/s?id=1642528154354438867&amp;wfr=spider&amp;for=pc</a></p>
+<p><a href="https://www.sohu.com/a/127172641_464027">https://www.sohu.com/a/127172641_464027</a></p>
+]]></content>
+      <categories>
+        <category>Corp</category>
+      </categories>
+      <tags>
+        <tag>Corp</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Perl的发展史 珍珠的诞生1987年 34岁</title>
+    <url>/2021/06/11/Perl/</url>
+    <content><![CDATA[<p>Perl的发展史 珍珠的诞生1987年 34岁</p>
+<span id="more"></span>
+
+<h2 id="生平："><a href="#生平：" class="headerlink" title="生平："></a>生平：</h2><p>拉里·沃尔 Larry  Wall (1954 年 9 月 27 日出生）是美国 计算机程序员和作家。他创建了Perl 编程语言。</p>
+<p>沃尔在洛杉矶和华盛顿的布雷默顿长大</p>
+<p>1976 年在西雅图太平洋大学开始接受高等教育，主修化学和音乐，后来攻读医学预科，在大学的计算中心工作了几年，然后获得了自然和人工语言学学士学位。</p>
+<p>在加州大学伯克利分校读研究生期间 ，沃尔和他的妻子正在学习语言学，目的是寻找一种不成文的语言，也许是在非洲，并为它创建一个书写系统。然后他们将使用这种新的书写系统将各种文本翻译成语言，其中包括圣经。由于健康原因，这些计划被取消，他们留在美国，沃尔在研究生毕业后加入了美国宇航局 喷气推进实验室。</p>
+<p>沃尔是基督教新生活拿撒勒教会的活跃成员</p>
+<h2 id="成就："><a href="#成就：" class="headerlink" title="成就："></a>成就：</h2><p>Wall 是Usenet 客户端和广泛使用的程序的作者。他曾两次赢得国际混淆 C 代码竞赛，并于 1998 年获得首届自由软件基金会自由软件进步奖。</p>
+<p><strong>1987年12月18日，Larry Wall发布了Perl 1.0</strong></p>
+<p>Wall 在为System Development Corporation（后来成为Unisys 的一部分）工作期间开发了 Perl 解释器和语言。他是Programming Perl（通常称为Camel Book，由O’Reilly 出版）的合著者，该书是Perl 程序员的权威资源；并编辑了Perl Cookbook。然后，他成为O’Reilly Media 的全职员工，以进一步开发 Perl 并撰写有关该主题的书籍。</p>
+<p>沃尔作为语言学家的训练在他的书、采访和讲座中显而易见。他经常将 Perl 比作自然语言，并用语言学原理解释他在 Perl 设计中的决定。他还经常使用语言学术语来表示 Perl 语言结构，因此他有时会说“名词”、“动词”和“主题化器” ，而不是“变量”、“函数”和“访问器”等传统术语。</p>
+<p>沃尔的基督教信仰影响了 Perl 的一些术语，例如名称本身，这是圣经中对“无价珍珠”的引用（马太福音13:46）。类似的参考是函数名称bless和Raku（以前称为 Perl 6）设计文档的组织，具有诸如apocalypse和exegesis 之类的类别。Wall 在会议上发言时也提到了他的信仰，包括 1999 年 8 月 23 日在加利福尼亚州蒙特雷举行的 Perl Conference 3.0。</p>
+<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>主条目：Perl 语言结构<br>根据 Wall 的说法，Perl 有两个口号。第一个是“有不止一种方法可以做到“。第二个口号是“容易的事情应该容易，困难的事情应该成为可能”。</p>
+<h2 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h2><p>Perl 的整体结构广泛地源自C。Perl本质上是过程性的，具有变量、表达式、赋值语句、花括号分隔的块、控制结构和子例程。[需要引用]</p>
+<p>Perl 还采用了 shell 编程的特性。所有变量都标有领先的印记，这让变量被插入直接进入字符串。然而，与 shell 不同的是，Perl 在对变量的所有访问中都使用了 sigil，并且与大多数使用 sigil 的其他编程语言不同，sigil 不表示变量的类型，而是表示表达式的类型。因此，例如，虽然数组由符号“@”（例如@arrayname）表示，但数组的单个成员由标量符号“$”（例如$arrayname[3]）表示。Perl 还有很多内置函数，提供了 shell 编程中经常使用的工具（虽然这些工具很多是由 shell 外部的程序实现的），比如排序，并调用操作系统设施。</p>
+<p>Perl从Lisp获取列表，从AWK获取散列（“关联数组”），从sed 获取正则表达式。这些简化并促进了许多解析、文本处理和数据管理任务。同样与 Lisp 共享的是块中最后一个值的隐式返回，以及所有语句都有一个值的事实，因此也是表达式并且可以在更大的表达式本身中使用。</p>
+<p>Perl 5 添加了支持复杂数据结构、一流函数（即闭包作为值）和面向对象的编程模型的特性。这些包括引用、包、基于类的方法调度和词法范围的变量，以及编译器指令（例如，strict 编译指令）。Perl 5 引入的一个主要附加功能是能够将代码打包为可重用模块。沃尔后来表示“Perl 5 模块系统的整个意图是鼓励 Perl 文化而不是 Perl 核心的发展。” </p>
+<p>所有版本的 Perl 都做自动数据输入和自动内存管理。解释器知道程序中每个数据对象的类型和存储要求；它根据需要使用引用计数为它们分配和释放存储空间（因此它无法在没有手动干预的情况下释放循环数据结构）。合法的类型转换——例如，从数字到字符串的转换——在运行时自动完成；非法类型转换是致命错误。</p>
+<h2 id="设计"><a href="#设计" class="headerlink" title="设计"></a>设计</h2><p>Perl 的设计可以理解为对计算机行业三大趋势的回应：硬件成本下降、劳动力成本上升以及编译器技术的改进。许多早期的计算机语言，例如Fortran和 C，旨在有效利用昂贵的计算机硬件。相比之下，Perl 的设计目的是让计算机程序员可以更快速、更轻松地编写程序。</p>
+<p>Perl 有许多特性，它们以更高的CPU和内存要求为代价来减轻程序员的任务。这些包括自动内存管理；动态打字；字符串、列表和散列；常用表达; 内省；和一个eval()函数。Perl 遵循“没有内置限制”的理论，一个类似于零一无穷大规则的想法。</p>
+<p>Wall 接受过语言学家的培训，Perl 的设计在很大程度上遵循了语言学原理。示例包括霍夫曼编码（常见结构应该很短）、良好的末端加权（重要信息应该放在首位）以及大量语言原语。Perl 偏爱简洁自然的语言结构，即使在它们使 Perl 解释器复杂化的情况下也是如此。</p>
+<p>Perl 的语法反映了“不同的东西应该看起来不同”的想法。例如，标量、数组和散列具有不同的前导符号。数组索引和散列键使用不同种类的花括号。字符串和正则表达式具有不同的标准分隔符。这种方法可以与Lisp 之类的语言形成对比，在Lisp中，由简单和通用的符号表达式组成的相同基本语法可用于所有目的。</p>
+<p>Perl 不强制执行任何特定的编程范式（过程式、面向对象式、函数式或其他），甚至不要求程序员在其中进行选择。</p>
+<p>Perl 语言及其周围的社区和文化都有广泛的实践倾向。《Perl编程》的序言开头：“Perl 是一种用于完成工作的语言。” 这样做的一个后果是 Perl 不是一种整洁的语言。它包括许多功能，容忍其规则的例外，并采用启发式方法来解决句法歧义。由于编译器的宽容性，有时很难发现错误。Perl 的函数文档对列表和标量上下文中内置函数的变体行为进行了评论，说：“通常，除非您想要一致性，否则它们会做您想做的事。” </p>
+<p>Perl 5 之前的 Perl 版本没有Perl 语言的书面规范或标准，也没有计划为当前版本的 Perl 创建一个。解释器只有一种实现，语言也随之发展。该解释器及其功能测试构成了该语言的事实上的规范。然而，Perl 6 从一个规范开始，和几个项目旨在实现部分或全部规范。[需要引用]</p>
+<p>资料翻译来自：</p>
+<p><a href="https://en.wikipedia.org/wiki/Larry_Wall">https://en.wikipedia.org/wiki/Larry_Wall</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Perl">https://en.wikipedia.org/wiki/Perl</a></p>
+<p><a href="http://www.wall.org/~larry/">http://www.wall.org/~larry/</a></p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>history</category>
+      </categories>
+      <tags>
+        <tag>history</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python发展史 1991年 荷兰无聊青年</title>
+    <url>/2021/06/11/Python/</url>
+    <content><![CDATA[<p>Python发展史 1991年 荷兰无聊青年</p>
+<span id="more"></span>
+<h1 id="Python发展史-1991年-荷兰无聊青年"><a href="#Python发展史-1991年-荷兰无聊青年" class="headerlink" title="Python发展史 1991年 荷兰无聊青年"></a>Python发展史 1991年 荷兰无聊青年</h1><p>Python由吉多·范罗苏姆创造，第一版发布于1991年，它是ABC语言的后继者，也可以视之为一种使用传统中缀表达式的LISP方言[28]。</p>
+<p>Python的设计哲学强调代码的可读性和简洁的语法，尤其是使用空格缩进划分代码块。相比于C或Java，Python让开发者能够用更少的代码表达想法。不管是小型还是大型程序，该语言都试图让程序的结构清晰明了。</p>
+<p>Python解释器本身几乎可以在所有的操作系统中运行。Python的官方解释器CPython是用C语言编写的，它是一个由社区驱动的自由软件，目前由Python软件基金会管理。</p>
+<p>python的创始人为吉多·范罗苏姆，当时他在阿姆斯特丹的荷兰数学和计算机科学研究学会工作。1989年的圣诞节期间，吉多·范罗苏姆为了在打发时间，决心开发一个新的脚本解释编程，作为ABC语言的一种继承，替代使用Unix shell和C语言进行系统管理，担负同Amoeba操作系统的交互和异常处理。之所以选中Python作为编程的名字，是因为他是BBC电视剧——《蒙提·派森的飞行马戏团》（Monty Python’s Flying Circus）的爱好者。范罗苏姆作为Python的主要开发者独自担负这个项目的职责，直到2018年7月12日，他宣布从作为终身仁慈独裁者（BDFL）的职责上“永久休假”，Python社区向他授予这个头衔反映了他长期担任整个Python语言的发展方向的决策者。他在2019年1月至11月于参与了一个五人掌控委员会继续领导项目发展。</p>
+<p>在1991年2月，范罗苏姆发布了最初代码（标记为版本0.9.0）于alt.sources，这时就已经存在了带继承的类、异常处理、函数和核心数据类型list、dict、str等。在这个最初发行中就有了从Modula-3引进的模块系统，它的异常模型也类似于Modula-3，但增加了else子句[8]。在1994年1月Python达到了版本1.0。这个发行版主要新特征是包括了函数式编程工具lambda、map、filter和reduce。Python 1.4增加了受Modula-3启发的关键字参数和对复数的内建支持，还包含采取名字修饰的一种基本形式的数据隐藏。</p>
+<p>Python 2.0于2000年10月16日发布，介入了列表推导式，这是从函数式编程语言SETL和Haskell中引入的。它还向垃圾收集系统增加了环检测算法，并且支持Unicode[38]。Python 2.1支持了嵌套作用域，就像其他静态作用域语言一样[39]。Python 2.2的重大革新是将Python的类型（用C写成）和类（用Python写成）统一入一个层级，使得Python的对象模型成为纯粹和一致的面向对象的模型[40]；还增加了迭代器[41]，受CLU和Icon启发的生成器，和描述器协议。Python 2.4加入了集合数据类型，和函数修饰器[44]。Python 2.5加入了with语句。</p>
+<p>Python 3.0于2008年12月3日发布，它对语言做了较大修订而不能完全后向兼容。Python 3发行包括了2to3实用工具，它（至少部分的）自动将Python 2代码转换成Python 3代码。Python 3的很多新特性后来也被移植到旧的Python 2.6/2.7版本中。</p>
+<p>Python 2.7的产品寿命结束日期最初设定为2015年，出于对大量的现存代码不能前向移植到Python 3的关切而延期至2020年。随着Python 2的产品寿命结束，只有Python 3.8和后续版本仍被完全支持。</p>
+<p>在2020年12月，活跃的Python核心开发者选举Barry Warsaw、Brett Cannon、Carol Willing、Pablo Galindo Salgado和Thomas Wouters为2021年度“掌控委员会”的五位成员来领导这个项目。</p>
+<p>特征与设计哲学<br>Python是多范型编程语言。它完全支持结构化编程和面向对象编程，还有很多特征支持函数式编程和元编程包括元类和元对象（魔术方法）。通过扩展还可以支持很多范型，包括面向切面编程、契约式设计和逻辑编程。</p>
+<p>Python使用动态类型，在内存管理上采用引用计数和环检测相结合的垃圾收集器。它的特征还有动态名字解析（后期绑定），即在程序执行期间绑定方法和变量的名字。</p>
+<p>Python对遵循LISP传统的函数式编程提供了有限的支持，它提供了 map、filter和reduce函数；列表推导式、字典、集合和生成器表达式[60]。标准库中有两个模块（functools和itertools）实现了从Haskell和Standard ML取来的函数式工具。</p>
+<p>Python的设计哲学是“优雅”、“明确”、“简单”。它的重要准则被称为“Python之禅”。在Python解释器内运行import this可以获得完整的列表，下面是其中首要：</p>
+<p>优美优于丑陋。明了优于隐晦。<br>简单优于复杂。复杂优于凌乱。<br>扁平优于嵌套。稀疏优于稠密。<br>可读性很重要。</p>
+<p>Python开发者的哲学是“用一种方法，最好是只有一种方法来做一件事”，显著不同于拥有“不止一种方法去做一件事”风格的语言例如Perl。在设计Python语言时，如果面临多种选择，Python开发者一般会拒绝花俏的语法，而选择明确没有或者很少有歧义的语法。</p>
+<p>范罗苏姆认为ABC语言非常优美和强大，并没有成功的原因是非开放造成的，故而将Python本身设计为可扩展的。Python并不把所有的特性和功能都集成到语言核心，而是提供了丰富的API和工具，以便程序员能够轻松地使用C、Cython来编写扩展模块，因此很多人使用Python将其他语言编写的编程进行集成和封装。Python编译器本身也可以被集成到其它需要脚本语言的编程内。</p>
+<p>Python开发人员尽量避开不成熟或者不重要的优化。一些针对非重要部位的加快运行速度的补丁通常不会被合并到Python的官方实现CPython中。在某些对运行速度要求很高的情况，Python设计师可以使用JIT技术的PyPy，或者是将Python脚本翻译成C的Cython，还可以将时间关键的函数迁移至用C语言编写的扩展模块中。</p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>history</category>
+      </categories>
+      <tags>
+        <tag>history</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python发展史 1991年 荷兰无聊青年</title>
+    <url>/2021/06/11/Redis/</url>
+    <content><![CDATA[<p>Redis就是一种运行速度很快，并发很强的跑在内存上的NoSql数据库，支持键到五种数据类型的映射。</p>
+<span id="more"></span>
+<h3 id="Redis"><a href="#Redis" class="headerlink" title="Redis"></a>Redis</h3><p>Redis（Remote Dictionary Server )，即远程字典服务，是一个开源的使用ANSI C语言编写、支持网络、可基于内存亦可持久化的日志型、Key-Value数据库，并提供多种语言的API。</p>
+<p>从2010年3月15日起，Redis的开发工作由VMware主持。</p>
+<p>从2013年5月开始，Redis的开发由Pivotal赞助。</p>
+<p>Redis就是一种运行速度很快，并发很强的跑在内存上的NoSql数据库，支持键到五种数据类型的映射。</p>
+<p>Redis 的作者，叫Salvatore Sanfilippo，来自意大利的西西里岛，居住在卡塔尼亚。目前供职于Pivotal公司。他使用的网名是antirez。</p>
+<p><strong>简述一下Redis值的五种类型</strong></p>
+<ul>
+<li><p>string        整数，浮点数或者字符串</p>
+</li>
+<li><p>Set             集合</p>
+</li>
+<li><p>Zset           有序集合</p>
+</li>
+<li><p>Hash          散列表</p>
+</li>
+<li><p>List             列表</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>Redis</category>
+      </categories>
+      <tags>
+        <tag>Redis</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ORM</title>
+    <url>/2021/06/11/ORM/</url>
+    <content><![CDATA[<p>ORM是Object Relation Mapping的缩写，顾名思义，即对象关系映射。</p>
+<span id="more"></span>
+<h2 id="ORM"><a href="#ORM" class="headerlink" title="ORM"></a>ORM</h2><p>ORM是Object Relation Mapping的缩写，顾名思义，即对象关系映射。</p>
+<p>ORM是一种以面向对象的方式来进行数据库操作的技术。Web开发中常用的语言，都会有对应的ORM框架。而Hibernate就是Java开发中一种常用ORM框架，另一个现在流行的ORM框架是<strong>Mybatis</strong>。</p>
+<p>为什么需要ORM框架？</p>
+<p>简单地理解，通过Java进行数据库访问的正常流程可以分为以下几步：</p>
+<ol>
+<li>准备好SQL语句</li>
+<li>调用JDBC的API传入SQL语句，设置参数</li>
+<li>解析JDBC返回的结果</li>
+</ol>
+<p>这个过程实际上非常麻烦，比如：</p>
+<ul>
+<li>在Java代码中拼接SQL非常麻烦，而且易于出错</li>
+<li>JDBC的代码调用有很多重复性的代码</li>
+<li>从JDBC返回的结果转换成领域模型的Java对象很繁琐</li>
+</ul>
+<p>而使用ORM框架，则可以让我们用面向对象的方式来操作数据库，比如通过一个简单的函数调用就完成上面整个流程，直接返回映射为Java对象的结果。这个流程中很大一部分工作其实可以交给ORM自动化地帮我们执行。对，类似MVC框架，ORM框架会帮你处理好相关的繁琐事情！</p>
+<p>作者：David<br>链接：<a href="https://www.zhihu.com/question/21142149/answer/148286909">https://www.zhihu.com/question/21142149/answer/148286909</a></p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>ORM</category>
+      </categories>
+      <tags>
+        <tag>ORM</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Spring</title>
+    <url>/2021/06/11/Spring/</url>
+    <content><![CDATA[<p>Spring</p>
+<span id="more"></span>
+<h2 id="Spring"><a href="#Spring" class="headerlink" title="Spring"></a>Spring</h2><h2 id="Spring-core"><a href="#Spring-core" class="headerlink" title="Spring core"></a>Spring core</h2><h2 id="spring-MVC"><a href="#spring-MVC" class="headerlink" title="spring MVC"></a>spring MVC</h2><p>spring MVC 使用 Spring core。首先，Spring core是一个 IOC 容器，它将依赖项注入到各种 bean 类（如您的控制器类、服务类等）中。因此，spring-mvc 利用 IOC 容器（spring-core）的强大功能来设置 Web 框架组件，例如<code>WebApplicationContext</code>解析/创建<code>ViewResolver</code>对象等。</p>
+<h2 id="spring-boot"><a href="#spring-boot" class="headerlink" title="spring boot"></a>spring boot</h2><p><a href="https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc">https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc</a></p>
+<p>spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。</p>
+<p>spring mvc 是只是spring 处理web层请求的一个模块。</p>
+<p>因此他们的关系大概就是这样：</p>
+<p>spring mvc  &lt; spring &lt;springboot。</p>
+<p>KFC套餐和KFC香辣汉堡的关系。。</p>
+<p><strong>Enterprise JavaBeans (EJB)</strong> </p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>Spring</category>
+      </categories>
+      <tags>
+        <tag>Spring</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SDN</title>
+    <url>/2021/06/04/SDN/</url>
+    <content><![CDATA[<p>SDN</p>
+<span id="more"></span>
+<h2 id="SDN"><a href="#SDN" class="headerlink" title="SDN"></a>SDN</h2><h2 id="Cisco-ACI"><a href="#Cisco-ACI" class="headerlink" title="Cisco ACI"></a>Cisco ACI</h2><p>思科应用中心基础架构</p>
+<p>本质上是思科针对数据中心提供的SDN解决方案，其核心功能或目的是对数据中心网络实现软件层面的集中控制及自动化管理。</p>
+<p>ACI包括三种核心的组件，分别是：</p>
+<ol>
+<li><p>Cisco Nexus 9000交换机</p>
+</li>
+<li><p>APIC（Application Policy Infrastructure Controller ，应用策略基础架构控制器）、</p>
+</li>
+<li><p>ANP应用网络配置文件</p>
+</li>
+</ol>
+<h2 id="VMware-NSX"><a href="#VMware-NSX" class="headerlink" title="VMware NSX"></a>VMware NSX</h2><p>VMware NSX更多的是基于软件层面进行SDN架构设计，VMware NSX可以忽略底层硬件差异，通过构建一个分布式虚拟层来实现大部分需要网络硬件支持的功能。</p>
+<p>而思科应用中心基础设施（Application Centric Infrastructure, ACI）是一个基于思科硬件的SDN解决方案，准确说只能使用思科Nexus 9000型交换机和支持ACI的硬件板块才能够正常部署。同样的用途，不同的设计思路，</p>
+<p>也许是源于VMware是一家软件公司，而CISCO是一家网络硬件公司的缘故吧！</p>
+<p><a href="https://www.dell.com/community/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8%E5%92%8C%E4%BF%9D%E6%8A%A4-%E8%B5%84%E6%96%99%E6%96%87%E6%A1%A3/%E5%AF%B9%E6%AF%94VMware-NSX%E5%92%8CCISCO-ACI%E7%9A%84%E5%BC%82%E5%90%8C/ta-p/7183690">https://www.dell.com/community/数据存储和保护-资料文档/对比VMware-NSX和CISCO-ACI的异同/ta-p/7183690</a></p>
+<h2 id="OpenStack-Neutron"><a href="#OpenStack-Neutron" class="headerlink" title="OpenStack Neutron"></a>OpenStack Neutron</h2><p>Open stack中网络是通过Neutron组件实现，它也成为了整个Open stack中最复杂的部分</p>
+<p>OpenStack网络（neutron）管理您OpenStack环境中虚拟网络基础设施（VNI）所有网络方面和物理网络基础设施（PNI）的接入层方面。</p>
+]]></content>
+      <categories>
+        <category>Network</category>
+        <category>SDN</category>
+      </categories>
+      <tags>
+        <tag>SDN</tag>
       </tags>
   </entry>
   <entry>
@@ -200,6 +606,43 @@
       </tags>
   </entry>
   <entry>
+    <title>mysql发展史 一个男人的2个女儿名字命令数据库 1995年</title>
+    <url>/2021/06/11/mysql/</url>
+    <content><![CDATA[<h2 id="mysql发展史-一个男人的2个女儿名字命令数据库-1995年"><a href="#mysql发展史-一个男人的2个女儿名字命令数据库-1995年" class="headerlink" title="mysql发展史 一个男人的2个女儿名字命令数据库 1995年"></a>mysql发展史 一个男人的2个女儿名字命令数据库 1995年</h2><span id="more"></span>
+
+<p>MySQL是开源 关系数据库管理系统（RDBMS）。它的名字是“My”（联合创始人Michael Widenius的女儿的名字）和“ SQL ”（结构化查询语言的缩写）的组合。一个关系型数据库将数据组织成一个或多个数据表，其中数据类型可能相互关联；这些关系有助于构建数据。SQL 是程序员用来从关系数据库中创建、修改和提取数据以及控制用户对数据库的访问的语言。除了关系数据库和 SQL 之外，像 MySQL 这样的 RDBMS 与操作系统一起工作，以在计算机的存储系统中实现关系数据库，管理用户，允许网络访问并促进测试数据库完整性和创建备份。</p>
+<p>MySQL 的第一个版本出现于 1995 年 5 月 23 日，它最初是从基于低级语言ISAM 的mSQL创建供个人使用的，创建者认为它太慢了和不灵活。他们创建了一个新的SQL接口，同时保持相同的API作为 mSQL。通过使 API 与 mSQL 系统保持一致，许多开发人员能够使用 MySQL 而不是（专有许可的）mSQL 前身。</p>
+<p>MySQL 是GNU 通用公共许可证条款下的免费开源软件，也可在各种专有许可证下使用。MySQL 由瑞典公司MySQL AB拥有和赞助，该公司被Sun Microsystems（现为Oracle Corporation）收购。 2010年，当甲骨文收购Sun时，Widenius分叉了开源MySQL项目，创建了MariaDB。</p>
+<p>MySQL 具有独立客户端，允许用户使用 SQL 直接与 MySQL 数据库交互，但更多情况下，MySQL 与其他程序一起使用以实现需要关系数据库功能的应用程序。MySQL 是LAMP Web 应用程序 软件堆栈（和其他）的一个组件，它是Linux、Apache、 MySQL 、Perl / PHP / Python的首字母缩写词。许多数据库驱动的 Web 应用程序都使用 MySQL，包括Drupal、Joomla、phpBB和WordPress。MySQL也被许多流行的网站使用，包括Facebook、 Flickr、 MediaWiki、 Twitter、和 YouTube。</p>
+<p>MariaDB的是一个社区开发的商业化支持的叉的的MySQL的 关系数据库管理系统（RDBMS），意在保持免费和开放源码软件的下GNU通用公共许可证。开发由 MySQL 的一些原始开发人员领导，由于担心它在 2009 年被甲骨文公司收购，他们分叉了它。</p>
+<p>MariaDB 旨在保持与 MySQL 的高度兼容性，确保具有库二进制奇偶校验和与 MySQL API和命令的精确匹配的直接替换能力。但是，新功能的差异更大。它包括新的存储引擎，如Aria、ColumnStore和MyRocks。</p>
+<p>它的首席开发人员/CTO 是Michael “Monty” Widenius，他是MySQL AB的创始人之一，也是 Monty Program AB 的创始人。2008 年 1 月 16 日，MySQL AB 宣布已同意被Sun Microsystems以约 10 亿美元的价格收购。收购于 2008 年 2 月 26 日完成。第二年 Sun 被甲骨文公司收购。MariaDB 以 Widenius 的小女儿 Maria 的名字命名。（MySQL 以他的另一个女儿 My 的名字命名。）</p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>history</category>
+      </categories>
+      <tags>
+        <tag>history</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>node.js汇总</title>
+    <url>/2021/05/26/node.js%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
+    <content><![CDATA[<p>Node.js 就是运行在服务端的 JavaScript。 </p>
+<span id="more"></span>
+
+<p>Node.js 是一个基于Chrome JavaScript 运行时建立的一个平台。<br>Node.js是一个事件驱动I/O服务端JavaScript环境，基于Google的V8引擎，V8引擎执行Javascript的速度非常快，性能非常好</p>
+<p>查看node版本</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ node -v</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>node.js</category>
+      </categories>
+      <tags>
+        <tag>js</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>nagios从零开始</title>
     <url>/2021/06/01/nagios%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
     <content><![CDATA[<p>nagios从零开始</p>
@@ -225,53 +668,6 @@
       </categories>
       <tags>
         <tag>Nagios</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>node.js汇总</title>
-    <url>/2021/05/26/node.js%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
-    <content><![CDATA[<p>Node.js 就是运行在服务端的 JavaScript。 </p>
-<span id="more"></span>
-
-<p>Node.js 是一个基于Chrome JavaScript 运行时建立的一个平台。<br>Node.js是一个事件驱动I/O服务端JavaScript环境，基于Google的V8引擎，V8引擎执行Javascript的速度非常快，性能非常好</p>
-<p>查看node版本</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ node -v</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>node.js</category>
-      </categories>
-      <tags>
-        <tag>js</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>npm从零开始</title>
-    <url>/2021/05/26/npm%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
-    <content><![CDATA[<p>npm从零开始</p>
-<span id="more"></span>
-<p>接触到的第一个npm命令</p>
-<p><code>npm install hexo-cli -g</code></p>
-<h2 id="查看node版本"><a href="#查看node版本" class="headerlink" title="查看node版本"></a>查看node版本</h2><p>node -v </p>
-<h2 id="查看npm版本"><a href="#查看npm版本" class="headerlink" title="查看npm版本"></a>查看npm版本</h2><p>npm -v  </p>
-<h2 id="什么是npm-为什么要使用npm"><a href="#什么是npm-为什么要使用npm" class="headerlink" title="什么是npm? 为什么要使用npm?"></a>什么是npm? 为什么要使用npm?</h2><p>NPM是随同NodeJS的包管理工具</p>
-<h2 id="什么是CNPM？"><a href="#什么是CNPM？" class="headerlink" title="什么是CNPM？"></a>什么是CNPM？</h2><p>CNPM全称为”China Node Package Manager”，即中国的包管理镜器。其原理是用一个完整npmjs.org镜像，同步频率目前为10分钟一次以保证尽量与官方服务同步。</p>
-<p>国内的NPM软件源有很多，其中阿里云的软件源就是一个不错的选择，本片笔记就是使用阿里的软件源。</p>
-<p>npm 的包安装分为本地安装（local）、全局安装（global）两种</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli      # 本地安装</span><br><span class="line">npm install hexo-cli -g   # 全局安装</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="npm-install说明-常用简写"><a href="#npm-install说明-常用简写" class="headerlink" title="npm install说明 常用简写"></a>npm install说明 常用简写</h2><p>npm install=npm i。在git clone项目的时候，项目文件中并没有 node_modules文件夹，项目的依赖文件可能很大。直接执行，npm会根据package.json配置文件中的依赖配置下载安装。</p>
-<p>-global=-g，全局安装，安装后的包位于系统预设目录下<br>–save=-S，安装的包将写入package.json里面的dependencies，dependencies：生产环境需要依赖的库<br>–save-dev=-D，安装的包将写入packege.json里面的devDependencies，devdependencies：只有开发环境下需要依赖的库</p>
-<h2 id="查看安装信息"><a href="#查看安装信息" class="headerlink" title="查看安装信息"></a>查看安装信息</h2><p>使用以下命令来查看所有全局安装的模块：<br>$ npm list -g</p>
-<h2 id="卸载模块"><a href="#卸载模块" class="headerlink" title="卸载模块"></a>卸载模块</h2><p>可以使用以下命令来卸载 Node.js 模块。<br>$ npm uninstall hexo-cli</p>
-<h2 id="更新模块"><a href="#更新模块" class="headerlink" title="更新模块"></a>更新模块</h2><p>可以使用以下命令更新模块：<br>$ npm update hexo-cli</p>
-<h2 id="搜索模块"><a href="#搜索模块" class="headerlink" title="搜索模块"></a>搜索模块</h2><p>使用以下来搜索模块：<br>$ npm search hexo-cli</p>
-<h2 id="使用-package-json"><a href="#使用-package-json" class="headerlink" title="使用 package.json"></a>使用 package.json</h2><p>package.json 位于模块的目录下，用于定义包的属性。</p>
-]]></content>
-      <categories>
-        <category>node.js</category>
-      </categories>
-      <tags>
-        <tag>node.js</tag>
       </tags>
   </entry>
   <entry>
@@ -323,6 +719,37 @@
       </categories>
       <tags>
         <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>npm从零开始</title>
+    <url>/2021/05/26/npm%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
+    <content><![CDATA[<p>npm从零开始</p>
+<span id="more"></span>
+<p>接触到的第一个npm命令</p>
+<p><code>npm install hexo-cli -g</code></p>
+<h2 id="查看node版本"><a href="#查看node版本" class="headerlink" title="查看node版本"></a>查看node版本</h2><p>node -v </p>
+<h2 id="查看npm版本"><a href="#查看npm版本" class="headerlink" title="查看npm版本"></a>查看npm版本</h2><p>npm -v  </p>
+<h2 id="什么是npm-为什么要使用npm"><a href="#什么是npm-为什么要使用npm" class="headerlink" title="什么是npm? 为什么要使用npm?"></a>什么是npm? 为什么要使用npm?</h2><p>NPM是随同NodeJS的包管理工具</p>
+<h2 id="什么是CNPM？"><a href="#什么是CNPM？" class="headerlink" title="什么是CNPM？"></a>什么是CNPM？</h2><p>CNPM全称为”China Node Package Manager”，即中国的包管理镜器。其原理是用一个完整npmjs.org镜像，同步频率目前为10分钟一次以保证尽量与官方服务同步。</p>
+<p>国内的NPM软件源有很多，其中阿里云的软件源就是一个不错的选择，本片笔记就是使用阿里的软件源。</p>
+<p>npm 的包安装分为本地安装（local）、全局安装（global）两种</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli      # 本地安装</span><br><span class="line">npm install hexo-cli -g   # 全局安装</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="npm-install说明-常用简写"><a href="#npm-install说明-常用简写" class="headerlink" title="npm install说明 常用简写"></a>npm install说明 常用简写</h2><p>npm install=npm i。在git clone项目的时候，项目文件中并没有 node_modules文件夹，项目的依赖文件可能很大。直接执行，npm会根据package.json配置文件中的依赖配置下载安装。</p>
+<p>-global=-g，全局安装，安装后的包位于系统预设目录下<br>–save=-S，安装的包将写入package.json里面的dependencies，dependencies：生产环境需要依赖的库<br>–save-dev=-D，安装的包将写入packege.json里面的devDependencies，devdependencies：只有开发环境下需要依赖的库</p>
+<h2 id="查看安装信息"><a href="#查看安装信息" class="headerlink" title="查看安装信息"></a>查看安装信息</h2><p>使用以下命令来查看所有全局安装的模块：<br>$ npm list -g</p>
+<h2 id="卸载模块"><a href="#卸载模块" class="headerlink" title="卸载模块"></a>卸载模块</h2><p>可以使用以下命令来卸载 Node.js 模块。<br>$ npm uninstall hexo-cli</p>
+<h2 id="更新模块"><a href="#更新模块" class="headerlink" title="更新模块"></a>更新模块</h2><p>可以使用以下命令更新模块：<br>$ npm update hexo-cli</p>
+<h2 id="搜索模块"><a href="#搜索模块" class="headerlink" title="搜索模块"></a>搜索模块</h2><p>使用以下来搜索模块：<br>$ npm search hexo-cli</p>
+<h2 id="使用-package-json"><a href="#使用-package-json" class="headerlink" title="使用 package.json"></a>使用 package.json</h2><p>package.json 位于模块的目录下，用于定义包的属性。</p>
+]]></content>
+      <categories>
+        <category>node.js</category>
+      </categories>
+      <tags>
+        <tag>node.js</tag>
       </tags>
   </entry>
   <entry>
@@ -412,6 +839,24 @@
       </tags>
   </entry>
   <entry>
+    <title>思科交换机stack和VSS</title>
+    <url>/2021/06/01/%E6%80%9D%E7%A7%91%E4%BA%A4%E6%8D%A2%E6%9C%BAstack%E5%92%8CVSS/</url>
+    <content><![CDATA[<p>思科交换机stack和VSS</p>
+<span id="more"></span>
+<h2 id="配置domain"><a href="#配置domain" class="headerlink" title="配置domain:"></a>配置domain:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#conf t</span><br><span class="line">9500-A(config)#stackwise-virtual</span><br><span class="line">9500-A(config-stackwise-virtual)#domain 1 </span><br><span class="line">9500-A(config-stackwise-virtual)#exit</span><br></pre></td></tr></table></figure>
+<h2 id="配置virtual-link"><a href="#配置virtual-link" class="headerlink" title="配置virtual-link:"></a>配置virtual-link:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#inter ran ten 1/0/1, ten 1/0/2</span><br><span class="line">9500-A(config-if-range)#stackwise-virtual link 1 </span><br></pre></td></tr></table></figure>
+<h2 id="配置-dual-detection-link"><a href="#配置-dual-detection-link" class="headerlink" title="配置 dual-detection link"></a>配置 dual-detection link</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#int te1/0/3</span><br><span class="line">9500-A(config-if)#stackwise-virtual dual-active-detection</span><br></pre></td></tr></table></figure>
+
+<h2 id="配置优先级"><a href="#配置优先级" class="headerlink" title="配置优先级"></a>配置优先级</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#switch 1 priority 15</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Network</category>
+        <category>Switch</category>
+      </categories>
+      <tags>
+        <tag>Switch</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>思科wireless连接的交互过程</title>
     <url>/2021/06/09/%E6%80%9D%E7%A7%91wireless%E8%BF%9E%E6%8E%A5%E7%9A%84%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/</url>
     <content><![CDATA[<p>思科wireless连接的交互过程 以及四次握手交互过程</p>
@@ -441,24 +886,6 @@
       </categories>
       <tags>
         <tag>Wireless</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>思科交换机stack和VSS</title>
-    <url>/2021/06/01/%E6%80%9D%E7%A7%91%E4%BA%A4%E6%8D%A2%E6%9C%BAstack%E5%92%8CVSS/</url>
-    <content><![CDATA[<p>思科交换机stack和VSS</p>
-<span id="more"></span>
-<h2 id="配置domain"><a href="#配置domain" class="headerlink" title="配置domain:"></a>配置domain:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#conf t</span><br><span class="line">9500-A(config)#stackwise-virtual</span><br><span class="line">9500-A(config-stackwise-virtual)#domain 1 </span><br><span class="line">9500-A(config-stackwise-virtual)#exit</span><br></pre></td></tr></table></figure>
-<h2 id="配置virtual-link"><a href="#配置virtual-link" class="headerlink" title="配置virtual-link:"></a>配置virtual-link:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#inter ran ten 1/0/1, ten 1/0/2</span><br><span class="line">9500-A(config-if-range)#stackwise-virtual link 1 </span><br></pre></td></tr></table></figure>
-<h2 id="配置-dual-detection-link"><a href="#配置-dual-detection-link" class="headerlink" title="配置 dual-detection link"></a>配置 dual-detection link</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#int te1/0/3</span><br><span class="line">9500-A(config-if)#stackwise-virtual dual-active-detection</span><br></pre></td></tr></table></figure>
-
-<h2 id="配置优先级"><a href="#配置优先级" class="headerlink" title="配置优先级"></a>配置优先级</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#switch 1 priority 15</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Network</category>
-        <category>Switch</category>
-      </categories>
-      <tags>
-        <tag>Switch</tag>
       </tags>
   </entry>
 </search>
