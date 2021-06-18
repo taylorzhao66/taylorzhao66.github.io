@@ -26,41 +26,6 @@
       </tags>
   </entry>
   <entry>
-    <title>C++历史 1985年 丹麦</title>
-    <url>/2021/06/11/C++/</url>
-    <content><![CDATA[<h2 id="C-历史-1985年-丹麦"><a href="#C-历史-1985年-丹麦" class="headerlink" title="C++历史 1985年 丹麦"></a>C++历史 1985年 丹麦</h2><span id="more"></span>
-
-
-<p><strong>Bjarne Stroustrup</strong> 出生于丹麦的奥胡斯。他家是工人阶级，他上当地学校。</p>
-<p>他出席了奥胡斯大学1969-1975，并用有刻度的硕士学位在数学和计算机科学。他的兴趣集中在微程序设计和机器架构上。他从其发明者克里斯汀·尼加德( Kristen Nygaard)那里学习了面向对象编程的基础，后者经常访问奥尔胡斯。</p>
-<p>1979 年，他在剑桥大学获得计算机科学博士学位，在那里他受到David Wheeler 的指导。他的论文涉及分布式计算机系统中的通信。</p>
-<p>职业生涯</p>
-<p>1979 年，Stroustrup 在美国新泽西州默里希尔的贝尔实验室计算机科学研究中心担任技术人员，开始了他的职业生涯。在那里，他开始了 C++ 和编程技术方面的工作。从创建到 2002 年底，Stroustrup 一直是AT&amp;T 贝尔实验室大规模编程研究部门的负责人。1993 年，他成为贝尔实验室研究员，1996 年成为 AT&amp;T 研究员。</p>
-<p>从 2002 年到 2014 年，Stroustrup 是德克萨斯 A&amp;M 大学工程学院计算机科学教授。 2011年被评为大学特聘教授。</p>
-<p>截至 2014 年 1 月，Stroustrup 是纽约市摩根士丹利技术部门的技术研究员和董事总经理，也是哥伦比亚大学计算机科学的客座教授</p>
-<p>1979 年，丹麦计算机科学家Bjarne Stroustrup开始研究“C with Classes》，C++ 的前身。 创建一门新语言的动机源于 Stroustrup 为他的博士论文编程的经验。Stroustrup 发现Simula具有对大型软件开发非常有帮助的特性，但该语言是实际使用太慢，而BCPL速度快但太低级，不适合大型软件开发。当 Stroustrup 开始在AT&amp;T 贝尔实验室工作时，他在分析UNIX 内核的分布式计算方面遇到了问题。记得他的博士学位经验，Stroustrup 着手增强C语言类似模拟器的功能。选择 C 是因为它具有通用性、快速、便携和广泛使用的特点。除了 C 和 Simula 的影响，其他语言也影响了这种新语言，包括ALGOL 68、Ada、CLU和ML。</p>
-<p>最初，Stroustrup 的“C with Classes”为 C 编译器 Cpre 添加了特性，包括类、派生类、强类型、内联和默认参数。</p>
-<p>1982 年，Stroustrup 开始开发带有类的 C 的继承者，在经历了其他几个名称之后，他将其命名为“C++”（++即C 中的增量运算符）。添加了新功能，包括虚函数、函数名称和运算符重载、引用、常量、类型安全的自由存储内存分配（新建/删除）、改进的类型检查和带有两个正斜杠 ( //) 的BCPL 样式的单行注释. 此外，Stroustrup 为 C++ 开发了一个新的独立编译器Cfront。</p>
-<p>1984 年，Stroustrup 实现了第一个流输入/输出库。Doug McIlroy [1]（他之前建议使用Unix 管道）提出了提供输出操作符而不是命名输出函数的想法。</p>
-<p><strong>1985 年，第一版The C++ Programming Language发布，成为该语言的权威参考，因为当时还没有正式的标准。 C++的第一个商业实现于同年10月发布。</strong></p>
-<p>1989 年，C++ 2.0 发布，随后在 1991 年更新了The C++ Programming Language 的第二版。2.0 中的新特性包括多重继承、抽象类、静态成员函数、const 成员函数和受保护成员。1990 年，The Annotated C++ Reference Manual出版。这项工作成为未来标准的基础。后来添加的功能包括模板、异常、名称空间、新的强制转换和布尔类型。</p>
-<p>2015 年在巴黎举行的关于 C++11 特性的测验<br>1998 年，C++98 发布，标准化了语言，2003 年发布了一个小更新（C++03）。</p>
-<p>在 C++98 之后，C++ 发展相对缓慢，直到 2011 年，C++11标准发布，增加了许多新特性，进一步扩大了标准库，并为 C++ 程序员提供了更多便利。在2014 年 12 月发布C++14 小更新之后，C++17中引入了各种新增功能。在 2020 年 2 月定稿后，[22] C++20 标准草案于 2020 年 9 月 4 日获得批准，并于 2020 年 12 月 15 日正式发布。</p>
-<p>2018 年 1 月 3 日，Stroustrup 被宣布为 2018 年查尔斯·斯塔克·德雷珀工程奖的获得者，“以概念化和开发 C++ 编程语言”。</p>
-<p>C 是面向过程的一门编程语言，C++ 可以很好地进行面向对象的程序设计。C++ 虽然主要是以 C 的基础发展起来的一门新语言，但它不是 C 的替代品，它们是兄弟关系。面向对象和面向过程不是矛盾的，而是各有用途、互为补充的。</p>
-<p>C++ 对 C 的增强，表现在六个方面：</p>
-<p>增强了类型检查机制<br>增加了面向对象的机制<br>增加了泛型编程的机制（template）<br>增加了异常处理<br>增加了重载的机制<br>增加了标准模板库（STL）</p>
-<p>链接：<a href="https://www.jianshu.com/p/2522b07219ae">https://www.jianshu.com/p/2522b07219ae</a></p>
-]]></content>
-      <categories>
-        <category>Java</category>
-        <category>history</category>
-      </categories>
-      <tags>
-        <tag>history</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Docker</title>
     <url>/2021/05/26/Docker/</url>
     <content><![CDATA[<p>Docker容器技术，也是虚拟化技术，属于轻量级的虚拟化。</p>
@@ -81,6 +46,26 @@
       </categories>
       <tags>
         <tag>Docker</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Java Servlet</title>
+    <url>/2021/05/26/Java_Servlet/</url>
+    <content><![CDATA[<p>Java Servlet</p>
+<span id="more"></span>
+
+<h2 id="Java-Servlet"><a href="#Java-Servlet" class="headerlink" title="Java  Servlet"></a>Java  Servlet</h2><p>Java  Servlet（Java服务器小程序）是一个基于Java技术的Web组件，运行在服务器端，它由Servlet容器所管理，用于生成动态的内容。  </p>
+<p>Servlet是平台独立的Java类，编写一个Servlet，实际上就是按照Servlet规范编写一个Java类。Servlet被编译为平台独立 的字节码，可以被动态地加载到支持Java技术的Web服务器中运行。</p>
+<h2 id="Servlet容器"><a href="#Servlet容器" class="headerlink" title="Servlet容器"></a>Servlet容器</h2><p>Servlet容器也叫做Servlet引擎，是Web服务器或应用程序服务器的一部分，用于在发送的请求和响应之上提供网络服务，解码基于  MIME的请求，格式化基于MIME的响应。Servlet没有main方法，不能独立运行，它必须被部署到Servlet容器中，由容器来实例化和调用  Servlet的方法（如doGet()和doPost()），Servlet容器在Servlet的生命周期内包容和管理Servlet。在JSP技术 推出后，管理和运行Servlet/JSP的容器也称为Web容器。</p>
+<h2 id="Tomcat"><a href="#Tomcat" class="headerlink" title="Tomcat"></a>Tomcat</h2><p>Tomcat是一个免费的开放源代码的Servlet容器。</p>
+<p>Tomcat服务器接受客户请求并做出响应的过程如下，与上图类似：</p>
+<p>1）客户端（通常都是浏览器）访问Web服务器，发送HTTP请求。<br>2）Web服务器接收到请求后，传递给Servlet容器。<br>3）Servlet容器加载Servlet，产生Servlet实例后，向其传递表示请求和响应的对象。<br>4）Servlet实例使用请求对象得到客户端的请求信息，然后进行相应的处理。<br>5）Servlet实例将处理结果通过响应对象发送回客户端，容器负责确保响应正确送出，同时将控制返回给Web服务器。</p>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Servlet</tag>
       </tags>
   </entry>
   <entry>
@@ -126,23 +111,38 @@
       </tags>
   </entry>
   <entry>
-    <title>Java Servlet</title>
-    <url>/2021/05/26/Java_Servlet/</url>
-    <content><![CDATA[<p>Java Servlet</p>
-<span id="more"></span>
+    <title>C++历史 1985年 丹麦</title>
+    <url>/2021/06/11/C++/</url>
+    <content><![CDATA[<h2 id="C-历史-1985年-丹麦"><a href="#C-历史-1985年-丹麦" class="headerlink" title="C++历史 1985年 丹麦"></a>C++历史 1985年 丹麦</h2><span id="more"></span>
 
-<h2 id="Java-Servlet"><a href="#Java-Servlet" class="headerlink" title="Java  Servlet"></a>Java  Servlet</h2><p>Java  Servlet（Java服务器小程序）是一个基于Java技术的Web组件，运行在服务器端，它由Servlet容器所管理，用于生成动态的内容。  </p>
-<p>Servlet是平台独立的Java类，编写一个Servlet，实际上就是按照Servlet规范编写一个Java类。Servlet被编译为平台独立 的字节码，可以被动态地加载到支持Java技术的Web服务器中运行。</p>
-<h2 id="Servlet容器"><a href="#Servlet容器" class="headerlink" title="Servlet容器"></a>Servlet容器</h2><p>Servlet容器也叫做Servlet引擎，是Web服务器或应用程序服务器的一部分，用于在发送的请求和响应之上提供网络服务，解码基于  MIME的请求，格式化基于MIME的响应。Servlet没有main方法，不能独立运行，它必须被部署到Servlet容器中，由容器来实例化和调用  Servlet的方法（如doGet()和doPost()），Servlet容器在Servlet的生命周期内包容和管理Servlet。在JSP技术 推出后，管理和运行Servlet/JSP的容器也称为Web容器。</p>
-<h2 id="Tomcat"><a href="#Tomcat" class="headerlink" title="Tomcat"></a>Tomcat</h2><p>Tomcat是一个免费的开放源代码的Servlet容器。</p>
-<p>Tomcat服务器接受客户请求并做出响应的过程如下，与上图类似：</p>
-<p>1）客户端（通常都是浏览器）访问Web服务器，发送HTTP请求。<br>2）Web服务器接收到请求后，传递给Servlet容器。<br>3）Servlet容器加载Servlet，产生Servlet实例后，向其传递表示请求和响应的对象。<br>4）Servlet实例使用请求对象得到客户端的请求信息，然后进行相应的处理。<br>5）Servlet实例将处理结果通过响应对象发送回客户端，容器负责确保响应正确送出，同时将控制返回给Web服务器。</p>
+
+<p><strong>Bjarne Stroustrup</strong> 出生于丹麦的奥胡斯。他家是工人阶级，他上当地学校。</p>
+<p>他出席了奥胡斯大学1969-1975，并用有刻度的硕士学位在数学和计算机科学。他的兴趣集中在微程序设计和机器架构上。他从其发明者克里斯汀·尼加德( Kristen Nygaard)那里学习了面向对象编程的基础，后者经常访问奥尔胡斯。</p>
+<p>1979 年，他在剑桥大学获得计算机科学博士学位，在那里他受到David Wheeler 的指导。他的论文涉及分布式计算机系统中的通信。</p>
+<p>职业生涯</p>
+<p>1979 年，Stroustrup 在美国新泽西州默里希尔的贝尔实验室计算机科学研究中心担任技术人员，开始了他的职业生涯。在那里，他开始了 C++ 和编程技术方面的工作。从创建到 2002 年底，Stroustrup 一直是AT&amp;T 贝尔实验室大规模编程研究部门的负责人。1993 年，他成为贝尔实验室研究员，1996 年成为 AT&amp;T 研究员。</p>
+<p>从 2002 年到 2014 年，Stroustrup 是德克萨斯 A&amp;M 大学工程学院计算机科学教授。 2011年被评为大学特聘教授。</p>
+<p>截至 2014 年 1 月，Stroustrup 是纽约市摩根士丹利技术部门的技术研究员和董事总经理，也是哥伦比亚大学计算机科学的客座教授</p>
+<p>1979 年，丹麦计算机科学家Bjarne Stroustrup开始研究“C with Classes》，C++ 的前身。 创建一门新语言的动机源于 Stroustrup 为他的博士论文编程的经验。Stroustrup 发现Simula具有对大型软件开发非常有帮助的特性，但该语言是实际使用太慢，而BCPL速度快但太低级，不适合大型软件开发。当 Stroustrup 开始在AT&amp;T 贝尔实验室工作时，他在分析UNIX 内核的分布式计算方面遇到了问题。记得他的博士学位经验，Stroustrup 着手增强C语言类似模拟器的功能。选择 C 是因为它具有通用性、快速、便携和广泛使用的特点。除了 C 和 Simula 的影响，其他语言也影响了这种新语言，包括ALGOL 68、Ada、CLU和ML。</p>
+<p>最初，Stroustrup 的“C with Classes”为 C 编译器 Cpre 添加了特性，包括类、派生类、强类型、内联和默认参数。</p>
+<p>1982 年，Stroustrup 开始开发带有类的 C 的继承者，在经历了其他几个名称之后，他将其命名为“C++”（++即C 中的增量运算符）。添加了新功能，包括虚函数、函数名称和运算符重载、引用、常量、类型安全的自由存储内存分配（新建/删除）、改进的类型检查和带有两个正斜杠 ( //) 的BCPL 样式的单行注释. 此外，Stroustrup 为 C++ 开发了一个新的独立编译器Cfront。</p>
+<p>1984 年，Stroustrup 实现了第一个流输入/输出库。Doug McIlroy [1]（他之前建议使用Unix 管道）提出了提供输出操作符而不是命名输出函数的想法。</p>
+<p><strong>1985 年，第一版The C++ Programming Language发布，成为该语言的权威参考，因为当时还没有正式的标准。 C++的第一个商业实现于同年10月发布。</strong></p>
+<p>1989 年，C++ 2.0 发布，随后在 1991 年更新了The C++ Programming Language 的第二版。2.0 中的新特性包括多重继承、抽象类、静态成员函数、const 成员函数和受保护成员。1990 年，The Annotated C++ Reference Manual出版。这项工作成为未来标准的基础。后来添加的功能包括模板、异常、名称空间、新的强制转换和布尔类型。</p>
+<p>2015 年在巴黎举行的关于 C++11 特性的测验<br>1998 年，C++98 发布，标准化了语言，2003 年发布了一个小更新（C++03）。</p>
+<p>在 C++98 之后，C++ 发展相对缓慢，直到 2011 年，C++11标准发布，增加了许多新特性，进一步扩大了标准库，并为 C++ 程序员提供了更多便利。在2014 年 12 月发布C++14 小更新之后，C++17中引入了各种新增功能。在 2020 年 2 月定稿后，[22] C++20 标准草案于 2020 年 9 月 4 日获得批准，并于 2020 年 12 月 15 日正式发布。</p>
+<p>2018 年 1 月 3 日，Stroustrup 被宣布为 2018 年查尔斯·斯塔克·德雷珀工程奖的获得者，“以概念化和开发 C++ 编程语言”。</p>
+<p>C 是面向过程的一门编程语言，C++ 可以很好地进行面向对象的程序设计。C++ 虽然主要是以 C 的基础发展起来的一门新语言，但它不是 C 的替代品，它们是兄弟关系。面向对象和面向过程不是矛盾的，而是各有用途、互为补充的。</p>
+<p>C++ 对 C 的增强，表现在六个方面：</p>
+<p>增强了类型检查机制<br>增加了面向对象的机制<br>增加了泛型编程的机制（template）<br>增加了异常处理<br>增加了重载的机制<br>增加了标准模板库（STL）</p>
+<p>链接：<a href="https://www.jianshu.com/p/2522b07219ae">https://www.jianshu.com/p/2522b07219ae</a></p>
 ]]></content>
       <categories>
         <category>Java</category>
+        <category>history</category>
       </categories>
       <tags>
-        <tag>Servlet</tag>
+        <tag>history</tag>
       </tags>
   </entry>
   <entry>
@@ -189,76 +189,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Linux下FTP的配置</title>
-    <url>/2021/06/01/Linux%E4%B8%8BFTP%E7%9A%84%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<p>linux ftp服务器,轻松实现文件互传</p>
-<span id="more"></span>
-
-
-<h3 id="1、有问题时完全卸载vsftpd"><a href="#1、有问题时完全卸载vsftpd" class="headerlink" title="1、有问题时完全卸载vsftpd"></a>1、有问题时完全卸载vsftpd</h3><p><code>sudo apt-get purge vsftpd</code></p>
-<h3 id="2、安装vsftpd"><a href="#2、安装vsftpd" class="headerlink" title="2、安装vsftpd"></a>2、安装vsftpd</h3><p><code>sudo apt-get install vsftpd</code></p>
-<h3 id="3、创建ftp用户"><a href="#3、创建ftp用户" class="headerlink" title="3、创建ftp用户"></a>3、创建ftp用户</h3><p>方法一：直接在系统设置添加用户</p>
-<p>方法二：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">创建用户目录 sudo mkdir /home/uftp</span><br><span class="line">创建用户 sudo useradd -d /home/uftp -s /bin/bash uftp</span><br><span class="line">修改密码 sudo passwd uftp</span><br></pre></td></tr></table></figure>
-
-<h3 id="4、配置vsftpd-conf"><a href="#4、配置vsftpd-conf" class="headerlink" title="4、配置vsftpd.conf"></a>4、配置vsftpd.conf</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo vi /etc/vsftpd.conf</span><br><span class="line"></span><br><span class="line">编辑vsftpd.conf文件</span><br><span class="line"></span><br><span class="line">开启 本地用户 才能访问</span><br><span class="line">local_enable=YES</span><br><span class="line"></span><br><span class="line">#设置文件上传</span><br><span class="line">write_enable=YES</span><br><span class="line"></span><br><span class="line">#使用utf8</span><br><span class="line">utf8_filesystem=YES</span><br><span class="line"></span><br><span class="line">#限制所有的本地用户在自家目录</span><br><span class="line">chroot_local_user=YES  </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#开启 用户列表进行访问控制</span><br><span class="line">userlist_enable=YES</span><br><span class="line">userlist_deny=NO</span><br><span class="line"></span><br><span class="line">#允许登录的用户</span><br><span class="line">userlist_file=/etc/allowed_users</span><br><span class="line">seccomp_sandbox=NO</span><br><span class="line"></span><br><span class="line">#默认ftp下载目录</span><br><span class="line">local_root=/home/uftp/</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">添加允许登录的用户</span><br><span class="line"></span><br><span class="line">sudo vi /etc/allowed_users</span><br></pre></td></tr></table></figure>
-
-
-<h3 id="5、启动停止重启服务"><a href="#5、启动停止重启服务" class="headerlink" title="5、启动停止重启服务"></a>5、启动停止重启服务</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo /etc/init.d/vsftpd start</span><br><span class="line">sudo /etc/init.d/vsftpd stop</span><br><span class="line">sudo /etc/init.d/vsftpd restart</span><br><span class="line"></span><br><span class="line">systemctl status vsftpd.service</span><br><span class="line">systemctl restart vsftpd.service</span><br></pre></td></tr></table></figure>
-
-<h3 id="其他注意事项"><a href="#其他注意事项" class="headerlink" title="其他注意事项"></a>其他注意事项</h3><p>Linux 用户名和密码都正确却 无法登录 报错信息和解决办法<br>vsftpd: refusing to run with writable root inside chroot() 错误的解决办法<br>一下是解决办法：</p>
-<p>为了避免一个安全漏洞，从 vsftpd 2.3.5 开始，chroot 目录必须不可写。使用命令：</p>
-<h1 id="chmod-a-w-home-user"><a href="#chmod-a-w-home-user" class="headerlink" title="chmod a-w /home/user"></a>chmod a-w /home/user</h1><p>user 为FTP所连接的目录</p>
-<p>十分好用的查看开启的feature的命令<br>cat /etc/vsftpd.conf | grep -v “#” | more</p>
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux的SSH隧道</title>
-    <url>/2021/06/06/Linux%E7%9A%84SSH%E9%9A%A7%E9%81%93/</url>
-    <content><![CDATA[<p>通过 ssh 的端口转发或者隧道 (tunneling) 功能，可以实现: 加密 SSH Client 端至 SSH Server 端之间的通讯数据.突破防火墙的限制完成一些之前无法建立的 TCP 连接。</p>
-<span id="more"></span>
-
-<h2 id="SSH隧道tunnel的3个种类"><a href="#SSH隧道tunnel的3个种类" class="headerlink" title="SSH隧道tunnel的3个种类"></a>SSH隧道tunnel的3个种类</h2><ol>
-<li>本地转发</li>
-<li>远程转发</li>
-<li>动态转发</li>
-</ol>
-<h1 id="SSH隧道的三种角色"><a href="#SSH隧道的三种角色" class="headerlink" title="SSH隧道的三种角色"></a>SSH隧道的三种角色</h1><ol>
-<li>SSH客户端</li>
-<li>SSH服务端</li>
-<li>应用</li>
-</ol>
-<h3 id="本地转发"><a href="#本地转发" class="headerlink" title="本地转发"></a>本地转发</h3><h4 id="应用场景："><a href="#应用场景：" class="headerlink" title="应用场景："></a>应用场景：</h4><ol>
-<li>自己电脑 内网直接访问数据库服务器3306,安全原因，被防火墙阻挡，</li>
-<li>自己电脑 访问外网某FTP服务器，但是21被防火墙阻挡, 但是可以SSH公网的自己的服务器</li>
-</ol>
-<h4 id="命令："><a href="#命令：" class="headerlink" title="命令："></a>命令：</h4><p>Local 为ssh客户端一方<br>remote为ssh服务端一方</p>
-<p><code>ssh -L local_port:remote_address:remote_port username@server.com</code></p>
-<p>ssh -L 8888:localhost:1234 <a href="mailto:&#98;&#x6f;&#98;&#64;&#115;&#115;&#x68;&#46;&#121;&#x6f;&#117;&#114;&#x6f;&#x66;&#102;&#105;&#99;&#x65;&#46;&#99;&#x6f;&#x6d;">&#98;&#x6f;&#98;&#64;&#115;&#115;&#x68;&#46;&#121;&#x6f;&#117;&#114;&#x6f;&#x66;&#102;&#105;&#99;&#x65;&#46;&#99;&#x6f;&#x6d;</a><br>ssh -L 8888:192.168.1.111:1234 <a href="mailto:&#x62;&#111;&#x62;&#x40;&#x73;&#115;&#104;&#46;&#x79;&#111;&#117;&#114;&#111;&#102;&#102;&#x69;&#99;&#101;&#46;&#x63;&#x6f;&#109;">&#x62;&#111;&#x62;&#x40;&#x73;&#115;&#104;&#46;&#x79;&#111;&#117;&#114;&#111;&#102;&#102;&#x69;&#99;&#101;&#46;&#x63;&#x6f;&#109;</a></p>
-<h3 id="远程转发"><a href="#远程转发" class="headerlink" title="远程转发"></a>远程转发</h3><h4 id="应用场景：-1"><a href="#应用场景：-1" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-1"><a href="#命令：-1" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -R remote_port:local_address:local_port username@server.com</code></p>
-<p>ssh -R 8888:localhost:1234 <a href="mailto:&#x62;&#111;&#x62;&#x40;&#x73;&#x73;&#x68;&#x2e;&#121;&#111;&#x75;&#114;&#x6f;&#x66;&#102;&#105;&#x63;&#x65;&#46;&#x63;&#111;&#109;">&#x62;&#111;&#x62;&#x40;&#x73;&#x73;&#x68;&#x2e;&#121;&#111;&#x75;&#114;&#x6f;&#x66;&#102;&#105;&#x63;&#x65;&#46;&#x63;&#111;&#109;</a></p>
-<h3 id="动态转发"><a href="#动态转发" class="headerlink" title="动态转发"></a>动态转发</h3><h4 id="应用场景：-2"><a href="#应用场景：-2" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-2"><a href="#命令：-2" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -D local_port username@server.com</code></p>
-<p>ssh -D 8888 <a href="mailto:&#x62;&#x6f;&#98;&#x40;&#x73;&#115;&#x68;&#46;&#121;&#x6f;&#x75;&#x72;&#x68;&#111;&#x6d;&#x65;&#x2e;&#x63;&#x6f;&#x6d;">&#x62;&#x6f;&#98;&#x40;&#x73;&#115;&#x68;&#46;&#121;&#x6f;&#x75;&#x72;&#x68;&#111;&#x6d;&#x65;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
-<h3 id="参数介绍"><a href="#参数介绍" class="headerlink" title="参数介绍"></a>参数介绍</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">-N 告诉 SSH 客户端，这个连接不需要执行任何命令，也就是说不需要打开远程 shell，仅仅做端口转发；</span><br><span class="line">-f 告诉SSH客户端在后台运行，要关闭这个后台连接，就只有用 kill 命令去杀掉进程；</span><br><span class="line">-L 做本地映射端口</span><br><span class="line">-R 做远程映射端口</span><br><span class="line">-D 做动态端口映射</span><br><span class="line">-C 压缩数据传输</span><br></pre></td></tr></table></figure>
-
-<h2 id="如何关闭这个SSH隧道"><a href="#如何关闭这个SSH隧道" class="headerlink" title="如何关闭这个SSH隧道"></a>如何关闭这个SSH隧道</h2><p>方法1：<br>ps aux | grep 3306   找到pid<br>kill <pid>   kill pid</p>
-<p>方法2：<br>终止你从终端打开的所有ssh会话。<br>sudo killall ssh</p>
-<p>参考资料：<br><a href="https://gohalo.me/post/ssh-proxy.html">https://gohalo.me/post/ssh-proxy.html</a><br><a href="https://johnliu55.tw/ssh-tunnel.html">https://johnliu55.tw/ssh-tunnel.html</a><br><a href="https://www.howtogeek.com/168145/how-to-use-ssh-tunneling/">https://www.howtogeek.com/168145/how-to-use-ssh-tunneling/</a></p>
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>思科Nexus</title>
     <url>/2021/06/04/Nexus/</url>
     <content><![CDATA[<p>Nexus vPC</p>
@@ -281,6 +211,37 @@
       </categories>
       <tags>
         <tag>Nexus</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ORM</title>
+    <url>/2021/06/11/ORM/</url>
+    <content><![CDATA[<p>ORM是Object Relation Mapping的缩写，顾名思义，即对象关系映射。</p>
+<span id="more"></span>
+<h2 id="ORM"><a href="#ORM" class="headerlink" title="ORM"></a>ORM</h2><p>ORM是Object Relation Mapping的缩写，顾名思义，即对象关系映射。</p>
+<p>ORM是一种以面向对象的方式来进行数据库操作的技术。Web开发中常用的语言，都会有对应的ORM框架。而Hibernate就是Java开发中一种常用ORM框架，另一个现在流行的ORM框架是<strong>Mybatis</strong>。</p>
+<p>为什么需要ORM框架？</p>
+<p>简单地理解，通过Java进行数据库访问的正常流程可以分为以下几步：</p>
+<ol>
+<li>准备好SQL语句</li>
+<li>调用JDBC的API传入SQL语句，设置参数</li>
+<li>解析JDBC返回的结果</li>
+</ol>
+<p>这个过程实际上非常麻烦，比如：</p>
+<ul>
+<li>在Java代码中拼接SQL非常麻烦，而且易于出错</li>
+<li>JDBC的代码调用有很多重复性的代码</li>
+<li>从JDBC返回的结果转换成领域模型的Java对象很繁琐</li>
+</ul>
+<p>而使用ORM框架，则可以让我们用面向对象的方式来操作数据库，比如通过一个简单的函数调用就完成上面整个流程，直接返回映射为Java对象的结果。这个流程中很大一部分工作其实可以交给ORM自动化地帮我们执行。对，类似MVC框架，ORM框架会帮你处理好相关的繁琐事情！</p>
+<p>作者：David<br>链接：<a href="https://www.zhihu.com/question/21142149/answer/148286909">https://www.zhihu.com/question/21142149/answer/148286909</a></p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>ORM</category>
+      </categories>
+      <tags>
+        <tag>ORM</tag>
       </tags>
   </entry>
   <entry>
@@ -331,34 +292,73 @@
       </tags>
   </entry>
   <entry>
-    <title>ORM</title>
-    <url>/2021/06/11/ORM/</url>
-    <content><![CDATA[<p>ORM是Object Relation Mapping的缩写，顾名思义，即对象关系映射。</p>
+    <title>Linux的SSH隧道</title>
+    <url>/2021/06/06/Linux%E7%9A%84SSH%E9%9A%A7%E9%81%93/</url>
+    <content><![CDATA[<p>通过 ssh 的端口转发或者隧道 (tunneling) 功能，可以实现: 加密 SSH Client 端至 SSH Server 端之间的通讯数据.突破防火墙的限制完成一些之前无法建立的 TCP 连接。</p>
 <span id="more"></span>
-<h2 id="ORM"><a href="#ORM" class="headerlink" title="ORM"></a>ORM</h2><p>ORM是Object Relation Mapping的缩写，顾名思义，即对象关系映射。</p>
-<p>ORM是一种以面向对象的方式来进行数据库操作的技术。Web开发中常用的语言，都会有对应的ORM框架。而Hibernate就是Java开发中一种常用ORM框架，另一个现在流行的ORM框架是<strong>Mybatis</strong>。</p>
-<p>为什么需要ORM框架？</p>
-<p>简单地理解，通过Java进行数据库访问的正常流程可以分为以下几步：</p>
-<ol>
-<li>准备好SQL语句</li>
-<li>调用JDBC的API传入SQL语句，设置参数</li>
-<li>解析JDBC返回的结果</li>
+
+<h2 id="SSH隧道tunnel的3个种类"><a href="#SSH隧道tunnel的3个种类" class="headerlink" title="SSH隧道tunnel的3个种类"></a>SSH隧道tunnel的3个种类</h2><ol>
+<li>本地转发</li>
+<li>远程转发</li>
+<li>动态转发</li>
 </ol>
-<p>这个过程实际上非常麻烦，比如：</p>
-<ul>
-<li>在Java代码中拼接SQL非常麻烦，而且易于出错</li>
-<li>JDBC的代码调用有很多重复性的代码</li>
-<li>从JDBC返回的结果转换成领域模型的Java对象很繁琐</li>
-</ul>
-<p>而使用ORM框架，则可以让我们用面向对象的方式来操作数据库，比如通过一个简单的函数调用就完成上面整个流程，直接返回映射为Java对象的结果。这个流程中很大一部分工作其实可以交给ORM自动化地帮我们执行。对，类似MVC框架，ORM框架会帮你处理好相关的繁琐事情！</p>
-<p>作者：David<br>链接：<a href="https://www.zhihu.com/question/21142149/answer/148286909">https://www.zhihu.com/question/21142149/answer/148286909</a></p>
+<h1 id="SSH隧道的三种角色"><a href="#SSH隧道的三种角色" class="headerlink" title="SSH隧道的三种角色"></a>SSH隧道的三种角色</h1><ol>
+<li>SSH客户端</li>
+<li>SSH服务端</li>
+<li>应用</li>
+</ol>
+<h3 id="本地转发"><a href="#本地转发" class="headerlink" title="本地转发"></a>本地转发</h3><h4 id="应用场景："><a href="#应用场景：" class="headerlink" title="应用场景："></a>应用场景：</h4><ol>
+<li>自己电脑 内网直接访问数据库服务器3306,安全原因，被防火墙阻挡，</li>
+<li>自己电脑 访问外网某FTP服务器，但是21被防火墙阻挡, 但是可以SSH公网的自己的服务器</li>
+</ol>
+<h4 id="命令："><a href="#命令：" class="headerlink" title="命令："></a>命令：</h4><p>Local 为ssh客户端一方<br>remote为ssh服务端一方</p>
+<p><code>ssh -L local_port:remote_address:remote_port username@server.com</code></p>
+<p>ssh -L 8888:localhost:1234 <a href="mailto:&#98;&#111;&#98;&#64;&#x73;&#115;&#104;&#46;&#x79;&#111;&#x75;&#114;&#x6f;&#102;&#102;&#x69;&#99;&#101;&#x2e;&#x63;&#x6f;&#x6d;">&#98;&#111;&#98;&#64;&#x73;&#115;&#104;&#46;&#x79;&#111;&#x75;&#114;&#x6f;&#102;&#102;&#x69;&#99;&#101;&#x2e;&#x63;&#x6f;&#x6d;</a><br>ssh -L 8888:192.168.1.111:1234 <a href="mailto:&#x62;&#111;&#x62;&#64;&#115;&#x73;&#x68;&#x2e;&#121;&#111;&#x75;&#x72;&#111;&#102;&#102;&#x69;&#x63;&#x65;&#x2e;&#x63;&#111;&#x6d;">&#x62;&#111;&#x62;&#64;&#115;&#x73;&#x68;&#x2e;&#121;&#111;&#x75;&#x72;&#111;&#102;&#102;&#x69;&#x63;&#x65;&#x2e;&#x63;&#111;&#x6d;</a></p>
+<h3 id="远程转发"><a href="#远程转发" class="headerlink" title="远程转发"></a>远程转发</h3><h4 id="应用场景：-1"><a href="#应用场景：-1" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-1"><a href="#命令：-1" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -R remote_port:local_address:local_port username@server.com</code></p>
+<p>ssh -R 8888:localhost:1234 <a href="mailto:&#98;&#x6f;&#x62;&#64;&#115;&#115;&#x68;&#x2e;&#121;&#x6f;&#117;&#114;&#x6f;&#102;&#102;&#105;&#x63;&#101;&#46;&#99;&#x6f;&#x6d;">&#98;&#x6f;&#x62;&#64;&#115;&#115;&#x68;&#x2e;&#121;&#x6f;&#117;&#114;&#x6f;&#102;&#102;&#105;&#x63;&#101;&#46;&#99;&#x6f;&#x6d;</a></p>
+<h3 id="动态转发"><a href="#动态转发" class="headerlink" title="动态转发"></a>动态转发</h3><h4 id="应用场景：-2"><a href="#应用场景：-2" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-2"><a href="#命令：-2" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -D local_port username@server.com</code></p>
+<p>ssh -D 8888 <a href="mailto:&#x62;&#111;&#x62;&#64;&#115;&#115;&#x68;&#46;&#121;&#111;&#117;&#114;&#104;&#111;&#109;&#101;&#46;&#99;&#x6f;&#x6d;">&#x62;&#111;&#x62;&#64;&#115;&#115;&#x68;&#46;&#121;&#111;&#117;&#114;&#104;&#111;&#109;&#101;&#46;&#99;&#x6f;&#x6d;</a></p>
+<h3 id="参数介绍"><a href="#参数介绍" class="headerlink" title="参数介绍"></a>参数介绍</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">-N 告诉 SSH 客户端，这个连接不需要执行任何命令，也就是说不需要打开远程 shell，仅仅做端口转发；</span><br><span class="line">-f 告诉SSH客户端在后台运行，要关闭这个后台连接，就只有用 kill 命令去杀掉进程；</span><br><span class="line">-L 做本地映射端口</span><br><span class="line">-R 做远程映射端口</span><br><span class="line">-D 做动态端口映射</span><br><span class="line">-C 压缩数据传输</span><br></pre></td></tr></table></figure>
+
+<h2 id="如何关闭这个SSH隧道"><a href="#如何关闭这个SSH隧道" class="headerlink" title="如何关闭这个SSH隧道"></a>如何关闭这个SSH隧道</h2><p>方法1：<br>ps aux | grep 3306   找到pid<br>kill <pid>   kill pid</p>
+<p>方法2：<br>终止你从终端打开的所有ssh会话。<br>sudo killall ssh</p>
+<p>参考资料：<br><a href="https://gohalo.me/post/ssh-proxy.html">https://gohalo.me/post/ssh-proxy.html</a><br><a href="https://johnliu55.tw/ssh-tunnel.html">https://johnliu55.tw/ssh-tunnel.html</a><br><a href="https://www.howtogeek.com/168145/how-to-use-ssh-tunneling/">https://www.howtogeek.com/168145/how-to-use-ssh-tunneling/</a></p>
 ]]></content>
       <categories>
-        <category>Java</category>
-        <category>ORM</category>
+        <category>Linux</category>
       </categories>
       <tags>
-        <tag>ORM</tag>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux下FTP的配置</title>
+    <url>/2021/06/01/Linux%E4%B8%8BFTP%E7%9A%84%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<p>linux ftp服务器,轻松实现文件互传</p>
+<span id="more"></span>
+
+
+<h3 id="1、有问题时完全卸载vsftpd"><a href="#1、有问题时完全卸载vsftpd" class="headerlink" title="1、有问题时完全卸载vsftpd"></a>1、有问题时完全卸载vsftpd</h3><p><code>sudo apt-get purge vsftpd</code></p>
+<h3 id="2、安装vsftpd"><a href="#2、安装vsftpd" class="headerlink" title="2、安装vsftpd"></a>2、安装vsftpd</h3><p><code>sudo apt-get install vsftpd</code></p>
+<h3 id="3、创建ftp用户"><a href="#3、创建ftp用户" class="headerlink" title="3、创建ftp用户"></a>3、创建ftp用户</h3><p>方法一：直接在系统设置添加用户</p>
+<p>方法二：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">创建用户目录 sudo mkdir /home/uftp</span><br><span class="line">创建用户 sudo useradd -d /home/uftp -s /bin/bash uftp</span><br><span class="line">修改密码 sudo passwd uftp</span><br></pre></td></tr></table></figure>
+
+<h3 id="4、配置vsftpd-conf"><a href="#4、配置vsftpd-conf" class="headerlink" title="4、配置vsftpd.conf"></a>4、配置vsftpd.conf</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo vi /etc/vsftpd.conf</span><br><span class="line"></span><br><span class="line">编辑vsftpd.conf文件</span><br><span class="line"></span><br><span class="line">开启 本地用户 才能访问</span><br><span class="line">local_enable=YES</span><br><span class="line"></span><br><span class="line">#设置文件上传</span><br><span class="line">write_enable=YES</span><br><span class="line"></span><br><span class="line">#使用utf8</span><br><span class="line">utf8_filesystem=YES</span><br><span class="line"></span><br><span class="line">#限制所有的本地用户在自家目录</span><br><span class="line">chroot_local_user=YES  </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#开启 用户列表进行访问控制</span><br><span class="line">userlist_enable=YES</span><br><span class="line">userlist_deny=NO</span><br><span class="line"></span><br><span class="line">#允许登录的用户</span><br><span class="line">userlist_file=/etc/allowed_users</span><br><span class="line">seccomp_sandbox=NO</span><br><span class="line"></span><br><span class="line">#默认ftp下载目录</span><br><span class="line">local_root=/home/uftp/</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">添加允许登录的用户</span><br><span class="line"></span><br><span class="line">sudo vi /etc/allowed_users</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="5、启动停止重启服务"><a href="#5、启动停止重启服务" class="headerlink" title="5、启动停止重启服务"></a>5、启动停止重启服务</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo /etc/init.d/vsftpd start</span><br><span class="line">sudo /etc/init.d/vsftpd stop</span><br><span class="line">sudo /etc/init.d/vsftpd restart</span><br><span class="line"></span><br><span class="line">systemctl status vsftpd.service</span><br><span class="line">systemctl restart vsftpd.service</span><br></pre></td></tr></table></figure>
+
+<h3 id="其他注意事项"><a href="#其他注意事项" class="headerlink" title="其他注意事项"></a>其他注意事项</h3><p>Linux 用户名和密码都正确却 无法登录 报错信息和解决办法<br>vsftpd: refusing to run with writable root inside chroot() 错误的解决办法<br>一下是解决办法：</p>
+<p>为了避免一个安全漏洞，从 vsftpd 2.3.5 开始，chroot 目录必须不可写。使用命令：</p>
+<h1 id="chmod-a-w-home-user"><a href="#chmod-a-w-home-user" class="headerlink" title="chmod a-w /home/user"></a>chmod a-w /home/user</h1><p>user 为FTP所连接的目录</p>
+<p>十分好用的查看开启的feature的命令<br>cat /etc/vsftpd.conf | grep -v “#” | more</p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -429,37 +429,6 @@
       </tags>
   </entry>
   <entry>
-    <title>SDN</title>
-    <url>/2021/06/04/SDN/</url>
-    <content><![CDATA[<p>SDN</p>
-<span id="more"></span>
-<h2 id="SDN"><a href="#SDN" class="headerlink" title="SDN"></a>SDN</h2><h2 id="Cisco-ACI"><a href="#Cisco-ACI" class="headerlink" title="Cisco ACI"></a>Cisco ACI</h2><p>思科应用中心基础架构</p>
-<p>本质上是思科针对数据中心提供的SDN解决方案，其核心功能或目的是对数据中心网络实现软件层面的集中控制及自动化管理。</p>
-<p>ACI包括三种核心的组件，分别是：</p>
-<ol>
-<li><p>Cisco Nexus 9000交换机</p>
-</li>
-<li><p>APIC（Application Policy Infrastructure Controller ，应用策略基础架构控制器）、</p>
-</li>
-<li><p>ANP应用网络配置文件</p>
-</li>
-</ol>
-<h2 id="VMware-NSX"><a href="#VMware-NSX" class="headerlink" title="VMware NSX"></a>VMware NSX</h2><p>VMware NSX更多的是基于软件层面进行SDN架构设计，VMware NSX可以忽略底层硬件差异，通过构建一个分布式虚拟层来实现大部分需要网络硬件支持的功能。</p>
-<p>而思科应用中心基础设施（Application Centric Infrastructure, ACI）是一个基于思科硬件的SDN解决方案，准确说只能使用思科Nexus 9000型交换机和支持ACI的硬件板块才能够正常部署。同样的用途，不同的设计思路，</p>
-<p>也许是源于VMware是一家软件公司，而CISCO是一家网络硬件公司的缘故吧！</p>
-<p><a href="https://www.dell.com/community/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8%E5%92%8C%E4%BF%9D%E6%8A%A4-%E8%B5%84%E6%96%99%E6%96%87%E6%A1%A3/%E5%AF%B9%E6%AF%94VMware-NSX%E5%92%8CCISCO-ACI%E7%9A%84%E5%BC%82%E5%90%8C/ta-p/7183690">https://www.dell.com/community/数据存储和保护-资料文档/对比VMware-NSX和CISCO-ACI的异同/ta-p/7183690</a></p>
-<h2 id="OpenStack-Neutron"><a href="#OpenStack-Neutron" class="headerlink" title="OpenStack Neutron"></a>OpenStack Neutron</h2><p>Open stack中网络是通过Neutron组件实现，它也成为了整个Open stack中最复杂的部分</p>
-<p>OpenStack网络（neutron）管理您OpenStack环境中虚拟网络基础设施（VNI）所有网络方面和物理网络基础设施（PNI）的接入层方面。</p>
-]]></content>
-      <categories>
-        <category>Network</category>
-        <category>SDN</category>
-      </categories>
-      <tags>
-        <tag>SDN</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Redis跑在内存上的NoSql数据库</title>
     <url>/2021/06/11/Redis/</url>
     <content><![CDATA[<p>Redis就是一种运行速度很快，并发很强的跑在内存上的NoSql数据库，支持键到五种数据类型的映射。</p>
@@ -492,6 +461,37 @@
       </tags>
   </entry>
   <entry>
+    <title>SDN</title>
+    <url>/2021/06/04/SDN/</url>
+    <content><![CDATA[<p>SDN</p>
+<span id="more"></span>
+<h2 id="SDN"><a href="#SDN" class="headerlink" title="SDN"></a>SDN</h2><h2 id="Cisco-ACI"><a href="#Cisco-ACI" class="headerlink" title="Cisco ACI"></a>Cisco ACI</h2><p>思科应用中心基础架构</p>
+<p>本质上是思科针对数据中心提供的SDN解决方案，其核心功能或目的是对数据中心网络实现软件层面的集中控制及自动化管理。</p>
+<p>ACI包括三种核心的组件，分别是：</p>
+<ol>
+<li><p>Cisco Nexus 9000交换机</p>
+</li>
+<li><p>APIC（Application Policy Infrastructure Controller ，应用策略基础架构控制器）、</p>
+</li>
+<li><p>ANP应用网络配置文件</p>
+</li>
+</ol>
+<h2 id="VMware-NSX"><a href="#VMware-NSX" class="headerlink" title="VMware NSX"></a>VMware NSX</h2><p>VMware NSX更多的是基于软件层面进行SDN架构设计，VMware NSX可以忽略底层硬件差异，通过构建一个分布式虚拟层来实现大部分需要网络硬件支持的功能。</p>
+<p>而思科应用中心基础设施（Application Centric Infrastructure, ACI）是一个基于思科硬件的SDN解决方案，准确说只能使用思科Nexus 9000型交换机和支持ACI的硬件板块才能够正常部署。同样的用途，不同的设计思路，</p>
+<p>也许是源于VMware是一家软件公司，而CISCO是一家网络硬件公司的缘故吧！</p>
+<p><a href="https://www.dell.com/community/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8%E5%92%8C%E4%BF%9D%E6%8A%A4-%E8%B5%84%E6%96%99%E6%96%87%E6%A1%A3/%E5%AF%B9%E6%AF%94VMware-NSX%E5%92%8CCISCO-ACI%E7%9A%84%E5%BC%82%E5%90%8C/ta-p/7183690">https://www.dell.com/community/数据存储和保护-资料文档/对比VMware-NSX和CISCO-ACI的异同/ta-p/7183690</a></p>
+<h2 id="OpenStack-Neutron"><a href="#OpenStack-Neutron" class="headerlink" title="OpenStack Neutron"></a>OpenStack Neutron</h2><p>Open stack中网络是通过Neutron组件实现，它也成为了整个Open stack中最复杂的部分</p>
+<p>OpenStack网络（neutron）管理您OpenStack环境中虚拟网络基础设施（VNI）所有网络方面和物理网络基础设施（PNI）的接入层方面。</p>
+]]></content>
+      <categories>
+        <category>Network</category>
+        <category>SDN</category>
+      </categories>
+      <tags>
+        <tag>SDN</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Python发展史 1991年 荷兰无聊青年</title>
     <url>/2021/06/11/Python/</url>
     <content><![CDATA[<p>Python发展史 1991年 荷兰无聊青年</p>
@@ -520,6 +520,51 @@
       </categories>
       <tags>
         <tag>history</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Spring</title>
+    <url>/2021/06/11/Spring/</url>
+    <content><![CDATA[<p>Spring</p>
+<span id="more"></span>
+<h2 id="Spring"><a href="#Spring" class="headerlink" title="Spring"></a>Spring</h2><h2 id="Spring-core"><a href="#Spring-core" class="headerlink" title="Spring core"></a>Spring core</h2><h2 id="spring-MVC"><a href="#spring-MVC" class="headerlink" title="spring MVC"></a>spring MVC</h2><p>spring MVC 使用 Spring core。首先，Spring core是一个 IOC 容器，它将依赖项注入到各种 bean 类（如您的控制器类、服务类等）中。因此，spring-mvc 利用 IOC 容器（spring-core）的强大功能来设置 Web 框架组件，例如<code>WebApplicationContext</code>解析/创建<code>ViewResolver</code>对象等。</p>
+<h2 id="spring-boot"><a href="#spring-boot" class="headerlink" title="spring boot"></a>spring boot</h2><p><a href="https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc">https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc</a></p>
+<p>spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。</p>
+<p>spring mvc 是只是spring 处理web层请求的一个模块。</p>
+<p>因此他们的关系大概就是这样：</p>
+<p>spring mvc  &lt; spring &lt;springboot。</p>
+<p>KFC套餐和KFC香辣汉堡的关系。。</p>
+<p><strong>Enterprise JavaBeans (EJB)</strong> </p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>Spring</category>
+      </categories>
+      <tags>
+        <tag>Spring</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>linux网络命令</title>
+    <url>/2021/06/01/linux%E7%BD%91%E7%BB%9C%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<p>linux网络命令</p>
+<span id="more"></span>
+<h3 id="linux修改接口IP和DNS"><a href="#linux修改接口IP和DNS" class="headerlink" title="linux修改接口IP和DNS"></a>linux修改接口IP和DNS</h3><p>1.ifconfig 查看接口的名字</p>
+<p>2.找到路径<br><code>/etc/sysconfig/network-scripts/</code></p>
+<p>3.编辑接口名字<br><code>vi eth0</code></p>
+<p>4.修改DNS<br><code>/etc/resolv.conf</code></p>
+<h3 id="查看接口状态"><a href="#查看接口状态" class="headerlink" title="查看接口状态"></a>查看接口状态</h3><p><code>ip link show</code></p>
+<h3 id="查看IP地址配置："><a href="#查看IP地址配置：" class="headerlink" title="查看IP地址配置："></a>查看IP地址配置：</h3><p><code>ip address</code></p>
+<h3 id="查看路由和默认路由"><a href="#查看路由和默认路由" class="headerlink" title="查看路由和默认路由"></a>查看路由和默认路由</h3><p><code>ip route</code></p>
+<h3 id="其他查看路由命令"><a href="#其他查看路由命令" class="headerlink" title="其他查看路由命令"></a>其他查看路由命令</h3><p><code>route -n</code><br><code>netstat -rn</code> </p>
+<h2 id="nmcli命令"><a href="#nmcli命令" class="headerlink" title="nmcli命令"></a>nmcli命令</h2><p><code>nmcli device status</code><br><code>nmcli connection show</code></p>
+<h2 id="nmtui命令"><a href="#nmtui命令" class="headerlink" title="nmtui命令"></a>nmtui命令</h2><p><code>nmtui</code></p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -604,116 +649,6 @@
       </tags>
   </entry>
   <entry>
-    <title>mysql发展史 一个男人的2个女儿名字命令数据库 1995年</title>
-    <url>/2021/06/11/mysql/</url>
-    <content><![CDATA[<h2 id="mysql发展史-一个男人的2个女儿名字命令数据库-1995年"><a href="#mysql发展史-一个男人的2个女儿名字命令数据库-1995年" class="headerlink" title="mysql发展史 一个男人的2个女儿名字命令数据库 1995年"></a>mysql发展史 一个男人的2个女儿名字命令数据库 1995年</h2><span id="more"></span>
-
-<p>MySQL是开源 关系数据库管理系统（RDBMS）。它的名字是“My”（联合创始人Michael Widenius的女儿的名字）和“ SQL ”（结构化查询语言的缩写）的组合。一个关系型数据库将数据组织成一个或多个数据表，其中数据类型可能相互关联；这些关系有助于构建数据。SQL 是程序员用来从关系数据库中创建、修改和提取数据以及控制用户对数据库的访问的语言。除了关系数据库和 SQL 之外，像 MySQL 这样的 RDBMS 与操作系统一起工作，以在计算机的存储系统中实现关系数据库，管理用户，允许网络访问并促进测试数据库完整性和创建备份。</p>
-<p>MySQL 的第一个版本出现于 1995 年 5 月 23 日，它最初是从基于低级语言ISAM 的mSQL创建供个人使用的，创建者认为它太慢了和不灵活。他们创建了一个新的SQL接口，同时保持相同的API作为 mSQL。通过使 API 与 mSQL 系统保持一致，许多开发人员能够使用 MySQL 而不是（专有许可的）mSQL 前身。</p>
-<p>MySQL 是GNU 通用公共许可证条款下的免费开源软件，也可在各种专有许可证下使用。MySQL 由瑞典公司MySQL AB拥有和赞助，该公司被Sun Microsystems（现为Oracle Corporation）收购。 2010年，当甲骨文收购Sun时，Widenius分叉了开源MySQL项目，创建了MariaDB。</p>
-<p>MySQL 具有独立客户端，允许用户使用 SQL 直接与 MySQL 数据库交互，但更多情况下，MySQL 与其他程序一起使用以实现需要关系数据库功能的应用程序。MySQL 是LAMP Web 应用程序 软件堆栈（和其他）的一个组件，它是Linux、Apache、 MySQL 、Perl / PHP / Python的首字母缩写词。许多数据库驱动的 Web 应用程序都使用 MySQL，包括Drupal、Joomla、phpBB和WordPress。MySQL也被许多流行的网站使用，包括Facebook、 Flickr、 MediaWiki、 Twitter、和 YouTube。</p>
-<p>MariaDB的是一个社区开发的商业化支持的叉的的MySQL的 关系数据库管理系统（RDBMS），意在保持免费和开放源码软件的下GNU通用公共许可证。开发由 MySQL 的一些原始开发人员领导，由于担心它在 2009 年被甲骨文公司收购，他们分叉了它。</p>
-<p>MariaDB 旨在保持与 MySQL 的高度兼容性，确保具有库二进制奇偶校验和与 MySQL API和命令的精确匹配的直接替换能力。但是，新功能的差异更大。它包括新的存储引擎，如Aria、ColumnStore和MyRocks。</p>
-<p>它的首席开发人员/CTO 是Michael “Monty” Widenius，他是MySQL AB的创始人之一，也是 Monty Program AB 的创始人。2008 年 1 月 16 日，MySQL AB 宣布已同意被Sun Microsystems以约 10 亿美元的价格收购。收购于 2008 年 2 月 26 日完成。第二年 Sun 被甲骨文公司收购。MariaDB 以 Widenius 的小女儿 Maria 的名字命名。（MySQL 以他的另一个女儿 My 的名字命名。）</p>
-]]></content>
-      <categories>
-        <category>Java</category>
-        <category>history</category>
-      </categories>
-      <tags>
-        <tag>history</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Spring</title>
-    <url>/2021/06/11/Spring/</url>
-    <content><![CDATA[<p>Spring</p>
-<span id="more"></span>
-<h2 id="Spring"><a href="#Spring" class="headerlink" title="Spring"></a>Spring</h2><h2 id="Spring-core"><a href="#Spring-core" class="headerlink" title="Spring core"></a>Spring core</h2><h2 id="spring-MVC"><a href="#spring-MVC" class="headerlink" title="spring MVC"></a>spring MVC</h2><p>spring MVC 使用 Spring core。首先，Spring core是一个 IOC 容器，它将依赖项注入到各种 bean 类（如您的控制器类、服务类等）中。因此，spring-mvc 利用 IOC 容器（spring-core）的强大功能来设置 Web 框架组件，例如<code>WebApplicationContext</code>解析/创建<code>ViewResolver</code>对象等。</p>
-<h2 id="spring-boot"><a href="#spring-boot" class="headerlink" title="spring boot"></a>spring boot</h2><p><a href="https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc">https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc</a></p>
-<p>spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。</p>
-<p>spring mvc 是只是spring 处理web层请求的一个模块。</p>
-<p>因此他们的关系大概就是这样：</p>
-<p>spring mvc  &lt; spring &lt;springboot。</p>
-<p>KFC套餐和KFC香辣汉堡的关系。。</p>
-<p><strong>Enterprise JavaBeans (EJB)</strong> </p>
-]]></content>
-      <categories>
-        <category>Java</category>
-        <category>Spring</category>
-      </categories>
-      <tags>
-        <tag>Spring</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>node.js汇总</title>
-    <url>/2021/05/26/node.js%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
-    <content><![CDATA[<p>Node.js 就是运行在服务端的 JavaScript。 </p>
-<span id="more"></span>
-
-<p>Node.js 是一个基于Chrome JavaScript 运行时建立的一个平台。<br>Node.js是一个事件驱动I/O服务端JavaScript环境，基于Google的V8引擎，V8引擎执行Javascript的速度非常快，性能非常好</p>
-<p>查看node版本</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ node -v</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>node.js</category>
-      </categories>
-      <tags>
-        <tag>js</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>linux网络命令</title>
-    <url>/2021/06/01/linux%E7%BD%91%E7%BB%9C%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<p>linux网络命令</p>
-<span id="more"></span>
-<h3 id="linux修改接口IP和DNS"><a href="#linux修改接口IP和DNS" class="headerlink" title="linux修改接口IP和DNS"></a>linux修改接口IP和DNS</h3><p>1.ifconfig 查看接口的名字</p>
-<p>2.找到路径<br><code>/etc/sysconfig/network-scripts/</code></p>
-<p>3.编辑接口名字<br><code>vi eth0</code></p>
-<p>4.修改DNS<br><code>/etc/resolv.conf</code></p>
-<h3 id="查看接口状态"><a href="#查看接口状态" class="headerlink" title="查看接口状态"></a>查看接口状态</h3><p><code>ip link show</code></p>
-<h3 id="查看IP地址配置："><a href="#查看IP地址配置：" class="headerlink" title="查看IP地址配置："></a>查看IP地址配置：</h3><p><code>ip address</code></p>
-<h3 id="查看路由和默认路由"><a href="#查看路由和默认路由" class="headerlink" title="查看路由和默认路由"></a>查看路由和默认路由</h3><p><code>ip route</code></p>
-<h3 id="其他查看路由命令"><a href="#其他查看路由命令" class="headerlink" title="其他查看路由命令"></a>其他查看路由命令</h3><p><code>route -n</code><br><code>netstat -rn</code> </p>
-<h2 id="nmcli命令"><a href="#nmcli命令" class="headerlink" title="nmcli命令"></a>nmcli命令</h2><p><code>nmcli device status</code><br><code>nmcli connection show</code></p>
-<h2 id="nmtui命令"><a href="#nmtui命令" class="headerlink" title="nmtui命令"></a>nmtui命令</h2><p><code>nmtui</code></p>
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>python的subprocess</title>
-    <url>/2021/06/11/python%E7%9A%84subprocess/</url>
-    <content><![CDATA[<p>subprocess最早在2.4版本引入,用来生成子进程，并可以通过管道连接他们的输入/输出/错误，以及获得他们的返回值。</p>
-<span id="more"></span>
-
-<p>旧模块：<br>os.system() 执行操作系统的命令，将结果输出到屏幕，只返回命令执行状态(0：成功，非 0 ： 失败)<br>os.popen()执行操作系统的命令，会将结果保存在内存当中，可以用read()方法读取出来</p>
-<p><strong>subprocess.Popen</strong><br>所有subprocess类型都是对subprocess.Popen的封装,因此subprocess.Popen是根。<br>返回值: 需要借助于wait或者communicate 来实现返回值和状态码</p>
-<p><strong>subprocess.call</strong></p>
-<ol>
-<li>subprocess.call=Popen() + wait()</li>
-<li>返回值:返回命令的输出结果  和执行状态，0或者非0**</li>
-</ol>
-<p><strong>subprocess.run</strong></p>
-<ol>
-<li>subprocess.run= Popen() + communicate()</li>
-<li>返回值:返回命令的输出结果  和执行状态，0或者非0**</li>
-</ol>
-<p><a href="https://cloud.tencent.com/developer/article/1445388">https://cloud.tencent.com/developer/article/1445388</a></p>
-]]></content>
-      <categories>
-        <category>Python</category>
-        <category>NetOps</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>nagios从零开始</title>
     <url>/2021/06/01/nagios%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
     <content><![CDATA[<p>nagios从零开始</p>
@@ -739,6 +674,27 @@
       </categories>
       <tags>
         <tag>Nagios</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>mysql发展史 一个男人的2个女儿名字命令数据库 1995年</title>
+    <url>/2021/06/11/mysql/</url>
+    <content><![CDATA[<h2 id="mysql发展史-一个男人的2个女儿名字命令数据库-1995年"><a href="#mysql发展史-一个男人的2个女儿名字命令数据库-1995年" class="headerlink" title="mysql发展史 一个男人的2个女儿名字命令数据库 1995年"></a>mysql发展史 一个男人的2个女儿名字命令数据库 1995年</h2><span id="more"></span>
+
+<p>MySQL是开源 关系数据库管理系统（RDBMS）。它的名字是“My”（联合创始人Michael Widenius的女儿的名字）和“ SQL ”（结构化查询语言的缩写）的组合。一个关系型数据库将数据组织成一个或多个数据表，其中数据类型可能相互关联；这些关系有助于构建数据。SQL 是程序员用来从关系数据库中创建、修改和提取数据以及控制用户对数据库的访问的语言。除了关系数据库和 SQL 之外，像 MySQL 这样的 RDBMS 与操作系统一起工作，以在计算机的存储系统中实现关系数据库，管理用户，允许网络访问并促进测试数据库完整性和创建备份。</p>
+<p>MySQL 的第一个版本出现于 1995 年 5 月 23 日，它最初是从基于低级语言ISAM 的mSQL创建供个人使用的，创建者认为它太慢了和不灵活。他们创建了一个新的SQL接口，同时保持相同的API作为 mSQL。通过使 API 与 mSQL 系统保持一致，许多开发人员能够使用 MySQL 而不是（专有许可的）mSQL 前身。</p>
+<p>MySQL 是GNU 通用公共许可证条款下的免费开源软件，也可在各种专有许可证下使用。MySQL 由瑞典公司MySQL AB拥有和赞助，该公司被Sun Microsystems（现为Oracle Corporation）收购。 2010年，当甲骨文收购Sun时，Widenius分叉了开源MySQL项目，创建了MariaDB。</p>
+<p>MySQL 具有独立客户端，允许用户使用 SQL 直接与 MySQL 数据库交互，但更多情况下，MySQL 与其他程序一起使用以实现需要关系数据库功能的应用程序。MySQL 是LAMP Web 应用程序 软件堆栈（和其他）的一个组件，它是Linux、Apache、 MySQL 、Perl / PHP / Python的首字母缩写词。许多数据库驱动的 Web 应用程序都使用 MySQL，包括Drupal、Joomla、phpBB和WordPress。MySQL也被许多流行的网站使用，包括Facebook、 Flickr、 MediaWiki、 Twitter、和 YouTube。</p>
+<p>MariaDB的是一个社区开发的商业化支持的叉的的MySQL的 关系数据库管理系统（RDBMS），意在保持免费和开放源码软件的下GNU通用公共许可证。开发由 MySQL 的一些原始开发人员领导，由于担心它在 2009 年被甲骨文公司收购，他们分叉了它。</p>
+<p>MariaDB 旨在保持与 MySQL 的高度兼容性，确保具有库二进制奇偶校验和与 MySQL API和命令的精确匹配的直接替换能力。但是，新功能的差异更大。它包括新的存储引擎，如Aria、ColumnStore和MyRocks。</p>
+<p>它的首席开发人员/CTO 是Michael “Monty” Widenius，他是MySQL AB的创始人之一，也是 Monty Program AB 的创始人。2008 年 1 月 16 日，MySQL AB 宣布已同意被Sun Microsystems以约 10 亿美元的价格收购。收购于 2008 年 2 月 26 日完成。第二年 Sun 被甲骨文公司收购。MariaDB 以 Widenius 的小女儿 Maria 的名字命名。（MySQL 以他的另一个女儿 My 的名字命名。）</p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>history</category>
+      </categories>
+      <tags>
+        <tag>history</tag>
       </tags>
   </entry>
   <entry>
@@ -770,6 +726,73 @@
       </categories>
       <tags>
         <tag>node.js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python的subprocess</title>
+    <url>/2021/06/11/python%E7%9A%84subprocess/</url>
+    <content><![CDATA[<p>subprocess最早在2.4版本引入,用来生成子进程，并可以通过管道连接他们的输入/输出/错误，以及获得他们的返回值。</p>
+<span id="more"></span>
+
+<p>旧模块：<br>os.system() 执行操作系统的命令，将结果输出到屏幕，只返回命令执行状态(0：成功，非 0 ： 失败)<br>os.popen()执行操作系统的命令，会将结果保存在内存当中，可以用read()方法读取出来</p>
+<p><strong>subprocess.Popen</strong><br>所有subprocess类型都是对subprocess.Popen的封装,因此subprocess.Popen是根。<br>返回值: 需要借助于wait或者communicate 来实现返回值和状态码</p>
+<p><strong>subprocess.call</strong></p>
+<ol>
+<li>subprocess.call=Popen() + wait()</li>
+<li>返回值:返回命令的输出结果  和执行状态，0或者非0**</li>
+</ol>
+<p><strong>subprocess.run</strong></p>
+<ol>
+<li>subprocess.run= Popen() + communicate()</li>
+<li>返回值:返回命令的输出结果  和执行状态，0或者非0**</li>
+</ol>
+<p><a href="https://cloud.tencent.com/developer/article/1445388">https://cloud.tencent.com/developer/article/1445388</a></p>
+]]></content>
+      <categories>
+        <category>Python</category>
+        <category>NetOps</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>node.js汇总</title>
+    <url>/2021/05/26/node.js%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
+    <content><![CDATA[<p>Node.js 就是运行在服务端的 JavaScript。 </p>
+<span id="more"></span>
+
+<p>Node.js 是一个基于Chrome JavaScript 运行时建立的一个平台。<br>Node.js是一个事件驱动I/O服务端JavaScript环境，基于Google的V8引擎，V8引擎执行Javascript的速度非常快，性能非常好</p>
+<p>查看node版本</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ node -v</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>node.js</category>
+      </categories>
+      <tags>
+        <tag>js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python网络ping</title>
+    <url>/2021/06/10/python%E7%BD%91%E7%BB%9Cping/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="3046765c687cd639cc04a33b042386433785b2ec1798e3bfb6ceb74ad8371883">7aa1880daa6a0b7a09a81d7f2fbd57c9a2b0786f8fb263cd6e9bafce42d347a317a360f49b752a265415b08546814bad63cb474fa1599a1b1e738f7778f5147db4b17309e3782987ebf20eda8ca53600b8d571432aec430088c5362742318eef12cdc6cc4eec4103b9a17e4746bb246a7f921d76626cb3ca3d2f473c03470f25ef712e391963badfd470c6d27f5df5c9a6f383f4cfe7e658b5b3987b8547510c8655fb157a881a39ba91b2d5766517547bb626995dbad4d9522ef46bbc08f037e5550a3cfdb5c426c2681cfe9005357a9c6d54bd95dcbc50dac12de413e054ff925cad82869bfbf85e4a6f16aace4da3494f203035bb109edc6d769a2567be5a6e85eaba376dc2e098187acb38d06b48d160b87e287cb0ee2260c8897c84bb108c7964bfff2cbe5cf82b65f0b97cfa7ec8a7f8aca99eb6fcc9dfa5fc70e81aed502c9a2ba800ae3ec173e77db7daf1d16908bf815e072105292f812dea54aa72d5a0b168e02b410d828ac215d97e7e6433b57744dd4bfbcd9af4cf0898369ff99b108d679782ef0ec02314f365f483f7c699f44ebf19d8bb1471e6f0668bafce946ebcb7b646d30ae8ae2c4004840b9066d8031acaf6009f647e6e2b89ad9f6001d9406e2387c908ebddfdb634f96301bf89ead896e41d17251c9e9267c6fd2bc98d4a8a7c201cb3d9006ee338b7b9fd3103e556a88e8160ce8491ab095eb8c7dac05753a313d831ece02598e533eaf2856b8861dfc43266b40984bcc7c3cd175879896a165b111abcd472e524ab98cf61302b123ab73f72b25651b5f0c54592241495da153769771f3f9b98667225cb6e790f8a3c0c9b943a479b512eab7dfe34f68c1fbef0d18f54a118d0a78851afa0dba2b04097dd13f05fa536a07deb53343ba6aa9dc9739233d31a911a72aebb04092df06fc6514303c7dc746b41ab5671ad8564d76efc0adfff543032252d86ecc07f313ade58586af17c7ca4d43e3a1b0f7538195c7d4dc725d5bf541a5d621d974527532a734ed5062397e43310438c1df7052487fb2eab5f7c65e3ecbc50fbc34536d88c52f0643634d9482e2e01e611ae153a29873a7d1bc6db935bebf8270c67fd362040f9c677caf33c2dbb36fa81bf6c4c0f9fa507e14701e50aa3656f45b13dc367cfce1f90134d7a7f4c69292f7b9af8c5ea0c7525fa335947447019fa80d690479e94217a42ebb131f551e530a1ae340765f1f3dff12ecaa59b6be2c4e486e23a35f05d21d81306c225bfc422969cccf81dc9512148c3b9370824b13d368d56f76eefa2f0529d430aa626ad1c0071a3ca697728bf6095e16d9c3fadabb07765eb00ff53b4d4c87898a62bd5fe358f519886c3c232369c75f66d5fd32e83b93d50e9ffe9ae0f00826abefc9a56723157af1270b4a9399f8bb64f11680267b445929cdbd5e7070060684c77864d533b051938632125583fd5b533ed13995227131ea26eff033a731b2a8b592b5036d273251711eea83828668db536a8bf439d9f149bad60fbd8d7e185b5b403266774ede0d79a7251f12d5a8653648fcca1512e0efab05edc6b4b165d69b09102a50174c5dd7c19fccf68d5ab5045aacc5e03c28dbccdf6f54114e95e07df73dc78952f00348c7f33dc6cabd4a29ab9272c96a93a5fe41550aeb8700397436e2680699f2995782cf41cfbbeaff5cb89936f3fcaddc61856ffea8348486a9b99e171e4aa6a61d8f4d3301ba935cc1120e3e02b070a5154a65ed345ff41473703b4f68f1f2657bf9a9138e415df6e4b72baf175f2054389654f06e5337232454ac317e60820501a716aec1cb2f06504c4dc0fea3d13db9eca06a246eb5f52dc5f999874f95abb3206408be6696ee307fa783a0be23ed7b4996e5c64e005e09cf549c4a590da921ef1adeb6b1977812b357f57da1074aadc118c89a19af3544bfa2d77541f574480468b4547dea3db756d7dff7f7fc3f631297e85c412ba0a294caf79049cffe1c81282a401c947b648366f3ebb594925a3b1f2051a8abc634a2d486bfe6802f2cb507f350c108ce401a3c4c67471c70148570163e2b1d7e030e9d787248ac40f6ffb42916c48d95181c61cae0d01ff251cbd3827d8894994015d949976d18dca959a4547018eebb824d557821b0515be816a8b6c97ba0b0187ec6cd1ccc3da85c5e9d25a95e516b890cf4eb3e52fa26d9c3448d2d723083b7acca50689330a17f3792241769cc48a8fa9f4e8cda6997e5e4b7df74aac560b2e98e01fee2706a74d55ae90040e2b0172305922d7ee5d886afe4c46db8de977c270cae92c7fd5b7e7acfd39974e56236d7af398d3944f12c375b39da6b39f53faaa47ab991c582ecb177b2734f06226ecbbb0316785941f212c8185b0f76a544f55bc48bcc6458be0378f1e730c129d6d6edd6fd51db7b0882ec20ed8777508cf80f9358c5ecdddc47308ffbe3f39994a26cc04812248ffd7b2980b7a119e238cb9cb363f32ffb06d825b6b735e1f078c07df30c464cadeea11274b32001fcca2500d507c15642295a12894faca3cd87d4c6a4dc0f25dab59f1a7458c1633c4b92e7a34ece2bee017324d3783d549bbfbb87aa7b6b80b3201d65d2112b38f7b75d594ea4811fb1f8b341bc9caa981e5b745924198d77a01011d579b6ed9ea4b47c1b3f22c52211f46a49b394d223ac87b115225613028933337922333453db1c2805641d2a823509aebf1a80dd9392a950543b6ad1bf62f6f1affacc7c770cd648e8b7475e65e93486b3213d587133543b6026f3b1547d3de6fffba260f3e0e19ab172d0c4fce7663c035d1e3e2e0e49a635b577804c9a6e6c3cf1c2513953f83ffe423a68d2ad1ade8c1bad282d099ac2675ce18847551730b023350c3df9bd7975e861ba528246cc1d9e0157fae14a18cb4023cb47c33ac0a2cce8f1f86b44d4b1fa4cb831d6885267942d6e7feff4099fb00863a934026bb9db6f3750cac1b4ca8f0d05c1090a189f9b47f1d98a072367bb9b462c61cfd387d38b4d6632c036003fb81dc8d85d0e58499fa261cc352ebf69f7f73c9a6391389ba612d83820c3ca5f5f08a2051c0a02657539fb707df1abcc22051140c4cae3bcf8a69e3fd55789baa59758121e6ad3597d379cfebf0a79863ac4a8c0c40e299acaeb231b63aea17268df9e8f43cd5a5bc9a0b395155e50b3d92b222c2b6cdd7249fc9c44c6bab9724d74fe520d82476a2ab20103d4f3e222e8d1a5ce8775bc3336783bfedbc59913ae722daf41ae03216536ed9c1ea337485ba85b62d27e5675f585b0f66cb0d124d6e068a14ed8dd5963ae8be1c590ad06e85df46a14a2683a99f3b3dd83fa46d64e3f42782a440aa1be54250354d711bdc6dd73f7b3b6accf80a5375f12b877d7cedb0dd0f26c1f77e7255e3f6f4c522e2609ca69fc658c07160ae9278296703ae03083375361d88f1692b8b2c4dc46c123db06c1ae1cd497125e0ed5bc242305b01b7aa267b6a1d4cacfc3693d3c46fb6b3717820e46fa2314d12390315b1f0fbd3876101af8689001bedd0314867b257831c1cab8ad6f6a28075cd22097820f89a2162736e465305d7c69ea676faeb8f4e1126e9f66782cbf530fd4988d32808f17b6a555107f3ac1e0ec0c6f6a93992ac4c31359e7c9fbafd84e75344fb2815b3eea1f462703fdd7796d3d2de32659676269a53a6e695bf1c673251dfd8c9eb19c9bfd69232fae2e4f401afb9d6c793a07fb0228103fe1c2299bcd7ce231f2ba9f66f4597bc9545802637d361207be88f8385434c5290a3193d95fc0dc556a215cab7b4edfd51f270e12e7d561a5c1a1ab5993aa0e15ac52d81f2678d5b6edc130f300d33640f7791561f0a3a23bed3845303e4a075d8d4be8e5249dc0b99c28ce13762aa9990a7483b561ba9a506a388c9b7cf26622531735e68cf66eae815dea1a7ec3765c2b762321094faef3f2fc01a4a86f3ddd938095b0bef4a6b59324370fcbd838b2aaea92b2196c3836b2d4d9ad78df90b040082f7033c525fc569f0a9378c55de5d5905d6bdd298f6b940b1357dcdbe894e43fc6466dd7ac287b841f72e8b784b842deb347ca96cf426e9b198173397e9363e22d42fd06a1729a8658c715925f9a15060cac9a15a5daccd2e08cbfd2e0ea0879140fdc6c4222b54b08f8e2d3a0330c0126faa457c87adc60b64a50d015fbd3d22298f5fce2d4d1eb0fcfb29631c4f7d2ff5f1a1916924bc9e0ff7477d23e97953da0a515a6008e6533175382900131f6e875b198f58b0864d88e8d22b7c46ba813285539f2660797df6d12ea513e1bc0bfbd9ba5dea176de0a17d2b0f44973e26db528e9bec3a8da744cb69a16ec90cfc187c7c0baa1e7811c1f46656749ac39c58ec38f963052e3b5cf0e8bef4f501a77f295c923c18ecd9163fdb78033dfc72f3b192633f42ee1099c58aaa3f2611102c79960f2be909bc696fe72905461f6f3043a72f80c5160bdcad0b341d8ca20fd77d13ff64eab52d7378393db40ebaca7e115e7507a17714c2f2932260b7209850f130bddafd96a7ff77cc51533ac834a06949f9aa6116d0a4cd4627b33e546fe414ba0b0881ac3259445f7d47b8b7ade37ca6f2b8aa413abb69be4c9aa5b48d230c6441a78fccc011691533f66ca6957a354564119a89c88015478ca2799c0b1b7500517c447d34287702220264495b92c5df175cbfa743a532cdef93e96249dd0dabcfb964e392e6f3d9a83b112f38a3ebaae646e4b975b0672da6215748ac4b048d42c2053182efa4899d83421d08faf9c38805aeaf61ceae4286aff240f0d5e898dea3fe2219d72cbe124637d4348d0bd9381dd3ebc01691bf3228832341b3e392622ab9ef5efc02e1a7e46cd7395666e422f39660ca1e30114de031bbec77e0e1f5e0952ad0e0b9d4839cacc76f519287bea7a747b54fe2c05e3bd20d09320368fa829596bef9d8a1d87d93536bd2fff878e07f4c47f6216dbd626ad21fb2c37dbfacb196ae7a238f3bb5a9a74936be6043</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输文章入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>Python</category>
+        <category>NetOps</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -807,27 +830,29 @@
       </tags>
   </entry>
   <entry>
-    <title>python网络ping</title>
-    <url>/2021/06/10/python%E7%BD%91%E7%BB%9Cping/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="3046765c687cd639cc04a33b042386433785b2ec1798e3bfb6ceb74ad8371883">7aa1880daa6a0b7a09a81d7f2fbd57c9a2b0786f8fb263cd6e9bafce42d347a317a360f49b752a265415b08546814bad63cb474fa1599a1b1e738f7778f5147db4b17309e3782987ebf20eda8ca53600b8d571432aec430088c5362742318eef12cdc6cc4eec4103b9a17e4746bb246a7f921d76626cb3ca3d2f473c03470f25ef712e391963badfd470c6d27f5df5c9a6f383f4cfe7e658b5b3987b8547510c8655fb157a881a39ba91b2d5766517547bb626995dbad4d9522ef46bbc08f037e5550a3cfdb5c426c2681cfe9005357a9c6d54bd95dcbc50dac12de413e054ff925cad82869bfbf85e4a6f16aace4da3494f203035bb109edc6d769a2567be5a6e85eaba376dc2e098187acb38d06b48d160b87e287cb0ee2260c8897c84bb108c7964bfff2cbe5cf82b65f0b97cfa7ec8a7f8aca99eb6fcc9dfa5fc70e81aed502c9a2ba800ae3ec173e77db7daf1d16908bf815e072105292f812dea54aa72d5a0b168e02b410d828ac215d97e7e6433b57744dd4bfbcd9af4cf0898369ff99b108d679782ef0ec02314f365f483f7c699f44ebf19d8bb1471e6f0668bafce946ebcb7b646d30ae8ae2c4004840b9066d8031acaf6009f647e6e2b89ad9f6001d9406e2387c908ebddfdb634f96301bf89ead896e41d17251c9e9267c6fd2bc98d4a8a7c201cb3d9006ee338b7b9fd3103e556a88e8160ce8491ab095eb8c7dac05753a313d831ece02598e533eaf2856b8861dfc43266b40984bcc7c3cd175879896a165b111abcd472e524ab98cf61302b123ab73f72b25651b5f0c54592241495da153769771f3f9b98667225cb6e790f8a3c0c9b943a479b512eab7dfe34f68c1fbef0d18f54a118d0a78851afa0dba2b04097dd13f05fa536a07deb53343ba6aa9dc9739233d31a911a72aebb04092df06fc6514303c7dc746b41ab5671ad8564d76efc0adfff543032252d86ecc07f313ade58586af17c7ca4d43e3a1b0f7538195c7d4dc725d5bf541a5d621d974527532a734ed5062397e43310438c1df7052487fb2eab5f7c65e3ecbc50fbc34536d88c52f0643634d9482e2e01e611ae153a29873a7d1bc6db935bebf8270c67fd362040f9c677caf33c2dbb36fa81bf6c4c0f9fa507e14701e50aa3656f45b13dc367cfce1f90134d7a7f4c69292f7b9af8c5ea0c7525fa335947447019fa80d690479e94217a42ebb131f551e530a1ae340765f1f3dff12ecaa59b6be2c4e486e23a35f05d21d81306c225bfc422969cccf81dc9512148c3b9370824b13d368d56f76eefa2f0529d430aa626ad1c0071a3ca697728bf6095e16d9c3fadabb07765eb00ff53b4d4c87898a62bd5fe358f519886c3c232369c75f66d5fd32e83b93d50e9ffe9ae0f00826abefc9a56723157af1270b4a9399f8bb64f11680267b445929cdbd5e7070060684c77864d533b051938632125583fd5b533ed13995227131ea26eff033a731b2a8b592b5036d273251711eea83828668db536a8bf439d9f149bad60fbd8d7e185b5b403266774ede0d79a7251f12d5a8653648fcca1512e0efab05edc6b4b165d69b09102a50174c5dd7c19fccf68d5ab5045aacc5e03c28dbccdf6f54114e95e07df73dc78952f00348c7f33dc6cabd4a29ab9272c96a93a5fe41550aeb8700397436e2680699f2995782cf41cfbbeaff5cb89936f3fcaddc61856ffea8348486a9b99e171e4aa6a61d8f4d3301ba935cc1120e3e02b070a5154a65ed345ff41473703b4f68f1f2657bf9a9138e415df6e4b72baf175f2054389654f06e5337232454ac317e60820501a716aec1cb2f06504c4dc0fea3d13db9eca06a246eb5f52dc5f999874f95abb3206408be6696ee307fa783a0be23ed7b4996e5c64e005e09cf549c4a590da921ef1adeb6b1977812b357f57da1074aadc118c89a19af3544bfa2d77541f574480468b4547dea3db756d7dff7f7fc3f631297e85c412ba0a294caf79049cffe1c81282a401c947b648366f3ebb594925a3b1f2051a8abc634a2d486bfe6802f2cb507f350c108ce401a3c4c67471c70148570163e2b1d7e030e9d787248ac40f6ffb42916c48d95181c61cae0d01ff251cbd3827d8894994015d949976d18dca959a4547018eebb824d557821b0515be816a8b6c97ba0b0187ec6cd1ccc3da85c5e9d25a95e516b890cf4eb3e52fa26d9c3448d2d723083b7acca50689330a17f3792241769cc48a8fa9f4e8cda6997e5e4b7df74aac560b2e98e01fee2706a74d55ae90040e2b0172305922d7ee5d886afe4c46db8de977c270cae92c7fd5b7e7acfd39974e56236d7af398d3944f12c375b39da6b39f53faaa47ab991c582ecb177b2734f06226ecbbb0316785941f212c8185b0f76a544f55bc48bcc6458be0378f1e730c129d6d6edd6fd51db7b0882ec20ed8777508cf80f9358c5ecdddc47308ffbe3f39994a26cc04812248ffd7b2980b7a119e238cb9cb363f32ffb06d825b6b735e1f078c07df30c464cadeea11274b32001fcca2500d507c15642295a12894faca3cd87d4c6a4dc0f25dab59f1a7458c1633c4b92e7a34ece2bee017324d3783d549bbfbb87aa7b6b80b3201d65d2112b38f7b75d594ea4811fb1f8b341bc9caa981e5b745924198d77a01011d579b6ed9ea4b47c1b3f22c52211f46a49b394d223ac87b115225613028933337922333453db1c2805641d2a823509aebf1a80dd9392a950543b6ad1bf62f6f1affacc7c770cd648e8b7475e65e93486b3213d587133543b6026f3b1547d3de6fffba260f3e0e19ab172d0c4fce7663c035d1e3e2e0e49a635b577804c9a6e6c3cf1c2513953f83ffe423a68d2ad1ade8c1bad282d099ac2675ce18847551730b023350c3df9bd7975e861ba528246cc1d9e0157fae14a18cb4023cb47c33ac0a2cce8f1f86b44d4b1fa4cb831d6885267942d6e7feff4099fb00863a934026bb9db6f3750cac1b4ca8f0d05c1090a189f9b47f1d98a072367bb9b462c61cfd387d38b4d6632c036003fb81dc8d85d0e58499fa261cc352ebf69f7f73c9a6391389ba612d83820c3ca5f5f08a2051c0a02657539fb707df1abcc22051140c4cae3bcf8a69e3fd55789baa59758121e6ad3597d379cfebf0a79863ac4a8c0c40e299acaeb231b63aea17268df9e8f43cd5a5bc9a0b395155e50b3d92b222c2b6cdd7249fc9c44c6bab9724d74fe520d82476a2ab20103d4f3e222e8d1a5ce8775bc3336783bfedbc59913ae722daf41ae03216536ed9c1ea337485ba85b62d27e5675f585b0f66cb0d124d6e068a14ed8dd5963ae8be1c590ad06e85df46a14a2683a99f3b3dd83fa46d64e3f42782a440aa1be54250354d711bdc6dd73f7b3b6accf80a5375f12b877d7cedb0dd0f26c1f77e7255e3f6f4c522e2609ca69fc658c07160ae9278296703ae03083375361d88f1692b8b2c4dc46c123db06c1ae1cd497125e0ed5bc242305b01b7aa267b6a1d4cacfc3693d3c46fb6b3717820e46fa2314d12390315b1f0fbd3876101af8689001bedd0314867b257831c1cab8ad6f6a28075cd22097820f89a2162736e465305d7c69ea676faeb8f4e1126e9f66782cbf530fd4988d32808f17b6a555107f3ac1e0ec0c6f6a93992ac4c31359e7c9fbafd84e75344fb2815b3eea1f462703fdd7796d3d2de32659676269a53a6e695bf1c673251dfd8c9eb19c9bfd69232fae2e4f401afb9d6c793a07fb0228103fe1c2299bcd7ce231f2ba9f66f4597bc9545802637d361207be88f8385434c5290a3193d95fc0dc556a215cab7b4edfd51f270e12e7d561a5c1a1ab5993aa0e15ac52d81f2678d5b6edc130f300d33640f7791561f0a3a23bed3845303e4a075d8d4be8e5249dc0b99c28ce13762aa9990a7483b561ba9a506a388c9b7cf26622531735e68cf66eae815dea1a7ec3765c2b762321094faef3f2fc01a4a86f3ddd938095b0bef4a6b59324370fcbd838b2aaea92b2196c3836b2d4d9ad78df90b040082f7033c525fc569f0a9378c55de5d5905d6bdd298f6b940b1357dcdbe894e43fc6466dd7ac287b841f72e8b784b842deb347ca96cf426e9b198173397e9363e22d42fd06a1729a8658c715925f9a15060cac9a15a5daccd2e08cbfd2e0ea0879140fdc6c4222b54b08f8e2d3a0330c0126faa457c87adc60b64a50d015fbd3d22298f5fce2d4d1eb0fcfb29631c4f7d2ff5f1a1916924bc9e0ff7477d23e97953da0a515a6008e6533175382900131f6e875b198f58b0864d88e8d22b7c46ba813285539f2660797df6d12ea513e1bc0bfbd9ba5dea176de0a17d2b0f44973e26db528e9bec3a8da744cb69a16ec90cfc187c7c0baa1e7811c1f46656749ac39c58ec38f963052e3b5cf0e8bef4f501a77f295c923c18ecd9163fdb78033dfc72f3b192633f42ee1099c58aaa3f2611102c79960f2be909bc696fe72905461f6f3043a72f80c5160bdcad0b341d8ca20fd77d13ff64eab52d7378393db40ebaca7e115e7507a17714c2f2932260b7209850f130bddafd96a7ff77cc51533ac834a06949f9aa6116d0a4cd4627b33e546fe414ba0b0881ac3259445f7d47b8b7ade37ca6f2b8aa413abb69be4c9aa5b48d230c6441a78fccc011691533f66ca6957a354564119a89c88015478ca2799c0b1b7500517c447d34287702220264495b92c5df175cbfa743a532cdef93e96249dd0dabcfb964e392e6f3d9a83b112f38a3ebaae646e4b975b0672da6215748ac4b048d42c2053182efa4899d83421d08faf9c38805aeaf61ceae4286aff240f0d5e898dea3fe2219d72cbe124637d4348d0bd9381dd3ebc01691bf3228832341b3e392622ab9ef5efc02e1a7e46cd7395666e422f39660ca1e30114de031bbec77e0e1f5e0952ad0e0b9d4839cacc76f519287bea7a747b54fe2c05e3bd20d09320368fa829596bef9d8a1d87d93536bd2fff878e07f4c47f6216dbd626ad21fb2c37dbfacb196ae7a238f3bb5a9a74936be6043</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输文章入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    <title>思科HSRP的选举机制</title>
+    <url>/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/</url>
+    <content><![CDATA[<p>思科HSRP的选举机制<br>听其言 (listening) 观其行 (是否是有hello包) 没有就开始自己来 (speaking)</p>
+<span id="more"></span>
+
+<h2 id="HSRP状态"><a href="#HSRP状态" class="headerlink" title="HSRP状态"></a>HSRP状态</h2><p><img src="/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/hsrp.jpg" alt="hsrp状态转换"></p>
+<h2 id="HSRP选举的机制"><a href="#HSRP选举的机制" class="headerlink" title="HSRP选举的机制"></a>HSRP选举的机制</h2><ul>
+<li>2台路由器，前后开机 如何选举？</li>
+<li>1台路由器开机，后面有1台路由器启动加入,如何选举？</li>
+</ul>
+<h2 id="HSRP的切换时间"><a href="#HSRP的切换时间" class="headerlink" title="HSRP的切换时间"></a>HSRP的切换时间</h2><h3 id="主路由器down掉，多久可以切换到备份路由器？"><a href="#主路由器down掉，多久可以切换到备份路由器？" class="headerlink" title="主路由器down掉，多久可以切换到备份路由器？"></a>主路由器down掉，多久可以切换到备份路由器？</h3><p><code>10s</code></p>
+<h3 id="主路由器Up后，多久可以再次切换成active"><a href="#主路由器Up后，多久可以再次切换成active" class="headerlink" title="主路由器Up后，多久可以再次切换成active?"></a>主路由器Up后，多久可以再次切换成active?</h3><p><code>取决于preempt时间</code></p>
+<h2 id="HSRP抢占延迟"><a href="#HSRP抢占延迟" class="headerlink" title="HSRP抢占延迟"></a>HSRP抢占延迟</h2><p>当新Active的路由器需要一点时间来启动慢速 WAN 接口并生成路由表时，这有时会很有帮助。<br>但是，默认情况下，HSRP 抢占将使路由器在启动 LAN 接口的几秒钟内成为 LAN 的Active默认网关。</p>
+<h3 id="配置命令"><a href="#配置命令" class="headerlink" title="配置命令"></a>配置命令</h3><p><code>standby 20 preempt delay minimum 30 reload 90</code></p>
+<h3 id="查看命令"><a href="#查看命令" class="headerlink" title="查看命令"></a>查看命令</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C4431-01#sh standby delay </span><br><span class="line">Interface          Minimum Reload </span><br><span class="line">Gi0/0/0            1       5      </span><br><span class="line">Gi0/0/1            1       5      </span><br><span class="line">Gi0/0/2            1       5     </span><br></pre></td></tr></table></figure>
+
+
+<h2 id="HSRP计时器"><a href="#HSRP计时器" class="headerlink" title="HSRP计时器"></a>HSRP计时器</h2><p>Active Router用Hello计时器 3s<br>Standby Router用 Standby timer计时器  10s</p>
+]]></content>
       <categories>
-        <category>Python</category>
-        <category>NetOps</category>
+        <category>Network</category>
+        <category>Switch</category>
       </categories>
-      <tags>
-        <tag>Python</tag>
-      </tags>
   </entry>
   <entry>
     <title>思科WLC命令</title>
@@ -855,31 +880,6 @@
       <tags>
         <tag>Wireless</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>思科HSRP的选举机制</title>
-    <url>/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/</url>
-    <content><![CDATA[<p>思科HSRP的选举机制<br>听其言 (listening) 观其行 (是否是有hello包) 没有就开始自己来 (speaking)</p>
-<span id="more"></span>
-
-<h2 id="HSRP状态"><a href="#HSRP状态" class="headerlink" title="HSRP状态"></a>HSRP状态</h2><p><img src="/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/hsrp.jpg" alt="hsrp状态转换"></p>
-<h2 id="HSRP选举的机制"><a href="#HSRP选举的机制" class="headerlink" title="HSRP选举的机制"></a>HSRP选举的机制</h2><ul>
-<li>2台路由器，前后开机 如何选举？</li>
-<li>1台路由器开机，后面有1台路由器启动加入,如何选举？</li>
-</ul>
-<h2 id="HSRP的切换时间"><a href="#HSRP的切换时间" class="headerlink" title="HSRP的切换时间"></a>HSRP的切换时间</h2><h3 id="主路由器down掉，多久可以切换到备份路由器？"><a href="#主路由器down掉，多久可以切换到备份路由器？" class="headerlink" title="主路由器down掉，多久可以切换到备份路由器？"></a>主路由器down掉，多久可以切换到备份路由器？</h3><p><code>10s</code></p>
-<h3 id="主路由器Up后，多久可以再次切换成active"><a href="#主路由器Up后，多久可以再次切换成active" class="headerlink" title="主路由器Up后，多久可以再次切换成active?"></a>主路由器Up后，多久可以再次切换成active?</h3><p><code>取决于preempt时间</code></p>
-<h2 id="HSRP抢占延迟"><a href="#HSRP抢占延迟" class="headerlink" title="HSRP抢占延迟"></a>HSRP抢占延迟</h2><p>当新Active的路由器需要一点时间来启动慢速 WAN 接口并生成路由表时，这有时会很有帮助。<br>但是，默认情况下，HSRP 抢占将使路由器在启动 LAN 接口的几秒钟内成为 LAN 的Active默认网关。</p>
-<h3 id="配置命令"><a href="#配置命令" class="headerlink" title="配置命令"></a>配置命令</h3><p><code>standby 20 preempt delay minimum 30 reload 90</code></p>
-<h3 id="查看命令"><a href="#查看命令" class="headerlink" title="查看命令"></a>查看命令</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C4431-01#sh standby delay </span><br><span class="line">Interface          Minimum Reload </span><br><span class="line">Gi0/0/0            1       5      </span><br><span class="line">Gi0/0/1            1       5      </span><br><span class="line">Gi0/0/2            1       5     </span><br></pre></td></tr></table></figure>
-
-
-<h2 id="HSRP计时器"><a href="#HSRP计时器" class="headerlink" title="HSRP计时器"></a>HSRP计时器</h2><p>Active Router用Hello计时器 3s<br>Standby Router用 Standby timer计时器  10s</p>
-]]></content>
-      <categories>
-        <category>Network</category>
-        <category>Switch</category>
-      </categories>
   </entry>
   <entry>
     <title>思科wireless连接的交互过程</title>
