@@ -1,65 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>C++历史 1985年 丹麦</title>
-    <url>/2021/06/11/C++/</url>
-    <content><![CDATA[<h2 id="C-历史-1985年-丹麦"><a href="#C-历史-1985年-丹麦" class="headerlink" title="C++历史 1985年 丹麦"></a>C++历史 1985年 丹麦</h2><span id="more"></span>
-
-
-<p><strong>Bjarne Stroustrup</strong> 出生于丹麦的奥胡斯。他家是工人阶级，他上当地学校。</p>
-<p>他出席了奥胡斯大学1969-1975，并用有刻度的硕士学位在数学和计算机科学。他的兴趣集中在微程序设计和机器架构上。他从其发明者克里斯汀·尼加德( Kristen Nygaard)那里学习了面向对象编程的基础，后者经常访问奥尔胡斯。</p>
-<p>1979 年，他在剑桥大学获得计算机科学博士学位，在那里他受到David Wheeler 的指导。他的论文涉及分布式计算机系统中的通信。</p>
-<p>职业生涯</p>
-<p>1979 年，Stroustrup 在美国新泽西州默里希尔的贝尔实验室计算机科学研究中心担任技术人员，开始了他的职业生涯。在那里，他开始了 C++ 和编程技术方面的工作。从创建到 2002 年底，Stroustrup 一直是AT&amp;T 贝尔实验室大规模编程研究部门的负责人。1993 年，他成为贝尔实验室研究员，1996 年成为 AT&amp;T 研究员。</p>
-<p>从 2002 年到 2014 年，Stroustrup 是德克萨斯 A&amp;M 大学工程学院计算机科学教授。 2011年被评为大学特聘教授。</p>
-<p>截至 2014 年 1 月，Stroustrup 是纽约市摩根士丹利技术部门的技术研究员和董事总经理，也是哥伦比亚大学计算机科学的客座教授</p>
-<p>1979 年，丹麦计算机科学家Bjarne Stroustrup开始研究“C with Classes》，C++ 的前身。 创建一门新语言的动机源于 Stroustrup 为他的博士论文编程的经验。Stroustrup 发现Simula具有对大型软件开发非常有帮助的特性，但该语言是实际使用太慢，而BCPL速度快但太低级，不适合大型软件开发。当 Stroustrup 开始在AT&amp;T 贝尔实验室工作时，他在分析UNIX 内核的分布式计算方面遇到了问题。记得他的博士学位经验，Stroustrup 着手增强C语言类似模拟器的功能。选择 C 是因为它具有通用性、快速、便携和广泛使用的特点。除了 C 和 Simula 的影响，其他语言也影响了这种新语言，包括ALGOL 68、Ada、CLU和ML。</p>
-<p>最初，Stroustrup 的“C with Classes”为 C 编译器 Cpre 添加了特性，包括类、派生类、强类型、内联和默认参数。</p>
-<p>1982 年，Stroustrup 开始开发带有类的 C 的继承者，在经历了其他几个名称之后，他将其命名为“C++”（++即C 中的增量运算符）。添加了新功能，包括虚函数、函数名称和运算符重载、引用、常量、类型安全的自由存储内存分配（新建/删除）、改进的类型检查和带有两个正斜杠 ( //) 的BCPL 样式的单行注释. 此外，Stroustrup 为 C++ 开发了一个新的独立编译器Cfront。</p>
-<p>1984 年，Stroustrup 实现了第一个流输入/输出库。Doug McIlroy [1]（他之前建议使用Unix 管道）提出了提供输出操作符而不是命名输出函数的想法。</p>
-<p><strong>1985 年，第一版The C++ Programming Language发布，成为该语言的权威参考，因为当时还没有正式的标准。 C++的第一个商业实现于同年10月发布。</strong></p>
-<p>1989 年，C++ 2.0 发布，随后在 1991 年更新了The C++ Programming Language 的第二版。2.0 中的新特性包括多重继承、抽象类、静态成员函数、const 成员函数和受保护成员。1990 年，The Annotated C++ Reference Manual出版。这项工作成为未来标准的基础。后来添加的功能包括模板、异常、名称空间、新的强制转换和布尔类型。</p>
-<p>2015 年在巴黎举行的关于 C++11 特性的测验<br>1998 年，C++98 发布，标准化了语言，2003 年发布了一个小更新（C++03）。</p>
-<p>在 C++98 之后，C++ 发展相对缓慢，直到 2011 年，C++11标准发布，增加了许多新特性，进一步扩大了标准库，并为 C++ 程序员提供了更多便利。在2014 年 12 月发布C++14 小更新之后，C++17中引入了各种新增功能。在 2020 年 2 月定稿后，[22] C++20 标准草案于 2020 年 9 月 4 日获得批准，并于 2020 年 12 月 15 日正式发布。</p>
-<p>2018 年 1 月 3 日，Stroustrup 被宣布为 2018 年查尔斯·斯塔克·德雷珀工程奖的获得者，“以概念化和开发 C++ 编程语言”。</p>
-<p>C 是面向过程的一门编程语言，C++ 可以很好地进行面向对象的程序设计。C++ 虽然主要是以 C 的基础发展起来的一门新语言，但它不是 C 的替代品，它们是兄弟关系。面向对象和面向过程不是矛盾的，而是各有用途、互为补充的。</p>
-<p>C++ 对 C 的增强，表现在六个方面：</p>
-<p>增强了类型检查机制<br>增加了面向对象的机制<br>增加了泛型编程的机制（template）<br>增加了异常处理<br>增加了重载的机制<br>增加了标准模板库（STL）</p>
-<p>链接：<a href="https://www.jianshu.com/p/2522b07219ae">https://www.jianshu.com/p/2522b07219ae</a></p>
-]]></content>
-      <categories>
-        <category>Java</category>
-        <category>history</category>
-      </categories>
-      <tags>
-        <tag>history</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Docker</title>
-    <url>/2021/06/18/Docker/</url>
-    <content><![CDATA[<p>Docker容器技术，也是虚拟化技术，属于轻量级的虚拟化。</p>
-<span id="more"></span>
-
-
-<p>虚拟机属于虚拟化技术。而Docker这样的容器技术，也是虚拟化技术，属于<strong>轻量级的虚拟化</strong>。</p>
-<p>虚拟机虽然可以隔离出很多“子电脑”，但占用空间更大，启动更慢，虚拟机软件可能还要花钱（例如VMWare）。</p>
-<p>而容器技术恰好没有这些缺点。它不需要虚拟出整个操作系统，只需要虚拟一个小规模的环境（类似“沙箱”）。</p>
-<p>Docker技术的三大核心概念，分别是：</p>
-<p>镜像（Image）</p>
-<p>容器（Container）</p>
-<p>仓库（Repository）</p>
-<p><a href="https://www.zhihu.com/question/28300645">https://www.zhihu.com/question/28300645</a></p>
-]]></content>
-      <categories>
-        <category>Java</category>
-        <category>Servlet</category>
-      </categories>
-      <tags>
-        <tag>Docker</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>C语言发展史 1972年</title>
     <url>/2021/06/11/C/</url>
     <content><![CDATA[<h2 id="C语言发展史-1972年"><a href="#C语言发展史-1972年" class="headerlink" title="C语言发展史 1972年"></a>C语言发展史 1972年</h2><span id="more"></span>
@@ -102,6 +43,41 @@
       </tags>
   </entry>
   <entry>
+    <title>C++历史 1985年 丹麦</title>
+    <url>/2021/06/11/C++/</url>
+    <content><![CDATA[<h2 id="C-历史-1985年-丹麦"><a href="#C-历史-1985年-丹麦" class="headerlink" title="C++历史 1985年 丹麦"></a>C++历史 1985年 丹麦</h2><span id="more"></span>
+
+
+<p><strong>Bjarne Stroustrup</strong> 出生于丹麦的奥胡斯。他家是工人阶级，他上当地学校。</p>
+<p>他出席了奥胡斯大学1969-1975，并用有刻度的硕士学位在数学和计算机科学。他的兴趣集中在微程序设计和机器架构上。他从其发明者克里斯汀·尼加德( Kristen Nygaard)那里学习了面向对象编程的基础，后者经常访问奥尔胡斯。</p>
+<p>1979 年，他在剑桥大学获得计算机科学博士学位，在那里他受到David Wheeler 的指导。他的论文涉及分布式计算机系统中的通信。</p>
+<p>职业生涯</p>
+<p>1979 年，Stroustrup 在美国新泽西州默里希尔的贝尔实验室计算机科学研究中心担任技术人员，开始了他的职业生涯。在那里，他开始了 C++ 和编程技术方面的工作。从创建到 2002 年底，Stroustrup 一直是AT&amp;T 贝尔实验室大规模编程研究部门的负责人。1993 年，他成为贝尔实验室研究员，1996 年成为 AT&amp;T 研究员。</p>
+<p>从 2002 年到 2014 年，Stroustrup 是德克萨斯 A&amp;M 大学工程学院计算机科学教授。 2011年被评为大学特聘教授。</p>
+<p>截至 2014 年 1 月，Stroustrup 是纽约市摩根士丹利技术部门的技术研究员和董事总经理，也是哥伦比亚大学计算机科学的客座教授</p>
+<p>1979 年，丹麦计算机科学家Bjarne Stroustrup开始研究“C with Classes》，C++ 的前身。 创建一门新语言的动机源于 Stroustrup 为他的博士论文编程的经验。Stroustrup 发现Simula具有对大型软件开发非常有帮助的特性，但该语言是实际使用太慢，而BCPL速度快但太低级，不适合大型软件开发。当 Stroustrup 开始在AT&amp;T 贝尔实验室工作时，他在分析UNIX 内核的分布式计算方面遇到了问题。记得他的博士学位经验，Stroustrup 着手增强C语言类似模拟器的功能。选择 C 是因为它具有通用性、快速、便携和广泛使用的特点。除了 C 和 Simula 的影响，其他语言也影响了这种新语言，包括ALGOL 68、Ada、CLU和ML。</p>
+<p>最初，Stroustrup 的“C with Classes”为 C 编译器 Cpre 添加了特性，包括类、派生类、强类型、内联和默认参数。</p>
+<p>1982 年，Stroustrup 开始开发带有类的 C 的继承者，在经历了其他几个名称之后，他将其命名为“C++”（++即C 中的增量运算符）。添加了新功能，包括虚函数、函数名称和运算符重载、引用、常量、类型安全的自由存储内存分配（新建/删除）、改进的类型检查和带有两个正斜杠 ( //) 的BCPL 样式的单行注释. 此外，Stroustrup 为 C++ 开发了一个新的独立编译器Cfront。</p>
+<p>1984 年，Stroustrup 实现了第一个流输入/输出库。Doug McIlroy [1]（他之前建议使用Unix 管道）提出了提供输出操作符而不是命名输出函数的想法。</p>
+<p><strong>1985 年，第一版The C++ Programming Language发布，成为该语言的权威参考，因为当时还没有正式的标准。 C++的第一个商业实现于同年10月发布。</strong></p>
+<p>1989 年，C++ 2.0 发布，随后在 1991 年更新了The C++ Programming Language 的第二版。2.0 中的新特性包括多重继承、抽象类、静态成员函数、const 成员函数和受保护成员。1990 年，The Annotated C++ Reference Manual出版。这项工作成为未来标准的基础。后来添加的功能包括模板、异常、名称空间、新的强制转换和布尔类型。</p>
+<p>2015 年在巴黎举行的关于 C++11 特性的测验<br>1998 年，C++98 发布，标准化了语言，2003 年发布了一个小更新（C++03）。</p>
+<p>在 C++98 之后，C++ 发展相对缓慢，直到 2011 年，C++11标准发布，增加了许多新特性，进一步扩大了标准库，并为 C++ 程序员提供了更多便利。在2014 年 12 月发布C++14 小更新之后，C++17中引入了各种新增功能。在 2020 年 2 月定稿后，[22] C++20 标准草案于 2020 年 9 月 4 日获得批准，并于 2020 年 12 月 15 日正式发布。</p>
+<p>2018 年 1 月 3 日，Stroustrup 被宣布为 2018 年查尔斯·斯塔克·德雷珀工程奖的获得者，“以概念化和开发 C++ 编程语言”。</p>
+<p>C 是面向过程的一门编程语言，C++ 可以很好地进行面向对象的程序设计。C++ 虽然主要是以 C 的基础发展起来的一门新语言，但它不是 C 的替代品，它们是兄弟关系。面向对象和面向过程不是矛盾的，而是各有用途、互为补充的。</p>
+<p>C++ 对 C 的增强，表现在六个方面：</p>
+<p>增强了类型检查机制<br>增加了面向对象的机制<br>增加了泛型编程的机制（template）<br>增加了异常处理<br>增加了重载的机制<br>增加了标准模板库（STL）</p>
+<p>链接：<a href="https://www.jianshu.com/p/2522b07219ae">https://www.jianshu.com/p/2522b07219ae</a></p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>history</category>
+      </categories>
+      <tags>
+        <tag>history</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Git从零开始</title>
     <url>/2021/05/26/Git%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
     <content><![CDATA[<p>程序员从git开始，菜鸟和高手的分水岭</p>
@@ -124,6 +100,30 @@
       </categories>
       <tags>
         <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Docker</title>
+    <url>/2021/06/18/Docker/</url>
+    <content><![CDATA[<p>Docker容器技术，也是虚拟化技术，属于轻量级的虚拟化。</p>
+<span id="more"></span>
+
+
+<p>虚拟机属于虚拟化技术。而Docker这样的容器技术，也是虚拟化技术，属于<strong>轻量级的虚拟化</strong>。</p>
+<p>虚拟机虽然可以隔离出很多“子电脑”，但占用空间更大，启动更慢，虚拟机软件可能还要花钱（例如VMWare）。</p>
+<p>而容器技术恰好没有这些缺点。它不需要虚拟出整个操作系统，只需要虚拟一个小规模的环境（类似“沙箱”）。</p>
+<p>Docker技术的三大核心概念，分别是：</p>
+<p>镜像（Image）</p>
+<p>容器（Container）</p>
+<p>仓库（Repository）</p>
+<p><a href="https://www.zhihu.com/question/28300645">https://www.zhihu.com/question/28300645</a></p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>Servlet</category>
+      </categories>
+      <tags>
+        <tag>Docker</tag>
       </tags>
   </entry>
   <entry>
@@ -242,11 +242,11 @@
 </ol>
 <h4 id="命令："><a href="#命令：" class="headerlink" title="命令："></a>命令：</h4><p>Local 为ssh客户端一方<br>remote为ssh服务端一方</p>
 <p><code>ssh -L local_port:remote_address:remote_port username@server.com</code></p>
-<p>ssh -L 8888:localhost:1234 <a href="mailto:&#98;&#x6f;&#98;&#x40;&#115;&#115;&#104;&#46;&#x79;&#111;&#x75;&#114;&#111;&#x66;&#x66;&#105;&#99;&#101;&#x2e;&#x63;&#x6f;&#109;">&#98;&#x6f;&#98;&#x40;&#115;&#115;&#104;&#46;&#x79;&#111;&#x75;&#114;&#111;&#x66;&#x66;&#105;&#99;&#101;&#x2e;&#x63;&#x6f;&#109;</a><br>ssh -L 8888:192.168.1.111:1234 <a href="mailto:&#98;&#111;&#x62;&#x40;&#x73;&#115;&#104;&#46;&#x79;&#111;&#117;&#114;&#111;&#102;&#102;&#105;&#99;&#x65;&#46;&#x63;&#x6f;&#109;">&#98;&#111;&#x62;&#x40;&#x73;&#115;&#104;&#46;&#x79;&#111;&#117;&#114;&#111;&#102;&#102;&#105;&#99;&#x65;&#46;&#x63;&#x6f;&#109;</a></p>
+<p>ssh -L 8888:localhost:1234 <a href="mailto:&#x62;&#x6f;&#x62;&#x40;&#115;&#115;&#104;&#x2e;&#x79;&#111;&#x75;&#114;&#x6f;&#x66;&#x66;&#x69;&#x63;&#101;&#x2e;&#x63;&#111;&#109;">&#x62;&#x6f;&#x62;&#x40;&#115;&#115;&#104;&#x2e;&#x79;&#111;&#x75;&#114;&#x6f;&#x66;&#x66;&#x69;&#x63;&#101;&#x2e;&#x63;&#111;&#109;</a><br>ssh -L 8888:192.168.1.111:1234 <a href="mailto:&#x62;&#111;&#98;&#x40;&#x73;&#x73;&#x68;&#x2e;&#x79;&#111;&#x75;&#114;&#x6f;&#102;&#x66;&#x69;&#x63;&#x65;&#x2e;&#x63;&#x6f;&#x6d;">&#x62;&#111;&#98;&#x40;&#x73;&#x73;&#x68;&#x2e;&#x79;&#111;&#x75;&#114;&#x6f;&#102;&#x66;&#x69;&#x63;&#x65;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
 <h3 id="远程转发"><a href="#远程转发" class="headerlink" title="远程转发"></a>远程转发</h3><h4 id="应用场景：-1"><a href="#应用场景：-1" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-1"><a href="#命令：-1" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -R remote_port:local_address:local_port username@server.com</code></p>
-<p>ssh -R 8888:localhost:1234 <a href="mailto:&#98;&#111;&#98;&#x40;&#x73;&#x73;&#x68;&#46;&#121;&#x6f;&#117;&#114;&#111;&#102;&#x66;&#105;&#99;&#101;&#46;&#99;&#111;&#x6d;">&#98;&#111;&#98;&#x40;&#x73;&#x73;&#x68;&#46;&#121;&#x6f;&#117;&#114;&#111;&#102;&#x66;&#105;&#99;&#101;&#46;&#99;&#111;&#x6d;</a></p>
+<p>ssh -R 8888:localhost:1234 <a href="mailto:&#98;&#x6f;&#98;&#x40;&#x73;&#x73;&#x68;&#x2e;&#x79;&#111;&#x75;&#x72;&#111;&#102;&#x66;&#105;&#99;&#x65;&#46;&#99;&#111;&#x6d;">&#98;&#x6f;&#98;&#x40;&#x73;&#x73;&#x68;&#x2e;&#x79;&#111;&#x75;&#x72;&#111;&#102;&#x66;&#105;&#99;&#x65;&#46;&#99;&#111;&#x6d;</a></p>
 <h3 id="动态转发"><a href="#动态转发" class="headerlink" title="动态转发"></a>动态转发</h3><h4 id="应用场景：-2"><a href="#应用场景：-2" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-2"><a href="#命令：-2" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -D local_port username@server.com</code></p>
-<p>ssh -D 8888 <a href="mailto:&#x62;&#x6f;&#x62;&#64;&#115;&#x73;&#x68;&#46;&#121;&#x6f;&#x75;&#x72;&#104;&#111;&#x6d;&#x65;&#x2e;&#99;&#x6f;&#109;">&#x62;&#x6f;&#x62;&#64;&#115;&#x73;&#x68;&#46;&#121;&#x6f;&#x75;&#x72;&#104;&#111;&#x6d;&#x65;&#x2e;&#99;&#x6f;&#109;</a></p>
+<p>ssh -D 8888 <a href="mailto:&#98;&#x6f;&#98;&#64;&#115;&#x73;&#x68;&#x2e;&#121;&#x6f;&#x75;&#114;&#104;&#x6f;&#x6d;&#x65;&#x2e;&#99;&#111;&#x6d;">&#98;&#x6f;&#98;&#64;&#115;&#x73;&#x68;&#x2e;&#121;&#x6f;&#x75;&#114;&#104;&#x6f;&#x6d;&#x65;&#x2e;&#99;&#111;&#x6d;</a></p>
 <h3 id="参数介绍"><a href="#参数介绍" class="headerlink" title="参数介绍"></a>参数介绍</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">-N 告诉 SSH 客户端，这个连接不需要执行任何命令，也就是说不需要打开远程 shell，仅仅做端口转发；</span><br><span class="line">-f 告诉SSH客户端在后台运行，要关闭这个后台连接，就只有用 kill 命令去杀掉进程；</span><br><span class="line">-L 做本地映射端口</span><br><span class="line">-R 做远程映射端口</span><br><span class="line">-D 做动态端口映射</span><br><span class="line">-C 压缩数据传输</span><br></pre></td></tr></table></figure>
 
 <h2 id="如何关闭这个SSH隧道"><a href="#如何关闭这个SSH隧道" class="headerlink" title="如何关闭这个SSH隧道"></a>如何关闭这个SSH隧道</h2><p>方法1：<br>ps aux | grep 3306   找到pid<br>kill <pid>   kill pid</p>
@@ -258,31 +258,6 @@
       </categories>
       <tags>
         <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>思科Nexus</title>
-    <url>/2021/06/04/Nexus/</url>
-    <content><![CDATA[<p>Nexus vPC</p>
-<span id="more"></span>
-
-<h2 id="Nexus"><a href="#Nexus" class="headerlink" title="Nexus"></a>Nexus</h2><ul>
-<li><p>vPC（virtual port channel）</p>
-</li>
-<li><p>VDC</p>
-</li>
-<li><p>ACI   Cisco Application Centric Infrastructure </p>
-</li>
-</ul>
-<p>思科的ACI就是数据中心的SDN </p>
-<h2 id="vPC"><a href="#vPC" class="headerlink" title="vPC"></a>vPC</h2><p>允许一个设备使用有两个上游设备的port  channel，消除STP阻止端口，使用所有可用的上联带宽,提供一个无环的拓扑，在链路或者设备出现故障时，提供最快的收敛，提供链路级的冗余，确保高可用性，第三方设备可以是一个服务器，一个交换机或者任何网络设备，只要这些设备支持channel Group技术</p>
-]]></content>
-      <categories>
-        <category>Network</category>
-        <category>Switch</category>
-      </categories>
-      <tags>
-        <tag>Nexus</tag>
       </tags>
   </entry>
   <entry>
@@ -317,22 +292,28 @@
       </tags>
   </entry>
   <entry>
-    <title>PHP连接MySQL数据库</title>
-    <url>/2021/06/22/PHP%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
-    <content><![CDATA[<p>PHP与MySQL的连接有三种API接口，分别是：PHP的MySQL扩展 、PHP的mysqli扩展 、PHP数据对象(PDO)</p>
+    <title>思科Nexus</title>
+    <url>/2021/06/04/Nexus/</url>
+    <content><![CDATA[<p>Nexus vPC</p>
 <span id="more"></span>
 
-<p>PHP与MySQL的连接有三种API接口，分别是：PHP的MySQL扩展 、PHP的mysqli扩展 、PHP数据对象(PDO)，下面针对以上三种连接方式做下总结，以备在不同场景下选出最优方案。</p>
-<p><strong>PHP的MySQL扩展是设计开发允许php应用与MySQL数据库交互的早期扩展。</strong><br>MySQL扩展提供了一个面向过程的接口，并且是针对MySQL4.1.3或者更早版本设计的。因此这个扩展虽然可以与MySQL4.1.3或更新的数据库服务端进行交互，但并不支持后期MySQL服务端提供的一些特性。由于太古老，又不安全，所以已被后来的mysqli完全取代；</p>
-<p><strong>PHP的mysqli扩展，我们有时称之为MySQL增强扩展</strong><br>可以用于使用 MySQL4.1.3或更新版本中新的高级特性。其特点为：面向对象接口 、prepared语句支持、多语句执行支持、事务支持 、增强的调试能力、嵌入式服务支持 、预处理方式完全解决了sql注入的问题。不过其也有缺点，就是只支持mysql数据库。如果你要是不操作其他的数据库，这无疑是最好的选择。</p>
-<p><strong>PDO是PHP Data Objects的缩写</strong><br>是PHP应用中的一个数据库抽象层规范。PDO提供了一个统一的API接口可以使得你的PHP应用不去关心具体要连接的数据库服务器系统类型，也就是说，如果你使用PDO的API，可以在任何需要的时候无缝切换数据库服务器，比如从Oracle 到MySQL，仅仅需要修改很少的PHP代码。其功能类似于JDBC、ODBC、DBI之类接口。同样，其也解决了sql注入问题，有很好的安全性。不过他也有缺点，某些多语句执行查询不支持（不过该情况很少）。</p>
-<p>参考： <a href="https://zhuanlan.zhihu.com/p/136795349">https://zhuanlan.zhihu.com/p/136795349</a></p>
+<h2 id="Nexus"><a href="#Nexus" class="headerlink" title="Nexus"></a>Nexus</h2><ul>
+<li><p>vPC（virtual port channel）</p>
+</li>
+<li><p>VDC</p>
+</li>
+<li><p>ACI   Cisco Application Centric Infrastructure </p>
+</li>
+</ul>
+<p>思科的ACI就是数据中心的SDN </p>
+<h2 id="vPC"><a href="#vPC" class="headerlink" title="vPC"></a>vPC</h2><p>允许一个设备使用有两个上游设备的port  channel，消除STP阻止端口，使用所有可用的上联带宽,提供一个无环的拓扑，在链路或者设备出现故障时，提供最快的收敛，提供链路级的冗余，确保高可用性，第三方设备可以是一个服务器，一个交换机或者任何网络设备，只要这些设备支持channel Group技术</p>
 ]]></content>
       <categories>
-        <category>PHP</category>
+        <category>Network</category>
+        <category>Switch</category>
       </categories>
       <tags>
-        <tag>PHP</tag>
+        <tag>Nexus</tag>
       </tags>
   </entry>
   <entry>
@@ -425,6 +406,25 @@
       </tags>
   </entry>
   <entry>
+    <title>PHP连接MySQL数据库</title>
+    <url>/2021/06/22/PHP%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
+    <content><![CDATA[<p>PHP与MySQL的连接有三种API接口，分别是：PHP的MySQL扩展 、PHP的mysqli扩展 、PHP数据对象(PDO)</p>
+<span id="more"></span>
+
+<p>PHP与MySQL的连接有三种API接口，分别是：PHP的MySQL扩展 、PHP的mysqli扩展 、PHP数据对象(PDO)，下面针对以上三种连接方式做下总结，以备在不同场景下选出最优方案。</p>
+<p><strong>PHP的MySQL扩展是设计开发允许php应用与MySQL数据库交互的早期扩展。</strong><br>MySQL扩展提供了一个面向过程的接口，并且是针对MySQL4.1.3或者更早版本设计的。因此这个扩展虽然可以与MySQL4.1.3或更新的数据库服务端进行交互，但并不支持后期MySQL服务端提供的一些特性。由于太古老，又不安全，所以已被后来的mysqli完全取代；</p>
+<p><strong>PHP的mysqli扩展，我们有时称之为MySQL增强扩展</strong><br>可以用于使用 MySQL4.1.3或更新版本中新的高级特性。其特点为：面向对象接口 、prepared语句支持、多语句执行支持、事务支持 、增强的调试能力、嵌入式服务支持 、预处理方式完全解决了sql注入的问题。不过其也有缺点，就是只支持mysql数据库。如果你要是不操作其他的数据库，这无疑是最好的选择。</p>
+<p><strong>PDO是PHP Data Objects的缩写</strong><br>是PHP应用中的一个数据库抽象层规范。PDO提供了一个统一的API接口可以使得你的PHP应用不去关心具体要连接的数据库服务器系统类型，也就是说，如果你使用PDO的API，可以在任何需要的时候无缝切换数据库服务器，比如从Oracle 到MySQL，仅仅需要修改很少的PHP代码。其功能类似于JDBC、ODBC、DBI之类接口。同样，其也解决了sql注入问题，有很好的安全性。不过他也有缺点，某些多语句执行查询不支持（不过该情况很少）。</p>
+<p>参考： <a href="https://zhuanlan.zhihu.com/p/136795349">https://zhuanlan.zhihu.com/p/136795349</a></p>
+]]></content>
+      <categories>
+        <category>PHP</category>
+      </categories>
+      <tags>
+        <tag>PHP</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Pivotal牛逼低调的公司</title>
     <url>/2021/06/11/Pivotal/</url>
     <content><![CDATA[<p>Pivotal的确掌握着很多开源软件的核心技术。比如，开源PaaS平台Cloud  Foundry和Java开发的Spring框架、数据仓库Greenplum等，Pivotal都是主要的技术贡献者</p>
@@ -513,28 +513,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Spring</title>
-    <url>/2021/06/11/Spring/</url>
-    <content><![CDATA[<p>Spring</p>
-<span id="more"></span>
-<h2 id="Spring"><a href="#Spring" class="headerlink" title="Spring"></a>Spring</h2><h2 id="Spring-core"><a href="#Spring-core" class="headerlink" title="Spring core"></a>Spring core</h2><h2 id="spring-MVC"><a href="#spring-MVC" class="headerlink" title="spring MVC"></a>spring MVC</h2><p>spring MVC 使用 Spring core。首先，Spring core是一个 IOC 容器，它将依赖项注入到各种 bean 类（如您的控制器类、服务类等）中。因此，spring-mvc 利用 IOC 容器（spring-core）的强大功能来设置 Web 框架组件，例如<code>WebApplicationContext</code>解析/创建<code>ViewResolver</code>对象等。</p>
-<h2 id="spring-boot"><a href="#spring-boot" class="headerlink" title="spring boot"></a>spring boot</h2><p><a href="https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc">https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc</a></p>
-<p>spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。</p>
-<p>spring mvc 是只是spring 处理web层请求的一个模块。</p>
-<p>因此他们的关系大概就是这样：</p>
-<p>spring mvc  &lt; spring &lt;springboot。</p>
-<p>KFC套餐和KFC香辣汉堡的关系。。</p>
-<p><strong>Enterprise JavaBeans (EJB)</strong> </p>
-]]></content>
-      <categories>
-        <category>Java</category>
-        <category>Spring</category>
-      </categories>
-      <tags>
-        <tag>Spring</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>SDN</title>
     <url>/2021/06/04/SDN/</url>
     <content><![CDATA[<p>SDN</p>
@@ -563,6 +541,27 @@
       </categories>
       <tags>
         <tag>SDN</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>cisco ASA IPsec vpn交互过程</title>
+    <url>/2021/06/30/cisco-ASA-IPsec-vpn%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/</url>
+    <content><![CDATA[<p>cisco ASA IPsec vpn交互过程</p>
+<span id="more"></span>
+
+
+
+<p>MM_WAIT_MSG 状态可以很好地说明隧道未形成的原因</p>
+<img src="C:\web\blog\source\_posts\cisco-ASA-IPsec-vpn交互过程\IKE_Phase1_MSGs.jpg" style="zoom:75%;" />
+
+<p><a href="https://www.tunnelsup.com/isakmp-ike-phase-1-status-messages/">https://www.tunnelsup.com/isakmp-ike-phase-1-status-messages/</a></p>
+]]></content>
+      <categories>
+        <category>Network</category>
+        <category>ASA</category>
+      </categories>
+      <tags>
+        <tag>ASA</tag>
       </tags>
   </entry>
   <entry>
@@ -647,24 +646,72 @@
       </tags>
   </entry>
   <entry>
-    <title>cisco ASA IPsec vpn交互过程</title>
-    <url>/2021/06/30/cisco-ASA-IPsec-vpn%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/</url>
-    <content><![CDATA[<p>cisco ASA IPsec vpn交互过程</p>
+    <title>Spring</title>
+    <url>/2021/06/11/Spring/</url>
+    <content><![CDATA[<p>Spring</p>
+<span id="more"></span>
+<h2 id="Spring"><a href="#Spring" class="headerlink" title="Spring"></a>Spring</h2><h2 id="Spring-core"><a href="#Spring-core" class="headerlink" title="Spring core"></a>Spring core</h2><h2 id="spring-MVC"><a href="#spring-MVC" class="headerlink" title="spring MVC"></a>spring MVC</h2><p>spring MVC 使用 Spring core。首先，Spring core是一个 IOC 容器，它将依赖项注入到各种 bean 类（如您的控制器类、服务类等）中。因此，spring-mvc 利用 IOC 容器（spring-core）的强大功能来设置 Web 框架组件，例如<code>WebApplicationContext</code>解析/创建<code>ViewResolver</code>对象等。</p>
+<h2 id="spring-boot"><a href="#spring-boot" class="headerlink" title="spring boot"></a>spring boot</h2><p><a href="https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc">https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc</a></p>
+<p>spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。</p>
+<p>spring mvc 是只是spring 处理web层请求的一个模块。</p>
+<p>因此他们的关系大概就是这样：</p>
+<p>spring mvc  &lt; spring &lt;springboot。</p>
+<p>KFC套餐和KFC香辣汉堡的关系。。</p>
+<p><strong>Enterprise JavaBeans (EJB)</strong> </p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>Spring</category>
+      </categories>
+      <tags>
+        <tag>Spring</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>linux网络命令</title>
+    <url>/2021/06/01/linux%E7%BD%91%E7%BB%9C%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<p>linux网络命令</p>
+<span id="more"></span>
+<h3 id="linux修改接口IP和DNS"><a href="#linux修改接口IP和DNS" class="headerlink" title="linux修改接口IP和DNS"></a>linux修改接口IP和DNS</h3><p>1.ifconfig 查看接口的名字</p>
+<p>2.找到路径<br><code>/etc/sysconfig/network-scripts/</code></p>
+<p>3.编辑接口名字<br><code>vi eth0</code></p>
+<p>4.修改DNS<br><code>/etc/resolv.conf</code></p>
+<h3 id="查看接口状态"><a href="#查看接口状态" class="headerlink" title="查看接口状态"></a>查看接口状态</h3><p><code>ip link show</code></p>
+<h3 id="查看IP地址配置："><a href="#查看IP地址配置：" class="headerlink" title="查看IP地址配置："></a>查看IP地址配置：</h3><p><code>ip address</code></p>
+<h3 id="查看路由和默认路由"><a href="#查看路由和默认路由" class="headerlink" title="查看路由和默认路由"></a>查看路由和默认路由</h3><p><code>ip route</code></p>
+<h3 id="其他查看路由命令"><a href="#其他查看路由命令" class="headerlink" title="其他查看路由命令"></a>其他查看路由命令</h3><p><code>route -n</code><br><code>netstat -rn</code> </p>
+<h2 id="nmcli命令"><a href="#nmcli命令" class="headerlink" title="nmcli命令"></a>nmcli命令</h2><p><code>nmcli device status</code><br><code>nmcli connection show</code></p>
+<h2 id="nmtui命令"><a href="#nmtui命令" class="headerlink" title="nmtui命令"></a>nmtui命令</h2><p><code>nmtui</code></p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>java之Maven</title>
+    <url>/2021/06/21/java%E4%B9%8BMaven/</url>
+    <content><![CDATA[<p>Maven是jar包管理工具</p>
 <span id="more"></span>
 
 
-
-<p>MM_WAIT_MSG 状态可以很好地说明隧道未形成的原因</p>
-<img src="C:\web\blog\source\_posts\cisco-ASA-IPsec-vpn交互过程\IKE_Phase1_MSGs.png" style="zoom:75%;" />
-
-<p><a href="https://www.tunnelsup.com/isakmp-ike-phase-1-status-messages/">https://www.tunnelsup.com/isakmp-ike-phase-1-status-messages/</a></p>
+<p>Maven是啥：</p>
+<p>Maven是Apache软件基金会唯一维护的一款自动化构建工具，专注于服务Java平台的项目构建和依赖管理。Maven是基于项目对象模型（POM），可以通过一小段描述信息来管理项目的构建、报告和文档的软件项目管理工具。</p>
+<p>2.Maven可以干啥：</p>
+<p>1.jar包之间的依赖关系：<br>Maven 可以替我们自动的将当前 jar 包所依赖的其他所有 jar 包全部导入进来</p>
+<p>2.获取第三方jar包：<br>Maven 提供了一个完全统一规范的 jar 包管理体系，只需要在项目中以坐标的方式依赖一个 jar 包，Maven 就会自动从中央仓库进行下载到本地仓库</p>
+<p>3.将项目拆分成多个工程模块<br>构建项目（打包，编译等）</p>
+<p>POM<br>Project Object Model：项目对象模型。将 Java 工程的相关信息  封装为对象 作为便于操作和管理的模型。</p>
+<p><a href="https://zhuanlan.zhihu.com/p/103461142">https://zhuanlan.zhihu.com/p/103461142</a><br><a href="https://www.zhihu.com/question/32240102/answer/340029398">https://www.zhihu.com/question/32240102/answer/340029398</a><br><a href="https://www.jianshu.com/p/8cee329465d4">https://www.jianshu.com/p/8cee329465d4</a></p>
 ]]></content>
       <categories>
-        <category>Network</category>
-        <category>ASA</category>
+        <category>Java</category>
+        <category>Maven</category>
       </categories>
       <tags>
-        <tag>ASA</tag>
+        <tag>Maven</tag>
       </tags>
   </entry>
   <entry>
@@ -714,53 +761,6 @@
       </categories>
       <tags>
         <tag>Nagios</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>linux网络命令</title>
-    <url>/2021/06/01/linux%E7%BD%91%E7%BB%9C%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<p>linux网络命令</p>
-<span id="more"></span>
-<h3 id="linux修改接口IP和DNS"><a href="#linux修改接口IP和DNS" class="headerlink" title="linux修改接口IP和DNS"></a>linux修改接口IP和DNS</h3><p>1.ifconfig 查看接口的名字</p>
-<p>2.找到路径<br><code>/etc/sysconfig/network-scripts/</code></p>
-<p>3.编辑接口名字<br><code>vi eth0</code></p>
-<p>4.修改DNS<br><code>/etc/resolv.conf</code></p>
-<h3 id="查看接口状态"><a href="#查看接口状态" class="headerlink" title="查看接口状态"></a>查看接口状态</h3><p><code>ip link show</code></p>
-<h3 id="查看IP地址配置："><a href="#查看IP地址配置：" class="headerlink" title="查看IP地址配置："></a>查看IP地址配置：</h3><p><code>ip address</code></p>
-<h3 id="查看路由和默认路由"><a href="#查看路由和默认路由" class="headerlink" title="查看路由和默认路由"></a>查看路由和默认路由</h3><p><code>ip route</code></p>
-<h3 id="其他查看路由命令"><a href="#其他查看路由命令" class="headerlink" title="其他查看路由命令"></a>其他查看路由命令</h3><p><code>route -n</code><br><code>netstat -rn</code> </p>
-<h2 id="nmcli命令"><a href="#nmcli命令" class="headerlink" title="nmcli命令"></a>nmcli命令</h2><p><code>nmcli device status</code><br><code>nmcli connection show</code></p>
-<h2 id="nmtui命令"><a href="#nmtui命令" class="headerlink" title="nmtui命令"></a>nmtui命令</h2><p><code>nmtui</code></p>
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>java之Maven</title>
-    <url>/2021/06/21/java%E4%B9%8BMaven/</url>
-    <content><![CDATA[<p>Maven是jar包管理工具</p>
-<span id="more"></span>
-
-
-<p>Maven是啥：</p>
-<p>Maven是Apache软件基金会唯一维护的一款自动化构建工具，专注于服务Java平台的项目构建和依赖管理。Maven是基于项目对象模型（POM），可以通过一小段描述信息来管理项目的构建、报告和文档的软件项目管理工具。</p>
-<p>2.Maven可以干啥：</p>
-<p>1.jar包之间的依赖关系：<br>Maven 可以替我们自动的将当前 jar 包所依赖的其他所有 jar 包全部导入进来</p>
-<p>2.获取第三方jar包：<br>Maven 提供了一个完全统一规范的 jar 包管理体系，只需要在项目中以坐标的方式依赖一个 jar 包，Maven 就会自动从中央仓库进行下载到本地仓库</p>
-<p>3.将项目拆分成多个工程模块<br>构建项目（打包，编译等）</p>
-<p>POM<br>Project Object Model：项目对象模型。将 Java 工程的相关信息  封装为对象 作为便于操作和管理的模型。</p>
-<p><a href="https://zhuanlan.zhihu.com/p/103461142">https://zhuanlan.zhihu.com/p/103461142</a><br><a href="https://www.zhihu.com/question/32240102/answer/340029398">https://www.zhihu.com/question/32240102/answer/340029398</a><br><a href="https://www.jianshu.com/p/8cee329465d4">https://www.jianshu.com/p/8cee329465d4</a></p>
-]]></content>
-      <categories>
-        <category>Java</category>
-        <category>Maven</category>
-      </categories>
-      <tags>
-        <tag>Maven</tag>
       </tags>
   </entry>
   <entry>
@@ -841,6 +841,34 @@
       </tags>
   </entry>
   <entry>
+    <title>python的subprocess</title>
+    <url>/2021/06/11/python%E7%9A%84subprocess/</url>
+    <content><![CDATA[<p>subprocess最早在2.4版本引入,用来生成子进程，并可以通过管道连接他们的输入/输出/错误，以及获得他们的返回值。</p>
+<span id="more"></span>
+
+<p>旧模块：<br>os.system() 执行操作系统的命令，将结果输出到屏幕，只返回命令执行状态(0：成功，非 0 ： 失败)<br>os.popen()执行操作系统的命令，会将结果保存在内存当中，可以用read()方法读取出来</p>
+<p><strong>subprocess.Popen</strong><br>所有subprocess类型都是对subprocess.Popen的封装,因此subprocess.Popen是根。<br>返回值: 需要借助于wait或者communicate 来实现返回值和状态码</p>
+<p><strong>subprocess.call</strong></p>
+<ol>
+<li>subprocess.call=Popen() + wait()</li>
+<li>返回值:返回命令的输出结果  和执行状态，0或者非0**</li>
+</ol>
+<p><strong>subprocess.run</strong></p>
+<ol>
+<li>subprocess.run= Popen() + communicate()</li>
+<li>返回值:返回命令的输出结果  和执行状态，0或者非0**</li>
+</ol>
+<p><a href="https://cloud.tencent.com/developer/article/1445388">https://cloud.tencent.com/developer/article/1445388</a></p>
+]]></content>
+      <categories>
+        <category>Python</category>
+        <category>NetOps</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>python的文件读取</title>
     <url>/2021/06/30/python%E7%9A%84%E6%96%87%E4%BB%B6%E8%AF%BB%E5%8F%96/</url>
     <content><![CDATA[<p>python的IP地址读取</p>
@@ -876,34 +904,6 @@
       </tags>
   </entry>
   <entry>
-    <title>python的subprocess</title>
-    <url>/2021/06/11/python%E7%9A%84subprocess/</url>
-    <content><![CDATA[<p>subprocess最早在2.4版本引入,用来生成子进程，并可以通过管道连接他们的输入/输出/错误，以及获得他们的返回值。</p>
-<span id="more"></span>
-
-<p>旧模块：<br>os.system() 执行操作系统的命令，将结果输出到屏幕，只返回命令执行状态(0：成功，非 0 ： 失败)<br>os.popen()执行操作系统的命令，会将结果保存在内存当中，可以用read()方法读取出来</p>
-<p><strong>subprocess.Popen</strong><br>所有subprocess类型都是对subprocess.Popen的封装,因此subprocess.Popen是根。<br>返回值: 需要借助于wait或者communicate 来实现返回值和状态码</p>
-<p><strong>subprocess.call</strong></p>
-<ol>
-<li>subprocess.call=Popen() + wait()</li>
-<li>返回值:返回命令的输出结果  和执行状态，0或者非0**</li>
-</ol>
-<p><strong>subprocess.run</strong></p>
-<ol>
-<li>subprocess.run= Popen() + communicate()</li>
-<li>返回值:返回命令的输出结果  和执行状态，0或者非0**</li>
-</ol>
-<p><a href="https://cloud.tencent.com/developer/article/1445388">https://cloud.tencent.com/developer/article/1445388</a></p>
-]]></content>
-      <categories>
-        <category>Python</category>
-        <category>NetOps</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>python网络ping</title>
     <url>/2021/06/10/python%E7%BD%91%E7%BB%9Cping/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -925,6 +925,31 @@
       <tags>
         <tag>Python</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>思科HSRP的选举机制</title>
+    <url>/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/</url>
+    <content><![CDATA[<p>思科HSRP的选举机制<br>听其言 (listening) 观其行 (是否是有hello包) 没有就开始自己来 (speaking)</p>
+<span id="more"></span>
+
+<h2 id="HSRP状态"><a href="#HSRP状态" class="headerlink" title="HSRP状态"></a>HSRP状态</h2><p><img src="/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/hsrp.jpg" alt="hsrp状态转换"></p>
+<h2 id="HSRP选举的机制"><a href="#HSRP选举的机制" class="headerlink" title="HSRP选举的机制"></a>HSRP选举的机制</h2><ul>
+<li>2台路由器，前后开机 如何选举？</li>
+<li>1台路由器开机，后面有1台路由器启动加入,如何选举？</li>
+</ul>
+<h2 id="HSRP的切换时间"><a href="#HSRP的切换时间" class="headerlink" title="HSRP的切换时间"></a>HSRP的切换时间</h2><h3 id="主路由器down掉，多久可以切换到备份路由器？"><a href="#主路由器down掉，多久可以切换到备份路由器？" class="headerlink" title="主路由器down掉，多久可以切换到备份路由器？"></a>主路由器down掉，多久可以切换到备份路由器？</h3><p><code>10s</code></p>
+<h3 id="主路由器Up后，多久可以再次切换成active"><a href="#主路由器Up后，多久可以再次切换成active" class="headerlink" title="主路由器Up后，多久可以再次切换成active?"></a>主路由器Up后，多久可以再次切换成active?</h3><p><code>取决于preempt时间</code></p>
+<h2 id="HSRP抢占延迟"><a href="#HSRP抢占延迟" class="headerlink" title="HSRP抢占延迟"></a>HSRP抢占延迟</h2><p>当新Active的路由器需要一点时间来启动慢速 WAN 接口并生成路由表时，这有时会很有帮助。<br>但是，默认情况下，HSRP 抢占将使路由器在启动 LAN 接口的几秒钟内成为 LAN 的Active默认网关。</p>
+<h3 id="配置命令"><a href="#配置命令" class="headerlink" title="配置命令"></a>配置命令</h3><p><code>standby 20 preempt delay minimum 30 reload 90</code></p>
+<h3 id="查看命令"><a href="#查看命令" class="headerlink" title="查看命令"></a>查看命令</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C4431-01#sh standby delay </span><br><span class="line">Interface          Minimum Reload </span><br><span class="line">Gi0/0/0            1       5      </span><br><span class="line">Gi0/0/1            1       5      </span><br><span class="line">Gi0/0/2            1       5     </span><br></pre></td></tr></table></figure>
+
+
+<h2 id="HSRP计时器"><a href="#HSRP计时器" class="headerlink" title="HSRP计时器"></a>HSRP计时器</h2><p>Active Router用Hello计时器 3s<br>Standby Router用 Standby timer计时器  10s</p>
+]]></content>
+      <categories>
+        <category>Network</category>
+        <category>Switch</category>
+      </categories>
   </entry>
   <entry>
     <title>思科DHCP的Snooping</title>
@@ -961,31 +986,6 @@
       </tags>
   </entry>
   <entry>
-    <title>思科HSRP的选举机制</title>
-    <url>/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/</url>
-    <content><![CDATA[<p>思科HSRP的选举机制<br>听其言 (listening) 观其行 (是否是有hello包) 没有就开始自己来 (speaking)</p>
-<span id="more"></span>
-
-<h2 id="HSRP状态"><a href="#HSRP状态" class="headerlink" title="HSRP状态"></a>HSRP状态</h2><p><img src="/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/hsrp.jpg" alt="hsrp状态转换"></p>
-<h2 id="HSRP选举的机制"><a href="#HSRP选举的机制" class="headerlink" title="HSRP选举的机制"></a>HSRP选举的机制</h2><ul>
-<li>2台路由器，前后开机 如何选举？</li>
-<li>1台路由器开机，后面有1台路由器启动加入,如何选举？</li>
-</ul>
-<h2 id="HSRP的切换时间"><a href="#HSRP的切换时间" class="headerlink" title="HSRP的切换时间"></a>HSRP的切换时间</h2><h3 id="主路由器down掉，多久可以切换到备份路由器？"><a href="#主路由器down掉，多久可以切换到备份路由器？" class="headerlink" title="主路由器down掉，多久可以切换到备份路由器？"></a>主路由器down掉，多久可以切换到备份路由器？</h3><p><code>10s</code></p>
-<h3 id="主路由器Up后，多久可以再次切换成active"><a href="#主路由器Up后，多久可以再次切换成active" class="headerlink" title="主路由器Up后，多久可以再次切换成active?"></a>主路由器Up后，多久可以再次切换成active?</h3><p><code>取决于preempt时间</code></p>
-<h2 id="HSRP抢占延迟"><a href="#HSRP抢占延迟" class="headerlink" title="HSRP抢占延迟"></a>HSRP抢占延迟</h2><p>当新Active的路由器需要一点时间来启动慢速 WAN 接口并生成路由表时，这有时会很有帮助。<br>但是，默认情况下，HSRP 抢占将使路由器在启动 LAN 接口的几秒钟内成为 LAN 的Active默认网关。</p>
-<h3 id="配置命令"><a href="#配置命令" class="headerlink" title="配置命令"></a>配置命令</h3><p><code>standby 20 preempt delay minimum 30 reload 90</code></p>
-<h3 id="查看命令"><a href="#查看命令" class="headerlink" title="查看命令"></a>查看命令</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C4431-01#sh standby delay </span><br><span class="line">Interface          Minimum Reload </span><br><span class="line">Gi0/0/0            1       5      </span><br><span class="line">Gi0/0/1            1       5      </span><br><span class="line">Gi0/0/2            1       5     </span><br></pre></td></tr></table></figure>
-
-
-<h2 id="HSRP计时器"><a href="#HSRP计时器" class="headerlink" title="HSRP计时器"></a>HSRP计时器</h2><p>Active Router用Hello计时器 3s<br>Standby Router用 Standby timer计时器  10s</p>
-]]></content>
-      <categories>
-        <category>Network</category>
-        <category>Switch</category>
-      </categories>
-  </entry>
-  <entry>
     <title>思科WLC命令</title>
     <url>/2021/06/01/%E6%80%9D%E7%A7%91WLC%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<p>思科WLC命令</p>
@@ -1010,24 +1010,6 @@
       </categories>
       <tags>
         <tag>Wireless</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>思科交换机stack和VSS</title>
-    <url>/2021/06/01/%E6%80%9D%E7%A7%91%E4%BA%A4%E6%8D%A2%E6%9C%BAstack%E5%92%8CVSS/</url>
-    <content><![CDATA[<p>思科交换机stack和VSS</p>
-<span id="more"></span>
-<h2 id="配置domain"><a href="#配置domain" class="headerlink" title="配置domain:"></a>配置domain:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#conf t</span><br><span class="line">9500-A(config)#stackwise-virtual</span><br><span class="line">9500-A(config-stackwise-virtual)#domain 1 </span><br><span class="line">9500-A(config-stackwise-virtual)#exit</span><br></pre></td></tr></table></figure>
-<h2 id="配置virtual-link"><a href="#配置virtual-link" class="headerlink" title="配置virtual-link:"></a>配置virtual-link:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#inter ran ten 1/0/1, ten 1/0/2</span><br><span class="line">9500-A(config-if-range)#stackwise-virtual link 1 </span><br></pre></td></tr></table></figure>
-<h2 id="配置-dual-detection-link"><a href="#配置-dual-detection-link" class="headerlink" title="配置 dual-detection link"></a>配置 dual-detection link</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#int te1/0/3</span><br><span class="line">9500-A(config-if)#stackwise-virtual dual-active-detection</span><br></pre></td></tr></table></figure>
-
-<h2 id="配置优先级"><a href="#配置优先级" class="headerlink" title="配置优先级"></a>配置优先级</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#switch 1 priority 15</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Network</category>
-        <category>Switch</category>
-      </categories>
-      <tags>
-        <tag>Switch</tag>
       </tags>
   </entry>
   <entry>
@@ -1060,6 +1042,24 @@
       </categories>
       <tags>
         <tag>Wireless</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>思科交换机stack和VSS</title>
+    <url>/2021/06/01/%E6%80%9D%E7%A7%91%E4%BA%A4%E6%8D%A2%E6%9C%BAstack%E5%92%8CVSS/</url>
+    <content><![CDATA[<p>思科交换机stack和VSS</p>
+<span id="more"></span>
+<h2 id="配置domain"><a href="#配置domain" class="headerlink" title="配置domain:"></a>配置domain:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#conf t</span><br><span class="line">9500-A(config)#stackwise-virtual</span><br><span class="line">9500-A(config-stackwise-virtual)#domain 1 </span><br><span class="line">9500-A(config-stackwise-virtual)#exit</span><br></pre></td></tr></table></figure>
+<h2 id="配置virtual-link"><a href="#配置virtual-link" class="headerlink" title="配置virtual-link:"></a>配置virtual-link:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#inter ran ten 1/0/1, ten 1/0/2</span><br><span class="line">9500-A(config-if-range)#stackwise-virtual link 1 </span><br></pre></td></tr></table></figure>
+<h2 id="配置-dual-detection-link"><a href="#配置-dual-detection-link" class="headerlink" title="配置 dual-detection link"></a>配置 dual-detection link</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#int te1/0/3</span><br><span class="line">9500-A(config-if)#stackwise-virtual dual-active-detection</span><br></pre></td></tr></table></figure>
+
+<h2 id="配置优先级"><a href="#配置优先级" class="headerlink" title="配置优先级"></a>配置优先级</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#switch 1 priority 15</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Network</category>
+        <category>Switch</category>
+      </categories>
+      <tags>
+        <tag>Switch</tag>
       </tags>
   </entry>
 </search>
