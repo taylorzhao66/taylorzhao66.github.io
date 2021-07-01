@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>C++历史 1985年 丹麦</title>
+    <url>/2021/06/11/C++/</url>
+    <content><![CDATA[<h2 id="C-历史-1985年-丹麦"><a href="#C-历史-1985年-丹麦" class="headerlink" title="C++历史 1985年 丹麦"></a>C++历史 1985年 丹麦</h2><span id="more"></span>
+
+
+<p><strong>Bjarne Stroustrup</strong> 出生于丹麦的奥胡斯。他家是工人阶级，他上当地学校。</p>
+<p>他出席了奥胡斯大学1969-1975，并用有刻度的硕士学位在数学和计算机科学。他的兴趣集中在微程序设计和机器架构上。他从其发明者克里斯汀·尼加德( Kristen Nygaard)那里学习了面向对象编程的基础，后者经常访问奥尔胡斯。</p>
+<p>1979 年，他在剑桥大学获得计算机科学博士学位，在那里他受到David Wheeler 的指导。他的论文涉及分布式计算机系统中的通信。</p>
+<p>职业生涯</p>
+<p>1979 年，Stroustrup 在美国新泽西州默里希尔的贝尔实验室计算机科学研究中心担任技术人员，开始了他的职业生涯。在那里，他开始了 C++ 和编程技术方面的工作。从创建到 2002 年底，Stroustrup 一直是AT&amp;T 贝尔实验室大规模编程研究部门的负责人。1993 年，他成为贝尔实验室研究员，1996 年成为 AT&amp;T 研究员。</p>
+<p>从 2002 年到 2014 年，Stroustrup 是德克萨斯 A&amp;M 大学工程学院计算机科学教授。 2011年被评为大学特聘教授。</p>
+<p>截至 2014 年 1 月，Stroustrup 是纽约市摩根士丹利技术部门的技术研究员和董事总经理，也是哥伦比亚大学计算机科学的客座教授</p>
+<p>1979 年，丹麦计算机科学家Bjarne Stroustrup开始研究“C with Classes》，C++ 的前身。 创建一门新语言的动机源于 Stroustrup 为他的博士论文编程的经验。Stroustrup 发现Simula具有对大型软件开发非常有帮助的特性，但该语言是实际使用太慢，而BCPL速度快但太低级，不适合大型软件开发。当 Stroustrup 开始在AT&amp;T 贝尔实验室工作时，他在分析UNIX 内核的分布式计算方面遇到了问题。记得他的博士学位经验，Stroustrup 着手增强C语言类似模拟器的功能。选择 C 是因为它具有通用性、快速、便携和广泛使用的特点。除了 C 和 Simula 的影响，其他语言也影响了这种新语言，包括ALGOL 68、Ada、CLU和ML。</p>
+<p>最初，Stroustrup 的“C with Classes”为 C 编译器 Cpre 添加了特性，包括类、派生类、强类型、内联和默认参数。</p>
+<p>1982 年，Stroustrup 开始开发带有类的 C 的继承者，在经历了其他几个名称之后，他将其命名为“C++”（++即C 中的增量运算符）。添加了新功能，包括虚函数、函数名称和运算符重载、引用、常量、类型安全的自由存储内存分配（新建/删除）、改进的类型检查和带有两个正斜杠 ( //) 的BCPL 样式的单行注释. 此外，Stroustrup 为 C++ 开发了一个新的独立编译器Cfront。</p>
+<p>1984 年，Stroustrup 实现了第一个流输入/输出库。Doug McIlroy [1]（他之前建议使用Unix 管道）提出了提供输出操作符而不是命名输出函数的想法。</p>
+<p><strong>1985 年，第一版The C++ Programming Language发布，成为该语言的权威参考，因为当时还没有正式的标准。 C++的第一个商业实现于同年10月发布。</strong></p>
+<p>1989 年，C++ 2.0 发布，随后在 1991 年更新了The C++ Programming Language 的第二版。2.0 中的新特性包括多重继承、抽象类、静态成员函数、const 成员函数和受保护成员。1990 年，The Annotated C++ Reference Manual出版。这项工作成为未来标准的基础。后来添加的功能包括模板、异常、名称空间、新的强制转换和布尔类型。</p>
+<p>2015 年在巴黎举行的关于 C++11 特性的测验<br>1998 年，C++98 发布，标准化了语言，2003 年发布了一个小更新（C++03）。</p>
+<p>在 C++98 之后，C++ 发展相对缓慢，直到 2011 年，C++11标准发布，增加了许多新特性，进一步扩大了标准库，并为 C++ 程序员提供了更多便利。在2014 年 12 月发布C++14 小更新之后，C++17中引入了各种新增功能。在 2020 年 2 月定稿后，[22] C++20 标准草案于 2020 年 9 月 4 日获得批准，并于 2020 年 12 月 15 日正式发布。</p>
+<p>2018 年 1 月 3 日，Stroustrup 被宣布为 2018 年查尔斯·斯塔克·德雷珀工程奖的获得者，“以概念化和开发 C++ 编程语言”。</p>
+<p>C 是面向过程的一门编程语言，C++ 可以很好地进行面向对象的程序设计。C++ 虽然主要是以 C 的基础发展起来的一门新语言，但它不是 C 的替代品，它们是兄弟关系。面向对象和面向过程不是矛盾的，而是各有用途、互为补充的。</p>
+<p>C++ 对 C 的增强，表现在六个方面：</p>
+<p>增强了类型检查机制<br>增加了面向对象的机制<br>增加了泛型编程的机制（template）<br>增加了异常处理<br>增加了重载的机制<br>增加了标准模板库（STL）</p>
+<p>链接：<a href="https://www.jianshu.com/p/2522b07219ae">https://www.jianshu.com/p/2522b07219ae</a></p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>history</category>
+      </categories>
+      <tags>
+        <tag>history</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>C语言发展史 1972年</title>
     <url>/2021/06/11/C/</url>
     <content><![CDATA[<h2 id="C语言发展史-1972年"><a href="#C语言发展史-1972年" class="headerlink" title="C语言发展史 1972年"></a>C语言发展史 1972年</h2><span id="more"></span>
@@ -33,41 +68,6 @@
 <p>但是各个公司对C99的支持所表现出来的兴趣不同。当GCC和其它一些商业编译器支持C99的大部分特性的時候，微软和Borland却似乎对此不感兴趣。</p>
 <p>说明：GCC（GNU Compiler Collection，GNU编译器集合）是一套由GNU工程开发的支持多种编程语言的编译器。</p>
 <h2 id="C语言对其它语言的影响"><a href="#C语言对其它语言的影响" class="headerlink" title="C语言对其它语言的影响"></a>C语言对其它语言的影响</h2><p>很多编程语言都深受C语言的影响，比如C++（原先是C语言的一个扩展）、C#、Java、PHP、Javascript、Perl、LPC和UNIX的C Shell等。</p>
-]]></content>
-      <categories>
-        <category>Java</category>
-        <category>history</category>
-      </categories>
-      <tags>
-        <tag>history</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C++历史 1985年 丹麦</title>
-    <url>/2021/06/11/C++/</url>
-    <content><![CDATA[<h2 id="C-历史-1985年-丹麦"><a href="#C-历史-1985年-丹麦" class="headerlink" title="C++历史 1985年 丹麦"></a>C++历史 1985年 丹麦</h2><span id="more"></span>
-
-
-<p><strong>Bjarne Stroustrup</strong> 出生于丹麦的奥胡斯。他家是工人阶级，他上当地学校。</p>
-<p>他出席了奥胡斯大学1969-1975，并用有刻度的硕士学位在数学和计算机科学。他的兴趣集中在微程序设计和机器架构上。他从其发明者克里斯汀·尼加德( Kristen Nygaard)那里学习了面向对象编程的基础，后者经常访问奥尔胡斯。</p>
-<p>1979 年，他在剑桥大学获得计算机科学博士学位，在那里他受到David Wheeler 的指导。他的论文涉及分布式计算机系统中的通信。</p>
-<p>职业生涯</p>
-<p>1979 年，Stroustrup 在美国新泽西州默里希尔的贝尔实验室计算机科学研究中心担任技术人员，开始了他的职业生涯。在那里，他开始了 C++ 和编程技术方面的工作。从创建到 2002 年底，Stroustrup 一直是AT&amp;T 贝尔实验室大规模编程研究部门的负责人。1993 年，他成为贝尔实验室研究员，1996 年成为 AT&amp;T 研究员。</p>
-<p>从 2002 年到 2014 年，Stroustrup 是德克萨斯 A&amp;M 大学工程学院计算机科学教授。 2011年被评为大学特聘教授。</p>
-<p>截至 2014 年 1 月，Stroustrup 是纽约市摩根士丹利技术部门的技术研究员和董事总经理，也是哥伦比亚大学计算机科学的客座教授</p>
-<p>1979 年，丹麦计算机科学家Bjarne Stroustrup开始研究“C with Classes》，C++ 的前身。 创建一门新语言的动机源于 Stroustrup 为他的博士论文编程的经验。Stroustrup 发现Simula具有对大型软件开发非常有帮助的特性，但该语言是实际使用太慢，而BCPL速度快但太低级，不适合大型软件开发。当 Stroustrup 开始在AT&amp;T 贝尔实验室工作时，他在分析UNIX 内核的分布式计算方面遇到了问题。记得他的博士学位经验，Stroustrup 着手增强C语言类似模拟器的功能。选择 C 是因为它具有通用性、快速、便携和广泛使用的特点。除了 C 和 Simula 的影响，其他语言也影响了这种新语言，包括ALGOL 68、Ada、CLU和ML。</p>
-<p>最初，Stroustrup 的“C with Classes”为 C 编译器 Cpre 添加了特性，包括类、派生类、强类型、内联和默认参数。</p>
-<p>1982 年，Stroustrup 开始开发带有类的 C 的继承者，在经历了其他几个名称之后，他将其命名为“C++”（++即C 中的增量运算符）。添加了新功能，包括虚函数、函数名称和运算符重载、引用、常量、类型安全的自由存储内存分配（新建/删除）、改进的类型检查和带有两个正斜杠 ( //) 的BCPL 样式的单行注释. 此外，Stroustrup 为 C++ 开发了一个新的独立编译器Cfront。</p>
-<p>1984 年，Stroustrup 实现了第一个流输入/输出库。Doug McIlroy [1]（他之前建议使用Unix 管道）提出了提供输出操作符而不是命名输出函数的想法。</p>
-<p><strong>1985 年，第一版The C++ Programming Language发布，成为该语言的权威参考，因为当时还没有正式的标准。 C++的第一个商业实现于同年10月发布。</strong></p>
-<p>1989 年，C++ 2.0 发布，随后在 1991 年更新了The C++ Programming Language 的第二版。2.0 中的新特性包括多重继承、抽象类、静态成员函数、const 成员函数和受保护成员。1990 年，The Annotated C++ Reference Manual出版。这项工作成为未来标准的基础。后来添加的功能包括模板、异常、名称空间、新的强制转换和布尔类型。</p>
-<p>2015 年在巴黎举行的关于 C++11 特性的测验<br>1998 年，C++98 发布，标准化了语言，2003 年发布了一个小更新（C++03）。</p>
-<p>在 C++98 之后，C++ 发展相对缓慢，直到 2011 年，C++11标准发布，增加了许多新特性，进一步扩大了标准库，并为 C++ 程序员提供了更多便利。在2014 年 12 月发布C++14 小更新之后，C++17中引入了各种新增功能。在 2020 年 2 月定稿后，[22] C++20 标准草案于 2020 年 9 月 4 日获得批准，并于 2020 年 12 月 15 日正式发布。</p>
-<p>2018 年 1 月 3 日，Stroustrup 被宣布为 2018 年查尔斯·斯塔克·德雷珀工程奖的获得者，“以概念化和开发 C++ 编程语言”。</p>
-<p>C 是面向过程的一门编程语言，C++ 可以很好地进行面向对象的程序设计。C++ 虽然主要是以 C 的基础发展起来的一门新语言，但它不是 C 的替代品，它们是兄弟关系。面向对象和面向过程不是矛盾的，而是各有用途、互为补充的。</p>
-<p>C++ 对 C 的增强，表现在六个方面：</p>
-<p>增强了类型检查机制<br>增加了面向对象的机制<br>增加了泛型编程的机制（template）<br>增加了异常处理<br>增加了重载的机制<br>增加了标准模板库（STL）</p>
-<p>链接：<a href="https://www.jianshu.com/p/2522b07219ae">https://www.jianshu.com/p/2522b07219ae</a></p>
 ]]></content>
       <categories>
         <category>Java</category>
@@ -153,6 +153,23 @@
       </tags>
   </entry>
   <entry>
+    <title>Javascript</title>
+    <url>/2021/06/11/Javascript/</url>
+    <content><![CDATA[<p>Java 之于 Javascript，就像 Car 之于 Carpet。</p>
+<span id="more"></span>
+
+<h2 id="Javascript"><a href="#Javascript" class="headerlink" title="Javascript"></a>Javascript</h2><p>JavaScript，最初命名为 Mocha，后来更名为 LiveScript，然后更名为 JavaScript。</p>
+<p>该语言的名称是 Netscape 和 Sun 之间联合营销协议的结果，以换取 Netscape 将 Sun 的 Java 运行时与其当时占主导地位的浏览器捆绑在一起。</p>
+<p>官方标准只是称为<em>ECMAScript</em>。</p>
+]]></content>
+      <categories>
+        <category>Javascript</category>
+      </categories>
+      <tags>
+        <tag>Javascript</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Java Servlet</title>
     <url>/2021/06/18/Java_Servlet/</url>
     <content><![CDATA[<p>Java Servlet</p>
@@ -171,23 +188,6 @@
       </categories>
       <tags>
         <tag>Servlet</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Javascript</title>
-    <url>/2021/06/11/Javascript/</url>
-    <content><![CDATA[<p>Java 之于 Javascript，就像 Car 之于 Carpet。</p>
-<span id="more"></span>
-
-<h2 id="Javascript"><a href="#Javascript" class="headerlink" title="Javascript"></a>Javascript</h2><p>JavaScript，最初命名为 Mocha，后来更名为 LiveScript，然后更名为 JavaScript。</p>
-<p>该语言的名称是 Netscape 和 Sun 之间联合营销协议的结果，以换取 Netscape 将 Sun 的 Java 运行时与其当时占主导地位的浏览器捆绑在一起。</p>
-<p>官方标准只是称为<em>ECMAScript</em>。</p>
-]]></content>
-      <categories>
-        <category>Javascript</category>
-      </categories>
-      <tags>
-        <tag>Javascript</tag>
       </tags>
   </entry>
   <entry>
@@ -242,11 +242,11 @@
 </ol>
 <h4 id="命令："><a href="#命令：" class="headerlink" title="命令："></a>命令：</h4><p>Local 为ssh客户端一方<br>remote为ssh服务端一方</p>
 <p><code>ssh -L local_port:remote_address:remote_port username@server.com</code></p>
-<p>ssh -L 8888:localhost:1234 <a href="mailto:&#x62;&#x6f;&#x62;&#x40;&#115;&#115;&#104;&#x2e;&#x79;&#111;&#x75;&#114;&#x6f;&#x66;&#x66;&#x69;&#x63;&#101;&#x2e;&#x63;&#111;&#109;">&#x62;&#x6f;&#x62;&#x40;&#115;&#115;&#104;&#x2e;&#x79;&#111;&#x75;&#114;&#x6f;&#x66;&#x66;&#x69;&#x63;&#101;&#x2e;&#x63;&#111;&#109;</a><br>ssh -L 8888:192.168.1.111:1234 <a href="mailto:&#x62;&#111;&#98;&#x40;&#x73;&#x73;&#x68;&#x2e;&#x79;&#111;&#x75;&#114;&#x6f;&#102;&#x66;&#x69;&#x63;&#x65;&#x2e;&#x63;&#x6f;&#x6d;">&#x62;&#111;&#98;&#x40;&#x73;&#x73;&#x68;&#x2e;&#x79;&#111;&#x75;&#114;&#x6f;&#102;&#x66;&#x69;&#x63;&#x65;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
+<p>ssh -L 8888:localhost:1234 <a href="mailto:&#98;&#111;&#98;&#64;&#x73;&#x73;&#104;&#x2e;&#121;&#111;&#x75;&#x72;&#x6f;&#x66;&#102;&#105;&#99;&#x65;&#46;&#x63;&#111;&#109;">&#98;&#111;&#98;&#64;&#x73;&#x73;&#104;&#x2e;&#121;&#111;&#x75;&#x72;&#x6f;&#x66;&#102;&#105;&#99;&#x65;&#46;&#x63;&#111;&#109;</a><br>ssh -L 8888:192.168.1.111:1234 <a href="mailto:&#98;&#x6f;&#98;&#64;&#x73;&#x73;&#104;&#x2e;&#x79;&#111;&#x75;&#x72;&#111;&#x66;&#x66;&#105;&#99;&#101;&#x2e;&#x63;&#x6f;&#x6d;">&#98;&#x6f;&#98;&#64;&#x73;&#x73;&#104;&#x2e;&#x79;&#111;&#x75;&#x72;&#111;&#x66;&#x66;&#105;&#99;&#101;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
 <h3 id="远程转发"><a href="#远程转发" class="headerlink" title="远程转发"></a>远程转发</h3><h4 id="应用场景：-1"><a href="#应用场景：-1" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-1"><a href="#命令：-1" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -R remote_port:local_address:local_port username@server.com</code></p>
-<p>ssh -R 8888:localhost:1234 <a href="mailto:&#98;&#x6f;&#98;&#x40;&#x73;&#x73;&#x68;&#x2e;&#x79;&#111;&#x75;&#x72;&#111;&#102;&#x66;&#105;&#99;&#x65;&#46;&#99;&#111;&#x6d;">&#98;&#x6f;&#98;&#x40;&#x73;&#x73;&#x68;&#x2e;&#x79;&#111;&#x75;&#x72;&#111;&#102;&#x66;&#105;&#99;&#x65;&#46;&#99;&#111;&#x6d;</a></p>
+<p>ssh -R 8888:localhost:1234 <a href="mailto:&#98;&#x6f;&#x62;&#64;&#x73;&#x73;&#x68;&#46;&#x79;&#x6f;&#117;&#x72;&#x6f;&#x66;&#102;&#x69;&#x63;&#101;&#x2e;&#x63;&#111;&#109;">&#98;&#x6f;&#x62;&#64;&#x73;&#x73;&#x68;&#46;&#x79;&#x6f;&#117;&#x72;&#x6f;&#x66;&#102;&#x69;&#x63;&#101;&#x2e;&#x63;&#111;&#109;</a></p>
 <h3 id="动态转发"><a href="#动态转发" class="headerlink" title="动态转发"></a>动态转发</h3><h4 id="应用场景：-2"><a href="#应用场景：-2" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-2"><a href="#命令：-2" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -D local_port username@server.com</code></p>
-<p>ssh -D 8888 <a href="mailto:&#98;&#x6f;&#98;&#64;&#115;&#x73;&#x68;&#x2e;&#121;&#x6f;&#x75;&#114;&#104;&#x6f;&#x6d;&#x65;&#x2e;&#99;&#111;&#x6d;">&#98;&#x6f;&#98;&#64;&#115;&#x73;&#x68;&#x2e;&#121;&#x6f;&#x75;&#114;&#104;&#x6f;&#x6d;&#x65;&#x2e;&#99;&#111;&#x6d;</a></p>
+<p>ssh -D 8888 <a href="mailto:&#98;&#111;&#x62;&#x40;&#x73;&#x73;&#x68;&#46;&#x79;&#111;&#x75;&#114;&#104;&#x6f;&#x6d;&#101;&#46;&#x63;&#111;&#109;">&#98;&#111;&#x62;&#x40;&#x73;&#x73;&#x68;&#46;&#x79;&#111;&#x75;&#114;&#104;&#x6f;&#x6d;&#101;&#46;&#x63;&#111;&#109;</a></p>
 <h3 id="参数介绍"><a href="#参数介绍" class="headerlink" title="参数介绍"></a>参数介绍</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">-N 告诉 SSH 客户端，这个连接不需要执行任何命令，也就是说不需要打开远程 shell，仅仅做端口转发；</span><br><span class="line">-f 告诉SSH客户端在后台运行，要关闭这个后台连接，就只有用 kill 命令去杀掉进程；</span><br><span class="line">-L 做本地映射端口</span><br><span class="line">-R 做远程映射端口</span><br><span class="line">-D 做动态端口映射</span><br><span class="line">-C 压缩数据传输</span><br></pre></td></tr></table></figure>
 
 <h2 id="如何关闭这个SSH隧道"><a href="#如何关闭这个SSH隧道" class="headerlink" title="如何关闭这个SSH隧道"></a>如何关闭这个SSH隧道</h2><p>方法1：<br>ps aux | grep 3306   找到pid<br>kill <pid>   kill pid</p>
@@ -258,6 +258,31 @@
       </categories>
       <tags>
         <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>思科Nexus</title>
+    <url>/2021/06/04/Nexus/</url>
+    <content><![CDATA[<p>Nexus vPC</p>
+<span id="more"></span>
+
+<h2 id="Nexus"><a href="#Nexus" class="headerlink" title="Nexus"></a>Nexus</h2><ul>
+<li><p>vPC（virtual port channel）</p>
+</li>
+<li><p>VDC</p>
+</li>
+<li><p>ACI   Cisco Application Centric Infrastructure </p>
+</li>
+</ul>
+<p>思科的ACI就是数据中心的SDN </p>
+<h2 id="vPC"><a href="#vPC" class="headerlink" title="vPC"></a>vPC</h2><p>允许一个设备使用有两个上游设备的port  channel，消除STP阻止端口，使用所有可用的上联带宽,提供一个无环的拓扑，在链路或者设备出现故障时，提供最快的收敛，提供链路级的冗余，确保高可用性，第三方设备可以是一个服务器，一个交换机或者任何网络设备，只要这些设备支持channel Group技术</p>
+]]></content>
+      <categories>
+        <category>Network</category>
+        <category>Switch</category>
+      </categories>
+      <tags>
+        <tag>Nexus</tag>
       </tags>
   </entry>
   <entry>
@@ -289,31 +314,6 @@
       </categories>
       <tags>
         <tag>ORM</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>思科Nexus</title>
-    <url>/2021/06/04/Nexus/</url>
-    <content><![CDATA[<p>Nexus vPC</p>
-<span id="more"></span>
-
-<h2 id="Nexus"><a href="#Nexus" class="headerlink" title="Nexus"></a>Nexus</h2><ul>
-<li><p>vPC（virtual port channel）</p>
-</li>
-<li><p>VDC</p>
-</li>
-<li><p>ACI   Cisco Application Centric Infrastructure </p>
-</li>
-</ul>
-<p>思科的ACI就是数据中心的SDN </p>
-<h2 id="vPC"><a href="#vPC" class="headerlink" title="vPC"></a>vPC</h2><p>允许一个设备使用有两个上游设备的port  channel，消除STP阻止端口，使用所有可用的上联带宽,提供一个无环的拓扑，在链路或者设备出现故障时，提供最快的收敛，提供链路级的冗余，确保高可用性，第三方设备可以是一个服务器，一个交换机或者任何网络设备，只要这些设备支持channel Group技术</p>
-]]></content>
-      <categories>
-        <category>Network</category>
-        <category>Switch</category>
-      </categories>
-      <tags>
-        <tag>Nexus</tag>
       </tags>
   </entry>
   <entry>
@@ -450,34 +450,34 @@
       </tags>
   </entry>
   <entry>
-    <title>Python发展史 1991年 荷兰无聊青年</title>
-    <url>/2021/06/11/Python/</url>
-    <content><![CDATA[<p>Python发展史 1991年 荷兰无聊青年</p>
+    <title>SDN</title>
+    <url>/2021/06/04/SDN/</url>
+    <content><![CDATA[<p>SDN</p>
 <span id="more"></span>
-<h1 id="Python发展史-1991年-荷兰无聊青年"><a href="#Python发展史-1991年-荷兰无聊青年" class="headerlink" title="Python发展史 1991年 荷兰无聊青年"></a>Python发展史 1991年 荷兰无聊青年</h1><p>Python由吉多·范罗苏姆创造，第一版发布于1991年，它是ABC语言的后继者，也可以视之为一种使用传统中缀表达式的LISP方言[28]。</p>
-<p>Python的设计哲学强调代码的可读性和简洁的语法，尤其是使用空格缩进划分代码块。相比于C或Java，Python让开发者能够用更少的代码表达想法。不管是小型还是大型程序，该语言都试图让程序的结构清晰明了。</p>
-<p>Python解释器本身几乎可以在所有的操作系统中运行。Python的官方解释器CPython是用C语言编写的，它是一个由社区驱动的自由软件，目前由Python软件基金会管理。</p>
-<p>python的创始人为吉多·范罗苏姆，当时他在阿姆斯特丹的荷兰数学和计算机科学研究学会工作。1989年的圣诞节期间，吉多·范罗苏姆为了在打发时间，决心开发一个新的脚本解释编程，作为ABC语言的一种继承，替代使用Unix shell和C语言进行系统管理，担负同Amoeba操作系统的交互和异常处理。之所以选中Python作为编程的名字，是因为他是BBC电视剧——《蒙提·派森的飞行马戏团》（Monty Python’s Flying Circus）的爱好者。范罗苏姆作为Python的主要开发者独自担负这个项目的职责，直到2018年7月12日，他宣布从作为终身仁慈独裁者（BDFL）的职责上“永久休假”，Python社区向他授予这个头衔反映了他长期担任整个Python语言的发展方向的决策者。他在2019年1月至11月于参与了一个五人掌控委员会继续领导项目发展。</p>
-<p>在1991年2月，范罗苏姆发布了最初代码（标记为版本0.9.0）于alt.sources，这时就已经存在了带继承的类、异常处理、函数和核心数据类型list、dict、str等。在这个最初发行中就有了从Modula-3引进的模块系统，它的异常模型也类似于Modula-3，但增加了else子句[8]。在1994年1月Python达到了版本1.0。这个发行版主要新特征是包括了函数式编程工具lambda、map、filter和reduce。Python 1.4增加了受Modula-3启发的关键字参数和对复数的内建支持，还包含采取名字修饰的一种基本形式的数据隐藏。</p>
-<p>Python 2.0于2000年10月16日发布，介入了列表推导式，这是从函数式编程语言SETL和Haskell中引入的。它还向垃圾收集系统增加了环检测算法，并且支持Unicode[38]。Python 2.1支持了嵌套作用域，就像其他静态作用域语言一样[39]。Python 2.2的重大革新是将Python的类型（用C写成）和类（用Python写成）统一入一个层级，使得Python的对象模型成为纯粹和一致的面向对象的模型[40]；还增加了迭代器[41]，受CLU和Icon启发的生成器，和描述器协议。Python 2.4加入了集合数据类型，和函数修饰器[44]。Python 2.5加入了with语句。</p>
-<p>Python 3.0于2008年12月3日发布，它对语言做了较大修订而不能完全后向兼容。Python 3发行包括了2to3实用工具，它（至少部分的）自动将Python 2代码转换成Python 3代码。Python 3的很多新特性后来也被移植到旧的Python 2.6/2.7版本中。</p>
-<p>Python 2.7的产品寿命结束日期最初设定为2015年，出于对大量的现存代码不能前向移植到Python 3的关切而延期至2020年。随着Python 2的产品寿命结束，只有Python 3.8和后续版本仍被完全支持。</p>
-<p>在2020年12月，活跃的Python核心开发者选举Barry Warsaw、Brett Cannon、Carol Willing、Pablo Galindo Salgado和Thomas Wouters为2021年度“掌控委员会”的五位成员来领导这个项目。</p>
-<p>特征与设计哲学<br>Python是多范型编程语言。它完全支持结构化编程和面向对象编程，还有很多特征支持函数式编程和元编程包括元类和元对象（魔术方法）。通过扩展还可以支持很多范型，包括面向切面编程、契约式设计和逻辑编程。</p>
-<p>Python使用动态类型，在内存管理上采用引用计数和环检测相结合的垃圾收集器。它的特征还有动态名字解析（后期绑定），即在程序执行期间绑定方法和变量的名字。</p>
-<p>Python对遵循LISP传统的函数式编程提供了有限的支持，它提供了 map、filter和reduce函数；列表推导式、字典、集合和生成器表达式[60]。标准库中有两个模块（functools和itertools）实现了从Haskell和Standard ML取来的函数式工具。</p>
-<p>Python的设计哲学是“优雅”、“明确”、“简单”。它的重要准则被称为“Python之禅”。在Python解释器内运行import this可以获得完整的列表，下面是其中首要：</p>
-<p>优美优于丑陋。明了优于隐晦。<br>简单优于复杂。复杂优于凌乱。<br>扁平优于嵌套。稀疏优于稠密。<br>可读性很重要。</p>
-<p>Python开发者的哲学是“用一种方法，最好是只有一种方法来做一件事”，显著不同于拥有“不止一种方法去做一件事”风格的语言例如Perl。在设计Python语言时，如果面临多种选择，Python开发者一般会拒绝花俏的语法，而选择明确没有或者很少有歧义的语法。</p>
-<p>范罗苏姆认为ABC语言非常优美和强大，并没有成功的原因是非开放造成的，故而将Python本身设计为可扩展的。Python并不把所有的特性和功能都集成到语言核心，而是提供了丰富的API和工具，以便程序员能够轻松地使用C、Cython来编写扩展模块，因此很多人使用Python将其他语言编写的编程进行集成和封装。Python编译器本身也可以被集成到其它需要脚本语言的编程内。</p>
-<p>Python开发人员尽量避开不成熟或者不重要的优化。一些针对非重要部位的加快运行速度的补丁通常不会被合并到Python的官方实现CPython中。在某些对运行速度要求很高的情况，Python设计师可以使用JIT技术的PyPy，或者是将Python脚本翻译成C的Cython，还可以将时间关键的函数迁移至用C语言编写的扩展模块中。</p>
+<h2 id="SDN"><a href="#SDN" class="headerlink" title="SDN"></a>SDN</h2><h2 id="Cisco-ACI"><a href="#Cisco-ACI" class="headerlink" title="Cisco ACI"></a>Cisco ACI</h2><p>思科应用中心基础架构</p>
+<p>本质上是思科针对数据中心提供的SDN解决方案，其核心功能或目的是对数据中心网络实现软件层面的集中控制及自动化管理。</p>
+<p>ACI包括三种核心的组件，分别是：</p>
+<ol>
+<li><p>Cisco Nexus 9000交换机</p>
+</li>
+<li><p>APIC（Application Policy Infrastructure Controller ，应用策略基础架构控制器）、</p>
+</li>
+<li><p>ANP应用网络配置文件</p>
+</li>
+</ol>
+<h2 id="VMware-NSX"><a href="#VMware-NSX" class="headerlink" title="VMware NSX"></a>VMware NSX</h2><p>VMware NSX更多的是基于软件层面进行SDN架构设计，VMware NSX可以忽略底层硬件差异，通过构建一个分布式虚拟层来实现大部分需要网络硬件支持的功能。</p>
+<p>而思科应用中心基础设施（Application Centric Infrastructure, ACI）是一个基于思科硬件的SDN解决方案，准确说只能使用思科Nexus 9000型交换机和支持ACI的硬件板块才能够正常部署。同样的用途，不同的设计思路，</p>
+<p>也许是源于VMware是一家软件公司，而CISCO是一家网络硬件公司的缘故吧！</p>
+<p><a href="https://www.dell.com/community/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8%E5%92%8C%E4%BF%9D%E6%8A%A4-%E8%B5%84%E6%96%99%E6%96%87%E6%A1%A3/%E5%AF%B9%E6%AF%94VMware-NSX%E5%92%8CCISCO-ACI%E7%9A%84%E5%BC%82%E5%90%8C/ta-p/7183690">https://www.dell.com/community/数据存储和保护-资料文档/对比VMware-NSX和CISCO-ACI的异同/ta-p/7183690</a></p>
+<h2 id="OpenStack-Neutron"><a href="#OpenStack-Neutron" class="headerlink" title="OpenStack Neutron"></a>OpenStack Neutron</h2><p>Open stack中网络是通过Neutron组件实现，它也成为了整个Open stack中最复杂的部分</p>
+<p>OpenStack网络（neutron）管理您OpenStack环境中虚拟网络基础设施（VNI）所有网络方面和物理网络基础设施（PNI）的接入层方面。</p>
 ]]></content>
       <categories>
-        <category>Java</category>
-        <category>history</category>
+        <category>Network</category>
+        <category>SDN</category>
       </categories>
       <tags>
-        <tag>history</tag>
+        <tag>SDN</tag>
       </tags>
   </entry>
   <entry>
@@ -513,34 +513,56 @@
       </tags>
   </entry>
   <entry>
-    <title>SDN</title>
-    <url>/2021/06/04/SDN/</url>
-    <content><![CDATA[<p>SDN</p>
+    <title>Spring</title>
+    <url>/2021/06/11/Spring/</url>
+    <content><![CDATA[<p>Spring</p>
 <span id="more"></span>
-<h2 id="SDN"><a href="#SDN" class="headerlink" title="SDN"></a>SDN</h2><h2 id="Cisco-ACI"><a href="#Cisco-ACI" class="headerlink" title="Cisco ACI"></a>Cisco ACI</h2><p>思科应用中心基础架构</p>
-<p>本质上是思科针对数据中心提供的SDN解决方案，其核心功能或目的是对数据中心网络实现软件层面的集中控制及自动化管理。</p>
-<p>ACI包括三种核心的组件，分别是：</p>
-<ol>
-<li><p>Cisco Nexus 9000交换机</p>
-</li>
-<li><p>APIC（Application Policy Infrastructure Controller ，应用策略基础架构控制器）、</p>
-</li>
-<li><p>ANP应用网络配置文件</p>
-</li>
-</ol>
-<h2 id="VMware-NSX"><a href="#VMware-NSX" class="headerlink" title="VMware NSX"></a>VMware NSX</h2><p>VMware NSX更多的是基于软件层面进行SDN架构设计，VMware NSX可以忽略底层硬件差异，通过构建一个分布式虚拟层来实现大部分需要网络硬件支持的功能。</p>
-<p>而思科应用中心基础设施（Application Centric Infrastructure, ACI）是一个基于思科硬件的SDN解决方案，准确说只能使用思科Nexus 9000型交换机和支持ACI的硬件板块才能够正常部署。同样的用途，不同的设计思路，</p>
-<p>也许是源于VMware是一家软件公司，而CISCO是一家网络硬件公司的缘故吧！</p>
-<p><a href="https://www.dell.com/community/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8%E5%92%8C%E4%BF%9D%E6%8A%A4-%E8%B5%84%E6%96%99%E6%96%87%E6%A1%A3/%E5%AF%B9%E6%AF%94VMware-NSX%E5%92%8CCISCO-ACI%E7%9A%84%E5%BC%82%E5%90%8C/ta-p/7183690">https://www.dell.com/community/数据存储和保护-资料文档/对比VMware-NSX和CISCO-ACI的异同/ta-p/7183690</a></p>
-<h2 id="OpenStack-Neutron"><a href="#OpenStack-Neutron" class="headerlink" title="OpenStack Neutron"></a>OpenStack Neutron</h2><p>Open stack中网络是通过Neutron组件实现，它也成为了整个Open stack中最复杂的部分</p>
-<p>OpenStack网络（neutron）管理您OpenStack环境中虚拟网络基础设施（VNI）所有网络方面和物理网络基础设施（PNI）的接入层方面。</p>
+<h2 id="Spring"><a href="#Spring" class="headerlink" title="Spring"></a>Spring</h2><h2 id="Spring-core"><a href="#Spring-core" class="headerlink" title="Spring core"></a>Spring core</h2><h2 id="spring-MVC"><a href="#spring-MVC" class="headerlink" title="spring MVC"></a>spring MVC</h2><p>spring MVC 使用 Spring core。首先，Spring core是一个 IOC 容器，它将依赖项注入到各种 bean 类（如您的控制器类、服务类等）中。因此，spring-mvc 利用 IOC 容器（spring-core）的强大功能来设置 Web 框架组件，例如<code>WebApplicationContext</code>解析/创建<code>ViewResolver</code>对象等。</p>
+<h2 id="spring-boot"><a href="#spring-boot" class="headerlink" title="spring boot"></a>spring boot</h2><p><a href="https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc">https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc</a></p>
+<p>spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。</p>
+<p>spring mvc 是只是spring 处理web层请求的一个模块。</p>
+<p>因此他们的关系大概就是这样：</p>
+<p>spring mvc  &lt; spring &lt;springboot。</p>
+<p>KFC套餐和KFC香辣汉堡的关系。。</p>
+<p><strong>Enterprise JavaBeans (EJB)</strong> </p>
 ]]></content>
       <categories>
-        <category>Network</category>
-        <category>SDN</category>
+        <category>Java</category>
+        <category>Spring</category>
       </categories>
       <tags>
-        <tag>SDN</tag>
+        <tag>Spring</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python发展史 1991年 荷兰无聊青年</title>
+    <url>/2021/06/11/Python/</url>
+    <content><![CDATA[<p>Python发展史 1991年 荷兰无聊青年</p>
+<span id="more"></span>
+<h1 id="Python发展史-1991年-荷兰无聊青年"><a href="#Python发展史-1991年-荷兰无聊青年" class="headerlink" title="Python发展史 1991年 荷兰无聊青年"></a>Python发展史 1991年 荷兰无聊青年</h1><p>Python由吉多·范罗苏姆创造，第一版发布于1991年，它是ABC语言的后继者，也可以视之为一种使用传统中缀表达式的LISP方言[28]。</p>
+<p>Python的设计哲学强调代码的可读性和简洁的语法，尤其是使用空格缩进划分代码块。相比于C或Java，Python让开发者能够用更少的代码表达想法。不管是小型还是大型程序，该语言都试图让程序的结构清晰明了。</p>
+<p>Python解释器本身几乎可以在所有的操作系统中运行。Python的官方解释器CPython是用C语言编写的，它是一个由社区驱动的自由软件，目前由Python软件基金会管理。</p>
+<p>python的创始人为吉多·范罗苏姆，当时他在阿姆斯特丹的荷兰数学和计算机科学研究学会工作。1989年的圣诞节期间，吉多·范罗苏姆为了在打发时间，决心开发一个新的脚本解释编程，作为ABC语言的一种继承，替代使用Unix shell和C语言进行系统管理，担负同Amoeba操作系统的交互和异常处理。之所以选中Python作为编程的名字，是因为他是BBC电视剧——《蒙提·派森的飞行马戏团》（Monty Python’s Flying Circus）的爱好者。范罗苏姆作为Python的主要开发者独自担负这个项目的职责，直到2018年7月12日，他宣布从作为终身仁慈独裁者（BDFL）的职责上“永久休假”，Python社区向他授予这个头衔反映了他长期担任整个Python语言的发展方向的决策者。他在2019年1月至11月于参与了一个五人掌控委员会继续领导项目发展。</p>
+<p>在1991年2月，范罗苏姆发布了最初代码（标记为版本0.9.0）于alt.sources，这时就已经存在了带继承的类、异常处理、函数和核心数据类型list、dict、str等。在这个最初发行中就有了从Modula-3引进的模块系统，它的异常模型也类似于Modula-3，但增加了else子句[8]。在1994年1月Python达到了版本1.0。这个发行版主要新特征是包括了函数式编程工具lambda、map、filter和reduce。Python 1.4增加了受Modula-3启发的关键字参数和对复数的内建支持，还包含采取名字修饰的一种基本形式的数据隐藏。</p>
+<p>Python 2.0于2000年10月16日发布，介入了列表推导式，这是从函数式编程语言SETL和Haskell中引入的。它还向垃圾收集系统增加了环检测算法，并且支持Unicode[38]。Python 2.1支持了嵌套作用域，就像其他静态作用域语言一样[39]。Python 2.2的重大革新是将Python的类型（用C写成）和类（用Python写成）统一入一个层级，使得Python的对象模型成为纯粹和一致的面向对象的模型[40]；还增加了迭代器[41]，受CLU和Icon启发的生成器，和描述器协议。Python 2.4加入了集合数据类型，和函数修饰器[44]。Python 2.5加入了with语句。</p>
+<p>Python 3.0于2008年12月3日发布，它对语言做了较大修订而不能完全后向兼容。Python 3发行包括了2to3实用工具，它（至少部分的）自动将Python 2代码转换成Python 3代码。Python 3的很多新特性后来也被移植到旧的Python 2.6/2.7版本中。</p>
+<p>Python 2.7的产品寿命结束日期最初设定为2015年，出于对大量的现存代码不能前向移植到Python 3的关切而延期至2020年。随着Python 2的产品寿命结束，只有Python 3.8和后续版本仍被完全支持。</p>
+<p>在2020年12月，活跃的Python核心开发者选举Barry Warsaw、Brett Cannon、Carol Willing、Pablo Galindo Salgado和Thomas Wouters为2021年度“掌控委员会”的五位成员来领导这个项目。</p>
+<p>特征与设计哲学<br>Python是多范型编程语言。它完全支持结构化编程和面向对象编程，还有很多特征支持函数式编程和元编程包括元类和元对象（魔术方法）。通过扩展还可以支持很多范型，包括面向切面编程、契约式设计和逻辑编程。</p>
+<p>Python使用动态类型，在内存管理上采用引用计数和环检测相结合的垃圾收集器。它的特征还有动态名字解析（后期绑定），即在程序执行期间绑定方法和变量的名字。</p>
+<p>Python对遵循LISP传统的函数式编程提供了有限的支持，它提供了 map、filter和reduce函数；列表推导式、字典、集合和生成器表达式[60]。标准库中有两个模块（functools和itertools）实现了从Haskell和Standard ML取来的函数式工具。</p>
+<p>Python的设计哲学是“优雅”、“明确”、“简单”。它的重要准则被称为“Python之禅”。在Python解释器内运行import this可以获得完整的列表，下面是其中首要：</p>
+<p>优美优于丑陋。明了优于隐晦。<br>简单优于复杂。复杂优于凌乱。<br>扁平优于嵌套。稀疏优于稠密。<br>可读性很重要。</p>
+<p>Python开发者的哲学是“用一种方法，最好是只有一种方法来做一件事”，显著不同于拥有“不止一种方法去做一件事”风格的语言例如Perl。在设计Python语言时，如果面临多种选择，Python开发者一般会拒绝花俏的语法，而选择明确没有或者很少有歧义的语法。</p>
+<p>范罗苏姆认为ABC语言非常优美和强大，并没有成功的原因是非开放造成的，故而将Python本身设计为可扩展的。Python并不把所有的特性和功能都集成到语言核心，而是提供了丰富的API和工具，以便程序员能够轻松地使用C、Cython来编写扩展模块，因此很多人使用Python将其他语言编写的编程进行集成和封装。Python编译器本身也可以被集成到其它需要脚本语言的编程内。</p>
+<p>Python开发人员尽量避开不成熟或者不重要的优化。一些针对非重要部位的加快运行速度的补丁通常不会被合并到Python的官方实现CPython中。在某些对运行速度要求很高的情况，Python设计师可以使用JIT技术的PyPy，或者是将Python脚本翻译成C的Cython，还可以将时间关键的函数迁移至用C语言编写的扩展模块中。</p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>history</category>
+      </categories>
+      <tags>
+        <tag>history</tag>
       </tags>
   </entry>
   <entry>
@@ -552,6 +574,7 @@
 
 
 <p>MM_WAIT_MSG 状态可以很好地说明隧道未形成的原因</p>
+<p><img src="/2021/06/30/cisco-ASA-IPsec-vpn%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/IKE_Phase1_MSGs.jpg" alt="MM_WAIT_MSG"></p>
 <img src="C:\web\blog\source\_posts\cisco-ASA-IPsec-vpn交互过程\IKE_Phase1_MSGs.jpg" style="zoom:75%;" />
 
 <p><a href="https://www.tunnelsup.com/isakmp-ike-phase-1-status-messages/">https://www.tunnelsup.com/isakmp-ike-phase-1-status-messages/</a></p>
@@ -646,51 +669,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Spring</title>
-    <url>/2021/06/11/Spring/</url>
-    <content><![CDATA[<p>Spring</p>
-<span id="more"></span>
-<h2 id="Spring"><a href="#Spring" class="headerlink" title="Spring"></a>Spring</h2><h2 id="Spring-core"><a href="#Spring-core" class="headerlink" title="Spring core"></a>Spring core</h2><h2 id="spring-MVC"><a href="#spring-MVC" class="headerlink" title="spring MVC"></a>spring MVC</h2><p>spring MVC 使用 Spring core。首先，Spring core是一个 IOC 容器，它将依赖项注入到各种 bean 类（如您的控制器类、服务类等）中。因此，spring-mvc 利用 IOC 容器（spring-core）的强大功能来设置 Web 框架组件，例如<code>WebApplicationContext</code>解析/创建<code>ViewResolver</code>对象等。</p>
-<h2 id="spring-boot"><a href="#spring-boot" class="headerlink" title="spring boot"></a>spring boot</h2><p><a href="https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc">https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc</a></p>
-<p>spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。</p>
-<p>spring mvc 是只是spring 处理web层请求的一个模块。</p>
-<p>因此他们的关系大概就是这样：</p>
-<p>spring mvc  &lt; spring &lt;springboot。</p>
-<p>KFC套餐和KFC香辣汉堡的关系。。</p>
-<p><strong>Enterprise JavaBeans (EJB)</strong> </p>
-]]></content>
-      <categories>
-        <category>Java</category>
-        <category>Spring</category>
-      </categories>
-      <tags>
-        <tag>Spring</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>linux网络命令</title>
-    <url>/2021/06/01/linux%E7%BD%91%E7%BB%9C%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<p>linux网络命令</p>
-<span id="more"></span>
-<h3 id="linux修改接口IP和DNS"><a href="#linux修改接口IP和DNS" class="headerlink" title="linux修改接口IP和DNS"></a>linux修改接口IP和DNS</h3><p>1.ifconfig 查看接口的名字</p>
-<p>2.找到路径<br><code>/etc/sysconfig/network-scripts/</code></p>
-<p>3.编辑接口名字<br><code>vi eth0</code></p>
-<p>4.修改DNS<br><code>/etc/resolv.conf</code></p>
-<h3 id="查看接口状态"><a href="#查看接口状态" class="headerlink" title="查看接口状态"></a>查看接口状态</h3><p><code>ip link show</code></p>
-<h3 id="查看IP地址配置："><a href="#查看IP地址配置：" class="headerlink" title="查看IP地址配置："></a>查看IP地址配置：</h3><p><code>ip address</code></p>
-<h3 id="查看路由和默认路由"><a href="#查看路由和默认路由" class="headerlink" title="查看路由和默认路由"></a>查看路由和默认路由</h3><p><code>ip route</code></p>
-<h3 id="其他查看路由命令"><a href="#其他查看路由命令" class="headerlink" title="其他查看路由命令"></a>其他查看路由命令</h3><p><code>route -n</code><br><code>netstat -rn</code> </p>
-<h2 id="nmcli命令"><a href="#nmcli命令" class="headerlink" title="nmcli命令"></a>nmcli命令</h2><p><code>nmcli device status</code><br><code>nmcli connection show</code></p>
-<h2 id="nmtui命令"><a href="#nmtui命令" class="headerlink" title="nmtui命令"></a>nmtui命令</h2><p><code>nmtui</code></p>
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>java之Maven</title>
     <url>/2021/06/21/java%E4%B9%8BMaven/</url>
     <content><![CDATA[<p>Maven是jar包管理工具</p>
@@ -736,6 +714,50 @@
       </tags>
   </entry>
   <entry>
+    <title>linux网络命令</title>
+    <url>/2021/06/01/linux%E7%BD%91%E7%BB%9C%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<p>linux网络命令</p>
+<span id="more"></span>
+<h3 id="linux修改接口IP和DNS"><a href="#linux修改接口IP和DNS" class="headerlink" title="linux修改接口IP和DNS"></a>linux修改接口IP和DNS</h3><p>1.ifconfig 查看接口的名字</p>
+<p>2.找到路径<br><code>/etc/sysconfig/network-scripts/</code></p>
+<p>3.编辑接口名字<br><code>vi eth0</code></p>
+<p>4.修改DNS<br><code>/etc/resolv.conf</code></p>
+<h3 id="查看接口状态"><a href="#查看接口状态" class="headerlink" title="查看接口状态"></a>查看接口状态</h3><p><code>ip link show</code></p>
+<h3 id="查看IP地址配置："><a href="#查看IP地址配置：" class="headerlink" title="查看IP地址配置："></a>查看IP地址配置：</h3><p><code>ip address</code></p>
+<h3 id="查看路由和默认路由"><a href="#查看路由和默认路由" class="headerlink" title="查看路由和默认路由"></a>查看路由和默认路由</h3><p><code>ip route</code></p>
+<h3 id="其他查看路由命令"><a href="#其他查看路由命令" class="headerlink" title="其他查看路由命令"></a>其他查看路由命令</h3><p><code>route -n</code><br><code>netstat -rn</code> </p>
+<h2 id="nmcli命令"><a href="#nmcli命令" class="headerlink" title="nmcli命令"></a>nmcli命令</h2><p><code>nmcli device status</code><br><code>nmcli connection show</code></p>
+<h2 id="nmtui命令"><a href="#nmtui命令" class="headerlink" title="nmtui命令"></a>nmtui命令</h2><p><code>nmtui</code></p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>mysql发展史 一个男人的2个女儿名字命令数据库 1995年</title>
+    <url>/2021/06/11/mysql/</url>
+    <content><![CDATA[<h2 id="mysql发展史-一个男人的2个女儿名字命令数据库-1995年"><a href="#mysql发展史-一个男人的2个女儿名字命令数据库-1995年" class="headerlink" title="mysql发展史 一个男人的2个女儿名字命令数据库 1995年"></a>mysql发展史 一个男人的2个女儿名字命令数据库 1995年</h2><span id="more"></span>
+
+<p>MySQL是开源 关系数据库管理系统（RDBMS）。它的名字是“My”（联合创始人Michael Widenius的女儿的名字）和“ SQL ”（结构化查询语言的缩写）的组合。一个关系型数据库将数据组织成一个或多个数据表，其中数据类型可能相互关联；这些关系有助于构建数据。SQL 是程序员用来从关系数据库中创建、修改和提取数据以及控制用户对数据库的访问的语言。除了关系数据库和 SQL 之外，像 MySQL 这样的 RDBMS 与操作系统一起工作，以在计算机的存储系统中实现关系数据库，管理用户，允许网络访问并促进测试数据库完整性和创建备份。</p>
+<p>MySQL 的第一个版本出现于 1995 年 5 月 23 日，它最初是从基于低级语言ISAM 的mSQL创建供个人使用的，创建者认为它太慢了和不灵活。他们创建了一个新的SQL接口，同时保持相同的API作为 mSQL。通过使 API 与 mSQL 系统保持一致，许多开发人员能够使用 MySQL 而不是（专有许可的）mSQL 前身。</p>
+<p>MySQL 是GNU 通用公共许可证条款下的免费开源软件，也可在各种专有许可证下使用。MySQL 由瑞典公司MySQL AB拥有和赞助，该公司被Sun Microsystems（现为Oracle Corporation）收购。 2010年，当甲骨文收购Sun时，Widenius分叉了开源MySQL项目，创建了MariaDB。</p>
+<p>MySQL 具有独立客户端，允许用户使用 SQL 直接与 MySQL 数据库交互，但更多情况下，MySQL 与其他程序一起使用以实现需要关系数据库功能的应用程序。MySQL 是LAMP Web 应用程序 软件堆栈（和其他）的一个组件，它是Linux、Apache、 MySQL 、Perl / PHP / Python的首字母缩写词。许多数据库驱动的 Web 应用程序都使用 MySQL，包括Drupal、Joomla、phpBB和WordPress。MySQL也被许多流行的网站使用，包括Facebook、 Flickr、 MediaWiki、 Twitter、和 YouTube。</p>
+<p>MariaDB的是一个社区开发的商业化支持的叉的的MySQL的 关系数据库管理系统（RDBMS），意在保持免费和开放源码软件的下GNU通用公共许可证。开发由 MySQL 的一些原始开发人员领导，由于担心它在 2009 年被甲骨文公司收购，他们分叉了它。</p>
+<p>MariaDB 旨在保持与 MySQL 的高度兼容性，确保具有库二进制奇偶校验和与 MySQL API和命令的精确匹配的直接替换能力。但是，新功能的差异更大。它包括新的存储引擎，如Aria、ColumnStore和MyRocks。</p>
+<p>它的首席开发人员/CTO 是Michael “Monty” Widenius，他是MySQL AB的创始人之一，也是 Monty Program AB 的创始人。2008 年 1 月 16 日，MySQL AB 宣布已同意被Sun Microsystems以约 10 亿美元的价格收购。收购于 2008 年 2 月 26 日完成。第二年 Sun 被甲骨文公司收购。MariaDB 以 Widenius 的小女儿 Maria 的名字命名。（MySQL 以他的另一个女儿 My 的名字命名。）</p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>history</category>
+      </categories>
+      <tags>
+        <tag>history</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>nagios从零开始</title>
     <url>/2021/06/01/nagios%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
     <content><![CDATA[<p>nagios从零开始</p>
@@ -761,27 +783,6 @@
       </categories>
       <tags>
         <tag>Nagios</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>mysql发展史 一个男人的2个女儿名字命令数据库 1995年</title>
-    <url>/2021/06/11/mysql/</url>
-    <content><![CDATA[<h2 id="mysql发展史-一个男人的2个女儿名字命令数据库-1995年"><a href="#mysql发展史-一个男人的2个女儿名字命令数据库-1995年" class="headerlink" title="mysql发展史 一个男人的2个女儿名字命令数据库 1995年"></a>mysql发展史 一个男人的2个女儿名字命令数据库 1995年</h2><span id="more"></span>
-
-<p>MySQL是开源 关系数据库管理系统（RDBMS）。它的名字是“My”（联合创始人Michael Widenius的女儿的名字）和“ SQL ”（结构化查询语言的缩写）的组合。一个关系型数据库将数据组织成一个或多个数据表，其中数据类型可能相互关联；这些关系有助于构建数据。SQL 是程序员用来从关系数据库中创建、修改和提取数据以及控制用户对数据库的访问的语言。除了关系数据库和 SQL 之外，像 MySQL 这样的 RDBMS 与操作系统一起工作，以在计算机的存储系统中实现关系数据库，管理用户，允许网络访问并促进测试数据库完整性和创建备份。</p>
-<p>MySQL 的第一个版本出现于 1995 年 5 月 23 日，它最初是从基于低级语言ISAM 的mSQL创建供个人使用的，创建者认为它太慢了和不灵活。他们创建了一个新的SQL接口，同时保持相同的API作为 mSQL。通过使 API 与 mSQL 系统保持一致，许多开发人员能够使用 MySQL 而不是（专有许可的）mSQL 前身。</p>
-<p>MySQL 是GNU 通用公共许可证条款下的免费开源软件，也可在各种专有许可证下使用。MySQL 由瑞典公司MySQL AB拥有和赞助，该公司被Sun Microsystems（现为Oracle Corporation）收购。 2010年，当甲骨文收购Sun时，Widenius分叉了开源MySQL项目，创建了MariaDB。</p>
-<p>MySQL 具有独立客户端，允许用户使用 SQL 直接与 MySQL 数据库交互，但更多情况下，MySQL 与其他程序一起使用以实现需要关系数据库功能的应用程序。MySQL 是LAMP Web 应用程序 软件堆栈（和其他）的一个组件，它是Linux、Apache、 MySQL 、Perl / PHP / Python的首字母缩写词。许多数据库驱动的 Web 应用程序都使用 MySQL，包括Drupal、Joomla、phpBB和WordPress。MySQL也被许多流行的网站使用，包括Facebook、 Flickr、 MediaWiki、 Twitter、和 YouTube。</p>
-<p>MariaDB的是一个社区开发的商业化支持的叉的的MySQL的 关系数据库管理系统（RDBMS），意在保持免费和开放源码软件的下GNU通用公共许可证。开发由 MySQL 的一些原始开发人员领导，由于担心它在 2009 年被甲骨文公司收购，他们分叉了它。</p>
-<p>MariaDB 旨在保持与 MySQL 的高度兼容性，确保具有库二进制奇偶校验和与 MySQL API和命令的精确匹配的直接替换能力。但是，新功能的差异更大。它包括新的存储引擎，如Aria、ColumnStore和MyRocks。</p>
-<p>它的首席开发人员/CTO 是Michael “Monty” Widenius，他是MySQL AB的创始人之一，也是 Monty Program AB 的创始人。2008 年 1 月 16 日，MySQL AB 宣布已同意被Sun Microsystems以约 10 亿美元的价格收购。收购于 2008 年 2 月 26 日完成。第二年 Sun 被甲骨文公司收购。MariaDB 以 Widenius 的小女儿 Maria 的名字命名。（MySQL 以他的另一个女儿 My 的名字命名。）</p>
-]]></content>
-      <categories>
-        <category>Java</category>
-        <category>history</category>
-      </categories>
-      <tags>
-        <tag>history</tag>
       </tags>
   </entry>
   <entry>
@@ -904,6 +905,40 @@
       </tags>
   </entry>
   <entry>
+    <title>思科DHCP的Snooping</title>
+    <url>/2021/06/04/%E6%80%9D%E7%A7%91DHCP%E7%9A%84Snooping/</url>
+    <content><![CDATA[<p>启用DHCP Snooping的作用<br>一句话：防止非法的DHCP服务器</p>
+<span id="more"></span>
+
+
+<h3 id="哲学思想"><a href="#哲学思想" class="headerlink" title="哲学思想"></a>哲学思想</h3><ul>
+<li>防止非法DHCP服务器发送offer包和ack包</li>
+</ul>
+<h3 id="信任和非信任端口的Action"><a href="#信任和非信任端口的Action" class="headerlink" title="信任和非信任端口的Action"></a>信任和非信任端口的Action</h3><ul>
+<li>信任接口：接收DHCP服务器响应的DHCP ACK和DHCP Offer报文。设备只会将DHCP客户端的DHCP请求报文通过信任接口发送给合法的DHCP服务器。</li>
+<li>非信任接口：接收到DHCP服务器响应的DHCP ACK和DHCP Offer报文后，直接干掉。</li>
+</ul>
+<h2 id="DHCP-Snooping要应用在哪里"><a href="#DHCP-Snooping要应用在哪里" class="headerlink" title="DHCP Snooping要应用在哪里"></a>DHCP Snooping要应用在哪里</h2><p><img src="/2021/06/04/%E6%80%9D%E7%A7%91DHCP%E7%9A%84Snooping/dhcp-snooping.jpg" alt="DHCP Snooping"></p>
+<h2 id="DHCP-Snooping的配置命令"><a href="#DHCP-Snooping的配置命令" class="headerlink" title="DHCP Snooping的配置命令"></a>DHCP Snooping的配置命令</h2><p>全局启动<br><code>Switch(config)# ip dhcp snooping</code><br>Enables DHCP snooping globally.</p>
+<p>基于VLAN启用<br><code>Switch(config)# ip dhcp snooping vlan vlan-range</code></p>
+<p>接口下启用<br><code>Switch(config-if)# ip dhcp snooping trust</code></p>
+<p>启用 插入DHCP option-82 信息，DHCP option82会插入在DHCP Request信息里面<br><code>Switch(config)# ip dhcp snooping information option</code></p>
+<p>启用 接口收到DHCP包率的限制pps<br><code>Switch(config-if)# ip dhcp snooping limit rate 80</code></p>
+<p>查看接口DHCP包率限制<br><code>show ip dhcp snooping | begin pps</code></p>
+<h2 id="Trunk-uplink要不要启用trust-port"><a href="#Trunk-uplink要不要启用trust-port" class="headerlink" title="Trunk/uplink要不要启用trust port?"></a>Trunk/uplink要不要启用trust port?</h2><h2 id="如何确定是否开启了Snooping功能"><a href="#如何确定是否开启了Snooping功能" class="headerlink" title="如何确定是否开启了Snooping功能##"></a>如何确定是否开启了Snooping功能##</h2><p>Swith#sh ip dhcp snooping<br>Switch DHCP snooping is enabled<br>Switch DHCP gleaning is disabled</p>
+<h2 id="DHCP-OPTION-82"><a href="#DHCP-OPTION-82" class="headerlink" title="DHCP OPTION 82"></a>DHCP OPTION 82</h2><p>在传统的DHCP动态分配IP地址过程中，DHCP Server不能够根据DHCP请求报文关联到终端的具体物理位置，同一VLAN的用户得到的IP地址所拥有的权限是完全相同的。OPTION 82；包含两个常用子选项Circuit ID和Remote ID。其中Circuit ID子选项主要用来标识客户端所在的VLAN、接口等信息，Remote ID子选项主要用来标识客户端接入的设备，一般为设备的MAC地址。</p>
+<p>记录了DHCP Client的位置信息。开启DHCP Snooping的设备通过在DHCP请求报文中添加82选项，将DHCP Client的精确物理位置信息传递给DHCP Server，从而使得DHCP Server能够为主机分配合适的IP地址和其他配置信息，联动安全策略管理器实现对客户端的安全控制。</p>
+<p>参考网址：<br><a href="https://kknews.cc/digital/2yrq8g9.html">https://kknews.cc/digital/2yrq8g9.html</a><br><a href="https://www.networkstraining.com/cisco-dhcp-snooping-configuration/">https://www.networkstraining.com/cisco-dhcp-snooping-configuration/</a><br><a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4500/12-2/53SG/configuration/config/dhcp.html">https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4500/12-2/53SG/configuration/config/dhcp.html</a></p>
+]]></content>
+      <categories>
+        <category>Network</category>
+        <category>Switch</category>
+      </categories>
+      <tags>
+        <tag>Switch</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>python网络ping</title>
     <url>/2021/06/10/python%E7%BD%91%E7%BB%9Cping/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -950,40 +985,6 @@
         <category>Network</category>
         <category>Switch</category>
       </categories>
-  </entry>
-  <entry>
-    <title>思科DHCP的Snooping</title>
-    <url>/2021/06/04/%E6%80%9D%E7%A7%91DHCP%E7%9A%84Snooping/</url>
-    <content><![CDATA[<p>启用DHCP Snooping的作用<br>一句话：防止非法的DHCP服务器</p>
-<span id="more"></span>
-
-
-<h3 id="哲学思想"><a href="#哲学思想" class="headerlink" title="哲学思想"></a>哲学思想</h3><ul>
-<li>防止非法DHCP服务器发送offer包和ack包</li>
-</ul>
-<h3 id="信任和非信任端口的Action"><a href="#信任和非信任端口的Action" class="headerlink" title="信任和非信任端口的Action"></a>信任和非信任端口的Action</h3><ul>
-<li>信任接口：接收DHCP服务器响应的DHCP ACK和DHCP Offer报文。设备只会将DHCP客户端的DHCP请求报文通过信任接口发送给合法的DHCP服务器。</li>
-<li>非信任接口：接收到DHCP服务器响应的DHCP ACK和DHCP Offer报文后，直接干掉。</li>
-</ul>
-<h2 id="DHCP-Snooping要应用在哪里"><a href="#DHCP-Snooping要应用在哪里" class="headerlink" title="DHCP Snooping要应用在哪里"></a>DHCP Snooping要应用在哪里</h2><p><img src="/2021/06/04/%E6%80%9D%E7%A7%91DHCP%E7%9A%84Snooping/dhcp-snooping.jpg" alt="DHCP Snooping"></p>
-<h2 id="DHCP-Snooping的配置命令"><a href="#DHCP-Snooping的配置命令" class="headerlink" title="DHCP Snooping的配置命令"></a>DHCP Snooping的配置命令</h2><p>全局启动<br><code>Switch(config)# ip dhcp snooping</code><br>Enables DHCP snooping globally.</p>
-<p>基于VLAN启用<br><code>Switch(config)# ip dhcp snooping vlan vlan-range</code></p>
-<p>接口下启用<br><code>Switch(config-if)# ip dhcp snooping trust</code></p>
-<p>启用 插入DHCP option-82 信息，DHCP option82会插入在DHCP Request信息里面<br><code>Switch(config)# ip dhcp snooping information option</code></p>
-<p>启用 接口收到DHCP包率的限制pps<br><code>Switch(config-if)# ip dhcp snooping limit rate 80</code></p>
-<p>查看接口DHCP包率限制<br><code>show ip dhcp snooping | begin pps</code></p>
-<h2 id="Trunk-uplink要不要启用trust-port"><a href="#Trunk-uplink要不要启用trust-port" class="headerlink" title="Trunk/uplink要不要启用trust port?"></a>Trunk/uplink要不要启用trust port?</h2><h2 id="如何确定是否开启了Snooping功能"><a href="#如何确定是否开启了Snooping功能" class="headerlink" title="如何确定是否开启了Snooping功能##"></a>如何确定是否开启了Snooping功能##</h2><p>Swith#sh ip dhcp snooping<br>Switch DHCP snooping is enabled<br>Switch DHCP gleaning is disabled</p>
-<h2 id="DHCP-OPTION-82"><a href="#DHCP-OPTION-82" class="headerlink" title="DHCP OPTION 82"></a>DHCP OPTION 82</h2><p>在传统的DHCP动态分配IP地址过程中，DHCP Server不能够根据DHCP请求报文关联到终端的具体物理位置，同一VLAN的用户得到的IP地址所拥有的权限是完全相同的。OPTION 82；包含两个常用子选项Circuit ID和Remote ID。其中Circuit ID子选项主要用来标识客户端所在的VLAN、接口等信息，Remote ID子选项主要用来标识客户端接入的设备，一般为设备的MAC地址。</p>
-<p>记录了DHCP Client的位置信息。开启DHCP Snooping的设备通过在DHCP请求报文中添加82选项，将DHCP Client的精确物理位置信息传递给DHCP Server，从而使得DHCP Server能够为主机分配合适的IP地址和其他配置信息，联动安全策略管理器实现对客户端的安全控制。</p>
-<p>参考网址：<br><a href="https://kknews.cc/digital/2yrq8g9.html">https://kknews.cc/digital/2yrq8g9.html</a><br><a href="https://www.networkstraining.com/cisco-dhcp-snooping-configuration/">https://www.networkstraining.com/cisco-dhcp-snooping-configuration/</a><br><a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4500/12-2/53SG/configuration/config/dhcp.html">https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4500/12-2/53SG/configuration/config/dhcp.html</a></p>
-]]></content>
-      <categories>
-        <category>Network</category>
-        <category>Switch</category>
-      </categories>
-      <tags>
-        <tag>Switch</tag>
-      </tags>
   </entry>
   <entry>
     <title>思科WLC命令</title>
