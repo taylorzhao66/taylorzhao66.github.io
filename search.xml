@@ -293,7 +293,7 @@
 
 
 
-<h2 id="表单Form中的2个重要参数action-和method"><a href="#表单Form中的2个重要参数action-和method" class="headerlink" title="表单Form中的2个重要参数action 和method"></a>表单Form中的2个重要参数action 和method</h2><h2 id="如何解决-PHP-通知：未定义索引"><a href="#如何解决-PHP-通知：未定义索引" class="headerlink" title="如何解决 PHP 通知：未定义索引?##"></a>如何解决 PHP 通知：未定义索引?##</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">**Notice**:  Undefined index: name in **C:\xampp\htdocs\test-04.php** on line **3**</span><br></pre></td></tr></table></figure>
+<h2 id="表单Form中的2个重要参数action-和method"><a href="#表单Form中的2个重要参数action-和method" class="headerlink" title="表单Form中的2个重要参数action 和method"></a>表单Form中的2个重要参数action 和method</h2><h2 id="如何解决-PHP-通知：未定义索引"><a href="#如何解决-PHP-通知：未定义索引" class="headerlink" title="如何解决 PHP 通知：未定义索引?"></a>如何解决 PHP 通知：未定义索引?</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">**Notice**:  Undefined index: name in **C:\xampp\htdocs\test-04.php** on line **3**</span><br></pre></td></tr></table></figure>
 
 <p>这里有两种处理此类通知的方法。</p>
 <p><strong>1) 忽略此类通知</strong></p>
@@ -307,11 +307,19 @@
 <p> isset($_POST[“name”])</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;?php</span><br><span class="line">if(isset($_GET[&#x27;name&#x27;]))&#123;</span><br><span class="line">      $name = $_GET[&#x27;name&#x27;]; </span><br><span class="line"> &#125;else&#123;</span><br><span class="line">      $name = &quot;Name not set in GET Method&quot;;</span><br><span class="line"> &#125;</span><br><span class="line">if(isset($_GET[&#x27;age&#x27;]))&#123;</span><br><span class="line">      $name = $_GET[&#x27;age&#x27;]; </span><br><span class="line"> &#125;else&#123;</span><br><span class="line">      $name = &quot;&lt;br&gt;Age not set in GET Method&quot;;</span><br><span class="line"> &#125;</span><br><span class="line">echo $name;</span><br><span class="line">echo $age;</span><br><span class="line">?&gt;</span><br></pre></td></tr></table></figure>
 
-
-
-
-
 <p><a href="https://www.stechies.com/undefined-index-error-php/">https://www.stechies.com/undefined-index-error-php/</a></p>
+<h2 id="PHP-isset-GET-‘something’-GET-‘something’-‘’-为何这么写？"><a href="#PHP-isset-GET-‘something’-GET-‘something’-‘’-为何这么写？" class="headerlink" title="PHP isset($GET[‘something’]) ? $GET[‘something’] : ‘’ 为何这么写？"></a>PHP isset($GET[‘something’]) ? $GET[‘something’] : ‘’ 为何这么写？</h2><figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="variable">$test</span> = <span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;something&#x27;</span>]) ? <span class="variable">$_GET</span>[<span class="string">&#x27;something&#x27;</span>] : <span class="string">&#x27;&#x27;</span>;</span><br></pre></td></tr></table></figure>
+
+<p>means</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;something&#x27;</span>])) &#123;</span><br><span class="line">    <span class="variable">$test</span> = <span class="variable">$_GET</span>[<span class="string">&#x27;something&#x27;</span>];</span><br><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="variable">$test</span> = <span class="string">&#x27;&#x27;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>To break it down:</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="variable">$test</span> = ... <span class="comment">// assign variable</span></span><br><span class="line"><span class="keyword">isset</span>(...) <span class="comment">// test</span></span><br><span class="line">? ... <span class="comment">// if test is true, do ... (equivalent to if)</span></span><br><span class="line">: ... <span class="comment">// otherwise... (equivalent to else)</span></span><br></pre></td></tr></table></figure>
+
+<p>Or…</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">// test --v</span></span><br><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(...)) &#123; <span class="comment">// if test is true, do ... (equivalent to ?)</span></span><br><span class="line">    <span class="variable">$test</span> = <span class="comment">// assign variable</span></span><br><span class="line">&#125; <span class="keyword">else</span> &#123; <span class="comment">// otherwise... (equivalent to :)</span></span><br></pre></td></tr></table></figure>
+
+<p><a href="https://stackoverflow.com/questions/12126420/isset-php-isset-getsomething-getsomething/12126483">https://stackoverflow.com/questions/12126420/isset-php-isset-getsomething-getsomething/12126483</a></p>
 ]]></content>
       <categories>
         <category>PHP</category>
