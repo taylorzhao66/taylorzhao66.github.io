@@ -1,0 +1,24 @@
+graph G {
+    spine1[label="核心1" color=blue]    
+    spine2[label="核心2"]
+ leaf1[label="核心2"]    
+ leaf1[label="接入1"]    
+ leaf2[label="接入2"]    
+ leaf3[label="接入3"]    
+ leaf3[label="接入4"]    
+ leaf5[label="接入5"]    
+ leaf6[label="接入6"]     
+	spine1 -- leaf1 [color=red]; 
+	spine1 -- leaf2;    
+	spine1 -- leaf3;   
+	spine1 -- leaf4;   
+	spine1 -- leaf5;    
+	spine1 -- leaf6;
+        
+	spine2 -- leaf1 [color=red]; 
+	spine2 -- leaf2;     
+	spine2 -- leaf3;     
+	spine2 -- leaf4;       
+	spine2 -- leaf5;    
+	spine2 -- leaf6;                
+}
