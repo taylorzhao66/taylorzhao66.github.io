@@ -339,6 +339,14 @@
 <h2 id="button-type-submit"><a href="#button-type-submit" class="headerlink" title="button[type=submit]"></a>button[type=submit]</h2><p>button的语义很明确，就是一个按钮不含数据，作用就是用户交互。但它也有type和value属性。 type的默认值是submit，所以点击一个button会引起表单提交：</p>
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">form</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">&#x27;key&#x27;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">button</span>&gt;</span>确定<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
+
+
+<h1 id="阻止表单提交"><a href="#阻止表单提交" class="headerlink" title="阻止表单提交"></a>阻止表单提交</h1><p>阻止表单提交也是一个常见的话题，通常用于客户端的表单验证。通用的办法是设置onsubmit：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">onsubmit</span>=<span class="string">&quot;return false;&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">&#x27;key&#x27;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">input</span> <span class="attr">value</span>=<span class="string">&#x27;ok&#x27;</span> <span class="attr">type</span>=<span class="string">&#x27;submit&#x27;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>只需要在onsubmit的一系列语句最后返回false，便可以阻止它提交。 如果你希望调用一个方法来决定是否阻止提交，记得在此处返回方法的返回值：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">onsubmit</span>=<span class="string">&quot;return doValidation();&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">input</span> <span class="attr">name</span>=<span class="string">&#x27;key&#x27;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">input</span> <span class="attr">value</span>=<span class="string">&#x27;ok&#x27;</span> <span class="attr">type</span>=<span class="string">&#x27;submit&#x27;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
 <p><a href="https://zhuanlan.zhihu.com/p/21527287">https://zhuanlan.zhihu.com/p/21527287</a></p>
 ]]></content>
       <categories>
