@@ -457,14 +457,31 @@
   <entry>
     <title>PHP连接MySQL数据库</title>
     <url>/2021/06/22/PHP%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
-    <content><![CDATA[<p>PHP与MySQL的连接有三种API接口，分别是：PHP的MySQL扩展 、PHP的mysqli扩展 、PHP数据对象(PDO)</p>
+    <content><![CDATA[<p>PHP 连接 MySQL</p>
 <span id="more"></span>
 
-<p>PHP与MySQL的连接有三种API接口，分别是：PHP的MySQL扩展 、PHP的mysqli扩展 、PHP数据对象(PDO)，下面针对以上三种连接方式做下总结，以备在不同场景下选出最优方案。</p>
-<p><strong>PHP的MySQL扩展是设计开发允许php应用与MySQL数据库交互的早期扩展。</strong><br>MySQL扩展提供了一个面向过程的接口，并且是针对MySQL4.1.3或者更早版本设计的。因此这个扩展虽然可以与MySQL4.1.3或更新的数据库服务端进行交互，但并不支持后期MySQL服务端提供的一些特性。由于太古老，又不安全，所以已被后来的mysqli完全取代；</p>
-<p><strong>PHP的mysqli扩展，我们有时称之为MySQL增强扩展</strong><br>可以用于使用 MySQL4.1.3或更新版本中新的高级特性。其特点为：面向对象接口 、prepared语句支持、多语句执行支持、事务支持 、增强的调试能力、嵌入式服务支持 、预处理方式完全解决了sql注入的问题。不过其也有缺点，就是只支持mysql数据库。如果你要是不操作其他的数据库，这无疑是最好的选择。</p>
-<p><strong>PDO是PHP Data Objects的缩写</strong><br>是PHP应用中的一个数据库抽象层规范。PDO提供了一个统一的API接口可以使得你的PHP应用不去关心具体要连接的数据库服务器系统类型，也就是说，如果你使用PDO的API，可以在任何需要的时候无缝切换数据库服务器，比如从Oracle 到MySQL，仅仅需要修改很少的PHP代码。其功能类似于JDBC、ODBC、DBI之类接口。同样，其也解决了sql注入问题，有很好的安全性。不过他也有缺点，某些多语句执行查询不支持（不过该情况很少）。</p>
-<p>参考： <a href="https://zhuanlan.zhihu.com/p/136795349">https://zhuanlan.zhihu.com/p/136795349</a></p>
+<p>**php mysql_connect不支持是因为PHP7已经彻底不支持“mysql_connect”函数了，该函数属于废弃函数，需要使用MySQLi或PDO_MySQL扩展来替换该函数。 **</p>
+<h1 id="PHP-连接-MySQL"><a href="#PHP-连接-MySQL" class="headerlink" title="PHP 连接 MySQL"></a>PHP 连接 MySQL</h1><p>PHP 5 及以上版本建议使用以下方式连接 MySQL :</p>
+<ul>
+<li><strong>MySQLi extension</strong> (“i” 意为 improved)</li>
+<li><strong>PDO (PHP Data Objects)</strong></li>
+</ul>
+<p>在 PHP 早期版本中我们使用 MySQL 扩展。但该扩展在 2012 年开始不建议使用。</p>
+<p><a href="https://www.runoob.com/php/php-mysql-connect.html">https://www.runoob.com/php/php-mysql-connect.html</a></p>
+<h2 id="Mysql如何设置root密码"><a href="#Mysql如何设置root密码" class="headerlink" title="Mysql如何设置root密码"></a>Mysql如何设置root密码</h2><p>查看当前用户和密码：</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">User</span>,Password <span class="keyword">from</span> mysql.user;</span><br></pre></td></tr></table></figure>
+
+<p>修改密码：</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">set</span> password <span class="keyword">for</span> root<span class="variable">@localhost</span><span class="operator">=</span>password(<span class="string">&#x27;Tz123456&#x27;</span>);</span><br></pre></td></tr></table></figure>
+
+<p>查询是否修改：</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">User</span>,Password <span class="keyword">from</span> mysql.user;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="PhpMyAdmin安装配置"><a href="#PhpMyAdmin安装配置" class="headerlink" title="PhpMyAdmin安装配置"></a>PhpMyAdmin安装配置</h2><p>配置文件config.inc.php</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/* Authentication type and info */</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;auth_type&#x27;] = &#x27;config&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;user&#x27;] = &#x27;root&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;password&#x27;] = &#x27;123456&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;extension&#x27;] = &#x27;mysqli&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;AllowNoPassword&#x27;] = true;</span><br><span class="line">$cfg[&#x27;Lang&#x27;] = &#x27;&#x27;;</span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <categories>
         <category>PHP</category>
@@ -1152,6 +1169,86 @@
       </categories>
       <tags>
         <tag>Wireless</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PHP和MySQL条件查询</title>
+    <url>/2021/07/09/PHP%E5%92%8CMySQL%E6%9D%A1%E4%BB%B6%E6%9F%A5%E8%AF%A2/</url>
+    <content><![CDATA[<p>PHP和MySQL条件查询</p>
+<span id="more"></span>
+
+
+
+<p>Set an always true condition in order to have constant <code>WHERE</code> clause.</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="variable">$sql</span> = <span class="string">&quot;SELECT * FROM myTable WHERE 1 = 1 &quot;</span></span><br><span class="line"><span class="keyword">if</span> (<span class="literal">true</span>) &#123;</span><br><span class="line">    <span class="variable">$sql</span> .= <span class="string">&quot; AND col1 LIKE &#x27;%val%&#x27; &quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>PHP</category>
+      </categories>
+      <tags>
+        <tag>PHP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PHP之MySQL数据库语句</title>
+    <url>/2021/07/06/PHP%E4%B9%8BMySQL%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%AD%E5%8F%A5/</url>
+    <content><![CDATA[<p>MySQL数据库语句</p>
+<span id="more"></span>
+
+
+
+<p>数据库增删改查<br>SELECT column FROM table<br>WHERE column operator value</p>
+<p>DELETE FROM table_name<br>WHERE column_name = some_value</p>
+<p>UPDATE table_name<br>SET column_name= new_value<br>WHERE column_name = some_value</p>
+<p>INSERT INTO table_name(column1,column2,…) VALUES (valuel, value2,…)</p>
+<p><strong>1.mysql_connect 打开一个到 MYSQL服务器的连接</strong></p>
+<p><code>$conn = mysql_connect(&quot;localhost:3306&quot;,&quot;root&quot;,&quot;root&quot;);</code></p>
+<p>2.<strong>mysql_select_db 选择MySQL数据库</strong></p>
+<p><code>mysql_select_db(&quot;phpdemo&quot;,$conn); </code></p>
+<p><strong>3.mysql_query    查询数据库返回一个result的标识</strong></p>
+<p><code>$result = mysql_query(&quot;select * from user&quot;);</code></p>
+<p>mysq1_ query（)仅对 SELECT, SHOW, DESCRIBE,EXPLAIN和其他语句语句返回resource<br>如果查询岀现、错误则返回 FALSE.</p>
+<p>对于其它类型的SQL语句，比如 IINSERT, UPDATE,DELETE,DROP之类，mysq1 auer（）在执行成<br>功时返回TRUE,出错时返回 FALSE.</p>
+<p><strong>4. mysql_fetch 把result中的数据提取出来</strong></p>
+<p><strong>mysql_fetch_assoc</strong></p>
+<p><code>$result_arr = mysql_fetch_assoc($result);  把result中的数据提取出来,一次只提取一条记录</code></p>
+<p><strong>mysql_fetch_assoc</strong><br>从结果集中取得一行作为关联数组</p>
+<p><strong>mysql_fetch_row</strong><br>从结果集中取得一行作为枚举数组</p>
+<p><strong>mysql_fetch_array</strong><br>从结果集中取得一行作为关联数组，或数字数组，或二者兼有</p>
+<p><a href="https://www.bilibili.com/video/BV15p411f7ey?p=3">https://www.bilibili.com/video/BV15p411f7ey?p=3</a></p>
+]]></content>
+      <categories>
+        <category>PHP</category>
+        <category>MySQL</category>
+      </categories>
+      <tags>
+        <tag>MySQL</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PHP获取MySQL数据的方法</title>
+    <url>/2021/07/09/PHP%E8%8E%B7%E5%8F%96MySQL%E6%95%B0%E6%8D%AE%E7%9A%84%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<p>PHP输出所有查询的数据</p>
+<span id="more"></span>
+
+
+
+<p>1.使用 PHP 函数的 <strong>mysqli_query()</strong> 及 <strong>SQL SELECT</strong> 命令来获取数据。</p>
+<p>2.然后通过 PHP 函数 <strong>mysqli_fetch_array()</strong> 来输出所有查询的数据。</p>
+<p>2.输出所有查询的数据</p>
+<p><strong>mysqli_fetch_array()</strong> 函数从结果集中取得一行作为关联数组，或数字数组，或二者兼有 返回根据从结果集取得的行生成的数组，如果没有更多行则返回 false。**</p>
+<p><strong>mysqli_fetch_assoc()</strong>, 该函数从结果集中取得一行作为关联数组。 返回根据从结果集取得的行生成的关联数组，如果没有更多行，则返回 false。</p>
+<h2 id="mysqli-fetch-assoc-和-mysqli-fetch-array-的区别"><a href="#mysqli-fetch-assoc-和-mysqli-fetch-array-的区别" class="headerlink" title="mysqli_fetch_assoc() 和 mysqli_fetch_array() 的区别"></a>mysqli_fetch_assoc() 和 mysqli_fetch_array() 的区别</h2><p>mysqli_fetch_assoc 和 mysqli_fetch_array 的主要区别在于结果数据的输出格式。</p>
+<p>mysqli_fetch_assoc 返回关联数组中的数据，而 mysqli_fetch_array 返回数字数组和/或关联数组中的数据。</p>
+<h3 id="mysqli-fetch-assoc"><a href="#mysqli-fetch-assoc" class="headerlink" title="mysqli_fetch_assoc()"></a>mysqli_fetch_assoc()</h3><p>mysqli_fetch_assoc 以列名作为结果数组的键返回关联数组中的数据。这意味着我们可以使用列名作为数组的键来访问输出数组。</p>
+<p><a href="https://www.runoob.com/mysql/mysql-select-query.html">https://www.runoob.com/mysql/mysql-select-query.html</a></p>
+<p><a href="https://www.runoob.com/mysql/mysql-where-clause.html">https://www.runoob.com/mysql/mysql-where-clause.html</a></p>
+]]></content>
+      <categories>
+        <category>PHP</category>
+      </categories>
+      <tags>
+        <tag>PHP</tag>
       </tags>
   </entry>
 </search>
