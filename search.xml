@@ -36,74 +36,6 @@
       </tags>
   </entry>
   <entry>
-    <title>C语言发展史 1972年</title>
-    <url>/2021/06/11/C/</url>
-    <content><![CDATA[<h2 id="C语言发展史-1972年"><a href="#C语言发展史-1972年" class="headerlink" title="C语言发展史 1972年"></a>C语言发展史 1972年</h2><span id="more"></span>
-
-<p>ALGOL，名称源自算法语言（英语：ALGOrithmic Language）的缩写，是一族指令式编程语言，发展于1950年代中期，对许多其它编程语言产生了重大影响。计算机协会在教科书及学术文章采用此语言做为描述算法的标准语法超过三十年。</p>
-<p>由大多数近代编程语言皆使用类似ALGOL的语法来看，<strong>ALGOL可与差不多同时期的FORTRAN、LISP及COBOL并列为四大最有影响力的高阶语言。</strong>ALGOL被设计用来避免FORTRAN中一些已知的问题，最终引领了许多其它编程语言的兴起，包括PL/I、Simula、BCPL、B、Pascal及C。</p>
-<p>ALGOL引入了代码块，并用begin⋯end来分隔。它是第一个利用词法作用域实作巢状函式的语言，也是第一个注重形式语言定义的语言，并在ALGOL 60报告中引入了巴科斯范式来作为设计语言形式文法的原则。</p>
-<p>ALGOL主要有三种规格，以初次发表的年份命名：</p>
-<p>ALGOL 58 – 原提议命名为IAL，代表International Algebraic Language。<br>ALGOL 60 – 在1960年代中期首先实作成X1 ALGOL 60，1963年修订。[5][6]<br>ALGOL 68 – 引入许多新元素，像是可变阵列、切片、平行化及算子识别。1973年修订。[7]<br>尼克劳斯·维尔特在发展Pascal之前，在ALGOL 60的基础下建立了ALGOL W。ALGOL W本是下一代ALGOL的提议，但ALGOL委员会决定采用更先进复杂的设计，而不是一个简洁化ALGOL 60。</p>
-<p>ALGOL 60（源自ALGOrithmic Language 1960的缩写），一种编程语言，是ALGOL语言家族中的成员之一。根据ALGOL 58的基础，它在1960年被创造，并影响到其后的CPL、BCPL、B语言、Pascal、Simula、C语言，在编程语言中有着很大的影响力。它的后继者是ALGOL 68与ALGOL W。</p>
-<p>CPL（英语：Combined Programming Language，原名Cambridge Programming Language），一种计算机编程语言。源自于ALGOL 60，在1963年，由英国的剑桥大学和伦敦大学首先开发出来。CPL语言在ALGOL 60的基础上更接近硬件一些，但规模比较大，难以实现。BCPL是它的后继语言。</p>
-<p>BCPL（英语：Basic Combined Programming Language），是一种计算机程序设计语言，源自更早的CPL语言，1967年由剑桥大学的马丁·理察德所发展出来的 。</p>
-<p>B语言是一种通用的程序设计语言。自从被C语言取代之后，它几乎已遭弃置。</p>
-<p>B语言大约是于1969年时由美国贝尔实验室的计算机科学家──肯·汤普森在丹尼斯·利奇的支持下设计出来的。肯·汤普森最初想在UNIX上开发一个Fortran编译器，但后来引进了BCPL的风格，形成一个新的语言。</p>
-<p>后来，丹尼斯·利奇以B语言为基础开发出C语言，至此C语言渐渐发展成为目前世界上最常用的编程语言之一。</p>
-<h2 id="C语言早期发展"><a href="#C语言早期发展" class="headerlink" title="C语言早期发展"></a>C语言早期发展</h2><p>1969-1973年在美国电话电报公司（AT&amp;T）贝尔实验室开始了C语言的最初研发。根据C语言的发明者丹尼斯·里奇 (Dennis Ritchie) 说，<strong>C 语言最重要的研发时期是在1972年。</strong></p>
-<p>说明：丹尼斯·里奇(Dennis Ritchie)，C语言之父，UNIX之父。1978年与布莱恩·科尔尼干(Brian Kernighan)一起出版了名著《C程序设计语言(The C Programming Language)》，现在此书已翻译成多种语言，成为C语言方面最权威的教材之一。2011年10月12日（北京时间为10月13日），丹尼斯·里奇去世，享年70岁。</p>
-<p>C语言之所以命名为C，是因为C语言源自Ken Thompson发明的 B语言，而B语言则源自BCPL语言。</p>
-<p>C语言的诞生是和UNIX操作系统的开发密不可分的，原先的UNIX操作系统都是用汇编语言写的，1973年UNIX操作系统的核心用C语言改写，从此以后，C语言成为编写操作系统的主要语言。</p>
-<h2 id="K-amp-R-C"><a href="#K-amp-R-C" class="headerlink" title="K&amp;R C"></a>K&amp;R C</h2><p>1978年，丹尼斯·里奇(Dennis Ritchie)和布莱恩·科尔尼干(Brian Kernighan)出版了一本书，名叫《The C Programming Language》（中文译名为《C程序设计语言》）。这本书被C语言开发者们称为“K&amp;R”，很多年来被当作C语言的非正式的标准说明。人们称这个版本的C语言为“K&amp;R C”。</p>
-<p>1988年丹尼斯·里奇(Dennis Ritchie)和布莱恩·科尔尼干(Brian Kernighan)修改此书，出版了《The C Programming Language》第二版，第二版涵盖了ANSI C语言标准。第二版从此成为大学计算机教育有关C语言的经典教材，多年后也没再出现过更好的版本。</p>
-<h2 id="ANSI-C-和-ISO-C"><a href="#ANSI-C-和-ISO-C" class="headerlink" title="ANSI C 和 ISO C"></a>ANSI C 和 ISO C</h2><p>1970到80年代，C语言被广泛应用，从大型主机到小型微机，也衍生了C语言的很多不同版本。</p>
-<p>为统一C语言版本，1983年美国国家标准局（American National Standards Institute，简称ANSI）成立了一个委员会，来制定C语言标准。1989年C语言标准被批准，被称为ANSI X3.159-1989 “Programming Language C”。这个版本的C语言标准通常被称为ANSI C。又由于这个版本是 89 年完成制定的，因此也被称为 C89。</p>
-<p>后来 ANSI 把这个标准提交到 ISO（国际化标准组织），1990年被 ISO 采纳为国际标准，称为 ISO C。又因为这个版本是1990年发布的，因此也被称为C90。</p>
-<p>ANSI C(C89) 与 ISO C(C90)内容基本相同，主要是格式组织不一样。</p>
-<p>因为 ANSI 与 ISO 的C标准内容基本相同，所以对于C标准，可以称为ANSI C，也可以说是ISO C，或者 ANSI / ISO C。</p>
-<p>注意：以后大家看到 ANSI C、ISO C、C89、C90，要知道这些标准的内容都是一样的。</p>
-<p>目前，几乎所有的开发工具都支持 ANSI / ISO C 标准。是C语言用得最广泛的一个标准版本。</p>
-<h2 id="C99"><a href="#C99" class="headerlink" title="C99"></a>C99</h2><p>在ANSI C标准确立之后，C语言的规范在很长一段时间内都没有大的变动。1995年C程序设计语言工作组对 C语言进行了一些修改，成为后来的1999年发布的 ISO/IEC 9899:1999标准，通常被成为C99。</p>
-<p>但是各个公司对C99的支持所表现出来的兴趣不同。当GCC和其它一些商业编译器支持C99的大部分特性的時候，微软和Borland却似乎对此不感兴趣。</p>
-<p>说明：GCC（GNU Compiler Collection，GNU编译器集合）是一套由GNU工程开发的支持多种编程语言的编译器。</p>
-<h2 id="C语言对其它语言的影响"><a href="#C语言对其它语言的影响" class="headerlink" title="C语言对其它语言的影响"></a>C语言对其它语言的影响</h2><p>很多编程语言都深受C语言的影响，比如C++（原先是C语言的一个扩展）、C#、Java、PHP、Javascript、Perl、LPC和UNIX的C Shell等。</p>
-]]></content>
-      <categories>
-        <category>Java</category>
-        <category>history</category>
-      </categories>
-      <tags>
-        <tag>history</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Java发展史 1995年</title>
-    <url>/2021/06/11/Java/</url>
-    <content><![CDATA[<h1 id="Java发展史-1995年"><a href="#Java发展史-1995年" class="headerlink" title="Java发展史 1995年"></a>Java发展史 1995年</h1><span id="more"></span>
-
-<p>Java自1995诞生，至今已经20多年的历史。</p>
-<p>Java的名字的来源：Java是印度尼西亚爪哇岛的英文名称，因盛产咖啡而闻名。Java语言中的许多库类名称，多与咖啡有关，如</p>
-<p>JavaBeans(咖啡豆)、NetBeans(网络豆)以及ObjectBeans (对象豆)等等。SUN和JAVA的标识也正是一杯正冒着热气的咖啡。<br>据James Gosling回忆，最初这个为TV机顶盒所设计的语言在Sun内部一直称为Green项目。我们的新语言需要一个名字。Gosling注意到自己办公室外一棵茂密的橡树Oak，这是一种在硅谷很常见的树。所以他将这个新语言命名为Oak。但Oak是另外一个注册公司的名字。这个名字不可能再用了。</p>
-<p>在命名征集会上，大家提出了很多名字。最后按大家的评选次序，将十几个名字排列成表，上报给商标律师。排在第一位的是Silk。尽管大家都喜欢这个名字，但遭到James Gosling的坚决反对。排在第二和第三的都没有通过律师这一关。只有排在第四位的名字、得到了所有人的认可和律师的通过，这个名字就是Java。</p>
-<p>20多年来，Java就像爪哇咖啡一样誉满全球，成为实至名归的企业级应用平台的霸主。而Java语言也如同咖啡一般醇香动人。</p>
-<p>Java是一种广泛使用的计算机编程语言，拥有跨平台、面向对象、泛型编程的特性，广泛应用于企业级Web应用开发和移动应用开发。</p>
-<p>任职于Sun微系统的詹姆斯·高斯林等人于1990年代初开发Java语言的雏形，最初被命名为Oak，目标设置在家用电器等小型系统的编程语言，应用在电视机、电话、闹钟、烤面包机等家用电器的控制和通信。由于这些智能化家电的市场需求没有预期的高，太阳计算机系统（Sun公司）放弃了该项计划。随着1990年代互联网的发展，Sun公司看见Oak在互联网上应用的前景，于是改造了Oak，于1995年5月以Java的名称正式发布。Java伴随着互联网的迅猛发展而发展，逐渐成为重要的网络编程语言。</p>
-<p>Java编程语言的风格十分接近C++语言。继承了C++语言面向对象技术的核心，舍弃了容易引起错误的指针，以引用取代；移除了C++中的运算符重载和多重继承特性，用接口取代；增加垃圾回收器功能。在Java SE 1.5版本中引入了泛型编程、类型安全的枚举、不定长参数和自动装/拆箱特性。Sun微系统对Java语言的解释是：“Java编程语言是个简单、面向对象、分布式、解释性、健壮、安全、与系统无关、可移植、高性能、多线程和动态的语言”。</p>
-<p>Java不同于一般的编译语言或解释型语言。它首先将源代码编译成字节码，再依赖各种不同平台上的虚拟机来解释执行字节码，从而具有“一次编写，到处运行”的跨平台特性。在早期JVM中，这在一定程度上降低了Java程序的运行效率。但在J2SE1.4.2发布后，Java的运行速度有了大幅提升。</p>
-<p>与传统类型不同，Sun公司在推出Java时就将其作为开放的技术。全球的Java开发公司被要求所设计的Java软件必须相互兼容。“Java语言靠群体的力量而非公司的力量”是Sun公司的口号之一，并获得了广大软件开发商的认同。这与微软公司所倡导的注重精英和封闭式的模式完全不同，此外，微软公司后来推出了与之竞争的.NET平台以及模仿Java的C#语言。后来Sun公司被甲骨文公司并购，Java也随之成为甲骨文公司的产品。</p>
-<p>现时，移动操作系统Android大部分的代码采用Java编程语言编程。</p>
-<p><a href="https://zh.wikipedia.org/wiki/Java">https://zh.wikipedia.org/wiki/Java</a></p>
-]]></content>
-      <categories>
-        <category>Java</category>
-        <category>history</category>
-      </categories>
-      <tags>
-        <tag>history</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Git从零开始</title>
     <url>/2021/05/26/Git%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
     <content><![CDATA[<p>程序员从git开始，菜鸟和高手的分水岭</p>
@@ -150,6 +82,48 @@
       </categories>
       <tags>
         <tag>Docker</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C语言发展史 1972年</title>
+    <url>/2021/06/11/C/</url>
+    <content><![CDATA[<h2 id="C语言发展史-1972年"><a href="#C语言发展史-1972年" class="headerlink" title="C语言发展史 1972年"></a>C语言发展史 1972年</h2><span id="more"></span>
+
+<p>ALGOL，名称源自算法语言（英语：ALGOrithmic Language）的缩写，是一族指令式编程语言，发展于1950年代中期，对许多其它编程语言产生了重大影响。计算机协会在教科书及学术文章采用此语言做为描述算法的标准语法超过三十年。</p>
+<p>由大多数近代编程语言皆使用类似ALGOL的语法来看，<strong>ALGOL可与差不多同时期的FORTRAN、LISP及COBOL并列为四大最有影响力的高阶语言。</strong>ALGOL被设计用来避免FORTRAN中一些已知的问题，最终引领了许多其它编程语言的兴起，包括PL/I、Simula、BCPL、B、Pascal及C。</p>
+<p>ALGOL引入了代码块，并用begin⋯end来分隔。它是第一个利用词法作用域实作巢状函式的语言，也是第一个注重形式语言定义的语言，并在ALGOL 60报告中引入了巴科斯范式来作为设计语言形式文法的原则。</p>
+<p>ALGOL主要有三种规格，以初次发表的年份命名：</p>
+<p>ALGOL 58 – 原提议命名为IAL，代表International Algebraic Language。<br>ALGOL 60 – 在1960年代中期首先实作成X1 ALGOL 60，1963年修订。[5][6]<br>ALGOL 68 – 引入许多新元素，像是可变阵列、切片、平行化及算子识别。1973年修订。[7]<br>尼克劳斯·维尔特在发展Pascal之前，在ALGOL 60的基础下建立了ALGOL W。ALGOL W本是下一代ALGOL的提议，但ALGOL委员会决定采用更先进复杂的设计，而不是一个简洁化ALGOL 60。</p>
+<p>ALGOL 60（源自ALGOrithmic Language 1960的缩写），一种编程语言，是ALGOL语言家族中的成员之一。根据ALGOL 58的基础，它在1960年被创造，并影响到其后的CPL、BCPL、B语言、Pascal、Simula、C语言，在编程语言中有着很大的影响力。它的后继者是ALGOL 68与ALGOL W。</p>
+<p>CPL（英语：Combined Programming Language，原名Cambridge Programming Language），一种计算机编程语言。源自于ALGOL 60，在1963年，由英国的剑桥大学和伦敦大学首先开发出来。CPL语言在ALGOL 60的基础上更接近硬件一些，但规模比较大，难以实现。BCPL是它的后继语言。</p>
+<p>BCPL（英语：Basic Combined Programming Language），是一种计算机程序设计语言，源自更早的CPL语言，1967年由剑桥大学的马丁·理察德所发展出来的 。</p>
+<p>B语言是一种通用的程序设计语言。自从被C语言取代之后，它几乎已遭弃置。</p>
+<p>B语言大约是于1969年时由美国贝尔实验室的计算机科学家──肯·汤普森在丹尼斯·利奇的支持下设计出来的。肯·汤普森最初想在UNIX上开发一个Fortran编译器，但后来引进了BCPL的风格，形成一个新的语言。</p>
+<p>后来，丹尼斯·利奇以B语言为基础开发出C语言，至此C语言渐渐发展成为目前世界上最常用的编程语言之一。</p>
+<h2 id="C语言早期发展"><a href="#C语言早期发展" class="headerlink" title="C语言早期发展"></a>C语言早期发展</h2><p>1969-1973年在美国电话电报公司（AT&amp;T）贝尔实验室开始了C语言的最初研发。根据C语言的发明者丹尼斯·里奇 (Dennis Ritchie) 说，<strong>C 语言最重要的研发时期是在1972年。</strong></p>
+<p>说明：丹尼斯·里奇(Dennis Ritchie)，C语言之父，UNIX之父。1978年与布莱恩·科尔尼干(Brian Kernighan)一起出版了名著《C程序设计语言(The C Programming Language)》，现在此书已翻译成多种语言，成为C语言方面最权威的教材之一。2011年10月12日（北京时间为10月13日），丹尼斯·里奇去世，享年70岁。</p>
+<p>C语言之所以命名为C，是因为C语言源自Ken Thompson发明的 B语言，而B语言则源自BCPL语言。</p>
+<p>C语言的诞生是和UNIX操作系统的开发密不可分的，原先的UNIX操作系统都是用汇编语言写的，1973年UNIX操作系统的核心用C语言改写，从此以后，C语言成为编写操作系统的主要语言。</p>
+<h2 id="K-amp-R-C"><a href="#K-amp-R-C" class="headerlink" title="K&amp;R C"></a>K&amp;R C</h2><p>1978年，丹尼斯·里奇(Dennis Ritchie)和布莱恩·科尔尼干(Brian Kernighan)出版了一本书，名叫《The C Programming Language》（中文译名为《C程序设计语言》）。这本书被C语言开发者们称为“K&amp;R”，很多年来被当作C语言的非正式的标准说明。人们称这个版本的C语言为“K&amp;R C”。</p>
+<p>1988年丹尼斯·里奇(Dennis Ritchie)和布莱恩·科尔尼干(Brian Kernighan)修改此书，出版了《The C Programming Language》第二版，第二版涵盖了ANSI C语言标准。第二版从此成为大学计算机教育有关C语言的经典教材，多年后也没再出现过更好的版本。</p>
+<h2 id="ANSI-C-和-ISO-C"><a href="#ANSI-C-和-ISO-C" class="headerlink" title="ANSI C 和 ISO C"></a>ANSI C 和 ISO C</h2><p>1970到80年代，C语言被广泛应用，从大型主机到小型微机，也衍生了C语言的很多不同版本。</p>
+<p>为统一C语言版本，1983年美国国家标准局（American National Standards Institute，简称ANSI）成立了一个委员会，来制定C语言标准。1989年C语言标准被批准，被称为ANSI X3.159-1989 “Programming Language C”。这个版本的C语言标准通常被称为ANSI C。又由于这个版本是 89 年完成制定的，因此也被称为 C89。</p>
+<p>后来 ANSI 把这个标准提交到 ISO（国际化标准组织），1990年被 ISO 采纳为国际标准，称为 ISO C。又因为这个版本是1990年发布的，因此也被称为C90。</p>
+<p>ANSI C(C89) 与 ISO C(C90)内容基本相同，主要是格式组织不一样。</p>
+<p>因为 ANSI 与 ISO 的C标准内容基本相同，所以对于C标准，可以称为ANSI C，也可以说是ISO C，或者 ANSI / ISO C。</p>
+<p>注意：以后大家看到 ANSI C、ISO C、C89、C90，要知道这些标准的内容都是一样的。</p>
+<p>目前，几乎所有的开发工具都支持 ANSI / ISO C 标准。是C语言用得最广泛的一个标准版本。</p>
+<h2 id="C99"><a href="#C99" class="headerlink" title="C99"></a>C99</h2><p>在ANSI C标准确立之后，C语言的规范在很长一段时间内都没有大的变动。1995年C程序设计语言工作组对 C语言进行了一些修改，成为后来的1999年发布的 ISO/IEC 9899:1999标准，通常被成为C99。</p>
+<p>但是各个公司对C99的支持所表现出来的兴趣不同。当GCC和其它一些商业编译器支持C99的大部分特性的時候，微软和Borland却似乎对此不感兴趣。</p>
+<p>说明：GCC（GNU Compiler Collection，GNU编译器集合）是一套由GNU工程开发的支持多种编程语言的编译器。</p>
+<h2 id="C语言对其它语言的影响"><a href="#C语言对其它语言的影响" class="headerlink" title="C语言对其它语言的影响"></a>C语言对其它语言的影响</h2><p>很多编程语言都深受C语言的影响，比如C++（原先是C语言的一个扩展）、C#、Java、PHP、Javascript、Perl、LPC和UNIX的C Shell等。</p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>history</category>
+      </categories>
+      <tags>
+        <tag>history</tag>
       </tags>
   </entry>
   <entry>
@@ -221,6 +195,103 @@
       </tags>
   </entry>
   <entry>
+    <title>Java发展史 1995年</title>
+    <url>/2021/06/11/Java/</url>
+    <content><![CDATA[<h1 id="Java发展史-1995年"><a href="#Java发展史-1995年" class="headerlink" title="Java发展史 1995年"></a>Java发展史 1995年</h1><span id="more"></span>
+
+<p>Java自1995诞生，至今已经20多年的历史。</p>
+<p>Java的名字的来源：Java是印度尼西亚爪哇岛的英文名称，因盛产咖啡而闻名。Java语言中的许多库类名称，多与咖啡有关，如</p>
+<p>JavaBeans(咖啡豆)、NetBeans(网络豆)以及ObjectBeans (对象豆)等等。SUN和JAVA的标识也正是一杯正冒着热气的咖啡。<br>据James Gosling回忆，最初这个为TV机顶盒所设计的语言在Sun内部一直称为Green项目。我们的新语言需要一个名字。Gosling注意到自己办公室外一棵茂密的橡树Oak，这是一种在硅谷很常见的树。所以他将这个新语言命名为Oak。但Oak是另外一个注册公司的名字。这个名字不可能再用了。</p>
+<p>在命名征集会上，大家提出了很多名字。最后按大家的评选次序，将十几个名字排列成表，上报给商标律师。排在第一位的是Silk。尽管大家都喜欢这个名字，但遭到James Gosling的坚决反对。排在第二和第三的都没有通过律师这一关。只有排在第四位的名字、得到了所有人的认可和律师的通过，这个名字就是Java。</p>
+<p>20多年来，Java就像爪哇咖啡一样誉满全球，成为实至名归的企业级应用平台的霸主。而Java语言也如同咖啡一般醇香动人。</p>
+<p>Java是一种广泛使用的计算机编程语言，拥有跨平台、面向对象、泛型编程的特性，广泛应用于企业级Web应用开发和移动应用开发。</p>
+<p>任职于Sun微系统的詹姆斯·高斯林等人于1990年代初开发Java语言的雏形，最初被命名为Oak，目标设置在家用电器等小型系统的编程语言，应用在电视机、电话、闹钟、烤面包机等家用电器的控制和通信。由于这些智能化家电的市场需求没有预期的高，太阳计算机系统（Sun公司）放弃了该项计划。随着1990年代互联网的发展，Sun公司看见Oak在互联网上应用的前景，于是改造了Oak，于1995年5月以Java的名称正式发布。Java伴随着互联网的迅猛发展而发展，逐渐成为重要的网络编程语言。</p>
+<p>Java编程语言的风格十分接近C++语言。继承了C++语言面向对象技术的核心，舍弃了容易引起错误的指针，以引用取代；移除了C++中的运算符重载和多重继承特性，用接口取代；增加垃圾回收器功能。在Java SE 1.5版本中引入了泛型编程、类型安全的枚举、不定长参数和自动装/拆箱特性。Sun微系统对Java语言的解释是：“Java编程语言是个简单、面向对象、分布式、解释性、健壮、安全、与系统无关、可移植、高性能、多线程和动态的语言”。</p>
+<p>Java不同于一般的编译语言或解释型语言。它首先将源代码编译成字节码，再依赖各种不同平台上的虚拟机来解释执行字节码，从而具有“一次编写，到处运行”的跨平台特性。在早期JVM中，这在一定程度上降低了Java程序的运行效率。但在J2SE1.4.2发布后，Java的运行速度有了大幅提升。</p>
+<p>与传统类型不同，Sun公司在推出Java时就将其作为开放的技术。全球的Java开发公司被要求所设计的Java软件必须相互兼容。“Java语言靠群体的力量而非公司的力量”是Sun公司的口号之一，并获得了广大软件开发商的认同。这与微软公司所倡导的注重精英和封闭式的模式完全不同，此外，微软公司后来推出了与之竞争的.NET平台以及模仿Java的C#语言。后来Sun公司被甲骨文公司并购，Java也随之成为甲骨文公司的产品。</p>
+<p>现时，移动操作系统Android大部分的代码采用Java编程语言编程。</p>
+<p><a href="https://zh.wikipedia.org/wiki/Java">https://zh.wikipedia.org/wiki/Java</a></p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>history</category>
+      </categories>
+      <tags>
+        <tag>history</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ORM</title>
+    <url>/2021/06/11/ORM/</url>
+    <content><![CDATA[<p>ORM是Object Relation Mapping的缩写，顾名思义，即对象关系映射。</p>
+<span id="more"></span>
+<h2 id="ORM"><a href="#ORM" class="headerlink" title="ORM"></a>ORM</h2><p>ORM是Object Relation Mapping的缩写，顾名思义，即对象关系映射。</p>
+<p>ORM是一种以面向对象的方式来进行数据库操作的技术。Web开发中常用的语言，都会有对应的ORM框架。而Hibernate就是Java开发中一种常用ORM框架，另一个现在流行的ORM框架是<strong>Mybatis</strong>。</p>
+<p>为什么需要ORM框架？</p>
+<p>简单地理解，通过Java进行数据库访问的正常流程可以分为以下几步：</p>
+<ol>
+<li>准备好SQL语句</li>
+<li>调用JDBC的API传入SQL语句，设置参数</li>
+<li>解析JDBC返回的结果</li>
+</ol>
+<p>这个过程实际上非常麻烦，比如：</p>
+<ul>
+<li>在Java代码中拼接SQL非常麻烦，而且易于出错</li>
+<li>JDBC的代码调用有很多重复性的代码</li>
+<li>从JDBC返回的结果转换成领域模型的Java对象很繁琐</li>
+</ul>
+<p>而使用ORM框架，则可以让我们用面向对象的方式来操作数据库，比如通过一个简单的函数调用就完成上面整个流程，直接返回映射为Java对象的结果。这个流程中很大一部分工作其实可以交给ORM自动化地帮我们执行。对，类似MVC框架，ORM框架会帮你处理好相关的繁琐事情！</p>
+<p>作者：David<br>链接：<a href="https://www.zhihu.com/question/21142149/answer/148286909">https://www.zhihu.com/question/21142149/answer/148286909</a></p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>ORM</category>
+      </categories>
+      <tags>
+        <tag>ORM</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux的SSH隧道</title>
+    <url>/2021/06/06/Linux%E7%9A%84SSH%E9%9A%A7%E9%81%93/</url>
+    <content><![CDATA[<p>通过 ssh 的端口转发或者隧道 (tunneling) 功能，可以实现: 加密 SSH Client 端至 SSH Server 端之间的通讯数据.突破防火墙的限制完成一些之前无法建立的 TCP 连接。</p>
+<span id="more"></span>
+
+<h2 id="SSH隧道tunnel的3个种类"><a href="#SSH隧道tunnel的3个种类" class="headerlink" title="SSH隧道tunnel的3个种类"></a>SSH隧道tunnel的3个种类</h2><ol>
+<li>本地转发</li>
+<li>远程转发</li>
+<li>动态转发</li>
+</ol>
+<h1 id="SSH隧道的三种角色"><a href="#SSH隧道的三种角色" class="headerlink" title="SSH隧道的三种角色"></a>SSH隧道的三种角色</h1><ol>
+<li>SSH客户端</li>
+<li>SSH服务端</li>
+<li>应用</li>
+</ol>
+<h3 id="本地转发"><a href="#本地转发" class="headerlink" title="本地转发"></a>本地转发</h3><h4 id="应用场景："><a href="#应用场景：" class="headerlink" title="应用场景："></a>应用场景：</h4><ol>
+<li>自己电脑 内网直接访问数据库服务器3306,安全原因，被防火墙阻挡，</li>
+<li>自己电脑 访问外网某FTP服务器，但是21被防火墙阻挡, 但是可以SSH公网的自己的服务器</li>
+</ol>
+<h4 id="命令："><a href="#命令：" class="headerlink" title="命令："></a>命令：</h4><p>Local 为ssh客户端一方<br>remote为ssh服务端一方</p>
+<p><code>ssh -L local_port:remote_address:remote_port username@server.com</code></p>
+<p>ssh -L 8888:localhost:1234 <a href="mailto:&#x62;&#x6f;&#98;&#x40;&#x73;&#x73;&#x68;&#46;&#121;&#x6f;&#117;&#114;&#111;&#102;&#x66;&#x69;&#99;&#x65;&#x2e;&#x63;&#x6f;&#x6d;">&#x62;&#x6f;&#98;&#x40;&#x73;&#x73;&#x68;&#46;&#121;&#x6f;&#117;&#114;&#111;&#102;&#x66;&#x69;&#99;&#x65;&#x2e;&#x63;&#x6f;&#x6d;</a><br>ssh -L 8888:192.168.1.111:1234 <a href="mailto:&#x62;&#x6f;&#98;&#64;&#115;&#115;&#104;&#x2e;&#121;&#111;&#x75;&#x72;&#111;&#102;&#x66;&#105;&#x63;&#x65;&#46;&#99;&#x6f;&#x6d;">&#x62;&#x6f;&#98;&#64;&#115;&#115;&#104;&#x2e;&#121;&#111;&#x75;&#x72;&#111;&#102;&#x66;&#105;&#x63;&#x65;&#46;&#99;&#x6f;&#x6d;</a></p>
+<h3 id="远程转发"><a href="#远程转发" class="headerlink" title="远程转发"></a>远程转发</h3><h4 id="应用场景：-1"><a href="#应用场景：-1" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-1"><a href="#命令：-1" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -R remote_port:local_address:local_port username@server.com</code></p>
+<p>ssh -R 8888:localhost:1234 <a href="mailto:&#x62;&#111;&#x62;&#x40;&#115;&#115;&#x68;&#x2e;&#x79;&#x6f;&#x75;&#114;&#x6f;&#x66;&#102;&#x69;&#99;&#101;&#x2e;&#99;&#111;&#x6d;">&#x62;&#111;&#x62;&#x40;&#115;&#115;&#x68;&#x2e;&#x79;&#x6f;&#x75;&#114;&#x6f;&#x66;&#102;&#x69;&#99;&#101;&#x2e;&#99;&#111;&#x6d;</a></p>
+<h3 id="动态转发"><a href="#动态转发" class="headerlink" title="动态转发"></a>动态转发</h3><h4 id="应用场景：-2"><a href="#应用场景：-2" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-2"><a href="#命令：-2" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -D local_port username@server.com</code></p>
+<p>ssh -D 8888 <a href="mailto:&#x62;&#111;&#x62;&#x40;&#x73;&#115;&#104;&#46;&#121;&#111;&#x75;&#x72;&#x68;&#111;&#x6d;&#101;&#46;&#x63;&#x6f;&#x6d;">&#x62;&#111;&#x62;&#x40;&#x73;&#115;&#104;&#46;&#121;&#111;&#x75;&#x72;&#x68;&#111;&#x6d;&#101;&#46;&#x63;&#x6f;&#x6d;</a></p>
+<h3 id="参数介绍"><a href="#参数介绍" class="headerlink" title="参数介绍"></a>参数介绍</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">-N 告诉 SSH 客户端，这个连接不需要执行任何命令，也就是说不需要打开远程 shell，仅仅做端口转发；</span><br><span class="line">-f 告诉SSH客户端在后台运行，要关闭这个后台连接，就只有用 kill 命令去杀掉进程；</span><br><span class="line">-L 做本地映射端口</span><br><span class="line">-R 做远程映射端口</span><br><span class="line">-D 做动态端口映射</span><br><span class="line">-C 压缩数据传输</span><br></pre></td></tr></table></figure>
+
+<h2 id="如何关闭这个SSH隧道"><a href="#如何关闭这个SSH隧道" class="headerlink" title="如何关闭这个SSH隧道"></a>如何关闭这个SSH隧道</h2><p>方法1：<br>ps aux | grep 3306   找到pid<br>kill <pid>   kill pid</p>
+<p>方法2：<br>终止你从终端打开的所有ssh会话。<br>sudo killall ssh</p>
+<p>参考资料：<br><a href="https://gohalo.me/post/ssh-proxy.html">https://gohalo.me/post/ssh-proxy.html</a><br><a href="https://johnliu55.tw/ssh-tunnel.html">https://johnliu55.tw/ssh-tunnel.html</a><br><a href="https://www.howtogeek.com/168145/how-to-use-ssh-tunneling/">https://www.howtogeek.com/168145/how-to-use-ssh-tunneling/</a></p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>思科Nexus</title>
     <url>/2021/06/04/Nexus/</url>
     <content><![CDATA[<p>Nexus vPC</p>
@@ -246,43 +317,161 @@
       </tags>
   </entry>
   <entry>
-    <title>Linux的SSH隧道</title>
-    <url>/2021/06/06/Linux%E7%9A%84SSH%E9%9A%A7%E9%81%93/</url>
-    <content><![CDATA[<p>通过 ssh 的端口转发或者隧道 (tunneling) 功能，可以实现: 加密 SSH Client 端至 SSH Server 端之间的通讯数据.突破防火墙的限制完成一些之前无法建立的 TCP 连接。</p>
+    <title>PHP 发展史 丹麦爱玩个人主页的青年 1995 27岁</title>
+    <url>/2021/06/11/PHP/</url>
+    <content><![CDATA[<p>PHP 发展史 丹麦爱玩个人主页的青年 1995 27岁</p>
 <span id="more"></span>
 
-<h2 id="SSH隧道tunnel的3个种类"><a href="#SSH隧道tunnel的3个种类" class="headerlink" title="SSH隧道tunnel的3个种类"></a>SSH隧道tunnel的3个种类</h2><ol>
-<li>本地转发</li>
-<li>远程转发</li>
-<li>动态转发</li>
-</ol>
-<h1 id="SSH隧道的三种角色"><a href="#SSH隧道的三种角色" class="headerlink" title="SSH隧道的三种角色"></a>SSH隧道的三种角色</h1><ol>
-<li>SSH客户端</li>
-<li>SSH服务端</li>
-<li>应用</li>
-</ol>
-<h3 id="本地转发"><a href="#本地转发" class="headerlink" title="本地转发"></a>本地转发</h3><h4 id="应用场景："><a href="#应用场景：" class="headerlink" title="应用场景："></a>应用场景：</h4><ol>
-<li>自己电脑 内网直接访问数据库服务器3306,安全原因，被防火墙阻挡，</li>
-<li>自己电脑 访问外网某FTP服务器，但是21被防火墙阻挡, 但是可以SSH公网的自己的服务器</li>
-</ol>
-<h4 id="命令："><a href="#命令：" class="headerlink" title="命令："></a>命令：</h4><p>Local 为ssh客户端一方<br>remote为ssh服务端一方</p>
-<p><code>ssh -L local_port:remote_address:remote_port username@server.com</code></p>
-<p>ssh -L 8888:localhost:1234 <a href="mailto:&#x62;&#x6f;&#98;&#64;&#x73;&#x73;&#x68;&#x2e;&#x79;&#x6f;&#x75;&#114;&#x6f;&#102;&#x66;&#x69;&#x63;&#x65;&#46;&#99;&#x6f;&#x6d;">&#x62;&#x6f;&#98;&#64;&#x73;&#x73;&#x68;&#x2e;&#x79;&#x6f;&#x75;&#114;&#x6f;&#102;&#x66;&#x69;&#x63;&#x65;&#46;&#99;&#x6f;&#x6d;</a><br>ssh -L 8888:192.168.1.111:1234 <a href="mailto:&#x62;&#x6f;&#x62;&#64;&#115;&#115;&#104;&#x2e;&#x79;&#111;&#x75;&#114;&#111;&#x66;&#102;&#105;&#x63;&#101;&#46;&#x63;&#111;&#109;">&#x62;&#x6f;&#x62;&#64;&#115;&#115;&#104;&#x2e;&#x79;&#111;&#x75;&#114;&#111;&#x66;&#102;&#105;&#x63;&#101;&#46;&#x63;&#111;&#109;</a></p>
-<h3 id="远程转发"><a href="#远程转发" class="headerlink" title="远程转发"></a>远程转发</h3><h4 id="应用场景：-1"><a href="#应用场景：-1" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-1"><a href="#命令：-1" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -R remote_port:local_address:local_port username@server.com</code></p>
-<p>ssh -R 8888:localhost:1234 <a href="mailto:&#98;&#x6f;&#98;&#x40;&#x73;&#x73;&#x68;&#46;&#x79;&#x6f;&#x75;&#114;&#111;&#x66;&#102;&#105;&#x63;&#101;&#x2e;&#x63;&#x6f;&#x6d;">&#98;&#x6f;&#98;&#x40;&#x73;&#x73;&#x68;&#46;&#x79;&#x6f;&#x75;&#114;&#111;&#x66;&#102;&#105;&#x63;&#101;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
-<h3 id="动态转发"><a href="#动态转发" class="headerlink" title="动态转发"></a>动态转发</h3><h4 id="应用场景：-2"><a href="#应用场景：-2" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-2"><a href="#命令：-2" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -D local_port username@server.com</code></p>
-<p>ssh -D 8888 <a href="mailto:&#x62;&#111;&#x62;&#x40;&#x73;&#115;&#x68;&#46;&#121;&#x6f;&#x75;&#114;&#x68;&#x6f;&#109;&#x65;&#x2e;&#99;&#x6f;&#x6d;">&#x62;&#111;&#x62;&#x40;&#x73;&#115;&#x68;&#46;&#121;&#x6f;&#x75;&#114;&#x68;&#x6f;&#109;&#x65;&#x2e;&#99;&#x6f;&#x6d;</a></p>
-<h3 id="参数介绍"><a href="#参数介绍" class="headerlink" title="参数介绍"></a>参数介绍</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">-N 告诉 SSH 客户端，这个连接不需要执行任何命令，也就是说不需要打开远程 shell，仅仅做端口转发；</span><br><span class="line">-f 告诉SSH客户端在后台运行，要关闭这个后台连接，就只有用 kill 命令去杀掉进程；</span><br><span class="line">-L 做本地映射端口</span><br><span class="line">-R 做远程映射端口</span><br><span class="line">-D 做动态端口映射</span><br><span class="line">-C 压缩数据传输</span><br></pre></td></tr></table></figure>
-
-<h2 id="如何关闭这个SSH隧道"><a href="#如何关闭这个SSH隧道" class="headerlink" title="如何关闭这个SSH隧道"></a>如何关闭这个SSH隧道</h2><p>方法1：<br>ps aux | grep 3306   找到pid<br>kill <pid>   kill pid</p>
-<p>方法2：<br>终止你从终端打开的所有ssh会话。<br>sudo killall ssh</p>
-<p>参考资料：<br><a href="https://gohalo.me/post/ssh-proxy.html">https://gohalo.me/post/ssh-proxy.html</a><br><a href="https://johnliu55.tw/ssh-tunnel.html">https://johnliu55.tw/ssh-tunnel.html</a><br><a href="https://www.howtogeek.com/168145/how-to-use-ssh-tunneling/">https://www.howtogeek.com/168145/how-to-use-ssh-tunneling/</a></p>
+<h2 id="PHP-发展史-丹麦爱玩个人主页的青年-1995-27岁"><a href="#PHP-发展史-丹麦爱玩个人主页的青年-1995-27岁" class="headerlink" title="PHP 发展史 丹麦爱玩个人主页的青年 1995 27岁"></a>PHP 发展史 丹麦爱玩个人主页的青年 1995 27岁</h2><p>Rasmus Lerdorf（1968 年 11 月 22 日出生）是一名丹麦裔加拿大人程序员。他共同创作并启发了PHP脚本语言，创作了该语言的前两个版本，并参与了由 Jim Winstead（后来创建blo.gs）、Stig Bakken、Shane Caraveo等开发人员领导的后续版本的开发、安迪 Gutmans和Zeev Suraski。他继续为该项目做出贡献。</p>
+<h2 id="早年生活和教育"><a href="#早年生活和教育" class="headerlink" title="早年生活和教育"></a>早年生活和教育</h2><p>勒多夫出生于格陵兰岛的迪斯科岛，早年移居丹麦。</p>
+<p>1980年全家从丹麦移居加拿大，</p>
+<p>1983年移居安大略省金城。</p>
+<p>1988年毕业于金城中学，</p>
+<p>1993年毕业于滑铁卢大学，获学士学位应用科学的系统设计工程。</p>
+<p>他为Apache HTTP Server做出了贡献，并将 LIMIT 子句添加到mSQL DBMS。这个 LIMIT 子句的一个变体在大型机关系数据库管理系统中已经存在了十年（比如Oracle Rdb在VAX/VMS上运行，以前来自Digital Equipment Corporation），但显然它尚未被新兴的基于 PC 的数据库所采用。后来它被其他几个与 SQL 兼容的 DBMS 改编。</p>
+<p>1995 年发布了 PHP 的第一个版本。</p>
+<h2 id="职业生涯"><a href="#职业生涯" class="headerlink" title="职业生涯"></a>职业生涯</h2><p>从 2002 年 9 月到 2009 年 11 月，Lerdorf 受雇于Yahoo! Inc.作为基础架构架构工程师。2010 年，他加入WePay以开发他们的应用程序编程接口。整个 2011 年，他都是初创公司的巡回顾问。2012 年 2 月 22 日，他在 Twitter 上宣布他已加入Etsy。2013 年 7 月，Rasmus 加入Jelastic，担任高级顾问，帮助他们开发新技术。</p>
+<p>Lerdorf 经常在世界各地的开源会议上发表演讲。在 OSCMS 2007 的主题演讲中，他介绍了当年参加会议的每个项目中的一个安全漏洞。</p>
+<p>Lerdorf 还出现在 WeAreDevelopers Conferences 2017 和 2019 上，就 PHP 的历史、2017 年新的 PHP 7 版本以及 PHP 的 25 年发表了演讲。</p>
+<h2 id="PHP-开发为了挂自己的个人主页"><a href="#PHP-开发为了挂自己的个人主页" class="headerlink" title="PHP 开发为了挂自己的个人主页"></a>PHP 开发为了挂自己的个人主页</h2><p>PHP是一种通用 脚本语言，特别适用于Web 开发。它最初由丹麦-加拿大程序员 Rasmus Lerdorf于 1994 年创建。 PHP参考实现现在由 PHP Group 制作。PHP 最初代表Personal Home Page，但现在代表递归初始化 PHP: Hypertext Preprocessor。</p>
+<p>PHP 代码通常由作为模块、守护程序或通用网关接口(CGI) 可执行文件实现的 PHP解释器在Web 服务器上处理。在 Web 服务器上，解释和执行的 PHP 代码的结果（可能是任何类型的数据，例如生成的HTML或二进制图像数据）将构成HTTP响应的全部或一部分。各种网页模板系统、网页内容管理系统和网页框架存在可用于协调或促进该响应的生成。此外，PHP 可用于 Web 上下文之外的许多编程任务，例如独立的图形应用程序和机器人 无人机控制。 PHP 代码也可以直接从命令行执行。</p>
+<p>由Zend 引擎提供支持的标准 PHP 解释器是在PHP 许可下发布的免费软件。PHP已经被广泛移植，可以在几乎每一个部署在大多数Web服务器的操作系统和平台，免费的。</p>
+<p>PHP 语言在 2014 年之前没有书面正式规范或标准的情况下发展，原始实现作为事实上的标准，其他实现旨在遵循。自 2014 年以来，创建正式 PHP 规范的工作一直在进行。</p>
+<p>W3Techs 报告称，截至 2021 年 4 月，“在我们知道服务器端编程语言的所有网站中，有 79.2% 使用 PHP。”</p>
+<p>早期历史</p>
+<p>Rasmus Lerdorf编写了最初的通用网关接口(CGI) 组件，与Andi Gutmans和Zeev Suraski一起编写了构成 PHP 3的解析器。</p>
+<p><strong>PHP 的开发始于 1994 年，当时Rasmus Lerdorf用 C编写了几个通用网关接口(CGI) 程序，他用来维护他的个人主页。他将它们扩展为使用Web 表单并与数据库通信，并将此实现称为“个人主页/表单解释器”或 PHP/FI。</strong></p>
+<p>PHP/FI 可用于构建简单、动态的 Web 应用程序。为了加速错误报告和改进代码，Lerdorf 最初于1995 年 6 月 8 日在Usenet讨论组comp.infosystems.<a href="http://www.authoring.cgi上宣布将/">www.authoring.cgi上宣布将</a> PHP/FI 发布为“个人主页工具（PHP 工具）1.0 版” . 这个版本已经具备了 PHP 今天的基本功能。这包括类似 Perl 的变量、表单处理和嵌入 HTML 的能力。该语法类似于说的Perl的，但更简单，更有限，不太一致.</p>
+<h2 id="Zend引擎-2个学生的名字组合"><a href="#Zend引擎-2个学生的名字组合" class="headerlink" title="Zend引擎  2个学生的名字组合"></a>Zend引擎  2个学生的名字组合</h2><p>在Zend引擎是开源的 脚本引擎是解释的PHP编程语言。它最初是由Andi Gutmans和Zeev Suraski开发的，当时他们还是Technion – Israel Institute of Technology 的学生。他们后来创立了一家名为Zend技术在拉马特甘，以色列。Zend 这个名字是他们的名字 Zeev 和 Andi 的组合。</p>
+<p>Zend 引擎的第一个版本出现在 1999 年的 PHP 4 版中。它是用C 语言编写的，作为高度优化的模块化后端，首次可以用于 PHP 之外的应用程序。Zend 引擎为 PHP 语言提供内存和资源管理以及其他标准服务。它的性能、可靠性和可扩展性在 PHP 日益流行的过程中发挥了重要作用。</p>
+<p>紧随其后的是作为 PHP 5 核心的Zend Engine 2。</p>
+<p>最新版本是Zend Engine 3，最初代号为phpng，它是为 PHP 7 开发的，显着提高了性能。</p>
+<p>自 2001 年以来，Zend 引擎的源代码在Zend 引擎许可下免费提供（尽管某些部分在PHP 许可下），[需要引用]作为 php.net 官方发布的一部分，以及官方git存储库或GitHub镜像。各种志愿者为 PHP/Zend 引擎代码库做出贡献。</p>
+<p>Zend Engine 在 PHP 内部用作编译器和运行时引擎。PHP 脚本被加载到内存中并编译成 Zend操作码。执行这些操作码并将生成的 HTML 发送到客户端。</p>
+<p>要实现 Web 脚本解释器，您需要三个部分：</p>
+<p>解释器部分分析输入代码，翻译它并执行它。<br>功能部分实现了语言的功能（它的功能等）。<br>接口部分与 Web 服务器等对话。<br>Zend 完成了第 1 部分和第 2 部分的一些内容；PHP 需要第 2 和第 3 部分。</p>
+<p>Zend 本身实际上仅形成了语言核心，通过一些预定义函数在其非常基础的基础上实现 PHP。</p>
+<p>资料翻译来自：</p>
+<p><a href="https://en.wikipedia.org/wiki/PHP">https://en.wikipedia.org/wiki/PHP</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Rasmus_Lerdorf">https://en.wikipedia.org/wiki/Rasmus_Lerdorf</a></p>
 ]]></content>
       <categories>
-        <category>Linux</category>
+        <category>Java</category>
+        <category>history</category>
       </categories>
       <tags>
-        <tag>Linux</tag>
+        <tag>history</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PHP之MySQL数据库语句</title>
+    <url>/2021/07/06/PHP%E4%B9%8BMySQL%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%AD%E5%8F%A5/</url>
+    <content><![CDATA[<p>MySQL数据库语句</p>
+<span id="more"></span>
+
+
+
+<p>数据库增删改查<br>SELECT column FROM table<br>WHERE column operator value</p>
+<p>DELETE FROM table_name<br>WHERE column_name = some_value</p>
+<p>UPDATE table_name<br>SET column_name= new_value<br>WHERE column_name = some_value</p>
+<p>INSERT INTO table_name(column1,column2,…) VALUES (valuel, value2,…)</p>
+<p><strong>1.mysql_connect 打开一个到 MYSQL服务器的连接</strong></p>
+<p><code>$conn = mysql_connect(&quot;localhost:3306&quot;,&quot;root&quot;,&quot;root&quot;);</code></p>
+<p>2.<strong>mysql_select_db 选择MySQL数据库</strong></p>
+<p><code>mysql_select_db(&quot;phpdemo&quot;,$conn); </code></p>
+<p><strong>3.mysql_query    查询数据库返回一个result的标识</strong></p>
+<p><code>$result = mysql_query(&quot;select * from user&quot;);</code></p>
+<p>mysq1_ query（)仅对 SELECT, SHOW, DESCRIBE,EXPLAIN和其他语句语句返回resource<br>如果查询岀现、错误则返回 FALSE.</p>
+<p>对于其它类型的SQL语句，比如 IINSERT, UPDATE,DELETE,DROP之类，mysq1 auer（）在执行成<br>功时返回TRUE,出错时返回 FALSE.</p>
+<p><strong>4. mysql_fetch 把result中的数据提取出来</strong></p>
+<p><strong>mysql_fetch_assoc</strong></p>
+<p><code>$result_arr = mysql_fetch_assoc($result);  把result中的数据提取出来,一次只提取一条记录</code></p>
+<p><strong>mysql_fetch_assoc</strong><br>从结果集中取得一行作为关联数组</p>
+<p><strong>mysql_fetch_row</strong><br>从结果集中取得一行作为枚举数组</p>
+<p><strong>mysql_fetch_array</strong><br>从结果集中取得一行作为关联数组，或数字数组，或二者兼有</p>
+<p><a href="https://www.bilibili.com/video/BV15p411f7ey?p=3">https://www.bilibili.com/video/BV15p411f7ey?p=3</a></p>
+]]></content>
+      <categories>
+        <category>PHP</category>
+        <category>MySQL</category>
+      </categories>
+      <tags>
+        <tag>MySQL</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PHP和MySQL实现注册和登录</title>
+    <url>/2021/07/09/PHP%E5%92%8CMySQL%E5%AE%9E%E7%8E%B0%E6%B3%A8%E5%86%8C%E5%92%8C%E7%99%BB%E5%BD%95/</url>
+    <content><![CDATA[<p>PHP和MySQL实现注册和登录</p>
+<span id="more"></span>
+
+
+
+<p>PHP和MySQL实现注册和登录</p>
+<h2 id="1-登录-查询-mysqli-num-rows-输出结果行数-判断"><a href="#1-登录-查询-mysqli-num-rows-输出结果行数-判断" class="headerlink" title="1.登录 查询 mysqli_num_rows() 输出结果行数 判断"></a>1.登录 查询 mysqli_num_rows() 输出结果行数 判断</h2><h2 id="2-注册-通过INSERT语句mysqli-query-来执行插入数据"><a href="#2-注册-通过INSERT语句mysqli-query-来执行插入数据" class="headerlink" title="2.注册 通过INSERT语句mysqli_query() 来执行插入数据"></a>2.注册 通过INSERT语句mysqli_query() 来执行插入数据</h2><p>register.html</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>登录<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">b</span>&gt;</span>登录<span class="tag">&lt;/<span class="name">b</span>&gt;</span></span><br><span class="line">       <span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">&quot;register.php&quot;</span> <span class="attr">method</span>=<span class="string">&quot;POST&quot;</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">span</span>&gt;</span>用户名:<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">name</span>=<span class="string">&quot;user&quot;</span> <span class="attr">required</span>=<span class="string">&quot;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">span</span>&gt;</span>密码:<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;password&quot;</span> <span class="attr">name</span>=<span class="string">&quot;pass&quot;</span> <span class="attr">required</span>=<span class="string">&quot;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">      </span><br><span class="line">           </span><br><span class="line">           <span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;reset&quot;</span> <span class="attr">name</span>=<span class="string">&quot;&quot;</span>/&gt;</span> <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;submit&quot;</span> <span class="attr">name</span>=<span class="string">&quot;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">       <span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br><span class="line">       <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;index.html&quot;</span>&gt;</span>已注册<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p>register.php</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="variable">$servername</span> = <span class="string">&quot;localhost&quot;</span>;</span><br><span class="line"><span class="variable">$username</span> = <span class="string">&quot;root&quot;</span>;</span><br><span class="line"><span class="variable">$password</span> = <span class="string">&quot;Tz123456&quot;</span>;</span><br><span class="line"><span class="variable">$dbname</span> = <span class="string">&quot;user&quot;</span>;</span><br><span class="line"> </span><br><span class="line"><span class="comment">// 创建连接</span></span><br><span class="line"><span class="variable">$conn</span> = <span class="keyword">new</span> mysqli(<span class="variable">$servername</span>, <span class="variable">$username</span>, <span class="variable">$password</span>, <span class="variable">$dbname</span>);</span><br><span class="line"><span class="comment">// 检测连接</span></span><br><span class="line"><span class="keyword">if</span> (<span class="variable">$conn</span>-&gt;connect_error) &#123;</span><br><span class="line">    <span class="keyword">die</span>(<span class="string">&quot;连接失败: &quot;</span> . <span class="variable">$conn</span>-&gt;connect_error);</span><br><span class="line">&#125; </span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="variable">$user</span> = <span class="variable">$_POST</span>[<span class="string">&#x27;user&#x27;</span>];</span><br><span class="line"></span><br><span class="line"><span class="variable">$pass</span> = <span class="variable">$_POST</span>[<span class="string">&#x27;pass&#x27;</span>];</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line"><span class="variable">$sql</span> = <span class="string">&quot;INSERT INTO users(username,password) </span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">            VALUES (&#x27;<span class="subst">&#123;$user&#125;</span>&#x27; ,&#x27;<span class="subst">&#123;$pass&#125;</span>&#x27;)&quot;</span>;</span><br><span class="line"></span><br><span class="line">mysqli_query(<span class="variable">$conn</span>,<span class="variable">$sql</span>) <span class="keyword">or</span> <span class="keyword">die</span>(mysqli_error(<span class="variable">$conn</span>));</span><br><span class="line"></span><br><span class="line"><span class="keyword">echo</span>(<span class="string">&quot;注册成功！！！点击登录&quot;</span>)    </span><br><span class="line"></span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p> login.html</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>登录<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">b</span>&gt;</span>登录<span class="tag">&lt;/<span class="name">b</span>&gt;</span></span><br><span class="line">       <span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">&quot;login.php&quot;</span> <span class="attr">method</span>=<span class="string">&quot;POST&quot;</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">span</span>&gt;</span>用户名:<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">name</span>=<span class="string">&quot;user&quot;</span> <span class="attr">required</span>=<span class="string">&quot;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">span</span>&gt;</span>密码:<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;password&quot;</span> <span class="attr">name</span>=<span class="string">&quot;pass&quot;</span> <span class="attr">required</span>=<span class="string">&quot;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">           </span><br><span class="line">           <span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;reset&quot;</span> <span class="attr">name</span>=<span class="string">&quot;&quot;</span>/&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;submit&quot;</span> <span class="attr">name</span>=<span class="string">&quot;&quot;</span> <span class="attr">value</span>=<span class="string">&quot;登录&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">       <span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br><span class="line">       <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;register.html&quot;</span>&gt;</span>新用户注册<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p>login.php</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"></span><br><span class="line"><span class="variable">$servername</span> = <span class="string">&quot;localhost&quot;</span>;</span><br><span class="line"><span class="variable">$username</span> = <span class="string">&quot;root&quot;</span>;</span><br><span class="line"><span class="variable">$password</span> = <span class="string">&quot;Tz123456&quot;</span>;</span><br><span class="line"><span class="variable">$dbname</span> = <span class="string">&quot;user&quot;</span>;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// 创建连接</span></span><br><span class="line"><span class="variable">$conn</span> = <span class="keyword">new</span> mysqli(<span class="variable">$servername</span>, <span class="variable">$username</span>, <span class="variable">$password</span>, <span class="variable">$dbname</span>);</span><br><span class="line"><span class="comment">// Check connection</span></span><br><span class="line"><span class="keyword">if</span> (<span class="variable">$conn</span>-&gt;connect_error) &#123;</span><br><span class="line">    <span class="keyword">die</span>(<span class="string">&quot;连接失败: &quot;</span> . <span class="variable">$conn</span>-&gt;connect_error);</span><br><span class="line">&#125; </span><br><span class="line"></span><br><span class="line"><span class="variable">$user</span> = <span class="variable">$_POST</span>[<span class="string">&#x27;user&#x27;</span>];</span><br><span class="line"><span class="variable">$pass</span> = <span class="variable">$_POST</span>[<span class="string">&#x27;pass&#x27;</span>];</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="variable">$sql</span>=<span class="string">&quot;SELECT * FROM users where username=&#x27;<span class="subst">&#123;$user&#125;</span>&#x27; and password=&#x27;<span class="subst">&#123;$pass&#125;</span>&#x27;&quot;</span>; </span><br><span class="line"></span><br><span class="line"><span class="variable">$result</span> = <span class="variable">$conn</span>-&gt;query(<span class="variable">$sql</span>);</span><br><span class="line"></span><br><span class="line"><span class="variable">$row</span> = <span class="variable">$result</span>-&gt;num_rows;</span><br><span class="line"></span><br><span class="line"><span class="comment">//若表中存在输入的用户名和密码，row=1；若表中用户名不存在或密码错误，则row=0</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span>(<span class="variable">$row</span> == <span class="number">1</span>)&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">echo</span> <span class="variable">$row</span>[<span class="string">&#x27;user&#x27;</span>].<span class="string">&quot;登陆成功!&quot;</span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">else</span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">echo</span><span class="string">&quot;登录失败，请重新登录！&quot;</span>;</span><br><span class="line"></span><br><span class="line">&#125;   </span><br><span class="line"></span><br><span class="line"><span class="meta">?&gt;</span>  </span><br></pre></td></tr></table></figure>
+
+
+
+<p><a href="https://www.runoob.com/php/php-mysql-insert.html">https://www.runoob.com/php/php-mysql-insert.html</a></p>
+<p><a href="https://www.runoob.com/php/php-mysql-select.html">https://www.runoob.com/php/php-mysql-select.html</a></p>
+]]></content>
+      <categories>
+        <category>PHP</category>
+      </categories>
+      <tags>
+        <tag>PHP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PHP和MySQL条件查询</title>
+    <url>/2021/07/09/PHP%E5%92%8CMySQL%E6%9D%A1%E4%BB%B6%E6%9F%A5%E8%AF%A2/</url>
+    <content><![CDATA[<p>PHP和MySQL条件查询</p>
+<span id="more"></span>
+
+
+
+<p>Set an always true condition in order to have constant <code>WHERE</code> clause.</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="variable">$sql</span> = <span class="string">&quot;SELECT * FROM myTable WHERE 1 = 1 &quot;</span></span><br><span class="line"><span class="keyword">if</span> (<span class="literal">true</span>) &#123;</span><br><span class="line">    <span class="variable">$sql</span> .= <span class="string">&quot; AND col1 LIKE &#x27;%val%&#x27; &quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>PHP</category>
+      </categories>
+      <tags>
+        <tag>PHP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PHP的环境的基础配置</title>
+    <url>/2021/07/04/PHP%E7%9A%84%E7%8E%AF%E5%A2%83%E7%9A%84%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<p>PHP的环境的基础配置</p>
+<span id="more"></span>
+
+<h2 id="Apache配置文件"><a href="#Apache配置文件" class="headerlink" title="Apache配置文件"></a>Apache配置文件</h2><p>C:\server\apache\conf\httpd.conf</p>
+<h3 id="Apache加载载PHP"><a href="#Apache加载载PHP" class="headerlink" title="Apache加载载PHP"></a>Apache加载载PHP</h3><p><code>LoadModule php5 module C:/server/php5/php5apache2-2dl1</code></p>
+<h3 id="APache识别PHP文件代码"><a href="#APache识别PHP文件代码" class="headerlink" title="APache识别PHP文件代码"></a>APache识别PHP文件代码</h3><p><code>AddType application/x-httpd-php   .php</code></p>
+<h3 id="Apache加载PHP配置文件"><a href="#Apache加载PHP配置文件" class="headerlink" title="Apache加载PHP配置文件"></a>Apache加载PHP配置文件</h3><p><code>PHPIniDir &#39;C: /server/php5&#39;</code></p>
+<h3 id="测试Apache配置是否语法错误"><a href="#测试Apache配置是否语法错误" class="headerlink" title="测试Apache配置是否语法错误"></a>测试Apache配置是否语法错误</h3><p>C:\server\apache\bin&gt;httpd.exe -t<br>Syntax Ok</p>
+<h3 id="检查Apache加载了那些模块"><a href="#检查Apache加载了那些模块" class="headerlink" title="检查Apache加载了那些模块"></a>检查Apache加载了那些模块</h3><p>C:\server\apache\bin&gt;httpd.exe -m</p>
+]]></content>
+      <categories>
+        <category>PHP</category>
+      </categories>
+      <tags>
+        <tag>PHP</tag>
       </tags>
   </entry>
   <entry>
@@ -357,74 +546,65 @@
       </tags>
   </entry>
   <entry>
-    <title>ORM</title>
-    <url>/2021/06/11/ORM/</url>
-    <content><![CDATA[<p>ORM是Object Relation Mapping的缩写，顾名思义，即对象关系映射。</p>
+    <title>PHP获取MySQL数据的方法</title>
+    <url>/2021/07/09/PHP%E8%8E%B7%E5%8F%96MySQL%E6%95%B0%E6%8D%AE%E7%9A%84%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<p>PHP输出所有查询的数据</p>
 <span id="more"></span>
-<h2 id="ORM"><a href="#ORM" class="headerlink" title="ORM"></a>ORM</h2><p>ORM是Object Relation Mapping的缩写，顾名思义，即对象关系映射。</p>
-<p>ORM是一种以面向对象的方式来进行数据库操作的技术。Web开发中常用的语言，都会有对应的ORM框架。而Hibernate就是Java开发中一种常用ORM框架，另一个现在流行的ORM框架是<strong>Mybatis</strong>。</p>
-<p>为什么需要ORM框架？</p>
-<p>简单地理解，通过Java进行数据库访问的正常流程可以分为以下几步：</p>
-<ol>
-<li>准备好SQL语句</li>
-<li>调用JDBC的API传入SQL语句，设置参数</li>
-<li>解析JDBC返回的结果</li>
-</ol>
-<p>这个过程实际上非常麻烦，比如：</p>
-<ul>
-<li>在Java代码中拼接SQL非常麻烦，而且易于出错</li>
-<li>JDBC的代码调用有很多重复性的代码</li>
-<li>从JDBC返回的结果转换成领域模型的Java对象很繁琐</li>
-</ul>
-<p>而使用ORM框架，则可以让我们用面向对象的方式来操作数据库，比如通过一个简单的函数调用就完成上面整个流程，直接返回映射为Java对象的结果。这个流程中很大一部分工作其实可以交给ORM自动化地帮我们执行。对，类似MVC框架，ORM框架会帮你处理好相关的繁琐事情！</p>
-<p>作者：David<br>链接：<a href="https://www.zhihu.com/question/21142149/answer/148286909">https://www.zhihu.com/question/21142149/answer/148286909</a></p>
+
+
+
+<p>1.使用 PHP 函数的 <strong>mysqli_query()</strong> 及 <strong>SQL SELECT</strong> 命令来获取数据。</p>
+<p>2.然后通过 PHP 函数 <strong>mysqli_fetch_array()</strong> 来输出所有查询的数据。</p>
+<p>2.输出所有查询的数据</p>
+<p><strong>mysqli_fetch_array()</strong> 以索引数组和关联数组两种方式取查询的结果集</p>
+<p><strong>mysqli_fetch_assoc()</strong>,以关联数组两种方式取查询的结果集</p>
+<p><strong>Mysql_fetch_row()</strong> 以索引数组的方式取查询的结果集</p>
+<h2 id="mysqli-fetch-assoc-和-mysqli-fetch-array-的区别"><a href="#mysqli-fetch-assoc-和-mysqli-fetch-array-的区别" class="headerlink" title="mysqli_fetch_assoc() 和 mysqli_fetch_array() 的区别"></a>mysqli_fetch_assoc() 和 mysqli_fetch_array() 的区别</h2><p>mysqli_fetch_assoc 和 mysqli_fetch_array 的主要区别在于结果数据的输出格式。</p>
+<p>mysqli_fetch_assoc 返回关联数组中的数据，而 mysqli_fetch_array 返回数字数组和/或关联数组中的数据。</p>
+<h3 id="mysqli-fetch-assoc"><a href="#mysqli-fetch-assoc" class="headerlink" title="mysqli_fetch_assoc()"></a>mysqli_fetch_assoc()</h3><p>mysqli_fetch_assoc 以列名作为结果数组的键返回关联数组中的数据。这意味着我们可以使用列名作为数组的键来访问输出数组。</p>
+<p><a href="https://www.runoob.com/mysql/mysql-select-query.html">https://www.runoob.com/mysql/mysql-select-query.html</a></p>
+<p><a href="https://www.runoob.com/mysql/mysql-where-clause.html">https://www.runoob.com/mysql/mysql-where-clause.html</a></p>
 ]]></content>
       <categories>
-        <category>Java</category>
-        <category>ORM</category>
+        <category>PHP</category>
       </categories>
       <tags>
-        <tag>ORM</tag>
+        <tag>PHP</tag>
       </tags>
   </entry>
   <entry>
-    <title>PHP 发展史 丹麦爱玩个人主页的青年 1995 27岁</title>
-    <url>/2021/06/11/PHP/</url>
-    <content><![CDATA[<p>PHP 发展史 丹麦爱玩个人主页的青年 1995 27岁</p>
+    <title>Perl的发展史 珍珠的诞生1987年 34岁</title>
+    <url>/2021/06/11/Perl/</url>
+    <content><![CDATA[<p>Perl的发展史 珍珠的诞生1987年 34岁</p>
 <span id="more"></span>
 
-<h2 id="PHP-发展史-丹麦爱玩个人主页的青年-1995-27岁"><a href="#PHP-发展史-丹麦爱玩个人主页的青年-1995-27岁" class="headerlink" title="PHP 发展史 丹麦爱玩个人主页的青年 1995 27岁"></a>PHP 发展史 丹麦爱玩个人主页的青年 1995 27岁</h2><p>Rasmus Lerdorf（1968 年 11 月 22 日出生）是一名丹麦裔加拿大人程序员。他共同创作并启发了PHP脚本语言，创作了该语言的前两个版本，并参与了由 Jim Winstead（后来创建blo.gs）、Stig Bakken、Shane Caraveo等开发人员领导的后续版本的开发、安迪 Gutmans和Zeev Suraski。他继续为该项目做出贡献。</p>
-<h2 id="早年生活和教育"><a href="#早年生活和教育" class="headerlink" title="早年生活和教育"></a>早年生活和教育</h2><p>勒多夫出生于格陵兰岛的迪斯科岛，早年移居丹麦。</p>
-<p>1980年全家从丹麦移居加拿大，</p>
-<p>1983年移居安大略省金城。</p>
-<p>1988年毕业于金城中学，</p>
-<p>1993年毕业于滑铁卢大学，获学士学位应用科学的系统设计工程。</p>
-<p>他为Apache HTTP Server做出了贡献，并将 LIMIT 子句添加到mSQL DBMS。这个 LIMIT 子句的一个变体在大型机关系数据库管理系统中已经存在了十年（比如Oracle Rdb在VAX/VMS上运行，以前来自Digital Equipment Corporation），但显然它尚未被新兴的基于 PC 的数据库所采用。后来它被其他几个与 SQL 兼容的 DBMS 改编。</p>
-<p>1995 年发布了 PHP 的第一个版本。</p>
-<h2 id="职业生涯"><a href="#职业生涯" class="headerlink" title="职业生涯"></a>职业生涯</h2><p>从 2002 年 9 月到 2009 年 11 月，Lerdorf 受雇于Yahoo! Inc.作为基础架构架构工程师。2010 年，他加入WePay以开发他们的应用程序编程接口。整个 2011 年，他都是初创公司的巡回顾问。2012 年 2 月 22 日，他在 Twitter 上宣布他已加入Etsy。2013 年 7 月，Rasmus 加入Jelastic，担任高级顾问，帮助他们开发新技术。</p>
-<p>Lerdorf 经常在世界各地的开源会议上发表演讲。在 OSCMS 2007 的主题演讲中，他介绍了当年参加会议的每个项目中的一个安全漏洞。</p>
-<p>Lerdorf 还出现在 WeAreDevelopers Conferences 2017 和 2019 上，就 PHP 的历史、2017 年新的 PHP 7 版本以及 PHP 的 25 年发表了演讲。</p>
-<h2 id="PHP-开发为了挂自己的个人主页"><a href="#PHP-开发为了挂自己的个人主页" class="headerlink" title="PHP 开发为了挂自己的个人主页"></a>PHP 开发为了挂自己的个人主页</h2><p>PHP是一种通用 脚本语言，特别适用于Web 开发。它最初由丹麦-加拿大程序员 Rasmus Lerdorf于 1994 年创建。 PHP参考实现现在由 PHP Group 制作。PHP 最初代表Personal Home Page，但现在代表递归初始化 PHP: Hypertext Preprocessor。</p>
-<p>PHP 代码通常由作为模块、守护程序或通用网关接口(CGI) 可执行文件实现的 PHP解释器在Web 服务器上处理。在 Web 服务器上，解释和执行的 PHP 代码的结果（可能是任何类型的数据，例如生成的HTML或二进制图像数据）将构成HTTP响应的全部或一部分。各种网页模板系统、网页内容管理系统和网页框架存在可用于协调或促进该响应的生成。此外，PHP 可用于 Web 上下文之外的许多编程任务，例如独立的图形应用程序和机器人 无人机控制。 PHP 代码也可以直接从命令行执行。</p>
-<p>由Zend 引擎提供支持的标准 PHP 解释器是在PHP 许可下发布的免费软件。PHP已经被广泛移植，可以在几乎每一个部署在大多数Web服务器的操作系统和平台，免费的。</p>
-<p>PHP 语言在 2014 年之前没有书面正式规范或标准的情况下发展，原始实现作为事实上的标准，其他实现旨在遵循。自 2014 年以来，创建正式 PHP 规范的工作一直在进行。</p>
-<p>W3Techs 报告称，截至 2021 年 4 月，“在我们知道服务器端编程语言的所有网站中，有 79.2% 使用 PHP。”</p>
-<p>早期历史</p>
-<p>Rasmus Lerdorf编写了最初的通用网关接口(CGI) 组件，与Andi Gutmans和Zeev Suraski一起编写了构成 PHP 3的解析器。</p>
-<p><strong>PHP 的开发始于 1994 年，当时Rasmus Lerdorf用 C编写了几个通用网关接口(CGI) 程序，他用来维护他的个人主页。他将它们扩展为使用Web 表单并与数据库通信，并将此实现称为“个人主页/表单解释器”或 PHP/FI。</strong></p>
-<p>PHP/FI 可用于构建简单、动态的 Web 应用程序。为了加速错误报告和改进代码，Lerdorf 最初于1995 年 6 月 8 日在Usenet讨论组comp.infosystems.<a href="http://www.authoring.cgi上宣布将/">www.authoring.cgi上宣布将</a> PHP/FI 发布为“个人主页工具（PHP 工具）1.0 版” . 这个版本已经具备了 PHP 今天的基本功能。这包括类似 Perl 的变量、表单处理和嵌入 HTML 的能力。该语法类似于说的Perl的，但更简单，更有限，不太一致.</p>
-<h2 id="Zend引擎-2个学生的名字组合"><a href="#Zend引擎-2个学生的名字组合" class="headerlink" title="Zend引擎  2个学生的名字组合"></a>Zend引擎  2个学生的名字组合</h2><p>在Zend引擎是开源的 脚本引擎是解释的PHP编程语言。它最初是由Andi Gutmans和Zeev Suraski开发的，当时他们还是Technion – Israel Institute of Technology 的学生。他们后来创立了一家名为Zend技术在拉马特甘，以色列。Zend 这个名字是他们的名字 Zeev 和 Andi 的组合。</p>
-<p>Zend 引擎的第一个版本出现在 1999 年的 PHP 4 版中。它是用C 语言编写的，作为高度优化的模块化后端，首次可以用于 PHP 之外的应用程序。Zend 引擎为 PHP 语言提供内存和资源管理以及其他标准服务。它的性能、可靠性和可扩展性在 PHP 日益流行的过程中发挥了重要作用。</p>
-<p>紧随其后的是作为 PHP 5 核心的Zend Engine 2。</p>
-<p>最新版本是Zend Engine 3，最初代号为phpng，它是为 PHP 7 开发的，显着提高了性能。</p>
-<p>自 2001 年以来，Zend 引擎的源代码在Zend 引擎许可下免费提供（尽管某些部分在PHP 许可下），[需要引用]作为 php.net 官方发布的一部分，以及官方git存储库或GitHub镜像。各种志愿者为 PHP/Zend 引擎代码库做出贡献。</p>
-<p>Zend Engine 在 PHP 内部用作编译器和运行时引擎。PHP 脚本被加载到内存中并编译成 Zend操作码。执行这些操作码并将生成的 HTML 发送到客户端。</p>
-<p>要实现 Web 脚本解释器，您需要三个部分：</p>
-<p>解释器部分分析输入代码，翻译它并执行它。<br>功能部分实现了语言的功能（它的功能等）。<br>接口部分与 Web 服务器等对话。<br>Zend 完成了第 1 部分和第 2 部分的一些内容；PHP 需要第 2 和第 3 部分。</p>
-<p>Zend 本身实际上仅形成了语言核心，通过一些预定义函数在其非常基础的基础上实现 PHP。</p>
+<h2 id="生平："><a href="#生平：" class="headerlink" title="生平："></a>生平：</h2><p>拉里·沃尔 Larry  Wall (1954 年 9 月 27 日出生）是美国 计算机程序员和作家。他创建了Perl 编程语言。</p>
+<p>沃尔在洛杉矶和华盛顿的布雷默顿长大</p>
+<p>1976 年在西雅图太平洋大学开始接受高等教育，主修化学和音乐，后来攻读医学预科，在大学的计算中心工作了几年，然后获得了自然和人工语言学学士学位。</p>
+<p>在加州大学伯克利分校读研究生期间 ，沃尔和他的妻子正在学习语言学，目的是寻找一种不成文的语言，也许是在非洲，并为它创建一个书写系统。然后他们将使用这种新的书写系统将各种文本翻译成语言，其中包括圣经。由于健康原因，这些计划被取消，他们留在美国，沃尔在研究生毕业后加入了美国宇航局 喷气推进实验室。</p>
+<p>沃尔是基督教新生活拿撒勒教会的活跃成员</p>
+<h2 id="成就："><a href="#成就：" class="headerlink" title="成就："></a>成就：</h2><p>Wall 是Usenet 客户端和广泛使用的程序的作者。他曾两次赢得国际混淆 C 代码竞赛，并于 1998 年获得首届自由软件基金会自由软件进步奖。</p>
+<p><strong>1987年12月18日，Larry Wall发布了Perl 1.0</strong></p>
+<p>Wall 在为System Development Corporation（后来成为Unisys 的一部分）工作期间开发了 Perl 解释器和语言。他是Programming Perl（通常称为Camel Book，由O’Reilly 出版）的合著者，该书是Perl 程序员的权威资源；并编辑了Perl Cookbook。然后，他成为O’Reilly Media 的全职员工，以进一步开发 Perl 并撰写有关该主题的书籍。</p>
+<p>沃尔作为语言学家的训练在他的书、采访和讲座中显而易见。他经常将 Perl 比作自然语言，并用语言学原理解释他在 Perl 设计中的决定。他还经常使用语言学术语来表示 Perl 语言结构，因此他有时会说“名词”、“动词”和“主题化器” ，而不是“变量”、“函数”和“访问器”等传统术语。</p>
+<p>沃尔的基督教信仰影响了 Perl 的一些术语，例如名称本身，这是圣经中对“无价珍珠”的引用（马太福音13:46）。类似的参考是函数名称bless和Raku（以前称为 Perl 6）设计文档的组织，具有诸如apocalypse和exegesis 之类的类别。Wall 在会议上发言时也提到了他的信仰，包括 1999 年 8 月 23 日在加利福尼亚州蒙特雷举行的 Perl Conference 3.0。</p>
+<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>主条目：Perl 语言结构<br>根据 Wall 的说法，Perl 有两个口号。第一个是“有不止一种方法可以做到“。第二个口号是“容易的事情应该容易，困难的事情应该成为可能”。</p>
+<h2 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h2><p>Perl 的整体结构广泛地源自C。Perl本质上是过程性的，具有变量、表达式、赋值语句、花括号分隔的块、控制结构和子例程。[需要引用]</p>
+<p>Perl 还采用了 shell 编程的特性。所有变量都标有领先的印记，这让变量被插入直接进入字符串。然而，与 shell 不同的是，Perl 在对变量的所有访问中都使用了 sigil，并且与大多数使用 sigil 的其他编程语言不同，sigil 不表示变量的类型，而是表示表达式的类型。因此，例如，虽然数组由符号“@”（例如@arrayname）表示，但数组的单个成员由标量符号“$”（例如$arrayname[3]）表示。Perl 还有很多内置函数，提供了 shell 编程中经常使用的工具（虽然这些工具很多是由 shell 外部的程序实现的），比如排序，并调用操作系统设施。</p>
+<p>Perl从Lisp获取列表，从AWK获取散列（“关联数组”），从sed 获取正则表达式。这些简化并促进了许多解析、文本处理和数据管理任务。同样与 Lisp 共享的是块中最后一个值的隐式返回，以及所有语句都有一个值的事实，因此也是表达式并且可以在更大的表达式本身中使用。</p>
+<p>Perl 5 添加了支持复杂数据结构、一流函数（即闭包作为值）和面向对象的编程模型的特性。这些包括引用、包、基于类的方法调度和词法范围的变量，以及编译器指令（例如，strict 编译指令）。Perl 5 引入的一个主要附加功能是能够将代码打包为可重用模块。沃尔后来表示“Perl 5 模块系统的整个意图是鼓励 Perl 文化而不是 Perl 核心的发展。” </p>
+<p>所有版本的 Perl 都做自动数据输入和自动内存管理。解释器知道程序中每个数据对象的类型和存储要求；它根据需要使用引用计数为它们分配和释放存储空间（因此它无法在没有手动干预的情况下释放循环数据结构）。合法的类型转换——例如，从数字到字符串的转换——在运行时自动完成；非法类型转换是致命错误。</p>
+<h2 id="设计"><a href="#设计" class="headerlink" title="设计"></a>设计</h2><p>Perl 的设计可以理解为对计算机行业三大趋势的回应：硬件成本下降、劳动力成本上升以及编译器技术的改进。许多早期的计算机语言，例如Fortran和 C，旨在有效利用昂贵的计算机硬件。相比之下，Perl 的设计目的是让计算机程序员可以更快速、更轻松地编写程序。</p>
+<p>Perl 有许多特性，它们以更高的CPU和内存要求为代价来减轻程序员的任务。这些包括自动内存管理；动态打字；字符串、列表和散列；常用表达; 内省；和一个eval()函数。Perl 遵循“没有内置限制”的理论，一个类似于零一无穷大规则的想法。</p>
+<p>Wall 接受过语言学家的培训，Perl 的设计在很大程度上遵循了语言学原理。示例包括霍夫曼编码（常见结构应该很短）、良好的末端加权（重要信息应该放在首位）以及大量语言原语。Perl 偏爱简洁自然的语言结构，即使在它们使 Perl 解释器复杂化的情况下也是如此。</p>
+<p>Perl 的语法反映了“不同的东西应该看起来不同”的想法。例如，标量、数组和散列具有不同的前导符号。数组索引和散列键使用不同种类的花括号。字符串和正则表达式具有不同的标准分隔符。这种方法可以与Lisp 之类的语言形成对比，在Lisp中，由简单和通用的符号表达式组成的相同基本语法可用于所有目的。</p>
+<p>Perl 不强制执行任何特定的编程范式（过程式、面向对象式、函数式或其他），甚至不要求程序员在其中进行选择。</p>
+<p>Perl 语言及其周围的社区和文化都有广泛的实践倾向。《Perl编程》的序言开头：“Perl 是一种用于完成工作的语言。” 这样做的一个后果是 Perl 不是一种整洁的语言。它包括许多功能，容忍其规则的例外，并采用启发式方法来解决句法歧义。由于编译器的宽容性，有时很难发现错误。Perl 的函数文档对列表和标量上下文中内置函数的变体行为进行了评论，说：“通常，除非您想要一致性，否则它们会做您想做的事。” </p>
+<p>Perl 5 之前的 Perl 版本没有Perl 语言的书面规范或标准，也没有计划为当前版本的 Perl 创建一个。解释器只有一种实现，语言也随之发展。该解释器及其功能测试构成了该语言的事实上的规范。然而，Perl 6 从一个规范开始，和几个项目旨在实现部分或全部规范。[需要引用]</p>
 <p>资料翻译来自：</p>
-<p><a href="https://en.wikipedia.org/wiki/PHP">https://en.wikipedia.org/wiki/PHP</a></p>
-<p><a href="https://en.wikipedia.org/wiki/Rasmus_Lerdorf">https://en.wikipedia.org/wiki/Rasmus_Lerdorf</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Larry_Wall">https://en.wikipedia.org/wiki/Larry_Wall</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Perl">https://en.wikipedia.org/wiki/Perl</a></p>
+<p><a href="http://www.wall.org/~larry/">http://www.wall.org/~larry/</a></p>
 ]]></content>
       <categories>
         <category>Java</category>
@@ -432,26 +612,6 @@
       </categories>
       <tags>
         <tag>history</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>PHP的环境的基础配置</title>
-    <url>/2021/07/04/PHP%E7%9A%84%E7%8E%AF%E5%A2%83%E7%9A%84%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<p>PHP的环境的基础配置</p>
-<span id="more"></span>
-
-<h2 id="Apache配置文件"><a href="#Apache配置文件" class="headerlink" title="Apache配置文件"></a>Apache配置文件</h2><p>C:\server\apache\conf\httpd.conf</p>
-<h3 id="Apache加载载PHP"><a href="#Apache加载载PHP" class="headerlink" title="Apache加载载PHP"></a>Apache加载载PHP</h3><p><code>LoadModule php5 module C:/server/php5/php5apache2-2dl1</code></p>
-<h3 id="APache识别PHP文件代码"><a href="#APache识别PHP文件代码" class="headerlink" title="APache识别PHP文件代码"></a>APache识别PHP文件代码</h3><p><code>AddType application/x-httpd-php   .php</code></p>
-<h3 id="Apache加载PHP配置文件"><a href="#Apache加载PHP配置文件" class="headerlink" title="Apache加载PHP配置文件"></a>Apache加载PHP配置文件</h3><p><code>PHPIniDir &#39;C: /server/php5&#39;</code></p>
-<h3 id="测试Apache配置是否语法错误"><a href="#测试Apache配置是否语法错误" class="headerlink" title="测试Apache配置是否语法错误"></a>测试Apache配置是否语法错误</h3><p>C:\server\apache\bin&gt;httpd.exe -t<br>Syntax Ok</p>
-<h3 id="检查Apache加载了那些模块"><a href="#检查Apache加载了那些模块" class="headerlink" title="检查Apache加载了那些模块"></a>检查Apache加载了那些模块</h3><p>C:\server\apache\bin&gt;httpd.exe -m</p>
-]]></content>
-      <categories>
-        <category>PHP</category>
-      </categories>
-      <tags>
-        <tag>PHP</tag>
       </tags>
   </entry>
   <entry>
@@ -513,48 +673,6 @@
       </categories>
       <tags>
         <tag>Corp</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Perl的发展史 珍珠的诞生1987年 34岁</title>
-    <url>/2021/06/11/Perl/</url>
-    <content><![CDATA[<p>Perl的发展史 珍珠的诞生1987年 34岁</p>
-<span id="more"></span>
-
-<h2 id="生平："><a href="#生平：" class="headerlink" title="生平："></a>生平：</h2><p>拉里·沃尔 Larry  Wall (1954 年 9 月 27 日出生）是美国 计算机程序员和作家。他创建了Perl 编程语言。</p>
-<p>沃尔在洛杉矶和华盛顿的布雷默顿长大</p>
-<p>1976 年在西雅图太平洋大学开始接受高等教育，主修化学和音乐，后来攻读医学预科，在大学的计算中心工作了几年，然后获得了自然和人工语言学学士学位。</p>
-<p>在加州大学伯克利分校读研究生期间 ，沃尔和他的妻子正在学习语言学，目的是寻找一种不成文的语言，也许是在非洲，并为它创建一个书写系统。然后他们将使用这种新的书写系统将各种文本翻译成语言，其中包括圣经。由于健康原因，这些计划被取消，他们留在美国，沃尔在研究生毕业后加入了美国宇航局 喷气推进实验室。</p>
-<p>沃尔是基督教新生活拿撒勒教会的活跃成员</p>
-<h2 id="成就："><a href="#成就：" class="headerlink" title="成就："></a>成就：</h2><p>Wall 是Usenet 客户端和广泛使用的程序的作者。他曾两次赢得国际混淆 C 代码竞赛，并于 1998 年获得首届自由软件基金会自由软件进步奖。</p>
-<p><strong>1987年12月18日，Larry Wall发布了Perl 1.0</strong></p>
-<p>Wall 在为System Development Corporation（后来成为Unisys 的一部分）工作期间开发了 Perl 解释器和语言。他是Programming Perl（通常称为Camel Book，由O’Reilly 出版）的合著者，该书是Perl 程序员的权威资源；并编辑了Perl Cookbook。然后，他成为O’Reilly Media 的全职员工，以进一步开发 Perl 并撰写有关该主题的书籍。</p>
-<p>沃尔作为语言学家的训练在他的书、采访和讲座中显而易见。他经常将 Perl 比作自然语言，并用语言学原理解释他在 Perl 设计中的决定。他还经常使用语言学术语来表示 Perl 语言结构，因此他有时会说“名词”、“动词”和“主题化器” ，而不是“变量”、“函数”和“访问器”等传统术语。</p>
-<p>沃尔的基督教信仰影响了 Perl 的一些术语，例如名称本身，这是圣经中对“无价珍珠”的引用（马太福音13:46）。类似的参考是函数名称bless和Raku（以前称为 Perl 6）设计文档的组织，具有诸如apocalypse和exegesis 之类的类别。Wall 在会议上发言时也提到了他的信仰，包括 1999 年 8 月 23 日在加利福尼亚州蒙特雷举行的 Perl Conference 3.0。</p>
-<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>主条目：Perl 语言结构<br>根据 Wall 的说法，Perl 有两个口号。第一个是“有不止一种方法可以做到“。第二个口号是“容易的事情应该容易，困难的事情应该成为可能”。</p>
-<h2 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h2><p>Perl 的整体结构广泛地源自C。Perl本质上是过程性的，具有变量、表达式、赋值语句、花括号分隔的块、控制结构和子例程。[需要引用]</p>
-<p>Perl 还采用了 shell 编程的特性。所有变量都标有领先的印记，这让变量被插入直接进入字符串。然而，与 shell 不同的是，Perl 在对变量的所有访问中都使用了 sigil，并且与大多数使用 sigil 的其他编程语言不同，sigil 不表示变量的类型，而是表示表达式的类型。因此，例如，虽然数组由符号“@”（例如@arrayname）表示，但数组的单个成员由标量符号“$”（例如$arrayname[3]）表示。Perl 还有很多内置函数，提供了 shell 编程中经常使用的工具（虽然这些工具很多是由 shell 外部的程序实现的），比如排序，并调用操作系统设施。</p>
-<p>Perl从Lisp获取列表，从AWK获取散列（“关联数组”），从sed 获取正则表达式。这些简化并促进了许多解析、文本处理和数据管理任务。同样与 Lisp 共享的是块中最后一个值的隐式返回，以及所有语句都有一个值的事实，因此也是表达式并且可以在更大的表达式本身中使用。</p>
-<p>Perl 5 添加了支持复杂数据结构、一流函数（即闭包作为值）和面向对象的编程模型的特性。这些包括引用、包、基于类的方法调度和词法范围的变量，以及编译器指令（例如，strict 编译指令）。Perl 5 引入的一个主要附加功能是能够将代码打包为可重用模块。沃尔后来表示“Perl 5 模块系统的整个意图是鼓励 Perl 文化而不是 Perl 核心的发展。” </p>
-<p>所有版本的 Perl 都做自动数据输入和自动内存管理。解释器知道程序中每个数据对象的类型和存储要求；它根据需要使用引用计数为它们分配和释放存储空间（因此它无法在没有手动干预的情况下释放循环数据结构）。合法的类型转换——例如，从数字到字符串的转换——在运行时自动完成；非法类型转换是致命错误。</p>
-<h2 id="设计"><a href="#设计" class="headerlink" title="设计"></a>设计</h2><p>Perl 的设计可以理解为对计算机行业三大趋势的回应：硬件成本下降、劳动力成本上升以及编译器技术的改进。许多早期的计算机语言，例如Fortran和 C，旨在有效利用昂贵的计算机硬件。相比之下，Perl 的设计目的是让计算机程序员可以更快速、更轻松地编写程序。</p>
-<p>Perl 有许多特性，它们以更高的CPU和内存要求为代价来减轻程序员的任务。这些包括自动内存管理；动态打字；字符串、列表和散列；常用表达; 内省；和一个eval()函数。Perl 遵循“没有内置限制”的理论，一个类似于零一无穷大规则的想法。</p>
-<p>Wall 接受过语言学家的培训，Perl 的设计在很大程度上遵循了语言学原理。示例包括霍夫曼编码（常见结构应该很短）、良好的末端加权（重要信息应该放在首位）以及大量语言原语。Perl 偏爱简洁自然的语言结构，即使在它们使 Perl 解释器复杂化的情况下也是如此。</p>
-<p>Perl 的语法反映了“不同的东西应该看起来不同”的想法。例如，标量、数组和散列具有不同的前导符号。数组索引和散列键使用不同种类的花括号。字符串和正则表达式具有不同的标准分隔符。这种方法可以与Lisp 之类的语言形成对比，在Lisp中，由简单和通用的符号表达式组成的相同基本语法可用于所有目的。</p>
-<p>Perl 不强制执行任何特定的编程范式（过程式、面向对象式、函数式或其他），甚至不要求程序员在其中进行选择。</p>
-<p>Perl 语言及其周围的社区和文化都有广泛的实践倾向。《Perl编程》的序言开头：“Perl 是一种用于完成工作的语言。” 这样做的一个后果是 Perl 不是一种整洁的语言。它包括许多功能，容忍其规则的例外，并采用启发式方法来解决句法歧义。由于编译器的宽容性，有时很难发现错误。Perl 的函数文档对列表和标量上下文中内置函数的变体行为进行了评论，说：“通常，除非您想要一致性，否则它们会做您想做的事。” </p>
-<p>Perl 5 之前的 Perl 版本没有Perl 语言的书面规范或标准，也没有计划为当前版本的 Perl 创建一个。解释器只有一种实现，语言也随之发展。该解释器及其功能测试构成了该语言的事实上的规范。然而，Perl 6 从一个规范开始，和几个项目旨在实现部分或全部规范。[需要引用]</p>
-<p>资料翻译来自：</p>
-<p><a href="https://en.wikipedia.org/wiki/Larry_Wall">https://en.wikipedia.org/wiki/Larry_Wall</a></p>
-<p><a href="https://en.wikipedia.org/wiki/Perl">https://en.wikipedia.org/wiki/Perl</a></p>
-<p><a href="http://www.wall.org/~larry/">http://www.wall.org/~larry/</a></p>
-]]></content>
-      <categories>
-        <category>Java</category>
-        <category>history</category>
-      </categories>
-      <tags>
-        <tag>history</tag>
       </tags>
   </entry>
   <entry>
@@ -621,34 +739,21 @@
       </tags>
   </entry>
   <entry>
-    <title>SDN</title>
-    <url>/2021/06/04/SDN/</url>
-    <content><![CDATA[<p>SDN</p>
+    <title>Python的错误和异常处理</title>
+    <url>/2021/07/16/Python%E7%9A%84%E9%94%99%E8%AF%AF%E5%92%8C%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/</url>
+    <content><![CDATA[<p>Python的错误和异常处理</p>
 <span id="more"></span>
-<h2 id="SDN"><a href="#SDN" class="headerlink" title="SDN"></a>SDN</h2><h2 id="Cisco-ACI"><a href="#Cisco-ACI" class="headerlink" title="Cisco ACI"></a>Cisco ACI</h2><p>思科应用中心基础架构</p>
-<p>本质上是思科针对数据中心提供的SDN解决方案，其核心功能或目的是对数据中心网络实现软件层面的集中控制及自动化管理。</p>
-<p>ACI包括三种核心的组件，分别是：</p>
-<ol>
-<li><p>Cisco Nexus 9000交换机</p>
-</li>
-<li><p>APIC（Application Policy Infrastructure Controller ，应用策略基础架构控制器）、</p>
-</li>
-<li><p>ANP应用网络配置文件</p>
-</li>
-</ol>
-<h2 id="VMware-NSX"><a href="#VMware-NSX" class="headerlink" title="VMware NSX"></a>VMware NSX</h2><p>VMware NSX更多的是基于软件层面进行SDN架构设计，VMware NSX可以忽略底层硬件差异，通过构建一个分布式虚拟层来实现大部分需要网络硬件支持的功能。</p>
-<p>而思科应用中心基础设施（Application Centric Infrastructure, ACI）是一个基于思科硬件的SDN解决方案，准确说只能使用思科Nexus 9000型交换机和支持ACI的硬件板块才能够正常部署。同样的用途，不同的设计思路，</p>
-<p>也许是源于VMware是一家软件公司，而CISCO是一家网络硬件公司的缘故吧！</p>
-<p><a href="https://www.dell.com/community/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8%E5%92%8C%E4%BF%9D%E6%8A%A4-%E8%B5%84%E6%96%99%E6%96%87%E6%A1%A3/%E5%AF%B9%E6%AF%94VMware-NSX%E5%92%8CCISCO-ACI%E7%9A%84%E5%BC%82%E5%90%8C/ta-p/7183690">https://www.dell.com/community/数据存储和保护-资料文档/对比VMware-NSX和CISCO-ACI的异同/ta-p/7183690</a></p>
-<h2 id="OpenStack-Neutron"><a href="#OpenStack-Neutron" class="headerlink" title="OpenStack Neutron"></a>OpenStack Neutron</h2><p>Open stack中网络是通过Neutron组件实现，它也成为了整个Open stack中最复杂的部分</p>
-<p>OpenStack网络（neutron）管理您OpenStack环境中虚拟网络基础设施（VNI）所有网络方面和物理网络基础设施（PNI）的接入层方面。</p>
+
+
+
+<p>netmiko的异常处理</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> netmiko <span class="keyword">import</span> ConnectHandler</span><br><span class="line"><span class="keyword">from</span> netmiko.ssh_exception <span class="keyword">import</span> NetMikoAuthenticationException, NetMikoTimeoutException</span><br><span class="line"></span><br><span class="line">CONNECTION_PARAMS = &#123;<span class="string">&#x27;ip&#x27;</span>: <span class="string">&#x27;cloud-myt-qrator-6s254.yndx.net&#x27;</span>, <span class="string">&#x27;username&#x27;</span>: <span class="string">&#x27;netinfra-mon&#x27;</span>, <span class="string">&#x27;timeout&#x27;</span>: <span class="number">10</span>, <span class="string">&#x27;use_keys&#x27;</span>: <span class="literal">True</span>, <span class="string">&#x27;key_file&#x27;</span>: <span class="string">&#x27;/home/netinfra-mon/.ssh/id_rsa&#x27;</span>, <span class="string">&#x27;device_type&#x27;</span>: <span class="string">&#x27;juniper&#x27;</span>&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    <span class="keyword">with</span> ConnectHandler(**CONNECTION_PARAMS) <span class="keyword">as</span> ssh:</span><br><span class="line">        result = ssh.send_command(<span class="string">&#x27;sh ver&#x27;</span>)</span><br><span class="line">        <span class="built_in">print</span>(result)</span><br><span class="line"><span class="keyword">except</span> (NetMikoAuthenticationException, NetMikoTimeoutException):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;Failed to connect to &#123;&#125;&#x27;</span>.<span class="built_in">format</span>(CONNECTION_PARAMS[<span class="string">&#x27;ip&#x27;</span>]))</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>Network</category>
-        <category>SDN</category>
+        <category>Python</category>
       </categories>
       <tags>
-        <tag>SDN</tag>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -696,50 +801,34 @@
       </tags>
   </entry>
   <entry>
-    <title>java之Maven</title>
-    <url>/2021/06/21/java%E4%B9%8BMaven/</url>
-    <content><![CDATA[<p>Maven是jar包管理工具</p>
+    <title>SDN</title>
+    <url>/2021/06/04/SDN/</url>
+    <content><![CDATA[<p>SDN</p>
 <span id="more"></span>
-
-
-<p>Maven是啥：</p>
-<p>Maven是Apache软件基金会唯一维护的一款自动化构建工具，专注于服务Java平台的项目构建和依赖管理。Maven是基于项目对象模型（POM），可以通过一小段描述信息来管理项目的构建、报告和文档的软件项目管理工具。</p>
-<p>2.Maven可以干啥：</p>
-<p>1.jar包之间的依赖关系：<br>Maven 可以替我们自动的将当前 jar 包所依赖的其他所有 jar 包全部导入进来</p>
-<p>2.获取第三方jar包：<br>Maven 提供了一个完全统一规范的 jar 包管理体系，只需要在项目中以坐标的方式依赖一个 jar 包，Maven 就会自动从中央仓库进行下载到本地仓库</p>
-<p>3.将项目拆分成多个工程模块<br>构建项目（打包，编译等）</p>
-<p>POM<br>Project Object Model：项目对象模型。将 Java 工程的相关信息  封装为对象 作为便于操作和管理的模型。</p>
-<p><a href="https://zhuanlan.zhihu.com/p/103461142">https://zhuanlan.zhihu.com/p/103461142</a><br><a href="https://www.zhihu.com/question/32240102/answer/340029398">https://www.zhihu.com/question/32240102/answer/340029398</a><br><a href="https://www.jianshu.com/p/8cee329465d4">https://www.jianshu.com/p/8cee329465d4</a></p>
+<h2 id="SDN"><a href="#SDN" class="headerlink" title="SDN"></a>SDN</h2><h2 id="Cisco-ACI"><a href="#Cisco-ACI" class="headerlink" title="Cisco ACI"></a>Cisco ACI</h2><p>思科应用中心基础架构</p>
+<p>本质上是思科针对数据中心提供的SDN解决方案，其核心功能或目的是对数据中心网络实现软件层面的集中控制及自动化管理。</p>
+<p>ACI包括三种核心的组件，分别是：</p>
+<ol>
+<li><p>Cisco Nexus 9000交换机</p>
+</li>
+<li><p>APIC（Application Policy Infrastructure Controller ，应用策略基础架构控制器）、</p>
+</li>
+<li><p>ANP应用网络配置文件</p>
+</li>
+</ol>
+<h2 id="VMware-NSX"><a href="#VMware-NSX" class="headerlink" title="VMware NSX"></a>VMware NSX</h2><p>VMware NSX更多的是基于软件层面进行SDN架构设计，VMware NSX可以忽略底层硬件差异，通过构建一个分布式虚拟层来实现大部分需要网络硬件支持的功能。</p>
+<p>而思科应用中心基础设施（Application Centric Infrastructure, ACI）是一个基于思科硬件的SDN解决方案，准确说只能使用思科Nexus 9000型交换机和支持ACI的硬件板块才能够正常部署。同样的用途，不同的设计思路，</p>
+<p>也许是源于VMware是一家软件公司，而CISCO是一家网络硬件公司的缘故吧！</p>
+<p><a href="https://www.dell.com/community/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8%E5%92%8C%E4%BF%9D%E6%8A%A4-%E8%B5%84%E6%96%99%E6%96%87%E6%A1%A3/%E5%AF%B9%E6%AF%94VMware-NSX%E5%92%8CCISCO-ACI%E7%9A%84%E5%BC%82%E5%90%8C/ta-p/7183690">https://www.dell.com/community/数据存储和保护-资料文档/对比VMware-NSX和CISCO-ACI的异同/ta-p/7183690</a></p>
+<h2 id="OpenStack-Neutron"><a href="#OpenStack-Neutron" class="headerlink" title="OpenStack Neutron"></a>OpenStack Neutron</h2><p>Open stack中网络是通过Neutron组件实现，它也成为了整个Open stack中最复杂的部分</p>
+<p>OpenStack网络（neutron）管理您OpenStack环境中虚拟网络基础设施（VNI）所有网络方面和物理网络基础设施（PNI）的接入层方面。</p>
 ]]></content>
       <categories>
-        <category>Java</category>
-        <category>Maven</category>
+        <category>Network</category>
+        <category>SDN</category>
       </categories>
       <tags>
-        <tag>Maven</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>linux网络命令</title>
-    <url>/2021/06/01/linux%E7%BD%91%E7%BB%9C%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<p>linux网络命令</p>
-<span id="more"></span>
-<h3 id="linux修改接口IP和DNS"><a href="#linux修改接口IP和DNS" class="headerlink" title="linux修改接口IP和DNS"></a>linux修改接口IP和DNS</h3><p>1.ifconfig 查看接口的名字</p>
-<p>2.找到路径<br><code>/etc/sysconfig/network-scripts/</code></p>
-<p>3.编辑接口名字<br><code>vi eth0</code></p>
-<p>4.修改DNS<br><code>/etc/resolv.conf</code></p>
-<h3 id="查看接口状态"><a href="#查看接口状态" class="headerlink" title="查看接口状态"></a>查看接口状态</h3><p><code>ip link show</code></p>
-<h3 id="查看IP地址配置："><a href="#查看IP地址配置：" class="headerlink" title="查看IP地址配置："></a>查看IP地址配置：</h3><p><code>ip address</code></p>
-<h3 id="查看路由和默认路由"><a href="#查看路由和默认路由" class="headerlink" title="查看路由和默认路由"></a>查看路由和默认路由</h3><p><code>ip route</code></p>
-<h3 id="其他查看路由命令"><a href="#其他查看路由命令" class="headerlink" title="其他查看路由命令"></a>其他查看路由命令</h3><p><code>route -n</code><br><code>netstat -rn</code> </p>
-<h2 id="nmcli命令"><a href="#nmcli命令" class="headerlink" title="nmcli命令"></a>nmcli命令</h2><p><code>nmcli device status</code><br><code>nmcli connection show</code></p>
-<h2 id="nmtui命令"><a href="#nmtui命令" class="headerlink" title="nmtui命令"></a>nmtui命令</h2><p><code>nmtui</code></p>
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
+        <tag>SDN</tag>
       </tags>
   </entry>
   <entry>
@@ -821,6 +910,53 @@
       </categories>
       <tags>
         <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>java之Maven</title>
+    <url>/2021/06/21/java%E4%B9%8BMaven/</url>
+    <content><![CDATA[<p>Maven是jar包管理工具</p>
+<span id="more"></span>
+
+
+<p>Maven是啥：</p>
+<p>Maven是Apache软件基金会唯一维护的一款自动化构建工具，专注于服务Java平台的项目构建和依赖管理。Maven是基于项目对象模型（POM），可以通过一小段描述信息来管理项目的构建、报告和文档的软件项目管理工具。</p>
+<p>2.Maven可以干啥：</p>
+<p>1.jar包之间的依赖关系：<br>Maven 可以替我们自动的将当前 jar 包所依赖的其他所有 jar 包全部导入进来</p>
+<p>2.获取第三方jar包：<br>Maven 提供了一个完全统一规范的 jar 包管理体系，只需要在项目中以坐标的方式依赖一个 jar 包，Maven 就会自动从中央仓库进行下载到本地仓库</p>
+<p>3.将项目拆分成多个工程模块<br>构建项目（打包，编译等）</p>
+<p>POM<br>Project Object Model：项目对象模型。将 Java 工程的相关信息  封装为对象 作为便于操作和管理的模型。</p>
+<p><a href="https://zhuanlan.zhihu.com/p/103461142">https://zhuanlan.zhihu.com/p/103461142</a><br><a href="https://www.zhihu.com/question/32240102/answer/340029398">https://www.zhihu.com/question/32240102/answer/340029398</a><br><a href="https://www.jianshu.com/p/8cee329465d4">https://www.jianshu.com/p/8cee329465d4</a></p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>Maven</category>
+      </categories>
+      <tags>
+        <tag>Maven</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>linux网络命令</title>
+    <url>/2021/06/01/linux%E7%BD%91%E7%BB%9C%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<p>linux网络命令</p>
+<span id="more"></span>
+<h3 id="linux修改接口IP和DNS"><a href="#linux修改接口IP和DNS" class="headerlink" title="linux修改接口IP和DNS"></a>linux修改接口IP和DNS</h3><p>1.ifconfig 查看接口的名字</p>
+<p>2.找到路径<br><code>/etc/sysconfig/network-scripts/</code></p>
+<p>3.编辑接口名字<br><code>vi eth0</code></p>
+<p>4.修改DNS<br><code>/etc/resolv.conf</code></p>
+<h3 id="查看接口状态"><a href="#查看接口状态" class="headerlink" title="查看接口状态"></a>查看接口状态</h3><p><code>ip link show</code></p>
+<h3 id="查看IP地址配置："><a href="#查看IP地址配置：" class="headerlink" title="查看IP地址配置："></a>查看IP地址配置：</h3><p><code>ip address</code></p>
+<h3 id="查看路由和默认路由"><a href="#查看路由和默认路由" class="headerlink" title="查看路由和默认路由"></a>查看路由和默认路由</h3><p><code>ip route</code></p>
+<h3 id="其他查看路由命令"><a href="#其他查看路由命令" class="headerlink" title="其他查看路由命令"></a>其他查看路由命令</h3><p><code>route -n</code><br><code>netstat -rn</code> </p>
+<h2 id="nmcli命令"><a href="#nmcli命令" class="headerlink" title="nmcli命令"></a>nmcli命令</h2><p><code>nmcli device status</code><br><code>nmcli connection show</code></p>
+<h2 id="nmtui命令"><a href="#nmtui命令" class="headerlink" title="nmtui命令"></a>nmtui命令</h2><p><code>nmtui</code></p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -950,28 +1086,60 @@
       </tags>
   </entry>
   <entry>
-    <title>python的subprocess</title>
-    <url>/2021/06/11/python%E7%9A%84subprocess/</url>
-    <content><![CDATA[<p>subprocess最早在2.4版本引入,用来生成子进程，并可以通过管道连接他们的输入/输出/错误，以及获得他们的返回值。</p>
+    <title>python数据写入和读取到Excel</title>
+    <url>/2021/07/13/python%E6%95%B0%E6%8D%AE%E5%86%99%E5%85%A5%E5%92%8C%E8%AF%BB%E5%8F%96%E5%88%B0Excel/</url>
+    <content><![CDATA[<p>python数据写入和读取到Excel</p>
 <span id="more"></span>
 
-<p>旧模块：<br>os.system() 执行操作系统的命令，将结果输出到屏幕，只返回命令执行状态(0：成功，非 0 ： 失败)<br>os.popen()执行操作系统的命令，会将结果保存在内存当中，可以用read()方法读取出来</p>
-<p><strong>subprocess.Popen</strong><br>所有subprocess类型都是对subprocess.Popen的封装,因此subprocess.Popen是根。<br>返回值: 需要借助于wait或者communicate 来实现返回值和状态码</p>
-<p><strong>subprocess.call</strong></p>
-<ol>
-<li>subprocess.call=Popen() + wait()</li>
-<li>返回值:返回命令的输出结果  和执行状态，0或者非0**</li>
-</ol>
-<p><strong>subprocess.run</strong></p>
-<ol>
-<li>subprocess.run= Popen() + communicate()</li>
-<li>返回值:返回命令的输出结果  和执行状态，0或者非0**</li>
-</ol>
-<p><a href="https://cloud.tencent.com/developer/article/1445388">https://cloud.tencent.com/developer/article/1445388</a></p>
+<h3 id="1-什么样的数据类型-数据源可以写入到Excel"><a href="#1-什么样的数据类型-数据源可以写入到Excel" class="headerlink" title="1.什么样的数据类型/数据源可以写入到Excel?"></a>1.什么样的数据类型/数据源可以写入到Excel?</h3><h3 id="2-什么样的库可以实现？"><a href="#2-什么样的库可以实现？" class="headerlink" title="2.什么样的库可以实现？"></a>2.什么样的库可以实现？</h3><ul>
+<li><p>xlwt  </p>
+</li>
+<li><p>xlsxwriter  </p>
+</li>
+<li><p>openpyxl</p>
+</li>
+<li><p>pandas</p>
+</li>
+</ul>
+<h3 id="3-什么方式写入？-一列一列-还是一行一行？"><a href="#3-什么方式写入？-一列一列-还是一行一行？" class="headerlink" title="3.什么方式写入？ 一列一列 还是一行一行？"></a>3.什么方式写入？ 一列一列 还是一行一行？</h3><h2 id=""><a href="#" class="headerlink" title=""></a></h2><h2 id="xlwt"><a href="#xlwt" class="headerlink" title="xlwt"></a>xlwt</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> xlwt</span><br><span class="line"><span class="comment"># 创建一个workbook 设置编码</span></span><br><span class="line">workbook = xlwt.Workbook(encoding = <span class="string">&#x27;utf-8&#x27;</span>)</span><br><span class="line"><span class="comment"># 创建一个worksheet</span></span><br><span class="line">worksheet = workbook.add_sheet(<span class="string">&#x27;My Worksheet&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 写入excel</span></span><br><span class="line"><span class="comment"># 参数对应 行, 列, 值</span></span><br><span class="line">worksheet.write(<span class="number">1</span>,<span class="number">0</span>, label = <span class="string">&#x27;this is test&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 保存</span></span><br><span class="line">workbook.save(<span class="string">&#x27;Excel_test.xls&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> xlwt</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">data_write</span>(<span class="params">file_path, datas</span>):</span></span><br><span class="line">    f = xlwt.Workbook()</span><br><span class="line">    sheet1 = f.add_sheet(<span class="string">&#x27;switch&#x27;</span>)  <span class="comment"># 创建sheet</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># 将数据写入第 i 行，第 j 列</span></span><br><span class="line">    i = <span class="number">0</span></span><br><span class="line">    <span class="keyword">for</span> data <span class="keyword">in</span> datas:</span><br><span class="line">        <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(data)):</span><br><span class="line">            sheet1.write(i, j, data[j])</span><br><span class="line">        i = i + <span class="number">1</span></span><br><span class="line"></span><br><span class="line">    f.save(file_path)</span><br><span class="line"></span><br><span class="line">data_write(<span class="string">&#x27;switch.xls&#x27;</span>,list01)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="xlsxwriter"><a href="#xlsxwriter" class="headerlink" title="xlsxwriter"></a>xlsxwriter</h2><p><strong>write_column（） 构建多维列表，一列一列写入</strong></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> xlsxwriter</span><br><span class="line"></span><br><span class="line">workbook = xlsxwriter.Workbook(<span class="string">&#x27;arrays.xlsx&#x27;</span>)</span><br><span class="line">worksheet = workbook.add_worksheet()</span><br><span class="line"></span><br><span class="line">array = [[<span class="string">&#x27;a1&#x27;</span>, <span class="string">&#x27;a2&#x27;</span>, <span class="string">&#x27;a3&#x27;</span>],</span><br><span class="line">         [<span class="string">&#x27;a4&#x27;</span>, <span class="string">&#x27;a5&#x27;</span>, <span class="string">&#x27;a6&#x27;</span>],</span><br><span class="line">         [<span class="string">&#x27;a7&#x27;</span>, <span class="string">&#x27;a8&#x27;</span>, <span class="string">&#x27;a9&#x27;</span>],</span><br><span class="line">         [<span class="string">&#x27;a10&#x27;</span>, <span class="string">&#x27;a11&#x27;</span>, <span class="string">&#x27;a12&#x27;</span>, <span class="string">&#x27;a13&#x27;</span>, <span class="string">&#x27;a14&#x27;</span>]]</span><br><span class="line"></span><br><span class="line">row = <span class="number">0</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> col, data <span class="keyword">in</span> <span class="built_in">enumerate</span>(array):</span><br><span class="line">    worksheet.write_column(row, col, data)</span><br><span class="line"></span><br><span class="line">workbook.close()</span><br></pre></td></tr></table></figure>
+
+<p><img src="/2021/07/13/python%E6%95%B0%E6%8D%AE%E5%86%99%E5%85%A5%E5%92%8C%E8%AF%BB%E5%8F%96%E5%88%B0Excel/xlsxwriter.png"></p>
+<h2 id="openpyxl"><a href="#openpyxl" class="headerlink" title="openpyxl"></a>openpyxl</h2><p>创建工作簿和获取<strong>默认sheet</strong></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> openpyxl</span><br><span class="line"></span><br><span class="line"><span class="comment">#创建工作簿</span></span><br><span class="line">mywb = openpyxl.Workbook()</span><br><span class="line"></span><br><span class="line"><span class="comment">#获取工作表的名字</span></span><br><span class="line">mywb.get_sheet_names()</span><br><span class="line">[<span class="string">&#x27;Sheet&#x27;</span>]</span><br><span class="line"></span><br><span class="line">sheet = mywb.active</span><br><span class="line"></span><br><span class="line"><span class="comment">#获取sheet名称</span></span><br><span class="line">sheet.title</span><br><span class="line"><span class="string">&#x27;Sheet&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#修改sheet名称</span></span><br><span class="line">sheet.title = <span class="string">&#x27;MyNewTitle&#x27;</span></span><br><span class="line"></span><br><span class="line">wb.get_sheet_names()</span><br><span class="line">[<span class="string">&#x27;MyNewTitle&#x27;</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment">#保存修改配置</span></span><br><span class="line">mywb.save(<span class="string">&#x27;NewExcelFile.xlsx&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+
+
+<p>新的Sheet的创建和删除</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> openpyxl</span><br><span class="line">mywb = openpyxl.Workbook()</span><br><span class="line"></span><br><span class="line"><span class="comment">#创建sheet</span></span><br><span class="line">mywb.create_sheet()</span><br><span class="line">&lt;Worksheet <span class="string">&quot;Sheet1&quot;</span>&gt;</span><br><span class="line"></span><br><span class="line">mywb.get_sheet_names()</span><br><span class="line">[<span class="string">&#x27;Sheet&#x27;</span>, <span class="string">&#x27;Sheet1&#x27;</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment">#删除sheet</span></span><br><span class="line">mywb.remove_sheet(mywb.get_sheet_by_name(<span class="string">&#x27;Sheet1&#x27;</span>))</span><br><span class="line"></span><br><span class="line">mywb.get_sheet_names()</span><br><span class="line">[<span class="string">&#x27;Sheet&#x27;</span>]</span><br></pre></td></tr></table></figure>
+
+
+
+<p>写入信息到Excel</p>
+<p>使用<code>cell()</code>函数进行写入时，必须使用<code>value</code>方法</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> openpyxl</span><br><span class="line">mywb = openpyxl.Workbook()</span><br><span class="line">mysheet = mywb.get_sheet_by_name(<span class="string">&#x27;Sheet&#x27;</span>)</span><br><span class="line">mysheet.cell(row=<span class="number">2</span>, column=<span class="number">4</span>).value = <span class="string">&#x27;hello world&#x27;</span></span><br><span class="line">mysheet[<span class="string">&#x27;D2&#x27;</span>].value</span><br><span class="line"><span class="string">&#x27;hello world&#x27;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="pandas"><a href="#pandas" class="headerlink" title="pandas"></a>pandas</h2><p>Pandas库是基于Numpy库来创建的，Numpy主要用于矩阵操作，而Pandas主要用于数据处理。</p>
+<p>Pandas主要有两种重要的数据结构：Series和DataFrame.</p>
+<ul>
+<li>Series: 类似一个一维数组，一个Series对应DataFrame的一列</li>
+<li>DataFrame:类似一个二维数组，一个DataFrame由几个Series列构成。</li>
+</ul>
 ]]></content>
       <categories>
         <category>Python</category>
-        <category>NetOps</category>
       </categories>
       <tags>
         <tag>Python</tag>
@@ -1007,6 +1175,34 @@
 ]]></content>
       <categories>
         <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python的subprocess</title>
+    <url>/2021/06/11/python%E7%9A%84subprocess/</url>
+    <content><![CDATA[<p>subprocess最早在2.4版本引入,用来生成子进程，并可以通过管道连接他们的输入/输出/错误，以及获得他们的返回值。</p>
+<span id="more"></span>
+
+<p>旧模块：<br>os.system() 执行操作系统的命令，将结果输出到屏幕，只返回命令执行状态(0：成功，非 0 ： 失败)<br>os.popen()执行操作系统的命令，会将结果保存在内存当中，可以用read()方法读取出来</p>
+<p><strong>subprocess.Popen</strong><br>所有subprocess类型都是对subprocess.Popen的封装,因此subprocess.Popen是根。<br>返回值: 需要借助于wait或者communicate 来实现返回值和状态码</p>
+<p><strong>subprocess.call</strong></p>
+<ol>
+<li>subprocess.call=Popen() + wait()</li>
+<li>返回值:返回命令的输出结果  和执行状态，0或者非0**</li>
+</ol>
+<p><strong>subprocess.run</strong></p>
+<ol>
+<li>subprocess.run= Popen() + communicate()</li>
+<li>返回值:返回命令的输出结果  和执行状态，0或者非0**</li>
+</ol>
+<p><a href="https://cloud.tencent.com/developer/article/1445388">https://cloud.tencent.com/developer/article/1445388</a></p>
+]]></content>
+      <categories>
+        <category>Python</category>
+        <category>NetOps</category>
       </categories>
       <tags>
         <tag>Python</tag>
@@ -1122,24 +1318,6 @@
       </tags>
   </entry>
   <entry>
-    <title>思科交换机stack和VSS</title>
-    <url>/2021/06/01/%E6%80%9D%E7%A7%91%E4%BA%A4%E6%8D%A2%E6%9C%BAstack%E5%92%8CVSS/</url>
-    <content><![CDATA[<p>思科交换机stack和VSS</p>
-<span id="more"></span>
-<h2 id="配置domain"><a href="#配置domain" class="headerlink" title="配置domain:"></a>配置domain:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#conf t</span><br><span class="line">9500-A(config)#stackwise-virtual</span><br><span class="line">9500-A(config-stackwise-virtual)#domain 1 </span><br><span class="line">9500-A(config-stackwise-virtual)#exit</span><br></pre></td></tr></table></figure>
-<h2 id="配置virtual-link"><a href="#配置virtual-link" class="headerlink" title="配置virtual-link:"></a>配置virtual-link:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#inter ran ten 1/0/1, ten 1/0/2</span><br><span class="line">9500-A(config-if-range)#stackwise-virtual link 1 </span><br></pre></td></tr></table></figure>
-<h2 id="配置-dual-detection-link"><a href="#配置-dual-detection-link" class="headerlink" title="配置 dual-detection link"></a>配置 dual-detection link</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#int te1/0/3</span><br><span class="line">9500-A(config-if)#stackwise-virtual dual-active-detection</span><br></pre></td></tr></table></figure>
-
-<h2 id="配置优先级"><a href="#配置优先级" class="headerlink" title="配置优先级"></a>配置优先级</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#switch 1 priority 15</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Network</category>
-        <category>Switch</category>
-      </categories>
-      <tags>
-        <tag>Switch</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>思科wireless连接的交互过程</title>
     <url>/2021/06/09/%E6%80%9D%E7%A7%91wireless%E8%BF%9E%E6%8E%A5%E7%9A%84%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/</url>
     <content><![CDATA[<p>思科wireless连接的交互过程 以及四次握手交互过程</p>
@@ -1172,118 +1350,21 @@
       </tags>
   </entry>
   <entry>
-    <title>PHP和MySQL条件查询</title>
-    <url>/2021/07/09/PHP%E5%92%8CMySQL%E6%9D%A1%E4%BB%B6%E6%9F%A5%E8%AF%A2/</url>
-    <content><![CDATA[<p>PHP和MySQL条件查询</p>
+    <title>思科交换机stack和VSS</title>
+    <url>/2021/06/01/%E6%80%9D%E7%A7%91%E4%BA%A4%E6%8D%A2%E6%9C%BAstack%E5%92%8CVSS/</url>
+    <content><![CDATA[<p>思科交换机stack和VSS</p>
 <span id="more"></span>
+<h2 id="配置domain"><a href="#配置domain" class="headerlink" title="配置domain:"></a>配置domain:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#conf t</span><br><span class="line">9500-A(config)#stackwise-virtual</span><br><span class="line">9500-A(config-stackwise-virtual)#domain 1 </span><br><span class="line">9500-A(config-stackwise-virtual)#exit</span><br></pre></td></tr></table></figure>
+<h2 id="配置virtual-link"><a href="#配置virtual-link" class="headerlink" title="配置virtual-link:"></a>配置virtual-link:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#inter ran ten 1/0/1, ten 1/0/2</span><br><span class="line">9500-A(config-if-range)#stackwise-virtual link 1 </span><br></pre></td></tr></table></figure>
+<h2 id="配置-dual-detection-link"><a href="#配置-dual-detection-link" class="headerlink" title="配置 dual-detection link"></a>配置 dual-detection link</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#int te1/0/3</span><br><span class="line">9500-A(config-if)#stackwise-virtual dual-active-detection</span><br></pre></td></tr></table></figure>
 
-
-
-<p>Set an always true condition in order to have constant <code>WHERE</code> clause.</p>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="variable">$sql</span> = <span class="string">&quot;SELECT * FROM myTable WHERE 1 = 1 &quot;</span></span><br><span class="line"><span class="keyword">if</span> (<span class="literal">true</span>) &#123;</span><br><span class="line">    <span class="variable">$sql</span> .= <span class="string">&quot; AND col1 LIKE &#x27;%val%&#x27; &quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
+<h2 id="配置优先级"><a href="#配置优先级" class="headerlink" title="配置优先级"></a>配置优先级</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#switch 1 priority 15</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>PHP</category>
+        <category>Network</category>
+        <category>Switch</category>
       </categories>
       <tags>
-        <tag>PHP</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>PHP之MySQL数据库语句</title>
-    <url>/2021/07/06/PHP%E4%B9%8BMySQL%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%AD%E5%8F%A5/</url>
-    <content><![CDATA[<p>MySQL数据库语句</p>
-<span id="more"></span>
-
-
-
-<p>数据库增删改查<br>SELECT column FROM table<br>WHERE column operator value</p>
-<p>DELETE FROM table_name<br>WHERE column_name = some_value</p>
-<p>UPDATE table_name<br>SET column_name= new_value<br>WHERE column_name = some_value</p>
-<p>INSERT INTO table_name(column1,column2,…) VALUES (valuel, value2,…)</p>
-<p><strong>1.mysql_connect 打开一个到 MYSQL服务器的连接</strong></p>
-<p><code>$conn = mysql_connect(&quot;localhost:3306&quot;,&quot;root&quot;,&quot;root&quot;);</code></p>
-<p>2.<strong>mysql_select_db 选择MySQL数据库</strong></p>
-<p><code>mysql_select_db(&quot;phpdemo&quot;,$conn); </code></p>
-<p><strong>3.mysql_query    查询数据库返回一个result的标识</strong></p>
-<p><code>$result = mysql_query(&quot;select * from user&quot;);</code></p>
-<p>mysq1_ query（)仅对 SELECT, SHOW, DESCRIBE,EXPLAIN和其他语句语句返回resource<br>如果查询岀现、错误则返回 FALSE.</p>
-<p>对于其它类型的SQL语句，比如 IINSERT, UPDATE,DELETE,DROP之类，mysq1 auer（）在执行成<br>功时返回TRUE,出错时返回 FALSE.</p>
-<p><strong>4. mysql_fetch 把result中的数据提取出来</strong></p>
-<p><strong>mysql_fetch_assoc</strong></p>
-<p><code>$result_arr = mysql_fetch_assoc($result);  把result中的数据提取出来,一次只提取一条记录</code></p>
-<p><strong>mysql_fetch_assoc</strong><br>从结果集中取得一行作为关联数组</p>
-<p><strong>mysql_fetch_row</strong><br>从结果集中取得一行作为枚举数组</p>
-<p><strong>mysql_fetch_array</strong><br>从结果集中取得一行作为关联数组，或数字数组，或二者兼有</p>
-<p><a href="https://www.bilibili.com/video/BV15p411f7ey?p=3">https://www.bilibili.com/video/BV15p411f7ey?p=3</a></p>
-]]></content>
-      <categories>
-        <category>PHP</category>
-        <category>MySQL</category>
-      </categories>
-      <tags>
-        <tag>MySQL</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>PHP获取MySQL数据的方法</title>
-    <url>/2021/07/09/PHP%E8%8E%B7%E5%8F%96MySQL%E6%95%B0%E6%8D%AE%E7%9A%84%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<p>PHP输出所有查询的数据</p>
-<span id="more"></span>
-
-
-
-<p>1.使用 PHP 函数的 <strong>mysqli_query()</strong> 及 <strong>SQL SELECT</strong> 命令来获取数据。</p>
-<p>2.然后通过 PHP 函数 <strong>mysqli_fetch_array()</strong> 来输出所有查询的数据。</p>
-<p>2.输出所有查询的数据</p>
-<p><strong>mysqli_fetch_array()</strong> 函数从结果集中取得一行作为关联数组，或数字数组，或二者兼有 返回根据从结果集取得的行生成的数组，如果没有更多行则返回 false。**</p>
-<p><strong>mysqli_fetch_assoc()</strong>, 该函数从结果集中取得一行作为关联数组。 返回根据从结果集取得的行生成的关联数组，如果没有更多行，则返回 false。</p>
-<h2 id="mysqli-fetch-assoc-和-mysqli-fetch-array-的区别"><a href="#mysqli-fetch-assoc-和-mysqli-fetch-array-的区别" class="headerlink" title="mysqli_fetch_assoc() 和 mysqli_fetch_array() 的区别"></a>mysqli_fetch_assoc() 和 mysqli_fetch_array() 的区别</h2><p>mysqli_fetch_assoc 和 mysqli_fetch_array 的主要区别在于结果数据的输出格式。</p>
-<p>mysqli_fetch_assoc 返回关联数组中的数据，而 mysqli_fetch_array 返回数字数组和/或关联数组中的数据。</p>
-<h3 id="mysqli-fetch-assoc"><a href="#mysqli-fetch-assoc" class="headerlink" title="mysqli_fetch_assoc()"></a>mysqli_fetch_assoc()</h3><p>mysqli_fetch_assoc 以列名作为结果数组的键返回关联数组中的数据。这意味着我们可以使用列名作为数组的键来访问输出数组。</p>
-<p><a href="https://www.runoob.com/mysql/mysql-select-query.html">https://www.runoob.com/mysql/mysql-select-query.html</a></p>
-<p><a href="https://www.runoob.com/mysql/mysql-where-clause.html">https://www.runoob.com/mysql/mysql-where-clause.html</a></p>
-]]></content>
-      <categories>
-        <category>PHP</category>
-      </categories>
-      <tags>
-        <tag>PHP</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>PHP和MySQL实现注册和登录</title>
-    <url>/2021/07/09/PHP%E5%92%8CMySQL%E5%AE%9E%E7%8E%B0%E6%B3%A8%E5%86%8C%E5%92%8C%E7%99%BB%E5%BD%95/</url>
-    <content><![CDATA[<p>PHP和MySQL实现注册和登录</p>
-<span id="more"></span>
-
-
-
-<p>PHP和MySQL实现注册和登录</p>
-<h2 id="1-登录-查询-mysqli-num-rows-输出结果行数-判断"><a href="#1-登录-查询-mysqli-num-rows-输出结果行数-判断" class="headerlink" title="1.登录 查询 mysqli_num_rows() 输出结果行数 判断"></a>1.登录 查询 mysqli_num_rows() 输出结果行数 判断</h2><h2 id="2-注册-通过INSERT语句mysqli-query-来执行插入数据"><a href="#2-注册-通过INSERT语句mysqli-query-来执行插入数据" class="headerlink" title="2.注册 通过INSERT语句mysqli_query() 来执行插入数据"></a>2.注册 通过INSERT语句mysqli_query() 来执行插入数据</h2><p>register.html</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>登录<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">b</span>&gt;</span>登录<span class="tag">&lt;/<span class="name">b</span>&gt;</span></span><br><span class="line">       <span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">&quot;register.php&quot;</span> <span class="attr">method</span>=<span class="string">&quot;POST&quot;</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">span</span>&gt;</span>用户名:<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">name</span>=<span class="string">&quot;user&quot;</span> <span class="attr">required</span>=<span class="string">&quot;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">span</span>&gt;</span>密码:<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;password&quot;</span> <span class="attr">name</span>=<span class="string">&quot;pass&quot;</span> <span class="attr">required</span>=<span class="string">&quot;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">      </span><br><span class="line">           </span><br><span class="line">           <span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;reset&quot;</span> <span class="attr">name</span>=<span class="string">&quot;&quot;</span>/&gt;</span> <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;submit&quot;</span> <span class="attr">name</span>=<span class="string">&quot;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">       <span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br><span class="line">       <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;index.html&quot;</span>&gt;</span>已注册<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-
-
-<p>register.php</p>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="variable">$servername</span> = <span class="string">&quot;localhost&quot;</span>;</span><br><span class="line"><span class="variable">$username</span> = <span class="string">&quot;root&quot;</span>;</span><br><span class="line"><span class="variable">$password</span> = <span class="string">&quot;Tz123456&quot;</span>;</span><br><span class="line"><span class="variable">$dbname</span> = <span class="string">&quot;user&quot;</span>;</span><br><span class="line"> </span><br><span class="line"><span class="comment">// 创建连接</span></span><br><span class="line"><span class="variable">$conn</span> = <span class="keyword">new</span> mysqli(<span class="variable">$servername</span>, <span class="variable">$username</span>, <span class="variable">$password</span>, <span class="variable">$dbname</span>);</span><br><span class="line"><span class="comment">// 检测连接</span></span><br><span class="line"><span class="keyword">if</span> (<span class="variable">$conn</span>-&gt;connect_error) &#123;</span><br><span class="line">    <span class="keyword">die</span>(<span class="string">&quot;连接失败: &quot;</span> . <span class="variable">$conn</span>-&gt;connect_error);</span><br><span class="line">&#125; </span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="variable">$user</span> = <span class="variable">$_POST</span>[<span class="string">&#x27;user&#x27;</span>];</span><br><span class="line"></span><br><span class="line"><span class="variable">$pass</span> = <span class="variable">$_POST</span>[<span class="string">&#x27;pass&#x27;</span>];</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"></span><br><span class="line"><span class="variable">$sql</span> = <span class="string">&quot;INSERT INTO users(username,password) </span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">            VALUES (&#x27;<span class="subst">&#123;$user&#125;</span>&#x27; ,&#x27;<span class="subst">&#123;$pass&#125;</span>&#x27;)&quot;</span>;</span><br><span class="line"></span><br><span class="line">mysqli_query(<span class="variable">$conn</span>,<span class="variable">$sql</span>) <span class="keyword">or</span> <span class="keyword">die</span>(mysqli_error(<span class="variable">$conn</span>));</span><br><span class="line"></span><br><span class="line"><span class="keyword">echo</span>(<span class="string">&quot;注册成功！！！点击登录&quot;</span>)    </span><br><span class="line"></span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p> login.html</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>登录<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">b</span>&gt;</span>登录<span class="tag">&lt;/<span class="name">b</span>&gt;</span></span><br><span class="line">       <span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">&quot;login.php&quot;</span> <span class="attr">method</span>=<span class="string">&quot;POST&quot;</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">span</span>&gt;</span>用户名:<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">name</span>=<span class="string">&quot;user&quot;</span> <span class="attr">required</span>=<span class="string">&quot;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">           <span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">span</span>&gt;</span>密码:<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;password&quot;</span> <span class="attr">name</span>=<span class="string">&quot;pass&quot;</span> <span class="attr">required</span>=<span class="string">&quot;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">           </span><br><span class="line">           <span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;reset&quot;</span> <span class="attr">name</span>=<span class="string">&quot;&quot;</span>/&gt;</span> </span><br><span class="line">            <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;submit&quot;</span> <span class="attr">name</span>=<span class="string">&quot;&quot;</span> <span class="attr">value</span>=<span class="string">&quot;登录&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">       <span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br><span class="line">       <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;register.html&quot;</span>&gt;</span>新用户注册<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-
-
-<p>login.php</p>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"></span><br><span class="line"><span class="variable">$servername</span> = <span class="string">&quot;localhost&quot;</span>;</span><br><span class="line"><span class="variable">$username</span> = <span class="string">&quot;root&quot;</span>;</span><br><span class="line"><span class="variable">$password</span> = <span class="string">&quot;Tz123456&quot;</span>;</span><br><span class="line"><span class="variable">$dbname</span> = <span class="string">&quot;user&quot;</span>;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// 创建连接</span></span><br><span class="line"><span class="variable">$conn</span> = <span class="keyword">new</span> mysqli(<span class="variable">$servername</span>, <span class="variable">$username</span>, <span class="variable">$password</span>, <span class="variable">$dbname</span>);</span><br><span class="line"><span class="comment">// Check connection</span></span><br><span class="line"><span class="keyword">if</span> (<span class="variable">$conn</span>-&gt;connect_error) &#123;</span><br><span class="line">    <span class="keyword">die</span>(<span class="string">&quot;连接失败: &quot;</span> . <span class="variable">$conn</span>-&gt;connect_error);</span><br><span class="line">&#125; </span><br><span class="line"></span><br><span class="line"><span class="variable">$user</span> = <span class="variable">$_POST</span>[<span class="string">&#x27;user&#x27;</span>];</span><br><span class="line"><span class="variable">$pass</span> = <span class="variable">$_POST</span>[<span class="string">&#x27;pass&#x27;</span>];</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="variable">$sql</span>=<span class="string">&quot;SELECT * FROM users where username=&#x27;<span class="subst">&#123;$user&#125;</span>&#x27; and password=&#x27;<span class="subst">&#123;$pass&#125;</span>&#x27;&quot;</span>; </span><br><span class="line"></span><br><span class="line"><span class="variable">$result</span> = <span class="variable">$conn</span>-&gt;query(<span class="variable">$sql</span>);</span><br><span class="line"></span><br><span class="line"><span class="variable">$row</span> = <span class="variable">$result</span>-&gt;num_rows;</span><br><span class="line"></span><br><span class="line"><span class="comment">//若表中存在输入的用户名和密码，row=1；若表中用户名不存在或密码错误，则row=0</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span>(<span class="variable">$row</span> == <span class="number">1</span>)&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">echo</span> <span class="variable">$row</span>[<span class="string">&#x27;user&#x27;</span>].<span class="string">&quot;登陆成功!&quot;</span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">else</span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">echo</span><span class="string">&quot;登录失败，请重新登录！&quot;</span>;</span><br><span class="line"></span><br><span class="line">&#125;   </span><br><span class="line"></span><br><span class="line"><span class="meta">?&gt;</span>  </span><br></pre></td></tr></table></figure>
-
-
-
-]]></content>
-      <categories>
-        <category>PHP</category>
-      </categories>
-      <tags>
-        <tag>PHP</tag>
+        <tag>Switch</tag>
       </tags>
   </entry>
 </search>
