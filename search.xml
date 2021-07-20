@@ -1,45 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>C语言发展史 1972年</title>
-    <url>/2021/06/11/C/</url>
-    <content><![CDATA[<h2 id="C语言发展史-1972年"><a href="#C语言发展史-1972年" class="headerlink" title="C语言发展史 1972年"></a>C语言发展史 1972年</h2><span id="more"></span>
+    <title>Git从零开始</title>
+    <url>/2021/05/26/Git%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
+    <content><![CDATA[<p>程序员从git开始，菜鸟和高手的分水岭</p>
+<span id="more"></span>
 
-<p>ALGOL，名称源自算法语言（英语：ALGOrithmic Language）的缩写，是一族指令式编程语言，发展于1950年代中期，对许多其它编程语言产生了重大影响。计算机协会在教科书及学术文章采用此语言做为描述算法的标准语法超过三十年。</p>
-<p>由大多数近代编程语言皆使用类似ALGOL的语法来看，<strong>ALGOL可与差不多同时期的FORTRAN、LISP及COBOL并列为四大最有影响力的高阶语言。</strong>ALGOL被设计用来避免FORTRAN中一些已知的问题，最终引领了许多其它编程语言的兴起，包括PL/I、Simula、BCPL、B、Pascal及C。</p>
-<p>ALGOL引入了代码块，并用begin⋯end来分隔。它是第一个利用词法作用域实作巢状函式的语言，也是第一个注重形式语言定义的语言，并在ALGOL 60报告中引入了巴科斯范式来作为设计语言形式文法的原则。</p>
-<p>ALGOL主要有三种规格，以初次发表的年份命名：</p>
-<p>ALGOL 58 – 原提议命名为IAL，代表International Algebraic Language。<br>ALGOL 60 – 在1960年代中期首先实作成X1 ALGOL 60，1963年修订。[5][6]<br>ALGOL 68 – 引入许多新元素，像是可变阵列、切片、平行化及算子识别。1973年修订。[7]<br>尼克劳斯·维尔特在发展Pascal之前，在ALGOL 60的基础下建立了ALGOL W。ALGOL W本是下一代ALGOL的提议，但ALGOL委员会决定采用更先进复杂的设计，而不是一个简洁化ALGOL 60。</p>
-<p>ALGOL 60（源自ALGOrithmic Language 1960的缩写），一种编程语言，是ALGOL语言家族中的成员之一。根据ALGOL 58的基础，它在1960年被创造，并影响到其后的CPL、BCPL、B语言、Pascal、Simula、C语言，在编程语言中有着很大的影响力。它的后继者是ALGOL 68与ALGOL W。</p>
-<p>CPL（英语：Combined Programming Language，原名Cambridge Programming Language），一种计算机编程语言。源自于ALGOL 60，在1963年，由英国的剑桥大学和伦敦大学首先开发出来。CPL语言在ALGOL 60的基础上更接近硬件一些，但规模比较大，难以实现。BCPL是它的后继语言。</p>
-<p>BCPL（英语：Basic Combined Programming Language），是一种计算机程序设计语言，源自更早的CPL语言，1967年由剑桥大学的马丁·理察德所发展出来的 。</p>
-<p>B语言是一种通用的程序设计语言。自从被C语言取代之后，它几乎已遭弃置。</p>
-<p>B语言大约是于1969年时由美国贝尔实验室的计算机科学家──肯·汤普森在丹尼斯·利奇的支持下设计出来的。肯·汤普森最初想在UNIX上开发一个Fortran编译器，但后来引进了BCPL的风格，形成一个新的语言。</p>
-<p>后来，丹尼斯·利奇以B语言为基础开发出C语言，至此C语言渐渐发展成为目前世界上最常用的编程语言之一。</p>
-<h2 id="C语言早期发展"><a href="#C语言早期发展" class="headerlink" title="C语言早期发展"></a>C语言早期发展</h2><p>1969-1973年在美国电话电报公司（AT&amp;T）贝尔实验室开始了C语言的最初研发。根据C语言的发明者丹尼斯·里奇 (Dennis Ritchie) 说，<strong>C 语言最重要的研发时期是在1972年。</strong></p>
-<p>说明：丹尼斯·里奇(Dennis Ritchie)，C语言之父，UNIX之父。1978年与布莱恩·科尔尼干(Brian Kernighan)一起出版了名著《C程序设计语言(The C Programming Language)》，现在此书已翻译成多种语言，成为C语言方面最权威的教材之一。2011年10月12日（北京时间为10月13日），丹尼斯·里奇去世，享年70岁。</p>
-<p>C语言之所以命名为C，是因为C语言源自Ken Thompson发明的 B语言，而B语言则源自BCPL语言。</p>
-<p>C语言的诞生是和UNIX操作系统的开发密不可分的，原先的UNIX操作系统都是用汇编语言写的，1973年UNIX操作系统的核心用C语言改写，从此以后，C语言成为编写操作系统的主要语言。</p>
-<h2 id="K-amp-R-C"><a href="#K-amp-R-C" class="headerlink" title="K&amp;R C"></a>K&amp;R C</h2><p>1978年，丹尼斯·里奇(Dennis Ritchie)和布莱恩·科尔尼干(Brian Kernighan)出版了一本书，名叫《The C Programming Language》（中文译名为《C程序设计语言》）。这本书被C语言开发者们称为“K&amp;R”，很多年来被当作C语言的非正式的标准说明。人们称这个版本的C语言为“K&amp;R C”。</p>
-<p>1988年丹尼斯·里奇(Dennis Ritchie)和布莱恩·科尔尼干(Brian Kernighan)修改此书，出版了《The C Programming Language》第二版，第二版涵盖了ANSI C语言标准。第二版从此成为大学计算机教育有关C语言的经典教材，多年后也没再出现过更好的版本。</p>
-<h2 id="ANSI-C-和-ISO-C"><a href="#ANSI-C-和-ISO-C" class="headerlink" title="ANSI C 和 ISO C"></a>ANSI C 和 ISO C</h2><p>1970到80年代，C语言被广泛应用，从大型主机到小型微机，也衍生了C语言的很多不同版本。</p>
-<p>为统一C语言版本，1983年美国国家标准局（American National Standards Institute，简称ANSI）成立了一个委员会，来制定C语言标准。1989年C语言标准被批准，被称为ANSI X3.159-1989 “Programming Language C”。这个版本的C语言标准通常被称为ANSI C。又由于这个版本是 89 年完成制定的，因此也被称为 C89。</p>
-<p>后来 ANSI 把这个标准提交到 ISO（国际化标准组织），1990年被 ISO 采纳为国际标准，称为 ISO C。又因为这个版本是1990年发布的，因此也被称为C90。</p>
-<p>ANSI C(C89) 与 ISO C(C90)内容基本相同，主要是格式组织不一样。</p>
-<p>因为 ANSI 与 ISO 的C标准内容基本相同，所以对于C标准，可以称为ANSI C，也可以说是ISO C，或者 ANSI / ISO C。</p>
-<p>注意：以后大家看到 ANSI C、ISO C、C89、C90，要知道这些标准的内容都是一样的。</p>
-<p>目前，几乎所有的开发工具都支持 ANSI / ISO C 标准。是C语言用得最广泛的一个标准版本。</p>
-<h2 id="C99"><a href="#C99" class="headerlink" title="C99"></a>C99</h2><p>在ANSI C标准确立之后，C语言的规范在很长一段时间内都没有大的变动。1995年C程序设计语言工作组对 C语言进行了一些修改，成为后来的1999年发布的 ISO/IEC 9899:1999标准，通常被成为C99。</p>
-<p>但是各个公司对C99的支持所表现出来的兴趣不同。当GCC和其它一些商业编译器支持C99的大部分特性的時候，微软和Borland却似乎对此不感兴趣。</p>
-<p>说明：GCC（GNU Compiler Collection，GNU编译器集合）是一套由GNU工程开发的支持多种编程语言的编译器。</p>
-<h2 id="C语言对其它语言的影响"><a href="#C语言对其它语言的影响" class="headerlink" title="C语言对其它语言的影响"></a>C语言对其它语言的影响</h2><p>很多编程语言都深受C语言的影响，比如C++（原先是C语言的一个扩展）、C#、Java、PHP、Javascript、Perl、LPC和UNIX的C Shell等。</p>
+<h1 id="git基本命令"><a href="#git基本命令" class="headerlink" title="git基本命令"></a>git基本命令</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;这里面填你的名字如 zhang san&quot;     </span><br><span class="line">git config --global user.email &quot;注册git的邮箱如 1234567@qq.com&quot;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+<h2 id="生成密钥"><a href="#生成密钥" class="headerlink" title="生成密钥"></a>生成密钥</h2><p><code>ssh-keygen -t rsa -C &quot;你的注册邮箱&quot;</code></p>
+<h2 id="验证SSH登录"><a href="#验证SSH登录" class="headerlink" title="验证SSH登录"></a>验证SSH登录</h2><p><code>ssh -T git@github.com</code></p>
+<p><a href="https://docs.github.com/cn/github/authenticating-to-github/troubleshooting-ssh/error-permission-denied-publickey">SSH故障排除</a></p>
+<h2 id="查看git配置："><a href="#查看git配置：" class="headerlink" title="查看git配置："></a>查看git配置：</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config -l</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://www.bilibili.com/video/BV1si4y1472o">Markdown+VSCODE实现最完美流畅写作体验</a></p>
+<p><img src="/"></p>
+<p><img src="https://avatars2.githubusercontent.com/u/3265208?v=3&s=100" alt="GitHub" title="GitHub,Social Coding"></p>
 ]]></content>
       <categories>
-        <category>Java</category>
-        <category>history</category>
+        <category>Git</category>
       </categories>
       <tags>
-        <tag>history</tag>
+        <tag>Git</tag>
       </tags>
   </entry>
   <entry>
@@ -102,28 +85,45 @@
       </tags>
   </entry>
   <entry>
-    <title>Git从零开始</title>
-    <url>/2021/05/26/Git%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
-    <content><![CDATA[<p>程序员从git开始，菜鸟和高手的分水岭</p>
-<span id="more"></span>
+    <title>C语言发展史 1972年</title>
+    <url>/2021/06/11/C/</url>
+    <content><![CDATA[<h2 id="C语言发展史-1972年"><a href="#C语言发展史-1972年" class="headerlink" title="C语言发展史 1972年"></a>C语言发展史 1972年</h2><span id="more"></span>
 
-<h1 id="git基本命令"><a href="#git基本命令" class="headerlink" title="git基本命令"></a>git基本命令</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;这里面填你的名字如 zhang san&quot;     </span><br><span class="line">git config --global user.email &quot;注册git的邮箱如 1234567@qq.com&quot;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-
-<h2 id="生成密钥"><a href="#生成密钥" class="headerlink" title="生成密钥"></a>生成密钥</h2><p><code>ssh-keygen -t rsa -C &quot;你的注册邮箱&quot;</code></p>
-<h2 id="验证SSH登录"><a href="#验证SSH登录" class="headerlink" title="验证SSH登录"></a>验证SSH登录</h2><p><code>ssh -T git@github.com</code></p>
-<p><a href="https://docs.github.com/cn/github/authenticating-to-github/troubleshooting-ssh/error-permission-denied-publickey">SSH故障排除</a></p>
-<h2 id="查看git配置："><a href="#查看git配置：" class="headerlink" title="查看git配置："></a>查看git配置：</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config -l</span><br></pre></td></tr></table></figure>
-
-<p><a href="https://www.bilibili.com/video/BV1si4y1472o">Markdown+VSCODE实现最完美流畅写作体验</a></p>
-<p><img src="/"></p>
-<p><img src="https://avatars2.githubusercontent.com/u/3265208?v=3&s=100" alt="GitHub" title="GitHub,Social Coding"></p>
+<p>ALGOL，名称源自算法语言（英语：ALGOrithmic Language）的缩写，是一族指令式编程语言，发展于1950年代中期，对许多其它编程语言产生了重大影响。计算机协会在教科书及学术文章采用此语言做为描述算法的标准语法超过三十年。</p>
+<p>由大多数近代编程语言皆使用类似ALGOL的语法来看，<strong>ALGOL可与差不多同时期的FORTRAN、LISP及COBOL并列为四大最有影响力的高阶语言。</strong>ALGOL被设计用来避免FORTRAN中一些已知的问题，最终引领了许多其它编程语言的兴起，包括PL/I、Simula、BCPL、B、Pascal及C。</p>
+<p>ALGOL引入了代码块，并用begin⋯end来分隔。它是第一个利用词法作用域实作巢状函式的语言，也是第一个注重形式语言定义的语言，并在ALGOL 60报告中引入了巴科斯范式来作为设计语言形式文法的原则。</p>
+<p>ALGOL主要有三种规格，以初次发表的年份命名：</p>
+<p>ALGOL 58 – 原提议命名为IAL，代表International Algebraic Language。<br>ALGOL 60 – 在1960年代中期首先实作成X1 ALGOL 60，1963年修订。[5][6]<br>ALGOL 68 – 引入许多新元素，像是可变阵列、切片、平行化及算子识别。1973年修订。[7]<br>尼克劳斯·维尔特在发展Pascal之前，在ALGOL 60的基础下建立了ALGOL W。ALGOL W本是下一代ALGOL的提议，但ALGOL委员会决定采用更先进复杂的设计，而不是一个简洁化ALGOL 60。</p>
+<p>ALGOL 60（源自ALGOrithmic Language 1960的缩写），一种编程语言，是ALGOL语言家族中的成员之一。根据ALGOL 58的基础，它在1960年被创造，并影响到其后的CPL、BCPL、B语言、Pascal、Simula、C语言，在编程语言中有着很大的影响力。它的后继者是ALGOL 68与ALGOL W。</p>
+<p>CPL（英语：Combined Programming Language，原名Cambridge Programming Language），一种计算机编程语言。源自于ALGOL 60，在1963年，由英国的剑桥大学和伦敦大学首先开发出来。CPL语言在ALGOL 60的基础上更接近硬件一些，但规模比较大，难以实现。BCPL是它的后继语言。</p>
+<p>BCPL（英语：Basic Combined Programming Language），是一种计算机程序设计语言，源自更早的CPL语言，1967年由剑桥大学的马丁·理察德所发展出来的 。</p>
+<p>B语言是一种通用的程序设计语言。自从被C语言取代之后，它几乎已遭弃置。</p>
+<p>B语言大约是于1969年时由美国贝尔实验室的计算机科学家──肯·汤普森在丹尼斯·利奇的支持下设计出来的。肯·汤普森最初想在UNIX上开发一个Fortran编译器，但后来引进了BCPL的风格，形成一个新的语言。</p>
+<p>后来，丹尼斯·利奇以B语言为基础开发出C语言，至此C语言渐渐发展成为目前世界上最常用的编程语言之一。</p>
+<h2 id="C语言早期发展"><a href="#C语言早期发展" class="headerlink" title="C语言早期发展"></a>C语言早期发展</h2><p>1969-1973年在美国电话电报公司（AT&amp;T）贝尔实验室开始了C语言的最初研发。根据C语言的发明者丹尼斯·里奇 (Dennis Ritchie) 说，<strong>C 语言最重要的研发时期是在1972年。</strong></p>
+<p>说明：丹尼斯·里奇(Dennis Ritchie)，C语言之父，UNIX之父。1978年与布莱恩·科尔尼干(Brian Kernighan)一起出版了名著《C程序设计语言(The C Programming Language)》，现在此书已翻译成多种语言，成为C语言方面最权威的教材之一。2011年10月12日（北京时间为10月13日），丹尼斯·里奇去世，享年70岁。</p>
+<p>C语言之所以命名为C，是因为C语言源自Ken Thompson发明的 B语言，而B语言则源自BCPL语言。</p>
+<p>C语言的诞生是和UNIX操作系统的开发密不可分的，原先的UNIX操作系统都是用汇编语言写的，1973年UNIX操作系统的核心用C语言改写，从此以后，C语言成为编写操作系统的主要语言。</p>
+<h2 id="K-amp-R-C"><a href="#K-amp-R-C" class="headerlink" title="K&amp;R C"></a>K&amp;R C</h2><p>1978年，丹尼斯·里奇(Dennis Ritchie)和布莱恩·科尔尼干(Brian Kernighan)出版了一本书，名叫《The C Programming Language》（中文译名为《C程序设计语言》）。这本书被C语言开发者们称为“K&amp;R”，很多年来被当作C语言的非正式的标准说明。人们称这个版本的C语言为“K&amp;R C”。</p>
+<p>1988年丹尼斯·里奇(Dennis Ritchie)和布莱恩·科尔尼干(Brian Kernighan)修改此书，出版了《The C Programming Language》第二版，第二版涵盖了ANSI C语言标准。第二版从此成为大学计算机教育有关C语言的经典教材，多年后也没再出现过更好的版本。</p>
+<h2 id="ANSI-C-和-ISO-C"><a href="#ANSI-C-和-ISO-C" class="headerlink" title="ANSI C 和 ISO C"></a>ANSI C 和 ISO C</h2><p>1970到80年代，C语言被广泛应用，从大型主机到小型微机，也衍生了C语言的很多不同版本。</p>
+<p>为统一C语言版本，1983年美国国家标准局（American National Standards Institute，简称ANSI）成立了一个委员会，来制定C语言标准。1989年C语言标准被批准，被称为ANSI X3.159-1989 “Programming Language C”。这个版本的C语言标准通常被称为ANSI C。又由于这个版本是 89 年完成制定的，因此也被称为 C89。</p>
+<p>后来 ANSI 把这个标准提交到 ISO（国际化标准组织），1990年被 ISO 采纳为国际标准，称为 ISO C。又因为这个版本是1990年发布的，因此也被称为C90。</p>
+<p>ANSI C(C89) 与 ISO C(C90)内容基本相同，主要是格式组织不一样。</p>
+<p>因为 ANSI 与 ISO 的C标准内容基本相同，所以对于C标准，可以称为ANSI C，也可以说是ISO C，或者 ANSI / ISO C。</p>
+<p>注意：以后大家看到 ANSI C、ISO C、C89、C90，要知道这些标准的内容都是一样的。</p>
+<p>目前，几乎所有的开发工具都支持 ANSI / ISO C 标准。是C语言用得最广泛的一个标准版本。</p>
+<h2 id="C99"><a href="#C99" class="headerlink" title="C99"></a>C99</h2><p>在ANSI C标准确立之后，C语言的规范在很长一段时间内都没有大的变动。1995年C程序设计语言工作组对 C语言进行了一些修改，成为后来的1999年发布的 ISO/IEC 9899:1999标准，通常被成为C99。</p>
+<p>但是各个公司对C99的支持所表现出来的兴趣不同。当GCC和其它一些商业编译器支持C99的大部分特性的時候，微软和Borland却似乎对此不感兴趣。</p>
+<p>说明：GCC（GNU Compiler Collection，GNU编译器集合）是一套由GNU工程开发的支持多种编程语言的编译器。</p>
+<h2 id="C语言对其它语言的影响"><a href="#C语言对其它语言的影响" class="headerlink" title="C语言对其它语言的影响"></a>C语言对其它语言的影响</h2><p>很多编程语言都深受C语言的影响，比如C++（原先是C语言的一个扩展）、C#、Java、PHP、Javascript、Perl、LPC和UNIX的C Shell等。</p>
 ]]></content>
       <categories>
-        <category>Git</category>
+        <category>Java</category>
+        <category>history</category>
       </categories>
       <tags>
-        <tag>Git</tag>
+        <tag>history</tag>
       </tags>
   </entry>
   <entry>
@@ -150,23 +150,6 @@
       </categories>
       <tags>
         <tag>history</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Javascript</title>
-    <url>/2021/06/11/Javascript/</url>
-    <content><![CDATA[<p>Java 之于 Javascript，就像 Car 之于 Carpet。</p>
-<span id="more"></span>
-
-<h2 id="Javascript"><a href="#Javascript" class="headerlink" title="Javascript"></a>Javascript</h2><p>JavaScript，最初命名为 Mocha，后来更名为 LiveScript，然后更名为 JavaScript。</p>
-<p>该语言的名称是 Netscape 和 Sun 之间联合营销协议的结果，以换取 Netscape 将 Sun 的 Java 运行时与其当时占主导地位的浏览器捆绑在一起。</p>
-<p>官方标准只是称为<em>ECMAScript</em>。</p>
-]]></content>
-      <categories>
-        <category>Javascript</category>
-      </categories>
-      <tags>
-        <tag>Javascript</tag>
       </tags>
   </entry>
   <entry>
@@ -221,6 +204,23 @@
       </tags>
   </entry>
   <entry>
+    <title>Javascript</title>
+    <url>/2021/06/11/Javascript/</url>
+    <content><![CDATA[<p>Java 之于 Javascript，就像 Car 之于 Carpet。</p>
+<span id="more"></span>
+
+<h2 id="Javascript"><a href="#Javascript" class="headerlink" title="Javascript"></a>Javascript</h2><p>JavaScript，最初命名为 Mocha，后来更名为 LiveScript，然后更名为 JavaScript。</p>
+<p>该语言的名称是 Netscape 和 Sun 之间联合营销协议的结果，以换取 Netscape 将 Sun 的 Java 运行时与其当时占主导地位的浏览器捆绑在一起。</p>
+<p>官方标准只是称为<em>ECMAScript</em>。</p>
+]]></content>
+      <categories>
+        <category>Javascript</category>
+      </categories>
+      <tags>
+        <tag>Javascript</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Linux的SSH隧道</title>
     <url>/2021/06/06/Linux%E7%9A%84SSH%E9%9A%A7%E9%81%93/</url>
     <content><![CDATA[<p>通过 ssh 的端口转发或者隧道 (tunneling) 功能，可以实现: 加密 SSH Client 端至 SSH Server 端之间的通讯数据.突破防火墙的限制完成一些之前无法建立的 TCP 连接。</p>
@@ -242,11 +242,11 @@
 </ol>
 <h4 id="命令："><a href="#命令：" class="headerlink" title="命令："></a>命令：</h4><p>Local 为ssh客户端一方<br>remote为ssh服务端一方</p>
 <p><code>ssh -L local_port:remote_address:remote_port username@server.com</code></p>
-<p>ssh -L 8888:localhost:1234 <a href="mailto:&#98;&#111;&#98;&#x40;&#x73;&#115;&#x68;&#x2e;&#x79;&#111;&#117;&#114;&#111;&#102;&#102;&#105;&#99;&#x65;&#x2e;&#x63;&#111;&#109;">&#98;&#111;&#98;&#x40;&#x73;&#115;&#x68;&#x2e;&#x79;&#111;&#117;&#114;&#111;&#102;&#102;&#105;&#99;&#x65;&#x2e;&#x63;&#111;&#109;</a><br>ssh -L 8888:192.168.1.111:1234 <a href="mailto:&#98;&#x6f;&#x62;&#64;&#115;&#115;&#104;&#46;&#x79;&#111;&#117;&#114;&#111;&#102;&#102;&#105;&#99;&#x65;&#x2e;&#x63;&#x6f;&#x6d;">&#98;&#x6f;&#x62;&#64;&#115;&#115;&#104;&#46;&#x79;&#111;&#117;&#114;&#111;&#102;&#102;&#105;&#99;&#x65;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
+<p>ssh -L 8888:localhost:1234 <a href="mailto:&#x62;&#111;&#x62;&#64;&#x73;&#x73;&#x68;&#46;&#x79;&#x6f;&#x75;&#x72;&#x6f;&#102;&#x66;&#x69;&#99;&#101;&#x2e;&#x63;&#x6f;&#109;">&#x62;&#111;&#x62;&#64;&#x73;&#x73;&#x68;&#46;&#x79;&#x6f;&#x75;&#x72;&#x6f;&#102;&#x66;&#x69;&#99;&#101;&#x2e;&#x63;&#x6f;&#109;</a><br>ssh -L 8888:192.168.1.111:1234 <a href="mailto:&#98;&#111;&#x62;&#64;&#x73;&#115;&#x68;&#x2e;&#121;&#x6f;&#x75;&#x72;&#x6f;&#102;&#x66;&#x69;&#x63;&#x65;&#46;&#x63;&#111;&#x6d;">&#98;&#111;&#x62;&#64;&#x73;&#115;&#x68;&#x2e;&#121;&#x6f;&#x75;&#x72;&#x6f;&#102;&#x66;&#x69;&#x63;&#x65;&#46;&#x63;&#111;&#x6d;</a></p>
 <h3 id="远程转发"><a href="#远程转发" class="headerlink" title="远程转发"></a>远程转发</h3><h4 id="应用场景：-1"><a href="#应用场景：-1" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-1"><a href="#命令：-1" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -R remote_port:local_address:local_port username@server.com</code></p>
-<p>ssh -R 8888:localhost:1234 <a href="mailto:&#x62;&#111;&#x62;&#x40;&#115;&#x73;&#x68;&#x2e;&#121;&#x6f;&#117;&#114;&#111;&#x66;&#102;&#x69;&#99;&#101;&#x2e;&#x63;&#111;&#109;">&#x62;&#111;&#x62;&#x40;&#115;&#x73;&#x68;&#x2e;&#121;&#x6f;&#117;&#114;&#111;&#x66;&#102;&#x69;&#99;&#101;&#x2e;&#x63;&#111;&#109;</a></p>
+<p>ssh -R 8888:localhost:1234 <a href="mailto:&#98;&#111;&#x62;&#64;&#x73;&#x73;&#x68;&#x2e;&#x79;&#x6f;&#x75;&#x72;&#x6f;&#102;&#102;&#105;&#99;&#x65;&#46;&#x63;&#x6f;&#x6d;">&#98;&#111;&#x62;&#64;&#x73;&#x73;&#x68;&#x2e;&#x79;&#x6f;&#x75;&#x72;&#x6f;&#102;&#102;&#105;&#99;&#x65;&#46;&#x63;&#x6f;&#x6d;</a></p>
 <h3 id="动态转发"><a href="#动态转发" class="headerlink" title="动态转发"></a>动态转发</h3><h4 id="应用场景：-2"><a href="#应用场景：-2" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-2"><a href="#命令：-2" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -D local_port username@server.com</code></p>
-<p>ssh -D 8888 <a href="mailto:&#98;&#x6f;&#98;&#64;&#115;&#115;&#104;&#x2e;&#x79;&#x6f;&#x75;&#x72;&#104;&#111;&#x6d;&#101;&#46;&#x63;&#111;&#x6d;">&#98;&#x6f;&#98;&#64;&#115;&#115;&#104;&#x2e;&#x79;&#x6f;&#x75;&#x72;&#104;&#111;&#x6d;&#101;&#46;&#x63;&#111;&#x6d;</a></p>
+<p>ssh -D 8888 <a href="mailto:&#x62;&#111;&#x62;&#64;&#x73;&#x73;&#x68;&#46;&#121;&#x6f;&#x75;&#x72;&#x68;&#111;&#x6d;&#101;&#46;&#99;&#x6f;&#x6d;">&#x62;&#111;&#x62;&#64;&#x73;&#x73;&#x68;&#46;&#121;&#x6f;&#x75;&#x72;&#x68;&#111;&#x6d;&#101;&#46;&#99;&#x6f;&#x6d;</a></p>
 <h3 id="参数介绍"><a href="#参数介绍" class="headerlink" title="参数介绍"></a>参数介绍</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">-N 告诉 SSH 客户端，这个连接不需要执行任何命令，也就是说不需要打开远程 shell，仅仅做端口转发；</span><br><span class="line">-f 告诉SSH客户端在后台运行，要关闭这个后台连接，就只有用 kill 命令去杀掉进程；</span><br><span class="line">-L 做本地映射端口</span><br><span class="line">-R 做远程映射端口</span><br><span class="line">-D 做动态端口映射</span><br><span class="line">-C 压缩数据传输</span><br></pre></td></tr></table></figure>
 
 <h2 id="如何关闭这个SSH隧道"><a href="#如何关闭这个SSH隧道" class="headerlink" title="如何关闭这个SSH隧道"></a>如何关闭这个SSH隧道</h2><p>方法1：<br>ps aux | grep 3306   找到pid<br>kill <pid>   kill pid</p>
@@ -258,31 +258,6 @@
       </categories>
       <tags>
         <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>思科Nexus</title>
-    <url>/2021/06/04/Nexus/</url>
-    <content><![CDATA[<p>Nexus vPC</p>
-<span id="more"></span>
-
-<h2 id="Nexus"><a href="#Nexus" class="headerlink" title="Nexus"></a>Nexus</h2><ul>
-<li><p>vPC（virtual port channel）</p>
-</li>
-<li><p>VDC</p>
-</li>
-<li><p>ACI   Cisco Application Centric Infrastructure </p>
-</li>
-</ul>
-<p>思科的ACI就是数据中心的SDN </p>
-<h2 id="vPC"><a href="#vPC" class="headerlink" title="vPC"></a>vPC</h2><p>允许一个设备使用有两个上游设备的port  channel，消除STP阻止端口，使用所有可用的上联带宽,提供一个无环的拓扑，在链路或者设备出现故障时，提供最快的收敛，提供链路级的冗余，确保高可用性，第三方设备可以是一个服务器，一个交换机或者任何网络设备，只要这些设备支持channel Group技术</p>
-]]></content>
-      <categories>
-        <category>Network</category>
-        <category>Switch</category>
-      </categories>
-      <tags>
-        <tag>Nexus</tag>
       </tags>
   </entry>
   <entry>
@@ -400,26 +375,6 @@
       </tags>
   </entry>
   <entry>
-    <title>PHP的环境的基础配置</title>
-    <url>/2021/07/04/PHP%E7%9A%84%E7%8E%AF%E5%A2%83%E7%9A%84%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<p>PHP的环境的基础配置</p>
-<span id="more"></span>
-
-<h2 id="Apache配置文件"><a href="#Apache配置文件" class="headerlink" title="Apache配置文件"></a>Apache配置文件</h2><p>C:\server\apache\conf\httpd.conf</p>
-<h3 id="Apache加载载PHP"><a href="#Apache加载载PHP" class="headerlink" title="Apache加载载PHP"></a>Apache加载载PHP</h3><p><code>LoadModule php5 module C:/server/php5/php5apache2-2dl1</code></p>
-<h3 id="APache识别PHP文件代码"><a href="#APache识别PHP文件代码" class="headerlink" title="APache识别PHP文件代码"></a>APache识别PHP文件代码</h3><p><code>AddType application/x-httpd-php   .php</code></p>
-<h3 id="Apache加载PHP配置文件"><a href="#Apache加载PHP配置文件" class="headerlink" title="Apache加载PHP配置文件"></a>Apache加载PHP配置文件</h3><p><code>PHPIniDir &#39;C: /server/php5&#39;</code></p>
-<h3 id="测试Apache配置是否语法错误"><a href="#测试Apache配置是否语法错误" class="headerlink" title="测试Apache配置是否语法错误"></a>测试Apache配置是否语法错误</h3><p>C:\server\apache\bin&gt;httpd.exe -t<br>Syntax Ok</p>
-<h3 id="检查Apache加载了那些模块"><a href="#检查Apache加载了那些模块" class="headerlink" title="检查Apache加载了那些模块"></a>检查Apache加载了那些模块</h3><p>C:\server\apache\bin&gt;httpd.exe -m</p>
-]]></content>
-      <categories>
-        <category>PHP</category>
-      </categories>
-      <tags>
-        <tag>PHP</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>PHP和MySQL实现注册和登录</title>
     <url>/2021/07/09/PHP%E5%92%8CMySQL%E5%AE%9E%E7%8E%B0%E6%B3%A8%E5%86%8C%E5%92%8C%E7%99%BB%E5%BD%95/</url>
     <content><![CDATA[<p>PHP和MySQL实现注册和登录</p>
@@ -458,50 +413,28 @@
       </tags>
   </entry>
   <entry>
-    <title>PHP和MySQL条件查询</title>
-    <url>/2021/07/09/PHP%E5%92%8CMySQL%E6%9D%A1%E4%BB%B6%E6%9F%A5%E8%AF%A2/</url>
-    <content><![CDATA[<p>PHP和MySQL条件查询</p>
+    <title>思科Nexus</title>
+    <url>/2021/06/04/Nexus/</url>
+    <content><![CDATA[<p>Nexus vPC</p>
 <span id="more"></span>
 
-
-
-<p>Set an always true condition in order to have constant <code>WHERE</code> clause.</p>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="variable">$sql</span> = <span class="string">&quot;SELECT * FROM myTable WHERE 1 = 1 &quot;</span></span><br><span class="line"><span class="keyword">if</span> (<span class="literal">true</span>) &#123;</span><br><span class="line">    <span class="variable">$sql</span> .= <span class="string">&quot; AND col1 LIKE &#x27;%val%&#x27; &quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Nexus"><a href="#Nexus" class="headerlink" title="Nexus"></a>Nexus</h2><ul>
+<li><p>vPC（virtual port channel）</p>
+</li>
+<li><p>VDC</p>
+</li>
+<li><p>ACI   Cisco Application Centric Infrastructure </p>
+</li>
+</ul>
+<p>思科的ACI就是数据中心的SDN </p>
+<h2 id="vPC"><a href="#vPC" class="headerlink" title="vPC"></a>vPC</h2><p>允许一个设备使用有两个上游设备的port  channel，消除STP阻止端口，使用所有可用的上联带宽,提供一个无环的拓扑，在链路或者设备出现故障时，提供最快的收敛，提供链路级的冗余，确保高可用性，第三方设备可以是一个服务器，一个交换机或者任何网络设备，只要这些设备支持channel Group技术</p>
 ]]></content>
       <categories>
-        <category>PHP</category>
-        <category>MySQL</category>
+        <category>Network</category>
+        <category>Switch</category>
       </categories>
       <tags>
-        <tag>PHP</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>PHP获取MySQL数据的方法</title>
-    <url>/2021/07/09/PHP%E8%8E%B7%E5%8F%96MySQL%E6%95%B0%E6%8D%AE%E7%9A%84%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<p>PHP输出所有查询的数据</p>
-<span id="more"></span>
-
-
-
-<p>1.使用 PHP 函数的 <strong>mysqli_query()</strong> 及 <strong>SQL SELECT</strong> 命令来获取数据。</p>
-<p>2.然后通过 PHP 函数 <strong>mysqli_fetch_array()</strong> 来输出所有查询的数据。</p>
-<p>2.输出所有查询的数据</p>
-<p><strong>mysqli_fetch_array()</strong> 以索引数组和关联数组两种方式取查询的结果集</p>
-<p><strong>mysqli_fetch_assoc()</strong>,以关联数组两种方式取查询的结果集</p>
-<p><strong>Mysql_fetch_row()</strong> 以索引数组的方式取查询的结果集</p>
-<h2 id="mysqli-fetch-assoc-和-mysqli-fetch-array-的区别"><a href="#mysqli-fetch-assoc-和-mysqli-fetch-array-的区别" class="headerlink" title="mysqli_fetch_assoc() 和 mysqli_fetch_array() 的区别"></a>mysqli_fetch_assoc() 和 mysqli_fetch_array() 的区别</h2><p>mysqli_fetch_assoc 和 mysqli_fetch_array 的主要区别在于结果数据的输出格式。</p>
-<p>mysqli_fetch_assoc 返回关联数组中的数据，而 mysqli_fetch_array 返回数字数组和/或关联数组中的数据。</p>
-<h3 id="mysqli-fetch-assoc"><a href="#mysqli-fetch-assoc" class="headerlink" title="mysqli_fetch_assoc()"></a>mysqli_fetch_assoc()</h3><p>mysqli_fetch_assoc 以列名作为结果数组的键返回关联数组中的数据。这意味着我们可以使用列名作为数组的键来访问输出数组。</p>
-<p><a href="https://www.runoob.com/mysql/mysql-select-query.html">https://www.runoob.com/mysql/mysql-select-query.html</a></p>
-<p><a href="https://www.runoob.com/mysql/mysql-where-clause.html">https://www.runoob.com/mysql/mysql-where-clause.html</a></p>
-]]></content>
-      <categories>
-        <category>PHP</category>
-        <category>MySQL</category>
-      </categories>
-      <tags>
-        <tag>PHP</tag>
+        <tag>Nexus</tag>
       </tags>
   </entry>
   <entry>
@@ -576,6 +509,192 @@
       </tags>
   </entry>
   <entry>
+    <title>PHP获取MySQL数据的方法</title>
+    <url>/2021/07/09/PHP%E8%8E%B7%E5%8F%96MySQL%E6%95%B0%E6%8D%AE%E7%9A%84%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<p>PHP输出所有查询的数据</p>
+<span id="more"></span>
+
+
+
+<p>1.使用 PHP 函数的 <strong>mysqli_query()</strong> 及 <strong>SQL SELECT</strong> 命令来获取数据。</p>
+<p>2.然后通过 PHP 函数 <strong>mysqli_fetch_array()</strong> 来输出所有查询的数据。</p>
+<p>2.输出所有查询的数据</p>
+<p><strong>mysqli_fetch_array()</strong> 以索引数组和关联数组两种方式取查询的结果集</p>
+<p><strong>mysqli_fetch_assoc()</strong>,以关联数组两种方式取查询的结果集</p>
+<p><strong>Mysql_fetch_row()</strong> 以索引数组的方式取查询的结果集</p>
+<h2 id="mysqli-fetch-assoc-和-mysqli-fetch-array-的区别"><a href="#mysqli-fetch-assoc-和-mysqli-fetch-array-的区别" class="headerlink" title="mysqli_fetch_assoc() 和 mysqli_fetch_array() 的区别"></a>mysqli_fetch_assoc() 和 mysqli_fetch_array() 的区别</h2><p>mysqli_fetch_assoc 和 mysqli_fetch_array 的主要区别在于结果数据的输出格式。</p>
+<p>mysqli_fetch_assoc 返回关联数组中的数据，而 mysqli_fetch_array 返回数字数组和/或关联数组中的数据。</p>
+<h3 id="mysqli-fetch-assoc"><a href="#mysqli-fetch-assoc" class="headerlink" title="mysqli_fetch_assoc()"></a>mysqli_fetch_assoc()</h3><p>mysqli_fetch_assoc 以列名作为结果数组的键返回关联数组中的数据。这意味着我们可以使用列名作为数组的键来访问输出数组。</p>
+<p><a href="https://www.runoob.com/mysql/mysql-select-query.html">https://www.runoob.com/mysql/mysql-select-query.html</a></p>
+<p><a href="https://www.runoob.com/mysql/mysql-where-clause.html">https://www.runoob.com/mysql/mysql-where-clause.html</a></p>
+]]></content>
+      <categories>
+        <category>PHP</category>
+        <category>MySQL</category>
+      </categories>
+      <tags>
+        <tag>PHP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PHP的环境的基础配置</title>
+    <url>/2021/07/04/PHP%E7%9A%84%E7%8E%AF%E5%A2%83%E7%9A%84%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<p>PHP的环境的基础配置</p>
+<span id="more"></span>
+
+<h2 id="Apache配置文件"><a href="#Apache配置文件" class="headerlink" title="Apache配置文件"></a>Apache配置文件</h2><p>C:\server\apache\conf\httpd.conf</p>
+<h3 id="Apache加载载PHP"><a href="#Apache加载载PHP" class="headerlink" title="Apache加载载PHP"></a>Apache加载载PHP</h3><p><code>LoadModule php5 module C:/server/php5/php5apache2-2dl1</code></p>
+<h3 id="APache识别PHP文件代码"><a href="#APache识别PHP文件代码" class="headerlink" title="APache识别PHP文件代码"></a>APache识别PHP文件代码</h3><p><code>AddType application/x-httpd-php   .php</code></p>
+<h3 id="Apache加载PHP配置文件"><a href="#Apache加载PHP配置文件" class="headerlink" title="Apache加载PHP配置文件"></a>Apache加载PHP配置文件</h3><p><code>PHPIniDir &#39;C: /server/php5&#39;</code></p>
+<h3 id="测试Apache配置是否语法错误"><a href="#测试Apache配置是否语法错误" class="headerlink" title="测试Apache配置是否语法错误"></a>测试Apache配置是否语法错误</h3><p>C:\server\apache\bin&gt;httpd.exe -t<br>Syntax Ok</p>
+<h3 id="检查Apache加载了那些模块"><a href="#检查Apache加载了那些模块" class="headerlink" title="检查Apache加载了那些模块"></a>检查Apache加载了那些模块</h3><p>C:\server\apache\bin&gt;httpd.exe -m</p>
+]]></content>
+      <categories>
+        <category>PHP</category>
+      </categories>
+      <tags>
+        <tag>PHP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PHP和MySQL条件查询</title>
+    <url>/2021/07/09/PHP%E5%92%8CMySQL%E6%9D%A1%E4%BB%B6%E6%9F%A5%E8%AF%A2/</url>
+    <content><![CDATA[<p>PHP和MySQL条件查询</p>
+<span id="more"></span>
+
+
+
+<p>Set an always true condition in order to have constant <code>WHERE</code> clause.</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="variable">$sql</span> = <span class="string">&quot;SELECT * FROM myTable WHERE 1 = 1 &quot;</span></span><br><span class="line"><span class="keyword">if</span> (<span class="literal">true</span>) &#123;</span><br><span class="line">    <span class="variable">$sql</span> .= <span class="string">&quot; AND col1 LIKE &#x27;%val%&#x27; &quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>PHP</category>
+        <category>MySQL</category>
+      </categories>
+      <tags>
+        <tag>PHP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PHP连接MySQL数据库</title>
+    <url>/2021/06/22/PHP%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
+    <content><![CDATA[<p>PHP 连接 MySQL</p>
+<span id="more"></span>
+
+<p>**php mysql_connect不支持是因为PHP7已经彻底不支持“mysql_connect”函数了，该函数属于废弃函数，需要使用MySQLi或PDO_MySQL扩展来替换该函数。 **</p>
+<h1 id="PHP-连接-MySQL"><a href="#PHP-连接-MySQL" class="headerlink" title="PHP 连接 MySQL"></a>PHP 连接 MySQL</h1><p>PHP 5 及以上版本建议使用以下方式连接 MySQL :</p>
+<ul>
+<li><strong>MySQLi extension</strong> (“i” 意为 improved)</li>
+<li><strong>PDO (PHP Data Objects)</strong></li>
+</ul>
+<p>在 PHP 早期版本中我们使用 MySQL 扩展。但该扩展在 2012 年开始不建议使用。</p>
+<p><a href="https://www.runoob.com/php/php-mysql-connect.html">https://www.runoob.com/php/php-mysql-connect.html</a></p>
+<h2 id="Mysql如何设置root密码"><a href="#Mysql如何设置root密码" class="headerlink" title="Mysql如何设置root密码"></a>Mysql如何设置root密码</h2><p>查看当前用户和密码：</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">User</span>,Password <span class="keyword">from</span> mysql.user;</span><br></pre></td></tr></table></figure>
+
+<p>修改密码：</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">set</span> password <span class="keyword">for</span> root<span class="variable">@localhost</span><span class="operator">=</span>password(<span class="string">&#x27;Tz123456&#x27;</span>);</span><br></pre></td></tr></table></figure>
+
+<p>查询是否修改：</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">User</span>,Password <span class="keyword">from</span> mysql.user;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="PhpMyAdmin安装配置"><a href="#PhpMyAdmin安装配置" class="headerlink" title="PhpMyAdmin安装配置"></a>PhpMyAdmin安装配置</h2><p>配置文件config.inc.php</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/* Authentication type and info */</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;auth_type&#x27;] = &#x27;config&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;user&#x27;] = &#x27;root&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;password&#x27;] = &#x27;123456&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;extension&#x27;] = &#x27;mysqli&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;AllowNoPassword&#x27;] = true;</span><br><span class="line">$cfg[&#x27;Lang&#x27;] = &#x27;&#x27;;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>PHP</category>
+        <category>MySQL</category>
+      </categories>
+      <tags>
+        <tag>PHP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Pivotal牛逼低调的公司</title>
+    <url>/2021/06/11/Pivotal/</url>
+    <content><![CDATA[<p>Pivotal的确掌握着很多开源软件的核心技术。比如，开源PaaS平台Cloud  Foundry和Java开发的Spring框架、数据仓库Greenplum等，Pivotal都是主要的技术贡献者</p>
+<span id="more"></span>
+
+<h2 id="Pivotal"><a href="#Pivotal" class="headerlink" title="Pivotal"></a>Pivotal</h2><p>但如果你是一个开发者，在 Java后台开发使用最多的一个框架：Spring以及衍生框架、做缓存Redis、消息队列框架RabbitMQ、还有更牛的Greenplum，这些都是Pivotal公司的。</p>
+<p>还有Tomcat、Groovy里的一些顶级开发者，DevOps理论的提出者都在这个公司，2016年风靡全球的云原生理念亦是Pivotal公司提出，最近，美国硅谷著名的精益化创业书籍的作者Eric Ries也加入了Pivotal公司。</p>
+<p>Pivotal与VMware两家本就有非同一般的关系。2013年成立于美国的硅谷的Pivotal公司，由原VMWare首席执行官Paul Matritz出任Pivotal首席执行官。这家公司可以说是含着金钥匙出身的，成立之初就有Dell  EMC、VMWare和GE共同出资10亿美元，后来微软和福特加入其中，成为公司股东之一。公司于去年4月份在美国纽约证券交易所上市。</p>
+<p>Pivotal主要提供PaaS云原生应用开发平台及服务，帮助企业客户采用敏捷软件开发方法论，从而提高软件开发人员工作效率、减少运维成本，实现数字化转型、IT创新，并最终实现业务创新。“我们Pivotal是一家低调的技术公司，我们有很多真正硬核的技术，但业界知道的人并不多。”Pivotal公司副总裁兼大中华区总裁于志伟在接受记者采访时表示。</p>
+<p>Pivotal的确掌握着很多开源软件的核心技术。比如，开源PaaS平台Cloud  Foundry和Java开发的Spring框架、数据仓库Greenplum等，Pivotal都是主要的技术贡献者，尤其是前两个开源项目最早就起源于VMware。 </p>
+<p>Pivotal的PaaS平台就是这样的一个平台。众所周知，当今软件开发领域一个热门话题就是云原生应用的崛起。根据Gartner的预测，到2022年有75%的企业会使用基于云原生容器技术来构建它们的应用，而Pivotal正是这一潮流的先行者和探索者。此番VMware想要收购Pivotal也是看上后者的这一能力。</p>
+<p>于志伟介绍说，Pivotal是最早提出云原生概念的公司，Cloud Foundry也是最早的云原生PaaS平台之一。2014年Pivotal基于业界流行多年的开源Cloud  Foundry技术体系推出第一个商业版实现时，Docker才面世不久，K8s则还没有发布。当时，Cloud  Foundry是最受市场认可的PaaS平台之一，当年IBM的BlueMix和惠普的Helion云都选用Cloud  Foundry作为PaaS的核心平台。</p>
+<p>同时，Cloud Foundry一直在与时俱进，紧跟技术的潮流和最新变化。“从2014年年初发布第一版的Cloud Foundry商业版开始，到现在基本上3个月为一个版本周期发布新版本，不断创新。”</p>
+<p>实际上，Pivotal对容器技术一直非常关注。在Docker出来之前，Pivotal就有自己的容器技术实现，叫做Warden，之后不断升级直到现在的Diego。后来，随着K8s（Kubernetes）的流行，Pivotal于2017年年初联合谷歌推出了一个开源版的容器平台KUBO。在2018年年初的时候，Pivotal又联合Google、VMware共同发布了基于Kubernetes的容器平台PKS(Pivotal Container Services)。不久前，Pivotal还公布将推出一个名为PAS on  Kubernetes的新产品，将Kubernetes和Diego的容器环境融为一体，向企业的应用开发人员有多种选择，既可以通过无应用代码改造地方式借助Kubernetes来实现容器化，也可以使用Diego的方式来通过云原生的方式来实现应用现代化。</p>
+<p><a href="https://baijiahao.baidu.com/s?id=1642528154354438867&amp;wfr=spider&amp;for=pc">https://baijiahao.baidu.com/s?id=1642528154354438867&amp;wfr=spider&amp;for=pc</a></p>
+<p><a href="https://www.sohu.com/a/127172641_464027">https://www.sohu.com/a/127172641_464027</a></p>
+]]></content>
+      <categories>
+        <category>Corp</category>
+      </categories>
+      <tags>
+        <tag>Corp</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python办公自动化word转pdf</title>
+    <url>/2021/07/16/Python%E5%8A%9E%E5%85%AC%E8%87%AA%E5%8A%A8%E5%8C%96word%E8%BD%ACpdf/</url>
+    <content><![CDATA[<p>Python办公自动化word转pdf</p>
+<span id="more"></span>
+
+
+
+<p>使用的到的Python库/模块</p>
+<ul>
+<li><h2 id="pathlib"><a href="#pathlib" class="headerlink" title="pathlib"></a>pathlib</h2></li>
+<li><h2 id="comtypes"><a href="#comtypes" class="headerlink" title="comtypes"></a>comtypes</h2></li>
+<li><h2 id="glob"><a href="#glob" class="headerlink" title="glob"></a>glob</h2></li>
+</ul>
+<p>glob是python自己带的一个文件操作相关模块，用它可以查找符合自己目的的文件</p>
+<p>glob模块的主要方法就是glob,该方法返回  所有匹配的文件路径<strong>列表</strong>（list）该方法需要一个参数用来指定匹配的路径字符串</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> pathlib <span class="keyword">import</span> Path</span><br><span class="line"><span class="keyword">from</span> comtypes.client <span class="keyword">import</span> CreateObject</span><br><span class="line"></span><br><span class="line">src_folder = Path(<span class="string">&#x27;C:\\Bin\\word\\&#x27;</span>)</span><br><span class="line">des_folder = Path(<span class="string">&#x27;C:\\Bin\\pdf\\&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> <span class="keyword">not</span> des_folder.exists():</span><br><span class="line">    des_folder.mkdir(parents=<span class="literal">True</span>)</span><br><span class="line">file_list = <span class="built_in">list</span>(src_folder.glob(<span class="string">&#x27;*.docx&#x27;</span>))</span><br><span class="line"></span><br><span class="line">word = CreateObject(<span class="string">&#x27;Word.Application&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> word_path <span class="keyword">in</span> file_list:</span><br><span class="line">    pdf_path = des_folder / word_path.with_suffix(<span class="string">&#x27;.pdf&#x27;</span>).name</span><br><span class="line">    <span class="keyword">if</span> pdf_path.exists():</span><br><span class="line">        <span class="keyword">continue</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        doc = word.Documents.Open(<span class="built_in">str</span>(word_path))</span><br><span class="line">        doc.SaveAs(<span class="built_in">str</span>(pdf_path), FileFormat=<span class="number">17</span>)</span><br><span class="line"></span><br><span class="line">        doc.Close()</span><br><span class="line">word.Quit()</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Python</category>
+        <category>办公自动化</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python发展史 1991年 荷兰无聊青年</title>
+    <url>/2021/06/11/Python/</url>
+    <content><![CDATA[<p>Python发展史 1991年 荷兰无聊青年</p>
+<span id="more"></span>
+<h1 id="Python发展史-1991年-荷兰无聊青年"><a href="#Python发展史-1991年-荷兰无聊青年" class="headerlink" title="Python发展史 1991年 荷兰无聊青年"></a>Python发展史 1991年 荷兰无聊青年</h1><p>Python由吉多·范罗苏姆创造，第一版发布于1991年，它是ABC语言的后继者，也可以视之为一种使用传统中缀表达式的LISP方言[28]。</p>
+<p>Python的设计哲学强调代码的可读性和简洁的语法，尤其是使用空格缩进划分代码块。相比于C或Java，Python让开发者能够用更少的代码表达想法。不管是小型还是大型程序，该语言都试图让程序的结构清晰明了。</p>
+<p>Python解释器本身几乎可以在所有的操作系统中运行。Python的官方解释器CPython是用C语言编写的，它是一个由社区驱动的自由软件，目前由Python软件基金会管理。</p>
+<p>python的创始人为吉多·范罗苏姆，当时他在阿姆斯特丹的荷兰数学和计算机科学研究学会工作。1989年的圣诞节期间，吉多·范罗苏姆为了在打发时间，决心开发一个新的脚本解释编程，作为ABC语言的一种继承，替代使用Unix shell和C语言进行系统管理，担负同Amoeba操作系统的交互和异常处理。之所以选中Python作为编程的名字，是因为他是BBC电视剧——《蒙提·派森的飞行马戏团》（Monty Python’s Flying Circus）的爱好者。范罗苏姆作为Python的主要开发者独自担负这个项目的职责，直到2018年7月12日，他宣布从作为终身仁慈独裁者（BDFL）的职责上“永久休假”，Python社区向他授予这个头衔反映了他长期担任整个Python语言的发展方向的决策者。他在2019年1月至11月于参与了一个五人掌控委员会继续领导项目发展。</p>
+<p>在1991年2月，范罗苏姆发布了最初代码（标记为版本0.9.0）于alt.sources，这时就已经存在了带继承的类、异常处理、函数和核心数据类型list、dict、str等。在这个最初发行中就有了从Modula-3引进的模块系统，它的异常模型也类似于Modula-3，但增加了else子句[8]。在1994年1月Python达到了版本1.0。这个发行版主要新特征是包括了函数式编程工具lambda、map、filter和reduce。Python 1.4增加了受Modula-3启发的关键字参数和对复数的内建支持，还包含采取名字修饰的一种基本形式的数据隐藏。</p>
+<p>Python 2.0于2000年10月16日发布，介入了列表推导式，这是从函数式编程语言SETL和Haskell中引入的。它还向垃圾收集系统增加了环检测算法，并且支持Unicode[38]。Python 2.1支持了嵌套作用域，就像其他静态作用域语言一样[39]。Python 2.2的重大革新是将Python的类型（用C写成）和类（用Python写成）统一入一个层级，使得Python的对象模型成为纯粹和一致的面向对象的模型[40]；还增加了迭代器[41]，受CLU和Icon启发的生成器，和描述器协议。Python 2.4加入了集合数据类型，和函数修饰器[44]。Python 2.5加入了with语句。</p>
+<p>Python 3.0于2008年12月3日发布，它对语言做了较大修订而不能完全后向兼容。Python 3发行包括了2to3实用工具，它（至少部分的）自动将Python 2代码转换成Python 3代码。Python 3的很多新特性后来也被移植到旧的Python 2.6/2.7版本中。</p>
+<p>Python 2.7的产品寿命结束日期最初设定为2015年，出于对大量的现存代码不能前向移植到Python 3的关切而延期至2020年。随着Python 2的产品寿命结束，只有Python 3.8和后续版本仍被完全支持。</p>
+<p>在2020年12月，活跃的Python核心开发者选举Barry Warsaw、Brett Cannon、Carol Willing、Pablo Galindo Salgado和Thomas Wouters为2021年度“掌控委员会”的五位成员来领导这个项目。</p>
+<p>特征与设计哲学<br>Python是多范型编程语言。它完全支持结构化编程和面向对象编程，还有很多特征支持函数式编程和元编程包括元类和元对象（魔术方法）。通过扩展还可以支持很多范型，包括面向切面编程、契约式设计和逻辑编程。</p>
+<p>Python使用动态类型，在内存管理上采用引用计数和环检测相结合的垃圾收集器。它的特征还有动态名字解析（后期绑定），即在程序执行期间绑定方法和变量的名字。</p>
+<p>Python对遵循LISP传统的函数式编程提供了有限的支持，它提供了 map、filter和reduce函数；列表推导式、字典、集合和生成器表达式[60]。标准库中有两个模块（functools和itertools）实现了从Haskell和Standard ML取来的函数式工具。</p>
+<p>Python的设计哲学是“优雅”、“明确”、“简单”。它的重要准则被称为“Python之禅”。在Python解释器内运行import this可以获得完整的列表，下面是其中首要：</p>
+<p>优美优于丑陋。明了优于隐晦。<br>简单优于复杂。复杂优于凌乱。<br>扁平优于嵌套。稀疏优于稠密。<br>可读性很重要。</p>
+<p>Python开发者的哲学是“用一种方法，最好是只有一种方法来做一件事”，显著不同于拥有“不止一种方法去做一件事”风格的语言例如Perl。在设计Python语言时，如果面临多种选择，Python开发者一般会拒绝花俏的语法，而选择明确没有或者很少有歧义的语法。</p>
+<p>范罗苏姆认为ABC语言非常优美和强大，并没有成功的原因是非开放造成的，故而将Python本身设计为可扩展的。Python并不把所有的特性和功能都集成到语言核心，而是提供了丰富的API和工具，以便程序员能够轻松地使用C、Cython来编写扩展模块，因此很多人使用Python将其他语言编写的编程进行集成和封装。Python编译器本身也可以被集成到其它需要脚本语言的编程内。</p>
+<p>Python开发人员尽量避开不成熟或者不重要的优化。一些针对非重要部位的加快运行速度的补丁通常不会被合并到Python的官方实现CPython中。在某些对运行速度要求很高的情况，Python设计师可以使用JIT技术的PyPy，或者是将Python脚本翻译成C的Cython，还可以将时间关键的函数迁移至用C语言编写的扩展模块中。</p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>history</category>
+      </categories>
+      <tags>
+        <tag>history</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Perl的发展史 珍珠的诞生1987年 34岁</title>
     <url>/2021/06/11/Perl/</url>
     <content><![CDATA[<p>Perl的发展史 珍珠的诞生1987年 34岁</p>
@@ -618,96 +737,35 @@
       </tags>
   </entry>
   <entry>
-    <title>Python发展史 1991年 荷兰无聊青年</title>
-    <url>/2021/06/11/Python/</url>
-    <content><![CDATA[<p>Python发展史 1991年 荷兰无聊青年</p>
+    <title>Redis跑在内存上的NoSql数据库</title>
+    <url>/2021/06/11/Redis/</url>
+    <content><![CDATA[<p>Redis就是一种运行速度很快，并发很强的跑在内存上的NoSql数据库，支持键到五种数据类型的映射。</p>
 <span id="more"></span>
-<h1 id="Python发展史-1991年-荷兰无聊青年"><a href="#Python发展史-1991年-荷兰无聊青年" class="headerlink" title="Python发展史 1991年 荷兰无聊青年"></a>Python发展史 1991年 荷兰无聊青年</h1><p>Python由吉多·范罗苏姆创造，第一版发布于1991年，它是ABC语言的后继者，也可以视之为一种使用传统中缀表达式的LISP方言[28]。</p>
-<p>Python的设计哲学强调代码的可读性和简洁的语法，尤其是使用空格缩进划分代码块。相比于C或Java，Python让开发者能够用更少的代码表达想法。不管是小型还是大型程序，该语言都试图让程序的结构清晰明了。</p>
-<p>Python解释器本身几乎可以在所有的操作系统中运行。Python的官方解释器CPython是用C语言编写的，它是一个由社区驱动的自由软件，目前由Python软件基金会管理。</p>
-<p>python的创始人为吉多·范罗苏姆，当时他在阿姆斯特丹的荷兰数学和计算机科学研究学会工作。1989年的圣诞节期间，吉多·范罗苏姆为了在打发时间，决心开发一个新的脚本解释编程，作为ABC语言的一种继承，替代使用Unix shell和C语言进行系统管理，担负同Amoeba操作系统的交互和异常处理。之所以选中Python作为编程的名字，是因为他是BBC电视剧——《蒙提·派森的飞行马戏团》（Monty Python’s Flying Circus）的爱好者。范罗苏姆作为Python的主要开发者独自担负这个项目的职责，直到2018年7月12日，他宣布从作为终身仁慈独裁者（BDFL）的职责上“永久休假”，Python社区向他授予这个头衔反映了他长期担任整个Python语言的发展方向的决策者。他在2019年1月至11月于参与了一个五人掌控委员会继续领导项目发展。</p>
-<p>在1991年2月，范罗苏姆发布了最初代码（标记为版本0.9.0）于alt.sources，这时就已经存在了带继承的类、异常处理、函数和核心数据类型list、dict、str等。在这个最初发行中就有了从Modula-3引进的模块系统，它的异常模型也类似于Modula-3，但增加了else子句[8]。在1994年1月Python达到了版本1.0。这个发行版主要新特征是包括了函数式编程工具lambda、map、filter和reduce。Python 1.4增加了受Modula-3启发的关键字参数和对复数的内建支持，还包含采取名字修饰的一种基本形式的数据隐藏。</p>
-<p>Python 2.0于2000年10月16日发布，介入了列表推导式，这是从函数式编程语言SETL和Haskell中引入的。它还向垃圾收集系统增加了环检测算法，并且支持Unicode[38]。Python 2.1支持了嵌套作用域，就像其他静态作用域语言一样[39]。Python 2.2的重大革新是将Python的类型（用C写成）和类（用Python写成）统一入一个层级，使得Python的对象模型成为纯粹和一致的面向对象的模型[40]；还增加了迭代器[41]，受CLU和Icon启发的生成器，和描述器协议。Python 2.4加入了集合数据类型，和函数修饰器[44]。Python 2.5加入了with语句。</p>
-<p>Python 3.0于2008年12月3日发布，它对语言做了较大修订而不能完全后向兼容。Python 3发行包括了2to3实用工具，它（至少部分的）自动将Python 2代码转换成Python 3代码。Python 3的很多新特性后来也被移植到旧的Python 2.6/2.7版本中。</p>
-<p>Python 2.7的产品寿命结束日期最初设定为2015年，出于对大量的现存代码不能前向移植到Python 3的关切而延期至2020年。随着Python 2的产品寿命结束，只有Python 3.8和后续版本仍被完全支持。</p>
-<p>在2020年12月，活跃的Python核心开发者选举Barry Warsaw、Brett Cannon、Carol Willing、Pablo Galindo Salgado和Thomas Wouters为2021年度“掌控委员会”的五位成员来领导这个项目。</p>
-<p>特征与设计哲学<br>Python是多范型编程语言。它完全支持结构化编程和面向对象编程，还有很多特征支持函数式编程和元编程包括元类和元对象（魔术方法）。通过扩展还可以支持很多范型，包括面向切面编程、契约式设计和逻辑编程。</p>
-<p>Python使用动态类型，在内存管理上采用引用计数和环检测相结合的垃圾收集器。它的特征还有动态名字解析（后期绑定），即在程序执行期间绑定方法和变量的名字。</p>
-<p>Python对遵循LISP传统的函数式编程提供了有限的支持，它提供了 map、filter和reduce函数；列表推导式、字典、集合和生成器表达式[60]。标准库中有两个模块（functools和itertools）实现了从Haskell和Standard ML取来的函数式工具。</p>
-<p>Python的设计哲学是“优雅”、“明确”、“简单”。它的重要准则被称为“Python之禅”。在Python解释器内运行import this可以获得完整的列表，下面是其中首要：</p>
-<p>优美优于丑陋。明了优于隐晦。<br>简单优于复杂。复杂优于凌乱。<br>扁平优于嵌套。稀疏优于稠密。<br>可读性很重要。</p>
-<p>Python开发者的哲学是“用一种方法，最好是只有一种方法来做一件事”，显著不同于拥有“不止一种方法去做一件事”风格的语言例如Perl。在设计Python语言时，如果面临多种选择，Python开发者一般会拒绝花俏的语法，而选择明确没有或者很少有歧义的语法。</p>
-<p>范罗苏姆认为ABC语言非常优美和强大，并没有成功的原因是非开放造成的，故而将Python本身设计为可扩展的。Python并不把所有的特性和功能都集成到语言核心，而是提供了丰富的API和工具，以便程序员能够轻松地使用C、Cython来编写扩展模块，因此很多人使用Python将其他语言编写的编程进行集成和封装。Python编译器本身也可以被集成到其它需要脚本语言的编程内。</p>
-<p>Python开发人员尽量避开不成熟或者不重要的优化。一些针对非重要部位的加快运行速度的补丁通常不会被合并到Python的官方实现CPython中。在某些对运行速度要求很高的情况，Python设计师可以使用JIT技术的PyPy，或者是将Python脚本翻译成C的Cython，还可以将时间关键的函数迁移至用C语言编写的扩展模块中。</p>
+<h3 id="Redis"><a href="#Redis" class="headerlink" title="Redis"></a>Redis</h3><p>Redis（Remote Dictionary Server )，即远程字典服务，是一个开源的使用ANSI C语言编写、支持网络、可基于内存亦可持久化的日志型、Key-Value数据库，并提供多种语言的API。</p>
+<p>从2010年3月15日起，Redis的开发工作由VMware主持。</p>
+<p>从2013年5月开始，Redis的开发由Pivotal赞助。</p>
+<p>Redis就是一种运行速度很快，并发很强的跑在内存上的NoSql数据库，支持键到五种数据类型的映射。</p>
+<p>Redis 的作者，叫Salvatore Sanfilippo，来自意大利的西西里岛，居住在卡塔尼亚。目前供职于Pivotal公司。他使用的网名是antirez。</p>
+<p><strong>简述一下Redis值的五种类型</strong></p>
+<ul>
+<li><p>string        整数，浮点数或者字符串</p>
+</li>
+<li><p>Set             集合</p>
+</li>
+<li><p>Zset           有序集合</p>
+</li>
+<li><p>Hash          散列表</p>
+</li>
+<li><p>List             列表</p>
+</li>
+</ul>
 ]]></content>
       <categories>
         <category>Java</category>
-        <category>history</category>
+        <category>Redis</category>
       </categories>
       <tags>
-        <tag>history</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Pivotal牛逼低调的公司</title>
-    <url>/2021/06/11/Pivotal/</url>
-    <content><![CDATA[<p>Pivotal的确掌握着很多开源软件的核心技术。比如，开源PaaS平台Cloud  Foundry和Java开发的Spring框架、数据仓库Greenplum等，Pivotal都是主要的技术贡献者</p>
-<span id="more"></span>
-
-<h2 id="Pivotal"><a href="#Pivotal" class="headerlink" title="Pivotal"></a>Pivotal</h2><p>但如果你是一个开发者，在 Java后台开发使用最多的一个框架：Spring以及衍生框架、做缓存Redis、消息队列框架RabbitMQ、还有更牛的Greenplum，这些都是Pivotal公司的。</p>
-<p>还有Tomcat、Groovy里的一些顶级开发者，DevOps理论的提出者都在这个公司，2016年风靡全球的云原生理念亦是Pivotal公司提出，最近，美国硅谷著名的精益化创业书籍的作者Eric Ries也加入了Pivotal公司。</p>
-<p>Pivotal与VMware两家本就有非同一般的关系。2013年成立于美国的硅谷的Pivotal公司，由原VMWare首席执行官Paul Matritz出任Pivotal首席执行官。这家公司可以说是含着金钥匙出身的，成立之初就有Dell  EMC、VMWare和GE共同出资10亿美元，后来微软和福特加入其中，成为公司股东之一。公司于去年4月份在美国纽约证券交易所上市。</p>
-<p>Pivotal主要提供PaaS云原生应用开发平台及服务，帮助企业客户采用敏捷软件开发方法论，从而提高软件开发人员工作效率、减少运维成本，实现数字化转型、IT创新，并最终实现业务创新。“我们Pivotal是一家低调的技术公司，我们有很多真正硬核的技术，但业界知道的人并不多。”Pivotal公司副总裁兼大中华区总裁于志伟在接受记者采访时表示。</p>
-<p>Pivotal的确掌握着很多开源软件的核心技术。比如，开源PaaS平台Cloud  Foundry和Java开发的Spring框架、数据仓库Greenplum等，Pivotal都是主要的技术贡献者，尤其是前两个开源项目最早就起源于VMware。 </p>
-<p>Pivotal的PaaS平台就是这样的一个平台。众所周知，当今软件开发领域一个热门话题就是云原生应用的崛起。根据Gartner的预测，到2022年有75%的企业会使用基于云原生容器技术来构建它们的应用，而Pivotal正是这一潮流的先行者和探索者。此番VMware想要收购Pivotal也是看上后者的这一能力。</p>
-<p>于志伟介绍说，Pivotal是最早提出云原生概念的公司，Cloud Foundry也是最早的云原生PaaS平台之一。2014年Pivotal基于业界流行多年的开源Cloud  Foundry技术体系推出第一个商业版实现时，Docker才面世不久，K8s则还没有发布。当时，Cloud  Foundry是最受市场认可的PaaS平台之一，当年IBM的BlueMix和惠普的Helion云都选用Cloud  Foundry作为PaaS的核心平台。</p>
-<p>同时，Cloud Foundry一直在与时俱进，紧跟技术的潮流和最新变化。“从2014年年初发布第一版的Cloud Foundry商业版开始，到现在基本上3个月为一个版本周期发布新版本，不断创新。”</p>
-<p>实际上，Pivotal对容器技术一直非常关注。在Docker出来之前，Pivotal就有自己的容器技术实现，叫做Warden，之后不断升级直到现在的Diego。后来，随着K8s（Kubernetes）的流行，Pivotal于2017年年初联合谷歌推出了一个开源版的容器平台KUBO。在2018年年初的时候，Pivotal又联合Google、VMware共同发布了基于Kubernetes的容器平台PKS(Pivotal Container Services)。不久前，Pivotal还公布将推出一个名为PAS on  Kubernetes的新产品，将Kubernetes和Diego的容器环境融为一体，向企业的应用开发人员有多种选择，既可以通过无应用代码改造地方式借助Kubernetes来实现容器化，也可以使用Diego的方式来通过云原生的方式来实现应用现代化。</p>
-<p><a href="https://baijiahao.baidu.com/s?id=1642528154354438867&amp;wfr=spider&amp;for=pc">https://baijiahao.baidu.com/s?id=1642528154354438867&amp;wfr=spider&amp;for=pc</a></p>
-<p><a href="https://www.sohu.com/a/127172641_464027">https://www.sohu.com/a/127172641_464027</a></p>
-]]></content>
-      <categories>
-        <category>Corp</category>
-      </categories>
-      <tags>
-        <tag>Corp</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>PHP连接MySQL数据库</title>
-    <url>/2021/06/22/PHP%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
-    <content><![CDATA[<p>PHP 连接 MySQL</p>
-<span id="more"></span>
-
-<p>**php mysql_connect不支持是因为PHP7已经彻底不支持“mysql_connect”函数了，该函数属于废弃函数，需要使用MySQLi或PDO_MySQL扩展来替换该函数。 **</p>
-<h1 id="PHP-连接-MySQL"><a href="#PHP-连接-MySQL" class="headerlink" title="PHP 连接 MySQL"></a>PHP 连接 MySQL</h1><p>PHP 5 及以上版本建议使用以下方式连接 MySQL :</p>
-<ul>
-<li><strong>MySQLi extension</strong> (“i” 意为 improved)</li>
-<li><strong>PDO (PHP Data Objects)</strong></li>
-</ul>
-<p>在 PHP 早期版本中我们使用 MySQL 扩展。但该扩展在 2012 年开始不建议使用。</p>
-<p><a href="https://www.runoob.com/php/php-mysql-connect.html">https://www.runoob.com/php/php-mysql-connect.html</a></p>
-<h2 id="Mysql如何设置root密码"><a href="#Mysql如何设置root密码" class="headerlink" title="Mysql如何设置root密码"></a>Mysql如何设置root密码</h2><p>查看当前用户和密码：</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">User</span>,Password <span class="keyword">from</span> mysql.user;</span><br></pre></td></tr></table></figure>
-
-<p>修改密码：</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">set</span> password <span class="keyword">for</span> root<span class="variable">@localhost</span><span class="operator">=</span>password(<span class="string">&#x27;Tz123456&#x27;</span>);</span><br></pre></td></tr></table></figure>
-
-<p>查询是否修改：</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">User</span>,Password <span class="keyword">from</span> mysql.user;</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="PhpMyAdmin安装配置"><a href="#PhpMyAdmin安装配置" class="headerlink" title="PhpMyAdmin安装配置"></a>PhpMyAdmin安装配置</h2><p>配置文件config.inc.php</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/* Authentication type and info */</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;auth_type&#x27;] = &#x27;config&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;user&#x27;] = &#x27;root&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;password&#x27;] = &#x27;123456&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;extension&#x27;] = &#x27;mysqli&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;AllowNoPassword&#x27;] = true;</span><br><span class="line">$cfg[&#x27;Lang&#x27;] = &#x27;&#x27;;</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>PHP</category>
-        <category>MySQL</category>
-      </categories>
-      <tags>
-        <tag>PHP</tag>
+        <tag>Redis</tag>
       </tags>
   </entry>
   <entry>
@@ -768,63 +826,6 @@
       </categories>
       <tags>
         <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Python办公自动化word转pdf</title>
-    <url>/2021/07/16/Python%E5%8A%9E%E5%85%AC%E8%87%AA%E5%8A%A8%E5%8C%96word%E8%BD%ACpdf/</url>
-    <content><![CDATA[<span id="more"></span>
-
-
-
-<p>使用的到的Python库/模块</p>
-<ul>
-<li><h2 id="pathlib"><a href="#pathlib" class="headerlink" title="pathlib"></a>pathlib</h2></li>
-<li><h2 id="comtypes"><a href="#comtypes" class="headerlink" title="comtypes"></a>comtypes</h2></li>
-<li><h2 id="glob"><a href="#glob" class="headerlink" title="glob"></a>glob</h2></li>
-</ul>
-<p>glob是python自己带的一个文件操作相关模块，用它可以查找符合自己目的的文件</p>
-<p>glob模块的主要方法就是glob,该方法返回  所有匹配的文件路径<strong>列表</strong>（list）该方法需要一个参数用来指定匹配的路径字符串</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> pathlib <span class="keyword">import</span> Path</span><br><span class="line"><span class="keyword">from</span> comtypes.client <span class="keyword">import</span> CreateObject</span><br><span class="line"></span><br><span class="line">src_folder = Path(<span class="string">&#x27;C:\\Bin\\word\\&#x27;</span>)</span><br><span class="line">des_folder = Path(<span class="string">&#x27;C:\\Bin\\pdf\\&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> <span class="keyword">not</span> des_folder.exists():</span><br><span class="line">    des_folder.mkdir(parents=<span class="literal">True</span>)</span><br><span class="line">file_list = <span class="built_in">list</span>(src_folder.glob(<span class="string">&#x27;*.docx&#x27;</span>))</span><br><span class="line"></span><br><span class="line">word = CreateObject(<span class="string">&#x27;Word.Application&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> word_path <span class="keyword">in</span> file_list:</span><br><span class="line">    pdf_path = des_folder / word_path.with_suffix(<span class="string">&#x27;.pdf&#x27;</span>).name</span><br><span class="line">    <span class="keyword">if</span> pdf_path.exists():</span><br><span class="line">        <span class="keyword">continue</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        doc = word.Documents.Open(<span class="built_in">str</span>(word_path))</span><br><span class="line">        doc.SaveAs(<span class="built_in">str</span>(pdf_path), FileFormat=<span class="number">17</span>)</span><br><span class="line"></span><br><span class="line">        doc.Close()</span><br><span class="line">word.Quit()</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Python</category>
-        <category>办公自动化</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Redis跑在内存上的NoSql数据库</title>
-    <url>/2021/06/11/Redis/</url>
-    <content><![CDATA[<p>Redis就是一种运行速度很快，并发很强的跑在内存上的NoSql数据库，支持键到五种数据类型的映射。</p>
-<span id="more"></span>
-<h3 id="Redis"><a href="#Redis" class="headerlink" title="Redis"></a>Redis</h3><p>Redis（Remote Dictionary Server )，即远程字典服务，是一个开源的使用ANSI C语言编写、支持网络、可基于内存亦可持久化的日志型、Key-Value数据库，并提供多种语言的API。</p>
-<p>从2010年3月15日起，Redis的开发工作由VMware主持。</p>
-<p>从2013年5月开始，Redis的开发由Pivotal赞助。</p>
-<p>Redis就是一种运行速度很快，并发很强的跑在内存上的NoSql数据库，支持键到五种数据类型的映射。</p>
-<p>Redis 的作者，叫Salvatore Sanfilippo，来自意大利的西西里岛，居住在卡塔尼亚。目前供职于Pivotal公司。他使用的网名是antirez。</p>
-<p><strong>简述一下Redis值的五种类型</strong></p>
-<ul>
-<li><p>string        整数，浮点数或者字符串</p>
-</li>
-<li><p>Set             集合</p>
-</li>
-<li><p>Zset           有序集合</p>
-</li>
-<li><p>Hash          散列表</p>
-</li>
-<li><p>List             列表</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Java</category>
-        <category>Redis</category>
-      </categories>
-      <tags>
-        <tag>Redis</tag>
       </tags>
   </entry>
   <entry>
@@ -921,28 +922,6 @@
       </tags>
   </entry>
   <entry>
-    <title>cisco ASA IPsec vpn交互过程</title>
-    <url>/2021/06/30/cisco-ASA-IPsec-vpn%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/</url>
-    <content><![CDATA[<p>cisco ASA IPsec vpn交互过程</p>
-<span id="more"></span>
-
-
-
-<p>MM_WAIT_MSG 状态可以很好地说明隧道未形成的原因</p>
-<p><img src="/2021/06/30/cisco-ASA-IPsec-vpn%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/IKE_Phase1_MSGs.jpg" alt="MM_WAIT_MSG"></p>
-<img src="C:\web\blog\source\_posts\cisco-ASA-IPsec-vpn交互过程\IKE_Phase1_MSGs.jpg" style="zoom:75%;" />
-
-<p><a href="https://www.tunnelsup.com/isakmp-ike-phase-1-status-messages/">https://www.tunnelsup.com/isakmp-ike-phase-1-status-messages/</a></p>
-]]></content>
-      <categories>
-        <category>Network</category>
-        <category>ASA</category>
-      </categories>
-      <tags>
-        <tag>ASA</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo从零开始</title>
     <url>/2021/05/26/hexo%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
     <content><![CDATA[<p>Hexo目前最完美的blog</p>
@@ -1024,6 +1003,28 @@
       </tags>
   </entry>
   <entry>
+    <title>cisco ASA IPsec vpn交互过程</title>
+    <url>/2021/06/30/cisco-ASA-IPsec-vpn%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/</url>
+    <content><![CDATA[<p>cisco ASA IPsec vpn交互过程</p>
+<span id="more"></span>
+
+
+
+<p>MM_WAIT_MSG 状态可以很好地说明隧道未形成的原因</p>
+<p><img src="/2021/06/30/cisco-ASA-IPsec-vpn%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/IKE_Phase1_MSGs.jpg" alt="MM_WAIT_MSG"></p>
+<img src="C:\web\blog\source\_posts\cisco-ASA-IPsec-vpn交互过程\IKE_Phase1_MSGs.jpg" style="zoom:75%;" />
+
+<p><a href="https://www.tunnelsup.com/isakmp-ike-phase-1-status-messages/">https://www.tunnelsup.com/isakmp-ike-phase-1-status-messages/</a></p>
+]]></content>
+      <categories>
+        <category>Network</category>
+        <category>ASA</category>
+      </categories>
+      <tags>
+        <tag>ASA</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Spring</title>
     <url>/2021/06/11/Spring/</url>
     <content><![CDATA[<p>Spring</p>
@@ -1093,6 +1094,31 @@
       </tags>
   </entry>
   <entry>
+    <title>node.js 2009年诞生 C++开发V8</title>
+    <url>/2021/05/26/node.js%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
+    <content><![CDATA[<p>Node.js 就是运行在服务端的 JavaScript。 </p>
+<span id="more"></span>
+
+<p>Node.js 是一个基于Chrome JavaScript 运行时建立的一个平台。<br>Node.js是一个事件驱动I/O服务端JavaScript环境，基于Google的V8引擎，V8引擎执行Javascript的速度非常快，性能非常好</p>
+<p>查看node版本</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ node -v</span><br></pre></td></tr></table></figure>
+
+
+<p>Node.js 是2009的时候由大神 Ryan Dahl 开发的。Ryan 的本职工作是用 C++ 写服务器，后来他总结出一个经验，一个高性能服务器应该是满足“事件驱动，非阻塞 I/O”模型的。C++ 开发起来比较麻烦，于是 Ryan 就想找一种更高级的语言，以便快速开发。</p>
+<p>可以说有两点促成了 Nodejs 的诞生。首先第一点，Ryan 发现 JS 语言本身的特点就是事件驱动并且是非阻塞 I/O 的，跟他的思路正是绝配。第二点，Chrome 的 JS 引擎，也就是 V8 引擎是开源的，而且性能特别棒。于是 Ryan 就基于 V8 开发了 Node.js ，注意 Node.js 听名字好像是个 JS 库，其实不是的，Node.js 是 C++ 开发的</p>
+<p>先说几句 Node.js 在服务器端的发展。Node.js 的诞生带给人们的是个大大的惊喜，传统上 Web 开发者，前端用 JS 写，但是写服务器端代码的时候还必须用另外一种语言，类似 Ruby/Java/PHP 等。但是 Node.js 出现之后，JS 前后通吃了。如果去网上搜 Node.js 的资料，很多都是用 Node.js 去写服务器代码的。</p>
+<p>但是，Node.js 今天也成为了 Web 前端开发必不可少的基础设施。注意，Web 前端的 JS 代码最终还是运行在浏览器中的，所以运行的时候，或者说在产品环境下，不依赖于 Node.js 。但是，Node.js 诞生以后，前端大爆发，类似 React/Vuejs 这样的前端框架的开发环境变得非常强大和负责，Node.js 是这些开发环境运行的基础。</p>
+<p>这就是关于 Node.js 诞生，以及它如何从纯后端发展到前后通吃的故事。</p>
+<p><a href="https://zhuanlan.zhihu.com/p/47822968">https://zhuanlan.zhihu.com/p/47822968</a></p>
+]]></content>
+      <categories>
+        <category>node.js</category>
+      </categories>
+      <tags>
+        <tag>js</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>java入门01</title>
     <url>/2021/06/21/java%E5%85%A5%E9%97%A801/</url>
     <content><![CDATA[<p>public static void main(String[] args)，是java程序的入口地址</p>
@@ -1111,6 +1137,37 @@
       </categories>
       <tags>
         <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>npm从零开始</title>
+    <url>/2021/05/26/npm%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
+    <content><![CDATA[<p>npm从零开始</p>
+<span id="more"></span>
+<p>接触到的第一个npm命令</p>
+<p><code>npm install hexo-cli -g</code></p>
+<h2 id="查看node版本"><a href="#查看node版本" class="headerlink" title="查看node版本"></a>查看node版本</h2><p>node -v </p>
+<h2 id="查看npm版本"><a href="#查看npm版本" class="headerlink" title="查看npm版本"></a>查看npm版本</h2><p>npm -v  </p>
+<h2 id="什么是npm-为什么要使用npm"><a href="#什么是npm-为什么要使用npm" class="headerlink" title="什么是npm? 为什么要使用npm?"></a>什么是npm? 为什么要使用npm?</h2><p>NPM是随同NodeJS的包管理工具</p>
+<h2 id="什么是CNPM？"><a href="#什么是CNPM？" class="headerlink" title="什么是CNPM？"></a>什么是CNPM？</h2><p>CNPM全称为”China Node Package Manager”，即中国的包管理镜器。其原理是用一个完整npmjs.org镜像，同步频率目前为10分钟一次以保证尽量与官方服务同步。</p>
+<p>国内的NPM软件源有很多，其中阿里云的软件源就是一个不错的选择，本片笔记就是使用阿里的软件源。</p>
+<p>npm 的包安装分为本地安装（local）、全局安装（global）两种</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli      # 本地安装</span><br><span class="line">npm install hexo-cli -g   # 全局安装</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="npm-install说明-常用简写"><a href="#npm-install说明-常用简写" class="headerlink" title="npm install说明 常用简写"></a>npm install说明 常用简写</h2><p>npm install=npm i。在git clone项目的时候，项目文件中并没有 node_modules文件夹，项目的依赖文件可能很大。直接执行，npm会根据package.json配置文件中的依赖配置下载安装。</p>
+<p>-global=-g，全局安装，安装后的包位于系统预设目录下<br>–save=-S，安装的包将写入package.json里面的dependencies，dependencies：生产环境需要依赖的库<br>–save-dev=-D，安装的包将写入packege.json里面的devDependencies，devdependencies：只有开发环境下需要依赖的库</p>
+<h2 id="查看安装信息"><a href="#查看安装信息" class="headerlink" title="查看安装信息"></a>查看安装信息</h2><p>使用以下命令来查看所有全局安装的模块：<br>$ npm list -g</p>
+<h2 id="卸载模块"><a href="#卸载模块" class="headerlink" title="卸载模块"></a>卸载模块</h2><p>可以使用以下命令来卸载 Node.js 模块。<br>$ npm uninstall hexo-cli</p>
+<h2 id="更新模块"><a href="#更新模块" class="headerlink" title="更新模块"></a>更新模块</h2><p>可以使用以下命令更新模块：<br>$ npm update hexo-cli</p>
+<h2 id="搜索模块"><a href="#搜索模块" class="headerlink" title="搜索模块"></a>搜索模块</h2><p>使用以下来搜索模块：<br>$ npm search hexo-cli</p>
+<h2 id="使用-package-json"><a href="#使用-package-json" class="headerlink" title="使用 package.json"></a>使用 package.json</h2><p>package.json 位于模块的目录下，用于定义包的属性。</p>
+]]></content>
+      <categories>
+        <category>node.js</category>
+      </categories>
+      <tags>
+        <tag>node.js</tag>
       </tags>
   </entry>
   <entry>
@@ -1163,31 +1220,6 @@
       </tags>
   </entry>
   <entry>
-    <title>node.js 2009年诞生 C++开发V8</title>
-    <url>/2021/05/26/node.js%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
-    <content><![CDATA[<p>Node.js 就是运行在服务端的 JavaScript。 </p>
-<span id="more"></span>
-
-<p>Node.js 是一个基于Chrome JavaScript 运行时建立的一个平台。<br>Node.js是一个事件驱动I/O服务端JavaScript环境，基于Google的V8引擎，V8引擎执行Javascript的速度非常快，性能非常好</p>
-<p>查看node版本</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ node -v</span><br></pre></td></tr></table></figure>
-
-
-<p>Node.js 是2009的时候由大神 Ryan Dahl 开发的。Ryan 的本职工作是用 C++ 写服务器，后来他总结出一个经验，一个高性能服务器应该是满足“事件驱动，非阻塞 I/O”模型的。C++ 开发起来比较麻烦，于是 Ryan 就想找一种更高级的语言，以便快速开发。</p>
-<p>可以说有两点促成了 Nodejs 的诞生。首先第一点，Ryan 发现 JS 语言本身的特点就是事件驱动并且是非阻塞 I/O 的，跟他的思路正是绝配。第二点，Chrome 的 JS 引擎，也就是 V8 引擎是开源的，而且性能特别棒。于是 Ryan 就基于 V8 开发了 Node.js ，注意 Node.js 听名字好像是个 JS 库，其实不是的，Node.js 是 C++ 开发的</p>
-<p>先说几句 Node.js 在服务器端的发展。Node.js 的诞生带给人们的是个大大的惊喜，传统上 Web 开发者，前端用 JS 写，但是写服务器端代码的时候还必须用另外一种语言，类似 Ruby/Java/PHP 等。但是 Node.js 出现之后，JS 前后通吃了。如果去网上搜 Node.js 的资料，很多都是用 Node.js 去写服务器代码的。</p>
-<p>但是，Node.js 今天也成为了 Web 前端开发必不可少的基础设施。注意，Web 前端的 JS 代码最终还是运行在浏览器中的，所以运行的时候，或者说在产品环境下，不依赖于 Node.js 。但是，Node.js 诞生以后，前端大爆发，类似 React/Vuejs 这样的前端框架的开发环境变得非常强大和负责，Node.js 是这些开发环境运行的基础。</p>
-<p>这就是关于 Node.js 诞生，以及它如何从纯后端发展到前后通吃的故事。</p>
-<p><a href="https://zhuanlan.zhihu.com/p/47822968">https://zhuanlan.zhihu.com/p/47822968</a></p>
-]]></content>
-      <categories>
-        <category>node.js</category>
-      </categories>
-      <tags>
-        <tag>js</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>python的文件读取</title>
     <url>/2021/06/30/python%E7%9A%84%E6%96%87%E4%BB%B6%E8%AF%BB%E5%8F%96/</url>
     <content><![CDATA[<p>python的IP地址读取</p>
@@ -1223,37 +1255,6 @@
       </tags>
   </entry>
   <entry>
-    <title>npm从零开始</title>
-    <url>/2021/05/26/npm%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
-    <content><![CDATA[<p>npm从零开始</p>
-<span id="more"></span>
-<p>接触到的第一个npm命令</p>
-<p><code>npm install hexo-cli -g</code></p>
-<h2 id="查看node版本"><a href="#查看node版本" class="headerlink" title="查看node版本"></a>查看node版本</h2><p>node -v </p>
-<h2 id="查看npm版本"><a href="#查看npm版本" class="headerlink" title="查看npm版本"></a>查看npm版本</h2><p>npm -v  </p>
-<h2 id="什么是npm-为什么要使用npm"><a href="#什么是npm-为什么要使用npm" class="headerlink" title="什么是npm? 为什么要使用npm?"></a>什么是npm? 为什么要使用npm?</h2><p>NPM是随同NodeJS的包管理工具</p>
-<h2 id="什么是CNPM？"><a href="#什么是CNPM？" class="headerlink" title="什么是CNPM？"></a>什么是CNPM？</h2><p>CNPM全称为”China Node Package Manager”，即中国的包管理镜器。其原理是用一个完整npmjs.org镜像，同步频率目前为10分钟一次以保证尽量与官方服务同步。</p>
-<p>国内的NPM软件源有很多，其中阿里云的软件源就是一个不错的选择，本片笔记就是使用阿里的软件源。</p>
-<p>npm 的包安装分为本地安装（local）、全局安装（global）两种</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli      # 本地安装</span><br><span class="line">npm install hexo-cli -g   # 全局安装</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="npm-install说明-常用简写"><a href="#npm-install说明-常用简写" class="headerlink" title="npm install说明 常用简写"></a>npm install说明 常用简写</h2><p>npm install=npm i。在git clone项目的时候，项目文件中并没有 node_modules文件夹，项目的依赖文件可能很大。直接执行，npm会根据package.json配置文件中的依赖配置下载安装。</p>
-<p>-global=-g，全局安装，安装后的包位于系统预设目录下<br>–save=-S，安装的包将写入package.json里面的dependencies，dependencies：生产环境需要依赖的库<br>–save-dev=-D，安装的包将写入packege.json里面的devDependencies，devdependencies：只有开发环境下需要依赖的库</p>
-<h2 id="查看安装信息"><a href="#查看安装信息" class="headerlink" title="查看安装信息"></a>查看安装信息</h2><p>使用以下命令来查看所有全局安装的模块：<br>$ npm list -g</p>
-<h2 id="卸载模块"><a href="#卸载模块" class="headerlink" title="卸载模块"></a>卸载模块</h2><p>可以使用以下命令来卸载 Node.js 模块。<br>$ npm uninstall hexo-cli</p>
-<h2 id="更新模块"><a href="#更新模块" class="headerlink" title="更新模块"></a>更新模块</h2><p>可以使用以下命令更新模块：<br>$ npm update hexo-cli</p>
-<h2 id="搜索模块"><a href="#搜索模块" class="headerlink" title="搜索模块"></a>搜索模块</h2><p>使用以下来搜索模块：<br>$ npm search hexo-cli</p>
-<h2 id="使用-package-json"><a href="#使用-package-json" class="headerlink" title="使用 package.json"></a>使用 package.json</h2><p>package.json 位于模块的目录下，用于定义包的属性。</p>
-]]></content>
-      <categories>
-        <category>node.js</category>
-      </categories>
-      <tags>
-        <tag>node.js</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Python的subprocess</title>
     <url>/2021/06/11/python%E7%9A%84subprocess/</url>
     <content><![CDATA[<p>subprocess最早在2.4版本引入,用来生成子进程，并可以通过管道连接他们的输入/输出/错误，以及获得他们的返回值。</p>
@@ -1273,6 +1274,29 @@
 </ol>
 <p><a href="https://cloud.tencent.com/developer/article/1445388">https://cloud.tencent.com/developer/article/1445388</a></p>
 ]]></content>
+      <categories>
+        <category>Python</category>
+        <category>NetOps</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python网络ping</title>
+    <url>/2021/06/10/python%E7%BD%91%E7%BB%9Cping/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="3046765c687cd639cc04a33b042386433785b2ec1798e3bfb6ceb74ad8371883">7aa1880daa6a0b7a09a81d7f2fbd57c9a2b0786f8fb263cd6e9bafce42d347a317a360f49b752a265415b08546814bad63cb474fa1599a1b1e738f7778f5147db4b17309e3782987ebf20eda8ca53600b8d571432aec430088c5362742318eef12cdc6cc4eec4103b9a17e4746bb246a7f921d76626cb3ca3d2f473c03470f25ef712e391963badfd470c6d27f5df5c9a6f383f4cfe7e658b5b3987b8547510c8655fb157a881a39ba91b2d5766517547bb626995dbad4d9522ef46bbc08f037e5550a3cfdb5c426c2681cfe9005357a9c6d54bd95dcbc50dac12de413e054ff925cad82869bfbf85e4a6f16aace4da3494f203035bb109edc6d769a2567be5a6e85eaba376dc2e098187acb38d06b48d160b87e287cb0ee2260c8897c84bb108c7964bfff2cbe5cf82b65f0b97cfa7ec8a7f8aca99eb6fcc9dfa5fc70e81aed502c9a2ba800ae3ec173e77db7daf1d16908bf815e072105292f812dea54aa72d5a0b168e02b410d828ac215d97e7e6433b57744dd4bfbcd9af4cf0898369ff99b108d679782ef0ec02314f365f483f7c699f44ebf19d8bb1471e6f0668bafce946ebcb7b646d30ae8ae2c4004840b9066d8031acaf6009f647e6e2b89ad9f6001d9406e2387c908ebddfdb634f96301bf89ead896e41d17251c9e9267c6fd2bc98d4a8a7c201cb3d9006ee338b7b9fd3103e556a88e8160ce8491ab095eb8c7dac05753a313d831ece02598e533eaf2856b8861dfc43266b40984bcc7c3cd175879896a165b111abcd472e524ab98cf61302b123ab73f72b25651b5f0c54592241495da153769771f3f9b98667225cb6e790f8a3c0c9b943a479b512eab7dfe34f68c1fbef0d18f54a118d0a78851afa0dba2b04097dd13f05fa536a07deb53343ba6aa9dc9739233d31a911a72aebb04092df06fc6514303c7dc746b41ab5671ad8564d76efc0adfff543032252d86ecc07f313ade58586af17c7ca4d43e3a1b0f7538195c7d4dc725d5bf541a5d621d974527532a734ed5062397e43310438c1df7052487fb2eab5f7c65e3ecbc50fbc34536d88c52f0643634d9482e2e01e611ae153a29873a7d1bc6db935bebf8270c67fd362040f9c677caf33c2dbb36fa81bf6c4c0f9fa507e14701e50aa3656f45b13dc367cfce1f90134d7a7f4c69292f7b9af8c5ea0c7525fa335947447019fa80d690479e94217a42ebb131f551e530a1ae340765f1f3dff12ecaa59b6be2c4e486e23a35f05d21d81306c225bfc422969cccf81dc9512148c3b9370824b13d368d56f76eefa2f0529d430aa626ad1c0071a3ca697728bf6095e16d9c3fadabb07765eb00ff53b4d4c87898a62bd5fe358f519886c3c232369c75f66d5fd32e83b93d50e9ffe9ae0f00826abefc9a56723157af1270b4a9399f8bb64f11680267b445929cdbd5e7070060684c77864d533b051938632125583fd5b533ed13995227131ea26eff033a731b2a8b592b5036d273251711eea83828668db536a8bf439d9f149bad60fbd8d7e185b5b403266774ede0d79a7251f12d5a8653648fcca1512e0efab05edc6b4b165d69b09102a50174c5dd7c19fccf68d5ab5045aacc5e03c28dbccdf6f54114e95e07df73dc78952f00348c7f33dc6cabd4a29ab9272c96a93a5fe41550aeb8700397436e2680699f2995782cf41cfbbeaff5cb89936f3fcaddc61856ffea8348486a9b99e171e4aa6a61d8f4d3301ba935cc1120e3e02b070a5154a65ed345ff41473703b4f68f1f2657bf9a9138e415df6e4b72baf175f2054389654f06e5337232454ac317e60820501a716aec1cb2f06504c4dc0fea3d13db9eca06a246eb5f52dc5f999874f95abb3206408be6696ee307fa783a0be23ed7b4996e5c64e005e09cf549c4a590da921ef1adeb6b1977812b357f57da1074aadc118c89a19af3544bfa2d77541f574480468b4547dea3db756d7dff7f7fc3f631297e85c412ba0a294caf79049cffe1c81282a401c947b648366f3ebb594925a3b1f2051a8abc634a2d486bfe6802f2cb507f350c108ce401a3c4c67471c70148570163e2b1d7e030e9d787248ac40f6ffb42916c48d95181c61cae0d01ff251cbd3827d8894994015d949976d18dca959a4547018eebb824d557821b0515be816a8b6c97ba0b0187ec6cd1ccc3da85c5e9d25a95e516b890cf4eb3e52fa26d9c3448d2d723083b7acca50689330a17f3792241769cc48a8fa9f4e8cda6997e5e4b7df74aac560b2e98e01fee2706a74d55ae90040e2b0172305922d7ee5d886afe4c46db8de977c270cae92c7fd5b7e7acfd39974e56236d7af398d3944f12c375b39da6b39f53faaa47ab991c582ecb177b2734f06226ecbbb0316785941f212c8185b0f76a544f55bc48bcc6458be0378f1e730c129d6d6edd6fd51db7b0882ec20ed8777508cf80f9358c5ecdddc47308ffbe3f39994a26cc04812248ffd7b2980b7a119e238cb9cb363f32ffb06d825b6b735e1f078c07df30c464cadeea11274b32001fcca2500d507c15642295a12894faca3cd87d4c6a4dc0f25dab59f1a7458c1633c4b92e7a34ece2bee017324d3783d549bbfbb87aa7b6b80b3201d65d2112b38f7b75d594ea4811fb1f8b341bc9caa981e5b745924198d77a01011d579b6ed9ea4b47c1b3f22c52211f46a49b394d223ac87b115225613028933337922333453db1c2805641d2a823509aebf1a80dd9392a950543b6ad1bf62f6f1affacc7c770cd648e8b7475e65e93486b3213d587133543b6026f3b1547d3de6fffba260f3e0e19ab172d0c4fce7663c035d1e3e2e0e49a635b577804c9a6e6c3cf1c2513953f83ffe423a68d2ad1ade8c1bad282d099ac2675ce18847551730b023350c3df9bd7975e861ba528246cc1d9e0157fae14a18cb4023cb47c33ac0a2cce8f1f86b44d4b1fa4cb831d6885267942d6e7feff4099fb00863a934026bb9db6f3750cac1b4ca8f0d05c1090a189f9b47f1d98a072367bb9b462c61cfd387d38b4d6632c036003fb81dc8d85d0e58499fa261cc352ebf69f7f73c9a6391389ba612d83820c3ca5f5f08a2051c0a02657539fb707df1abcc22051140c4cae3bcf8a69e3fd55789baa59758121e6ad3597d379cfebf0a79863ac4a8c0c40e299acaeb231b63aea17268df9e8f43cd5a5bc9a0b395155e50b3d92b222c2b6cdd7249fc9c44c6bab9724d74fe520d82476a2ab20103d4f3e222e8d1a5ce8775bc3336783bfedbc59913ae722daf41ae03216536ed9c1ea337485ba85b62d27e5675f585b0f66cb0d124d6e068a14ed8dd5963ae8be1c590ad06e85df46a14a2683a99f3b3dd83fa46d64e3f42782a440aa1be54250354d711bdc6dd73f7b3b6accf80a5375f12b877d7cedb0dd0f26c1f77e7255e3f6f4c522e2609ca69fc658c07160ae9278296703ae03083375361d88f1692b8b2c4dc46c123db06c1ae1cd497125e0ed5bc242305b01b7aa267b6a1d4cacfc3693d3c46fb6b3717820e46fa2314d12390315b1f0fbd3876101af8689001bedd0314867b257831c1cab8ad6f6a28075cd22097820f89a2162736e465305d7c69ea676faeb8f4e1126e9f66782cbf530fd4988d32808f17b6a555107f3ac1e0ec0c6f6a93992ac4c31359e7c9fbafd84e75344fb2815b3eea1f462703fdd7796d3d2de32659676269a53a6e695bf1c673251dfd8c9eb19c9bfd69232fae2e4f401afb9d6c793a07fb0228103fe1c2299bcd7ce231f2ba9f66f4597bc9545802637d361207be88f8385434c5290a3193d95fc0dc556a215cab7b4edfd51f270e12e7d561a5c1a1ab5993aa0e15ac52d81f2678d5b6edc130f300d33640f7791561f0a3a23bed3845303e4a075d8d4be8e5249dc0b99c28ce13762aa9990a7483b561ba9a506a388c9b7cf26622531735e68cf66eae815dea1a7ec3765c2b762321094faef3f2fc01a4a86f3ddd938095b0bef4a6b59324370fcbd838b2aaea92b2196c3836b2d4d9ad78df90b040082f7033c525fc569f0a9378c55de5d5905d6bdd298f6b940b1357dcdbe894e43fc6466dd7ac287b841f72e8b784b842deb347ca96cf426e9b198173397e9363e22d42fd06a1729a8658c715925f9a15060cac9a15a5daccd2e08cbfd2e0ea0879140fdc6c4222b54b08f8e2d3a0330c0126faa457c87adc60b64a50d015fbd3d22298f5fce2d4d1eb0fcfb29631c4f7d2ff5f1a1916924bc9e0ff7477d23e97953da0a515a6008e6533175382900131f6e875b198f58b0864d88e8d22b7c46ba813285539f2660797df6d12ea513e1bc0bfbd9ba5dea176de0a17d2b0f44973e26db528e9bec3a8da744cb69a16ec90cfc187c7c0baa1e7811c1f46656749ac39c58ec38f963052e3b5cf0e8bef4f501a77f295c923c18ecd9163fdb78033dfc72f3b192633f42ee1099c58aaa3f2611102c79960f2be909bc696fe72905461f6f3043a72f80c5160bdcad0b341d8ca20fd77d13ff64eab52d7378393db40ebaca7e115e7507a17714c2f2932260b7209850f130bddafd96a7ff77cc51533ac834a06949f9aa6116d0a4cd4627b33e546fe414ba0b0881ac3259445f7d47b8b7ade37ca6f2b8aa413abb69be4c9aa5b48d230c6441a78fccc011691533f66ca6957a354564119a89c88015478ca2799c0b1b7500517c447d34287702220264495b92c5df175cbfa743a532cdef93e96249dd0dabcfb964e392e6f3d9a83b112f38a3ebaae646e4b975b0672da6215748ac4b048d42c2053182efa4899d83421d08faf9c38805aeaf61ceae4286aff240f0d5e898dea3fe2219d72cbe124637d4348d0bd9381dd3ebc01691bf3228832341b3e392622ab9ef5efc02e1a7e46cd7395666e422f39660ca1e30114de031bbec77e0e1f5e0952ad0e0b9d4839cacc76f519287bea7a747b54fe2c05e3bd20d09320368fa829596bef9d8a1d87d93536bd2fff878e07f4c47f6216dbd626ad21fb2c37dbfacb196ae7a238f3bb5a9a74936be6043</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输文章入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
         <category>Python</category>
         <category>NetOps</category>
@@ -1316,27 +1340,29 @@
       </tags>
   </entry>
   <entry>
-    <title>python网络ping</title>
-    <url>/2021/06/10/python%E7%BD%91%E7%BB%9Cping/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="3046765c687cd639cc04a33b042386433785b2ec1798e3bfb6ceb74ad8371883">7aa1880daa6a0b7a09a81d7f2fbd57c9a2b0786f8fb263cd6e9bafce42d347a317a360f49b752a265415b08546814bad63cb474fa1599a1b1e738f7778f5147db4b17309e3782987ebf20eda8ca53600b8d571432aec430088c5362742318eef12cdc6cc4eec4103b9a17e4746bb246a7f921d76626cb3ca3d2f473c03470f25ef712e391963badfd470c6d27f5df5c9a6f383f4cfe7e658b5b3987b8547510c8655fb157a881a39ba91b2d5766517547bb626995dbad4d9522ef46bbc08f037e5550a3cfdb5c426c2681cfe9005357a9c6d54bd95dcbc50dac12de413e054ff925cad82869bfbf85e4a6f16aace4da3494f203035bb109edc6d769a2567be5a6e85eaba376dc2e098187acb38d06b48d160b87e287cb0ee2260c8897c84bb108c7964bfff2cbe5cf82b65f0b97cfa7ec8a7f8aca99eb6fcc9dfa5fc70e81aed502c9a2ba800ae3ec173e77db7daf1d16908bf815e072105292f812dea54aa72d5a0b168e02b410d828ac215d97e7e6433b57744dd4bfbcd9af4cf0898369ff99b108d679782ef0ec02314f365f483f7c699f44ebf19d8bb1471e6f0668bafce946ebcb7b646d30ae8ae2c4004840b9066d8031acaf6009f647e6e2b89ad9f6001d9406e2387c908ebddfdb634f96301bf89ead896e41d17251c9e9267c6fd2bc98d4a8a7c201cb3d9006ee338b7b9fd3103e556a88e8160ce8491ab095eb8c7dac05753a313d831ece02598e533eaf2856b8861dfc43266b40984bcc7c3cd175879896a165b111abcd472e524ab98cf61302b123ab73f72b25651b5f0c54592241495da153769771f3f9b98667225cb6e790f8a3c0c9b943a479b512eab7dfe34f68c1fbef0d18f54a118d0a78851afa0dba2b04097dd13f05fa536a07deb53343ba6aa9dc9739233d31a911a72aebb04092df06fc6514303c7dc746b41ab5671ad8564d76efc0adfff543032252d86ecc07f313ade58586af17c7ca4d43e3a1b0f7538195c7d4dc725d5bf541a5d621d974527532a734ed5062397e43310438c1df7052487fb2eab5f7c65e3ecbc50fbc34536d88c52f0643634d9482e2e01e611ae153a29873a7d1bc6db935bebf8270c67fd362040f9c677caf33c2dbb36fa81bf6c4c0f9fa507e14701e50aa3656f45b13dc367cfce1f90134d7a7f4c69292f7b9af8c5ea0c7525fa335947447019fa80d690479e94217a42ebb131f551e530a1ae340765f1f3dff12ecaa59b6be2c4e486e23a35f05d21d81306c225bfc422969cccf81dc9512148c3b9370824b13d368d56f76eefa2f0529d430aa626ad1c0071a3ca697728bf6095e16d9c3fadabb07765eb00ff53b4d4c87898a62bd5fe358f519886c3c232369c75f66d5fd32e83b93d50e9ffe9ae0f00826abefc9a56723157af1270b4a9399f8bb64f11680267b445929cdbd5e7070060684c77864d533b051938632125583fd5b533ed13995227131ea26eff033a731b2a8b592b5036d273251711eea83828668db536a8bf439d9f149bad60fbd8d7e185b5b403266774ede0d79a7251f12d5a8653648fcca1512e0efab05edc6b4b165d69b09102a50174c5dd7c19fccf68d5ab5045aacc5e03c28dbccdf6f54114e95e07df73dc78952f00348c7f33dc6cabd4a29ab9272c96a93a5fe41550aeb8700397436e2680699f2995782cf41cfbbeaff5cb89936f3fcaddc61856ffea8348486a9b99e171e4aa6a61d8f4d3301ba935cc1120e3e02b070a5154a65ed345ff41473703b4f68f1f2657bf9a9138e415df6e4b72baf175f2054389654f06e5337232454ac317e60820501a716aec1cb2f06504c4dc0fea3d13db9eca06a246eb5f52dc5f999874f95abb3206408be6696ee307fa783a0be23ed7b4996e5c64e005e09cf549c4a590da921ef1adeb6b1977812b357f57da1074aadc118c89a19af3544bfa2d77541f574480468b4547dea3db756d7dff7f7fc3f631297e85c412ba0a294caf79049cffe1c81282a401c947b648366f3ebb594925a3b1f2051a8abc634a2d486bfe6802f2cb507f350c108ce401a3c4c67471c70148570163e2b1d7e030e9d787248ac40f6ffb42916c48d95181c61cae0d01ff251cbd3827d8894994015d949976d18dca959a4547018eebb824d557821b0515be816a8b6c97ba0b0187ec6cd1ccc3da85c5e9d25a95e516b890cf4eb3e52fa26d9c3448d2d723083b7acca50689330a17f3792241769cc48a8fa9f4e8cda6997e5e4b7df74aac560b2e98e01fee2706a74d55ae90040e2b0172305922d7ee5d886afe4c46db8de977c270cae92c7fd5b7e7acfd39974e56236d7af398d3944f12c375b39da6b39f53faaa47ab991c582ecb177b2734f06226ecbbb0316785941f212c8185b0f76a544f55bc48bcc6458be0378f1e730c129d6d6edd6fd51db7b0882ec20ed8777508cf80f9358c5ecdddc47308ffbe3f39994a26cc04812248ffd7b2980b7a119e238cb9cb363f32ffb06d825b6b735e1f078c07df30c464cadeea11274b32001fcca2500d507c15642295a12894faca3cd87d4c6a4dc0f25dab59f1a7458c1633c4b92e7a34ece2bee017324d3783d549bbfbb87aa7b6b80b3201d65d2112b38f7b75d594ea4811fb1f8b341bc9caa981e5b745924198d77a01011d579b6ed9ea4b47c1b3f22c52211f46a49b394d223ac87b115225613028933337922333453db1c2805641d2a823509aebf1a80dd9392a950543b6ad1bf62f6f1affacc7c770cd648e8b7475e65e93486b3213d587133543b6026f3b1547d3de6fffba260f3e0e19ab172d0c4fce7663c035d1e3e2e0e49a635b577804c9a6e6c3cf1c2513953f83ffe423a68d2ad1ade8c1bad282d099ac2675ce18847551730b023350c3df9bd7975e861ba528246cc1d9e0157fae14a18cb4023cb47c33ac0a2cce8f1f86b44d4b1fa4cb831d6885267942d6e7feff4099fb00863a934026bb9db6f3750cac1b4ca8f0d05c1090a189f9b47f1d98a072367bb9b462c61cfd387d38b4d6632c036003fb81dc8d85d0e58499fa261cc352ebf69f7f73c9a6391389ba612d83820c3ca5f5f08a2051c0a02657539fb707df1abcc22051140c4cae3bcf8a69e3fd55789baa59758121e6ad3597d379cfebf0a79863ac4a8c0c40e299acaeb231b63aea17268df9e8f43cd5a5bc9a0b395155e50b3d92b222c2b6cdd7249fc9c44c6bab9724d74fe520d82476a2ab20103d4f3e222e8d1a5ce8775bc3336783bfedbc59913ae722daf41ae03216536ed9c1ea337485ba85b62d27e5675f585b0f66cb0d124d6e068a14ed8dd5963ae8be1c590ad06e85df46a14a2683a99f3b3dd83fa46d64e3f42782a440aa1be54250354d711bdc6dd73f7b3b6accf80a5375f12b877d7cedb0dd0f26c1f77e7255e3f6f4c522e2609ca69fc658c07160ae9278296703ae03083375361d88f1692b8b2c4dc46c123db06c1ae1cd497125e0ed5bc242305b01b7aa267b6a1d4cacfc3693d3c46fb6b3717820e46fa2314d12390315b1f0fbd3876101af8689001bedd0314867b257831c1cab8ad6f6a28075cd22097820f89a2162736e465305d7c69ea676faeb8f4e1126e9f66782cbf530fd4988d32808f17b6a555107f3ac1e0ec0c6f6a93992ac4c31359e7c9fbafd84e75344fb2815b3eea1f462703fdd7796d3d2de32659676269a53a6e695bf1c673251dfd8c9eb19c9bfd69232fae2e4f401afb9d6c793a07fb0228103fe1c2299bcd7ce231f2ba9f66f4597bc9545802637d361207be88f8385434c5290a3193d95fc0dc556a215cab7b4edfd51f270e12e7d561a5c1a1ab5993aa0e15ac52d81f2678d5b6edc130f300d33640f7791561f0a3a23bed3845303e4a075d8d4be8e5249dc0b99c28ce13762aa9990a7483b561ba9a506a388c9b7cf26622531735e68cf66eae815dea1a7ec3765c2b762321094faef3f2fc01a4a86f3ddd938095b0bef4a6b59324370fcbd838b2aaea92b2196c3836b2d4d9ad78df90b040082f7033c525fc569f0a9378c55de5d5905d6bdd298f6b940b1357dcdbe894e43fc6466dd7ac287b841f72e8b784b842deb347ca96cf426e9b198173397e9363e22d42fd06a1729a8658c715925f9a15060cac9a15a5daccd2e08cbfd2e0ea0879140fdc6c4222b54b08f8e2d3a0330c0126faa457c87adc60b64a50d015fbd3d22298f5fce2d4d1eb0fcfb29631c4f7d2ff5f1a1916924bc9e0ff7477d23e97953da0a515a6008e6533175382900131f6e875b198f58b0864d88e8d22b7c46ba813285539f2660797df6d12ea513e1bc0bfbd9ba5dea176de0a17d2b0f44973e26db528e9bec3a8da744cb69a16ec90cfc187c7c0baa1e7811c1f46656749ac39c58ec38f963052e3b5cf0e8bef4f501a77f295c923c18ecd9163fdb78033dfc72f3b192633f42ee1099c58aaa3f2611102c79960f2be909bc696fe72905461f6f3043a72f80c5160bdcad0b341d8ca20fd77d13ff64eab52d7378393db40ebaca7e115e7507a17714c2f2932260b7209850f130bddafd96a7ff77cc51533ac834a06949f9aa6116d0a4cd4627b33e546fe414ba0b0881ac3259445f7d47b8b7ade37ca6f2b8aa413abb69be4c9aa5b48d230c6441a78fccc011691533f66ca6957a354564119a89c88015478ca2799c0b1b7500517c447d34287702220264495b92c5df175cbfa743a532cdef93e96249dd0dabcfb964e392e6f3d9a83b112f38a3ebaae646e4b975b0672da6215748ac4b048d42c2053182efa4899d83421d08faf9c38805aeaf61ceae4286aff240f0d5e898dea3fe2219d72cbe124637d4348d0bd9381dd3ebc01691bf3228832341b3e392622ab9ef5efc02e1a7e46cd7395666e422f39660ca1e30114de031bbec77e0e1f5e0952ad0e0b9d4839cacc76f519287bea7a747b54fe2c05e3bd20d09320368fa829596bef9d8a1d87d93536bd2fff878e07f4c47f6216dbd626ad21fb2c37dbfacb196ae7a238f3bb5a9a74936be6043</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输文章入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    <title>思科HSRP的选举机制</title>
+    <url>/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/</url>
+    <content><![CDATA[<p>思科HSRP的选举机制<br>听其言 (listening) 观其行 (是否是有hello包) 没有就开始自己来 (speaking)</p>
+<span id="more"></span>
+
+<h2 id="HSRP状态"><a href="#HSRP状态" class="headerlink" title="HSRP状态"></a>HSRP状态</h2><p><img src="/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/hsrp.jpg" alt="hsrp状态转换"></p>
+<h2 id="HSRP选举的机制"><a href="#HSRP选举的机制" class="headerlink" title="HSRP选举的机制"></a>HSRP选举的机制</h2><ul>
+<li>2台路由器，前后开机 如何选举？</li>
+<li>1台路由器开机，后面有1台路由器启动加入,如何选举？</li>
+</ul>
+<h2 id="HSRP的切换时间"><a href="#HSRP的切换时间" class="headerlink" title="HSRP的切换时间"></a>HSRP的切换时间</h2><h3 id="主路由器down掉，多久可以切换到备份路由器？"><a href="#主路由器down掉，多久可以切换到备份路由器？" class="headerlink" title="主路由器down掉，多久可以切换到备份路由器？"></a>主路由器down掉，多久可以切换到备份路由器？</h3><p><code>10s</code></p>
+<h3 id="主路由器Up后，多久可以再次切换成active"><a href="#主路由器Up后，多久可以再次切换成active" class="headerlink" title="主路由器Up后，多久可以再次切换成active?"></a>主路由器Up后，多久可以再次切换成active?</h3><p><code>取决于preempt时间</code></p>
+<h2 id="HSRP抢占延迟"><a href="#HSRP抢占延迟" class="headerlink" title="HSRP抢占延迟"></a>HSRP抢占延迟</h2><p>当新Active的路由器需要一点时间来启动慢速 WAN 接口并生成路由表时，这有时会很有帮助。<br>但是，默认情况下，HSRP 抢占将使路由器在启动 LAN 接口的几秒钟内成为 LAN 的Active默认网关。</p>
+<h3 id="配置命令"><a href="#配置命令" class="headerlink" title="配置命令"></a>配置命令</h3><p><code>standby 20 preempt delay minimum 30 reload 90</code></p>
+<h3 id="查看命令"><a href="#查看命令" class="headerlink" title="查看命令"></a>查看命令</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C4431-01#sh standby delay </span><br><span class="line">Interface          Minimum Reload </span><br><span class="line">Gi0/0/0            1       5      </span><br><span class="line">Gi0/0/1            1       5      </span><br><span class="line">Gi0/0/2            1       5     </span><br></pre></td></tr></table></figure>
+
+
+<h2 id="HSRP计时器"><a href="#HSRP计时器" class="headerlink" title="HSRP计时器"></a>HSRP计时器</h2><p>Active Router用Hello计时器 3s<br>Standby Router用 Standby timer计时器  10s</p>
+]]></content>
       <categories>
-        <category>Python</category>
-        <category>NetOps</category>
+        <category>Network</category>
+        <category>Switch</category>
       </categories>
-      <tags>
-        <tag>Python</tag>
-      </tags>
   </entry>
   <entry>
     <title>思科WLC命令</title>
@@ -1363,49 +1389,6 @@
       </categories>
       <tags>
         <tag>Wireless</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>思科HSRP的选举机制</title>
-    <url>/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/</url>
-    <content><![CDATA[<p>思科HSRP的选举机制<br>听其言 (listening) 观其行 (是否是有hello包) 没有就开始自己来 (speaking)</p>
-<span id="more"></span>
-
-<h2 id="HSRP状态"><a href="#HSRP状态" class="headerlink" title="HSRP状态"></a>HSRP状态</h2><p><img src="/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/hsrp.jpg" alt="hsrp状态转换"></p>
-<h2 id="HSRP选举的机制"><a href="#HSRP选举的机制" class="headerlink" title="HSRP选举的机制"></a>HSRP选举的机制</h2><ul>
-<li>2台路由器，前后开机 如何选举？</li>
-<li>1台路由器开机，后面有1台路由器启动加入,如何选举？</li>
-</ul>
-<h2 id="HSRP的切换时间"><a href="#HSRP的切换时间" class="headerlink" title="HSRP的切换时间"></a>HSRP的切换时间</h2><h3 id="主路由器down掉，多久可以切换到备份路由器？"><a href="#主路由器down掉，多久可以切换到备份路由器？" class="headerlink" title="主路由器down掉，多久可以切换到备份路由器？"></a>主路由器down掉，多久可以切换到备份路由器？</h3><p><code>10s</code></p>
-<h3 id="主路由器Up后，多久可以再次切换成active"><a href="#主路由器Up后，多久可以再次切换成active" class="headerlink" title="主路由器Up后，多久可以再次切换成active?"></a>主路由器Up后，多久可以再次切换成active?</h3><p><code>取决于preempt时间</code></p>
-<h2 id="HSRP抢占延迟"><a href="#HSRP抢占延迟" class="headerlink" title="HSRP抢占延迟"></a>HSRP抢占延迟</h2><p>当新Active的路由器需要一点时间来启动慢速 WAN 接口并生成路由表时，这有时会很有帮助。<br>但是，默认情况下，HSRP 抢占将使路由器在启动 LAN 接口的几秒钟内成为 LAN 的Active默认网关。</p>
-<h3 id="配置命令"><a href="#配置命令" class="headerlink" title="配置命令"></a>配置命令</h3><p><code>standby 20 preempt delay minimum 30 reload 90</code></p>
-<h3 id="查看命令"><a href="#查看命令" class="headerlink" title="查看命令"></a>查看命令</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C4431-01#sh standby delay </span><br><span class="line">Interface          Minimum Reload </span><br><span class="line">Gi0/0/0            1       5      </span><br><span class="line">Gi0/0/1            1       5      </span><br><span class="line">Gi0/0/2            1       5     </span><br></pre></td></tr></table></figure>
-
-
-<h2 id="HSRP计时器"><a href="#HSRP计时器" class="headerlink" title="HSRP计时器"></a>HSRP计时器</h2><p>Active Router用Hello计时器 3s<br>Standby Router用 Standby timer计时器  10s</p>
-]]></content>
-      <categories>
-        <category>Network</category>
-        <category>Switch</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>思科交换机stack和VSS</title>
-    <url>/2021/06/01/%E6%80%9D%E7%A7%91%E4%BA%A4%E6%8D%A2%E6%9C%BAstack%E5%92%8CVSS/</url>
-    <content><![CDATA[<p>思科交换机stack和VSS</p>
-<span id="more"></span>
-<h2 id="配置domain"><a href="#配置domain" class="headerlink" title="配置domain:"></a>配置domain:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#conf t</span><br><span class="line">9500-A(config)#stackwise-virtual</span><br><span class="line">9500-A(config-stackwise-virtual)#domain 1 </span><br><span class="line">9500-A(config-stackwise-virtual)#exit</span><br></pre></td></tr></table></figure>
-<h2 id="配置virtual-link"><a href="#配置virtual-link" class="headerlink" title="配置virtual-link:"></a>配置virtual-link:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#inter ran ten 1/0/1, ten 1/0/2</span><br><span class="line">9500-A(config-if-range)#stackwise-virtual link 1 </span><br></pre></td></tr></table></figure>
-<h2 id="配置-dual-detection-link"><a href="#配置-dual-detection-link" class="headerlink" title="配置 dual-detection link"></a>配置 dual-detection link</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#int te1/0/3</span><br><span class="line">9500-A(config-if)#stackwise-virtual dual-active-detection</span><br></pre></td></tr></table></figure>
-
-<h2 id="配置优先级"><a href="#配置优先级" class="headerlink" title="配置优先级"></a>配置优先级</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#switch 1 priority 15</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Network</category>
-        <category>Switch</category>
-      </categories>
-      <tags>
-        <tag>Switch</tag>
       </tags>
   </entry>
   <entry>
@@ -1438,6 +1421,24 @@
       </categories>
       <tags>
         <tag>Wireless</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>思科交换机stack和VSS</title>
+    <url>/2021/06/01/%E6%80%9D%E7%A7%91%E4%BA%A4%E6%8D%A2%E6%9C%BAstack%E5%92%8CVSS/</url>
+    <content><![CDATA[<p>思科交换机stack和VSS</p>
+<span id="more"></span>
+<h2 id="配置domain"><a href="#配置domain" class="headerlink" title="配置domain:"></a>配置domain:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#conf t</span><br><span class="line">9500-A(config)#stackwise-virtual</span><br><span class="line">9500-A(config-stackwise-virtual)#domain 1 </span><br><span class="line">9500-A(config-stackwise-virtual)#exit</span><br></pre></td></tr></table></figure>
+<h2 id="配置virtual-link"><a href="#配置virtual-link" class="headerlink" title="配置virtual-link:"></a>配置virtual-link:</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#inter ran ten 1/0/1, ten 1/0/2</span><br><span class="line">9500-A(config-if-range)#stackwise-virtual link 1 </span><br></pre></td></tr></table></figure>
+<h2 id="配置-dual-detection-link"><a href="#配置-dual-detection-link" class="headerlink" title="配置 dual-detection link"></a>配置 dual-detection link</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A(config)#int te1/0/3</span><br><span class="line">9500-A(config-if)#stackwise-virtual dual-active-detection</span><br></pre></td></tr></table></figure>
+
+<h2 id="配置优先级"><a href="#配置优先级" class="headerlink" title="配置优先级"></a>配置优先级</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">9500-A#switch 1 priority 15</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Network</category>
+        <category>Switch</category>
+      </categories>
+      <tags>
+        <tag>Switch</tag>
       </tags>
   </entry>
 </search>
