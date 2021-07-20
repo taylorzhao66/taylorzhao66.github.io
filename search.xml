@@ -1,41 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>C++历史 1985年 丹麦</title>
-    <url>/2021/06/11/C++/</url>
-    <content><![CDATA[<h2 id="C-历史-1985年-丹麦"><a href="#C-历史-1985年-丹麦" class="headerlink" title="C++历史 1985年 丹麦"></a>C++历史 1985年 丹麦</h2><span id="more"></span>
-
-
-<p><strong>Bjarne Stroustrup</strong> 出生于丹麦的奥胡斯。他家是工人阶级，他上当地学校。</p>
-<p>他出席了奥胡斯大学1969-1975，并用有刻度的硕士学位在数学和计算机科学。他的兴趣集中在微程序设计和机器架构上。他从其发明者克里斯汀·尼加德( Kristen Nygaard)那里学习了面向对象编程的基础，后者经常访问奥尔胡斯。</p>
-<p>1979 年，他在剑桥大学获得计算机科学博士学位，在那里他受到David Wheeler 的指导。他的论文涉及分布式计算机系统中的通信。</p>
-<p>职业生涯</p>
-<p>1979 年，Stroustrup 在美国新泽西州默里希尔的贝尔实验室计算机科学研究中心担任技术人员，开始了他的职业生涯。在那里，他开始了 C++ 和编程技术方面的工作。从创建到 2002 年底，Stroustrup 一直是AT&amp;T 贝尔实验室大规模编程研究部门的负责人。1993 年，他成为贝尔实验室研究员，1996 年成为 AT&amp;T 研究员。</p>
-<p>从 2002 年到 2014 年，Stroustrup 是德克萨斯 A&amp;M 大学工程学院计算机科学教授。 2011年被评为大学特聘教授。</p>
-<p>截至 2014 年 1 月，Stroustrup 是纽约市摩根士丹利技术部门的技术研究员和董事总经理，也是哥伦比亚大学计算机科学的客座教授</p>
-<p>1979 年，丹麦计算机科学家Bjarne Stroustrup开始研究“C with Classes》，C++ 的前身。 创建一门新语言的动机源于 Stroustrup 为他的博士论文编程的经验。Stroustrup 发现Simula具有对大型软件开发非常有帮助的特性，但该语言是实际使用太慢，而BCPL速度快但太低级，不适合大型软件开发。当 Stroustrup 开始在AT&amp;T 贝尔实验室工作时，他在分析UNIX 内核的分布式计算方面遇到了问题。记得他的博士学位经验，Stroustrup 着手增强C语言类似模拟器的功能。选择 C 是因为它具有通用性、快速、便携和广泛使用的特点。除了 C 和 Simula 的影响，其他语言也影响了这种新语言，包括ALGOL 68、Ada、CLU和ML。</p>
-<p>最初，Stroustrup 的“C with Classes”为 C 编译器 Cpre 添加了特性，包括类、派生类、强类型、内联和默认参数。</p>
-<p>1982 年，Stroustrup 开始开发带有类的 C 的继承者，在经历了其他几个名称之后，他将其命名为“C++”（++即C 中的增量运算符）。添加了新功能，包括虚函数、函数名称和运算符重载、引用、常量、类型安全的自由存储内存分配（新建/删除）、改进的类型检查和带有两个正斜杠 ( //) 的BCPL 样式的单行注释. 此外，Stroustrup 为 C++ 开发了一个新的独立编译器Cfront。</p>
-<p>1984 年，Stroustrup 实现了第一个流输入/输出库。Doug McIlroy [1]（他之前建议使用Unix 管道）提出了提供输出操作符而不是命名输出函数的想法。</p>
-<p><strong>1985 年，第一版The C++ Programming Language发布，成为该语言的权威参考，因为当时还没有正式的标准。 C++的第一个商业实现于同年10月发布。</strong></p>
-<p>1989 年，C++ 2.0 发布，随后在 1991 年更新了The C++ Programming Language 的第二版。2.0 中的新特性包括多重继承、抽象类、静态成员函数、const 成员函数和受保护成员。1990 年，The Annotated C++ Reference Manual出版。这项工作成为未来标准的基础。后来添加的功能包括模板、异常、名称空间、新的强制转换和布尔类型。</p>
-<p>2015 年在巴黎举行的关于 C++11 特性的测验<br>1998 年，C++98 发布，标准化了语言，2003 年发布了一个小更新（C++03）。</p>
-<p>在 C++98 之后，C++ 发展相对缓慢，直到 2011 年，C++11标准发布，增加了许多新特性，进一步扩大了标准库，并为 C++ 程序员提供了更多便利。在2014 年 12 月发布C++14 小更新之后，C++17中引入了各种新增功能。在 2020 年 2 月定稿后，[22] C++20 标准草案于 2020 年 9 月 4 日获得批准，并于 2020 年 12 月 15 日正式发布。</p>
-<p>2018 年 1 月 3 日，Stroustrup 被宣布为 2018 年查尔斯·斯塔克·德雷珀工程奖的获得者，“以概念化和开发 C++ 编程语言”。</p>
-<p>C 是面向过程的一门编程语言，C++ 可以很好地进行面向对象的程序设计。C++ 虽然主要是以 C 的基础发展起来的一门新语言，但它不是 C 的替代品，它们是兄弟关系。面向对象和面向过程不是矛盾的，而是各有用途、互为补充的。</p>
-<p>C++ 对 C 的增强，表现在六个方面：</p>
-<p>增强了类型检查机制<br>增加了面向对象的机制<br>增加了泛型编程的机制（template）<br>增加了异常处理<br>增加了重载的机制<br>增加了标准模板库（STL）</p>
-<p>链接：<a href="https://www.jianshu.com/p/2522b07219ae">https://www.jianshu.com/p/2522b07219ae</a></p>
-]]></content>
-      <categories>
-        <category>Java</category>
-        <category>history</category>
-      </categories>
-      <tags>
-        <tag>history</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>C语言发展史 1972年</title>
     <url>/2021/06/11/C/</url>
     <content><![CDATA[<h2 id="C语言发展史-1972年"><a href="#C语言发展史-1972年" class="headerlink" title="C语言发展史 1972年"></a>C语言发展史 1972年</h2><span id="more"></span>
@@ -68,6 +33,41 @@
 <p>但是各个公司对C99的支持所表现出来的兴趣不同。当GCC和其它一些商业编译器支持C99的大部分特性的時候，微软和Borland却似乎对此不感兴趣。</p>
 <p>说明：GCC（GNU Compiler Collection，GNU编译器集合）是一套由GNU工程开发的支持多种编程语言的编译器。</p>
 <h2 id="C语言对其它语言的影响"><a href="#C语言对其它语言的影响" class="headerlink" title="C语言对其它语言的影响"></a>C语言对其它语言的影响</h2><p>很多编程语言都深受C语言的影响，比如C++（原先是C语言的一个扩展）、C#、Java、PHP、Javascript、Perl、LPC和UNIX的C Shell等。</p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>history</category>
+      </categories>
+      <tags>
+        <tag>history</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C++历史 1985年 丹麦</title>
+    <url>/2021/06/11/C++/</url>
+    <content><![CDATA[<h2 id="C-历史-1985年-丹麦"><a href="#C-历史-1985年-丹麦" class="headerlink" title="C++历史 1985年 丹麦"></a>C++历史 1985年 丹麦</h2><span id="more"></span>
+
+
+<p><strong>Bjarne Stroustrup</strong> 出生于丹麦的奥胡斯。他家是工人阶级，他上当地学校。</p>
+<p>他出席了奥胡斯大学1969-1975，并用有刻度的硕士学位在数学和计算机科学。他的兴趣集中在微程序设计和机器架构上。他从其发明者克里斯汀·尼加德( Kristen Nygaard)那里学习了面向对象编程的基础，后者经常访问奥尔胡斯。</p>
+<p>1979 年，他在剑桥大学获得计算机科学博士学位，在那里他受到David Wheeler 的指导。他的论文涉及分布式计算机系统中的通信。</p>
+<p>职业生涯</p>
+<p>1979 年，Stroustrup 在美国新泽西州默里希尔的贝尔实验室计算机科学研究中心担任技术人员，开始了他的职业生涯。在那里，他开始了 C++ 和编程技术方面的工作。从创建到 2002 年底，Stroustrup 一直是AT&amp;T 贝尔实验室大规模编程研究部门的负责人。1993 年，他成为贝尔实验室研究员，1996 年成为 AT&amp;T 研究员。</p>
+<p>从 2002 年到 2014 年，Stroustrup 是德克萨斯 A&amp;M 大学工程学院计算机科学教授。 2011年被评为大学特聘教授。</p>
+<p>截至 2014 年 1 月，Stroustrup 是纽约市摩根士丹利技术部门的技术研究员和董事总经理，也是哥伦比亚大学计算机科学的客座教授</p>
+<p>1979 年，丹麦计算机科学家Bjarne Stroustrup开始研究“C with Classes》，C++ 的前身。 创建一门新语言的动机源于 Stroustrup 为他的博士论文编程的经验。Stroustrup 发现Simula具有对大型软件开发非常有帮助的特性，但该语言是实际使用太慢，而BCPL速度快但太低级，不适合大型软件开发。当 Stroustrup 开始在AT&amp;T 贝尔实验室工作时，他在分析UNIX 内核的分布式计算方面遇到了问题。记得他的博士学位经验，Stroustrup 着手增强C语言类似模拟器的功能。选择 C 是因为它具有通用性、快速、便携和广泛使用的特点。除了 C 和 Simula 的影响，其他语言也影响了这种新语言，包括ALGOL 68、Ada、CLU和ML。</p>
+<p>最初，Stroustrup 的“C with Classes”为 C 编译器 Cpre 添加了特性，包括类、派生类、强类型、内联和默认参数。</p>
+<p>1982 年，Stroustrup 开始开发带有类的 C 的继承者，在经历了其他几个名称之后，他将其命名为“C++”（++即C 中的增量运算符）。添加了新功能，包括虚函数、函数名称和运算符重载、引用、常量、类型安全的自由存储内存分配（新建/删除）、改进的类型检查和带有两个正斜杠 ( //) 的BCPL 样式的单行注释. 此外，Stroustrup 为 C++ 开发了一个新的独立编译器Cfront。</p>
+<p>1984 年，Stroustrup 实现了第一个流输入/输出库。Doug McIlroy [1]（他之前建议使用Unix 管道）提出了提供输出操作符而不是命名输出函数的想法。</p>
+<p><strong>1985 年，第一版The C++ Programming Language发布，成为该语言的权威参考，因为当时还没有正式的标准。 C++的第一个商业实现于同年10月发布。</strong></p>
+<p>1989 年，C++ 2.0 发布，随后在 1991 年更新了The C++ Programming Language 的第二版。2.0 中的新特性包括多重继承、抽象类、静态成员函数、const 成员函数和受保护成员。1990 年，The Annotated C++ Reference Manual出版。这项工作成为未来标准的基础。后来添加的功能包括模板、异常、名称空间、新的强制转换和布尔类型。</p>
+<p>2015 年在巴黎举行的关于 C++11 特性的测验<br>1998 年，C++98 发布，标准化了语言，2003 年发布了一个小更新（C++03）。</p>
+<p>在 C++98 之后，C++ 发展相对缓慢，直到 2011 年，C++11标准发布，增加了许多新特性，进一步扩大了标准库，并为 C++ 程序员提供了更多便利。在2014 年 12 月发布C++14 小更新之后，C++17中引入了各种新增功能。在 2020 年 2 月定稿后，[22] C++20 标准草案于 2020 年 9 月 4 日获得批准，并于 2020 年 12 月 15 日正式发布。</p>
+<p>2018 年 1 月 3 日，Stroustrup 被宣布为 2018 年查尔斯·斯塔克·德雷珀工程奖的获得者，“以概念化和开发 C++ 编程语言”。</p>
+<p>C 是面向过程的一门编程语言，C++ 可以很好地进行面向对象的程序设计。C++ 虽然主要是以 C 的基础发展起来的一门新语言，但它不是 C 的替代品，它们是兄弟关系。面向对象和面向过程不是矛盾的，而是各有用途、互为补充的。</p>
+<p>C++ 对 C 的增强，表现在六个方面：</p>
+<p>增强了类型检查机制<br>增加了面向对象的机制<br>增加了泛型编程的机制（template）<br>增加了异常处理<br>增加了重载的机制<br>增加了标准模板库（STL）</p>
+<p>链接：<a href="https://www.jianshu.com/p/2522b07219ae">https://www.jianshu.com/p/2522b07219ae</a></p>
 ]]></content>
       <categories>
         <category>Java</category>
@@ -242,11 +242,11 @@
 </ol>
 <h4 id="命令："><a href="#命令：" class="headerlink" title="命令："></a>命令：</h4><p>Local 为ssh客户端一方<br>remote为ssh服务端一方</p>
 <p><code>ssh -L local_port:remote_address:remote_port username@server.com</code></p>
-<p>ssh -L 8888:localhost:1234 <a href="mailto:&#98;&#x6f;&#x62;&#64;&#115;&#x73;&#104;&#x2e;&#x79;&#x6f;&#x75;&#x72;&#111;&#102;&#x66;&#x69;&#x63;&#101;&#x2e;&#99;&#111;&#x6d;">&#98;&#x6f;&#x62;&#64;&#115;&#x73;&#104;&#x2e;&#x79;&#x6f;&#x75;&#x72;&#111;&#102;&#x66;&#x69;&#x63;&#101;&#x2e;&#99;&#111;&#x6d;</a><br>ssh -L 8888:192.168.1.111:1234 <a href="mailto:&#x62;&#x6f;&#98;&#64;&#115;&#x73;&#104;&#x2e;&#121;&#x6f;&#x75;&#x72;&#111;&#x66;&#x66;&#x69;&#x63;&#x65;&#x2e;&#x63;&#x6f;&#109;">&#x62;&#x6f;&#98;&#64;&#115;&#x73;&#104;&#x2e;&#121;&#x6f;&#x75;&#x72;&#111;&#x66;&#x66;&#x69;&#x63;&#x65;&#x2e;&#x63;&#x6f;&#109;</a></p>
+<p>ssh -L 8888:localhost:1234 <a href="mailto:&#98;&#111;&#98;&#x40;&#x73;&#115;&#x68;&#x2e;&#x79;&#111;&#117;&#114;&#111;&#102;&#102;&#105;&#99;&#x65;&#x2e;&#x63;&#111;&#109;">&#98;&#111;&#98;&#x40;&#x73;&#115;&#x68;&#x2e;&#x79;&#111;&#117;&#114;&#111;&#102;&#102;&#105;&#99;&#x65;&#x2e;&#x63;&#111;&#109;</a><br>ssh -L 8888:192.168.1.111:1234 <a href="mailto:&#98;&#x6f;&#x62;&#64;&#115;&#115;&#104;&#46;&#x79;&#111;&#117;&#114;&#111;&#102;&#102;&#105;&#99;&#x65;&#x2e;&#x63;&#x6f;&#x6d;">&#98;&#x6f;&#x62;&#64;&#115;&#115;&#104;&#46;&#x79;&#111;&#117;&#114;&#111;&#102;&#102;&#105;&#99;&#x65;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
 <h3 id="远程转发"><a href="#远程转发" class="headerlink" title="远程转发"></a>远程转发</h3><h4 id="应用场景：-1"><a href="#应用场景：-1" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-1"><a href="#命令：-1" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -R remote_port:local_address:local_port username@server.com</code></p>
-<p>ssh -R 8888:localhost:1234 <a href="mailto:&#98;&#111;&#x62;&#64;&#115;&#115;&#x68;&#46;&#121;&#111;&#x75;&#114;&#111;&#x66;&#102;&#105;&#99;&#101;&#46;&#99;&#x6f;&#109;">&#98;&#111;&#x62;&#64;&#115;&#115;&#x68;&#46;&#121;&#111;&#x75;&#114;&#111;&#x66;&#102;&#105;&#99;&#101;&#46;&#99;&#x6f;&#109;</a></p>
+<p>ssh -R 8888:localhost:1234 <a href="mailto:&#x62;&#111;&#x62;&#x40;&#115;&#x73;&#x68;&#x2e;&#121;&#x6f;&#117;&#114;&#111;&#x66;&#102;&#x69;&#99;&#101;&#x2e;&#x63;&#111;&#109;">&#x62;&#111;&#x62;&#x40;&#115;&#x73;&#x68;&#x2e;&#121;&#x6f;&#117;&#114;&#111;&#x66;&#102;&#x69;&#99;&#101;&#x2e;&#x63;&#111;&#109;</a></p>
 <h3 id="动态转发"><a href="#动态转发" class="headerlink" title="动态转发"></a>动态转发</h3><h4 id="应用场景：-2"><a href="#应用场景：-2" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-2"><a href="#命令：-2" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -D local_port username@server.com</code></p>
-<p>ssh -D 8888 <a href="mailto:&#98;&#x6f;&#x62;&#64;&#x73;&#x73;&#x68;&#46;&#x79;&#x6f;&#117;&#114;&#x68;&#111;&#109;&#101;&#46;&#99;&#x6f;&#x6d;">&#98;&#x6f;&#x62;&#64;&#x73;&#x73;&#x68;&#46;&#x79;&#x6f;&#117;&#114;&#x68;&#111;&#109;&#101;&#46;&#99;&#x6f;&#x6d;</a></p>
+<p>ssh -D 8888 <a href="mailto:&#98;&#x6f;&#98;&#64;&#115;&#115;&#104;&#x2e;&#x79;&#x6f;&#x75;&#x72;&#104;&#111;&#x6d;&#101;&#46;&#x63;&#111;&#x6d;">&#98;&#x6f;&#98;&#64;&#115;&#115;&#104;&#x2e;&#x79;&#x6f;&#x75;&#x72;&#104;&#111;&#x6d;&#101;&#46;&#x63;&#111;&#x6d;</a></p>
 <h3 id="参数介绍"><a href="#参数介绍" class="headerlink" title="参数介绍"></a>参数介绍</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">-N 告诉 SSH 客户端，这个连接不需要执行任何命令，也就是说不需要打开远程 shell，仅仅做端口转发；</span><br><span class="line">-f 告诉SSH客户端在后台运行，要关闭这个后台连接，就只有用 kill 命令去杀掉进程；</span><br><span class="line">-L 做本地映射端口</span><br><span class="line">-R 做远程映射端口</span><br><span class="line">-D 做动态端口映射</span><br><span class="line">-C 压缩数据传输</span><br></pre></td></tr></table></figure>
 
 <h2 id="如何关闭这个SSH隧道"><a href="#如何关闭这个SSH隧道" class="headerlink" title="如何关闭这个SSH隧道"></a>如何关闭这个SSH隧道</h2><p>方法1：<br>ps aux | grep 3306   找到pid<br>kill <pid>   kill pid</p>
@@ -400,6 +400,26 @@
       </tags>
   </entry>
   <entry>
+    <title>PHP的环境的基础配置</title>
+    <url>/2021/07/04/PHP%E7%9A%84%E7%8E%AF%E5%A2%83%E7%9A%84%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<p>PHP的环境的基础配置</p>
+<span id="more"></span>
+
+<h2 id="Apache配置文件"><a href="#Apache配置文件" class="headerlink" title="Apache配置文件"></a>Apache配置文件</h2><p>C:\server\apache\conf\httpd.conf</p>
+<h3 id="Apache加载载PHP"><a href="#Apache加载载PHP" class="headerlink" title="Apache加载载PHP"></a>Apache加载载PHP</h3><p><code>LoadModule php5 module C:/server/php5/php5apache2-2dl1</code></p>
+<h3 id="APache识别PHP文件代码"><a href="#APache识别PHP文件代码" class="headerlink" title="APache识别PHP文件代码"></a>APache识别PHP文件代码</h3><p><code>AddType application/x-httpd-php   .php</code></p>
+<h3 id="Apache加载PHP配置文件"><a href="#Apache加载PHP配置文件" class="headerlink" title="Apache加载PHP配置文件"></a>Apache加载PHP配置文件</h3><p><code>PHPIniDir &#39;C: /server/php5&#39;</code></p>
+<h3 id="测试Apache配置是否语法错误"><a href="#测试Apache配置是否语法错误" class="headerlink" title="测试Apache配置是否语法错误"></a>测试Apache配置是否语法错误</h3><p>C:\server\apache\bin&gt;httpd.exe -t<br>Syntax Ok</p>
+<h3 id="检查Apache加载了那些模块"><a href="#检查Apache加载了那些模块" class="headerlink" title="检查Apache加载了那些模块"></a>检查Apache加载了那些模块</h3><p>C:\server\apache\bin&gt;httpd.exe -m</p>
+]]></content>
+      <categories>
+        <category>PHP</category>
+      </categories>
+      <tags>
+        <tag>PHP</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>PHP和MySQL实现注册和登录</title>
     <url>/2021/07/09/PHP%E5%92%8CMySQL%E5%AE%9E%E7%8E%B0%E6%B3%A8%E5%86%8C%E5%92%8C%E7%99%BB%E5%BD%95/</url>
     <content><![CDATA[<p>PHP和MySQL实现注册和登录</p>
@@ -438,26 +458,6 @@
       </tags>
   </entry>
   <entry>
-    <title>PHP的环境的基础配置</title>
-    <url>/2021/07/04/PHP%E7%9A%84%E7%8E%AF%E5%A2%83%E7%9A%84%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<p>PHP的环境的基础配置</p>
-<span id="more"></span>
-
-<h2 id="Apache配置文件"><a href="#Apache配置文件" class="headerlink" title="Apache配置文件"></a>Apache配置文件</h2><p>C:\server\apache\conf\httpd.conf</p>
-<h3 id="Apache加载载PHP"><a href="#Apache加载载PHP" class="headerlink" title="Apache加载载PHP"></a>Apache加载载PHP</h3><p><code>LoadModule php5 module C:/server/php5/php5apache2-2dl1</code></p>
-<h3 id="APache识别PHP文件代码"><a href="#APache识别PHP文件代码" class="headerlink" title="APache识别PHP文件代码"></a>APache识别PHP文件代码</h3><p><code>AddType application/x-httpd-php   .php</code></p>
-<h3 id="Apache加载PHP配置文件"><a href="#Apache加载PHP配置文件" class="headerlink" title="Apache加载PHP配置文件"></a>Apache加载PHP配置文件</h3><p><code>PHPIniDir &#39;C: /server/php5&#39;</code></p>
-<h3 id="测试Apache配置是否语法错误"><a href="#测试Apache配置是否语法错误" class="headerlink" title="测试Apache配置是否语法错误"></a>测试Apache配置是否语法错误</h3><p>C:\server\apache\bin&gt;httpd.exe -t<br>Syntax Ok</p>
-<h3 id="检查Apache加载了那些模块"><a href="#检查Apache加载了那些模块" class="headerlink" title="检查Apache加载了那些模块"></a>检查Apache加载了那些模块</h3><p>C:\server\apache\bin&gt;httpd.exe -m</p>
-]]></content>
-      <categories>
-        <category>PHP</category>
-      </categories>
-      <tags>
-        <tag>PHP</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>PHP和MySQL条件查询</title>
     <url>/2021/07/09/PHP%E5%92%8CMySQL%E6%9D%A1%E4%BB%B6%E6%9F%A5%E8%AF%A2/</url>
     <content><![CDATA[<p>PHP和MySQL条件查询</p>
@@ -467,6 +467,34 @@
 
 <p>Set an always true condition in order to have constant <code>WHERE</code> clause.</p>
 <figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="variable">$sql</span> = <span class="string">&quot;SELECT * FROM myTable WHERE 1 = 1 &quot;</span></span><br><span class="line"><span class="keyword">if</span> (<span class="literal">true</span>) &#123;</span><br><span class="line">    <span class="variable">$sql</span> .= <span class="string">&quot; AND col1 LIKE &#x27;%val%&#x27; &quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>PHP</category>
+        <category>MySQL</category>
+      </categories>
+      <tags>
+        <tag>PHP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PHP获取MySQL数据的方法</title>
+    <url>/2021/07/09/PHP%E8%8E%B7%E5%8F%96MySQL%E6%95%B0%E6%8D%AE%E7%9A%84%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<p>PHP输出所有查询的数据</p>
+<span id="more"></span>
+
+
+
+<p>1.使用 PHP 函数的 <strong>mysqli_query()</strong> 及 <strong>SQL SELECT</strong> 命令来获取数据。</p>
+<p>2.然后通过 PHP 函数 <strong>mysqli_fetch_array()</strong> 来输出所有查询的数据。</p>
+<p>2.输出所有查询的数据</p>
+<p><strong>mysqli_fetch_array()</strong> 以索引数组和关联数组两种方式取查询的结果集</p>
+<p><strong>mysqli_fetch_assoc()</strong>,以关联数组两种方式取查询的结果集</p>
+<p><strong>Mysql_fetch_row()</strong> 以索引数组的方式取查询的结果集</p>
+<h2 id="mysqli-fetch-assoc-和-mysqli-fetch-array-的区别"><a href="#mysqli-fetch-assoc-和-mysqli-fetch-array-的区别" class="headerlink" title="mysqli_fetch_assoc() 和 mysqli_fetch_array() 的区别"></a>mysqli_fetch_assoc() 和 mysqli_fetch_array() 的区别</h2><p>mysqli_fetch_assoc 和 mysqli_fetch_array 的主要区别在于结果数据的输出格式。</p>
+<p>mysqli_fetch_assoc 返回关联数组中的数据，而 mysqli_fetch_array 返回数字数组和/或关联数组中的数据。</p>
+<h3 id="mysqli-fetch-assoc"><a href="#mysqli-fetch-assoc" class="headerlink" title="mysqli_fetch_assoc()"></a>mysqli_fetch_assoc()</h3><p>mysqli_fetch_assoc 以列名作为结果数组的键返回关联数组中的数据。这意味着我们可以使用列名作为数组的键来访问输出数组。</p>
+<p><a href="https://www.runoob.com/mysql/mysql-select-query.html">https://www.runoob.com/mysql/mysql-select-query.html</a></p>
+<p><a href="https://www.runoob.com/mysql/mysql-where-clause.html">https://www.runoob.com/mysql/mysql-where-clause.html</a></p>
 ]]></content>
       <categories>
         <category>PHP</category>
@@ -542,71 +570,6 @@
 ]]></content>
       <categories>
         <category>PHP</category>
-      </categories>
-      <tags>
-        <tag>PHP</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>PHP获取MySQL数据的方法</title>
-    <url>/2021/07/09/PHP%E8%8E%B7%E5%8F%96MySQL%E6%95%B0%E6%8D%AE%E7%9A%84%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<p>PHP输出所有查询的数据</p>
-<span id="more"></span>
-
-
-
-<p>1.使用 PHP 函数的 <strong>mysqli_query()</strong> 及 <strong>SQL SELECT</strong> 命令来获取数据。</p>
-<p>2.然后通过 PHP 函数 <strong>mysqli_fetch_array()</strong> 来输出所有查询的数据。</p>
-<p>2.输出所有查询的数据</p>
-<p><strong>mysqli_fetch_array()</strong> 以索引数组和关联数组两种方式取查询的结果集</p>
-<p><strong>mysqli_fetch_assoc()</strong>,以关联数组两种方式取查询的结果集</p>
-<p><strong>Mysql_fetch_row()</strong> 以索引数组的方式取查询的结果集</p>
-<h2 id="mysqli-fetch-assoc-和-mysqli-fetch-array-的区别"><a href="#mysqli-fetch-assoc-和-mysqli-fetch-array-的区别" class="headerlink" title="mysqli_fetch_assoc() 和 mysqli_fetch_array() 的区别"></a>mysqli_fetch_assoc() 和 mysqli_fetch_array() 的区别</h2><p>mysqli_fetch_assoc 和 mysqli_fetch_array 的主要区别在于结果数据的输出格式。</p>
-<p>mysqli_fetch_assoc 返回关联数组中的数据，而 mysqli_fetch_array 返回数字数组和/或关联数组中的数据。</p>
-<h3 id="mysqli-fetch-assoc"><a href="#mysqli-fetch-assoc" class="headerlink" title="mysqli_fetch_assoc()"></a>mysqli_fetch_assoc()</h3><p>mysqli_fetch_assoc 以列名作为结果数组的键返回关联数组中的数据。这意味着我们可以使用列名作为数组的键来访问输出数组。</p>
-<p><a href="https://www.runoob.com/mysql/mysql-select-query.html">https://www.runoob.com/mysql/mysql-select-query.html</a></p>
-<p><a href="https://www.runoob.com/mysql/mysql-where-clause.html">https://www.runoob.com/mysql/mysql-where-clause.html</a></p>
-]]></content>
-      <categories>
-        <category>PHP</category>
-        <category>MySQL</category>
-      </categories>
-      <tags>
-        <tag>PHP</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>PHP连接MySQL数据库</title>
-    <url>/2021/06/22/PHP%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
-    <content><![CDATA[<p>PHP 连接 MySQL</p>
-<span id="more"></span>
-
-<p>**php mysql_connect不支持是因为PHP7已经彻底不支持“mysql_connect”函数了，该函数属于废弃函数，需要使用MySQLi或PDO_MySQL扩展来替换该函数。 **</p>
-<h1 id="PHP-连接-MySQL"><a href="#PHP-连接-MySQL" class="headerlink" title="PHP 连接 MySQL"></a>PHP 连接 MySQL</h1><p>PHP 5 及以上版本建议使用以下方式连接 MySQL :</p>
-<ul>
-<li><strong>MySQLi extension</strong> (“i” 意为 improved)</li>
-<li><strong>PDO (PHP Data Objects)</strong></li>
-</ul>
-<p>在 PHP 早期版本中我们使用 MySQL 扩展。但该扩展在 2012 年开始不建议使用。</p>
-<p><a href="https://www.runoob.com/php/php-mysql-connect.html">https://www.runoob.com/php/php-mysql-connect.html</a></p>
-<h2 id="Mysql如何设置root密码"><a href="#Mysql如何设置root密码" class="headerlink" title="Mysql如何设置root密码"></a>Mysql如何设置root密码</h2><p>查看当前用户和密码：</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">User</span>,Password <span class="keyword">from</span> mysql.user;</span><br></pre></td></tr></table></figure>
-
-<p>修改密码：</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">set</span> password <span class="keyword">for</span> root<span class="variable">@localhost</span><span class="operator">=</span>password(<span class="string">&#x27;Tz123456&#x27;</span>);</span><br></pre></td></tr></table></figure>
-
-<p>查询是否修改：</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">User</span>,Password <span class="keyword">from</span> mysql.user;</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="PhpMyAdmin安装配置"><a href="#PhpMyAdmin安装配置" class="headerlink" title="PhpMyAdmin安装配置"></a>PhpMyAdmin安装配置</h2><p>配置文件config.inc.php</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/* Authentication type and info */</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;auth_type&#x27;] = &#x27;config&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;user&#x27;] = &#x27;root&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;password&#x27;] = &#x27;123456&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;extension&#x27;] = &#x27;mysqli&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;AllowNoPassword&#x27;] = true;</span><br><span class="line">$cfg[&#x27;Lang&#x27;] = &#x27;&#x27;;</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>PHP</category>
-        <category>MySQL</category>
       </categories>
       <tags>
         <tag>PHP</tag>
@@ -711,6 +674,43 @@
       </tags>
   </entry>
   <entry>
+    <title>PHP连接MySQL数据库</title>
+    <url>/2021/06/22/PHP%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
+    <content><![CDATA[<p>PHP 连接 MySQL</p>
+<span id="more"></span>
+
+<p>**php mysql_connect不支持是因为PHP7已经彻底不支持“mysql_connect”函数了，该函数属于废弃函数，需要使用MySQLi或PDO_MySQL扩展来替换该函数。 **</p>
+<h1 id="PHP-连接-MySQL"><a href="#PHP-连接-MySQL" class="headerlink" title="PHP 连接 MySQL"></a>PHP 连接 MySQL</h1><p>PHP 5 及以上版本建议使用以下方式连接 MySQL :</p>
+<ul>
+<li><strong>MySQLi extension</strong> (“i” 意为 improved)</li>
+<li><strong>PDO (PHP Data Objects)</strong></li>
+</ul>
+<p>在 PHP 早期版本中我们使用 MySQL 扩展。但该扩展在 2012 年开始不建议使用。</p>
+<p><a href="https://www.runoob.com/php/php-mysql-connect.html">https://www.runoob.com/php/php-mysql-connect.html</a></p>
+<h2 id="Mysql如何设置root密码"><a href="#Mysql如何设置root密码" class="headerlink" title="Mysql如何设置root密码"></a>Mysql如何设置root密码</h2><p>查看当前用户和密码：</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">User</span>,Password <span class="keyword">from</span> mysql.user;</span><br></pre></td></tr></table></figure>
+
+<p>修改密码：</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">set</span> password <span class="keyword">for</span> root<span class="variable">@localhost</span><span class="operator">=</span>password(<span class="string">&#x27;Tz123456&#x27;</span>);</span><br></pre></td></tr></table></figure>
+
+<p>查询是否修改：</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">User</span>,Password <span class="keyword">from</span> mysql.user;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="PhpMyAdmin安装配置"><a href="#PhpMyAdmin安装配置" class="headerlink" title="PhpMyAdmin安装配置"></a>PhpMyAdmin安装配置</h2><p>配置文件config.inc.php</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/* Authentication type and info */</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;auth_type&#x27;] = &#x27;config&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;user&#x27;] = &#x27;root&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;password&#x27;] = &#x27;123456&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;extension&#x27;] = &#x27;mysqli&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;AllowNoPassword&#x27;] = true;</span><br><span class="line">$cfg[&#x27;Lang&#x27;] = &#x27;&#x27;;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>PHP</category>
+        <category>MySQL</category>
+      </categories>
+      <tags>
+        <tag>PHP</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Python数据写入和读取到Excel</title>
     <url>/2021/07/13/Python%E6%95%B0%E6%8D%AE%E5%86%99%E5%85%A5%E5%92%8C%E8%AF%BB%E5%8F%96%E5%88%B0Excel/</url>
     <content><![CDATA[<p>python数据写入和读取到Excel</p>
@@ -726,7 +726,7 @@
 <li><p>pandas</p>
 </li>
 </ul>
-<h3 id="3-什么方式写入？-一列一列-还是一行一行？"><a href="#3-什么方式写入？-一列一列-还是一行一行？" class="headerlink" title="3.什么方式写入？ 一列一列 还是一行一行？"></a>3.什么方式写入？ 一列一列 还是一行一行？</h3><h2 id=""><a href="#" class="headerlink" title=""></a></h2><h2 id="xlwt"><a href="#xlwt" class="headerlink" title="xlwt"></a>xlwt</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> xlwt</span><br><span class="line"><span class="comment"># 创建一个workbook 设置编码</span></span><br><span class="line">workbook = xlwt.Workbook(encoding = <span class="string">&#x27;utf-8&#x27;</span>)</span><br><span class="line"><span class="comment"># 创建一个worksheet</span></span><br><span class="line">worksheet = workbook.add_sheet(<span class="string">&#x27;My Worksheet&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 写入excel</span></span><br><span class="line"><span class="comment"># 参数对应 行, 列, 值</span></span><br><span class="line">worksheet.write(<span class="number">1</span>,<span class="number">0</span>, label = <span class="string">&#x27;this is test&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 保存</span></span><br><span class="line">workbook.save(<span class="string">&#x27;Excel_test.xls&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<h3 id="3-什么方式写入？-一列一列-还是一行一行？"><a href="#3-什么方式写入？-一列一列-还是一行一行？" class="headerlink" title="3.什么方式写入？ 一列一列 还是一行一行？"></a>3.什么方式写入？ 一列一列 还是一行一行？</h3><h2 id="xlwt"><a href="#xlwt" class="headerlink" title="xlwt"></a>xlwt</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> xlwt</span><br><span class="line"><span class="comment"># 创建一个workbook 设置编码</span></span><br><span class="line">workbook = xlwt.Workbook(encoding = <span class="string">&#x27;utf-8&#x27;</span>)</span><br><span class="line"><span class="comment"># 创建一个worksheet</span></span><br><span class="line">worksheet = workbook.add_sheet(<span class="string">&#x27;My Worksheet&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 写入excel</span></span><br><span class="line"><span class="comment"># 参数对应 行, 列, 值</span></span><br><span class="line">worksheet.write(<span class="number">1</span>,<span class="number">0</span>, label = <span class="string">&#x27;this is test&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 保存</span></span><br><span class="line">workbook.save(<span class="string">&#x27;Excel_test.xls&#x27;</span>)</span><br></pre></td></tr></table></figure>
 
 
 
@@ -771,30 +771,25 @@
       </tags>
   </entry>
   <entry>
-    <title>Python的错误和异常处理</title>
-    <url>/2021/07/16/Python%E7%9A%84%E9%94%99%E8%AF%AF%E5%92%8C%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/</url>
-    <content><![CDATA[<p>Python的错误和异常处理</p>
-<span id="more"></span>
+    <title>Python办公自动化word转pdf</title>
+    <url>/2021/07/16/Python%E5%8A%9E%E5%85%AC%E8%87%AA%E5%8A%A8%E5%8C%96word%E8%BD%ACpdf/</url>
+    <content><![CDATA[<span id="more"></span>
 
 
 
-<h2 id="万能异常"><a href="#万能异常" class="headerlink" title="万能异常"></a><strong>万能异常</strong></h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    代码块</span><br><span class="line"><span class="keyword">except</span> Exception:</span><br><span class="line">    异常解决办法</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="多分支-万能异常"><a href="#多分支-万能异常" class="headerlink" title="多分支+万能异常"></a>多分支+万能异常</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    代码块</span><br><span class="line"><span class="keyword">except</span> 异常<span class="number">1</span>:</span><br><span class="line">    异常<span class="number">1</span>的解决办法</span><br><span class="line"><span class="keyword">except</span> 异常<span class="number">2</span>:</span><br><span class="line">    异常<span class="number">2</span>的解决办法</span><br><span class="line"><span class="keyword">except</span> Exception:</span><br><span class="line">    剩余的其他异常解决办法</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="netmiko的异常处理"><a href="#netmiko的异常处理" class="headerlink" title="netmiko的异常处理"></a>netmiko的异常处理</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> netmiko <span class="keyword">import</span> ConnectHandler</span><br><span class="line"><span class="keyword">from</span> netmiko.ssh_exception <span class="keyword">import</span> NetMikoAuthenticationException, NetMikoTimeoutException</span><br><span class="line"></span><br><span class="line">CONNECTION_PARAMS = &#123;<span class="string">&#x27;ip&#x27;</span>: <span class="string">&#x27;cloud-myt-qrator-6s254.yndx.net&#x27;</span>, <span class="string">&#x27;username&#x27;</span>: <span class="string">&#x27;netinfra-mon&#x27;</span>, <span class="string">&#x27;timeout&#x27;</span>: <span class="number">10</span>, <span class="string">&#x27;use_keys&#x27;</span>: <span class="literal">True</span>, <span class="string">&#x27;key_file&#x27;</span>: <span class="string">&#x27;/home/netinfra-mon/.ssh/id_rsa&#x27;</span>, <span class="string">&#x27;device_type&#x27;</span>: <span class="string">&#x27;juniper&#x27;</span>&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    <span class="keyword">with</span> ConnectHandler(**CONNECTION_PARAMS) <span class="keyword">as</span> ssh:</span><br><span class="line">        result = ssh.send_command(<span class="string">&#x27;sh ver&#x27;</span>)</span><br><span class="line">        <span class="built_in">print</span>(result)</span><br><span class="line"><span class="keyword">except</span> (NetMikoAuthenticationException, NetMikoTimeoutException):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;Failed to connect to &#123;&#125;&#x27;</span>.<span class="built_in">format</span>(CONNECTION_PARAMS[<span class="string">&#x27;ip&#x27;</span>]))</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-
-
-<p><a href="https://mrsnote.com/2020/01/03/netmiko-send_command-exceptions/">https://mrsnote.com/2020/01/03/netmiko-send_command-exceptions/</a></p>
-<p><a href="https://www.runoob.com/python/python-exceptions.html">https://www.runoob.com/python/python-exceptions.html</a></p>
+<p>使用的到的Python库/模块</p>
+<ul>
+<li><h2 id="pathlib"><a href="#pathlib" class="headerlink" title="pathlib"></a>pathlib</h2></li>
+<li><h2 id="comtypes"><a href="#comtypes" class="headerlink" title="comtypes"></a>comtypes</h2></li>
+<li><h2 id="glob"><a href="#glob" class="headerlink" title="glob"></a>glob</h2></li>
+</ul>
+<p>glob是python自己带的一个文件操作相关模块，用它可以查找符合自己目的的文件</p>
+<p>glob模块的主要方法就是glob,该方法返回  所有匹配的文件路径<strong>列表</strong>（list）该方法需要一个参数用来指定匹配的路径字符串</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> pathlib <span class="keyword">import</span> Path</span><br><span class="line"><span class="keyword">from</span> comtypes.client <span class="keyword">import</span> CreateObject</span><br><span class="line"></span><br><span class="line">src_folder = Path(<span class="string">&#x27;C:\\Bin\\word\\&#x27;</span>)</span><br><span class="line">des_folder = Path(<span class="string">&#x27;C:\\Bin\\pdf\\&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> <span class="keyword">not</span> des_folder.exists():</span><br><span class="line">    des_folder.mkdir(parents=<span class="literal">True</span>)</span><br><span class="line">file_list = <span class="built_in">list</span>(src_folder.glob(<span class="string">&#x27;*.docx&#x27;</span>))</span><br><span class="line"></span><br><span class="line">word = CreateObject(<span class="string">&#x27;Word.Application&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> word_path <span class="keyword">in</span> file_list:</span><br><span class="line">    pdf_path = des_folder / word_path.with_suffix(<span class="string">&#x27;.pdf&#x27;</span>).name</span><br><span class="line">    <span class="keyword">if</span> pdf_path.exists():</span><br><span class="line">        <span class="keyword">continue</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        doc = word.Documents.Open(<span class="built_in">str</span>(word_path))</span><br><span class="line">        doc.SaveAs(<span class="built_in">str</span>(pdf_path), FileFormat=<span class="number">17</span>)</span><br><span class="line"></span><br><span class="line">        doc.Close()</span><br><span class="line">word.Quit()</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>Python</category>
+        <category>办公自动化</category>
       </categories>
       <tags>
         <tag>Python</tag>
@@ -833,25 +828,35 @@
       </tags>
   </entry>
   <entry>
-    <title>Spring</title>
-    <url>/2021/06/11/Spring/</url>
-    <content><![CDATA[<p>Spring</p>
+    <title>Python文件路径处理</title>
+    <url>/2021/07/20/Python%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84%E5%A4%84%E7%90%86/</url>
+    <content><![CDATA[<p>Python文件路径处理</p>
 <span id="more"></span>
-<h2 id="Spring"><a href="#Spring" class="headerlink" title="Spring"></a>Spring</h2><h2 id="Spring-core"><a href="#Spring-core" class="headerlink" title="Spring core"></a>Spring core</h2><h2 id="spring-MVC"><a href="#spring-MVC" class="headerlink" title="spring MVC"></a>spring MVC</h2><p>spring MVC 使用 Spring core。首先，Spring core是一个 IOC 容器，它将依赖项注入到各种 bean 类（如您的控制器类、服务类等）中。因此，spring-mvc 利用 IOC 容器（spring-core）的强大功能来设置 Web 框架组件，例如<code>WebApplicationContext</code>解析/创建<code>ViewResolver</code>对象等。</p>
-<h2 id="spring-boot"><a href="#spring-boot" class="headerlink" title="spring boot"></a>spring boot</h2><p><a href="https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc">https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc</a></p>
-<p>spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。</p>
-<p>spring mvc 是只是spring 处理web层请求的一个模块。</p>
-<p>因此他们的关系大概就是这样：</p>
-<p>spring mvc  &lt; spring &lt;springboot。</p>
-<p>KFC套餐和KFC香辣汉堡的关系。。</p>
-<p><strong>Enterprise JavaBeans (EJB)</strong> </p>
+
+
+
+<h2 id="os-path模块"><a href="#os-path模块" class="headerlink" title="os.path模块"></a>os.path模块</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> os.path</span><br><span class="line"></span><br><span class="line">data_folder = os.path.join(<span class="string">&quot;source_data&quot;</span>, <span class="string">&quot;text_files&quot;</span>)</span><br><span class="line"></span><br><span class="line">file_to_open = os.path.join(data_folder, <span class="string">&quot;raw_data.txt&quot;</span>)</span><br><span class="line"></span><br><span class="line">f = <span class="built_in">open</span>(file_to_open)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(f.read())</span><br></pre></td></tr></table></figure>
+
+<p>此代码可以在各个平台顺利运行，但是反复使用os.path.join很啰嗦，重点是一点都不优雅！</p>
+<p>os.path有很多功能，但是比较繁琐，导致大家虽然都知道，但是就是懒得用。</p>
+<h2 id="更好解决方式：pathlib模块"><a href="#更好解决方式：pathlib模块" class="headerlink" title="更好解决方式：pathlib模块"></a>更好解决方式：pathlib模块</h2><p>python3.4+ 都自带标准库pathlib，所以你不需要再通过pip3 安装，这很cool</p>
+<p>你只需要这样</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> pathlib <span class="keyword">import</span> Path</span><br><span class="line"></span><br><span class="line">data_folder = Path(<span class="string">&quot;source_data/text_files/&quot;</span>)</span><br><span class="line"></span><br><span class="line">file_to_open = data_folder / <span class="string">&quot;raw_data.txt&quot;</span></span><br><span class="line"></span><br><span class="line">f = <span class="built_in">open</span>(file_to_open)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(f.read())</span><br></pre></td></tr></table></figure>
+
+<p>至此，你用一个非常优雅的方式解决了一个重大问题，但是你以为pathlib仅此而已了吗？</p>
+<p>你可用它读文件，而不需要open()</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> pathlib <span class="keyword">import</span> Path</span><br><span class="line"></span><br><span class="line">data_folder = Path(<span class="string">&quot;source_data/text_files/&quot;</span>)</span><br><span class="line"></span><br><span class="line">file_to_open = data_folder / <span class="string">&quot;raw_data.txt&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(file_to_open.read_text())</span><br></pre></td></tr></table></figure>
+
+<p>更cool的是，pathlib可以让你常用的文件及路径操作变得极为简单快捷</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> pathlib <span class="keyword">import</span> Path</span><br><span class="line"></span><br><span class="line">filename = Path(<span class="string">&quot;source_data/text_files/raw_data.txt&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(filename.name)</span><br><span class="line"><span class="comment"># prints &quot;raw_data.txt&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(filename.suffix)</span><br><span class="line"><span class="comment"># prints &quot;txt&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(filename.stem)</span><br><span class="line"><span class="comment"># prints &quot;raw_data&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> <span class="keyword">not</span> filename.exists():</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Oops, file doesn&#x27;t exist!&quot;</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Yay, the file exists!&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://zhuanlan.zhihu.com/p/33524938">https://zhuanlan.zhihu.com/p/33524938</a></p>
 ]]></content>
       <categories>
-        <category>Java</category>
-        <category>Spring</category>
+        <category>Python</category>
       </categories>
       <tags>
-        <tag>Spring</tag>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -883,6 +888,58 @@
       </categories>
       <tags>
         <tag>SDN</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python的错误和异常处理</title>
+    <url>/2021/07/16/Python%E7%9A%84%E9%94%99%E8%AF%AF%E5%92%8C%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/</url>
+    <content><![CDATA[<p>Python的错误和异常处理</p>
+<span id="more"></span>
+
+
+
+<h2 id="万能异常"><a href="#万能异常" class="headerlink" title="万能异常"></a><strong>万能异常</strong></h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    代码块</span><br><span class="line"><span class="keyword">except</span> Exception:</span><br><span class="line">    异常解决办法</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="多分支-万能异常"><a href="#多分支-万能异常" class="headerlink" title="多分支+万能异常"></a>多分支+万能异常</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    代码块</span><br><span class="line"><span class="keyword">except</span> 异常<span class="number">1</span>:</span><br><span class="line">    异常<span class="number">1</span>的解决办法</span><br><span class="line"><span class="keyword">except</span> 异常<span class="number">2</span>:</span><br><span class="line">    异常<span class="number">2</span>的解决办法</span><br><span class="line"><span class="keyword">except</span> Exception:</span><br><span class="line">    剩余的其他异常解决办法</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="netmiko的异常处理"><a href="#netmiko的异常处理" class="headerlink" title="netmiko的异常处理"></a>netmiko的异常处理</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> netmiko <span class="keyword">import</span> ConnectHandler</span><br><span class="line"><span class="keyword">from</span> netmiko.ssh_exception <span class="keyword">import</span> NetMikoAuthenticationException, NetMikoTimeoutException</span><br><span class="line"></span><br><span class="line">CONNECTION_PARAMS = &#123;<span class="string">&#x27;ip&#x27;</span>: <span class="string">&#x27;cloud-myt-qrator-6s254.yndx.net&#x27;</span>, <span class="string">&#x27;username&#x27;</span>: <span class="string">&#x27;netinfra-mon&#x27;</span>, <span class="string">&#x27;timeout&#x27;</span>: <span class="number">10</span>, <span class="string">&#x27;use_keys&#x27;</span>: <span class="literal">True</span>, <span class="string">&#x27;key_file&#x27;</span>: <span class="string">&#x27;/home/netinfra-mon/.ssh/id_rsa&#x27;</span>, <span class="string">&#x27;device_type&#x27;</span>: <span class="string">&#x27;juniper&#x27;</span>&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    <span class="keyword">with</span> ConnectHandler(**CONNECTION_PARAMS) <span class="keyword">as</span> ssh:</span><br><span class="line">        result = ssh.send_command(<span class="string">&#x27;sh ver&#x27;</span>)</span><br><span class="line">        <span class="built_in">print</span>(result)</span><br><span class="line"><span class="keyword">except</span> (NetMikoAuthenticationException, NetMikoTimeoutException):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;Failed to connect to &#123;&#125;&#x27;</span>.<span class="built_in">format</span>(CONNECTION_PARAMS[<span class="string">&#x27;ip&#x27;</span>]))</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<p><a href="https://mrsnote.com/2020/01/03/netmiko-send_command-exceptions/">https://mrsnote.com/2020/01/03/netmiko-send_command-exceptions/</a></p>
+<p><a href="https://www.runoob.com/python/python-exceptions.html">https://www.runoob.com/python/python-exceptions.html</a></p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>cisco ASA IPsec vpn交互过程</title>
+    <url>/2021/06/30/cisco-ASA-IPsec-vpn%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/</url>
+    <content><![CDATA[<p>cisco ASA IPsec vpn交互过程</p>
+<span id="more"></span>
+
+
+
+<p>MM_WAIT_MSG 状态可以很好地说明隧道未形成的原因</p>
+<p><img src="/2021/06/30/cisco-ASA-IPsec-vpn%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/IKE_Phase1_MSGs.jpg" alt="MM_WAIT_MSG"></p>
+<img src="C:\web\blog\source\_posts\cisco-ASA-IPsec-vpn交互过程\IKE_Phase1_MSGs.jpg" style="zoom:75%;" />
+
+<p><a href="https://www.tunnelsup.com/isakmp-ike-phase-1-status-messages/">https://www.tunnelsup.com/isakmp-ike-phase-1-status-messages/</a></p>
+]]></content>
+      <categories>
+        <category>Network</category>
+        <category>ASA</category>
+      </categories>
+      <tags>
+        <tag>ASA</tag>
       </tags>
   </entry>
   <entry>
@@ -967,25 +1024,48 @@
       </tags>
   </entry>
   <entry>
-    <title>cisco ASA IPsec vpn交互过程</title>
-    <url>/2021/06/30/cisco-ASA-IPsec-vpn%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/</url>
-    <content><![CDATA[<p>cisco ASA IPsec vpn交互过程</p>
+    <title>Spring</title>
+    <url>/2021/06/11/Spring/</url>
+    <content><![CDATA[<p>Spring</p>
 <span id="more"></span>
-
-
-
-<p>MM_WAIT_MSG 状态可以很好地说明隧道未形成的原因</p>
-<p><img src="/2021/06/30/cisco-ASA-IPsec-vpn%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/IKE_Phase1_MSGs.jpg" alt="MM_WAIT_MSG"></p>
-<img src="C:\web\blog\source\_posts\cisco-ASA-IPsec-vpn交互过程\IKE_Phase1_MSGs.jpg" style="zoom:75%;" />
-
-<p><a href="https://www.tunnelsup.com/isakmp-ike-phase-1-status-messages/">https://www.tunnelsup.com/isakmp-ike-phase-1-status-messages/</a></p>
+<h2 id="Spring"><a href="#Spring" class="headerlink" title="Spring"></a>Spring</h2><h2 id="Spring-core"><a href="#Spring-core" class="headerlink" title="Spring core"></a>Spring core</h2><h2 id="spring-MVC"><a href="#spring-MVC" class="headerlink" title="spring MVC"></a>spring MVC</h2><p>spring MVC 使用 Spring core。首先，Spring core是一个 IOC 容器，它将依赖项注入到各种 bean 类（如您的控制器类、服务类等）中。因此，spring-mvc 利用 IOC 容器（spring-core）的强大功能来设置 Web 框架组件，例如<code>WebApplicationContext</code>解析/创建<code>ViewResolver</code>对象等。</p>
+<h2 id="spring-boot"><a href="#spring-boot" class="headerlink" title="spring boot"></a>spring boot</h2><p><a href="https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc">https://www.javatpoint.com/spring-vs-spring-boot-vs-spring-mvc</a></p>
+<p>spring boot就是一个大框架里面包含了许许多多的东西，其中spring就是最核心的内容之一，当然就包含spring mvc。</p>
+<p>spring mvc 是只是spring 处理web层请求的一个模块。</p>
+<p>因此他们的关系大概就是这样：</p>
+<p>spring mvc  &lt; spring &lt;springboot。</p>
+<p>KFC套餐和KFC香辣汉堡的关系。。</p>
+<p><strong>Enterprise JavaBeans (EJB)</strong> </p>
 ]]></content>
       <categories>
-        <category>Network</category>
-        <category>ASA</category>
+        <category>Java</category>
+        <category>Spring</category>
       </categories>
       <tags>
-        <tag>ASA</tag>
+        <tag>Spring</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>linux网络命令</title>
+    <url>/2021/06/01/linux%E7%BD%91%E7%BB%9C%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<p>linux网络命令</p>
+<span id="more"></span>
+<h3 id="linux修改接口IP和DNS"><a href="#linux修改接口IP和DNS" class="headerlink" title="linux修改接口IP和DNS"></a>linux修改接口IP和DNS</h3><p>1.ifconfig 查看接口的名字</p>
+<p>2.找到路径<br><code>/etc/sysconfig/network-scripts/</code></p>
+<p>3.编辑接口名字<br><code>vi eth0</code></p>
+<p>4.修改DNS<br><code>/etc/resolv.conf</code></p>
+<h3 id="查看接口状态"><a href="#查看接口状态" class="headerlink" title="查看接口状态"></a>查看接口状态</h3><p><code>ip link show</code></p>
+<h3 id="查看IP地址配置："><a href="#查看IP地址配置：" class="headerlink" title="查看IP地址配置："></a>查看IP地址配置：</h3><p><code>ip address</code></p>
+<h3 id="查看路由和默认路由"><a href="#查看路由和默认路由" class="headerlink" title="查看路由和默认路由"></a>查看路由和默认路由</h3><p><code>ip route</code></p>
+<h3 id="其他查看路由命令"><a href="#其他查看路由命令" class="headerlink" title="其他查看路由命令"></a>其他查看路由命令</h3><p><code>route -n</code><br><code>netstat -rn</code> </p>
+<h2 id="nmcli命令"><a href="#nmcli命令" class="headerlink" title="nmcli命令"></a>nmcli命令</h2><p><code>nmcli device status</code><br><code>nmcli connection show</code></p>
+<h2 id="nmtui命令"><a href="#nmtui命令" class="headerlink" title="nmtui命令"></a>nmtui命令</h2><p><code>nmtui</code></p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -1034,29 +1114,6 @@
       </tags>
   </entry>
   <entry>
-    <title>linux网络命令</title>
-    <url>/2021/06/01/linux%E7%BD%91%E7%BB%9C%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<p>linux网络命令</p>
-<span id="more"></span>
-<h3 id="linux修改接口IP和DNS"><a href="#linux修改接口IP和DNS" class="headerlink" title="linux修改接口IP和DNS"></a>linux修改接口IP和DNS</h3><p>1.ifconfig 查看接口的名字</p>
-<p>2.找到路径<br><code>/etc/sysconfig/network-scripts/</code></p>
-<p>3.编辑接口名字<br><code>vi eth0</code></p>
-<p>4.修改DNS<br><code>/etc/resolv.conf</code></p>
-<h3 id="查看接口状态"><a href="#查看接口状态" class="headerlink" title="查看接口状态"></a>查看接口状态</h3><p><code>ip link show</code></p>
-<h3 id="查看IP地址配置："><a href="#查看IP地址配置：" class="headerlink" title="查看IP地址配置："></a>查看IP地址配置：</h3><p><code>ip address</code></p>
-<h3 id="查看路由和默认路由"><a href="#查看路由和默认路由" class="headerlink" title="查看路由和默认路由"></a>查看路由和默认路由</h3><p><code>ip route</code></p>
-<h3 id="其他查看路由命令"><a href="#其他查看路由命令" class="headerlink" title="其他查看路由命令"></a>其他查看路由命令</h3><p><code>route -n</code><br><code>netstat -rn</code> </p>
-<h2 id="nmcli命令"><a href="#nmcli命令" class="headerlink" title="nmcli命令"></a>nmcli命令</h2><p><code>nmcli device status</code><br><code>nmcli connection show</code></p>
-<h2 id="nmtui命令"><a href="#nmtui命令" class="headerlink" title="nmtui命令"></a>nmtui命令</h2><p><code>nmtui</code></p>
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>mysql发展史 一个男人的2个女儿名字命令数据库 1995年</title>
     <url>/2021/06/11/mysql/</url>
     <content><![CDATA[<h2 id="mysql发展史-一个男人的2个女儿名字命令数据库-1995年"><a href="#mysql发展史-一个男人的2个女儿名字命令数据库-1995年" class="headerlink" title="mysql发展史 一个男人的2个女儿名字命令数据库 1995年"></a>mysql发展史 一个男人的2个女儿名字命令数据库 1995年</h2><span id="more"></span>
@@ -1075,62 +1132,6 @@
       </categories>
       <tags>
         <tag>history</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>node.js 2009年诞生 C++开发V8</title>
-    <url>/2021/05/26/node.js%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
-    <content><![CDATA[<p>Node.js 就是运行在服务端的 JavaScript。 </p>
-<span id="more"></span>
-
-<p>Node.js 是一个基于Chrome JavaScript 运行时建立的一个平台。<br>Node.js是一个事件驱动I/O服务端JavaScript环境，基于Google的V8引擎，V8引擎执行Javascript的速度非常快，性能非常好</p>
-<p>查看node版本</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ node -v</span><br></pre></td></tr></table></figure>
-
-
-<p>Node.js 是2009的时候由大神 Ryan Dahl 开发的。Ryan 的本职工作是用 C++ 写服务器，后来他总结出一个经验，一个高性能服务器应该是满足“事件驱动，非阻塞 I/O”模型的。C++ 开发起来比较麻烦，于是 Ryan 就想找一种更高级的语言，以便快速开发。</p>
-<p>可以说有两点促成了 Nodejs 的诞生。首先第一点，Ryan 发现 JS 语言本身的特点就是事件驱动并且是非阻塞 I/O 的，跟他的思路正是绝配。第二点，Chrome 的 JS 引擎，也就是 V8 引擎是开源的，而且性能特别棒。于是 Ryan 就基于 V8 开发了 Node.js ，注意 Node.js 听名字好像是个 JS 库，其实不是的，Node.js 是 C++ 开发的</p>
-<p>先说几句 Node.js 在服务器端的发展。Node.js 的诞生带给人们的是个大大的惊喜，传统上 Web 开发者，前端用 JS 写，但是写服务器端代码的时候还必须用另外一种语言，类似 Ruby/Java/PHP 等。但是 Node.js 出现之后，JS 前后通吃了。如果去网上搜 Node.js 的资料，很多都是用 Node.js 去写服务器代码的。</p>
-<p>但是，Node.js 今天也成为了 Web 前端开发必不可少的基础设施。注意，Web 前端的 JS 代码最终还是运行在浏览器中的，所以运行的时候，或者说在产品环境下，不依赖于 Node.js 。但是，Node.js 诞生以后，前端大爆发，类似 React/Vuejs 这样的前端框架的开发环境变得非常强大和负责，Node.js 是这些开发环境运行的基础。</p>
-<p>这就是关于 Node.js 诞生，以及它如何从纯后端发展到前后通吃的故事。</p>
-<p><a href="https://zhuanlan.zhihu.com/p/47822968">https://zhuanlan.zhihu.com/p/47822968</a></p>
-]]></content>
-      <categories>
-        <category>node.js</category>
-      </categories>
-      <tags>
-        <tag>js</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>npm从零开始</title>
-    <url>/2021/05/26/npm%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
-    <content><![CDATA[<p>npm从零开始</p>
-<span id="more"></span>
-<p>接触到的第一个npm命令</p>
-<p><code>npm install hexo-cli -g</code></p>
-<h2 id="查看node版本"><a href="#查看node版本" class="headerlink" title="查看node版本"></a>查看node版本</h2><p>node -v </p>
-<h2 id="查看npm版本"><a href="#查看npm版本" class="headerlink" title="查看npm版本"></a>查看npm版本</h2><p>npm -v  </p>
-<h2 id="什么是npm-为什么要使用npm"><a href="#什么是npm-为什么要使用npm" class="headerlink" title="什么是npm? 为什么要使用npm?"></a>什么是npm? 为什么要使用npm?</h2><p>NPM是随同NodeJS的包管理工具</p>
-<h2 id="什么是CNPM？"><a href="#什么是CNPM？" class="headerlink" title="什么是CNPM？"></a>什么是CNPM？</h2><p>CNPM全称为”China Node Package Manager”，即中国的包管理镜器。其原理是用一个完整npmjs.org镜像，同步频率目前为10分钟一次以保证尽量与官方服务同步。</p>
-<p>国内的NPM软件源有很多，其中阿里云的软件源就是一个不错的选择，本片笔记就是使用阿里的软件源。</p>
-<p>npm 的包安装分为本地安装（local）、全局安装（global）两种</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli      # 本地安装</span><br><span class="line">npm install hexo-cli -g   # 全局安装</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="npm-install说明-常用简写"><a href="#npm-install说明-常用简写" class="headerlink" title="npm install说明 常用简写"></a>npm install说明 常用简写</h2><p>npm install=npm i。在git clone项目的时候，项目文件中并没有 node_modules文件夹，项目的依赖文件可能很大。直接执行，npm会根据package.json配置文件中的依赖配置下载安装。</p>
-<p>-global=-g，全局安装，安装后的包位于系统预设目录下<br>–save=-S，安装的包将写入package.json里面的dependencies，dependencies：生产环境需要依赖的库<br>–save-dev=-D，安装的包将写入packege.json里面的devDependencies，devdependencies：只有开发环境下需要依赖的库</p>
-<h2 id="查看安装信息"><a href="#查看安装信息" class="headerlink" title="查看安装信息"></a>查看安装信息</h2><p>使用以下命令来查看所有全局安装的模块：<br>$ npm list -g</p>
-<h2 id="卸载模块"><a href="#卸载模块" class="headerlink" title="卸载模块"></a>卸载模块</h2><p>可以使用以下命令来卸载 Node.js 模块。<br>$ npm uninstall hexo-cli</p>
-<h2 id="更新模块"><a href="#更新模块" class="headerlink" title="更新模块"></a>更新模块</h2><p>可以使用以下命令更新模块：<br>$ npm update hexo-cli</p>
-<h2 id="搜索模块"><a href="#搜索模块" class="headerlink" title="搜索模块"></a>搜索模块</h2><p>使用以下来搜索模块：<br>$ npm search hexo-cli</p>
-<h2 id="使用-package-json"><a href="#使用-package-json" class="headerlink" title="使用 package.json"></a>使用 package.json</h2><p>package.json 位于模块的目录下，用于定义包的属性。</p>
-]]></content>
-      <categories>
-        <category>node.js</category>
-      </categories>
-      <tags>
-        <tag>node.js</tag>
       </tags>
   </entry>
   <entry>
@@ -1162,31 +1163,28 @@
       </tags>
   </entry>
   <entry>
-    <title>Python的subprocess</title>
-    <url>/2021/06/11/python%E7%9A%84subprocess/</url>
-    <content><![CDATA[<p>subprocess最早在2.4版本引入,用来生成子进程，并可以通过管道连接他们的输入/输出/错误，以及获得他们的返回值。</p>
+    <title>node.js 2009年诞生 C++开发V8</title>
+    <url>/2021/05/26/node.js%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
+    <content><![CDATA[<p>Node.js 就是运行在服务端的 JavaScript。 </p>
 <span id="more"></span>
 
-<p>旧模块：<br>os.system() 执行操作系统的命令，将结果输出到屏幕，只返回命令执行状态(0：成功，非 0 ： 失败)<br>os.popen()执行操作系统的命令，会将结果保存在内存当中，可以用read()方法读取出来</p>
-<p><strong>subprocess.Popen</strong><br>所有subprocess类型都是对subprocess.Popen的封装,因此subprocess.Popen是根。<br>返回值: 需要借助于wait或者communicate 来实现返回值和状态码</p>
-<p><strong>subprocess.call</strong></p>
-<ol>
-<li>subprocess.call=Popen() + wait()</li>
-<li>返回值:返回命令的输出结果  和执行状态，0或者非0**</li>
-</ol>
-<p><strong>subprocess.run</strong></p>
-<ol>
-<li>subprocess.run= Popen() + communicate()</li>
-<li>返回值:返回命令的输出结果  和执行状态，0或者非0**</li>
-</ol>
-<p><a href="https://cloud.tencent.com/developer/article/1445388">https://cloud.tencent.com/developer/article/1445388</a></p>
+<p>Node.js 是一个基于Chrome JavaScript 运行时建立的一个平台。<br>Node.js是一个事件驱动I/O服务端JavaScript环境，基于Google的V8引擎，V8引擎执行Javascript的速度非常快，性能非常好</p>
+<p>查看node版本</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ node -v</span><br></pre></td></tr></table></figure>
+
+
+<p>Node.js 是2009的时候由大神 Ryan Dahl 开发的。Ryan 的本职工作是用 C++ 写服务器，后来他总结出一个经验，一个高性能服务器应该是满足“事件驱动，非阻塞 I/O”模型的。C++ 开发起来比较麻烦，于是 Ryan 就想找一种更高级的语言，以便快速开发。</p>
+<p>可以说有两点促成了 Nodejs 的诞生。首先第一点，Ryan 发现 JS 语言本身的特点就是事件驱动并且是非阻塞 I/O 的，跟他的思路正是绝配。第二点，Chrome 的 JS 引擎，也就是 V8 引擎是开源的，而且性能特别棒。于是 Ryan 就基于 V8 开发了 Node.js ，注意 Node.js 听名字好像是个 JS 库，其实不是的，Node.js 是 C++ 开发的</p>
+<p>先说几句 Node.js 在服务器端的发展。Node.js 的诞生带给人们的是个大大的惊喜，传统上 Web 开发者，前端用 JS 写，但是写服务器端代码的时候还必须用另外一种语言，类似 Ruby/Java/PHP 等。但是 Node.js 出现之后，JS 前后通吃了。如果去网上搜 Node.js 的资料，很多都是用 Node.js 去写服务器代码的。</p>
+<p>但是，Node.js 今天也成为了 Web 前端开发必不可少的基础设施。注意，Web 前端的 JS 代码最终还是运行在浏览器中的，所以运行的时候，或者说在产品环境下，不依赖于 Node.js 。但是，Node.js 诞生以后，前端大爆发，类似 React/Vuejs 这样的前端框架的开发环境变得非常强大和负责，Node.js 是这些开发环境运行的基础。</p>
+<p>这就是关于 Node.js 诞生，以及它如何从纯后端发展到前后通吃的故事。</p>
+<p><a href="https://zhuanlan.zhihu.com/p/47822968">https://zhuanlan.zhihu.com/p/47822968</a></p>
 ]]></content>
       <categories>
-        <category>Python</category>
-        <category>NetOps</category>
+        <category>node.js</category>
       </categories>
       <tags>
-        <tag>Python</tag>
+        <tag>js</tag>
       </tags>
   </entry>
   <entry>
@@ -1225,20 +1223,56 @@
       </tags>
   </entry>
   <entry>
-    <title>python网络ping</title>
-    <url>/2021/06/10/python%E7%BD%91%E7%BB%9Cping/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="3046765c687cd639cc04a33b042386433785b2ec1798e3bfb6ceb74ad8371883">7aa1880daa6a0b7a09a81d7f2fbd57c9a2b0786f8fb263cd6e9bafce42d347a317a360f49b752a265415b08546814bad63cb474fa1599a1b1e738f7778f5147db4b17309e3782987ebf20eda8ca53600b8d571432aec430088c5362742318eef12cdc6cc4eec4103b9a17e4746bb246a7f921d76626cb3ca3d2f473c03470f25ef712e391963badfd470c6d27f5df5c9a6f383f4cfe7e658b5b3987b8547510c8655fb157a881a39ba91b2d5766517547bb626995dbad4d9522ef46bbc08f037e5550a3cfdb5c426c2681cfe9005357a9c6d54bd95dcbc50dac12de413e054ff925cad82869bfbf85e4a6f16aace4da3494f203035bb109edc6d769a2567be5a6e85eaba376dc2e098187acb38d06b48d160b87e287cb0ee2260c8897c84bb108c7964bfff2cbe5cf82b65f0b97cfa7ec8a7f8aca99eb6fcc9dfa5fc70e81aed502c9a2ba800ae3ec173e77db7daf1d16908bf815e072105292f812dea54aa72d5a0b168e02b410d828ac215d97e7e6433b57744dd4bfbcd9af4cf0898369ff99b108d679782ef0ec02314f365f483f7c699f44ebf19d8bb1471e6f0668bafce946ebcb7b646d30ae8ae2c4004840b9066d8031acaf6009f647e6e2b89ad9f6001d9406e2387c908ebddfdb634f96301bf89ead896e41d17251c9e9267c6fd2bc98d4a8a7c201cb3d9006ee338b7b9fd3103e556a88e8160ce8491ab095eb8c7dac05753a313d831ece02598e533eaf2856b8861dfc43266b40984bcc7c3cd175879896a165b111abcd472e524ab98cf61302b123ab73f72b25651b5f0c54592241495da153769771f3f9b98667225cb6e790f8a3c0c9b943a479b512eab7dfe34f68c1fbef0d18f54a118d0a78851afa0dba2b04097dd13f05fa536a07deb53343ba6aa9dc9739233d31a911a72aebb04092df06fc6514303c7dc746b41ab5671ad8564d76efc0adfff543032252d86ecc07f313ade58586af17c7ca4d43e3a1b0f7538195c7d4dc725d5bf541a5d621d974527532a734ed5062397e43310438c1df7052487fb2eab5f7c65e3ecbc50fbc34536d88c52f0643634d9482e2e01e611ae153a29873a7d1bc6db935bebf8270c67fd362040f9c677caf33c2dbb36fa81bf6c4c0f9fa507e14701e50aa3656f45b13dc367cfce1f90134d7a7f4c69292f7b9af8c5ea0c7525fa335947447019fa80d690479e94217a42ebb131f551e530a1ae340765f1f3dff12ecaa59b6be2c4e486e23a35f05d21d81306c225bfc422969cccf81dc9512148c3b9370824b13d368d56f76eefa2f0529d430aa626ad1c0071a3ca697728bf6095e16d9c3fadabb07765eb00ff53b4d4c87898a62bd5fe358f519886c3c232369c75f66d5fd32e83b93d50e9ffe9ae0f00826abefc9a56723157af1270b4a9399f8bb64f11680267b445929cdbd5e7070060684c77864d533b051938632125583fd5b533ed13995227131ea26eff033a731b2a8b592b5036d273251711eea83828668db536a8bf439d9f149bad60fbd8d7e185b5b403266774ede0d79a7251f12d5a8653648fcca1512e0efab05edc6b4b165d69b09102a50174c5dd7c19fccf68d5ab5045aacc5e03c28dbccdf6f54114e95e07df73dc78952f00348c7f33dc6cabd4a29ab9272c96a93a5fe41550aeb8700397436e2680699f2995782cf41cfbbeaff5cb89936f3fcaddc61856ffea8348486a9b99e171e4aa6a61d8f4d3301ba935cc1120e3e02b070a5154a65ed345ff41473703b4f68f1f2657bf9a9138e415df6e4b72baf175f2054389654f06e5337232454ac317e60820501a716aec1cb2f06504c4dc0fea3d13db9eca06a246eb5f52dc5f999874f95abb3206408be6696ee307fa783a0be23ed7b4996e5c64e005e09cf549c4a590da921ef1adeb6b1977812b357f57da1074aadc118c89a19af3544bfa2d77541f574480468b4547dea3db756d7dff7f7fc3f631297e85c412ba0a294caf79049cffe1c81282a401c947b648366f3ebb594925a3b1f2051a8abc634a2d486bfe6802f2cb507f350c108ce401a3c4c67471c70148570163e2b1d7e030e9d787248ac40f6ffb42916c48d95181c61cae0d01ff251cbd3827d8894994015d949976d18dca959a4547018eebb824d557821b0515be816a8b6c97ba0b0187ec6cd1ccc3da85c5e9d25a95e516b890cf4eb3e52fa26d9c3448d2d723083b7acca50689330a17f3792241769cc48a8fa9f4e8cda6997e5e4b7df74aac560b2e98e01fee2706a74d55ae90040e2b0172305922d7ee5d886afe4c46db8de977c270cae92c7fd5b7e7acfd39974e56236d7af398d3944f12c375b39da6b39f53faaa47ab991c582ecb177b2734f06226ecbbb0316785941f212c8185b0f76a544f55bc48bcc6458be0378f1e730c129d6d6edd6fd51db7b0882ec20ed8777508cf80f9358c5ecdddc47308ffbe3f39994a26cc04812248ffd7b2980b7a119e238cb9cb363f32ffb06d825b6b735e1f078c07df30c464cadeea11274b32001fcca2500d507c15642295a12894faca3cd87d4c6a4dc0f25dab59f1a7458c1633c4b92e7a34ece2bee017324d3783d549bbfbb87aa7b6b80b3201d65d2112b38f7b75d594ea4811fb1f8b341bc9caa981e5b745924198d77a01011d579b6ed9ea4b47c1b3f22c52211f46a49b394d223ac87b115225613028933337922333453db1c2805641d2a823509aebf1a80dd9392a950543b6ad1bf62f6f1affacc7c770cd648e8b7475e65e93486b3213d587133543b6026f3b1547d3de6fffba260f3e0e19ab172d0c4fce7663c035d1e3e2e0e49a635b577804c9a6e6c3cf1c2513953f83ffe423a68d2ad1ade8c1bad282d099ac2675ce18847551730b023350c3df9bd7975e861ba528246cc1d9e0157fae14a18cb4023cb47c33ac0a2cce8f1f86b44d4b1fa4cb831d6885267942d6e7feff4099fb00863a934026bb9db6f3750cac1b4ca8f0d05c1090a189f9b47f1d98a072367bb9b462c61cfd387d38b4d6632c036003fb81dc8d85d0e58499fa261cc352ebf69f7f73c9a6391389ba612d83820c3ca5f5f08a2051c0a02657539fb707df1abcc22051140c4cae3bcf8a69e3fd55789baa59758121e6ad3597d379cfebf0a79863ac4a8c0c40e299acaeb231b63aea17268df9e8f43cd5a5bc9a0b395155e50b3d92b222c2b6cdd7249fc9c44c6bab9724d74fe520d82476a2ab20103d4f3e222e8d1a5ce8775bc3336783bfedbc59913ae722daf41ae03216536ed9c1ea337485ba85b62d27e5675f585b0f66cb0d124d6e068a14ed8dd5963ae8be1c590ad06e85df46a14a2683a99f3b3dd83fa46d64e3f42782a440aa1be54250354d711bdc6dd73f7b3b6accf80a5375f12b877d7cedb0dd0f26c1f77e7255e3f6f4c522e2609ca69fc658c07160ae9278296703ae03083375361d88f1692b8b2c4dc46c123db06c1ae1cd497125e0ed5bc242305b01b7aa267b6a1d4cacfc3693d3c46fb6b3717820e46fa2314d12390315b1f0fbd3876101af8689001bedd0314867b257831c1cab8ad6f6a28075cd22097820f89a2162736e465305d7c69ea676faeb8f4e1126e9f66782cbf530fd4988d32808f17b6a555107f3ac1e0ec0c6f6a93992ac4c31359e7c9fbafd84e75344fb2815b3eea1f462703fdd7796d3d2de32659676269a53a6e695bf1c673251dfd8c9eb19c9bfd69232fae2e4f401afb9d6c793a07fb0228103fe1c2299bcd7ce231f2ba9f66f4597bc9545802637d361207be88f8385434c5290a3193d95fc0dc556a215cab7b4edfd51f270e12e7d561a5c1a1ab5993aa0e15ac52d81f2678d5b6edc130f300d33640f7791561f0a3a23bed3845303e4a075d8d4be8e5249dc0b99c28ce13762aa9990a7483b561ba9a506a388c9b7cf26622531735e68cf66eae815dea1a7ec3765c2b762321094faef3f2fc01a4a86f3ddd938095b0bef4a6b59324370fcbd838b2aaea92b2196c3836b2d4d9ad78df90b040082f7033c525fc569f0a9378c55de5d5905d6bdd298f6b940b1357dcdbe894e43fc6466dd7ac287b841f72e8b784b842deb347ca96cf426e9b198173397e9363e22d42fd06a1729a8658c715925f9a15060cac9a15a5daccd2e08cbfd2e0ea0879140fdc6c4222b54b08f8e2d3a0330c0126faa457c87adc60b64a50d015fbd3d22298f5fce2d4d1eb0fcfb29631c4f7d2ff5f1a1916924bc9e0ff7477d23e97953da0a515a6008e6533175382900131f6e875b198f58b0864d88e8d22b7c46ba813285539f2660797df6d12ea513e1bc0bfbd9ba5dea176de0a17d2b0f44973e26db528e9bec3a8da744cb69a16ec90cfc187c7c0baa1e7811c1f46656749ac39c58ec38f963052e3b5cf0e8bef4f501a77f295c923c18ecd9163fdb78033dfc72f3b192633f42ee1099c58aaa3f2611102c79960f2be909bc696fe72905461f6f3043a72f80c5160bdcad0b341d8ca20fd77d13ff64eab52d7378393db40ebaca7e115e7507a17714c2f2932260b7209850f130bddafd96a7ff77cc51533ac834a06949f9aa6116d0a4cd4627b33e546fe414ba0b0881ac3259445f7d47b8b7ade37ca6f2b8aa413abb69be4c9aa5b48d230c6441a78fccc011691533f66ca6957a354564119a89c88015478ca2799c0b1b7500517c447d34287702220264495b92c5df175cbfa743a532cdef93e96249dd0dabcfb964e392e6f3d9a83b112f38a3ebaae646e4b975b0672da6215748ac4b048d42c2053182efa4899d83421d08faf9c38805aeaf61ceae4286aff240f0d5e898dea3fe2219d72cbe124637d4348d0bd9381dd3ebc01691bf3228832341b3e392622ab9ef5efc02e1a7e46cd7395666e422f39660ca1e30114de031bbec77e0e1f5e0952ad0e0b9d4839cacc76f519287bea7a747b54fe2c05e3bd20d09320368fa829596bef9d8a1d87d93536bd2fff878e07f4c47f6216dbd626ad21fb2c37dbfacb196ae7a238f3bb5a9a74936be6043</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输文章入密码</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    <title>npm从零开始</title>
+    <url>/2021/05/26/npm%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
+    <content><![CDATA[<p>npm从零开始</p>
+<span id="more"></span>
+<p>接触到的第一个npm命令</p>
+<p><code>npm install hexo-cli -g</code></p>
+<h2 id="查看node版本"><a href="#查看node版本" class="headerlink" title="查看node版本"></a>查看node版本</h2><p>node -v </p>
+<h2 id="查看npm版本"><a href="#查看npm版本" class="headerlink" title="查看npm版本"></a>查看npm版本</h2><p>npm -v  </p>
+<h2 id="什么是npm-为什么要使用npm"><a href="#什么是npm-为什么要使用npm" class="headerlink" title="什么是npm? 为什么要使用npm?"></a>什么是npm? 为什么要使用npm?</h2><p>NPM是随同NodeJS的包管理工具</p>
+<h2 id="什么是CNPM？"><a href="#什么是CNPM？" class="headerlink" title="什么是CNPM？"></a>什么是CNPM？</h2><p>CNPM全称为”China Node Package Manager”，即中国的包管理镜器。其原理是用一个完整npmjs.org镜像，同步频率目前为10分钟一次以保证尽量与官方服务同步。</p>
+<p>国内的NPM软件源有很多，其中阿里云的软件源就是一个不错的选择，本片笔记就是使用阿里的软件源。</p>
+<p>npm 的包安装分为本地安装（local）、全局安装（global）两种</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli      # 本地安装</span><br><span class="line">npm install hexo-cli -g   # 全局安装</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="npm-install说明-常用简写"><a href="#npm-install说明-常用简写" class="headerlink" title="npm install说明 常用简写"></a>npm install说明 常用简写</h2><p>npm install=npm i。在git clone项目的时候，项目文件中并没有 node_modules文件夹，项目的依赖文件可能很大。直接执行，npm会根据package.json配置文件中的依赖配置下载安装。</p>
+<p>-global=-g，全局安装，安装后的包位于系统预设目录下<br>–save=-S，安装的包将写入package.json里面的dependencies，dependencies：生产环境需要依赖的库<br>–save-dev=-D，安装的包将写入packege.json里面的devDependencies，devdependencies：只有开发环境下需要依赖的库</p>
+<h2 id="查看安装信息"><a href="#查看安装信息" class="headerlink" title="查看安装信息"></a>查看安装信息</h2><p>使用以下命令来查看所有全局安装的模块：<br>$ npm list -g</p>
+<h2 id="卸载模块"><a href="#卸载模块" class="headerlink" title="卸载模块"></a>卸载模块</h2><p>可以使用以下命令来卸载 Node.js 模块。<br>$ npm uninstall hexo-cli</p>
+<h2 id="更新模块"><a href="#更新模块" class="headerlink" title="更新模块"></a>更新模块</h2><p>可以使用以下命令更新模块：<br>$ npm update hexo-cli</p>
+<h2 id="搜索模块"><a href="#搜索模块" class="headerlink" title="搜索模块"></a>搜索模块</h2><p>使用以下来搜索模块：<br>$ npm search hexo-cli</p>
+<h2 id="使用-package-json"><a href="#使用-package-json" class="headerlink" title="使用 package.json"></a>使用 package.json</h2><p>package.json 位于模块的目录下，用于定义包的属性。</p>
+]]></content>
+      <categories>
+        <category>node.js</category>
+      </categories>
+      <tags>
+        <tag>node.js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python的subprocess</title>
+    <url>/2021/06/11/python%E7%9A%84subprocess/</url>
+    <content><![CDATA[<p>subprocess最早在2.4版本引入,用来生成子进程，并可以通过管道连接他们的输入/输出/错误，以及获得他们的返回值。</p>
+<span id="more"></span>
+
+<p>旧模块：<br>os.system() 执行操作系统的命令，将结果输出到屏幕，只返回命令执行状态(0：成功，非 0 ： 失败)<br>os.popen()执行操作系统的命令，会将结果保存在内存当中，可以用read()方法读取出来</p>
+<p><strong>subprocess.Popen</strong><br>所有subprocess类型都是对subprocess.Popen的封装,因此subprocess.Popen是根。<br>返回值: 需要借助于wait或者communicate 来实现返回值和状态码</p>
+<p><strong>subprocess.call</strong></p>
+<ol>
+<li>subprocess.call=Popen() + wait()</li>
+<li>返回值:返回命令的输出结果  和执行状态，0或者非0**</li>
+</ol>
+<p><strong>subprocess.run</strong></p>
+<ol>
+<li>subprocess.run= Popen() + communicate()</li>
+<li>返回值:返回命令的输出结果  和执行状态，0或者非0**</li>
+</ol>
+<p><a href="https://cloud.tencent.com/developer/article/1445388">https://cloud.tencent.com/developer/article/1445388</a></p>
+]]></content>
       <categories>
         <category>Python</category>
         <category>NetOps</category>
@@ -1282,29 +1316,27 @@
       </tags>
   </entry>
   <entry>
-    <title>思科HSRP的选举机制</title>
-    <url>/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/</url>
-    <content><![CDATA[<p>思科HSRP的选举机制<br>听其言 (listening) 观其行 (是否是有hello包) 没有就开始自己来 (speaking)</p>
-<span id="more"></span>
-
-<h2 id="HSRP状态"><a href="#HSRP状态" class="headerlink" title="HSRP状态"></a>HSRP状态</h2><p><img src="/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/hsrp.jpg" alt="hsrp状态转换"></p>
-<h2 id="HSRP选举的机制"><a href="#HSRP选举的机制" class="headerlink" title="HSRP选举的机制"></a>HSRP选举的机制</h2><ul>
-<li>2台路由器，前后开机 如何选举？</li>
-<li>1台路由器开机，后面有1台路由器启动加入,如何选举？</li>
-</ul>
-<h2 id="HSRP的切换时间"><a href="#HSRP的切换时间" class="headerlink" title="HSRP的切换时间"></a>HSRP的切换时间</h2><h3 id="主路由器down掉，多久可以切换到备份路由器？"><a href="#主路由器down掉，多久可以切换到备份路由器？" class="headerlink" title="主路由器down掉，多久可以切换到备份路由器？"></a>主路由器down掉，多久可以切换到备份路由器？</h3><p><code>10s</code></p>
-<h3 id="主路由器Up后，多久可以再次切换成active"><a href="#主路由器Up后，多久可以再次切换成active" class="headerlink" title="主路由器Up后，多久可以再次切换成active?"></a>主路由器Up后，多久可以再次切换成active?</h3><p><code>取决于preempt时间</code></p>
-<h2 id="HSRP抢占延迟"><a href="#HSRP抢占延迟" class="headerlink" title="HSRP抢占延迟"></a>HSRP抢占延迟</h2><p>当新Active的路由器需要一点时间来启动慢速 WAN 接口并生成路由表时，这有时会很有帮助。<br>但是，默认情况下，HSRP 抢占将使路由器在启动 LAN 接口的几秒钟内成为 LAN 的Active默认网关。</p>
-<h3 id="配置命令"><a href="#配置命令" class="headerlink" title="配置命令"></a>配置命令</h3><p><code>standby 20 preempt delay minimum 30 reload 90</code></p>
-<h3 id="查看命令"><a href="#查看命令" class="headerlink" title="查看命令"></a>查看命令</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C4431-01#sh standby delay </span><br><span class="line">Interface          Minimum Reload </span><br><span class="line">Gi0/0/0            1       5      </span><br><span class="line">Gi0/0/1            1       5      </span><br><span class="line">Gi0/0/2            1       5     </span><br></pre></td></tr></table></figure>
-
-
-<h2 id="HSRP计时器"><a href="#HSRP计时器" class="headerlink" title="HSRP计时器"></a>HSRP计时器</h2><p>Active Router用Hello计时器 3s<br>Standby Router用 Standby timer计时器  10s</p>
-]]></content>
+    <title>python网络ping</title>
+    <url>/2021/06/10/python%E7%BD%91%E7%BB%9Cping/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="3046765c687cd639cc04a33b042386433785b2ec1798e3bfb6ceb74ad8371883">7aa1880daa6a0b7a09a81d7f2fbd57c9a2b0786f8fb263cd6e9bafce42d347a317a360f49b752a265415b08546814bad63cb474fa1599a1b1e738f7778f5147db4b17309e3782987ebf20eda8ca53600b8d571432aec430088c5362742318eef12cdc6cc4eec4103b9a17e4746bb246a7f921d76626cb3ca3d2f473c03470f25ef712e391963badfd470c6d27f5df5c9a6f383f4cfe7e658b5b3987b8547510c8655fb157a881a39ba91b2d5766517547bb626995dbad4d9522ef46bbc08f037e5550a3cfdb5c426c2681cfe9005357a9c6d54bd95dcbc50dac12de413e054ff925cad82869bfbf85e4a6f16aace4da3494f203035bb109edc6d769a2567be5a6e85eaba376dc2e098187acb38d06b48d160b87e287cb0ee2260c8897c84bb108c7964bfff2cbe5cf82b65f0b97cfa7ec8a7f8aca99eb6fcc9dfa5fc70e81aed502c9a2ba800ae3ec173e77db7daf1d16908bf815e072105292f812dea54aa72d5a0b168e02b410d828ac215d97e7e6433b57744dd4bfbcd9af4cf0898369ff99b108d679782ef0ec02314f365f483f7c699f44ebf19d8bb1471e6f0668bafce946ebcb7b646d30ae8ae2c4004840b9066d8031acaf6009f647e6e2b89ad9f6001d9406e2387c908ebddfdb634f96301bf89ead896e41d17251c9e9267c6fd2bc98d4a8a7c201cb3d9006ee338b7b9fd3103e556a88e8160ce8491ab095eb8c7dac05753a313d831ece02598e533eaf2856b8861dfc43266b40984bcc7c3cd175879896a165b111abcd472e524ab98cf61302b123ab73f72b25651b5f0c54592241495da153769771f3f9b98667225cb6e790f8a3c0c9b943a479b512eab7dfe34f68c1fbef0d18f54a118d0a78851afa0dba2b04097dd13f05fa536a07deb53343ba6aa9dc9739233d31a911a72aebb04092df06fc6514303c7dc746b41ab5671ad8564d76efc0adfff543032252d86ecc07f313ade58586af17c7ca4d43e3a1b0f7538195c7d4dc725d5bf541a5d621d974527532a734ed5062397e43310438c1df7052487fb2eab5f7c65e3ecbc50fbc34536d88c52f0643634d9482e2e01e611ae153a29873a7d1bc6db935bebf8270c67fd362040f9c677caf33c2dbb36fa81bf6c4c0f9fa507e14701e50aa3656f45b13dc367cfce1f90134d7a7f4c69292f7b9af8c5ea0c7525fa335947447019fa80d690479e94217a42ebb131f551e530a1ae340765f1f3dff12ecaa59b6be2c4e486e23a35f05d21d81306c225bfc422969cccf81dc9512148c3b9370824b13d368d56f76eefa2f0529d430aa626ad1c0071a3ca697728bf6095e16d9c3fadabb07765eb00ff53b4d4c87898a62bd5fe358f519886c3c232369c75f66d5fd32e83b93d50e9ffe9ae0f00826abefc9a56723157af1270b4a9399f8bb64f11680267b445929cdbd5e7070060684c77864d533b051938632125583fd5b533ed13995227131ea26eff033a731b2a8b592b5036d273251711eea83828668db536a8bf439d9f149bad60fbd8d7e185b5b403266774ede0d79a7251f12d5a8653648fcca1512e0efab05edc6b4b165d69b09102a50174c5dd7c19fccf68d5ab5045aacc5e03c28dbccdf6f54114e95e07df73dc78952f00348c7f33dc6cabd4a29ab9272c96a93a5fe41550aeb8700397436e2680699f2995782cf41cfbbeaff5cb89936f3fcaddc61856ffea8348486a9b99e171e4aa6a61d8f4d3301ba935cc1120e3e02b070a5154a65ed345ff41473703b4f68f1f2657bf9a9138e415df6e4b72baf175f2054389654f06e5337232454ac317e60820501a716aec1cb2f06504c4dc0fea3d13db9eca06a246eb5f52dc5f999874f95abb3206408be6696ee307fa783a0be23ed7b4996e5c64e005e09cf549c4a590da921ef1adeb6b1977812b357f57da1074aadc118c89a19af3544bfa2d77541f574480468b4547dea3db756d7dff7f7fc3f631297e85c412ba0a294caf79049cffe1c81282a401c947b648366f3ebb594925a3b1f2051a8abc634a2d486bfe6802f2cb507f350c108ce401a3c4c67471c70148570163e2b1d7e030e9d787248ac40f6ffb42916c48d95181c61cae0d01ff251cbd3827d8894994015d949976d18dca959a4547018eebb824d557821b0515be816a8b6c97ba0b0187ec6cd1ccc3da85c5e9d25a95e516b890cf4eb3e52fa26d9c3448d2d723083b7acca50689330a17f3792241769cc48a8fa9f4e8cda6997e5e4b7df74aac560b2e98e01fee2706a74d55ae90040e2b0172305922d7ee5d886afe4c46db8de977c270cae92c7fd5b7e7acfd39974e56236d7af398d3944f12c375b39da6b39f53faaa47ab991c582ecb177b2734f06226ecbbb0316785941f212c8185b0f76a544f55bc48bcc6458be0378f1e730c129d6d6edd6fd51db7b0882ec20ed8777508cf80f9358c5ecdddc47308ffbe3f39994a26cc04812248ffd7b2980b7a119e238cb9cb363f32ffb06d825b6b735e1f078c07df30c464cadeea11274b32001fcca2500d507c15642295a12894faca3cd87d4c6a4dc0f25dab59f1a7458c1633c4b92e7a34ece2bee017324d3783d549bbfbb87aa7b6b80b3201d65d2112b38f7b75d594ea4811fb1f8b341bc9caa981e5b745924198d77a01011d579b6ed9ea4b47c1b3f22c52211f46a49b394d223ac87b115225613028933337922333453db1c2805641d2a823509aebf1a80dd9392a950543b6ad1bf62f6f1affacc7c770cd648e8b7475e65e93486b3213d587133543b6026f3b1547d3de6fffba260f3e0e19ab172d0c4fce7663c035d1e3e2e0e49a635b577804c9a6e6c3cf1c2513953f83ffe423a68d2ad1ade8c1bad282d099ac2675ce18847551730b023350c3df9bd7975e861ba528246cc1d9e0157fae14a18cb4023cb47c33ac0a2cce8f1f86b44d4b1fa4cb831d6885267942d6e7feff4099fb00863a934026bb9db6f3750cac1b4ca8f0d05c1090a189f9b47f1d98a072367bb9b462c61cfd387d38b4d6632c036003fb81dc8d85d0e58499fa261cc352ebf69f7f73c9a6391389ba612d83820c3ca5f5f08a2051c0a02657539fb707df1abcc22051140c4cae3bcf8a69e3fd55789baa59758121e6ad3597d379cfebf0a79863ac4a8c0c40e299acaeb231b63aea17268df9e8f43cd5a5bc9a0b395155e50b3d92b222c2b6cdd7249fc9c44c6bab9724d74fe520d82476a2ab20103d4f3e222e8d1a5ce8775bc3336783bfedbc59913ae722daf41ae03216536ed9c1ea337485ba85b62d27e5675f585b0f66cb0d124d6e068a14ed8dd5963ae8be1c590ad06e85df46a14a2683a99f3b3dd83fa46d64e3f42782a440aa1be54250354d711bdc6dd73f7b3b6accf80a5375f12b877d7cedb0dd0f26c1f77e7255e3f6f4c522e2609ca69fc658c07160ae9278296703ae03083375361d88f1692b8b2c4dc46c123db06c1ae1cd497125e0ed5bc242305b01b7aa267b6a1d4cacfc3693d3c46fb6b3717820e46fa2314d12390315b1f0fbd3876101af8689001bedd0314867b257831c1cab8ad6f6a28075cd22097820f89a2162736e465305d7c69ea676faeb8f4e1126e9f66782cbf530fd4988d32808f17b6a555107f3ac1e0ec0c6f6a93992ac4c31359e7c9fbafd84e75344fb2815b3eea1f462703fdd7796d3d2de32659676269a53a6e695bf1c673251dfd8c9eb19c9bfd69232fae2e4f401afb9d6c793a07fb0228103fe1c2299bcd7ce231f2ba9f66f4597bc9545802637d361207be88f8385434c5290a3193d95fc0dc556a215cab7b4edfd51f270e12e7d561a5c1a1ab5993aa0e15ac52d81f2678d5b6edc130f300d33640f7791561f0a3a23bed3845303e4a075d8d4be8e5249dc0b99c28ce13762aa9990a7483b561ba9a506a388c9b7cf26622531735e68cf66eae815dea1a7ec3765c2b762321094faef3f2fc01a4a86f3ddd938095b0bef4a6b59324370fcbd838b2aaea92b2196c3836b2d4d9ad78df90b040082f7033c525fc569f0a9378c55de5d5905d6bdd298f6b940b1357dcdbe894e43fc6466dd7ac287b841f72e8b784b842deb347ca96cf426e9b198173397e9363e22d42fd06a1729a8658c715925f9a15060cac9a15a5daccd2e08cbfd2e0ea0879140fdc6c4222b54b08f8e2d3a0330c0126faa457c87adc60b64a50d015fbd3d22298f5fce2d4d1eb0fcfb29631c4f7d2ff5f1a1916924bc9e0ff7477d23e97953da0a515a6008e6533175382900131f6e875b198f58b0864d88e8d22b7c46ba813285539f2660797df6d12ea513e1bc0bfbd9ba5dea176de0a17d2b0f44973e26db528e9bec3a8da744cb69a16ec90cfc187c7c0baa1e7811c1f46656749ac39c58ec38f963052e3b5cf0e8bef4f501a77f295c923c18ecd9163fdb78033dfc72f3b192633f42ee1099c58aaa3f2611102c79960f2be909bc696fe72905461f6f3043a72f80c5160bdcad0b341d8ca20fd77d13ff64eab52d7378393db40ebaca7e115e7507a17714c2f2932260b7209850f130bddafd96a7ff77cc51533ac834a06949f9aa6116d0a4cd4627b33e546fe414ba0b0881ac3259445f7d47b8b7ade37ca6f2b8aa413abb69be4c9aa5b48d230c6441a78fccc011691533f66ca6957a354564119a89c88015478ca2799c0b1b7500517c447d34287702220264495b92c5df175cbfa743a532cdef93e96249dd0dabcfb964e392e6f3d9a83b112f38a3ebaae646e4b975b0672da6215748ac4b048d42c2053182efa4899d83421d08faf9c38805aeaf61ceae4286aff240f0d5e898dea3fe2219d72cbe124637d4348d0bd9381dd3ebc01691bf3228832341b3e392622ab9ef5efc02e1a7e46cd7395666e422f39660ca1e30114de031bbec77e0e1f5e0952ad0e0b9d4839cacc76f519287bea7a747b54fe2c05e3bd20d09320368fa829596bef9d8a1d87d93536bd2fff878e07f4c47f6216dbd626ad21fb2c37dbfacb196ae7a238f3bb5a9a74936be6043</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输文章入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-        <category>Network</category>
-        <category>Switch</category>
+        <category>Python</category>
+        <category>NetOps</category>
       </categories>
+      <tags>
+        <tag>Python</tag>
+      </tags>
   </entry>
   <entry>
     <title>思科WLC命令</title>
@@ -1332,6 +1364,31 @@
       <tags>
         <tag>Wireless</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>思科HSRP的选举机制</title>
+    <url>/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/</url>
+    <content><![CDATA[<p>思科HSRP的选举机制<br>听其言 (listening) 观其行 (是否是有hello包) 没有就开始自己来 (speaking)</p>
+<span id="more"></span>
+
+<h2 id="HSRP状态"><a href="#HSRP状态" class="headerlink" title="HSRP状态"></a>HSRP状态</h2><p><img src="/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/hsrp.jpg" alt="hsrp状态转换"></p>
+<h2 id="HSRP选举的机制"><a href="#HSRP选举的机制" class="headerlink" title="HSRP选举的机制"></a>HSRP选举的机制</h2><ul>
+<li>2台路由器，前后开机 如何选举？</li>
+<li>1台路由器开机，后面有1台路由器启动加入,如何选举？</li>
+</ul>
+<h2 id="HSRP的切换时间"><a href="#HSRP的切换时间" class="headerlink" title="HSRP的切换时间"></a>HSRP的切换时间</h2><h3 id="主路由器down掉，多久可以切换到备份路由器？"><a href="#主路由器down掉，多久可以切换到备份路由器？" class="headerlink" title="主路由器down掉，多久可以切换到备份路由器？"></a>主路由器down掉，多久可以切换到备份路由器？</h3><p><code>10s</code></p>
+<h3 id="主路由器Up后，多久可以再次切换成active"><a href="#主路由器Up后，多久可以再次切换成active" class="headerlink" title="主路由器Up后，多久可以再次切换成active?"></a>主路由器Up后，多久可以再次切换成active?</h3><p><code>取决于preempt时间</code></p>
+<h2 id="HSRP抢占延迟"><a href="#HSRP抢占延迟" class="headerlink" title="HSRP抢占延迟"></a>HSRP抢占延迟</h2><p>当新Active的路由器需要一点时间来启动慢速 WAN 接口并生成路由表时，这有时会很有帮助。<br>但是，默认情况下，HSRP 抢占将使路由器在启动 LAN 接口的几秒钟内成为 LAN 的Active默认网关。</p>
+<h3 id="配置命令"><a href="#配置命令" class="headerlink" title="配置命令"></a>配置命令</h3><p><code>standby 20 preempt delay minimum 30 reload 90</code></p>
+<h3 id="查看命令"><a href="#查看命令" class="headerlink" title="查看命令"></a>查看命令</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C4431-01#sh standby delay </span><br><span class="line">Interface          Minimum Reload </span><br><span class="line">Gi0/0/0            1       5      </span><br><span class="line">Gi0/0/1            1       5      </span><br><span class="line">Gi0/0/2            1       5     </span><br></pre></td></tr></table></figure>
+
+
+<h2 id="HSRP计时器"><a href="#HSRP计时器" class="headerlink" title="HSRP计时器"></a>HSRP计时器</h2><p>Active Router用Hello计时器 3s<br>Standby Router用 Standby timer计时器  10s</p>
+]]></content>
+      <categories>
+        <category>Network</category>
+        <category>Switch</category>
+      </categories>
   </entry>
   <entry>
     <title>思科交换机stack和VSS</title>
