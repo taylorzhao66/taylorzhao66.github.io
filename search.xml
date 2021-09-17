@@ -36,27 +36,6 @@
       </tags>
   </entry>
   <entry>
-    <title>内部网关路由器协议IGP</title>
-    <url>/2021/07/22/CISCO%E5%86%85%E9%83%A8%E7%BD%91%E5%85%B3%E8%B7%AF%E7%94%B1%E5%99%A8%E5%8D%8F%E8%AE%AEIGP/</url>
-    <content><![CDATA[<p>内部网关路由器协议IGP</p>
-<span id="more"></span>
-
-
-
-
-
-<p>EIGRP的AD,FD,S,FS<br>EIGRP会根据拓扑表里存储的邻居信息计算到目的地的度量值，这个计算得来的度量值就是可行距离（FD），而通告距离（AD）是邻居计算的到达目的地的度量值。</p>
-<p> 我们举个例子：路由器A有三个邻居B、C、D，A经过B、C、D都可以到达目标网络,B、C、D到达目标网络的成本分别是20，25，35而A到B、C、D三个邻居的成本分别是10、15、15,则A通过计算经由B到达目标网络的成本（度量值）是30,经由C是40，经由D是50，A就选把经由B的路由（成本30最小）作为后继路由，加入到路由表中，这个成本（度量值）30就是路由器A到目标网络的可行距离FD；而邻居B、C、D到目标网络的成本20、25、35分别是B、C、D的通告距离AD，B是后继就不管了，C的通告距离25&lt;30(A到目标网络的可行距离FD）所以经由C的这条路由便成为可行后继，D通告的距离是35&gt;30,所以D不能选成可行后继。<br>    后继路由器successor是最佳路径的下一个路由器，而可行后继路由器feasible successor 是 所有可以到达目标地的下一个路由器（非最佳路径的），在最佳路径时效后从中选择备份。</p>
-]]></content>
-      <categories>
-        <category>Network</category>
-        <category>Routing</category>
-      </categories>
-      <tags>
-        <tag>Network</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>C语言发展史 1972年</title>
     <url>/2021/06/11/C/</url>
     <content><![CDATA[<h2 id="C语言发展史-1972年"><a href="#C语言发展史-1972年" class="headerlink" title="C语言发展史 1972年"></a>C语言发展史 1972年</h2><span id="more"></span>
@@ -99,27 +78,24 @@
       </tags>
   </entry>
   <entry>
-    <title>Docker</title>
-    <url>/2021/06/18/Docker/</url>
-    <content><![CDATA[<p>Docker容器技术，也是虚拟化技术，属于轻量级的虚拟化。</p>
+    <title>内部网关路由器协议IGP</title>
+    <url>/2021/07/22/CISCO%E5%86%85%E9%83%A8%E7%BD%91%E5%85%B3%E8%B7%AF%E7%94%B1%E5%99%A8%E5%8D%8F%E8%AE%AEIGP/</url>
+    <content><![CDATA[<p>内部网关路由器协议IGP</p>
 <span id="more"></span>
 
 
-<p>虚拟机属于虚拟化技术。而Docker这样的容器技术，也是虚拟化技术，属于<strong>轻量级的虚拟化</strong>。</p>
-<p>虚拟机虽然可以隔离出很多“子电脑”，但占用空间更大，启动更慢，虚拟机软件可能还要花钱（例如VMWare）。</p>
-<p>而容器技术恰好没有这些缺点。它不需要虚拟出整个操作系统，只需要虚拟一个小规模的环境（类似“沙箱”）。</p>
-<p>Docker技术的三大核心概念，分别是：</p>
-<p>镜像（Image）</p>
-<p>容器（Container）</p>
-<p>仓库（Repository）</p>
-<p><a href="https://www.zhihu.com/question/28300645">https://www.zhihu.com/question/28300645</a></p>
+
+
+
+<p>EIGRP的AD,FD,S,FS<br>EIGRP会根据拓扑表里存储的邻居信息计算到目的地的度量值，这个计算得来的度量值就是可行距离（FD），而通告距离（AD）是邻居计算的到达目的地的度量值。</p>
+<p> 我们举个例子：路由器A有三个邻居B、C、D，A经过B、C、D都可以到达目标网络,B、C、D到达目标网络的成本分别是20，25，35而A到B、C、D三个邻居的成本分别是10、15、15,则A通过计算经由B到达目标网络的成本（度量值）是30,经由C是40，经由D是50，A就选把经由B的路由（成本30最小）作为后继路由，加入到路由表中，这个成本（度量值）30就是路由器A到目标网络的可行距离FD；而邻居B、C、D到目标网络的成本20、25、35分别是B、C、D的通告距离AD，B是后继就不管了，C的通告距离25&lt;30(A到目标网络的可行距离FD）所以经由C的这条路由便成为可行后继，D通告的距离是35&gt;30,所以D不能选成可行后继。<br>    后继路由器successor是最佳路径的下一个路由器，而可行后继路由器feasible successor 是 所有可以到达目标地的下一个路由器（非最佳路径的），在最佳路径时效后从中选择备份。</p>
 ]]></content>
       <categories>
-        <category>Java</category>
-        <category>Servlet</category>
+        <category>Network</category>
+        <category>Routing</category>
       </categories>
       <tags>
-        <tag>Docker</tag>
+        <tag>Network</tag>
       </tags>
   </entry>
   <entry>
@@ -153,6 +129,30 @@
       </tags>
   </entry>
   <entry>
+    <title>Docker</title>
+    <url>/2021/06/18/Docker/</url>
+    <content><![CDATA[<p>Docker容器技术，也是虚拟化技术，属于轻量级的虚拟化。</p>
+<span id="more"></span>
+
+
+<p>虚拟机属于虚拟化技术。而Docker这样的容器技术，也是虚拟化技术，属于<strong>轻量级的虚拟化</strong>。</p>
+<p>虚拟机虽然可以隔离出很多“子电脑”，但占用空间更大，启动更慢，虚拟机软件可能还要花钱（例如VMWare）。</p>
+<p>而容器技术恰好没有这些缺点。它不需要虚拟出整个操作系统，只需要虚拟一个小规模的环境（类似“沙箱”）。</p>
+<p>Docker技术的三大核心概念，分别是：</p>
+<p>镜像（Image）</p>
+<p>容器（Container）</p>
+<p>仓库（Repository）</p>
+<p><a href="https://www.zhihu.com/question/28300645">https://www.zhihu.com/question/28300645</a></p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>Servlet</category>
+      </categories>
+      <tags>
+        <tag>Docker</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Git从零开始</title>
     <url>/2021/05/26/Git%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
     <content><![CDATA[<p>程序员从git开始，菜鸟和高手的分水岭</p>
@@ -169,6 +169,11 @@
 <p><a href="https://www.bilibili.com/video/BV1si4y1472o">Markdown+VSCODE实现最完美流畅写作体验</a></p>
 <p><img src="/"></p>
 <p><img src="https://avatars2.githubusercontent.com/u/3265208?v=3&s=100" alt="GitHub" title="GitHub,Social Coding"></p>
+<p>git config –global https.proxy <a href="http://127.0.0.1:8080/">http://127.0.0.1:8080</a></p>
+<p>git config –global https.proxy <a href="https://127.0.0.1:8080/">https://127.0.0.1:8080</a></p>
+<p>git config –global –unset http.proxy</p>
+<p>git config –global –unset https.proxy</p>
+<p>git config –global http.proxy ‘socks5://127.0.0.1:8080’<br>git config –global https.proxy ‘socks5://127.0.0.1:8080’</p>
 ]]></content>
       <categories>
         <category>Git</category>
@@ -201,6 +206,36 @@
       </categories>
       <tags>
         <tag>history</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux下FTP的配置</title>
+    <url>/2021/06/01/Linux%E4%B8%8BFTP%E7%9A%84%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<p>linux ftp服务器,轻松实现文件互传</p>
+<span id="more"></span>
+
+
+<h3 id="1、有问题时完全卸载vsftpd"><a href="#1、有问题时完全卸载vsftpd" class="headerlink" title="1、有问题时完全卸载vsftpd"></a>1、有问题时完全卸载vsftpd</h3><p><code>sudo apt-get purge vsftpd</code></p>
+<h3 id="2、安装vsftpd"><a href="#2、安装vsftpd" class="headerlink" title="2、安装vsftpd"></a>2、安装vsftpd</h3><p><code>sudo apt-get install vsftpd</code></p>
+<h3 id="3、创建ftp用户"><a href="#3、创建ftp用户" class="headerlink" title="3、创建ftp用户"></a>3、创建ftp用户</h3><p>方法一：直接在系统设置添加用户</p>
+<p>方法二：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">创建用户目录 sudo mkdir /home/uftp</span><br><span class="line">创建用户 sudo useradd -d /home/uftp -s /bin/bash uftp</span><br><span class="line">修改密码 sudo passwd uftp</span><br></pre></td></tr></table></figure>
+
+<h3 id="4、配置vsftpd-conf"><a href="#4、配置vsftpd-conf" class="headerlink" title="4、配置vsftpd.conf"></a>4、配置vsftpd.conf</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo vi /etc/vsftpd.conf</span><br><span class="line"></span><br><span class="line">编辑vsftpd.conf文件</span><br><span class="line"></span><br><span class="line">开启 本地用户 才能访问</span><br><span class="line">local_enable=YES</span><br><span class="line"></span><br><span class="line">#设置文件上传</span><br><span class="line">write_enable=YES</span><br><span class="line"></span><br><span class="line">#使用utf8</span><br><span class="line">utf8_filesystem=YES</span><br><span class="line"></span><br><span class="line">#限制所有的本地用户在自家目录</span><br><span class="line">chroot_local_user=YES  </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#开启 用户列表进行访问控制</span><br><span class="line">userlist_enable=YES</span><br><span class="line">userlist_deny=NO</span><br><span class="line"></span><br><span class="line">#允许登录的用户</span><br><span class="line">userlist_file=/etc/allowed_users</span><br><span class="line">seccomp_sandbox=NO</span><br><span class="line"></span><br><span class="line">#默认ftp下载目录</span><br><span class="line">local_root=/home/uftp/</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">添加允许登录的用户</span><br><span class="line"></span><br><span class="line">sudo vi /etc/allowed_users</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="5、启动停止重启服务"><a href="#5、启动停止重启服务" class="headerlink" title="5、启动停止重启服务"></a>5、启动停止重启服务</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo /etc/init.d/vsftpd start</span><br><span class="line">sudo /etc/init.d/vsftpd stop</span><br><span class="line">sudo /etc/init.d/vsftpd restart</span><br><span class="line"></span><br><span class="line">systemctl status vsftpd.service</span><br><span class="line">systemctl restart vsftpd.service</span><br></pre></td></tr></table></figure>
+
+<h3 id="其他注意事项"><a href="#其他注意事项" class="headerlink" title="其他注意事项"></a>其他注意事项</h3><p>Linux 用户名和密码都正确却 无法登录 报错信息和解决办法<br>vsftpd: refusing to run with writable root inside chroot() 错误的解决办法<br>一下是解决办法：</p>
+<p>为了避免一个安全漏洞，从 vsftpd 2.3.5 开始，chroot 目录必须不可写。使用命令：</p>
+<h1 id="chmod-a-w-home-user"><a href="#chmod-a-w-home-user" class="headerlink" title="chmod a-w /home/user"></a>chmod a-w /home/user</h1><p>user 为FTP所连接的目录</p>
+<p>十分好用的查看开启的feature的命令<br>cat /etc/vsftpd.conf | grep -v “#” | more</p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -242,73 +277,28 @@
       </tags>
   </entry>
   <entry>
-    <title>Linux的SSH隧道</title>
-    <url>/2021/06/06/Linux%E7%9A%84SSH%E9%9A%A7%E9%81%93/</url>
-    <content><![CDATA[<p>通过 ssh 的端口转发或者隧道 (tunneling) 功能，可以实现: 加密 SSH Client 端至 SSH Server 端之间的通讯数据.突破防火墙的限制完成一些之前无法建立的 TCP 连接。</p>
+    <title>思科Nexus</title>
+    <url>/2021/06/04/Nexus/</url>
+    <content><![CDATA[<p>Nexus vPC</p>
 <span id="more"></span>
 
-<h2 id="SSH隧道tunnel的3个种类"><a href="#SSH隧道tunnel的3个种类" class="headerlink" title="SSH隧道tunnel的3个种类"></a>SSH隧道tunnel的3个种类</h2><ol>
-<li>本地转发</li>
-<li>远程转发</li>
-<li>动态转发</li>
-</ol>
-<h1 id="SSH隧道的三种角色"><a href="#SSH隧道的三种角色" class="headerlink" title="SSH隧道的三种角色"></a>SSH隧道的三种角色</h1><ol>
-<li>SSH客户端</li>
-<li>SSH服务端</li>
-<li>应用</li>
-</ol>
-<h3 id="本地转发"><a href="#本地转发" class="headerlink" title="本地转发"></a>本地转发</h3><h4 id="应用场景："><a href="#应用场景：" class="headerlink" title="应用场景："></a>应用场景：</h4><ol>
-<li>自己电脑 内网直接访问数据库服务器3306,安全原因，被防火墙阻挡，</li>
-<li>自己电脑 访问外网某FTP服务器，但是21被防火墙阻挡, 但是可以SSH公网的自己的服务器</li>
-</ol>
-<h4 id="命令："><a href="#命令：" class="headerlink" title="命令："></a>命令：</h4><p>Local 为ssh客户端一方<br>remote为ssh服务端一方</p>
-<p><code>ssh -L local_port:remote_address:remote_port username@server.com</code></p>
-<p>ssh -L 8888:localhost:1234 <a href="mailto:&#98;&#111;&#x62;&#64;&#115;&#115;&#104;&#46;&#x79;&#x6f;&#117;&#x72;&#111;&#x66;&#102;&#x69;&#99;&#101;&#x2e;&#x63;&#111;&#109;">&#98;&#111;&#x62;&#64;&#115;&#115;&#104;&#46;&#x79;&#x6f;&#117;&#x72;&#111;&#x66;&#102;&#x69;&#99;&#101;&#x2e;&#x63;&#111;&#109;</a><br>ssh -L 8888:192.168.1.111:1234 <a href="mailto:&#x62;&#x6f;&#98;&#x40;&#115;&#x73;&#x68;&#x2e;&#121;&#x6f;&#x75;&#x72;&#x6f;&#x66;&#102;&#105;&#x63;&#101;&#x2e;&#99;&#x6f;&#x6d;">&#x62;&#x6f;&#98;&#x40;&#115;&#x73;&#x68;&#x2e;&#121;&#x6f;&#x75;&#x72;&#x6f;&#x66;&#102;&#105;&#x63;&#101;&#x2e;&#99;&#x6f;&#x6d;</a></p>
-<h3 id="远程转发"><a href="#远程转发" class="headerlink" title="远程转发"></a>远程转发</h3><h4 id="应用场景：-1"><a href="#应用场景：-1" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-1"><a href="#命令：-1" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -R remote_port:local_address:local_port username@server.com</code></p>
-<p>ssh -R 8888:localhost:1234 <a href="mailto:&#98;&#x6f;&#98;&#64;&#x73;&#x73;&#104;&#46;&#121;&#x6f;&#117;&#114;&#111;&#102;&#102;&#105;&#99;&#101;&#x2e;&#99;&#111;&#109;">&#98;&#x6f;&#98;&#64;&#x73;&#x73;&#104;&#46;&#121;&#x6f;&#117;&#114;&#111;&#102;&#102;&#105;&#99;&#101;&#x2e;&#99;&#111;&#109;</a></p>
-<h3 id="动态转发"><a href="#动态转发" class="headerlink" title="动态转发"></a>动态转发</h3><h4 id="应用场景：-2"><a href="#应用场景：-2" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-2"><a href="#命令：-2" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -D local_port username@server.com</code></p>
-<p>ssh -D 8888 <a href="mailto:&#x62;&#x6f;&#x62;&#64;&#x73;&#115;&#104;&#x2e;&#121;&#x6f;&#117;&#x72;&#104;&#111;&#x6d;&#101;&#46;&#x63;&#111;&#109;">&#x62;&#x6f;&#x62;&#64;&#x73;&#115;&#104;&#x2e;&#121;&#x6f;&#117;&#x72;&#104;&#111;&#x6d;&#101;&#46;&#x63;&#111;&#109;</a></p>
-<h3 id="参数介绍"><a href="#参数介绍" class="headerlink" title="参数介绍"></a>参数介绍</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">-N 告诉 SSH 客户端，这个连接不需要执行任何命令，也就是说不需要打开远程 shell，仅仅做端口转发；</span><br><span class="line">-f 告诉SSH客户端在后台运行，要关闭这个后台连接，就只有用 kill 命令去杀掉进程；</span><br><span class="line">-L 做本地映射端口</span><br><span class="line">-R 做远程映射端口</span><br><span class="line">-D 做动态端口映射</span><br><span class="line">-C 压缩数据传输</span><br></pre></td></tr></table></figure>
-
-<h2 id="如何关闭这个SSH隧道"><a href="#如何关闭这个SSH隧道" class="headerlink" title="如何关闭这个SSH隧道"></a>如何关闭这个SSH隧道</h2><p>方法1：<br>ps aux | grep 3306   找到pid<br>kill <pid>   kill pid</p>
-<p>方法2：<br>终止你从终端打开的所有ssh会话。<br>sudo killall ssh</p>
-<p>参考资料：<br><a href="https://gohalo.me/post/ssh-proxy.html">https://gohalo.me/post/ssh-proxy.html</a><br><a href="https://johnliu55.tw/ssh-tunnel.html">https://johnliu55.tw/ssh-tunnel.html</a><br><a href="https://www.howtogeek.com/168145/how-to-use-ssh-tunneling/">https://www.howtogeek.com/168145/how-to-use-ssh-tunneling/</a></p>
+<h2 id="Nexus"><a href="#Nexus" class="headerlink" title="Nexus"></a>Nexus</h2><ul>
+<li><p>vPC（virtual port channel）</p>
+</li>
+<li><p>VDC</p>
+</li>
+<li><p>ACI   Cisco Application Centric Infrastructure </p>
+</li>
+</ul>
+<p>思科的ACI就是数据中心的SDN </p>
+<h2 id="vPC"><a href="#vPC" class="headerlink" title="vPC"></a>vPC</h2><p>允许一个设备使用有两个上游设备的port  channel，消除STP阻止端口，使用所有可用的上联带宽,提供一个无环的拓扑，在链路或者设备出现故障时，提供最快的收敛，提供链路级的冗余，确保高可用性，第三方设备可以是一个服务器，一个交换机或者任何网络设备，只要这些设备支持channel Group技术</p>
 ]]></content>
       <categories>
-        <category>Linux</category>
+        <category>Network</category>
+        <category>Switch</category>
       </categories>
       <tags>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux下FTP的配置</title>
-    <url>/2021/06/01/Linux%E4%B8%8BFTP%E7%9A%84%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<p>linux ftp服务器,轻松实现文件互传</p>
-<span id="more"></span>
-
-
-<h3 id="1、有问题时完全卸载vsftpd"><a href="#1、有问题时完全卸载vsftpd" class="headerlink" title="1、有问题时完全卸载vsftpd"></a>1、有问题时完全卸载vsftpd</h3><p><code>sudo apt-get purge vsftpd</code></p>
-<h3 id="2、安装vsftpd"><a href="#2、安装vsftpd" class="headerlink" title="2、安装vsftpd"></a>2、安装vsftpd</h3><p><code>sudo apt-get install vsftpd</code></p>
-<h3 id="3、创建ftp用户"><a href="#3、创建ftp用户" class="headerlink" title="3、创建ftp用户"></a>3、创建ftp用户</h3><p>方法一：直接在系统设置添加用户</p>
-<p>方法二：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">创建用户目录 sudo mkdir /home/uftp</span><br><span class="line">创建用户 sudo useradd -d /home/uftp -s /bin/bash uftp</span><br><span class="line">修改密码 sudo passwd uftp</span><br></pre></td></tr></table></figure>
-
-<h3 id="4、配置vsftpd-conf"><a href="#4、配置vsftpd-conf" class="headerlink" title="4、配置vsftpd.conf"></a>4、配置vsftpd.conf</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo vi /etc/vsftpd.conf</span><br><span class="line"></span><br><span class="line">编辑vsftpd.conf文件</span><br><span class="line"></span><br><span class="line">开启 本地用户 才能访问</span><br><span class="line">local_enable=YES</span><br><span class="line"></span><br><span class="line">#设置文件上传</span><br><span class="line">write_enable=YES</span><br><span class="line"></span><br><span class="line">#使用utf8</span><br><span class="line">utf8_filesystem=YES</span><br><span class="line"></span><br><span class="line">#限制所有的本地用户在自家目录</span><br><span class="line">chroot_local_user=YES  </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#开启 用户列表进行访问控制</span><br><span class="line">userlist_enable=YES</span><br><span class="line">userlist_deny=NO</span><br><span class="line"></span><br><span class="line">#允许登录的用户</span><br><span class="line">userlist_file=/etc/allowed_users</span><br><span class="line">seccomp_sandbox=NO</span><br><span class="line"></span><br><span class="line">#默认ftp下载目录</span><br><span class="line">local_root=/home/uftp/</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">添加允许登录的用户</span><br><span class="line"></span><br><span class="line">sudo vi /etc/allowed_users</span><br></pre></td></tr></table></figure>
-
-
-<h3 id="5、启动停止重启服务"><a href="#5、启动停止重启服务" class="headerlink" title="5、启动停止重启服务"></a>5、启动停止重启服务</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo /etc/init.d/vsftpd start</span><br><span class="line">sudo /etc/init.d/vsftpd stop</span><br><span class="line">sudo /etc/init.d/vsftpd restart</span><br><span class="line"></span><br><span class="line">systemctl status vsftpd.service</span><br><span class="line">systemctl restart vsftpd.service</span><br></pre></td></tr></table></figure>
-
-<h3 id="其他注意事项"><a href="#其他注意事项" class="headerlink" title="其他注意事项"></a>其他注意事项</h3><p>Linux 用户名和密码都正确却 无法登录 报错信息和解决办法<br>vsftpd: refusing to run with writable root inside chroot() 错误的解决办法<br>一下是解决办法：</p>
-<p>为了避免一个安全漏洞，从 vsftpd 2.3.5 开始，chroot 目录必须不可写。使用命令：</p>
-<h1 id="chmod-a-w-home-user"><a href="#chmod-a-w-home-user" class="headerlink" title="chmod a-w /home/user"></a>chmod a-w /home/user</h1><p>user 为FTP所连接的目录</p>
-<p>十分好用的查看开启的feature的命令<br>cat /etc/vsftpd.conf | grep -v “#” | more</p>
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
+        <tag>Nexus</tag>
       </tags>
   </entry>
   <entry>
@@ -340,6 +330,46 @@
       </categories>
       <tags>
         <tag>ORM</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux的SSH隧道</title>
+    <url>/2021/06/06/Linux%E7%9A%84SSH%E9%9A%A7%E9%81%93/</url>
+    <content><![CDATA[<p>通过 ssh 的端口转发或者隧道 (tunneling) 功能，可以实现: 加密 SSH Client 端至 SSH Server 端之间的通讯数据.突破防火墙的限制完成一些之前无法建立的 TCP 连接。</p>
+<span id="more"></span>
+
+<h2 id="SSH隧道tunnel的3个种类"><a href="#SSH隧道tunnel的3个种类" class="headerlink" title="SSH隧道tunnel的3个种类"></a>SSH隧道tunnel的3个种类</h2><ol>
+<li>本地转发</li>
+<li>远程转发</li>
+<li>动态转发</li>
+</ol>
+<h1 id="SSH隧道的三种角色"><a href="#SSH隧道的三种角色" class="headerlink" title="SSH隧道的三种角色"></a>SSH隧道的三种角色</h1><ol>
+<li>SSH客户端</li>
+<li>SSH服务端</li>
+<li>应用</li>
+</ol>
+<h3 id="本地转发"><a href="#本地转发" class="headerlink" title="本地转发"></a>本地转发</h3><h4 id="应用场景："><a href="#应用场景：" class="headerlink" title="应用场景："></a>应用场景：</h4><ol>
+<li>自己电脑 内网直接访问数据库服务器3306,安全原因，被防火墙阻挡，</li>
+<li>自己电脑 访问外网某FTP服务器，但是21被防火墙阻挡, 但是可以SSH公网的自己的服务器</li>
+</ol>
+<h4 id="命令："><a href="#命令：" class="headerlink" title="命令："></a>命令：</h4><p>Local 为ssh客户端一方<br>remote为ssh服务端一方</p>
+<p><code>ssh -L local_port:remote_address:remote_port username@server.com</code></p>
+<p>ssh -L 8888:localhost:1234 <a href="mailto:&#x62;&#111;&#x62;&#64;&#115;&#115;&#x68;&#x2e;&#x79;&#111;&#x75;&#114;&#111;&#x66;&#x66;&#105;&#99;&#x65;&#x2e;&#x63;&#x6f;&#109;">&#x62;&#111;&#x62;&#64;&#115;&#115;&#x68;&#x2e;&#x79;&#111;&#x75;&#114;&#111;&#x66;&#x66;&#105;&#99;&#x65;&#x2e;&#x63;&#x6f;&#109;</a><br>ssh -L 8888:192.168.1.111:1234 <a href="mailto:&#98;&#x6f;&#98;&#64;&#115;&#115;&#104;&#46;&#x79;&#111;&#x75;&#114;&#111;&#x66;&#102;&#105;&#x63;&#101;&#x2e;&#x63;&#x6f;&#x6d;">&#98;&#x6f;&#98;&#64;&#115;&#115;&#104;&#46;&#x79;&#111;&#x75;&#114;&#111;&#x66;&#102;&#105;&#x63;&#101;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
+<h3 id="远程转发"><a href="#远程转发" class="headerlink" title="远程转发"></a>远程转发</h3><h4 id="应用场景：-1"><a href="#应用场景：-1" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-1"><a href="#命令：-1" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -R remote_port:local_address:local_port username@server.com</code></p>
+<p>ssh -R 8888:localhost:1234 <a href="mailto:&#98;&#x6f;&#98;&#x40;&#115;&#x73;&#x68;&#46;&#121;&#111;&#x75;&#x72;&#111;&#x66;&#x66;&#x69;&#x63;&#101;&#46;&#99;&#x6f;&#109;">&#98;&#x6f;&#98;&#x40;&#115;&#x73;&#x68;&#46;&#121;&#111;&#x75;&#x72;&#111;&#x66;&#x66;&#x69;&#x63;&#101;&#46;&#99;&#x6f;&#109;</a></p>
+<h3 id="动态转发"><a href="#动态转发" class="headerlink" title="动态转发"></a>动态转发</h3><h4 id="应用场景：-2"><a href="#应用场景：-2" class="headerlink" title="应用场景："></a>应用场景：</h4><h4 id="命令：-2"><a href="#命令：-2" class="headerlink" title="命令："></a>命令：</h4><p><code>ssh -D local_port username@server.com</code></p>
+<p>ssh -D 8888 <a href="mailto:&#98;&#x6f;&#98;&#64;&#115;&#x73;&#104;&#46;&#121;&#x6f;&#x75;&#114;&#x68;&#x6f;&#109;&#101;&#46;&#x63;&#111;&#109;">&#98;&#x6f;&#98;&#64;&#115;&#x73;&#104;&#46;&#121;&#x6f;&#x75;&#114;&#x68;&#x6f;&#109;&#101;&#46;&#x63;&#111;&#109;</a></p>
+<h3 id="参数介绍"><a href="#参数介绍" class="headerlink" title="参数介绍"></a>参数介绍</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">-N 告诉 SSH 客户端，这个连接不需要执行任何命令，也就是说不需要打开远程 shell，仅仅做端口转发；</span><br><span class="line">-f 告诉SSH客户端在后台运行，要关闭这个后台连接，就只有用 kill 命令去杀掉进程；</span><br><span class="line">-L 做本地映射端口</span><br><span class="line">-R 做远程映射端口</span><br><span class="line">-D 做动态端口映射</span><br><span class="line">-C 压缩数据传输</span><br></pre></td></tr></table></figure>
+
+<h2 id="如何关闭这个SSH隧道"><a href="#如何关闭这个SSH隧道" class="headerlink" title="如何关闭这个SSH隧道"></a>如何关闭这个SSH隧道</h2><p>方法1：<br>ps aux | grep 3306   找到pid<br>kill <pid>   kill pid</p>
+<p>方法2：<br>终止你从终端打开的所有ssh会话。<br>sudo killall ssh</p>
+<p>参考资料：<br><a href="https://gohalo.me/post/ssh-proxy.html">https://gohalo.me/post/ssh-proxy.html</a><br><a href="https://johnliu55.tw/ssh-tunnel.html">https://johnliu55.tw/ssh-tunnel.html</a><br><a href="https://www.howtogeek.com/168145/how-to-use-ssh-tunneling/">https://www.howtogeek.com/168145/how-to-use-ssh-tunneling/</a></p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -390,50 +420,6 @@
       </tags>
   </entry>
   <entry>
-    <title>思科Nexus</title>
-    <url>/2021/06/04/Nexus/</url>
-    <content><![CDATA[<p>Nexus vPC</p>
-<span id="more"></span>
-
-<h2 id="Nexus"><a href="#Nexus" class="headerlink" title="Nexus"></a>Nexus</h2><ul>
-<li><p>vPC（virtual port channel）</p>
-</li>
-<li><p>VDC</p>
-</li>
-<li><p>ACI   Cisco Application Centric Infrastructure </p>
-</li>
-</ul>
-<p>思科的ACI就是数据中心的SDN </p>
-<h2 id="vPC"><a href="#vPC" class="headerlink" title="vPC"></a>vPC</h2><p>允许一个设备使用有两个上游设备的port  channel，消除STP阻止端口，使用所有可用的上联带宽,提供一个无环的拓扑，在链路或者设备出现故障时，提供最快的收敛，提供链路级的冗余，确保高可用性，第三方设备可以是一个服务器，一个交换机或者任何网络设备，只要这些设备支持channel Group技术</p>
-]]></content>
-      <categories>
-        <category>Network</category>
-        <category>Switch</category>
-      </categories>
-      <tags>
-        <tag>Nexus</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>PHP和MySQL条件查询</title>
-    <url>/2021/07/09/PHP%E5%92%8CMySQL%E6%9D%A1%E4%BB%B6%E6%9F%A5%E8%AF%A2/</url>
-    <content><![CDATA[<p>PHP和MySQL条件查询</p>
-<span id="more"></span>
-
-
-
-<p>Set an always true condition in order to have constant <code>WHERE</code> clause.</p>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="variable">$sql</span> = <span class="string">&quot;SELECT * FROM myTable WHERE 1 = 1 &quot;</span></span><br><span class="line"><span class="keyword">if</span> (<span class="literal">true</span>) &#123;</span><br><span class="line">    <span class="variable">$sql</span> .= <span class="string">&quot; AND col1 LIKE &#x27;%val%&#x27; &quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>PHP</category>
-        <category>MySQL</category>
-      </categories>
-      <tags>
-        <tag>PHP</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>PHP之MySQL数据库语句</title>
     <url>/2021/07/06/PHP%E4%B9%8BMySQL%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%AD%E5%8F%A5/</url>
     <content><![CDATA[<p>MySQL数据库语句</p>
@@ -467,26 +453,6 @@
       </categories>
       <tags>
         <tag>MySQL</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>PHP的环境的基础配置</title>
-    <url>/2021/07/04/PHP%E7%9A%84%E7%8E%AF%E5%A2%83%E7%9A%84%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<p>PHP的环境的基础配置</p>
-<span id="more"></span>
-
-<h2 id="Apache配置文件"><a href="#Apache配置文件" class="headerlink" title="Apache配置文件"></a>Apache配置文件</h2><p>C:\server\apache\conf\httpd.conf</p>
-<h3 id="Apache加载载PHP"><a href="#Apache加载载PHP" class="headerlink" title="Apache加载载PHP"></a>Apache加载载PHP</h3><p><code>LoadModule php5 module C:/server/php5/php5apache2-2dl1</code></p>
-<h3 id="APache识别PHP文件代码"><a href="#APache识别PHP文件代码" class="headerlink" title="APache识别PHP文件代码"></a>APache识别PHP文件代码</h3><p><code>AddType application/x-httpd-php   .php</code></p>
-<h3 id="Apache加载PHP配置文件"><a href="#Apache加载PHP配置文件" class="headerlink" title="Apache加载PHP配置文件"></a>Apache加载PHP配置文件</h3><p><code>PHPIniDir &#39;C: /server/php5&#39;</code></p>
-<h3 id="测试Apache配置是否语法错误"><a href="#测试Apache配置是否语法错误" class="headerlink" title="测试Apache配置是否语法错误"></a>测试Apache配置是否语法错误</h3><p>C:\server\apache\bin&gt;httpd.exe -t<br>Syntax Ok</p>
-<h3 id="检查Apache加载了那些模块"><a href="#检查Apache加载了那些模块" class="headerlink" title="检查Apache加载了那些模块"></a>检查Apache加载了那些模块</h3><p>C:\server\apache\bin&gt;httpd.exe -m</p>
-]]></content>
-      <categories>
-        <category>PHP</category>
-      </categories>
-      <tags>
-        <tag>PHP</tag>
       </tags>
   </entry>
   <entry>
@@ -556,33 +522,15 @@
       </tags>
   </entry>
   <entry>
-    <title>PHP连接MySQL数据库</title>
-    <url>/2021/06/22/PHP%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
-    <content><![CDATA[<p>PHP 连接 MySQL</p>
+    <title>PHP和MySQL条件查询</title>
+    <url>/2021/07/09/PHP%E5%92%8CMySQL%E6%9D%A1%E4%BB%B6%E6%9F%A5%E8%AF%A2/</url>
+    <content><![CDATA[<p>PHP和MySQL条件查询</p>
 <span id="more"></span>
 
-<p>**php mysql_connect不支持是因为PHP7已经彻底不支持“mysql_connect”函数了，该函数属于废弃函数，需要使用MySQLi或PDO_MySQL扩展来替换该函数。 **</p>
-<h1 id="PHP-连接-MySQL"><a href="#PHP-连接-MySQL" class="headerlink" title="PHP 连接 MySQL"></a>PHP 连接 MySQL</h1><p>PHP 5 及以上版本建议使用以下方式连接 MySQL :</p>
-<ul>
-<li><strong>MySQLi extension</strong> (“i” 意为 improved)</li>
-<li><strong>PDO (PHP Data Objects)</strong></li>
-</ul>
-<p>在 PHP 早期版本中我们使用 MySQL 扩展。但该扩展在 2012 年开始不建议使用。</p>
-<p><a href="https://www.runoob.com/php/php-mysql-connect.html">https://www.runoob.com/php/php-mysql-connect.html</a></p>
-<h2 id="Mysql如何设置root密码"><a href="#Mysql如何设置root密码" class="headerlink" title="Mysql如何设置root密码"></a>Mysql如何设置root密码</h2><p>查看当前用户和密码：</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">User</span>,Password <span class="keyword">from</span> mysql.user;</span><br></pre></td></tr></table></figure>
-
-<p>修改密码：</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">set</span> password <span class="keyword">for</span> root<span class="variable">@localhost</span><span class="operator">=</span>password(<span class="string">&#x27;Tz123456&#x27;</span>);</span><br></pre></td></tr></table></figure>
-
-<p>查询是否修改：</p>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">User</span>,Password <span class="keyword">from</span> mysql.user;</span><br></pre></td></tr></table></figure>
 
 
-
-<h2 id="PhpMyAdmin安装配置"><a href="#PhpMyAdmin安装配置" class="headerlink" title="PhpMyAdmin安装配置"></a>PhpMyAdmin安装配置</h2><p>配置文件config.inc.php</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/* Authentication type and info */</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;auth_type&#x27;] = &#x27;config&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;user&#x27;] = &#x27;root&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;password&#x27;] = &#x27;123456&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;extension&#x27;] = &#x27;mysqli&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;AllowNoPassword&#x27;] = true;</span><br><span class="line">$cfg[&#x27;Lang&#x27;] = &#x27;&#x27;;</span><br></pre></td></tr></table></figure>
-
+<p>Set an always true condition in order to have constant <code>WHERE</code> clause.</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="variable">$sql</span> = <span class="string">&quot;SELECT * FROM myTable WHERE 1 = 1 &quot;</span></span><br><span class="line"><span class="keyword">if</span> (<span class="literal">true</span>) &#123;</span><br><span class="line">    <span class="variable">$sql</span> .= <span class="string">&quot; AND col1 LIKE &#x27;%val%&#x27; &quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>PHP</category>
@@ -593,101 +541,23 @@
       </tags>
   </entry>
   <entry>
-    <title>Perl的发展史 珍珠的诞生1987年 34岁</title>
-    <url>/2021/06/11/Perl/</url>
-    <content><![CDATA[<p>Perl的发展史 珍珠的诞生1987年 34岁</p>
+    <title>PHP的环境的基础配置</title>
+    <url>/2021/07/04/PHP%E7%9A%84%E7%8E%AF%E5%A2%83%E7%9A%84%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<p>PHP的环境的基础配置</p>
 <span id="more"></span>
 
-<h2 id="生平："><a href="#生平：" class="headerlink" title="生平："></a>生平：</h2><p>拉里·沃尔 Larry  Wall (1954 年 9 月 27 日出生）是美国 计算机程序员和作家。他创建了Perl 编程语言。</p>
-<p>沃尔在洛杉矶和华盛顿的布雷默顿长大</p>
-<p>1976 年在西雅图太平洋大学开始接受高等教育，主修化学和音乐，后来攻读医学预科，在大学的计算中心工作了几年，然后获得了自然和人工语言学学士学位。</p>
-<p>在加州大学伯克利分校读研究生期间 ，沃尔和他的妻子正在学习语言学，目的是寻找一种不成文的语言，也许是在非洲，并为它创建一个书写系统。然后他们将使用这种新的书写系统将各种文本翻译成语言，其中包括圣经。由于健康原因，这些计划被取消，他们留在美国，沃尔在研究生毕业后加入了美国宇航局 喷气推进实验室。</p>
-<p>沃尔是基督教新生活拿撒勒教会的活跃成员</p>
-<h2 id="成就："><a href="#成就：" class="headerlink" title="成就："></a>成就：</h2><p>Wall 是Usenet 客户端和广泛使用的程序的作者。他曾两次赢得国际混淆 C 代码竞赛，并于 1998 年获得首届自由软件基金会自由软件进步奖。</p>
-<p><strong>1987年12月18日，Larry Wall发布了Perl 1.0</strong></p>
-<p>Wall 在为System Development Corporation（后来成为Unisys 的一部分）工作期间开发了 Perl 解释器和语言。他是Programming Perl（通常称为Camel Book，由O’Reilly 出版）的合著者，该书是Perl 程序员的权威资源；并编辑了Perl Cookbook。然后，他成为O’Reilly Media 的全职员工，以进一步开发 Perl 并撰写有关该主题的书籍。</p>
-<p>沃尔作为语言学家的训练在他的书、采访和讲座中显而易见。他经常将 Perl 比作自然语言，并用语言学原理解释他在 Perl 设计中的决定。他还经常使用语言学术语来表示 Perl 语言结构，因此他有时会说“名词”、“动词”和“主题化器” ，而不是“变量”、“函数”和“访问器”等传统术语。</p>
-<p>沃尔的基督教信仰影响了 Perl 的一些术语，例如名称本身，这是圣经中对“无价珍珠”的引用（马太福音13:46）。类似的参考是函数名称bless和Raku（以前称为 Perl 6）设计文档的组织，具有诸如apocalypse和exegesis 之类的类别。Wall 在会议上发言时也提到了他的信仰，包括 1999 年 8 月 23 日在加利福尼亚州蒙特雷举行的 Perl Conference 3.0。</p>
-<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>主条目：Perl 语言结构<br>根据 Wall 的说法，Perl 有两个口号。第一个是“有不止一种方法可以做到“。第二个口号是“容易的事情应该容易，困难的事情应该成为可能”。</p>
-<h2 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h2><p>Perl 的整体结构广泛地源自C。Perl本质上是过程性的，具有变量、表达式、赋值语句、花括号分隔的块、控制结构和子例程。[需要引用]</p>
-<p>Perl 还采用了 shell 编程的特性。所有变量都标有领先的印记，这让变量被插入直接进入字符串。然而，与 shell 不同的是，Perl 在对变量的所有访问中都使用了 sigil，并且与大多数使用 sigil 的其他编程语言不同，sigil 不表示变量的类型，而是表示表达式的类型。因此，例如，虽然数组由符号“@”（例如@arrayname）表示，但数组的单个成员由标量符号“$”（例如$arrayname[3]）表示。Perl 还有很多内置函数，提供了 shell 编程中经常使用的工具（虽然这些工具很多是由 shell 外部的程序实现的），比如排序，并调用操作系统设施。</p>
-<p>Perl从Lisp获取列表，从AWK获取散列（“关联数组”），从sed 获取正则表达式。这些简化并促进了许多解析、文本处理和数据管理任务。同样与 Lisp 共享的是块中最后一个值的隐式返回，以及所有语句都有一个值的事实，因此也是表达式并且可以在更大的表达式本身中使用。</p>
-<p>Perl 5 添加了支持复杂数据结构、一流函数（即闭包作为值）和面向对象的编程模型的特性。这些包括引用、包、基于类的方法调度和词法范围的变量，以及编译器指令（例如，strict 编译指令）。Perl 5 引入的一个主要附加功能是能够将代码打包为可重用模块。沃尔后来表示“Perl 5 模块系统的整个意图是鼓励 Perl 文化而不是 Perl 核心的发展。” </p>
-<p>所有版本的 Perl 都做自动数据输入和自动内存管理。解释器知道程序中每个数据对象的类型和存储要求；它根据需要使用引用计数为它们分配和释放存储空间（因此它无法在没有手动干预的情况下释放循环数据结构）。合法的类型转换——例如，从数字到字符串的转换——在运行时自动完成；非法类型转换是致命错误。</p>
-<h2 id="设计"><a href="#设计" class="headerlink" title="设计"></a>设计</h2><p>Perl 的设计可以理解为对计算机行业三大趋势的回应：硬件成本下降、劳动力成本上升以及编译器技术的改进。许多早期的计算机语言，例如Fortran和 C，旨在有效利用昂贵的计算机硬件。相比之下，Perl 的设计目的是让计算机程序员可以更快速、更轻松地编写程序。</p>
-<p>Perl 有许多特性，它们以更高的CPU和内存要求为代价来减轻程序员的任务。这些包括自动内存管理；动态打字；字符串、列表和散列；常用表达; 内省；和一个eval()函数。Perl 遵循“没有内置限制”的理论，一个类似于零一无穷大规则的想法。</p>
-<p>Wall 接受过语言学家的培训，Perl 的设计在很大程度上遵循了语言学原理。示例包括霍夫曼编码（常见结构应该很短）、良好的末端加权（重要信息应该放在首位）以及大量语言原语。Perl 偏爱简洁自然的语言结构，即使在它们使 Perl 解释器复杂化的情况下也是如此。</p>
-<p>Perl 的语法反映了“不同的东西应该看起来不同”的想法。例如，标量、数组和散列具有不同的前导符号。数组索引和散列键使用不同种类的花括号。字符串和正则表达式具有不同的标准分隔符。这种方法可以与Lisp 之类的语言形成对比，在Lisp中，由简单和通用的符号表达式组成的相同基本语法可用于所有目的。</p>
-<p>Perl 不强制执行任何特定的编程范式（过程式、面向对象式、函数式或其他），甚至不要求程序员在其中进行选择。</p>
-<p>Perl 语言及其周围的社区和文化都有广泛的实践倾向。《Perl编程》的序言开头：“Perl 是一种用于完成工作的语言。” 这样做的一个后果是 Perl 不是一种整洁的语言。它包括许多功能，容忍其规则的例外，并采用启发式方法来解决句法歧义。由于编译器的宽容性，有时很难发现错误。Perl 的函数文档对列表和标量上下文中内置函数的变体行为进行了评论，说：“通常，除非您想要一致性，否则它们会做您想做的事。” </p>
-<p>Perl 5 之前的 Perl 版本没有Perl 语言的书面规范或标准，也没有计划为当前版本的 Perl 创建一个。解释器只有一种实现，语言也随之发展。该解释器及其功能测试构成了该语言的事实上的规范。然而，Perl 6 从一个规范开始，和几个项目旨在实现部分或全部规范。[需要引用]</p>
-<p>资料翻译来自：</p>
-<p><a href="https://en.wikipedia.org/wiki/Larry_Wall">https://en.wikipedia.org/wiki/Larry_Wall</a></p>
-<p><a href="https://en.wikipedia.org/wiki/Perl">https://en.wikipedia.org/wiki/Perl</a></p>
-<p><a href="http://www.wall.org/~larry/">http://www.wall.org/~larry/</a></p>
+<h2 id="Apache配置文件"><a href="#Apache配置文件" class="headerlink" title="Apache配置文件"></a>Apache配置文件</h2><p>C:\server\apache\conf\httpd.conf</p>
+<h3 id="Apache加载载PHP"><a href="#Apache加载载PHP" class="headerlink" title="Apache加载载PHP"></a>Apache加载载PHP</h3><p><code>LoadModule php5 module C:/server/php5/php5apache2-2dl1</code></p>
+<h3 id="APache识别PHP文件代码"><a href="#APache识别PHP文件代码" class="headerlink" title="APache识别PHP文件代码"></a>APache识别PHP文件代码</h3><p><code>AddType application/x-httpd-php   .php</code></p>
+<h3 id="Apache加载PHP配置文件"><a href="#Apache加载PHP配置文件" class="headerlink" title="Apache加载PHP配置文件"></a>Apache加载PHP配置文件</h3><p><code>PHPIniDir &#39;C: /server/php5&#39;</code></p>
+<h3 id="测试Apache配置是否语法错误"><a href="#测试Apache配置是否语法错误" class="headerlink" title="测试Apache配置是否语法错误"></a>测试Apache配置是否语法错误</h3><p>C:\server\apache\bin&gt;httpd.exe -t<br>Syntax Ok</p>
+<h3 id="检查Apache加载了那些模块"><a href="#检查Apache加载了那些模块" class="headerlink" title="检查Apache加载了那些模块"></a>检查Apache加载了那些模块</h3><p>C:\server\apache\bin&gt;httpd.exe -m</p>
 ]]></content>
       <categories>
-        <category>Java</category>
-        <category>history</category>
+        <category>PHP</category>
       </categories>
       <tags>
-        <tag>history</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Pivotal牛逼低调的公司</title>
-    <url>/2021/06/11/Pivotal/</url>
-    <content><![CDATA[<p>Pivotal的确掌握着很多开源软件的核心技术。比如，开源PaaS平台Cloud  Foundry和Java开发的Spring框架、数据仓库Greenplum等，Pivotal都是主要的技术贡献者</p>
-<span id="more"></span>
-
-<h2 id="Pivotal"><a href="#Pivotal" class="headerlink" title="Pivotal"></a>Pivotal</h2><p>但如果你是一个开发者，在 Java后台开发使用最多的一个框架：Spring以及衍生框架、做缓存Redis、消息队列框架RabbitMQ、还有更牛的Greenplum，这些都是Pivotal公司的。</p>
-<p>还有Tomcat、Groovy里的一些顶级开发者，DevOps理论的提出者都在这个公司，2016年风靡全球的云原生理念亦是Pivotal公司提出，最近，美国硅谷著名的精益化创业书籍的作者Eric Ries也加入了Pivotal公司。</p>
-<p>Pivotal与VMware两家本就有非同一般的关系。2013年成立于美国的硅谷的Pivotal公司，由原VMWare首席执行官Paul Matritz出任Pivotal首席执行官。这家公司可以说是含着金钥匙出身的，成立之初就有Dell  EMC、VMWare和GE共同出资10亿美元，后来微软和福特加入其中，成为公司股东之一。公司于去年4月份在美国纽约证券交易所上市。</p>
-<p>Pivotal主要提供PaaS云原生应用开发平台及服务，帮助企业客户采用敏捷软件开发方法论，从而提高软件开发人员工作效率、减少运维成本，实现数字化转型、IT创新，并最终实现业务创新。“我们Pivotal是一家低调的技术公司，我们有很多真正硬核的技术，但业界知道的人并不多。”Pivotal公司副总裁兼大中华区总裁于志伟在接受记者采访时表示。</p>
-<p>Pivotal的确掌握着很多开源软件的核心技术。比如，开源PaaS平台Cloud  Foundry和Java开发的Spring框架、数据仓库Greenplum等，Pivotal都是主要的技术贡献者，尤其是前两个开源项目最早就起源于VMware。 </p>
-<p>Pivotal的PaaS平台就是这样的一个平台。众所周知，当今软件开发领域一个热门话题就是云原生应用的崛起。根据Gartner的预测，到2022年有75%的企业会使用基于云原生容器技术来构建它们的应用，而Pivotal正是这一潮流的先行者和探索者。此番VMware想要收购Pivotal也是看上后者的这一能力。</p>
-<p>于志伟介绍说，Pivotal是最早提出云原生概念的公司，Cloud Foundry也是最早的云原生PaaS平台之一。2014年Pivotal基于业界流行多年的开源Cloud  Foundry技术体系推出第一个商业版实现时，Docker才面世不久，K8s则还没有发布。当时，Cloud  Foundry是最受市场认可的PaaS平台之一，当年IBM的BlueMix和惠普的Helion云都选用Cloud  Foundry作为PaaS的核心平台。</p>
-<p>同时，Cloud Foundry一直在与时俱进，紧跟技术的潮流和最新变化。“从2014年年初发布第一版的Cloud Foundry商业版开始，到现在基本上3个月为一个版本周期发布新版本，不断创新。”</p>
-<p>实际上，Pivotal对容器技术一直非常关注。在Docker出来之前，Pivotal就有自己的容器技术实现，叫做Warden，之后不断升级直到现在的Diego。后来，随着K8s（Kubernetes）的流行，Pivotal于2017年年初联合谷歌推出了一个开源版的容器平台KUBO。在2018年年初的时候，Pivotal又联合Google、VMware共同发布了基于Kubernetes的容器平台PKS(Pivotal Container Services)。不久前，Pivotal还公布将推出一个名为PAS on  Kubernetes的新产品，将Kubernetes和Diego的容器环境融为一体，向企业的应用开发人员有多种选择，既可以通过无应用代码改造地方式借助Kubernetes来实现容器化，也可以使用Diego的方式来通过云原生的方式来实现应用现代化。</p>
-<p><a href="https://baijiahao.baidu.com/s?id=1642528154354438867&amp;wfr=spider&amp;for=pc">https://baijiahao.baidu.com/s?id=1642528154354438867&amp;wfr=spider&amp;for=pc</a></p>
-<p><a href="https://www.sohu.com/a/127172641_464027">https://www.sohu.com/a/127172641_464027</a></p>
-]]></content>
-      <categories>
-        <category>Corp</category>
-      </categories>
-      <tags>
-        <tag>Corp</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Python发展史 1991年 荷兰无聊青年</title>
-    <url>/2021/06/11/Python/</url>
-    <content><![CDATA[<p>Python发展史 1991年 荷兰无聊青年</p>
-<span id="more"></span>
-<h1 id="Python发展史-1991年-荷兰无聊青年"><a href="#Python发展史-1991年-荷兰无聊青年" class="headerlink" title="Python发展史 1991年 荷兰无聊青年"></a>Python发展史 1991年 荷兰无聊青年</h1><p>Python由吉多·范罗苏姆创造，第一版发布于1991年，它是ABC语言的后继者，也可以视之为一种使用传统中缀表达式的LISP方言[28]。</p>
-<p>Python的设计哲学强调代码的可读性和简洁的语法，尤其是使用空格缩进划分代码块。相比于C或Java，Python让开发者能够用更少的代码表达想法。不管是小型还是大型程序，该语言都试图让程序的结构清晰明了。</p>
-<p>Python解释器本身几乎可以在所有的操作系统中运行。Python的官方解释器CPython是用C语言编写的，它是一个由社区驱动的自由软件，目前由Python软件基金会管理。</p>
-<p>python的创始人为吉多·范罗苏姆，当时他在阿姆斯特丹的荷兰数学和计算机科学研究学会工作。1989年的圣诞节期间，吉多·范罗苏姆为了在打发时间，决心开发一个新的脚本解释编程，作为ABC语言的一种继承，替代使用Unix shell和C语言进行系统管理，担负同Amoeba操作系统的交互和异常处理。之所以选中Python作为编程的名字，是因为他是BBC电视剧——《蒙提·派森的飞行马戏团》（Monty Python’s Flying Circus）的爱好者。范罗苏姆作为Python的主要开发者独自担负这个项目的职责，直到2018年7月12日，他宣布从作为终身仁慈独裁者（BDFL）的职责上“永久休假”，Python社区向他授予这个头衔反映了他长期担任整个Python语言的发展方向的决策者。他在2019年1月至11月于参与了一个五人掌控委员会继续领导项目发展。</p>
-<p>在1991年2月，范罗苏姆发布了最初代码（标记为版本0.9.0）于alt.sources，这时就已经存在了带继承的类、异常处理、函数和核心数据类型list、dict、str等。在这个最初发行中就有了从Modula-3引进的模块系统，它的异常模型也类似于Modula-3，但增加了else子句[8]。在1994年1月Python达到了版本1.0。这个发行版主要新特征是包括了函数式编程工具lambda、map、filter和reduce。Python 1.4增加了受Modula-3启发的关键字参数和对复数的内建支持，还包含采取名字修饰的一种基本形式的数据隐藏。</p>
-<p>Python 2.0于2000年10月16日发布，介入了列表推导式，这是从函数式编程语言SETL和Haskell中引入的。它还向垃圾收集系统增加了环检测算法，并且支持Unicode[38]。Python 2.1支持了嵌套作用域，就像其他静态作用域语言一样[39]。Python 2.2的重大革新是将Python的类型（用C写成）和类（用Python写成）统一入一个层级，使得Python的对象模型成为纯粹和一致的面向对象的模型[40]；还增加了迭代器[41]，受CLU和Icon启发的生成器，和描述器协议。Python 2.4加入了集合数据类型，和函数修饰器[44]。Python 2.5加入了with语句。</p>
-<p>Python 3.0于2008年12月3日发布，它对语言做了较大修订而不能完全后向兼容。Python 3发行包括了2to3实用工具，它（至少部分的）自动将Python 2代码转换成Python 3代码。Python 3的很多新特性后来也被移植到旧的Python 2.6/2.7版本中。</p>
-<p>Python 2.7的产品寿命结束日期最初设定为2015年，出于对大量的现存代码不能前向移植到Python 3的关切而延期至2020年。随着Python 2的产品寿命结束，只有Python 3.8和后续版本仍被完全支持。</p>
-<p>在2020年12月，活跃的Python核心开发者选举Barry Warsaw、Brett Cannon、Carol Willing、Pablo Galindo Salgado和Thomas Wouters为2021年度“掌控委员会”的五位成员来领导这个项目。</p>
-<p>特征与设计哲学<br>Python是多范型编程语言。它完全支持结构化编程和面向对象编程，还有很多特征支持函数式编程和元编程包括元类和元对象（魔术方法）。通过扩展还可以支持很多范型，包括面向切面编程、契约式设计和逻辑编程。</p>
-<p>Python使用动态类型，在内存管理上采用引用计数和环检测相结合的垃圾收集器。它的特征还有动态名字解析（后期绑定），即在程序执行期间绑定方法和变量的名字。</p>
-<p>Python对遵循LISP传统的函数式编程提供了有限的支持，它提供了 map、filter和reduce函数；列表推导式、字典、集合和生成器表达式[60]。标准库中有两个模块（functools和itertools）实现了从Haskell和Standard ML取来的函数式工具。</p>
-<p>Python的设计哲学是“优雅”、“明确”、“简单”。它的重要准则被称为“Python之禅”。在Python解释器内运行import this可以获得完整的列表，下面是其中首要：</p>
-<p>优美优于丑陋。明了优于隐晦。<br>简单优于复杂。复杂优于凌乱。<br>扁平优于嵌套。稀疏优于稠密。<br>可读性很重要。</p>
-<p>Python开发者的哲学是“用一种方法，最好是只有一种方法来做一件事”，显著不同于拥有“不止一种方法去做一件事”风格的语言例如Perl。在设计Python语言时，如果面临多种选择，Python开发者一般会拒绝花俏的语法，而选择明确没有或者很少有歧义的语法。</p>
-<p>范罗苏姆认为ABC语言非常优美和强大，并没有成功的原因是非开放造成的，故而将Python本身设计为可扩展的。Python并不把所有的特性和功能都集成到语言核心，而是提供了丰富的API和工具，以便程序员能够轻松地使用C、Cython来编写扩展模块，因此很多人使用Python将其他语言编写的编程进行集成和封装。Python编译器本身也可以被集成到其它需要脚本语言的编程内。</p>
-<p>Python开发人员尽量避开不成熟或者不重要的优化。一些针对非重要部位的加快运行速度的补丁通常不会被合并到Python的官方实现CPython中。在某些对运行速度要求很高的情况，Python设计师可以使用JIT技术的PyPy，或者是将Python脚本翻译成C的Cython，还可以将时间关键的函数迁移至用C语言编写的扩展模块中。</p>
-]]></content>
-      <categories>
-        <category>Java</category>
-        <category>history</category>
-      </categories>
-      <tags>
-        <tag>history</tag>
+        <tag>PHP</tag>
       </tags>
   </entry>
   <entry>
@@ -762,6 +632,167 @@
       </tags>
   </entry>
   <entry>
+    <title>PHP连接MySQL数据库</title>
+    <url>/2021/06/22/PHP%E8%BF%9E%E6%8E%A5MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
+    <content><![CDATA[<p>PHP 连接 MySQL</p>
+<span id="more"></span>
+
+<p>**php mysql_connect不支持是因为PHP7已经彻底不支持“mysql_connect”函数了，该函数属于废弃函数，需要使用MySQLi或PDO_MySQL扩展来替换该函数。 **</p>
+<h1 id="PHP-连接-MySQL"><a href="#PHP-连接-MySQL" class="headerlink" title="PHP 连接 MySQL"></a>PHP 连接 MySQL</h1><p>PHP 5 及以上版本建议使用以下方式连接 MySQL :</p>
+<ul>
+<li><strong>MySQLi extension</strong> (“i” 意为 improved)</li>
+<li><strong>PDO (PHP Data Objects)</strong></li>
+</ul>
+<p>在 PHP 早期版本中我们使用 MySQL 扩展。但该扩展在 2012 年开始不建议使用。</p>
+<p><a href="https://www.runoob.com/php/php-mysql-connect.html">https://www.runoob.com/php/php-mysql-connect.html</a></p>
+<h2 id="Mysql如何设置root密码"><a href="#Mysql如何设置root密码" class="headerlink" title="Mysql如何设置root密码"></a>Mysql如何设置root密码</h2><p>查看当前用户和密码：</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">User</span>,Password <span class="keyword">from</span> mysql.user;</span><br></pre></td></tr></table></figure>
+
+<p>修改密码：</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">set</span> password <span class="keyword">for</span> root<span class="variable">@localhost</span><span class="operator">=</span>password(<span class="string">&#x27;Tz123456&#x27;</span>);</span><br></pre></td></tr></table></figure>
+
+<p>查询是否修改：</p>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">User</span>,Password <span class="keyword">from</span> mysql.user;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="PhpMyAdmin安装配置"><a href="#PhpMyAdmin安装配置" class="headerlink" title="PhpMyAdmin安装配置"></a>PhpMyAdmin安装配置</h2><p>配置文件config.inc.php</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/* Authentication type and info */</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;auth_type&#x27;] = &#x27;config&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;user&#x27;] = &#x27;root&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;password&#x27;] = &#x27;123456&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;extension&#x27;] = &#x27;mysqli&#x27;;</span><br><span class="line">$cfg[&#x27;Servers&#x27;][$i][&#x27;AllowNoPassword&#x27;] = true;</span><br><span class="line">$cfg[&#x27;Lang&#x27;] = &#x27;&#x27;;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>PHP</category>
+        <category>MySQL</category>
+      </categories>
+      <tags>
+        <tag>PHP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Pivotal牛逼低调的公司</title>
+    <url>/2021/06/11/Pivotal/</url>
+    <content><![CDATA[<p>Pivotal的确掌握着很多开源软件的核心技术。比如，开源PaaS平台Cloud  Foundry和Java开发的Spring框架、数据仓库Greenplum等，Pivotal都是主要的技术贡献者</p>
+<span id="more"></span>
+
+<h2 id="Pivotal"><a href="#Pivotal" class="headerlink" title="Pivotal"></a>Pivotal</h2><p>但如果你是一个开发者，在 Java后台开发使用最多的一个框架：Spring以及衍生框架、做缓存Redis、消息队列框架RabbitMQ、还有更牛的Greenplum，这些都是Pivotal公司的。</p>
+<p>还有Tomcat、Groovy里的一些顶级开发者，DevOps理论的提出者都在这个公司，2016年风靡全球的云原生理念亦是Pivotal公司提出，最近，美国硅谷著名的精益化创业书籍的作者Eric Ries也加入了Pivotal公司。</p>
+<p>Pivotal与VMware两家本就有非同一般的关系。2013年成立于美国的硅谷的Pivotal公司，由原VMWare首席执行官Paul Matritz出任Pivotal首席执行官。这家公司可以说是含着金钥匙出身的，成立之初就有Dell  EMC、VMWare和GE共同出资10亿美元，后来微软和福特加入其中，成为公司股东之一。公司于去年4月份在美国纽约证券交易所上市。</p>
+<p>Pivotal主要提供PaaS云原生应用开发平台及服务，帮助企业客户采用敏捷软件开发方法论，从而提高软件开发人员工作效率、减少运维成本，实现数字化转型、IT创新，并最终实现业务创新。“我们Pivotal是一家低调的技术公司，我们有很多真正硬核的技术，但业界知道的人并不多。”Pivotal公司副总裁兼大中华区总裁于志伟在接受记者采访时表示。</p>
+<p>Pivotal的确掌握着很多开源软件的核心技术。比如，开源PaaS平台Cloud  Foundry和Java开发的Spring框架、数据仓库Greenplum等，Pivotal都是主要的技术贡献者，尤其是前两个开源项目最早就起源于VMware。 </p>
+<p>Pivotal的PaaS平台就是这样的一个平台。众所周知，当今软件开发领域一个热门话题就是云原生应用的崛起。根据Gartner的预测，到2022年有75%的企业会使用基于云原生容器技术来构建它们的应用，而Pivotal正是这一潮流的先行者和探索者。此番VMware想要收购Pivotal也是看上后者的这一能力。</p>
+<p>于志伟介绍说，Pivotal是最早提出云原生概念的公司，Cloud Foundry也是最早的云原生PaaS平台之一。2014年Pivotal基于业界流行多年的开源Cloud  Foundry技术体系推出第一个商业版实现时，Docker才面世不久，K8s则还没有发布。当时，Cloud  Foundry是最受市场认可的PaaS平台之一，当年IBM的BlueMix和惠普的Helion云都选用Cloud  Foundry作为PaaS的核心平台。</p>
+<p>同时，Cloud Foundry一直在与时俱进，紧跟技术的潮流和最新变化。“从2014年年初发布第一版的Cloud Foundry商业版开始，到现在基本上3个月为一个版本周期发布新版本，不断创新。”</p>
+<p>实际上，Pivotal对容器技术一直非常关注。在Docker出来之前，Pivotal就有自己的容器技术实现，叫做Warden，之后不断升级直到现在的Diego。后来，随着K8s（Kubernetes）的流行，Pivotal于2017年年初联合谷歌推出了一个开源版的容器平台KUBO。在2018年年初的时候，Pivotal又联合Google、VMware共同发布了基于Kubernetes的容器平台PKS(Pivotal Container Services)。不久前，Pivotal还公布将推出一个名为PAS on  Kubernetes的新产品，将Kubernetes和Diego的容器环境融为一体，向企业的应用开发人员有多种选择，既可以通过无应用代码改造地方式借助Kubernetes来实现容器化，也可以使用Diego的方式来通过云原生的方式来实现应用现代化。</p>
+<p><a href="https://baijiahao.baidu.com/s?id=1642528154354438867&amp;wfr=spider&amp;for=pc">https://baijiahao.baidu.com/s?id=1642528154354438867&amp;wfr=spider&amp;for=pc</a></p>
+<p><a href="https://www.sohu.com/a/127172641_464027">https://www.sohu.com/a/127172641_464027</a></p>
+]]></content>
+      <categories>
+        <category>Corp</category>
+      </categories>
+      <tags>
+        <tag>Corp</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Perl的发展史 珍珠的诞生1987年 34岁</title>
+    <url>/2021/06/11/Perl/</url>
+    <content><![CDATA[<p>Perl的发展史 珍珠的诞生1987年 34岁</p>
+<span id="more"></span>
+
+<h2 id="生平："><a href="#生平：" class="headerlink" title="生平："></a>生平：</h2><p>拉里·沃尔 Larry  Wall (1954 年 9 月 27 日出生）是美国 计算机程序员和作家。他创建了Perl 编程语言。</p>
+<p>沃尔在洛杉矶和华盛顿的布雷默顿长大</p>
+<p>1976 年在西雅图太平洋大学开始接受高等教育，主修化学和音乐，后来攻读医学预科，在大学的计算中心工作了几年，然后获得了自然和人工语言学学士学位。</p>
+<p>在加州大学伯克利分校读研究生期间 ，沃尔和他的妻子正在学习语言学，目的是寻找一种不成文的语言，也许是在非洲，并为它创建一个书写系统。然后他们将使用这种新的书写系统将各种文本翻译成语言，其中包括圣经。由于健康原因，这些计划被取消，他们留在美国，沃尔在研究生毕业后加入了美国宇航局 喷气推进实验室。</p>
+<p>沃尔是基督教新生活拿撒勒教会的活跃成员</p>
+<h2 id="成就："><a href="#成就：" class="headerlink" title="成就："></a>成就：</h2><p>Wall 是Usenet 客户端和广泛使用的程序的作者。他曾两次赢得国际混淆 C 代码竞赛，并于 1998 年获得首届自由软件基金会自由软件进步奖。</p>
+<p><strong>1987年12月18日，Larry Wall发布了Perl 1.0</strong></p>
+<p>Wall 在为System Development Corporation（后来成为Unisys 的一部分）工作期间开发了 Perl 解释器和语言。他是Programming Perl（通常称为Camel Book，由O’Reilly 出版）的合著者，该书是Perl 程序员的权威资源；并编辑了Perl Cookbook。然后，他成为O’Reilly Media 的全职员工，以进一步开发 Perl 并撰写有关该主题的书籍。</p>
+<p>沃尔作为语言学家的训练在他的书、采访和讲座中显而易见。他经常将 Perl 比作自然语言，并用语言学原理解释他在 Perl 设计中的决定。他还经常使用语言学术语来表示 Perl 语言结构，因此他有时会说“名词”、“动词”和“主题化器” ，而不是“变量”、“函数”和“访问器”等传统术语。</p>
+<p>沃尔的基督教信仰影响了 Perl 的一些术语，例如名称本身，这是圣经中对“无价珍珠”的引用（马太福音13:46）。类似的参考是函数名称bless和Raku（以前称为 Perl 6）设计文档的组织，具有诸如apocalypse和exegesis 之类的类别。Wall 在会议上发言时也提到了他的信仰，包括 1999 年 8 月 23 日在加利福尼亚州蒙特雷举行的 Perl Conference 3.0。</p>
+<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>主条目：Perl 语言结构<br>根据 Wall 的说法，Perl 有两个口号。第一个是“有不止一种方法可以做到“。第二个口号是“容易的事情应该容易，困难的事情应该成为可能”。</p>
+<h2 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h2><p>Perl 的整体结构广泛地源自C。Perl本质上是过程性的，具有变量、表达式、赋值语句、花括号分隔的块、控制结构和子例程。[需要引用]</p>
+<p>Perl 还采用了 shell 编程的特性。所有变量都标有领先的印记，这让变量被插入直接进入字符串。然而，与 shell 不同的是，Perl 在对变量的所有访问中都使用了 sigil，并且与大多数使用 sigil 的其他编程语言不同，sigil 不表示变量的类型，而是表示表达式的类型。因此，例如，虽然数组由符号“@”（例如@arrayname）表示，但数组的单个成员由标量符号“$”（例如$arrayname[3]）表示。Perl 还有很多内置函数，提供了 shell 编程中经常使用的工具（虽然这些工具很多是由 shell 外部的程序实现的），比如排序，并调用操作系统设施。</p>
+<p>Perl从Lisp获取列表，从AWK获取散列（“关联数组”），从sed 获取正则表达式。这些简化并促进了许多解析、文本处理和数据管理任务。同样与 Lisp 共享的是块中最后一个值的隐式返回，以及所有语句都有一个值的事实，因此也是表达式并且可以在更大的表达式本身中使用。</p>
+<p>Perl 5 添加了支持复杂数据结构、一流函数（即闭包作为值）和面向对象的编程模型的特性。这些包括引用、包、基于类的方法调度和词法范围的变量，以及编译器指令（例如，strict 编译指令）。Perl 5 引入的一个主要附加功能是能够将代码打包为可重用模块。沃尔后来表示“Perl 5 模块系统的整个意图是鼓励 Perl 文化而不是 Perl 核心的发展。” </p>
+<p>所有版本的 Perl 都做自动数据输入和自动内存管理。解释器知道程序中每个数据对象的类型和存储要求；它根据需要使用引用计数为它们分配和释放存储空间（因此它无法在没有手动干预的情况下释放循环数据结构）。合法的类型转换——例如，从数字到字符串的转换——在运行时自动完成；非法类型转换是致命错误。</p>
+<h2 id="设计"><a href="#设计" class="headerlink" title="设计"></a>设计</h2><p>Perl 的设计可以理解为对计算机行业三大趋势的回应：硬件成本下降、劳动力成本上升以及编译器技术的改进。许多早期的计算机语言，例如Fortran和 C，旨在有效利用昂贵的计算机硬件。相比之下，Perl 的设计目的是让计算机程序员可以更快速、更轻松地编写程序。</p>
+<p>Perl 有许多特性，它们以更高的CPU和内存要求为代价来减轻程序员的任务。这些包括自动内存管理；动态打字；字符串、列表和散列；常用表达; 内省；和一个eval()函数。Perl 遵循“没有内置限制”的理论，一个类似于零一无穷大规则的想法。</p>
+<p>Wall 接受过语言学家的培训，Perl 的设计在很大程度上遵循了语言学原理。示例包括霍夫曼编码（常见结构应该很短）、良好的末端加权（重要信息应该放在首位）以及大量语言原语。Perl 偏爱简洁自然的语言结构，即使在它们使 Perl 解释器复杂化的情况下也是如此。</p>
+<p>Perl 的语法反映了“不同的东西应该看起来不同”的想法。例如，标量、数组和散列具有不同的前导符号。数组索引和散列键使用不同种类的花括号。字符串和正则表达式具有不同的标准分隔符。这种方法可以与Lisp 之类的语言形成对比，在Lisp中，由简单和通用的符号表达式组成的相同基本语法可用于所有目的。</p>
+<p>Perl 不强制执行任何特定的编程范式（过程式、面向对象式、函数式或其他），甚至不要求程序员在其中进行选择。</p>
+<p>Perl 语言及其周围的社区和文化都有广泛的实践倾向。《Perl编程》的序言开头：“Perl 是一种用于完成工作的语言。” 这样做的一个后果是 Perl 不是一种整洁的语言。它包括许多功能，容忍其规则的例外，并采用启发式方法来解决句法歧义。由于编译器的宽容性，有时很难发现错误。Perl 的函数文档对列表和标量上下文中内置函数的变体行为进行了评论，说：“通常，除非您想要一致性，否则它们会做您想做的事。” </p>
+<p>Perl 5 之前的 Perl 版本没有Perl 语言的书面规范或标准，也没有计划为当前版本的 Perl 创建一个。解释器只有一种实现，语言也随之发展。该解释器及其功能测试构成了该语言的事实上的规范。然而，Perl 6 从一个规范开始，和几个项目旨在实现部分或全部规范。[需要引用]</p>
+<p>资料翻译来自：</p>
+<p><a href="https://en.wikipedia.org/wiki/Larry_Wall">https://en.wikipedia.org/wiki/Larry_Wall</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Perl">https://en.wikipedia.org/wiki/Perl</a></p>
+<p><a href="http://www.wall.org/~larry/">http://www.wall.org/~larry/</a></p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>history</category>
+      </categories>
+      <tags>
+        <tag>history</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python发展史 1991年 荷兰无聊青年</title>
+    <url>/2021/06/11/Python/</url>
+    <content><![CDATA[<p>Python发展史 1991年 荷兰无聊青年</p>
+<span id="more"></span>
+<h1 id="Python发展史-1991年-荷兰无聊青年"><a href="#Python发展史-1991年-荷兰无聊青年" class="headerlink" title="Python发展史 1991年 荷兰无聊青年"></a>Python发展史 1991年 荷兰无聊青年</h1><p>Python由吉多·范罗苏姆创造，第一版发布于1991年，它是ABC语言的后继者，也可以视之为一种使用传统中缀表达式的LISP方言[28]。</p>
+<p>Python的设计哲学强调代码的可读性和简洁的语法，尤其是使用空格缩进划分代码块。相比于C或Java，Python让开发者能够用更少的代码表达想法。不管是小型还是大型程序，该语言都试图让程序的结构清晰明了。</p>
+<p>Python解释器本身几乎可以在所有的操作系统中运行。Python的官方解释器CPython是用C语言编写的，它是一个由社区驱动的自由软件，目前由Python软件基金会管理。</p>
+<p>python的创始人为吉多·范罗苏姆，当时他在阿姆斯特丹的荷兰数学和计算机科学研究学会工作。1989年的圣诞节期间，吉多·范罗苏姆为了在打发时间，决心开发一个新的脚本解释编程，作为ABC语言的一种继承，替代使用Unix shell和C语言进行系统管理，担负同Amoeba操作系统的交互和异常处理。之所以选中Python作为编程的名字，是因为他是BBC电视剧——《蒙提·派森的飞行马戏团》（Monty Python’s Flying Circus）的爱好者。范罗苏姆作为Python的主要开发者独自担负这个项目的职责，直到2018年7月12日，他宣布从作为终身仁慈独裁者（BDFL）的职责上“永久休假”，Python社区向他授予这个头衔反映了他长期担任整个Python语言的发展方向的决策者。他在2019年1月至11月于参与了一个五人掌控委员会继续领导项目发展。</p>
+<p>在1991年2月，范罗苏姆发布了最初代码（标记为版本0.9.0）于alt.sources，这时就已经存在了带继承的类、异常处理、函数和核心数据类型list、dict、str等。在这个最初发行中就有了从Modula-3引进的模块系统，它的异常模型也类似于Modula-3，但增加了else子句[8]。在1994年1月Python达到了版本1.0。这个发行版主要新特征是包括了函数式编程工具lambda、map、filter和reduce。Python 1.4增加了受Modula-3启发的关键字参数和对复数的内建支持，还包含采取名字修饰的一种基本形式的数据隐藏。</p>
+<p>Python 2.0于2000年10月16日发布，介入了列表推导式，这是从函数式编程语言SETL和Haskell中引入的。它还向垃圾收集系统增加了环检测算法，并且支持Unicode[38]。Python 2.1支持了嵌套作用域，就像其他静态作用域语言一样[39]。Python 2.2的重大革新是将Python的类型（用C写成）和类（用Python写成）统一入一个层级，使得Python的对象模型成为纯粹和一致的面向对象的模型[40]；还增加了迭代器[41]，受CLU和Icon启发的生成器，和描述器协议。Python 2.4加入了集合数据类型，和函数修饰器[44]。Python 2.5加入了with语句。</p>
+<p>Python 3.0于2008年12月3日发布，它对语言做了较大修订而不能完全后向兼容。Python 3发行包括了2to3实用工具，它（至少部分的）自动将Python 2代码转换成Python 3代码。Python 3的很多新特性后来也被移植到旧的Python 2.6/2.7版本中。</p>
+<p>Python 2.7的产品寿命结束日期最初设定为2015年，出于对大量的现存代码不能前向移植到Python 3的关切而延期至2020年。随着Python 2的产品寿命结束，只有Python 3.8和后续版本仍被完全支持。</p>
+<p>在2020年12月，活跃的Python核心开发者选举Barry Warsaw、Brett Cannon、Carol Willing、Pablo Galindo Salgado和Thomas Wouters为2021年度“掌控委员会”的五位成员来领导这个项目。</p>
+<p>特征与设计哲学<br>Python是多范型编程语言。它完全支持结构化编程和面向对象编程，还有很多特征支持函数式编程和元编程包括元类和元对象（魔术方法）。通过扩展还可以支持很多范型，包括面向切面编程、契约式设计和逻辑编程。</p>
+<p>Python使用动态类型，在内存管理上采用引用计数和环检测相结合的垃圾收集器。它的特征还有动态名字解析（后期绑定），即在程序执行期间绑定方法和变量的名字。</p>
+<p>Python对遵循LISP传统的函数式编程提供了有限的支持，它提供了 map、filter和reduce函数；列表推导式、字典、集合和生成器表达式[60]。标准库中有两个模块（functools和itertools）实现了从Haskell和Standard ML取来的函数式工具。</p>
+<p>Python的设计哲学是“优雅”、“明确”、“简单”。它的重要准则被称为“Python之禅”。在Python解释器内运行import this可以获得完整的列表，下面是其中首要：</p>
+<p>优美优于丑陋。明了优于隐晦。<br>简单优于复杂。复杂优于凌乱。<br>扁平优于嵌套。稀疏优于稠密。<br>可读性很重要。</p>
+<p>Python开发者的哲学是“用一种方法，最好是只有一种方法来做一件事”，显著不同于拥有“不止一种方法去做一件事”风格的语言例如Perl。在设计Python语言时，如果面临多种选择，Python开发者一般会拒绝花俏的语法，而选择明确没有或者很少有歧义的语法。</p>
+<p>范罗苏姆认为ABC语言非常优美和强大，并没有成功的原因是非开放造成的，故而将Python本身设计为可扩展的。Python并不把所有的特性和功能都集成到语言核心，而是提供了丰富的API和工具，以便程序员能够轻松地使用C、Cython来编写扩展模块，因此很多人使用Python将其他语言编写的编程进行集成和封装。Python编译器本身也可以被集成到其它需要脚本语言的编程内。</p>
+<p>Python开发人员尽量避开不成熟或者不重要的优化。一些针对非重要部位的加快运行速度的补丁通常不会被合并到Python的官方实现CPython中。在某些对运行速度要求很高的情况，Python设计师可以使用JIT技术的PyPy，或者是将Python脚本翻译成C的Cython，还可以将时间关键的函数迁移至用C语言编写的扩展模块中。</p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>history</category>
+      </categories>
+      <tags>
+        <tag>history</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python办公自动化word转pdf</title>
+    <url>/2021/07/16/Python%E5%8A%9E%E5%85%AC%E8%87%AA%E5%8A%A8%E5%8C%96word%E8%BD%ACpdf/</url>
+    <content><![CDATA[<p>Python办公自动化word转pdf</p>
+<span id="more"></span>
+
+
+
+<p>使用的到的Python库/模块</p>
+<ul>
+<li><h2 id="pathlib"><a href="#pathlib" class="headerlink" title="pathlib"></a>pathlib</h2></li>
+<li><h2 id="comtypes"><a href="#comtypes" class="headerlink" title="comtypes"></a>comtypes</h2></li>
+<li><h2 id="glob"><a href="#glob" class="headerlink" title="glob"></a>glob</h2></li>
+</ul>
+<p>glob是python自己带的一个文件操作相关模块，用它可以查找符合自己目的的文件</p>
+<p>glob模块的主要方法就是glob,该方法返回  所有匹配的文件路径<strong>列表</strong>（list）该方法需要一个参数用来指定匹配的路径字符串</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> pathlib <span class="keyword">import</span> Path</span><br><span class="line"><span class="keyword">from</span> comtypes.client <span class="keyword">import</span> CreateObject</span><br><span class="line"></span><br><span class="line">src_folder = Path(<span class="string">&#x27;C:\\Bin\\word\\&#x27;</span>)</span><br><span class="line">des_folder = Path(<span class="string">&#x27;C:\\Bin\\pdf\\&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> <span class="keyword">not</span> des_folder.exists():</span><br><span class="line">    des_folder.mkdir(parents=<span class="literal">True</span>)</span><br><span class="line">file_list = <span class="built_in">list</span>(src_folder.glob(<span class="string">&#x27;*.docx&#x27;</span>))</span><br><span class="line"></span><br><span class="line">word = CreateObject(<span class="string">&#x27;Word.Application&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> word_path <span class="keyword">in</span> file_list:</span><br><span class="line">    pdf_path = des_folder / word_path.with_suffix(<span class="string">&#x27;.pdf&#x27;</span>).name</span><br><span class="line">    <span class="keyword">if</span> pdf_path.exists():</span><br><span class="line">        <span class="keyword">continue</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        doc = word.Documents.Open(<span class="built_in">str</span>(word_path))</span><br><span class="line">        doc.SaveAs(<span class="built_in">str</span>(pdf_path), FileFormat=<span class="number">17</span>)</span><br><span class="line"></span><br><span class="line">        doc.Close()</span><br><span class="line">word.Quit()</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Python</category>
+        <category>办公自动化</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Python数据写入和读取到Excel</title>
     <url>/2021/07/13/Python%E6%95%B0%E6%8D%AE%E5%86%99%E5%85%A5%E5%92%8C%E8%AF%BB%E5%8F%96%E5%88%B0Excel/</url>
     <content><![CDATA[<p>python数据写入和读取到Excel</p>
@@ -822,26 +853,62 @@
       </tags>
   </entry>
   <entry>
-    <title>Python办公自动化word转pdf</title>
-    <url>/2021/07/16/Python%E5%8A%9E%E5%85%AC%E8%87%AA%E5%8A%A8%E5%8C%96word%E8%BD%ACpdf/</url>
-    <content><![CDATA[<p>Python办公自动化word转pdf</p>
+    <title>Python文件路径处理</title>
+    <url>/2021/07/20/Python%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84%E5%A4%84%E7%90%86/</url>
+    <content><![CDATA[<p>Python文件路径处理</p>
 <span id="more"></span>
 
 
 
-<p>使用的到的Python库/模块</p>
-<ul>
-<li><h2 id="pathlib"><a href="#pathlib" class="headerlink" title="pathlib"></a>pathlib</h2></li>
-<li><h2 id="comtypes"><a href="#comtypes" class="headerlink" title="comtypes"></a>comtypes</h2></li>
-<li><h2 id="glob"><a href="#glob" class="headerlink" title="glob"></a>glob</h2></li>
-</ul>
-<p>glob是python自己带的一个文件操作相关模块，用它可以查找符合自己目的的文件</p>
-<p>glob模块的主要方法就是glob,该方法返回  所有匹配的文件路径<strong>列表</strong>（list）该方法需要一个参数用来指定匹配的路径字符串</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> pathlib <span class="keyword">import</span> Path</span><br><span class="line"><span class="keyword">from</span> comtypes.client <span class="keyword">import</span> CreateObject</span><br><span class="line"></span><br><span class="line">src_folder = Path(<span class="string">&#x27;C:\\Bin\\word\\&#x27;</span>)</span><br><span class="line">des_folder = Path(<span class="string">&#x27;C:\\Bin\\pdf\\&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> <span class="keyword">not</span> des_folder.exists():</span><br><span class="line">    des_folder.mkdir(parents=<span class="literal">True</span>)</span><br><span class="line">file_list = <span class="built_in">list</span>(src_folder.glob(<span class="string">&#x27;*.docx&#x27;</span>))</span><br><span class="line"></span><br><span class="line">word = CreateObject(<span class="string">&#x27;Word.Application&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> word_path <span class="keyword">in</span> file_list:</span><br><span class="line">    pdf_path = des_folder / word_path.with_suffix(<span class="string">&#x27;.pdf&#x27;</span>).name</span><br><span class="line">    <span class="keyword">if</span> pdf_path.exists():</span><br><span class="line">        <span class="keyword">continue</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        doc = word.Documents.Open(<span class="built_in">str</span>(word_path))</span><br><span class="line">        doc.SaveAs(<span class="built_in">str</span>(pdf_path), FileFormat=<span class="number">17</span>)</span><br><span class="line"></span><br><span class="line">        doc.Close()</span><br><span class="line">word.Quit()</span><br></pre></td></tr></table></figure>
+<h2 id="os-path模块"><a href="#os-path模块" class="headerlink" title="os.path模块"></a>os.path模块</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> os.path</span><br><span class="line"></span><br><span class="line">data_folder = os.path.join(<span class="string">&quot;source_data&quot;</span>, <span class="string">&quot;text_files&quot;</span>)</span><br><span class="line"></span><br><span class="line">file_to_open = os.path.join(data_folder, <span class="string">&quot;raw_data.txt&quot;</span>)</span><br><span class="line"></span><br><span class="line">f = <span class="built_in">open</span>(file_to_open)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(f.read())</span><br></pre></td></tr></table></figure>
+
+<p>此代码可以在各个平台顺利运行，但是反复使用os.path.join很啰嗦，重点是一点都不优雅！</p>
+<p>os.path有很多功能，但是比较繁琐，导致大家虽然都知道，但是就是懒得用。</p>
+<h2 id="更好解决方式：pathlib模块"><a href="#更好解决方式：pathlib模块" class="headerlink" title="更好解决方式：pathlib模块"></a>更好解决方式：pathlib模块</h2><p>python3.4+ 都自带标准库pathlib，所以你不需要再通过pip3 安装，这很cool</p>
+<p>你只需要这样</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> pathlib <span class="keyword">import</span> Path</span><br><span class="line"></span><br><span class="line">data_folder = Path(<span class="string">&quot;source_data/text_files/&quot;</span>)</span><br><span class="line"></span><br><span class="line">file_to_open = data_folder / <span class="string">&quot;raw_data.txt&quot;</span></span><br><span class="line"></span><br><span class="line">f = <span class="built_in">open</span>(file_to_open)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(f.read())</span><br></pre></td></tr></table></figure>
+
+<p>至此，你用一个非常优雅的方式解决了一个重大问题，但是你以为pathlib仅此而已了吗？</p>
+<p>你可用它读文件，而不需要open()</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> pathlib <span class="keyword">import</span> Path</span><br><span class="line"></span><br><span class="line">data_folder = Path(<span class="string">&quot;source_data/text_files/&quot;</span>)</span><br><span class="line"></span><br><span class="line">file_to_open = data_folder / <span class="string">&quot;raw_data.txt&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(file_to_open.read_text())</span><br></pre></td></tr></table></figure>
+
+<p>更cool的是，pathlib可以让你常用的文件及路径操作变得极为简单快捷</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> pathlib <span class="keyword">import</span> Path</span><br><span class="line"></span><br><span class="line">filename = Path(<span class="string">&quot;source_data/text_files/raw_data.txt&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(filename.name)</span><br><span class="line"><span class="comment"># prints &quot;raw_data.txt&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(filename.suffix)</span><br><span class="line"><span class="comment"># prints &quot;txt&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(filename.stem)</span><br><span class="line"><span class="comment"># prints &quot;raw_data&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> <span class="keyword">not</span> filename.exists():</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Oops, file doesn&#x27;t exist!&quot;</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Yay, the file exists!&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://zhuanlan.zhihu.com/p/33524938">https://zhuanlan.zhihu.com/p/33524938</a></p>
 ]]></content>
       <categories>
         <category>Python</category>
-        <category>办公自动化</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python的错误和异常处理</title>
+    <url>/2021/07/16/Python%E7%9A%84%E9%94%99%E8%AF%AF%E5%92%8C%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/</url>
+    <content><![CDATA[<p>Python的错误和异常处理</p>
+<span id="more"></span>
+
+
+
+<h2 id="万能异常"><a href="#万能异常" class="headerlink" title="万能异常"></a><strong>万能异常</strong></h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    代码块</span><br><span class="line"><span class="keyword">except</span> Exception:</span><br><span class="line">    异常解决办法</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="多分支-万能异常"><a href="#多分支-万能异常" class="headerlink" title="多分支+万能异常"></a>多分支+万能异常</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    代码块</span><br><span class="line"><span class="keyword">except</span> 异常<span class="number">1</span>:</span><br><span class="line">    异常<span class="number">1</span>的解决办法</span><br><span class="line"><span class="keyword">except</span> 异常<span class="number">2</span>:</span><br><span class="line">    异常<span class="number">2</span>的解决办法</span><br><span class="line"><span class="keyword">except</span> Exception:</span><br><span class="line">    剩余的其他异常解决办法</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="netmiko的异常处理"><a href="#netmiko的异常处理" class="headerlink" title="netmiko的异常处理"></a>netmiko的异常处理</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> netmiko <span class="keyword">import</span> ConnectHandler</span><br><span class="line"><span class="keyword">from</span> netmiko.ssh_exception <span class="keyword">import</span> NetMikoAuthenticationException, NetMikoTimeoutException</span><br><span class="line"></span><br><span class="line">CONNECTION_PARAMS = &#123;<span class="string">&#x27;ip&#x27;</span>: <span class="string">&#x27;cloud-myt-qrator-6s254.yndx.net&#x27;</span>, <span class="string">&#x27;username&#x27;</span>: <span class="string">&#x27;netinfra-mon&#x27;</span>, <span class="string">&#x27;timeout&#x27;</span>: <span class="number">10</span>, <span class="string">&#x27;use_keys&#x27;</span>: <span class="literal">True</span>, <span class="string">&#x27;key_file&#x27;</span>: <span class="string">&#x27;/home/netinfra-mon/.ssh/id_rsa&#x27;</span>, <span class="string">&#x27;device_type&#x27;</span>: <span class="string">&#x27;juniper&#x27;</span>&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    <span class="keyword">with</span> ConnectHandler(**CONNECTION_PARAMS) <span class="keyword">as</span> ssh:</span><br><span class="line">        result = ssh.send_command(<span class="string">&#x27;sh ver&#x27;</span>)</span><br><span class="line">        <span class="built_in">print</span>(result)</span><br><span class="line"><span class="keyword">except</span> (NetMikoAuthenticationException, NetMikoTimeoutException):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;Failed to connect to &#123;&#125;&#x27;</span>.<span class="built_in">format</span>(CONNECTION_PARAMS[<span class="string">&#x27;ip&#x27;</span>]))</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<p><a href="https://mrsnote.com/2020/01/03/netmiko-send_command-exceptions/">https://mrsnote.com/2020/01/03/netmiko-send_command-exceptions/</a></p>
+<p><a href="https://www.runoob.com/python/python-exceptions.html">https://www.runoob.com/python/python-exceptions.html</a></p>
+]]></content>
+      <categories>
+        <category>Python</category>
       </categories>
       <tags>
         <tag>Python</tag>
@@ -877,36 +944,6 @@
       </categories>
       <tags>
         <tag>Redis</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Python的错误和异常处理</title>
-    <url>/2021/07/16/Python%E7%9A%84%E9%94%99%E8%AF%AF%E5%92%8C%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/</url>
-    <content><![CDATA[<p>Python的错误和异常处理</p>
-<span id="more"></span>
-
-
-
-<h2 id="万能异常"><a href="#万能异常" class="headerlink" title="万能异常"></a><strong>万能异常</strong></h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    代码块</span><br><span class="line"><span class="keyword">except</span> Exception:</span><br><span class="line">    异常解决办法</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="多分支-万能异常"><a href="#多分支-万能异常" class="headerlink" title="多分支+万能异常"></a>多分支+万能异常</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    代码块</span><br><span class="line"><span class="keyword">except</span> 异常<span class="number">1</span>:</span><br><span class="line">    异常<span class="number">1</span>的解决办法</span><br><span class="line"><span class="keyword">except</span> 异常<span class="number">2</span>:</span><br><span class="line">    异常<span class="number">2</span>的解决办法</span><br><span class="line"><span class="keyword">except</span> Exception:</span><br><span class="line">    剩余的其他异常解决办法</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="netmiko的异常处理"><a href="#netmiko的异常处理" class="headerlink" title="netmiko的异常处理"></a>netmiko的异常处理</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> netmiko <span class="keyword">import</span> ConnectHandler</span><br><span class="line"><span class="keyword">from</span> netmiko.ssh_exception <span class="keyword">import</span> NetMikoAuthenticationException, NetMikoTimeoutException</span><br><span class="line"></span><br><span class="line">CONNECTION_PARAMS = &#123;<span class="string">&#x27;ip&#x27;</span>: <span class="string">&#x27;cloud-myt-qrator-6s254.yndx.net&#x27;</span>, <span class="string">&#x27;username&#x27;</span>: <span class="string">&#x27;netinfra-mon&#x27;</span>, <span class="string">&#x27;timeout&#x27;</span>: <span class="number">10</span>, <span class="string">&#x27;use_keys&#x27;</span>: <span class="literal">True</span>, <span class="string">&#x27;key_file&#x27;</span>: <span class="string">&#x27;/home/netinfra-mon/.ssh/id_rsa&#x27;</span>, <span class="string">&#x27;device_type&#x27;</span>: <span class="string">&#x27;juniper&#x27;</span>&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    <span class="keyword">with</span> ConnectHandler(**CONNECTION_PARAMS) <span class="keyword">as</span> ssh:</span><br><span class="line">        result = ssh.send_command(<span class="string">&#x27;sh ver&#x27;</span>)</span><br><span class="line">        <span class="built_in">print</span>(result)</span><br><span class="line"><span class="keyword">except</span> (NetMikoAuthenticationException, NetMikoTimeoutException):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;Failed to connect to &#123;&#125;&#x27;</span>.<span class="built_in">format</span>(CONNECTION_PARAMS[<span class="string">&#x27;ip&#x27;</span>]))</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-
-
-<p><a href="https://mrsnote.com/2020/01/03/netmiko-send_command-exceptions/">https://mrsnote.com/2020/01/03/netmiko-send_command-exceptions/</a></p>
-<p><a href="https://www.runoob.com/python/python-exceptions.html">https://www.runoob.com/python/python-exceptions.html</a></p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -982,38 +1019,6 @@
       </categories>
       <tags>
         <tag>ASA</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Python文件路径处理</title>
-    <url>/2021/07/20/Python%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84%E5%A4%84%E7%90%86/</url>
-    <content><![CDATA[<p>Python文件路径处理</p>
-<span id="more"></span>
-
-
-
-<h2 id="os-path模块"><a href="#os-path模块" class="headerlink" title="os.path模块"></a>os.path模块</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> os.path</span><br><span class="line"></span><br><span class="line">data_folder = os.path.join(<span class="string">&quot;source_data&quot;</span>, <span class="string">&quot;text_files&quot;</span>)</span><br><span class="line"></span><br><span class="line">file_to_open = os.path.join(data_folder, <span class="string">&quot;raw_data.txt&quot;</span>)</span><br><span class="line"></span><br><span class="line">f = <span class="built_in">open</span>(file_to_open)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(f.read())</span><br></pre></td></tr></table></figure>
-
-<p>此代码可以在各个平台顺利运行，但是反复使用os.path.join很啰嗦，重点是一点都不优雅！</p>
-<p>os.path有很多功能，但是比较繁琐，导致大家虽然都知道，但是就是懒得用。</p>
-<h2 id="更好解决方式：pathlib模块"><a href="#更好解决方式：pathlib模块" class="headerlink" title="更好解决方式：pathlib模块"></a>更好解决方式：pathlib模块</h2><p>python3.4+ 都自带标准库pathlib，所以你不需要再通过pip3 安装，这很cool</p>
-<p>你只需要这样</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> pathlib <span class="keyword">import</span> Path</span><br><span class="line"></span><br><span class="line">data_folder = Path(<span class="string">&quot;source_data/text_files/&quot;</span>)</span><br><span class="line"></span><br><span class="line">file_to_open = data_folder / <span class="string">&quot;raw_data.txt&quot;</span></span><br><span class="line"></span><br><span class="line">f = <span class="built_in">open</span>(file_to_open)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(f.read())</span><br></pre></td></tr></table></figure>
-
-<p>至此，你用一个非常优雅的方式解决了一个重大问题，但是你以为pathlib仅此而已了吗？</p>
-<p>你可用它读文件，而不需要open()</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> pathlib <span class="keyword">import</span> Path</span><br><span class="line"></span><br><span class="line">data_folder = Path(<span class="string">&quot;source_data/text_files/&quot;</span>)</span><br><span class="line"></span><br><span class="line">file_to_open = data_folder / <span class="string">&quot;raw_data.txt&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(file_to_open.read_text())</span><br></pre></td></tr></table></figure>
-
-<p>更cool的是，pathlib可以让你常用的文件及路径操作变得极为简单快捷</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> pathlib <span class="keyword">import</span> Path</span><br><span class="line"></span><br><span class="line">filename = Path(<span class="string">&quot;source_data/text_files/raw_data.txt&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(filename.name)</span><br><span class="line"><span class="comment"># prints &quot;raw_data.txt&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(filename.suffix)</span><br><span class="line"><span class="comment"># prints &quot;txt&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(filename.stem)</span><br><span class="line"><span class="comment"># prints &quot;raw_data&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> <span class="keyword">not</span> filename.exists():</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Oops, file doesn&#x27;t exist!&quot;</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Yay, the file exists!&quot;</span>)</span><br></pre></td></tr></table></figure>
-
-<p><a href="https://zhuanlan.zhihu.com/p/33524938">https://zhuanlan.zhihu.com/p/33524938</a></p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -1098,6 +1103,50 @@
       </tags>
   </entry>
   <entry>
+    <title>java入门01</title>
+    <url>/2021/06/21/java%E5%85%A5%E9%97%A801/</url>
+    <content><![CDATA[<p>public static void main(String[] args)，是java程序的入口地址</p>
+<span id="more"></span>
+
+<h3 id="Java程序入口："><a href="#Java程序入口：" class="headerlink" title="Java程序入口："></a>Java程序入口：</h3><p>**public static void main(String[] args)**，是java程序的入口地址，java虚拟机运行程序的时候首先找的就是main方法。</p>
+<p>这里要对main函数讲解一下，参数String[] args是一个字符串数组，接收来自程度序执行时传进来的参数。如果是在控制台，可以通过编译执行将参数传进来。</p>
+<p>Jvm在试图运答行一个类之前，先检查该类是否包含一个特殊方法。这个方法必须是公有的，以便在任何位置都能访问得到。</p>
+<p>public 表内示程序的访问权限，表示的是任何的场合可以被引用。<br>static表示方法是静态的，不依赖类的对象的。<br>void:main() 方法是不需要返回值的。</p>
+<h3 id="Java数据类型"><a href="#Java数据类型" class="headerlink" title="Java数据类型"></a>Java数据类型</h3><p><strong>数字</strong><br>int<br>double<br>long</p>
+<p><strong>字符</strong></p>
+]]></content>
+      <categories>
+        <category>Java</category>
+        <category>Basic</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>linux网络命令</title>
+    <url>/2021/06/01/linux%E7%BD%91%E7%BB%9C%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<p>linux网络命令</p>
+<span id="more"></span>
+<h3 id="linux修改接口IP和DNS"><a href="#linux修改接口IP和DNS" class="headerlink" title="linux修改接口IP和DNS"></a>linux修改接口IP和DNS</h3><p>1.ifconfig 查看接口的名字</p>
+<p>2.找到路径<br><code>/etc/sysconfig/network-scripts/</code></p>
+<p>3.编辑接口名字<br><code>vi eth0</code></p>
+<p>4.修改DNS<br><code>/etc/resolv.conf</code></p>
+<h3 id="查看接口状态"><a href="#查看接口状态" class="headerlink" title="查看接口状态"></a>查看接口状态</h3><p><code>ip link show</code></p>
+<h3 id="查看IP地址配置："><a href="#查看IP地址配置：" class="headerlink" title="查看IP地址配置："></a>查看IP地址配置：</h3><p><code>ip address</code></p>
+<h3 id="查看路由和默认路由"><a href="#查看路由和默认路由" class="headerlink" title="查看路由和默认路由"></a>查看路由和默认路由</h3><p><code>ip route</code></p>
+<h3 id="其他查看路由命令"><a href="#其他查看路由命令" class="headerlink" title="其他查看路由命令"></a>其他查看路由命令</h3><p><code>route -n</code><br><code>netstat -rn</code> </p>
+<h2 id="nmcli命令"><a href="#nmcli命令" class="headerlink" title="nmcli命令"></a>nmcli命令</h2><p><code>nmcli device status</code><br><code>nmcli connection show</code></p>
+<h2 id="nmtui命令"><a href="#nmtui命令" class="headerlink" title="nmtui命令"></a>nmtui命令</h2><p><code>nmtui</code></p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>java之Maven</title>
     <url>/2021/06/21/java%E4%B9%8BMaven/</url>
     <content><![CDATA[<p>Maven是jar包管理工具</p>
@@ -1122,27 +1171,6 @@
       </tags>
   </entry>
   <entry>
-    <title>java入门01</title>
-    <url>/2021/06/21/java%E5%85%A5%E9%97%A801/</url>
-    <content><![CDATA[<p>public static void main(String[] args)，是java程序的入口地址</p>
-<span id="more"></span>
-
-<h3 id="Java程序入口："><a href="#Java程序入口：" class="headerlink" title="Java程序入口："></a>Java程序入口：</h3><p>**public static void main(String[] args)**，是java程序的入口地址，java虚拟机运行程序的时候首先找的就是main方法。</p>
-<p>这里要对main函数讲解一下，参数String[] args是一个字符串数组，接收来自程度序执行时传进来的参数。如果是在控制台，可以通过编译执行将参数传进来。</p>
-<p>Jvm在试图运答行一个类之前，先检查该类是否包含一个特殊方法。这个方法必须是公有的，以便在任何位置都能访问得到。</p>
-<p>public 表内示程序的访问权限，表示的是任何的场合可以被引用。<br>static表示方法是静态的，不依赖类的对象的。<br>void:main() 方法是不需要返回值的。</p>
-<h3 id="Java数据类型"><a href="#Java数据类型" class="headerlink" title="Java数据类型"></a>Java数据类型</h3><p><strong>数字</strong><br>int<br>double<br>long</p>
-<p><strong>字符</strong></p>
-]]></content>
-      <categories>
-        <category>Java</category>
-        <category>Basic</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>mysql发展史 一个男人的2个女儿名字命令数据库 1995年</title>
     <url>/2021/06/11/mysql/</url>
     <content><![CDATA[<h2 id="mysql发展史-一个男人的2个女儿名字命令数据库-1995年"><a href="#mysql发展史-一个男人的2个女儿名字命令数据库-1995年" class="headerlink" title="mysql发展史 一个男人的2个女儿名字命令数据库 1995年"></a>mysql发展史 一个男人的2个女儿名字命令数据库 1995年</h2><span id="more"></span>
@@ -1161,29 +1189,6 @@
       </categories>
       <tags>
         <tag>history</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>linux网络命令</title>
-    <url>/2021/06/01/linux%E7%BD%91%E7%BB%9C%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<p>linux网络命令</p>
-<span id="more"></span>
-<h3 id="linux修改接口IP和DNS"><a href="#linux修改接口IP和DNS" class="headerlink" title="linux修改接口IP和DNS"></a>linux修改接口IP和DNS</h3><p>1.ifconfig 查看接口的名字</p>
-<p>2.找到路径<br><code>/etc/sysconfig/network-scripts/</code></p>
-<p>3.编辑接口名字<br><code>vi eth0</code></p>
-<p>4.修改DNS<br><code>/etc/resolv.conf</code></p>
-<h3 id="查看接口状态"><a href="#查看接口状态" class="headerlink" title="查看接口状态"></a>查看接口状态</h3><p><code>ip link show</code></p>
-<h3 id="查看IP地址配置："><a href="#查看IP地址配置：" class="headerlink" title="查看IP地址配置："></a>查看IP地址配置：</h3><p><code>ip address</code></p>
-<h3 id="查看路由和默认路由"><a href="#查看路由和默认路由" class="headerlink" title="查看路由和默认路由"></a>查看路由和默认路由</h3><p><code>ip route</code></p>
-<h3 id="其他查看路由命令"><a href="#其他查看路由命令" class="headerlink" title="其他查看路由命令"></a>其他查看路由命令</h3><p><code>route -n</code><br><code>netstat -rn</code> </p>
-<h2 id="nmcli命令"><a href="#nmcli命令" class="headerlink" title="nmcli命令"></a>nmcli命令</h2><p><code>nmcli device status</code><br><code>nmcli connection show</code></p>
-<h2 id="nmtui命令"><a href="#nmtui命令" class="headerlink" title="nmtui命令"></a>nmtui命令</h2><p><code>nmtui</code></p>
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
@@ -1240,6 +1245,37 @@
       </tags>
   </entry>
   <entry>
+    <title>npm从零开始</title>
+    <url>/2021/05/26/npm%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
+    <content><![CDATA[<p>npm从零开始</p>
+<span id="more"></span>
+<p>接触到的第一个npm命令</p>
+<p><code>npm install hexo-cli -g</code></p>
+<h2 id="查看node版本"><a href="#查看node版本" class="headerlink" title="查看node版本"></a>查看node版本</h2><p>node -v </p>
+<h2 id="查看npm版本"><a href="#查看npm版本" class="headerlink" title="查看npm版本"></a>查看npm版本</h2><p>npm -v  </p>
+<h2 id="什么是npm-为什么要使用npm"><a href="#什么是npm-为什么要使用npm" class="headerlink" title="什么是npm? 为什么要使用npm?"></a>什么是npm? 为什么要使用npm?</h2><p>NPM是随同NodeJS的包管理工具</p>
+<h2 id="什么是CNPM？"><a href="#什么是CNPM？" class="headerlink" title="什么是CNPM？"></a>什么是CNPM？</h2><p>CNPM全称为”China Node Package Manager”，即中国的包管理镜器。其原理是用一个完整npmjs.org镜像，同步频率目前为10分钟一次以保证尽量与官方服务同步。</p>
+<p>国内的NPM软件源有很多，其中阿里云的软件源就是一个不错的选择，本片笔记就是使用阿里的软件源。</p>
+<p>npm 的包安装分为本地安装（local）、全局安装（global）两种</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli      # 本地安装</span><br><span class="line">npm install hexo-cli -g   # 全局安装</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="npm-install说明-常用简写"><a href="#npm-install说明-常用简写" class="headerlink" title="npm install说明 常用简写"></a>npm install说明 常用简写</h2><p>npm install=npm i。在git clone项目的时候，项目文件中并没有 node_modules文件夹，项目的依赖文件可能很大。直接执行，npm会根据package.json配置文件中的依赖配置下载安装。</p>
+<p>-global=-g，全局安装，安装后的包位于系统预设目录下<br>–save=-S，安装的包将写入package.json里面的dependencies，dependencies：生产环境需要依赖的库<br>–save-dev=-D，安装的包将写入packege.json里面的devDependencies，devdependencies：只有开发环境下需要依赖的库</p>
+<h2 id="查看安装信息"><a href="#查看安装信息" class="headerlink" title="查看安装信息"></a>查看安装信息</h2><p>使用以下命令来查看所有全局安装的模块：<br>$ npm list -g</p>
+<h2 id="卸载模块"><a href="#卸载模块" class="headerlink" title="卸载模块"></a>卸载模块</h2><p>可以使用以下命令来卸载 Node.js 模块。<br>$ npm uninstall hexo-cli</p>
+<h2 id="更新模块"><a href="#更新模块" class="headerlink" title="更新模块"></a>更新模块</h2><p>可以使用以下命令更新模块：<br>$ npm update hexo-cli</p>
+<h2 id="搜索模块"><a href="#搜索模块" class="headerlink" title="搜索模块"></a>搜索模块</h2><p>使用以下来搜索模块：<br>$ npm search hexo-cli</p>
+<h2 id="使用-package-json"><a href="#使用-package-json" class="headerlink" title="使用 package.json"></a>使用 package.json</h2><p>package.json 位于模块的目录下，用于定义包的属性。</p>
+]]></content>
+      <categories>
+        <category>node.js</category>
+      </categories>
+      <tags>
+        <tag>node.js</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>python的文件读取</title>
     <url>/2021/06/30/python%E7%9A%84%E6%96%87%E4%BB%B6%E8%AF%BB%E5%8F%96/</url>
     <content><![CDATA[<p>python的IP地址读取</p>
@@ -1275,37 +1311,6 @@
       </tags>
   </entry>
   <entry>
-    <title>npm从零开始</title>
-    <url>/2021/05/26/npm%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/</url>
-    <content><![CDATA[<p>npm从零开始</p>
-<span id="more"></span>
-<p>接触到的第一个npm命令</p>
-<p><code>npm install hexo-cli -g</code></p>
-<h2 id="查看node版本"><a href="#查看node版本" class="headerlink" title="查看node版本"></a>查看node版本</h2><p>node -v </p>
-<h2 id="查看npm版本"><a href="#查看npm版本" class="headerlink" title="查看npm版本"></a>查看npm版本</h2><p>npm -v  </p>
-<h2 id="什么是npm-为什么要使用npm"><a href="#什么是npm-为什么要使用npm" class="headerlink" title="什么是npm? 为什么要使用npm?"></a>什么是npm? 为什么要使用npm?</h2><p>NPM是随同NodeJS的包管理工具</p>
-<h2 id="什么是CNPM？"><a href="#什么是CNPM？" class="headerlink" title="什么是CNPM？"></a>什么是CNPM？</h2><p>CNPM全称为”China Node Package Manager”，即中国的包管理镜器。其原理是用一个完整npmjs.org镜像，同步频率目前为10分钟一次以保证尽量与官方服务同步。</p>
-<p>国内的NPM软件源有很多，其中阿里云的软件源就是一个不错的选择，本片笔记就是使用阿里的软件源。</p>
-<p>npm 的包安装分为本地安装（local）、全局安装（global）两种</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli      # 本地安装</span><br><span class="line">npm install hexo-cli -g   # 全局安装</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="npm-install说明-常用简写"><a href="#npm-install说明-常用简写" class="headerlink" title="npm install说明 常用简写"></a>npm install说明 常用简写</h2><p>npm install=npm i。在git clone项目的时候，项目文件中并没有 node_modules文件夹，项目的依赖文件可能很大。直接执行，npm会根据package.json配置文件中的依赖配置下载安装。</p>
-<p>-global=-g，全局安装，安装后的包位于系统预设目录下<br>–save=-S，安装的包将写入package.json里面的dependencies，dependencies：生产环境需要依赖的库<br>–save-dev=-D，安装的包将写入packege.json里面的devDependencies，devdependencies：只有开发环境下需要依赖的库</p>
-<h2 id="查看安装信息"><a href="#查看安装信息" class="headerlink" title="查看安装信息"></a>查看安装信息</h2><p>使用以下命令来查看所有全局安装的模块：<br>$ npm list -g</p>
-<h2 id="卸载模块"><a href="#卸载模块" class="headerlink" title="卸载模块"></a>卸载模块</h2><p>可以使用以下命令来卸载 Node.js 模块。<br>$ npm uninstall hexo-cli</p>
-<h2 id="更新模块"><a href="#更新模块" class="headerlink" title="更新模块"></a>更新模块</h2><p>可以使用以下命令更新模块：<br>$ npm update hexo-cli</p>
-<h2 id="搜索模块"><a href="#搜索模块" class="headerlink" title="搜索模块"></a>搜索模块</h2><p>使用以下来搜索模块：<br>$ npm search hexo-cli</p>
-<h2 id="使用-package-json"><a href="#使用-package-json" class="headerlink" title="使用 package.json"></a>使用 package.json</h2><p>package.json 位于模块的目录下，用于定义包的属性。</p>
-]]></content>
-      <categories>
-        <category>node.js</category>
-      </categories>
-      <tags>
-        <tag>node.js</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Python的subprocess</title>
     <url>/2021/06/11/python%E7%9A%84subprocess/</url>
     <content><![CDATA[<p>subprocess最早在2.4版本引入,用来生成子进程，并可以通过管道连接他们的输入/输出/错误，以及获得他们的返回值。</p>
@@ -1334,31 +1339,6 @@
       </tags>
   </entry>
   <entry>
-    <title>思科HSRP的选举机制</title>
-    <url>/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/</url>
-    <content><![CDATA[<p>思科HSRP的选举机制<br>听其言 (listening) 观其行 (是否是有hello包) 没有就开始自己来 (speaking)</p>
-<span id="more"></span>
-
-<h2 id="HSRP状态"><a href="#HSRP状态" class="headerlink" title="HSRP状态"></a>HSRP状态</h2><p><img src="/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/hsrp.jpg" alt="hsrp状态转换"></p>
-<h2 id="HSRP选举的机制"><a href="#HSRP选举的机制" class="headerlink" title="HSRP选举的机制"></a>HSRP选举的机制</h2><ul>
-<li>2台路由器，前后开机 如何选举？</li>
-<li>1台路由器开机，后面有1台路由器启动加入,如何选举？</li>
-</ul>
-<h2 id="HSRP的切换时间"><a href="#HSRP的切换时间" class="headerlink" title="HSRP的切换时间"></a>HSRP的切换时间</h2><h3 id="主路由器down掉，多久可以切换到备份路由器？"><a href="#主路由器down掉，多久可以切换到备份路由器？" class="headerlink" title="主路由器down掉，多久可以切换到备份路由器？"></a>主路由器down掉，多久可以切换到备份路由器？</h3><p><code>10s</code></p>
-<h3 id="主路由器Up后，多久可以再次切换成active"><a href="#主路由器Up后，多久可以再次切换成active" class="headerlink" title="主路由器Up后，多久可以再次切换成active?"></a>主路由器Up后，多久可以再次切换成active?</h3><p><code>取决于preempt时间</code></p>
-<h2 id="HSRP抢占延迟"><a href="#HSRP抢占延迟" class="headerlink" title="HSRP抢占延迟"></a>HSRP抢占延迟</h2><p>当新Active的路由器需要一点时间来启动慢速 WAN 接口并生成路由表时，这有时会很有帮助。<br>但是，默认情况下，HSRP 抢占将使路由器在启动 LAN 接口的几秒钟内成为 LAN 的Active默认网关。</p>
-<h3 id="配置命令"><a href="#配置命令" class="headerlink" title="配置命令"></a>配置命令</h3><p><code>standby 20 preempt delay minimum 30 reload 90</code></p>
-<h3 id="查看命令"><a href="#查看命令" class="headerlink" title="查看命令"></a>查看命令</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C4431-01#sh standby delay </span><br><span class="line">Interface          Minimum Reload </span><br><span class="line">Gi0/0/0            1       5      </span><br><span class="line">Gi0/0/1            1       5      </span><br><span class="line">Gi0/0/2            1       5     </span><br></pre></td></tr></table></figure>
-
-
-<h2 id="HSRP计时器"><a href="#HSRP计时器" class="headerlink" title="HSRP计时器"></a>HSRP计时器</h2><p>Active Router用Hello计时器 3s<br>Standby Router用 Standby timer计时器  10s</p>
-]]></content>
-      <categories>
-        <category>Network</category>
-        <category>Switch</category>
-      </categories>
-  </entry>
-  <entry>
     <title>python网络ping</title>
     <url>/2021/06/10/python%E7%BD%91%E7%BB%9Cping/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -1379,38 +1359,6 @@
       </categories>
       <tags>
         <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>思科wireless连接的交互过程</title>
-    <url>/2021/06/09/%E6%80%9D%E7%A7%91wireless%E8%BF%9E%E6%8E%A5%E7%9A%84%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/</url>
-    <content><![CDATA[<p>思科wireless连接的交互过程 以及四次握手交互过程</p>
-<span id="more"></span>
-
-
-<h2 id="802-11常见的几种认证方式：‍‍"><a href="#802-11常见的几种认证方式：‍‍" class="headerlink" title="802.11常见的几种认证方式：‍‍"></a>802.11常见的几种认证方式：‍‍</h2><p>‍‍1、不启用安全‍‍<br>‍‍2、WEP‍‍<br>‍‍3、WPA/WPA2-PSK（预共享密钥）‍‍<br>‍‍4、WPA/WPA2 802.1X （radius认证）</p>
-<p><img src="/2021/06/09/%E6%80%9D%E7%A7%91wireless%E8%BF%9E%E6%8E%A5%E7%9A%84%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/wifi-whole-process.png" alt="wifi-whole-proces"></p>
-<p>‍</p>
-<h2 id="WPA-WPA2-PSK的认证过程"><a href="#WPA-WPA2-PSK的认证过程" class="headerlink" title="WPA/WPA2-PSK的认证过程"></a>WPA/WPA2-PSK的认证过程</h2><p>1、无线AP定期发送beacon数据包，使无线终端更新自己的无线网络列表。<br>‍‍2、无线终端在每个信道（1-13）广播ProbeRequest（非隐藏类型的WiFi含ESSID，隐藏类型的WiFi不含ESSID）。‍‍  ‍‍<br>3、每个信道的AP回应，ProbeResponse，包含ESSID，及RSN信息。‍‍<br>‍‍4、无线终端给目标AP发送AUTH包。AUTH认证类型有两种，0为开放式、1为共享式（WPA/WPA2必须是开放式）。‍‍<br>‍‍5、AP回应网卡AUTH包。‍‍<br>‍‍6、无线终端给AP发送关联请求包associationrequest数据包。‍‍<br>‍‍7、AP给无线终端发送关联响应包associationresponse数据包。‍‍<br>‍‍8、EAPOL四次握手进行认证（握手包是破解的关键）。‍‍<br>‍‍9、完成认证可以上网。</p>
-<h2 id="四次握手相关的术语"><a href="#四次握手相关的术语" class="headerlink" title="四次握手相关的术语"></a>四次握手相关的术语</h2><h3 id="PMK-Pairwise-Master-Key"><a href="#PMK-Pairwise-Master-Key" class="headerlink" title="PMK (Pairwise Master Key)"></a>PMK (Pairwise Master Key)</h3><p>PMK 是由 MSK 生成，WPA2/PSK 的情况下，当 supplicant 和 authenticator 身份验证后，PSK 变成 PMK。PMK 会驻留在 AP 和所有 Station，不需要进行 key 交换，用它来生成用于加密单播数据的PTK。</p>
-<h3 id="GMK-Group-Master-Key"><a href="#GMK-Group-Master-Key" class="headerlink" title="GMK (Group Master Key)"></a>GMK (Group Master Key)</h3><p>GMK 用在四次握手来生成 GTK,通常是认证者生成的一组随机数。</p>
-<h3 id="PTK-Pairwise-Transit-Key"><a href="#PTK-Pairwise-Transit-Key" class="headerlink" title="PTK (Pairwise Transit Key)"></a>PTK (Pairwise Transit Key)</h3><p>PTK 用来加密 AP 和 Station 通讯的单播数据包，AP 与每个 Station 通讯用的 PTK 都是唯一的。<br>生成 PTK 需要的信息：<br><code>PTK = PRF(PMK + ANonce + SNonce + Mac(AA) + Mac(SA))</code></p>
-<h3 id="GTK-Group-Temporal-Key"><a href="#GTK-Group-Temporal-Key" class="headerlink" title="GTK (Group Temporal Key)"></a>GTK (Group Temporal Key)</h3><p>GTK 用来加密 AP 和 Station 通讯的多播/广播数据包，连接该 AP 的所有 Station 共享一个 GTK。<br>生成 GTK 需要的信息：<br><code>GTK = PRF(GMK + ANonce + Mac(AA))</code></p>
-<h2 id="四次握手交互过程"><a href="#四次握手交互过程" class="headerlink" title="四次握手交互过程"></a>四次握手交互过程</h2><p><img src="/2021/06/09/%E6%80%9D%E7%A7%91wireless%E8%BF%9E%E6%8E%A5%E7%9A%84%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/4-WAY-handshake.png" alt="四次握手"></p>
-<h3 id="4-Way-Handshake-Message-1"><a href="#4-Way-Handshake-Message-1" class="headerlink" title="4-Way Handshake Message 1"></a>4-Way Handshake Message 1</h3><p>首先 Authenticator 向 Supplicant 发送一个携带 ANonce 的 EAPOL-Key frame，</p>
-<h3 id="4-Way-Handshake-Message-2"><a href="#4-Way-Handshake-Message-2" class="headerlink" title="4-Way Handshake Message 2"></a>4-Way Handshake Message 2</h3><p>一旦 Station 创建了自己的 PTK，它会立即响应一条 EAPOL 消息给 AP，包含了 SNonce 和 MIC。AP 用 SNonce 生成自己的 PTK，MIC 是用来校验 Station 发来的消息的完整性，除了 1/4， 从 2/4 报文开始，后面的每个报文都会有 MIC。 AP 收到 SNonce 之后，生成的 PTK 就可以用来加密后面两次握手的 key 了。</p>
-<h3 id="4-Way-Handshake-Message-3"><a href="#4-Way-Handshake-Message-3" class="headerlink" title="4-Way Handshake Message 3"></a>4-Way Handshake Message 3</h3><p>这次握手主要是把 GTK 发送给 Station，并且告知 Station 安装 PTK 和 GTK。由于第二次握手生成了 PTK，可以用来加密数据了，所以这里对 GTK 进行了加密。</p>
-<h3 id="4-Way-Handshake-Message-4"><a href="#4-Way-Handshake-Message-4" class="headerlink" title="4-Way Handshake Message 4"></a>4-Way Handshake Message 4</h3><p>第四次是最后一条 EAPOL 消息，相当于一个确认包，告诉 AP PTK 已经安装好，AP 收到该消息后，也安装 PTK。安装的意思是指使用 PTK 和 GTK 来对数据进行加密。</p>
-<h3 id="Key生成过程"><a href="#Key生成过程" class="headerlink" title="Key生成过程"></a>Key生成过程</h3><p><img src="/2021/06/09/%E6%80%9D%E7%A7%91wireless%E8%BF%9E%E6%8E%A5%E7%9A%84%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/key-generate-process.png" alt="key-generate-process"></p>
-<h3 id="思科官方提供的查看debug交互过程的在线分析工具"><a href="#思科官方提供的查看debug交互过程的在线分析工具" class="headerlink" title="思科官方提供的查看debug交互过程的在线分析工具"></a>思科官方提供的查看debug交互过程的在线分析工具</h3><p><a href="https://cway.cisco.com/tools/WirelessDebugAnalyzer/">https://cway.cisco.com/tools/WirelessDebugAnalyzer/</a></p>
-<h3 id="思科官方提供的syslog在线分析工具"><a href="#思科官方提供的syslog在线分析工具" class="headerlink" title="思科官方提供的syslog在线分析工具"></a>思科官方提供的syslog在线分析工具</h3><p><a href="https://cway.cisco.com/wireless-config-analyzer">https://cway.cisco.com/wireless-config-analyzer</a></p>
-]]></content>
-      <categories>
-        <category>Network</category>
-        <category>Wireless</category>
-      </categories>
-      <tags>
-        <tag>Wireless</tag>
       </tags>
   </entry>
   <entry>
@@ -1448,6 +1396,31 @@
       </tags>
   </entry>
   <entry>
+    <title>思科HSRP的选举机制</title>
+    <url>/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/</url>
+    <content><![CDATA[<p>思科HSRP的选举机制<br>听其言 (listening) 观其行 (是否是有hello包) 没有就开始自己来 (speaking)</p>
+<span id="more"></span>
+
+<h2 id="HSRP状态"><a href="#HSRP状态" class="headerlink" title="HSRP状态"></a>HSRP状态</h2><p><img src="/2021/06/03/%E6%80%9D%E7%A7%91HSRP%E7%9A%84%E9%80%89%E4%B8%BE%E6%9C%BA%E5%88%B6/hsrp.jpg" alt="hsrp状态转换"></p>
+<h2 id="HSRP选举的机制"><a href="#HSRP选举的机制" class="headerlink" title="HSRP选举的机制"></a>HSRP选举的机制</h2><ul>
+<li>2台路由器，前后开机 如何选举？</li>
+<li>1台路由器开机，后面有1台路由器启动加入,如何选举？</li>
+</ul>
+<h2 id="HSRP的切换时间"><a href="#HSRP的切换时间" class="headerlink" title="HSRP的切换时间"></a>HSRP的切换时间</h2><h3 id="主路由器down掉，多久可以切换到备份路由器？"><a href="#主路由器down掉，多久可以切换到备份路由器？" class="headerlink" title="主路由器down掉，多久可以切换到备份路由器？"></a>主路由器down掉，多久可以切换到备份路由器？</h3><p><code>10s</code></p>
+<h3 id="主路由器Up后，多久可以再次切换成active"><a href="#主路由器Up后，多久可以再次切换成active" class="headerlink" title="主路由器Up后，多久可以再次切换成active?"></a>主路由器Up后，多久可以再次切换成active?</h3><p><code>取决于preempt时间</code></p>
+<h2 id="HSRP抢占延迟"><a href="#HSRP抢占延迟" class="headerlink" title="HSRP抢占延迟"></a>HSRP抢占延迟</h2><p>当新Active的路由器需要一点时间来启动慢速 WAN 接口并生成路由表时，这有时会很有帮助。<br>但是，默认情况下，HSRP 抢占将使路由器在启动 LAN 接口的几秒钟内成为 LAN 的Active默认网关。</p>
+<h3 id="配置命令"><a href="#配置命令" class="headerlink" title="配置命令"></a>配置命令</h3><p><code>standby 20 preempt delay minimum 30 reload 90</code></p>
+<h3 id="查看命令"><a href="#查看命令" class="headerlink" title="查看命令"></a>查看命令</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C4431-01#sh standby delay </span><br><span class="line">Interface          Minimum Reload </span><br><span class="line">Gi0/0/0            1       5      </span><br><span class="line">Gi0/0/1            1       5      </span><br><span class="line">Gi0/0/2            1       5     </span><br></pre></td></tr></table></figure>
+
+
+<h2 id="HSRP计时器"><a href="#HSRP计时器" class="headerlink" title="HSRP计时器"></a>HSRP计时器</h2><p>Active Router用Hello计时器 3s<br>Standby Router用 Standby timer计时器  10s</p>
+]]></content>
+      <categories>
+        <category>Network</category>
+        <category>Switch</category>
+      </categories>
+  </entry>
+  <entry>
     <title>思科交换机stack和VSS</title>
     <url>/2021/06/01/%E6%80%9D%E7%A7%91%E4%BA%A4%E6%8D%A2%E6%9C%BAstack%E5%92%8CVSS/</url>
     <content><![CDATA[<p>思科交换机stack和VSS</p>
@@ -1483,6 +1456,38 @@
 <p>Calling-Station-ID: Contains the MAC address of the wireless device. Example: “AA-BB-CC-DD-EE-FF”.</p>
 <h2 id="无线证书验证文档"><a href="#无线证书验证文档" class="headerlink" title="无线证书验证文档"></a>无线证书验证文档</h2><p><a href="https://www.cisco.com/c/en/us/support/docs/wireless-mobility/wireless-lan-wlan/213543-configure-eap-tls-flow-with-ise.html">https://www.cisco.com/c/en/us/support/docs/wireless-mobility/wireless-lan-wlan/213543-configure-eap-tls-flow-with-ise.html</a><br><a href="https://www.cisco.com/c/en/us/support/docs/security/identity-services-engine/214975-configure-eap-tls-authentication-with-is.html">https://www.cisco.com/c/en/us/support/docs/security/identity-services-engine/214975-configure-eap-tls-authentication-with-is.html</a>
  </p>
+]]></content>
+      <categories>
+        <category>Network</category>
+        <category>Wireless</category>
+      </categories>
+      <tags>
+        <tag>Wireless</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>思科wireless连接的交互过程</title>
+    <url>/2021/06/09/%E6%80%9D%E7%A7%91wireless%E8%BF%9E%E6%8E%A5%E7%9A%84%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/</url>
+    <content><![CDATA[<p>思科wireless连接的交互过程 以及四次握手交互过程</p>
+<span id="more"></span>
+
+
+<h2 id="802-11常见的几种认证方式：‍‍"><a href="#802-11常见的几种认证方式：‍‍" class="headerlink" title="802.11常见的几种认证方式：‍‍"></a>802.11常见的几种认证方式：‍‍</h2><p>‍‍1、不启用安全‍‍<br>‍‍2、WEP‍‍<br>‍‍3、WPA/WPA2-PSK（预共享密钥）‍‍<br>‍‍4、WPA/WPA2 802.1X （radius认证）</p>
+<p><img src="/2021/06/09/%E6%80%9D%E7%A7%91wireless%E8%BF%9E%E6%8E%A5%E7%9A%84%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/wifi-whole-process.png" alt="wifi-whole-proces"></p>
+<p>‍</p>
+<h2 id="WPA-WPA2-PSK的认证过程"><a href="#WPA-WPA2-PSK的认证过程" class="headerlink" title="WPA/WPA2-PSK的认证过程"></a>WPA/WPA2-PSK的认证过程</h2><p>1、无线AP定期发送beacon数据包，使无线终端更新自己的无线网络列表。<br>‍‍2、无线终端在每个信道（1-13）广播ProbeRequest（非隐藏类型的WiFi含ESSID，隐藏类型的WiFi不含ESSID）。‍‍  ‍‍<br>3、每个信道的AP回应，ProbeResponse，包含ESSID，及RSN信息。‍‍<br>‍‍4、无线终端给目标AP发送AUTH包。AUTH认证类型有两种，0为开放式、1为共享式（WPA/WPA2必须是开放式）。‍‍<br>‍‍5、AP回应网卡AUTH包。‍‍<br>‍‍6、无线终端给AP发送关联请求包associationrequest数据包。‍‍<br>‍‍7、AP给无线终端发送关联响应包associationresponse数据包。‍‍<br>‍‍8、EAPOL四次握手进行认证（握手包是破解的关键）。‍‍<br>‍‍9、完成认证可以上网。</p>
+<h2 id="四次握手相关的术语"><a href="#四次握手相关的术语" class="headerlink" title="四次握手相关的术语"></a>四次握手相关的术语</h2><h3 id="PMK-Pairwise-Master-Key"><a href="#PMK-Pairwise-Master-Key" class="headerlink" title="PMK (Pairwise Master Key)"></a>PMK (Pairwise Master Key)</h3><p>PMK 是由 MSK 生成，WPA2/PSK 的情况下，当 supplicant 和 authenticator 身份验证后，PSK 变成 PMK。PMK 会驻留在 AP 和所有 Station，不需要进行 key 交换，用它来生成用于加密单播数据的PTK。</p>
+<h3 id="GMK-Group-Master-Key"><a href="#GMK-Group-Master-Key" class="headerlink" title="GMK (Group Master Key)"></a>GMK (Group Master Key)</h3><p>GMK 用在四次握手来生成 GTK,通常是认证者生成的一组随机数。</p>
+<h3 id="PTK-Pairwise-Transit-Key"><a href="#PTK-Pairwise-Transit-Key" class="headerlink" title="PTK (Pairwise Transit Key)"></a>PTK (Pairwise Transit Key)</h3><p>PTK 用来加密 AP 和 Station 通讯的单播数据包，AP 与每个 Station 通讯用的 PTK 都是唯一的。<br>生成 PTK 需要的信息：<br><code>PTK = PRF(PMK + ANonce + SNonce + Mac(AA) + Mac(SA))</code></p>
+<h3 id="GTK-Group-Temporal-Key"><a href="#GTK-Group-Temporal-Key" class="headerlink" title="GTK (Group Temporal Key)"></a>GTK (Group Temporal Key)</h3><p>GTK 用来加密 AP 和 Station 通讯的多播/广播数据包，连接该 AP 的所有 Station 共享一个 GTK。<br>生成 GTK 需要的信息：<br><code>GTK = PRF(GMK + ANonce + Mac(AA))</code></p>
+<h2 id="四次握手交互过程"><a href="#四次握手交互过程" class="headerlink" title="四次握手交互过程"></a>四次握手交互过程</h2><p><img src="/2021/06/09/%E6%80%9D%E7%A7%91wireless%E8%BF%9E%E6%8E%A5%E7%9A%84%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/4-WAY-handshake.png" alt="四次握手"></p>
+<h3 id="4-Way-Handshake-Message-1"><a href="#4-Way-Handshake-Message-1" class="headerlink" title="4-Way Handshake Message 1"></a>4-Way Handshake Message 1</h3><p>首先 Authenticator 向 Supplicant 发送一个携带 ANonce 的 EAPOL-Key frame，</p>
+<h3 id="4-Way-Handshake-Message-2"><a href="#4-Way-Handshake-Message-2" class="headerlink" title="4-Way Handshake Message 2"></a>4-Way Handshake Message 2</h3><p>一旦 Station 创建了自己的 PTK，它会立即响应一条 EAPOL 消息给 AP，包含了 SNonce 和 MIC。AP 用 SNonce 生成自己的 PTK，MIC 是用来校验 Station 发来的消息的完整性，除了 1/4， 从 2/4 报文开始，后面的每个报文都会有 MIC。 AP 收到 SNonce 之后，生成的 PTK 就可以用来加密后面两次握手的 key 了。</p>
+<h3 id="4-Way-Handshake-Message-3"><a href="#4-Way-Handshake-Message-3" class="headerlink" title="4-Way Handshake Message 3"></a>4-Way Handshake Message 3</h3><p>这次握手主要是把 GTK 发送给 Station，并且告知 Station 安装 PTK 和 GTK。由于第二次握手生成了 PTK，可以用来加密数据了，所以这里对 GTK 进行了加密。</p>
+<h3 id="4-Way-Handshake-Message-4"><a href="#4-Way-Handshake-Message-4" class="headerlink" title="4-Way Handshake Message 4"></a>4-Way Handshake Message 4</h3><p>第四次是最后一条 EAPOL 消息，相当于一个确认包，告诉 AP PTK 已经安装好，AP 收到该消息后，也安装 PTK。安装的意思是指使用 PTK 和 GTK 来对数据进行加密。</p>
+<h3 id="Key生成过程"><a href="#Key生成过程" class="headerlink" title="Key生成过程"></a>Key生成过程</h3><p><img src="/2021/06/09/%E6%80%9D%E7%A7%91wireless%E8%BF%9E%E6%8E%A5%E7%9A%84%E4%BA%A4%E4%BA%92%E8%BF%87%E7%A8%8B/key-generate-process.png" alt="key-generate-process"></p>
+<h3 id="思科官方提供的查看debug交互过程的在线分析工具"><a href="#思科官方提供的查看debug交互过程的在线分析工具" class="headerlink" title="思科官方提供的查看debug交互过程的在线分析工具"></a>思科官方提供的查看debug交互过程的在线分析工具</h3><p><a href="https://cway.cisco.com/tools/WirelessDebugAnalyzer/">https://cway.cisco.com/tools/WirelessDebugAnalyzer/</a></p>
+<h3 id="思科官方提供的syslog在线分析工具"><a href="#思科官方提供的syslog在线分析工具" class="headerlink" title="思科官方提供的syslog在线分析工具"></a>思科官方提供的syslog在线分析工具</h3><p><a href="https://cway.cisco.com/wireless-config-analyzer">https://cway.cisco.com/wireless-config-analyzer</a></p>
 ]]></content>
       <categories>
         <category>Network</category>
